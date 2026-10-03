@@ -27,10 +27,8 @@ body{background:var(--chao)}
 .hero-arte{order:1}
 .hero-titulo{font-size:clamp(44px,5vw,70px)}
 @media (max-width:779px){.hero-grade{padding:28px 20px 150px}.hero-titulo{font-size:38px}}
-.rio-conteudo{max-width:1200px;margin:0 auto;padding:40px 24px 8px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:24px 56px;align-items:end}
-.rio-conteudo>div{min-width:0}
-.rio-cena{height:auto;min-height:520px}
-@media (max-width:779px){.rio-cena{height:min(360px,80vw);min-height:0}}
+.rio-cena{height:520px}
+@media (max-width:779px){.rio-cena{height:360px}}
 .rio-sol,.rio-lua{transform-box:view-box;transition:transform 1.6s cubic-bezier(.2,.7,.2,1),opacity 1.3s ease}
 .rio-lua{opacity:0;transform:translateY(150px)}
 [data-theme="dark"] .rio-sol{opacity:0;transform:translateY(150px)}
