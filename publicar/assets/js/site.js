@@ -21,7 +21,7 @@ fab.classList.toggle('oculto',!rolou||noContato);}
 window.addEventListener('scroll',atualizarFab,{passive:true});
 window.addEventListener('resize',function(){atualizarFab();if(!mq.matches)menu(false);});
 atualizarFab();
-if(reduzir){var svgs=document.querySelectorAll('svg');for(var k=0;k<svgs.length;k++){if(svgs[k].pauseAnimations)svgs[k].pauseAnimations();}return;}
+if(reduzir){var svgs=document.querySelectorAll('svg:not(.rio-cena)');for(var k=0;k<svgs.length;k++){if(svgs[k].pauseAnimations)svgs[k].pauseAnimations();}return;}
 var nums=document.querySelectorAll('[data-contador]'),pinceis=document.querySelectorAll('.pincel-numero'),secao=document.getElementById('numeros');
 function fmt(n){return Math.round(n).toLocaleString('pt-BR');}
 function desenhar(p){for(var a=0;a<nums.length;a++){var el=nums[a];el.textContent=el.getAttribute('data-prefixo')+fmt(parseFloat(el.getAttribute('data-contador'))*p);}
