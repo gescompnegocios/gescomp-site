@@ -22,27 +22,42 @@ Seguir @gescomp_ no Instagram (abre em nova aba)
 ## Resultados construídos lado a lado com cada cliente.
 12 12 anos de experiência em contabilidade +200 +200 empresas e clientes atendidos +50 +50 empresas com contrato ativo hoje 5 5 estados atendidos, com mais de 30 cidades: SE, MA, RJ, SP e MG
 
+## O que dizem nossos clientes
+(Seção que só aparece quando houver avaliações autorizadas. Mostra as estrelas, o texto e o primeiro nome com a inicial, por exemplo "Maria S.". Botões: "Avaliar a GESCOMP no Google" e "Ver todas as avaliações no Google".)
+
 ## Tudo o que a sua empresa precisa, em um só lugar.
-Da abertura do CNPJ ao fechamento do balanço, a GESCOMP organiza a rotina contábil para você decidir com segurança.
-Pedir um orçamento [Foto de atendimento a cliente]
+Da abertura do CNPJ ao fechamento do balanço, a GESCOMP organiza a rotina contábil para você decidir com segurança. Escolha o assunto e fale direto com a contadora pelo WhatsApp.
+[Foto de atendimento a cliente]
 
-### Abertura, regularização e baixa de CNPJ
-Abrimos sua empresa, colocamos a documentação em dia e, quando preciso, encerramos o CNPJ do jeito certo.
+Cada card tem o botão "Falar no WhatsApp", que abre o WhatsApp com a mensagem indicada.
 
-### Contabilidade para o seu CNPJ
-Contas, impostos e relatórios da sua empresa em dia, todo mês. A partir de R$ 150,00.
+### Abrir meu CNPJ
+Abertura, regularização e baixa de CNPJ: abrimos sua empresa, colocamos a documentação em dia e, quando preciso, encerramos do jeito certo.
+Mensagem: "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
 
-### Imposto de Renda (IRPF)
-Declaração de Imposto de Renda de pessoa física, feita com cuidado e no prazo. A partir de R$ 100,00.
+### Contabilidade para a minha empresa
+Contas, impostos e relatórios da sua empresa em dia, todo mês, com a contadora acompanhando de perto.
+A partir de R$ 150,00
+Mensagem: "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+
+### Imposto de Renda
+Declaração de Imposto de Renda de pessoa física, feita com cuidado e no prazo.
+A partir de R$ 100,00
+Mensagem: "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
 
 ### Cálculos trabalhistas
-Rescisão, férias, 13º salário e outras verbas trabalhistas calculadas corretamente. A partir de R$ 100,00.
+Rescisão, férias, 13º salário e outras verbas trabalhistas calculadas corretamente.
+A partir de R$ 100,00
+Mensagem: "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista. Pode me ajudar?"
 
-### Consultoria administrativa e financeira
-Controle de custos e despesas e orientação para decidir com mais segurança sobre o dinheiro da empresa. Valor a consultar.
+### Qual o melhor regime de impostos?
+Consultoria para escolher o regime que faz sua empresa pagar menos, dentro da lei, e organizar custos e despesas.
+Valor a consultar
+Mensagem: "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
 
-### MEI e regime de impostos
-Ajudamos a escolher o regime que faz você pagar menos e o melhor momento para deixar de ser MEI.
+### Sou MEI. É hora de mudar?
+Vemos se você já passou do limite ou se vale a pena virar microempresa, e planejamos a mudança sem pagar imposto a mais.
+Mensagem: "Olá, Gabriela! Vim pelo site. Sou MEI e quero saber se já é hora de deixar de ser MEI."
 
 ### Reforma tributária: o que muda para a sua empresa?
 Explicamos em palavras simples o que já mudou em 2026 e o que vem pela frente, além de outras informações úteis para o seu negócio.

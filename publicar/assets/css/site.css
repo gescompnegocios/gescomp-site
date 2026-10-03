@@ -25,7 +25,7 @@ body{background:var(--chao)}
 [data-theme="dark"] .icone-lua{display:none}
 .hero-grade{padding:72px 32px 190px}
 .hero-arte{order:1}
-.hero-titulo{font-size:clamp(44px,5vw,70px)}
+.hero-titulo{font-size:clamp(40px,4.6vw,64px)}
 @media (max-width:779px){.hero-grade{padding:28px 20px 150px}.hero-titulo{font-size:38px}}
 /* Manter o enquadramento atual; em telas largas, limitar o corte ao céu vazio (24 unidades do SVG). */
 .rio-cena{height:auto;min-height:520px;aspect-ratio:1440/536}
@@ -61,15 +61,79 @@ body{background:var(--chao)}
 :root{--vlibras-btn-focus-visible-outline:3px solid #E8952F;--vlibras-btn-focus-visible-shadow:0 0 0 6px #003F4A}
 /* Carrossel do Instagram */
 .ig-trilha:focus-visible{outline:3px solid #E8952F;outline-offset:3px;box-shadow:0 0 0 3px #003F4A;border-radius:12px}
-.ig-midia{position:relative;aspect-ratio:9/16;border-radius:26px 32px 24px 30px;overflow:hidden;background:#FFFFFF}
+.ig-midia{position:relative;aspect-ratio:9/16;border-radius:18px;overflow:hidden;background:#FFFFFF;border:1px solid var(--linha);box-shadow:var(--sombraCartao)}
 .ig-midia.pronto{aspect-ratio:auto}
 .ig-midia.video{background:#003F4A}
 .ig-midia video{display:block;width:100%;height:100%;object-fit:contain;background:#003F4A}
 .ig-midia blockquote.instagram-media,.ig-midia iframe.instagram-media{min-width:0!important;max-width:100%!important;width:100%!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important}
 .ig-capa{position:absolute!important;left:0;top:0;width:100%;z-index:1;pointer-events:none}
 .ig-capa.livre{pointer-events:auto}
-.ig-seta{position:absolute;top:50%;z-index:2;width:52px;height:52px;margin-top:-26px;padding:0;border:0;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center}
-.ig-seta[hidden]{display:none}
-.ig-seta-anterior{left:-14px}
-.ig-seta-proximo{right:-14px}
-@media (max-width:779px){.ig-seta{width:44px;height:44px;margin-top:-22px}.ig-seta-anterior{left:6px}.ig-seta-proximo{right:6px}}
+/* Setas dos carrosséis (vídeos e avaliações): círculos limpos no meio das laterais */
+.carrossel-seta{position:absolute;top:50%;z-index:2;width:52px;height:52px;margin-top:-26px;padding:0;border:0;border-radius:50%;background:#0B5963;box-shadow:0 4px 14px rgba(0,63,74,.25);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background-color .2s ease}
+.carrossel-seta:hover{background:#003F4A}
+[data-theme="dark"] .carrossel-seta{background:#1E727D}
+[data-theme="dark"] .carrossel-seta:hover{background:#0B5963}
+.carrossel-seta[hidden]{display:none}
+.carrossel-seta-anterior{left:-14px}
+.carrossel-seta-proximo{right:-14px}
+@media (max-width:779px){.carrossel-seta{width:44px;height:44px;margin-top:-22px}.carrossel-seta-anterior{left:6px}.carrossel-seta-proximo{right:6px}}
+.carrossel-trilha{position:relative;display:flex;align-items:flex-start;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:8px 4px 14px}
+.carrossel-trilha::-webkit-scrollbar{display:none}
+.carrossel-trilha:focus-visible{outline:3px solid #E8952F;outline-offset:3px;box-shadow:0 0 0 3px #003F4A;border-radius:12px}
+
+/* Visual sóbrio: componentes limpos (nível 2 na página inicial, nível 3 nas Informações) */
+:root{--cartao:#FFFFFF;--sombraCartao:0 1px 2px rgba(0,63,74,.06),0 10px 28px rgba(0,63,74,.08);--bordaCampo:#5E9599}
+[data-theme="dark"]{--cartao:#123F46;--sombraCartao:0 1px 2px rgba(0,0,0,.22),0 10px 28px rgba(0,0,0,.3);--bordaCampo:#5FA3A8}
+.btn{border-radius:12px;transition:background-color .2s ease,border-color .2s ease;cursor:pointer}
+.btn-primario{background:#E8952F}
+.btn-primario:hover{background:#F2A447;color:#003F4A}
+.btn-escuro{background:#0B5963}
+.btn-escuro:hover{background:#003F4A;color:#FFFFFF}
+[data-theme="dark"] .btn-escuro{background:#1E727D}
+[data-theme="dark"] .btn-escuro:hover{background:#0B5963}
+.btn-contorno{background:transparent;border:2px solid #0B5963}
+.btn-contorno:hover{background:rgba(11,89,99,.08)}
+[data-theme="dark"] .btn-contorno{border-color:#5FA3A8}
+[data-theme="dark"] .btn-contorno:hover{background:rgba(95,163,168,.14)}
+.btn-contorno-claro{background:transparent;border:2px solid #8FC1C3}
+.btn-contorno-claro:hover{background:rgba(255,255,255,.1);color:#FFFFFF}
+.btn-bloco{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 24px;box-sizing:border-box;text-decoration:none;font-weight:700;font-size:16px;line-height:1.3}
+.btn-bloco[hidden]{display:none}
+.btn-bloco.btn-primario{color:#003F4A}
+.btn-bloco.btn-contorno{color:var(--titulo)}
+.etiqueta{border-radius:10px}
+.etiqueta-contorno{border:1.5px solid #5FA3A8}
+.icone-solido{border-radius:14px}
+.cartao{border:1px solid var(--linha);border-radius:18px;box-shadow:var(--sombraCartao)}
+.cartao-destaque{border:1.5px solid #E8952F}
+.cartao-form{background:var(--papel);border-radius:20px}
+.campo{background:var(--campo);border:1.5px solid var(--bordaCampo);border-radius:10px}
+.campo:focus-within{border-color:#0B5963}
+[data-theme="dark"] .campo:focus-within{border-color:#9CD0CF}
+.divisor-secao{height:36px}
+.faq-icone circle{transition:fill .2s ease}
+
+/* Serviços: cards de chamada com WhatsApp */
+.servicos-grade{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+@media (max-width:1023px){.servicos-grade{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:639px){.servicos-grade{grid-template-columns:1fr}}
+.servico-card{display:flex;flex-direction:column;gap:12px;padding:26px 24px 24px;background:var(--cartao);border:1px solid var(--linha);border-radius:18px;box-shadow:var(--sombraCartao)}
+.servico-icone{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.servico-titulo{margin:4px 0 0;font-family:'Bricolage Grotesque',Georgia,serif;font-size:21px;font-weight:700;line-height:1.25;color:var(--titulo)}
+.servico-texto{margin:0;font-size:16px;line-height:1.6;color:var(--texto2)}
+.servico-preco{align-self:flex-start;margin:2px 0 0;padding:5px 12px;border-radius:999px;background:#FCEBD5;color:#6B3A06;font-size:14.5px;font-weight:700}
+[data-theme="dark"] .servico-preco{background:#0A2B31;color:#F2B45A;box-shadow:inset 0 0 0 1px rgba(242,180,90,.45)}
+.servico-acao{margin-top:auto;padding-top:8px}
+.btn-whatsapp{display:flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:12px 18px;box-sizing:border-box;text-decoration:none;font-weight:700;font-size:16px;color:#003F4A;background:#E8952F;border-radius:12px;transition:background-color .2s ease}
+.btn-whatsapp:hover{background:#F2A447;color:#003F4A}
+.btn-whatsapp img{width:22px;height:22px;display:block;filter:brightness(0);opacity:.85}
+
+/* Avaliações de clientes */
+.avaliacao-card{flex:0 0 auto;width:min(360px,82vw);scroll-snap-align:start;box-sizing:border-box;display:flex;flex-direction:column;gap:14px;padding:26px 24px;background:var(--cartao);border:1px solid var(--linha);border-radius:18px;box-shadow:var(--sombraCartao)}
+.avaliacao-estrelas{margin:0;display:flex;gap:2px;color:#C9651A;font-size:20px;line-height:1;letter-spacing:1px}
+[data-theme="dark"] .avaliacao-estrelas{color:#F2B45A}
+.avaliacao-estrelas .apagada{color:var(--linha)}
+.avaliacao-texto{margin:0;font-size:16.5px;line-height:1.65;color:var(--texto)}
+.avaliacao-autor{margin:auto 0 0;font-weight:700;font-size:15.5px;color:var(--titulo)}
+.avaliacoes-resumo{margin:0;font-size:17px;font-weight:600;color:var(--texto2)}
+.so-leitor{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}

@@ -2,7 +2,7 @@
 
 **Já aplicado em 01/10/2026:** WhatsApp e e-mail (em `assets/js/config.js`), endereço físico, horário, Instagram e TikTok, CNPJ, CRC, nome oficial, logo nova, slogan, texto Sobre, números, serviços com preços e perguntas frequentes.
 **Materiais já disponíveis com o usuário (03/10/2026):** domínio **gescompnegocios.com.br**, comprado no Registro.br, imagens e nome completo. O nome **Gabriela do Nascimento Vieira** já foi aplicado. Conectar o domínio à hospedagem e selecionar/aplicar as imagens no site.
-**Ainda falta confirmar/receber:** depoimentos autorizados, CEP, autorizações das fotos, alcance do serviço de folha, aprovação dos textos, logo vetorial (se houver) e referências visuais.
+**Ainda falta confirmar/receber:** avaliações do Google (link, avaliações escolhidas, nota e total), CEP, autorizações das fotos, alcance do serviço de folha, aprovação dos textos, logo vetorial (se houver) e referências visuais.
 
 Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → textos e seções novas → publicação final.
 
@@ -12,7 +12,7 @@ Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → 
    - No Registro.br, edite os servidores DNS do domínio e informe exatamente os dois servidores atribuídos pela Cloudflare. Aguarde a zona aparecer como ativa; não use servidores de outro domínio ou de outra conta.
    - No Worker: Workers & Pages → gescomp-site → Settings → Domains & Routes → Add → Custom Domain. Adicione `gescompnegocios.com.br` quando a zona estiver ativa. A Cloudflare cria o registro DNS e o certificado HTTPS. [Documentação oficial](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
    - Para `www`, configure um registro DNS com proxy e uma regra de redirecionamento permanente para `https://gescompnegocios.com.br`, preservando caminho e parâmetros. Veja a seção sobre redirecionamento entre `www` e domínio raiz na documentação oficial acima.
-   - Confirme a página inicial, `/informacoes`, `/assets/css/site.css` e `/sitemap.xml` com HTTPS no domínio final. Só depois troque `https://gescomp-site.gescompnegocios.workers.dev` por `https://gescompnegocios.com.br` nos HTMLs de `publicar/`, nos dados estruturados, em `sitemap.xml`, `robots.txt` e `llms.txt`, e publique.
+   - Confirme a página inicial, `/informacoes`, `/assets/css/site.css` e `/sitemap.xml` com HTTPS no domínio final. Só depois troque `https://gescomp-site.gescompnegocios.workers.dev` por `https://gescompnegocios.com.br` nos HTMLs de `publicar/`, nos dados estruturados, em `sitemap.xml`, `robots.txt` e `llms.txt`, e publique. Comando, dentro de `publicar/`: `grep -rl "gescomp-site.gescompnegocios.workers.dev" . | xargs sed -i "s#gescomp-site.gescompnegocios.workers.dev#gescompnegocios.com.br#g"`.
    - Cadastre o domínio no Google Search Console e envie `https://gescompnegocios.com.br/sitemap.xml`.
 2. **Logo em alta qualidade**
    - Gere de novo: `assets/img/logo-gescomp.webp` e `.png`, `assets/img/selo-gescomp.webp`, `assets/img/og-image.jpg`, `favicon.ico`, `apple-touch-icon.png` e os ícones de `assets/icones/`.
@@ -30,7 +30,7 @@ Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → 
 12. **Números reais:** troque o texto e o `data-contador` de cada número. Publique só números verdadeiros.
 13. **Slogan:** mantenha o título atual (bom para o Google) e use o slogan como frase menor, se ela tiver.
 14. **Preços:** se ela divulgar, coloque "A partir de R$" nos cartões de serviço, com aviso de que o valor final depende da análise.
-15. **Depoimentos:** crie a seção com cartões pintados, só com autorização por escrito. Não marque como avaliação com estrelas nos dados do Google.
+15. **Avaliações:** a seção "O que dizem nossos clientes" já existe e fica escondida. Preencha o objeto `avaliacoes` em `assets/js/config.js` (links, nota, total e itens); ela aparece sozinha. Só publique avaliações reais, com autorização, e não marque como avaliação nos dados do Google.
 16. **Perguntas frequentes:** crie a seção na página inicial, no formato das páginas de Informações, e adicione os dados de FAQ do Google.
 17. **Fotos:** corte na proporção do espaço, reduza para até 1600 px, salve em WebP (de preferência abaixo de 300 KB) em `assets/img/` e escreva o texto alternativo. Guarde os originais em `01-empresa/fotos/`.
 18. **Sites de referência:** só no fim, para pequenos ajustes.

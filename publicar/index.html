@@ -152,15 +152,15 @@ document.documentElement.setAttribute('data-theme','light');
       "@type": "Offer",
       "itemOffered": {
        "@type": "Service",
-       "name": "Abertura, regularização e baixa de CNPJ",
-       "description": "Abertura de empresas, regularização de documentação e encerramento de CNPJ."
+       "name": "Abrir meu CNPJ",
+       "description": "Abertura, regularização e baixa de CNPJ."
       }
      },
      {
       "@type": "Offer",
       "itemOffered": {
        "@type": "Service",
-       "name": "Contabilidade para o seu CNPJ",
+       "name": "Contabilidade para a minha empresa",
        "description": "Contas, impostos e relatórios contábeis da empresa em dia, todo mês."
       },
       "priceSpecification": {
@@ -173,8 +173,8 @@ document.documentElement.setAttribute('data-theme','light');
       "@type": "Offer",
       "itemOffered": {
        "@type": "Service",
-       "name": "Imposto de Renda (IRPF)",
-       "description": "Declaração de Imposto de Renda de pessoa física."
+       "name": "Imposto de Renda",
+       "description": "Declaração de Imposto de Renda de pessoa física (IRPF)."
       },
       "priceSpecification": {
        "@type": "PriceSpecification",
@@ -199,16 +199,16 @@ document.documentElement.setAttribute('data-theme','light');
       "@type": "Offer",
       "itemOffered": {
        "@type": "Service",
-       "name": "Consultoria administrativa e financeira",
-       "description": "Controle de custos e despesas e orientação financeira para empresas. Valor a consultar."
+       "name": "Qual o melhor regime de impostos?",
+       "description": "Consultoria tributária, administrativa e financeira para escolher o regime de impostos e organizar custos e despesas. Valor a consultar."
       }
      },
      {
       "@type": "Offer",
       "itemOffered": {
        "@type": "Service",
-       "name": "MEI e regime de impostos",
-       "description": "Escolha do regime tributário e planejamento da saída do MEI."
+       "name": "Sou MEI. É hora de mudar?",
+       "description": "Análise do limite do MEI e planejamento da mudança para microempresa."
       }
      }
     ]
@@ -280,8 +280,8 @@ document.documentElement.setAttribute('data-theme','light');
  ]
 }
 </script>
-<link rel="stylesheet" href="/assets/css/site.css?v=20261003-rio-zoom">
-<link rel="stylesheet" href="/assets/css/estrutura.css">
+<link rel="stylesheet" href="/assets/css/site.css?v=20261003-sobrio">
+<link rel="stylesheet" href="/assets/css/estrutura.css?v=20261003-sobrio">
 </head>
 <body>
 <div class="tema-raiz" style="font-family: 'Figtree', 'Segoe UI', system-ui, sans-serif; color: var(--texto); background: var(--chao); min-height: 100vh; overflow-x: clip">
@@ -304,6 +304,14 @@ document.documentElement.setAttribute('data-theme','light');
 <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"></feTurbulence>
 <feColorMatrix type="saturate" values="0"></feColorMatrix>
 </filter>
+<filter id="pincelSuave" x="-3%" y="-10%" width="106%" height="120%">
+<feTurbulence type="fractalNoise" baseFrequency="0.03 0.08" numOctaves="2" seed="7" result="n"></feTurbulence>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="3" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+</filter>
+<filter id="pincelMedio" x="-6%" y="-15%" width="112%" height="130%">
+<feTurbulence type="fractalNoise" baseFrequency="0.03 0.1" numOctaves="2" seed="3" result="n"></feTurbulence>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="6" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+</filter>
 </defs>
 </svg>
 
@@ -311,7 +319,7 @@ document.documentElement.setAttribute('data-theme','light');
 <div class="so-desktop">
 <div class="gc-cabecalho-conteudo">
 <a href="#inicio" aria-label="GESCOMP, página inicial" class="gc-cabecalho-marca">
-<svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#EEF0EF" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D6DEDD" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg>
+
 <img src="/assets/img/logo-gescomp.webp" width="910" height="235" decoding="async" alt="GESCOMP — Gestão Empresarial e Planejamento Contábil" class="gc-cabecalho-logo">
 </a>
 <nav aria-label="Principal" class="gc-navegacao">
@@ -319,25 +327,25 @@ document.documentElement.setAttribute('data-theme','light');
 <a href="#servicos" class="gc-navegacao-link">Serviços</a>
 <a href="/informacoes" class="gc-navegacao-link">Informações</a>
 <a href="#contato" class="gc-navegacao-link">Contato</a>
-<button type="button" data-acao="tema" aria-label="Modo escuro" aria-pressed="false" title="Alternar modo claro e escuro" class="gc-botao-tema"><svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></path></svg><span class="icone icone-lua"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F3EED8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></span><span class="icone icone-sol"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4"></path></svg></span></button>
-<a href="#contato" class="gc-cabecalho-contato"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Fale conosco</span></a>
+<button type="button" data-acao="tema" aria-label="Modo escuro" aria-pressed="false" title="Alternar modo claro e escuro" class="gc-botao-tema"><span class="icone icone-lua"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F3EED8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></span><span class="icone icone-sol"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4"></path></svg></span></button>
+<a href="#contato" class="gc-cabecalho-contato"><span style="position: relative">Fale conosco</span></a>
 </nav>
 </div>
 </div>
 <div class="so-mobile">
 <div class="gc-cabecalho-mobile">
 <a href="#inicio" aria-label="GESCOMP, página inicial" class="gc-cabecalho-marca-mobile">
-<svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#EEF0EF" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D6DEDD" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg>
+
 <img src="/assets/img/logo-gescomp.webp" width="910" height="235" decoding="async" alt="GESCOMP — Gestão Empresarial e Planejamento Contábil" class="gc-cabecalho-logo-mobile">
 </a>
 <div class="gc-cabecalho-acoes">
-<button type="button" data-acao="tema" aria-label="Modo escuro" aria-pressed="false" title="Alternar modo claro e escuro" class="gc-botao-tema"><svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></path></svg><span class="icone icone-lua"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F3EED8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></span><span class="icone icone-sol"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4"></path></svg></span></button>
+<button type="button" data-acao="tema" aria-label="Modo escuro" aria-pressed="false" title="Alternar modo claro e escuro" class="gc-botao-tema"><span class="icone icone-lua"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F3EED8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></span><span class="icone icone-sol"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4"></path></svg></span></button>
 <a data-whatsapp href="#contato" aria-label="Falar pelo WhatsApp" class="gc-cabecalho-whatsapp">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></path></svg>
+
 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
 </a>
 <button type="button" id="botao-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-mobile" class="gc-botao-menu">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+
 <span class="icone icone-abrir">
 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#003F4A" stroke-width="2.4" stroke-linecap="round" style="position: relative" aria-hidden="true"><path d="M4 7h16 M4 12h11 M4 17h16"></path></svg>
 </span>
@@ -354,12 +362,9 @@ document.documentElement.setAttribute('data-theme','light');
 <a href="/informacoes" data-fecha-menu class="gc-menu-link">Informações</a>
 <a href="#servicos" data-fecha-menu class="gc-menu-link">Serviços</a>
 <a href="#contato" data-fecha-menu class="gc-menu-link-final">Contato</a>
-<div class="gc-menu-acao"><a data-whatsapp href="#contato" data-fecha-menu class="gc-menu-contato"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Falar no WhatsApp</span></a></div>
+<div class="gc-menu-acao"><a data-whatsapp href="#contato" data-fecha-menu class="gc-menu-contato"><span style="position: relative">Falar no WhatsApp</span></a></div>
 </nav>
-<svg viewBox="0 0 400 60" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: 0; width: 100%; height: 50px; display: block" aria-hidden="true">
-<path d="M0 30 C 90 6, 200 50, 290 24 S 380 14, 400 22 L400 60 L0 60 Z" fill="#1E727D" filter="url(#pincel)"></path>
-<path d="M0 44 C 110 26, 230 60, 400 36" fill="none" stroke="#E8952F" stroke-width="4" filter="url(#pincel)"></path>
-</svg>
+
 </div>
 </div>
 </div>
@@ -367,18 +372,18 @@ document.documentElement.setAttribute('data-theme','light');
 
 <main id="conteudo">
 <section id="inicio" style="position: relative; background: #003F4A; overflow: hidden">
-<svg width="100%" height="100%" style="position: absolute; inset: 0; opacity: 0.1; mix-blend-mode: overlay" aria-hidden="true"><rect width="100%" height="100%" filter="url(#tela)"></rect></svg>
-<svg viewBox="0 0 600 600" style="position: absolute; right: -160px; top: -200px; width: 640px; height: 640px; opacity: 0.35" aria-hidden="true">
-<circle cx="300" cy="300" r="250" fill="#1E727D" filter="url(#pincelForte)"></circle>
+
+<svg viewBox="0 0 600 600" style="position: absolute; right: -160px; top: -200px; width: 640px; height: 640px; opacity: 0.22" aria-hidden="true">
+<circle cx="300" cy="300" r="250" fill="#1E727D"></circle>
 </svg>
 <div class="hero-grade" style="position: relative; max-width: 1240px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px 56px; align-items: center">
-<div class="hero-arte" style="position: relative; width: 100%; max-width: clamp(290px, 46vw, 600px); justify-self: center">
+<div class="hero-arte" style="position: relative; width: 100%; max-width: clamp(270px, 40vw, 520px); justify-self: center">
 <svg viewBox="0 0 560 460" style="width: 100%; height: auto; display: block; overflow: visible" role="img" aria-label="Pintura de gráfico de barras crescente com curva laranja subindo">
 <g class="hero-sol">
-<circle cx="150" cy="130" r="106" fill="#E8952F" filter="url(#pincelForte)"></circle>
-<circle cx="150" cy="130" r="128" fill="none" stroke="#F2B45A" stroke-width="2.5" opacity="0.5" filter="url(#pincel)"></circle>
+<circle cx="150" cy="130" r="106" fill="#E8952F" filter="url(#pincelMedio)"></circle>
+<circle cx="150" cy="130" r="128" fill="none" stroke="#F2B45A" stroke-width="2.5" opacity="0.5" filter="url(#pincelSuave)"></circle>
 </g>
-<g filter="url(#pincel)">
+<g filter="url(#pincelSuave)">
 <g class="barras">
 <rect x="30" y="360" width="46" height="72" fill="#1E727D"></rect>
 <rect x="92" y="335" width="46" height="97" fill="#1E727D"></rect>
@@ -390,10 +395,10 @@ document.documentElement.setAttribute('data-theme','light');
 <rect x="464" y="80" width="46" height="352" fill="#5FA3A8"></rect>
 </g>
 </g>
-<path class="hero-curva" d="M14 418 C 190 412, 340 330, 470 150 S 535 52, 548 40" fill="none" stroke="#D87319" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="100" filter="url(#pincel)"></path>
+<path class="hero-curva" d="M14 418 C 190 412, 340 330, 470 150 S 535 52, 548 40" fill="none" stroke="#D87319" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="100" filter="url(#pincelSuave)"></path>
 <path class="hero-curva" d="M14 418 C 190 412, 340 330, 470 150 S 535 52, 548 40" fill="none" stroke="#F2B45A" stroke-width="4" stroke-linecap="round" pathLength="100" stroke-dasharray="100"></path>
-<path class="hero-seta" d="M524 32 L556 30 L550 62" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#pincel)"></path>
-<path d="M0 434 C 140 428, 400 440, 560 430" stroke="#5FA3A8" stroke-width="4" fill="none" filter="url(#pincel)"></path>
+<path class="hero-seta" d="M524 32 L556 30 L550 62" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#pincelSuave)"></path>
+<path d="M0 434 C 140 428, 400 440, 560 430" stroke="#5FA3A8" stroke-width="4" fill="none" filter="url(#pincelSuave)"></path>
 </svg>
 <div class="hero-foto" style="position: absolute; left: 11.6%; top: 9.8%; width: 30.4%; aspect-ratio: 1; border-radius: 50%; overflow: hidden; background: var(--foto); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; color: var(--fotoTexto); font-size: 12px; font-weight: 600; padding: 10px; box-sizing: border-box">
 <svg width="26" height="26" viewBox="0 0 24 24" fill="none" style="stroke: var(--fotoTexto)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path></svg>
@@ -403,15 +408,15 @@ document.documentElement.setAttribute('data-theme','light');
 </div>
 <div style="display: flex; flex-direction: column; gap: 22px">
 <div style="position: relative">
-<h1 class="hero-titulo" style="position: relative; margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; line-height: 0.98; font-weight: 800; letter-spacing: -0.035em; color: #FFFFFF">Contabilidade próxima para a sua empresa crescer sem dor de cabeça.</h1>
+<h1 class="hero-titulo" style="position: relative; margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; line-height: 1.04; font-weight: 700; letter-spacing: -0.035em; color: #FFFFFF">Contabilidade próxima para a sua empresa crescer sem dor de cabeça.</h1>
 <svg viewBox="0 0 400 30" preserveAspectRatio="none" style="display: block; width: 72%; height: 22px; margin-top: 10px; overflow: visible" aria-hidden="true">
-<path class="hero-pincelada" d="M4 18 C 90 6, 200 26, 300 12 S 380 10, 396 14" fill="none" stroke="#E8952F" stroke-width="9" stroke-linecap="round" pathLength="100" stroke-dasharray="100" filter="url(#pincelForte)"></path>
+<path class="hero-pincelada" d="M4 18 C 90 6, 200 26, 300 12 S 380 10, 396 14" fill="none" stroke="#E8952F" stroke-width="9" stroke-linecap="round" pathLength="100" stroke-dasharray="100" filter="url(#pincelMedio)"></path>
 </svg>
 </div>
 <p style="margin: 0; font-size: 19px; line-height: 1.55; color: #D3E6E6; max-width: 480px">Abrimos, regularizamos e encerramos CNPJs, cuidamos da contabilidade da sua empresa e do seu Imposto de Renda. Atendimento online, de onde você estiver, falando direto com a contadora.</p>
 <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 4px">
-<a data-whatsapp href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px; flex: 1 1 210px; max-width: 280px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative; display: inline-flex; align-items: center; gap: 10px"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" decoding="async" alt="" style="width: 22px; height: 22px; display: block; filter: brightness(0); opacity: 0.85">Falar no WhatsApp</span></a>
-<a href="#servicos" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 28px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="none" stroke="#8FC1C3" stroke-width="2.5" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><span style="position: relative">Ver os serviços</span></a>
+<a class="btn btn-primario" data-whatsapp href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px; flex: 1 1 210px; max-width: 280px"><span style="position: relative; display: inline-flex; align-items: center; gap: 10px"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" decoding="async" alt="" style="width: 22px; height: 22px; display: block; filter: brightness(0); opacity: 0.85">Falar no WhatsApp</span></a>
+<a class="btn btn-contorno-claro" href="#servicos" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 28px"><span style="position: relative">Ver os serviços</span></a>
 </div>
 <ul aria-label="Por que confiar na GESCOMP" style="list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 15.5px; line-height: 1.4; color: #D3E6E6">
 <li style="display: flex; align-items: center; gap: 8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z M9 12l2 2 4-4"></path></svg>Registro no CRC 009186/SE</li>
@@ -421,19 +426,17 @@ document.documentElement.setAttribute('data-theme','light');
 </div>
 </div>
 <svg viewBox="0 0 1440 170" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: -4px; width: 100%; height: 154px; display: block" aria-hidden="true">
-<path d="M0 70 C 240 20, 470 120, 760 78 S 1210 18, 1440 60 L1440 170 L0 170 Z" fill="#1E727D" filter="url(#pincel)"></path>
-<path d="M0 110 C 300 60, 560 150, 860 108 S 1260 70, 1440 100 L1440 170 L0 170 Z" fill="#5FA3A8" opacity="0.75" filter="url(#pincel)"></path>
+<path d="M0 70 C 240 20, 470 120, 760 78 S 1210 18, 1440 60 L1440 170 L0 170 Z" fill="#1E727D" filter="url(#pincelSuave)"></path>
+<path d="M0 110 C 300 60, 560 150, 860 108 S 1260 70, 1440 100 L1440 170 L0 170 Z" fill="#5FA3A8" opacity="0.75" filter="url(#pincelSuave)"></path>
 <path style="fill: var(--chao)" d="M0 132 C 320 96, 620 168, 920 128 S 1300 104, 1440 122 L1440 170 L0 170 Z"></path>
-<path d="M0 132 C 320 96, 620 168, 920 128 S 1300 104, 1440 122" fill="none" stroke="#D87319" stroke-width="5" filter="url(#pincel)"></path>
+<path d="M0 132 C 320 96, 620 168, 920 128 S 1300 104, 1440 122" fill="none" stroke="#D87319" stroke-width="5" filter="url(#pincelSuave)"></path>
 <rect data-borda="1" x="0" y="162" width="1440" height="10" fill="#5FA3A8"></rect></svg>
 </section>
 
 <section id="sobre" style="background: var(--chao)">
 <div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px 96px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 64px; align-items: center">
 <div style="position: relative; padding: 5% 5% 84px">
-<svg viewBox="0 0 400 300" style="position: absolute; left: 0; top: 0; width: 62%; height: auto; opacity: 0.9" aria-hidden="true">
-<path d="M40 70 C 90 18, 250 8, 330 40 S 380 170, 300 230 S 90 270, 40 210 S 0 110, 40 70 Z" fill="#1E727D" filter="url(#pincelForte)"></path>
-</svg>
+
 <div style="position: relative">
 <div style="position: relative; aspect-ratio: 5 / 4; background: var(--foto); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--fotoTexto); font-weight: 600; font-size: 15px; text-align: center; padding: 20% 18%; box-sizing: border-box">
 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" style="stroke: var(--fotoTexto)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path></svg>
@@ -445,11 +448,11 @@ document.documentElement.setAttribute('data-theme','light');
 </svg>
 </div>
 <svg viewBox="0 0 520 440" style="position: absolute; right: -3%; bottom: 0; width: 48%; height: auto; overflow: visible" role="img" aria-label="Pintura de mesa de trabalho com documentos, calculadora, café e planta">
-<path style="fill: var(--chao)" d="M60 150 C 120 66, 300 56, 424 100 S 528 250, 484 342 S 300 424, 158 404 S 18 252, 60 150 Z" filter="url(#pincelForte)"></path>
-<path d="M60 150 C 120 66, 300 56, 424 100 S 528 250, 484 342 S 300 424, 158 404 S 18 252, 60 150 Z" fill="none" stroke="#5FA3A8" stroke-width="5" opacity="0.75" filter="url(#pincelForte)"></path>
-<circle cx="418" cy="112" r="46" fill="#E8952F" filter="url(#pincelForte)"></circle>
-<path d="M392 96 C 404 84, 422 82, 436 88" fill="none" stroke="#F2B45A" stroke-width="5" stroke-linecap="round" filter="url(#pincel)"></path>
-<g filter="url(#pincel)">
+<path style="fill: var(--chao)" d="M60 150 C 120 66, 300 56, 424 100 S 528 250, 484 342 S 300 424, 158 404 S 18 252, 60 150 Z" filter="url(#pincelMedio)"></path>
+<path d="M60 150 C 120 66, 300 56, 424 100 S 528 250, 484 342 S 300 424, 158 404 S 18 252, 60 150 Z" fill="none" stroke="#5FA3A8" stroke-width="5" opacity="0.75" filter="url(#pincelMedio)"></path>
+<circle cx="418" cy="112" r="46" fill="#E8952F" filter="url(#pincelMedio)"></circle>
+<path d="M392 96 C 404 84, 422 82, 436 88" fill="none" stroke="#F2B45A" stroke-width="5" stroke-linecap="round" filter="url(#pincelSuave)"></path>
+<g filter="url(#pincelSuave)">
 <g transform="rotate(-6 200 250)">
 <rect x="128" y="160" width="160" height="200" fill="#C7DADA"></rect>
 <rect x="120" y="150" width="160" height="200" fill="#FFFFFF"></rect>
@@ -483,8 +486,8 @@ document.documentElement.setAttribute('data-theme','light');
 <ellipse cx="98" cy="238" rx="11" ry="42" fill="#1E727D"></ellipse>
 <path d="M98 300 C 96 270, 98 240, 98 204 M98 290 C 92 270, 86 250, 76 236 M98 286 C 106 266, 112 248, 122 222" fill="none" stroke="#9CD0CF" stroke-width="2.5" stroke-linecap="round" opacity="0.8"></path>
 </g>
-<path d="M44 354 C 180 342, 340 360, 486 346" fill="none" stroke="#003F4A" stroke-width="16" stroke-linecap="round" filter="url(#pincelForte)"></path>
-<path d="M70 372 C 200 364, 330 376, 450 366" fill="none" stroke="#D87319" stroke-width="5" stroke-linecap="round" opacity="0.8" filter="url(#pincel)"></path>
+<path d="M44 354 C 180 342, 340 360, 486 346" fill="none" stroke="#003F4A" stroke-width="16" stroke-linecap="round" filter="url(#pincelMedio)"></path>
+<path d="M70 372 C 200 364, 330 376, 450 366" fill="none" stroke="#D87319" stroke-width="5" stroke-linecap="round" opacity="0.8" filter="url(#pincelSuave)"></path>
 <g fill="#E8952F"><circle cx="472" cy="380" r="5"></circle><circle cx="488" cy="370" r="2.5"></circle><circle cx="60" cy="384" r="3"></circle></g>
 <g fill="#5FA3A8"><circle cx="40" cy="200" r="4"></circle><circle cx="30" cy="214" r="2"></circle></g>
 </svg>
@@ -504,21 +507,21 @@ document.documentElement.setAttribute('data-theme','light');
 <h2 id="ig-titulo" style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">A GESCOMP no Instagram</h2>
 <p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">Vídeos do nosso perfil. Toque em um deles para assistir aqui mesmo.</p>
 </div>
-<a href="https://www.instagram.com/gescomp_" target="_blank" rel="noopener" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: var(--titulo); padding: 16px 28px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="none" stroke="#5FA3A8" stroke-width="2.5" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><span style="position: relative; display: inline-flex; align-items: center; gap: 10px">Seguir @gescomp_ no Instagram<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre em nova aba)</span></span></a>
+<a class="btn btn-contorno" href="https://www.instagram.com/gescomp_" target="_blank" rel="noopener" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: var(--titulo); padding: 16px 28px"><span style="position: relative; display: inline-flex; align-items: center; gap: 10px">Seguir @gescomp_ no Instagram<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre em nova aba)</span></span></a>
 </div>
 <div data-carrossel role="region" aria-roledescription="carrossel" aria-label="Vídeos da GESCOMP no Instagram" style="position: relative; display: flex; flex-direction: column; gap: 18px">
 <div data-carrossel-trilha class="ig-trilha" tabindex="0" aria-label="Lista de vídeos" style="position: relative; display: flex; align-items: flex-start; gap: 22px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 8px 4px 14px">
 <div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 1 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
-<a data-reel href="https://www.instagram.com/reel/DbynBYHpN_N/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 1 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<a data-reel href="https://www.instagram.com/reel/DbynBYHpN_N/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 1 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 18px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
 <svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
 <rect width="360" height="640" fill="#0B5963"></rect>
-<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
-<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9" filter="url(#pincelForte)"></circle>
-<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
-<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+
+<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9"></circle>
+<g opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round"></path>
 </svg>
-<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<span class="icone-solido" style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center; background: #E8952F; border-radius: 50%">
+
 <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
 </span>
 <span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
@@ -526,18 +529,18 @@ document.documentElement.setAttribute('data-theme','light');
 <span data-capa-texto style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
 </span>
 </a>
-<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+
 </div><div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 2 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
-<a data-reel href="https://www.instagram.com/reel/DbQ4v35u7Rb/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 2 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<a data-reel href="https://www.instagram.com/reel/DbQ4v35u7Rb/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 2 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 18px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
 <svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
 <rect width="360" height="640" fill="#0B5963"></rect>
-<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
-<circle cx="88" cy="130" r="86" fill="#3F979C" opacity="0.9" filter="url(#pincelForte)"></circle>
-<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
-<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+
+<circle cx="88" cy="130" r="86" fill="#3F979C" opacity="0.9"></circle>
+<g opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round"></path>
 </svg>
-<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<span class="icone-solido" style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center; background: #E8952F; border-radius: 50%">
+
 <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
 </span>
 <span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
@@ -545,18 +548,18 @@ document.documentElement.setAttribute('data-theme','light');
 <span data-capa-texto style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
 </span>
 </a>
-<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+
 </div><div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 3 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
-<a data-reel href="https://www.instagram.com/reel/DbWFtMyOKwH/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 3 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<a data-reel href="https://www.instagram.com/reel/DbWFtMyOKwH/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 3 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 18px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
 <svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
 <rect width="360" height="640" fill="#0B5963"></rect>
-<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
-<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9" filter="url(#pincelForte)"></circle>
-<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
-<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+
+<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9"></circle>
+<g opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round"></path>
 </svg>
-<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<span class="icone-solido" style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center; background: #E8952F; border-radius: 50%">
+
 <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
 </span>
 <span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
@@ -564,18 +567,18 @@ document.documentElement.setAttribute('data-theme','light');
 <span data-capa-texto style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
 </span>
 </a>
-<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+
 </div><div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 4 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
-<a data-reel href="https://www.instagram.com/reel/Dc815Ibu2np/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 4 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<a data-reel href="https://www.instagram.com/reel/Dc815Ibu2np/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 4 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 18px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
 <svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
 <rect width="360" height="640" fill="#0B5963"></rect>
-<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
-<circle cx="88" cy="130" r="86" fill="#3F979C" opacity="0.9" filter="url(#pincelForte)"></circle>
-<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
-<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+
+<circle cx="88" cy="130" r="86" fill="#3F979C" opacity="0.9"></circle>
+<g opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round"></path>
 </svg>
-<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<span class="icone-solido" style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center; background: #E8952F; border-radius: 50%">
+
 <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
 </span>
 <span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
@@ -583,18 +586,18 @@ document.documentElement.setAttribute('data-theme','light');
 <span data-capa-texto style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
 </span>
 </a>
-<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+
 </div><div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 5 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
-<a data-reel href="https://www.instagram.com/reel/DdycreEMXQQ/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 5 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<a data-reel href="https://www.instagram.com/reel/DdycreEMXQQ/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 5 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 18px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
 <svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
 <rect width="360" height="640" fill="#0B5963"></rect>
-<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
-<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9" filter="url(#pincelForte)"></circle>
-<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
-<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+
+<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9"></circle>
+<g opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round"></path>
 </svg>
-<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<span class="icone-solido" style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center; background: #E8952F; border-radius: 50%">
+
 <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
 </span>
 <span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
@@ -602,21 +605,18 @@ document.documentElement.setAttribute('data-theme','light');
 <span data-capa-texto style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
 </span>
 </a>
-<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+
 </div>
 </div>
-<button type="button" class="ig-seta ig-seta-anterior" data-carrossel-anterior aria-label="Vídeo anterior" hidden><svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" filter="url(#pincelBotao)"></path></svg><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></button>
-<button type="button" class="ig-seta ig-seta-proximo" data-carrossel-proximo aria-label="Próximo vídeo" hidden><svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" filter="url(#pincelBotao)"></path></svg><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg></button>
+<button type="button" class="carrossel-seta carrossel-seta-anterior" data-carrossel-anterior aria-label="Vídeo anterior" hidden><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></button>
+<button type="button" class="carrossel-seta carrossel-seta-proximo" data-carrossel-proximo aria-label="Próximo vídeo" hidden><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg></button>
 <p data-carrossel-aviso aria-live="polite" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"></p>
 </div>
 </div>
 </section>
 <section id="numeros" style="position: relative; background: #003F4A; overflow: hidden">
-<svg viewBox="0 0 1440 90" preserveAspectRatio="none" style="display: block; width: 100%; height: 90px; background: var(--chao)" aria-hidden="true">
-<path d="M0 50 C 260 0, 520 90, 820 46 S 1260 10, 1440 40 L1440 90 L0 90 Z" fill="#003F4A" filter="url(#pincel)"></path>
-<path d="M0 50 C 260 0, 520 90, 820 46 S 1260 10, 1440 40" fill="none" stroke="#E8952F" stroke-width="4" filter="url(#pincel)"></path>
-<rect data-borda="1" x="0" y="82" width="1440" height="10" fill="#003F4A"></rect></svg>
-<svg width="100%" height="100%" style="position: absolute; inset: 0; opacity: 0.1; mix-blend-mode: overlay; pointer-events: none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#tela)"></rect></svg>
+<div class="divisor-secao" aria-hidden="true"></div>
+
 <div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 40px 24px 64px; display: flex; flex-direction: column; gap: 48px">
 <h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(28px, 3vw, 38px); line-height: 1.15; font-weight: 700; color: #FFFFFF; max-width: 640px">Resultados construídos lado a lado com cada cliente.</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px 32px">
@@ -624,7 +624,7 @@ document.documentElement.setAttribute('data-theme','light');
 <div style="display: flex; flex-direction: column; gap: 6px">
 <div style="position: relative; height: 104px; display: flex; align-items: center">
 <svg viewBox="0 0 260 104" preserveAspectRatio="none" style="position: absolute; left: -10px; top: 0; width: calc(100% + 10px); height: 104px" aria-hidden="true">
-<path d="M8 66 C 60 52, 130 74, 190 58 S 244 50, 252 54" fill="none" stroke="#D87319" stroke-width="30" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pincel-numero" stroke-dashoffset="0" filter="url(#pincelForte)" opacity="0.9"></path>
+<path d="M8 96 L252 96" fill="none" stroke="#D87319" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pincel-numero" stroke-dashoffset="0"></path>
 </svg>
 <span aria-hidden="true" style="position: relative; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(54px, 6vw, 72px); font-weight: 800; letter-spacing: -0.03em; line-height: 1; color: #FFFFFF; font-variant-numeric: tabular-nums" data-contador="12" data-prefixo="">12</span>
 <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0">12</span>
@@ -635,7 +635,7 @@ document.documentElement.setAttribute('data-theme','light');
 <div style="display: flex; flex-direction: column; gap: 6px">
 <div style="position: relative; height: 104px; display: flex; align-items: center">
 <svg viewBox="0 0 260 104" preserveAspectRatio="none" style="position: absolute; left: -10px; top: 0; width: calc(100% + 10px); height: 104px" aria-hidden="true">
-<path d="M8 66 C 60 52, 130 74, 190 58 S 244 50, 252 54" fill="none" stroke="#1E727D" stroke-width="30" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pincel-numero" stroke-dashoffset="0" filter="url(#pincelForte)" opacity="0.9"></path>
+<path d="M8 96 L252 96" fill="none" stroke="#1E727D" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pincel-numero" stroke-dashoffset="0"></path>
 </svg>
 <span aria-hidden="true" style="position: relative; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(54px, 6vw, 72px); font-weight: 800; letter-spacing: -0.03em; line-height: 1; color: #FFFFFF; font-variant-numeric: tabular-nums" data-contador="200" data-prefixo="+">+200</span>
 <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0">+200</span>
@@ -646,7 +646,7 @@ document.documentElement.setAttribute('data-theme','light');
 <div style="display: flex; flex-direction: column; gap: 6px">
 <div style="position: relative; height: 104px; display: flex; align-items: center">
 <svg viewBox="0 0 260 104" preserveAspectRatio="none" style="position: absolute; left: -10px; top: 0; width: calc(100% + 10px); height: 104px" aria-hidden="true">
-<path d="M8 66 C 60 52, 130 74, 190 58 S 244 50, 252 54" fill="none" stroke="#C9651A" stroke-width="30" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pincel-numero" stroke-dashoffset="0" filter="url(#pincelForte)" opacity="0.9"></path>
+<path d="M8 96 L252 96" fill="none" stroke="#C9651A" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pincel-numero" stroke-dashoffset="0"></path>
 </svg>
 <span aria-hidden="true" style="position: relative; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(54px, 6vw, 72px); font-weight: 800; letter-spacing: -0.03em; line-height: 1; color: #FFFFFF; font-variant-numeric: tabular-nums" data-contador="50" data-prefixo="+">+50</span>
 <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0">+50</span>
@@ -657,7 +657,7 @@ document.documentElement.setAttribute('data-theme','light');
 <div style="display: flex; flex-direction: column; gap: 6px">
 <div style="position: relative; height: 104px; display: flex; align-items: center">
 <svg viewBox="0 0 260 104" preserveAspectRatio="none" style="position: absolute; left: -10px; top: 0; width: calc(100% + 10px); height: 104px" aria-hidden="true">
-<path d="M8 66 C 60 52, 130 74, 190 58 S 244 50, 252 54" fill="none" stroke="#3F979C" stroke-width="30" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pincel-numero" stroke-dashoffset="0" filter="url(#pincelForte)" opacity="0.9"></path>
+<path d="M8 96 L252 96" fill="none" stroke="#3F979C" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="100" class="pincel-numero" stroke-dashoffset="0"></path>
 </svg>
 <span aria-hidden="true" style="position: relative; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(54px, 6vw, 72px); font-weight: 800; letter-spacing: -0.03em; line-height: 1; color: #FFFFFF; font-variant-numeric: tabular-nums" data-contador="5" data-prefixo="">5</span>
 <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0">5</span>
@@ -669,117 +669,103 @@ document.documentElement.setAttribute('data-theme','light');
 </div>
 </section>
 
+<!-- Avaliações de clientes: preenchidas por /assets/js/config.js (avaliacoes). Escondida enquanto a lista estiver vazia. -->
+<section id="avaliacoes" aria-labelledby="avaliacoes-titulo" style="background: var(--chao)" hidden>
+<div style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 88px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 18px 32px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 640px">
+<h2 id="avaliacoes-titulo" style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">O que dizem nossos clientes</h2>
+<p class="avaliacoes-resumo" data-avaliacoes-resumo hidden></p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="btn btn-bloco btn-primario" data-avaliacoes-avaliar href="#" target="_blank" rel="noopener" hidden>Avaliar a GESCOMP no Google<span class="so-leitor"> (abre em nova aba)</span></a>
+<a class="btn btn-bloco btn-contorno" data-avaliacoes-ver href="#" target="_blank" rel="noopener" hidden>Ver todas as avaliações no Google<span class="so-leitor"> (abre em nova aba)</span></a>
+</div>
+</div>
+<div data-carrossel role="region" aria-roledescription="carrossel" aria-label="Avaliações de clientes" style="position: relative">
+<div data-carrossel-trilha class="carrossel-trilha" tabindex="0" aria-label="Lista de avaliações"></div>
+<button type="button" class="carrossel-seta carrossel-seta-anterior" data-carrossel-anterior aria-label="Avaliação anterior" hidden><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></button>
+<button type="button" class="carrossel-seta carrossel-seta-proximo" data-carrossel-proximo aria-label="Próxima avaliação" hidden><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg></button>
+<p data-carrossel-aviso aria-live="polite" class="so-leitor"></p>
+</div>
+</div>
+</section>
+
 <section id="servicos" style="position: relative; background: var(--superficie)">
-<svg viewBox="0 0 1440 90" preserveAspectRatio="none" style="display: block; width: 100%; height: 90px; background: #003F4A" aria-hidden="true">
-<path d="M0 38 C 300 78, 640 -2, 980 40 S 1330 58, 1440 28 L1440 90 L0 90 Z" fill="#1E727D" opacity="0.6" filter="url(#pincel)"></path>
-<path d="M0 50 C 300 90, 640 10, 980 52 S 1330 70, 1440 40 L1440 90 L0 90 Z" style="fill: var(--superficie)" filter="url(#pincel)"></path>
-<path d="M0 50 C 300 90, 640 10, 980 52 S 1330 70, 1440 40" fill="none" stroke="#E8952F" stroke-width="3" opacity="0.85" filter="url(#pincel)"></path>
-<g fill="#E8952F" opacity="0.7"><circle cx="1180" cy="40" r="3"></circle><circle cx="1196" cy="34" r="1.8"></circle><circle cx="240" cy="44" r="2.5"></circle></g>
-<rect data-borda="1" x="0" y="82" width="1440" height="10" style="fill: var(--superficie)"></rect></svg>
-<div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px 112px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 56px">
-<div style="display: flex; flex-direction: column; gap: 20px; max-width: 440px">
+<div class="divisor-secao" aria-hidden="true"></div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px 56px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px 56px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 20px; max-width: 560px">
 <h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Tudo o que a sua empresa precisa, em um só lugar.</h2>
-<p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">Da abertura do CNPJ ao fechamento do balanço, a GESCOMP organiza a rotina contábil para você decidir com segurança.</p>
-<div style="display: flex; margin-top: 4px"><a href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#0B5963" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#3F979C" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Pedir um orçamento</span></a></div>
-<div style="position: relative; margin-top: 18px">
-<svg viewBox="0 0 400 300" style="position: absolute; left: -6%; top: -6%; width: 112%; height: auto" aria-hidden="true">
-<path d="M40 60 C 120 0, 300 10, 370 70 S 400 230, 320 270 S 80 300, 30 220 S -10 110, 40 60 Z" fill="#E8952F" opacity="0.85" filter="url(#pincelForte)"></path>
-</svg>
-<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 28px 120px 28px 120px; overflow: hidden; background: var(--foto); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--fotoTexto); font-weight: 600; font-size: 15px; text-align: center; padding: 20px; box-sizing: border-box">
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">Da abertura do CNPJ ao fechamento do balanço, a GESCOMP organiza a rotina contábil para você decidir com segurança. Escolha o assunto e fale direto com a contadora pelo WhatsApp.</p>
+</div>
+<div style="position: relative; aspect-ratio: 16 / 9; max-width: 520px; width: 100%; justify-self: end; border-radius: 20px; overflow: hidden; background: var(--foto); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--fotoTexto); font-weight: 600; font-size: 15px; text-align: center; padding: 20px; box-sizing: border-box">
 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="stroke: var(--fotoTexto)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path></svg>
 <span>[Foto de atendimento a cliente]</span>
 </div>
 </div>
+<ul class="servicos-grade" aria-label="Serviços">
+<li class="servico-card">
+<span class="servico-icone" style="background: #0B5963"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V8l8-5 8 5v13 M9 21v-6h6v6 M3 21h18"></path></svg></span>
+<h3 class="servico-titulo">Abrir meu CNPJ</h3>
+<p class="servico-texto">Abertura, regularização e baixa de CNPJ: abrimos sua empresa, colocamos a documentação em dia e, quando preciso, encerramos do jeito certo.</p>
+<div class="servico-acao"><a class="btn-whatsapp" href="#contato" data-whatsapp-msg="abrirCnpj" aria-label="Falar no WhatsApp sobre: Abrir meu CNPJ"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Falar no WhatsApp</a></div>
+</li>
+<li class="servico-card">
+<span class="servico-icone" style="background: #1E727D"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v16H4z M4 10h16 M9 3v4 M15 3v4 M8 14h3 M8 17h6"></path></svg></span>
+<h3 class="servico-titulo">Contabilidade para a minha empresa</h3>
+<p class="servico-texto">Contas, impostos e relatórios da sua empresa em dia, todo mês, com a contadora acompanhando de perto.</p>
+<p class="servico-preco">A partir de R$ 150,00</p>
+<div class="servico-acao"><a class="btn-whatsapp" href="#contato" data-whatsapp-msg="contabilidade" aria-label="Falar no WhatsApp sobre: Contabilidade para a minha empresa"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Falar no WhatsApp</a></div>
+</li>
+<li class="servico-card">
+<span class="servico-icone" style="background: #0B5963"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z M9 15l6-6 M9 9.5h0.5 M14.5 14.5h0.5"></path></svg></span>
+<h3 class="servico-titulo">Imposto de Renda</h3>
+<p class="servico-texto">Declaração de Imposto de Renda de pessoa física, feita com cuidado e no prazo.</p>
+<p class="servico-preco">A partir de R$ 100,00</p>
+<div class="servico-acao"><a class="btn-whatsapp" href="#contato" data-whatsapp-msg="impostoDeRenda" aria-label="Falar no WhatsApp sobre: Imposto de Renda"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Falar no WhatsApp</a></div>
+</li>
+<li class="servico-card">
+<span class="servico-icone" style="background: #1E727D"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6 M16 5.5a3 3 0 0 1 0 5.5 M17 14c2.4.5 4 2.9 4 6"></path></svg></span>
+<h3 class="servico-titulo">Cálculos trabalhistas</h3>
+<p class="servico-texto">Rescisão, férias, 13º salário e outras verbas trabalhistas calculadas corretamente.</p>
+<p class="servico-preco">A partir de R$ 100,00</p>
+<div class="servico-acao"><a class="btn-whatsapp" href="#contato" data-whatsapp-msg="calculosTrabalhistas" aria-label="Falar no WhatsApp sobre: Cálculos trabalhistas"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Falar no WhatsApp</a></div>
+</li>
+<li class="servico-card">
+<span class="servico-icone" style="background: #0B5963"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8 M15 7h6v6"></path></svg></span>
+<h3 class="servico-titulo">Qual o melhor regime de impostos?</h3>
+<p class="servico-texto">Consultoria para escolher o regime que faz sua empresa pagar menos, dentro da lei, e organizar custos e despesas.</p>
+<p class="servico-preco">Valor a consultar</p>
+<div class="servico-acao"><a class="btn-whatsapp" href="#contato" data-whatsapp-msg="regimeDeImpostos" aria-label="Falar no WhatsApp sobre: Qual o melhor regime de impostos?"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Falar no WhatsApp</a></div>
+</li>
+<li class="servico-card">
+<span class="servico-icone" style="background: #1E727D"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l2-5h14l2 5 M3 9h18 M5 9v11h14V9 M10 20v-5h4v5"></path></svg></span>
+<h3 class="servico-titulo">Sou MEI. É hora de mudar?</h3>
+<p class="servico-texto">Vemos se você já passou do limite ou se vale a pena virar microempresa, e planejamos a mudança sem pagar imposto a mais.</p>
+<div class="servico-acao"><a class="btn-whatsapp" href="#contato" data-whatsapp-msg="mei" aria-label="Falar no WhatsApp sobre: Sou MEI. É hora de mudar?"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Falar no WhatsApp</a></div>
+</li>
+</ul>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); column-gap: 40px; align-content: start">
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 24px 72px">
+<div class="cartao" style="position: relative; padding: 36px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 24px 36px; background: var(--chao); ">
 
-<div style="display: flex; gap: 18px; padding: 26px 0; border-top: 1.5px solid var(--linha)">
-<div style="position: relative; flex-shrink: 0; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" filter="url(#pincelBotao)"></path></svg>
-<svg style="position: relative" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V8l8-5 8 5v13 M9 21v-6h6v6 M3 21h18"></path></svg>
-</div>
-<div style="display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 600; color: var(--titulo)">Abertura, regularização e baixa de CNPJ</h3>
-<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--texto2)">Abrimos sua empresa, colocamos a documentação em dia e, quando preciso, encerramos o CNPJ do jeito certo.</p>
-</div>
-</div>
 
-<div style="display: flex; gap: 18px; padding: 26px 0; border-top: 1.5px solid var(--linha)">
-<div style="position: relative; flex-shrink: 0; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#D87319" filter="url(#pincelBotao)"></path></svg>
-<svg style="position: relative" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v16H4z M4 10h16 M9 3v4 M15 3v4 M8 14h3 M8 17h6"></path></svg>
-</div>
-<div style="display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 600; color: var(--titulo)">Contabilidade para o seu CNPJ</h3>
-<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--texto2)">Contas, impostos e relatórios da sua empresa em dia, todo mês. A partir de R$ 150,00.</p>
-</div>
-</div>
+<div class="icone-solido" style="position: relative; flex-shrink: 0; width: 72px; height: 72px; display: flex; align-items: center; justify-content: center; background: #0B5963">
 
-<div style="display: flex; gap: 18px; padding: 26px 0; border-top: 1.5px solid var(--linha)">
-<div style="position: relative; flex-shrink: 0; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#1E727D" filter="url(#pincelBotao)"></path></svg>
-<svg style="position: relative" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z M9 15l6-6 M9 9.5h0.5 M14.5 14.5h0.5"></path></svg>
-</div>
-<div style="display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 600; color: var(--titulo)">Imposto de Renda (IRPF)</h3>
-<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--texto2)">Declaração de Imposto de Renda de pessoa física, feita com cuidado e no prazo. A partir de R$ 100,00.</p>
-</div>
-</div>
-
-<div style="display: flex; gap: 18px; padding: 26px 0; border-top: 1.5px solid var(--linha)">
-<div style="position: relative; flex-shrink: 0; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" filter="url(#pincelBotao)"></path></svg>
-<svg style="position: relative" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6 M16 5.5a3 3 0 0 1 0 5.5 M17 14c2.4.5 4 2.9 4 6"></path></svg>
-</div>
-<div style="display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 600; color: var(--titulo)">Cálculos trabalhistas</h3>
-<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--texto2)">Rescisão, férias, 13º salário e outras verbas trabalhistas calculadas corretamente. A partir de R$ 100,00.</p>
-</div>
-</div>
-
-<div style="display: flex; gap: 18px; padding: 26px 0; border-top: 1.5px solid var(--linha)">
-<div style="position: relative; flex-shrink: 0; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#1E727D" filter="url(#pincelBotao)"></path></svg>
-<svg style="position: relative" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8 M15 7h6v6"></path></svg>
-</div>
-<div style="display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 600; color: var(--titulo)">Consultoria administrativa e financeira</h3>
-<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--texto2)">Controle de custos e despesas e orientação para decidir com mais segurança sobre o dinheiro da empresa. Valor a consultar.</p>
-</div>
-</div>
-
-<div style="display: flex; gap: 18px; padding: 26px 0; border-top: 1.5px solid var(--linha)">
-<div style="position: relative; flex-shrink: 0; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#D87319" filter="url(#pincelBotao)"></path></svg>
-<svg style="position: relative" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l2-5h14l2 5 M3 9h18 M5 9v11h14V9 M10 20v-5h4v5"></path></svg>
-</div>
-<div style="display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 600; color: var(--titulo)">MEI e regime de impostos</h3>
-<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--texto2)">Ajudamos a escolher o regime que faz você pagar menos e o melhor momento para deixar de ser MEI.</p>
-</div>
-</div>
-
-</div>
-</div>
-<div style="max-width: 1200px; margin: -64px auto 0; padding: 0 24px 72px">
-<div style="position: relative; padding: 36px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 24px 36px; background: var(--chao); border-radius: 30px 36px 28px 34px">
-<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.6%" height="99.2%" rx="30" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
-<svg viewBox="0 0 160 14" style="position: absolute; left: 34px; bottom: -6px; width: 160px; height: 14px; overflow: visible; pointer-events: none" aria-hidden="true"><path d="M3 8 C 50 3, 100 12, 157 6" fill="none" stroke="#E8952F" stroke-width="6" stroke-linecap="round" filter="url(#pincelBotao)"></path></svg>
-<div style="position: relative; flex-shrink: 0; width: 72px; height: 72px; display: flex; align-items: center; justify-content: center">
-<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#D87319" filter="url(#pincelBotao)"></path></svg>
 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: relative"><path d="M5 4h11l3 3v13H5z M8 9h8 M8 13h8 M8 17h5"></path></svg>
 </div>
 <div style="position: relative; flex: 1 1 320px; display: flex; flex-direction: column; gap: 8px">
 <h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 26px; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Reforma tributária: o que muda para a sua empresa?</h3>
 <p style="margin: 0; font-size: 17px; line-height: 1.6; color: var(--texto2); max-width: 620px">Explicamos em palavras simples o que já mudou em 2026 e o que vem pela frente, além de outras informações úteis para o seu negócio.</p>
 </div>
-<div style="position: relative"><a href="/informacoes" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#0B5963" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#3F979C" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Ler as informações</span></a></div>
+<div style="position: relative"><a class="btn btn-escuro" href="/informacoes" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 30px"><span style="position: relative">Ler as informações</span></a></div>
 </div>
 </div>
 <div id="perguntas" style="max-width: 1200px; margin: 0 auto; padding: 0 24px 104px">
 <div style="max-width: 860px; margin: 0 auto; display: flex; flex-direction: column">
 <h2 style="margin: 0 0 14px; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Dúvidas que nossos clientes sempre têm</h2>
-<div style="display: flex; flex-direction: column; border-bottom: 1.5px solid var(--linha)"><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Como separar o dinheiro da pessoa física e da empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Tenha uma conta bancária só para a empresa e passe por ela todas as vendas e despesas. O que você retira para você deve sair como pró-labore ou como distribuição de lucros, sempre registrado. Assim a contabilidade fica correta e você evita problemas com o Imposto de Renda.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Qual é o melhor regime de impostos para a minha empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Depende do faturamento, da atividade, da margem de lucro e dos gastos com funcionários. O Simples Nacional costuma ser vantajoso para pequenas empresas, mas nem sempre é o mais barato. Fazemos as contas e mostramos qual regime faz você pagar menos, dentro da lei. Veja também a página do <a href="/simples-nacional" style="color: var(--titulo); text-decoration: underline; text-decoration-color: #E8952F; text-underline-offset: 4px">Simples Nacional</a>.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Qual é o melhor momento para deixar de ser MEI?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Quando o faturamento chega perto de R$ 81 mil por ano, quando você precisa de mais de um funcionário, quer ter sócio ou exerce uma atividade que não é permitida para o MEI. O ideal é planejar a mudança antes de passar do limite, para não pagar imposto a mais. Veja a página sobre o <a href="/mei" style="color: var(--titulo); text-decoration: underline; text-decoration-color: #E8952F; text-underline-offset: 4px">MEI</a>.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Como controlar os custos e as despesas da empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Anote todas as entradas e saídas, separe as contas pessoais das da empresa e acompanhe os números todo mês. Com relatórios simples, você vê para onde vai o dinheiro e onde dá para economizar. A consultoria da GESCOMP ajuda a montar esse controle.</p></details></div>
+<div style="display: flex; flex-direction: column; border-bottom: 1.5px solid var(--linha)"><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Como separar o dinheiro da pessoa física e da empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><circle cx="30" cy="30" r="27" fill="#E8952F"></circle><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Tenha uma conta bancária só para a empresa e passe por ela todas as vendas e despesas. O que você retira para você deve sair como pró-labore ou como distribuição de lucros, sempre registrado. Assim a contabilidade fica correta e você evita problemas com o Imposto de Renda.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Qual é o melhor regime de impostos para a minha empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><circle cx="30" cy="30" r="27" fill="#E8952F"></circle><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Depende do faturamento, da atividade, da margem de lucro e dos gastos com funcionários. O Simples Nacional costuma ser vantajoso para pequenas empresas, mas nem sempre é o mais barato. Fazemos as contas e mostramos qual regime faz você pagar menos, dentro da lei. Veja também a página do <a href="/simples-nacional" style="color: var(--titulo); text-decoration: underline; text-decoration-color: #E8952F; text-underline-offset: 4px">Simples Nacional</a>.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Qual é o melhor momento para deixar de ser MEI?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><circle cx="30" cy="30" r="27" fill="#E8952F"></circle><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Quando o faturamento chega perto de R$ 81 mil por ano, quando você precisa de mais de um funcionário, quer ter sócio ou exerce uma atividade que não é permitida para o MEI. O ideal é planejar a mudança antes de passar do limite, para não pagar imposto a mais. Veja a página sobre o <a href="/mei" style="color: var(--titulo); text-decoration: underline; text-decoration-color: #E8952F; text-underline-offset: 4px">MEI</a>.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Como controlar os custos e as despesas da empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><circle cx="30" cy="30" r="27" fill="#E8952F"></circle><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Anote todas as entradas e saídas, separe as contas pessoais das da empresa e acompanhe os números todo mês. Com relatórios simples, você vê para onde vai o dinheiro e onde dá para economizar. A consultoria da GESCOMP ajuda a montar esse controle.</p></details></div>
 </div>
 </div>
 </section>
@@ -791,24 +777,20 @@ document.documentElement.setAttribute('data-theme','light');
 <h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Cursos e comunidade</h2>
 <p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">Aprenda a cuidar das contas da sua empresa com cursos simples e troque experiências com outros empreendedores.</p>
 </div>
-<div><a href="[LINK-DA-PLATAFORMA]" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Conhecer a plataforma</span></a></div>
+<div><a class="btn btn-primario" href="[LINK-DA-PLATAFORMA]" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px"><span style="position: relative">Conhecer a plataforma</span></a></div>
 </div>
 </section>
 </template>
 <section style="position: relative; background: #0B5963; overflow: hidden">
-<svg viewBox="0 0 1440 100" preserveAspectRatio="none" style="display: block; width: 100%; height: 100px; background: var(--superficie)" aria-hidden="true">
-<path d="M0 60 C 300 10, 640 100, 980 50 S 1330 20, 1440 44 L1440 100 L0 100 Z" fill="#1E727D" filter="url(#pincel)"></path>
-<path d="M0 78 C 340 40, 700 110, 1040 70 S 1360 52, 1440 66 L1440 100 L0 100 Z" fill="#0B5963"></path>
-<path d="M0 78 C 340 40, 700 110, 1040 70 S 1360 52, 1440 66" fill="none" stroke="#E8952F" stroke-width="4" filter="url(#pincel)"></path>
-<rect data-borda="1" x="0" y="92" width="1440" height="10" fill="#0B5963"></rect></svg>
-<svg width="100%" height="100%" style="position: absolute; inset: 0; opacity: 0.08; mix-blend-mode: overlay; pointer-events: none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#tela)"></rect></svg>
+<div class="divisor-secao" aria-hidden="true"></div>
+
 <div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 40px 24px 88px; display: flex; align-items: center; gap: 44px; flex-wrap: wrap">
 <img src="/assets/img/selo-gescomp.webp" width="360" height="360" loading="lazy" decoding="async" alt="Selo GESCOMP" style="width: 150px; height: 150px; border-radius: 50%; display: block; box-shadow: 0 0 0 8px #1E727D">
 <div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 12px">
 <h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(28px, 3vw, 36px); line-height: 1.15; font-weight: 700; color: #FFFFFF">Vamos planejar juntos o próximo passo da sua empresa?</h2>
 <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #D3E6E6">Converse com a equipe pelo WhatsApp ou envie sua mensagem pelo formulário.</p>
 </div>
-<a href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Falar com a GESCOMP</span></a>
+<a class="btn btn-primario" href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px"><span style="position: relative">Falar com a GESCOMP</span></a>
 </div>
 </section>
 
@@ -918,28 +900,23 @@ document.documentElement.setAttribute('data-theme','light');
 </div>
 
 </div>
-<form id="form-contato" action="#" method="get" style="position: relative; padding: 44px 34px 40px; display: flex; flex-direction: column; gap: 18px">
-<svg viewBox="0 0 400 600" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true">
-<path d="M14 18 C 120 4, 280 10, 388 14 C 396 160, 392 420, 390 584 C 280 596, 120 592, 10 588 C 4 420, 8 160, 14 18 Z" style="fill: var(--sombra)" transform="translate(10 12)" filter="url(#pincelForte)"></path>
-<path d="M14 18 C 120 4, 280 10, 388 14 C 396 160, 392 420, 390 584 C 280 596, 120 592, 10 588 C 4 420, 8 160, 14 18 Z" style="fill: var(--papel)" filter="url(#pincelForte)"></path>
-<rect x="166" y="-4" width="72" height="22" fill="#E8952F" opacity="0.85" transform="rotate(-4 202 7)" filter="url(#pincelBotao)"></rect>
-<path d="M330 548 c 14 -10 30 -10 40 -2" fill="none" stroke="#5FA3A8" stroke-width="3" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
-</svg>
+<form class="cartao cartao-form" id="form-contato" action="#" method="get" style="position: relative; padding: 44px 34px 40px; display: flex; flex-direction: column; gap: 18px">
+
 <div style="position: relative; display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px">
 <h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 28px; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Envie sua mensagem</h3>
 <svg viewBox="0 0 200 16" preserveAspectRatio="none" style="width: 150px; height: 12px; overflow: visible" aria-hidden="true"><path d="M3 10 C 50 3, 120 14, 197 6" fill="none" stroke="#E8952F" stroke-width="6" stroke-linecap="round" filter="url(#pincelBotao)"></path></svg>
 </div>
 <div style="display: flex; flex-direction: column; gap: 8px">
 <label for="nome" style="position: relative; font-size: 14px; font-weight: 600; color: var(--texto)">Nome <span aria-hidden="true" style="color: #C9651A">*</span><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap"> (obrigatório)</span></label>
-<div style="position: relative"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><path style="fill: var(--campo)" d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" stroke="#5E9599" stroke-width="2" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><input id="nome" name="nome" type="text" autocomplete="name" required placeholder="Seu nome" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 18px; font-size: 16px; color: var(--texto)"></div>
+<div class="campo" style="position: relative"><input id="nome" name="nome" type="text" autocomplete="name" required placeholder="Seu nome" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 18px; font-size: 16px; color: var(--texto)"></div>
 </div>
 <div style="display: flex; flex-direction: column; gap: 8px">
 <label for="tel" style="position: relative; font-size: 14px; font-weight: 600; color: var(--texto)">Telefone ou WhatsApp <span aria-hidden="true" style="color: #C9651A">*</span><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap"> (obrigatório)</span></label>
-<div style="position: relative"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><path style="fill: var(--campo)" d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" stroke="#5E9599" stroke-width="2" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><input id="tel" name="telefone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="(79) 00000-0000" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 18px; font-size: 16px; color: var(--texto)"></div>
+<div class="campo" style="position: relative"><input id="tel" name="telefone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="(79) 00000-0000" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 18px; font-size: 16px; color: var(--texto)"></div>
 </div>
 <div style="display: flex; flex-direction: column; gap: 8px">
 <label for="assunto" style="position: relative; font-size: 14px; font-weight: 600; color: var(--texto)">Assunto</label>
-<div style="position: relative"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><path style="fill: var(--campo)" d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" stroke="#5E9599" stroke-width="2" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><select id="assunto" name="assunto" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 16px; font-size: 16px; color: var(--texto)">
+<div class="campo" style="position: relative"><select id="assunto" name="assunto" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 16px; font-size: 16px; color: var(--texto)">
 <option>Abertura, regularização ou baixa de CNPJ</option>
 <option>Contabilidade para o meu CNPJ</option>
 <option>Imposto de Renda (IRPF)</option>
@@ -950,9 +927,9 @@ document.documentElement.setAttribute('data-theme','light');
 </div>
 <div style="display: flex; flex-direction: column; gap: 8px">
 <label for="msg" style="position: relative; font-size: 14px; font-weight: 600; color: var(--texto)">Mensagem</label>
-<div style="position: relative"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><path style="fill: var(--campo)" d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" stroke="#5E9599" stroke-width="2" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><textarea id="msg" name="mensagem" rows="4" placeholder="Como podemos ajudar?" style="position: relative; display: block; width: 100%; box-sizing: border-box; border: 0; background: transparent; padding: 16px 18px; font-size: 16px; resize: vertical; color: var(--texto)"></textarea></div>
+<div class="campo" style="position: relative"><textarea id="msg" name="mensagem" rows="4" placeholder="Como podemos ajudar?" style="position: relative; display: block; width: 100%; box-sizing: border-box; border: 0; background: transparent; padding: 16px 18px; font-size: 16px; resize: vertical; color: var(--texto)"></textarea></div>
 </div>
-<button type="submit" style="position: relative; min-height: 58px; margin-top: 6px; border: 0; background: transparent; color: #FFFFFF; font-size: 16px; font-weight: 700; cursor: pointer; padding: 16px 24px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#0B5963" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#3F979C" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Enviar pelo WhatsApp</span></button>
+<button class="btn btn-escuro" type="submit" style="position: relative; min-height: 58px; margin-top: 6px; border: 0; color: #FFFFFF; font-size: 16px; font-weight: 700; cursor: pointer; padding: 16px 24px"><span style="position: relative">Enviar pelo WhatsApp</span></button>
 <p id="form-status" role="status" style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--texto2)">Ao enviar, o WhatsApp abre com a sua mensagem pronta.</p>
 </form>
 </div>
@@ -961,13 +938,13 @@ document.documentElement.setAttribute('data-theme','light');
 </main>
 <footer class="gc-rodape">
 <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display: block; width: 100%; height: 80px; background: var(--chao)" aria-hidden="true">
-<path d="M0 36 C 320 0, 660 70, 1000 30 S 1340 14, 1440 28 L1440 80 L0 80 Z" fill="#1E727D" filter="url(#pincel)"></path>
+<path d="M0 36 C 320 0, 660 70, 1000 30 S 1340 14, 1440 28 L1440 80 L0 80 Z" fill="#1E727D" filter="url(#pincelSuave)"></path>
 <path d="M0 54 C 360 24, 720 86, 1080 48 S 1380 40, 1440 48 L1440 80 L0 80 Z" fill="#003F4A"></path>
 <rect data-borda="1" x="0" y="72" width="1440" height="10" fill="#003F4A"></rect></svg>
 <div class="gc-rodape-grade">
 <div class="gc-rodape-marca-coluna">
 <a href="#inicio" aria-label="GESCOMP, voltar ao início" class="gc-rodape-marca">
-<svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#EEF0EF" filter="url(#pincelBotao)"></path></svg>
+
 <img src="/assets/img/logo-gescomp.webp" width="910" height="235" loading="lazy" decoding="async" alt="GESCOMP — Gestão Empresarial e Planejamento Contábil" class="gc-rodape-logo">
 </a>
 <p class="gc-rodape-slogan">Conectando Gestão, Estratégia e Resultados.</p>
@@ -998,7 +975,7 @@ document.documentElement.setAttribute('data-theme','light');
 </div>
 </div>
 <div class="gc-rodape-divisor">
-<svg viewBox="0 0 1200 12" preserveAspectRatio="none" style="display: block; width: 100%; height: 10px; margin-top: 36px" aria-hidden="true"><path d="M2 6 C 300 2, 700 10, 1198 5" fill="none" stroke="#1E727D" stroke-width="3" vector-effect="non-scaling-stroke" filter="url(#pincel)"></path></svg>
+<svg viewBox="0 0 1200 12" preserveAspectRatio="none" style="display: block; width: 100%; height: 10px; margin-top: 36px" aria-hidden="true"><path d="M2 6 C 300 2, 700 10, 1198 5" fill="none" stroke="#1E727D" stroke-width="3" vector-effect="non-scaling-stroke"></path></svg>
 </div>
 <div class="gc-rodape-creditos">
 <span>© 2026 GESCOMP – Gestão Empresarial e Planejamento Contábil Ltda. Todos os direitos reservados.</span>
@@ -1022,8 +999,8 @@ document.documentElement.setAttribute('data-theme','light');
 
 
 </div>
-<script src="/assets/js/config.js"></script>
-<script src="/assets/js/site.js?v=20261003-rio"></script>
+<script src="/assets/js/config.js?v=20261003-sobrio"></script>
+<script src="/assets/js/site.js?v=20261003-sobrio"></script>
 <!-- VLibras: tradução automática para Libras (Governo Federal) -->
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 <script src="/assets/js/libras.js" defer></script>
