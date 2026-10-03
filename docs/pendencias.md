@@ -13,7 +13,7 @@ Textos entre colchetes que ainda precisam ser trocados por informações reais (
 
 ## Outras pendências
 - **Fotos:** disponíveis com o usuário. Selecionar as imagens para os três espaços de `index.html` (abertura, Sobre e Serviços), otimizar e aplicar. Confirmar as autorizações de uso das pessoas retratadas.
-- **Domínio:** escolhido pelo usuário; o endereço final ainda não está registrado nesta documentação. O site continua configurado com `https://gescompcontabilidade.com.br`. Quando o valor final estiver disponível no workspace, atualizar todos os `.html`, `sitemap.xml`, `robots.txt` e `llms.txt`, além de conferir registro e DNS. Não presumir que a sugestão anterior, `gescompnegocios.com.br`, é a escolha final.
+- **Domínio:** **gescompnegocios.com.br**, comprado no Registro.br e confirmado pelo usuário em 03/10/2026. Já aplicado em todos os `.html`, `sitemap.xml`, `robots.txt` e `llms.txt`. Falta ligar o domínio ao Cloudflare Pages (DNS e Custom domains) e cadastrar no Google Search Console.
 - **CEP** do endereço de Barra dos Coqueiros: adicionar no Contato, no rodapé e em `postalCode` nos dados do Google.
 - **Nome da contadora:** **Gabriela do Nascimento Vieira**, confirmado e aplicado na legenda, texto Sobre, dados estruturados, `llms.txt` e cópia de revisão. Grafia correta: Gabriela, com um `l`.
 - **Folha de pagamento:** confirmar se ela faz folha completa; hoje o site fala só em cálculos trabalhistas.

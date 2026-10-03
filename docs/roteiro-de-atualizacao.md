@@ -6,19 +6,19 @@
 
 Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → textos e seções novas → publicação final.
 
-1. **Domínio confirmado** (faça primeiro: a troca de servidores pode levar até 48 h)
+1. **Domínio: gescompnegocios.com.br** (comprado no Registro.br; já configurado nos arquivos do site. Ligue ao Cloudflare primeiro: a troca de servidores pode levar até 48 h)
    - Registre no Registro.br em nome da empresa ou da Gabriela, não no seu.
    - No Cloudflare, adicione o domínio (Add a domain) e troque os servidores DNS no Registro.br pelos que o Cloudflare indicar.
-   - No projeto do Pages: Custom domains → adicione `gescompcontabilidade.com.br` e `www.gescompcontabilidade.com.br`. Crie uma regra de redirecionamento do `www` para o endereço sem `www`.
+   - No projeto do Pages: Custom domains → adicione `gescompnegocios.com.br` e `www.gescompnegocios.com.br`. Crie uma regra de redirecionamento do `www` para o endereço sem `www`.
    - Se o domínio final for outro, troque o endereço nos arquivos (veja `pendencias.md`).
-   - Cadastre o site no Google Search Console e envie `https://gescompcontabilidade.com.br/sitemap.xml`.
+   - Cadastre o site no Google Search Console e envie `https://gescompnegocios.com.br/sitemap.xml`.
 2. **Logo em alta qualidade**
    - Gere de novo: `assets/img/logo-gescomp.webp` e `.png`, `assets/img/selo-gescomp.webp`, `assets/img/og-image.jpg`, `favicon.ico`, `apple-touch-icon.png` e os ícones de `assets/icones/`.
    - Use nomes novos (ex.: `logo-gescomp-v2.webp`) e atualize as referências: assim ninguém vê a logo antiga guardada no navegador.
    - Se vier com fundo transparente, tire o `mix-blend-mode: multiply` da logo no cabeçalho e no rodapé.
 3. **Cores oficiais:** só se forem diferentes. Troque os 8 códigos de `01-empresa/identidade-visual/cores.md` em todos os arquivos (busca e substituição) e confira o contraste dos botões.
 4. **WhatsApp:** preencha `whatsapp` em `assets/js/config.js` (ex.: `5579999999999`). Todos os botões de WhatsApp e o formulário passam a usar o número. Escreva o número também no Contato, no rodapé e nos dados do Google.
-5. **E-mail:** preencha `email` em `assets/js/config.js`, troque `[E-MAIL]` no Contato e no rodapé. Para ter um e-mail com o domínio (ex.: contato@gescompcontabilidade.com.br), o Cloudflare Email Routing encaminha as mensagens para um Gmail, sem custo (só recebe; para enviar com o domínio, é preciso um serviço como Google Workspace ou Zoho).
+5. **E-mail:** preencha `email` em `assets/js/config.js`, troque `[E-MAIL]` no Contato e no rodapé. Para ter um e-mail com o domínio (ex.: contato@gescompnegocios.com.br), o Cloudflare Email Routing encaminha as mensagens para um Gmail, sem custo (só recebe; para enviar com o domínio, é preciso um serviço como Google Workspace ou Zoho).
 6. **Endereço com número:** Contato, rodapé, link "Como chegar" (inclua o número na busca do Maps), dados do Google e `llms.txt`. Se ela não quiser divulgar, deixe só bairro e cidade.
 7. **Horário:** Contato, rodapé e dados do Google.
 8. **Instagram e redes:** troque `@[USUARIO]` e o link `instagram.com/[USUARIO]` no Contato, no rodapé e no `llms.txt`; adicione `sameAs` nos dados do Google.

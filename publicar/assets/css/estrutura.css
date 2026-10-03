@@ -35,3 +35,14 @@
 .gc-rodape-divisor { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 .gc-rodape-creditos { max-width: 1200px; margin: 0 auto; padding: 18px 24px 36px; display: flex; justify-content: space-between; align-items: center; gap: 10px 24px; flex-wrap: wrap; font-size: 14px; color: #BFD6D7; }
 .gc-rodape-registros { display: flex; gap: 20px; flex-wrap: wrap; }
+
+/* Visual sóbrio: cabeçalho e rodapé com formas limpas (sem pincel) */
+.gc-cabecalho-marca, .gc-cabecalho-marca-mobile, .gc-rodape-marca { background: #EEF0EF; border-radius: 12px; }
+.gc-botao-tema { background: #0B5963; border-radius: 50%; box-shadow: inset 0 0 0 2px #5FA3A8; transition: background-color .2s ease; }
+.gc-botao-tema:hover { background: #1E727D; }
+.gc-cabecalho-whatsapp { border-radius: 50%; box-shadow: inset 0 0 0 2px #5FA3A8; transition: background-color .2s ease; }
+.gc-cabecalho-whatsapp:hover { background: #0B5963; }
+.gc-botao-menu { background: #E8952F; border-radius: 50%; }
+.gc-cabecalho-contato, .gc-menu-contato { background: #E8952F; border-radius: 12px; transition: background-color .2s ease; }
+.gc-cabecalho-contato:hover, .gc-menu-contato:hover { background: #F2A447; color: #003F4A; }
+.gc-menu-painel { padding-bottom: 28px; border-bottom: 1px solid #1E727D; }
