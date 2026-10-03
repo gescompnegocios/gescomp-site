@@ -1,24 +1,26 @@
 # O que fazer quando cada material chegar
 
 **Já aplicado em 01/10/2026:** WhatsApp e e-mail (em `assets/js/config.js`), endereço físico, horário, Instagram e TikTok, CNPJ, CRC, nome oficial, logo nova, slogan, texto Sobre, números, serviços com preços e perguntas frequentes.
-**Materiais já disponíveis com o usuário (03/10/2026):** domínio escolhido, imagens e nome completo. O nome **Gabriela do Nascimento Vieira** já foi aplicado. Registrar o domínio final e selecionar/aplicar as imagens no site, sem pedir esses materiais novamente.
+**Materiais já disponíveis com o usuário (03/10/2026):** domínio **gescompnegocios.com.br**, comprado no Registro.br, imagens e nome completo. O nome **Gabriela do Nascimento Vieira** já foi aplicado. Conectar o domínio à hospedagem e selecionar/aplicar as imagens no site.
 **Ainda falta confirmar/receber:** depoimentos autorizados, CEP, autorizações das fotos, alcance do serviço de folha, aprovação dos textos, logo vetorial (se houver) e referências visuais.
 
 Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → textos e seções novas → publicação final.
 
-1. **Domínio confirmado** (faça primeiro: a troca de servidores pode levar até 48 h)
-   - Registre no Registro.br em nome da empresa ou da Gabriela, não no seu.
-   - No Cloudflare, adicione o domínio (Add a domain) e troque os servidores DNS no Registro.br pelos que o Cloudflare indicar.
-   - No projeto do Pages: Custom domains → adicione `gescompcontabilidade.com.br` e `www.gescompcontabilidade.com.br`. Crie uma regra de redirecionamento do `www` para o endereço sem `www`.
-   - Se o domínio final for outro, troque o endereço nos arquivos (veja `pendencias.md`).
-   - Cadastre o site no Google Search Console e envie `https://gescompcontabilidade.com.br/sitemap.xml`.
+1. **Conectar gescompnegocios.com.br ao Worker gescomp-site**
+   - O endereço ativo é `https://gescomp-site.gescompnegocios.workers.dev`. O domínio final já foi comprado. Na consulta de 03/10/2026, a delegação DNS ainda está em `a.auto.dns.br` e `b.auto.dns.br` (Registro.br).
+   - Adicione `gescompnegocios.com.br` à mesma conta Cloudflare que contém o Worker `gescomp-site`. Confira os registros DNS importados. Anote os dois servidores DNS atribuídos pela Cloudflare.
+   - No Registro.br, edite os servidores DNS do domínio e informe exatamente os dois servidores atribuídos pela Cloudflare. Aguarde a zona aparecer como ativa; não use servidores de outro domínio ou de outra conta.
+   - No Worker: Workers & Pages → gescomp-site → Settings → Domains & Routes → Add → Custom Domain. Adicione `gescompnegocios.com.br` quando a zona estiver ativa. A Cloudflare cria o registro DNS e o certificado HTTPS. [Documentação oficial](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
+   - Para `www`, configure um registro DNS com proxy e uma regra de redirecionamento permanente para `https://gescompnegocios.com.br`, preservando caminho e parâmetros. Veja a seção sobre redirecionamento entre `www` e domínio raiz na documentação oficial acima.
+   - Confirme a página inicial, `/informacoes`, `/assets/css/site.css` e `/sitemap.xml` com HTTPS no domínio final. Só depois troque `https://gescomp-site.gescompnegocios.workers.dev` por `https://gescompnegocios.com.br` nos HTMLs de `publicar/`, nos dados estruturados, em `sitemap.xml`, `robots.txt` e `llms.txt`, e publique.
+   - Cadastre o domínio no Google Search Console e envie `https://gescompnegocios.com.br/sitemap.xml`.
 2. **Logo em alta qualidade**
    - Gere de novo: `assets/img/logo-gescomp.webp` e `.png`, `assets/img/selo-gescomp.webp`, `assets/img/og-image.jpg`, `favicon.ico`, `apple-touch-icon.png` e os ícones de `assets/icones/`.
    - Use nomes novos (ex.: `logo-gescomp-v2.webp`) e atualize as referências: assim ninguém vê a logo antiga guardada no navegador.
    - Se vier com fundo transparente, tire o `mix-blend-mode: multiply` da logo no cabeçalho e no rodapé.
 3. **Cores oficiais:** só se forem diferentes. Troque os 8 códigos de `01-empresa/identidade-visual/cores.md` em todos os arquivos (busca e substituição) e confira o contraste dos botões.
 4. **WhatsApp:** preencha `whatsapp` em `assets/js/config.js` (ex.: `5579999999999`). Todos os botões de WhatsApp e o formulário passam a usar o número. Escreva o número também no Contato, no rodapé e nos dados do Google.
-5. **E-mail:** preencha `email` em `assets/js/config.js`, troque `[E-MAIL]` no Contato e no rodapé. Para ter um e-mail com o domínio (ex.: contato@gescompcontabilidade.com.br), o Cloudflare Email Routing encaminha as mensagens para um Gmail, sem custo (só recebe; para enviar com o domínio, é preciso um serviço como Google Workspace ou Zoho).
+5. **E-mail:** preencha `email` em `assets/js/config.js`, troque `[E-MAIL]` no Contato e no rodapé. Para ter um e-mail com o domínio (ex.: contato@gescompnegocios.com.br), o Cloudflare Email Routing encaminha as mensagens para um Gmail, sem custo (só recebe; para enviar com o domínio, é preciso um serviço como Google Workspace ou Zoho).
 6. **Endereço com número:** Contato, rodapé, link "Como chegar" (inclua o número na busca do Maps), dados do Google e `llms.txt`. Se ela não quiser divulgar, deixe só bairro e cidade.
 7. **Horário:** Contato, rodapé e dados do Google.
 8. **Instagram e redes:** troque `@[USUARIO]` e o link `instagram.com/[USUARIO]` no Contato, no rodapé e no `llms.txt`; adicione `sameAs` nos dados do Google.

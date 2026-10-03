@@ -1,6 +1,6 @@
 # Pendências no site
 
-Atualizado em 03/10/2026. O usuário informou que já tem o domínio escolhido, as imagens e o nome completo. Esses materiais não devem ser pedidos novamente. Nome confirmado e aplicado: **Gabriela do Nascimento Vieira**. Falta registrar o domínio final e selecionar/aplicar as imagens.
+Atualizado em 03/10/2026. Domínio final confirmado: **gescompnegocios.com.br**, comprado no Registro.br. Nome confirmado e aplicado: **Gabriela do Nascimento Vieira**. Falta conectar o domínio à hospedagem e selecionar/aplicar as imagens que já estão com o usuário.
 
 Textos entre colchetes que ainda precisam ser trocados por informações reais (busque o texto exato nos arquivos).
 
@@ -13,7 +13,7 @@ Textos entre colchetes que ainda precisam ser trocados por informações reais (
 
 ## Outras pendências
 - **Fotos:** disponíveis com o usuário. Selecionar as imagens para os três espaços de `index.html` (abertura, Sobre e Serviços), otimizar e aplicar. Confirmar as autorizações de uso das pessoas retratadas.
-- **Domínio:** escolhido pelo usuário; o endereço final ainda não está registrado nesta documentação. O site continua configurado com `https://gescompcontabilidade.com.br`. Quando o valor final estiver disponível no workspace, atualizar todos os `.html`, `sitemap.xml`, `robots.txt` e `llms.txt`, além de conferir registro e DNS. Não presumir que a sugestão anterior, `gescompnegocios.com.br`, é a escolha final.
+- **Domínio:** **gescompnegocios.com.br**, comprado no Registro.br. Na consulta de 03/10/2026, ainda usa `a.auto.dns.br` e `b.auto.dns.br` e não tem endereço IPv4 publicado. Enquanto a conexão ao Worker não estiver concluída, canonical, compartilhamento, dados estruturados, `sitemap.xml`, `robots.txt` e `llms.txt` usam `https://gescomp-site.gescompnegocios.workers.dev`, seguindo a correção do Claude. Veja o passo 1 de `roteiro-de-atualizacao.md`. Depois de confirmar o domínio funcionando com HTTPS, atualizar esses endereços para `https://gescompnegocios.com.br` e publicar.
 - **CEP** do endereço de Barra dos Coqueiros: adicionar no Contato, no rodapé e em `postalCode` nos dados do Google.
 - **Nome da contadora:** **Gabriela do Nascimento Vieira**, confirmado e aplicado na legenda, texto Sobre, dados estruturados, `llms.txt` e cópia de revisão. Grafia correta: Gabriela, com um `l`.
 - **Folha de pagamento:** confirmar se ela faz folha completa; hoje o site fala só em cálculos trabalhistas.

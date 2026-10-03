@@ -2,13 +2,19 @@
 
 ```
 02-site/
-├── publicar/     ← ESTA é a pasta que vai para o Cloudflare Pages
+├── publicar/     ← arquivos servidos pela hospedagem do site
 ├── conteudo/     ← textos de cada página, para revisão
 ├── design/       ← cópia dos arquivos do canvas
 └── docs/         ← pendências, roteiro de atualização e decisões
 ```
 
-## Como publicar no Cloudflare Pages
+## Hospedagem atual e domínio
+
+O site está no Worker `gescomp-site`, em `https://gescomp-site.gescompnegocios.workers.dev`. O domínio final é **gescompnegocios.com.br**, comprado no Registro.br e ainda aguardando conexão à Cloudflare.
+
+Os endereços oficiais nos arquivos usam o endereço ativo do Worker até o domínio final funcionar com HTTPS. Veja o passo 1 de `docs/roteiro-de-atualizacao.md` para conectar o domínio ao Worker e depois atualizar esses endereços.
+
+## Como publicar no Cloudflare Pages (alternativa)
 
 **Opção 1 – Envio direto (mais simples)**
 1. Entre em https://dash.cloudflare.com → Workers & Pages → Create → aba Pages → Upload assets.
