@@ -18,7 +18,7 @@ Textos entre colchetes que ainda precisam ser trocados por informações reais (
 - **Nome da contadora:** **Gabriela do Nascimento Vieira**, confirmado e aplicado na legenda, texto Sobre, dados estruturados, `llms.txt` e cópia de revisão. Grafia correta: Gabriela, com um `l`.
 - **Folha de pagamento:** confirmar se ela faz folha completa; hoje o site fala só em cálculos trabalhistas.
 - **Perguntas frequentes da página inicial:** as respostas foram escritas para o site; pedir a revisão dela.
-- **Depoimentos:** criar a seção quando chegarem as autorizações.
+- **Avaliações de clientes:** a seção está pronta e escondida. Falta receber da Gabriela: o link de avaliação do Google (`g.page/r/CODIGO/review`), o link para ver todas as avaliações, as avaliações escolhidas (com autorização), a nota e o total. Tudo vai em `publicar/assets/js/config.js`, objeto `avaliacoes` (veja `LEIA-ME.md`).
 - **Cursos e comunidade:** seção pronta e escondida; ativar quando houver a plataforma (`[LINK-DA-PLATAFORMA]`).
 
 ## Revisão de 03/10/2026

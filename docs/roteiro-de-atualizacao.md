@@ -2,7 +2,7 @@
 
 **Já aplicado em 01/10/2026:** WhatsApp e e-mail (em `assets/js/config.js`), endereço físico, horário, Instagram e TikTok, CNPJ, CRC, nome oficial, logo nova, slogan, texto Sobre, números, serviços com preços e perguntas frequentes.
 **Materiais já disponíveis com o usuário (03/10/2026):** domínio escolhido, imagens e nome completo. O nome **Gabriela do Nascimento Vieira** já foi aplicado. Registrar o domínio final e selecionar/aplicar as imagens no site, sem pedir esses materiais novamente.
-**Ainda falta confirmar/receber:** depoimentos autorizados, CEP, autorizações das fotos, alcance do serviço de folha, aprovação dos textos, logo vetorial (se houver) e referências visuais.
+**Ainda falta confirmar/receber:** avaliações do Google (link, avaliações escolhidas, nota e total), CEP, autorizações das fotos, alcance do serviço de folha, aprovação dos textos, logo vetorial (se houver) e referências visuais.
 
 Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → textos e seções novas → publicação final.
 
@@ -28,7 +28,7 @@ Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → 
 12. **Números reais:** troque o texto e o `data-contador` de cada número. Publique só números verdadeiros.
 13. **Slogan:** mantenha o título atual (bom para o Google) e use o slogan como frase menor, se ela tiver.
 14. **Preços:** se ela divulgar, coloque "A partir de R$" nos cartões de serviço, com aviso de que o valor final depende da análise.
-15. **Depoimentos:** crie a seção com cartões pintados, só com autorização por escrito. Não marque como avaliação com estrelas nos dados do Google.
+15. **Avaliações:** a seção "O que dizem nossos clientes" já existe e fica escondida. Preencha o objeto `avaliacoes` em `assets/js/config.js` (links, nota, total e itens); ela aparece sozinha. Só publique avaliações reais, com autorização, e não marque como avaliação nos dados do Google.
 16. **Perguntas frequentes:** crie a seção na página inicial, no formato das páginas de Informações, e adicione os dados de FAQ do Google.
 17. **Fotos:** corte na proporção do espaço, reduza para até 1600 px, salve em WebP (de preferência abaixo de 300 KB) em `assets/img/` e escreva o texto alternativo. Guarde os originais em `01-empresa/fotos/`.
 18. **Sites de referência:** só no fim, para pequenos ajustes.

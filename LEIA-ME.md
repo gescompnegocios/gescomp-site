@@ -48,7 +48,31 @@ Abra o endereço informado no terminal, normalmente `http://localhost:8788`. Enc
 - **Parar ao assistir:**
   - *Vídeo próprio:* o carrossel para no "play" e volta cerca de 3 s depois do "pause" ou do fim do vídeo. Se o vídeo sair da área visível do carrossel, ele é pausado.
   - *Instagram:* o embed é um iframe de outro domínio, então o site não consegue saber se o vídeo está tocando ou pausado. O site deduz: quando a pessoa clica ou toca dentro do vídeo, o foco vai para o iframe e o carrossel para. Ele volta cerca de 3 s depois de a pessoa clicar ou tocar fora, tirar o mouse do carrossel, usar as setas ou o vídeo sair da tela. Se a pessoa pausar o Reel pelo próprio botão do Instagram e continuar com o mouse parado em cima, o carrossel continua parado até ela sair dali.
-- **Controles:** setas redondas pintadas nas laterais, no meio da altura do carrossel (52 px no computador, 44 px no celular). Também funcionam as teclas ← e → com a lista de vídeos focada. As setas somem quando há um único vídeo ou quando todos cabem na tela.
+- **Controles:** setas redondas lisas (petróleo, ícone branco) nas laterais, no meio da altura do carrossel (52 px no computador, 44 px no celular). Também funcionam as teclas ← e → com a lista de vídeos focada. As setas somem quando há um único vídeo ou quando todos cabem na tela.
+
+## Cards de serviços (WhatsApp)
+- A seção **Serviços** da página inicial tem 6 cards: Abrir meu CNPJ; Contabilidade para a minha empresa; Imposto de Renda; Cálculos trabalhistas; Qual o melhor regime de impostos?; Sou MEI. É hora de mudar?
+- Títulos, textos e preços ficam no `publicar/index.html` (o Google lê esse conteúdo). Os preços também estão nas ofertas dos dados estruturados (`application/ld+json`) da mesma página: se mudar um preço, mude nos dois lugares.
+- **Mensagens do WhatsApp:** ficam em `publicar/assets/js/config.js`, no objeto `mensagensWhatsApp`. Cada card aponta para a sua mensagem pelo atributo `data-whatsapp-msg` (`abrirCnpj`, `contabilidade`, `impostoDeRenda`, `calculosTrabalhistas`, `regimeDeImpostos`, `mei`). Para mudar o texto, troque só o que está entre aspas. Se um nome não existir, o card usa a `mensagemPadrao`.
+- O botão abre o WhatsApp do número configurado em `config.js`, em nova aba, com a mensagem pronta. Sem JavaScript, leva ao formulário de contato.
+
+## Avaliações de clientes
+- Seção **"O que dizem nossos clientes"**, logo depois de Resultados. **Fica escondida enquanto não houver avaliações** na configuração.
+- Tudo é preenchido em `publicar/assets/js/config.js`, no objeto `avaliacoes`:
+  - `linkAvaliar`: link do Google para deixar avaliação (no Perfil da Empresa no Google: "Pedir avaliações"; formato `https://g.page/r/CODIGO/review`). Vazio = o botão "Avaliar a GESCOMP no Google" não aparece.
+  - `linkVerTodas`: link que abre as avaliações no Google (por exemplo, o perfil no Google Maps). Vazio = o botão "Ver todas as avaliações no Google" não aparece.
+  - `nota` e `total`: como aparecem no Google (ex.: `nota: 4.9, total: 37`). O resumo "Nota 4,9 no Google, 37 avaliações" só aparece com os dois preenchidos.
+  - `itens`: as avaliações escolhidas, uma por bloco: `{ nome: "Maria Souza", texto: "...", estrelas: 5 },`. No site aparece só o primeiro nome e a inicial do último sobrenome ("Maria S."), sem foto, com as estrelas e o texto acessível "5 de 5 estrelas".
+- Use o texto original da avaliação, com a autorização do cliente. Não ofereça desconto, brinde ou qualquer vantagem em troca de avaliação: o Google proíbe.
+- As avaliações **não** entram nos dados estruturados (`AggregateRating`/`Review`): o Google ignora avaliações que a empresa publica sobre si mesma.
+- O carrossel funciona como o dos vídeos: um card a cada 8 segundos, para com mouse, foco de teclado, toque e "reduzir movimento"; setas nas laterais e teclas ← e →. Os dois carrosséis usam a mesma função `criarCarrossel` em `publicar/assets/js/site.js`.
+
+## Visual (nível sóbrio)
+- **Página inicial ("nível 2"):** botões retangulares com cantos arredondados (12 px), cards com borda fina e sombra suave, ícones em quadrados arredondados de cor sólida, formulário em cartão branco com campos retos e cabeçalho com botões redondos lisos. Laranja só em botões de ação e sublinhados.
+- **Continua desenhado:** sublinhado de pincel do título da abertura e do formulário, ilustração da abertura (com pincel mais suave), moldura da foto no Sobre, três ondas (fim da abertura, entrada do rio e topo do rodapé), botão flutuante do WhatsApp e **toda a seção do Rio Sergipe, intacta**.
+- **Páginas de Informações ("nível 3"):** só o sublinhado do título e a onda do fim da abertura ficam desenhados; linha do tempo, cards, tabelas, perguntas frequentes e botões ficam limpos.
+- As classes dos componentes limpos (`btn`, `cartao`, `icone-solido`, `etiqueta`, `campo`, `servico-card`, `avaliacao-card`, `carrossel-seta`) estão em `publicar/assets/css/site.css`; cabeçalho e rodapé em `publicar/assets/css/estrutura.css`. Os filtros de pincel mais leves das partes mantidas são `pincelSuave` e `pincelMedio`, definidos em cada página (os filtros antigos continuam só para o rio).
+- **Ao mudar CSS ou JavaScript:** as páginas carregam `site.css`, `estrutura.css`, `config.js` e `site.js` com `?v=...` no fim. Troque esse valor em todos os `.html` (busca e substituição) para quem já visitou receber a versão nova.
 
 ## Libras (VLibras)
 - O tradutor de Libras do Governo Federal está nas nove páginas principais (botão no lado direito da tela, logo acima do WhatsApp).
