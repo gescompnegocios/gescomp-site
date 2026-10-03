@@ -25,15 +25,15 @@
 - Razão social: GESCOMP - Gestão Empresarial e Planejamento Contábil Ltda, CNPJ 67.569.857/0001-06
 
 ## Informações (atualizadas em 01/10/2026)
-- Reforma tributária em palavras simples (CBS, IBS, linha do tempo de 2026 a 2033): https://gescompnegocios.com.br/informacoes
-- Imposto de Renda: Quem fica isento até R$ 5 mil, o que muda para sócios de empresas e como se preparar para a declaração de 2027. https://gescompnegocios.com.br/imposto-de-renda
-- MEI: Quanto o MEI paga em 2026, quanto pode faturar, quais os prazos e quando virar microempresa. https://gescompnegocios.com.br/mei
-- Simples Nacional: Como funciona, os limites e o que decidir até 30 de outubro de 2026 por causa da reforma. https://gescompnegocios.com.br/simples-nacional
-- Abrir empresa: Tipos de empresa, passo a passo, documentos e o novo CNPJ com letras e números. https://gescompnegocios.com.br/abrir-empresa
-- Pró-labore e lucros: Como o sócio recebe da empresa e o que mudou em 2026 com a nova lei. https://gescompnegocios.com.br/pro-labore-e-lucros
-- Funcionários e folha: Contratação, INSS, FGTS, 13º e férias, com os valores de 2026. https://gescompnegocios.com.br/departamento-pessoal
-- Calendário de datas: Prazos que não podem passar em branco, de outubro de 2026 a maio de 2027. https://gescompnegocios.com.br/calendario-fiscal
+- Reforma tributária em palavras simples (CBS, IBS, linha do tempo de 2026 a 2033): https://gescomp-site.gescompnegocios.workers.dev/informacoes
+- Imposto de Renda: Quem fica isento até R$ 5 mil, o que muda para sócios de empresas e como se preparar para a declaração de 2027. https://gescomp-site.gescompnegocios.workers.dev/imposto-de-renda
+- MEI: Quanto o MEI paga em 2026, quanto pode faturar, quais os prazos e quando virar microempresa. https://gescomp-site.gescompnegocios.workers.dev/mei
+- Simples Nacional: Como funciona, os limites e o que decidir até 30 de outubro de 2026 por causa da reforma. https://gescomp-site.gescompnegocios.workers.dev/simples-nacional
+- Abrir empresa: Tipos de empresa, passo a passo, documentos e o novo CNPJ com letras e números. https://gescomp-site.gescompnegocios.workers.dev/abrir-empresa
+- Pró-labore e lucros: Como o sócio recebe da empresa e o que mudou em 2026 com a nova lei. https://gescomp-site.gescompnegocios.workers.dev/pro-labore-e-lucros
+- Funcionários e folha: Contratação, INSS, FGTS, 13º e férias, com os valores de 2026. https://gescomp-site.gescompnegocios.workers.dev/departamento-pessoal
+- Calendário de datas: Prazos que não podem passar em branco, de outubro de 2026 a maio de 2027. https://gescomp-site.gescompnegocios.workers.dev/calendario-fiscal
 
 ## Links
-- Site: https://gescompnegocios.com.br/
-- Contato: https://gescompnegocios.com.br/#contato
+- Site: https://gescomp-site.gescompnegocios.workers.dev/
+- Contato: https://gescomp-site.gescompnegocios.workers.dev/#contato

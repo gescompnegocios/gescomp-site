@@ -31,4 +31,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://gescompnegocios.com.br/sitemap.xml
+Sitemap: https://gescomp-site.gescompnegocios.workers.dev/sitemap.xml

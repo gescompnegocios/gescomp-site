@@ -13,7 +13,7 @@ Textos entre colchetes que ainda precisam ser trocados por informações reais (
 
 ## Outras pendências
 - **Fotos:** disponíveis com o usuário. Selecionar as imagens para os três espaços de `index.html` (abertura, Sobre e Serviços), otimizar e aplicar. Confirmar as autorizações de uso das pessoas retratadas.
-- **Domínio:** **gescompnegocios.com.br**, comprado no Registro.br e confirmado pelo usuário em 03/10/2026. Já aplicado em todos os `.html`, `sitemap.xml`, `robots.txt` e `llms.txt`. Falta ligar o domínio ao Cloudflare Pages (DNS e Custom domains) e cadastrar no Google Search Console.
+- **Domínio:** **gescompnegocios.com.br** foi comprado no Registro.br, mas **ainda não está ativo**. Enquanto isso, os endereços oficiais do site (canonical, imagem de compartilhamento, `sitemap.xml`, `robots.txt`, `llms.txt` e dados do Google) usam o endereço que está no ar: `https://gescomp-site.gescompnegocios.workers.dev`. Quando o domínio for ligado ao Cloudflare (passo 1 de `roteiro-de-atualizacao.md`), troque o endereço em todos os arquivos. No terminal, dentro de `publicar/`: `grep -rl "gescomp-site.gescompnegocios.workers.dev" . | xargs sed -i "s#gescomp-site.gescompnegocios.workers.dev#gescompnegocios.com.br#g"`. Depois, cadastre o domínio no Google Search Console e envie o novo `sitemap.xml`.
 - **CEP** do endereço de Barra dos Coqueiros: adicionar no Contato, no rodapé e em `postalCode` nos dados do Google.
 - **Nome da contadora:** **Gabriela do Nascimento Vieira**, confirmado e aplicado na legenda, texto Sobre, dados estruturados, `llms.txt` e cópia de revisão. Grafia correta: Gabriela, com um `l`.
 - **Folha de pagamento:** confirmar se ela faz folha completa; hoje o site fala só em cálculos trabalhistas.

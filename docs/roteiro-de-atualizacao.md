@@ -6,11 +6,11 @@
 
 Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → textos e seções novas → publicação final.
 
-1. **Domínio: gescompnegocios.com.br** (comprado no Registro.br; já configurado nos arquivos do site. Ligue ao Cloudflare primeiro: a troca de servidores pode levar até 48 h)
+1. **Domínio: gescompnegocios.com.br** (comprado no Registro.br, ainda não ativo; hoje o site está em `https://gescomp-site.gescompnegocios.workers.dev`, que é o endereço usado nos arquivos. A troca de servidores pode levar até 48 h)
    - Registre no Registro.br em nome da empresa ou da Gabriela, não no seu.
    - No Cloudflare, adicione o domínio (Add a domain) e troque os servidores DNS no Registro.br pelos que o Cloudflare indicar.
-   - No projeto do Pages: Custom domains → adicione `gescompnegocios.com.br` e `www.gescompnegocios.com.br`. Crie uma regra de redirecionamento do `www` para o endereço sem `www`.
-   - Se o domínio final for outro, troque o endereço nos arquivos (veja `pendencias.md`).
+   - No Worker `gescomp-site` (Workers & Pages → gescomp-site → Settings → Domains & Routes): adicione como Custom domain `gescompnegocios.com.br` e `www.gescompnegocios.com.br`. Crie uma regra de redirecionamento do `www` para o endereço sem `www`.
+   - **Quando o domínio estiver abrindo o site**, troque o endereço nos arquivos: dentro de `publicar/`, rode `grep -rl "gescomp-site.gescompnegocios.workers.dev" . | xargs sed -i "s#gescomp-site.gescompnegocios.workers.dev#gescompnegocios.com.br#g"` (atualiza todos os `.html`, `sitemap.xml`, `robots.txt` e `llms.txt`) e publique de novo.
    - Cadastre o site no Google Search Console e envie `https://gescompnegocios.com.br/sitemap.xml`.
 2. **Logo em alta qualidade**
    - Gere de novo: `assets/img/logo-gescomp.webp` e `.png`, `assets/img/selo-gescomp.webp`, `assets/img/og-image.jpg`, `favicon.ico`, `apple-touch-icon.png` e os ícones de `assets/icones/`.

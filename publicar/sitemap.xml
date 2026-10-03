@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://gescompnegocios.com.br/</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://gescompnegocios.com.br/assets/img/og-image.jpg</image:loc>
+      <image:loc>https://gescomp-site.gescompnegocios.workers.dev/assets/img/og-image.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://gescompnegocios.com.br/informacoes</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/informacoes</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gescompnegocios.com.br/imposto-de-renda</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/imposto-de-renda</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gescompnegocios.com.br/mei</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/mei</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gescompnegocios.com.br/simples-nacional</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/simples-nacional</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gescompnegocios.com.br/abrir-empresa</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/abrir-empresa</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gescompnegocios.com.br/pro-labore-e-lucros</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/pro-labore-e-lucros</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gescompnegocios.com.br/departamento-pessoal</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/departamento-pessoal</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gescompnegocios.com.br/calendario-fiscal</loc>
+    <loc>https://gescomp-site.gescompnegocios.workers.dev/calendario-fiscal</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
