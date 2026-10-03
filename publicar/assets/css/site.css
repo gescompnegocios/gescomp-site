@@ -52,7 +52,6 @@ body{background:var(--chao)}
 .hero-seta{animation:gc-aparecer .2s .85s ease both}
 .hero-pincelada{animation:gc-tracar .6s .4s cubic-bezier(.4,0,.2,1) both}
 }
-@media (prefers-reduced-motion:reduce){.rio-sol,.rio-lua,.rio-estrelas,.rio-luz,.rio-luz-predio{transition:none}}
 @keyframes gc-subir{from{transform:scaleY(0)}to{transform:scaleY(1)}}
 @keyframes gc-surgir{from{opacity:0;transform:scale(.75)}to{opacity:1;transform:scale(1)}}
 @keyframes gc-tracar{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}

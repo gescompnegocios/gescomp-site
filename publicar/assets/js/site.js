@@ -1,5 +1,10 @@
 (function(){
 var raiz=document.documentElement;
+var cenaRio=document.querySelector('.rio-cena');
+function retomarRio(){if(cenaRio&&cenaRio.unpauseAnimations)cenaRio.unpauseAnimations();}
+retomarRio();
+window.addEventListener('pageshow',retomarRio);
+document.addEventListener('visibilitychange',function(){if(!document.hidden)retomarRio();});
 var reduzir=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 var botoesTema=document.querySelectorAll('[data-acao="tema"]');
 function sincronizarTema(){var e=raiz.getAttribute('data-theme')==='dark';for(var i=0;i<botoesTema.length;i++)botoesTema[i].setAttribute('aria-pressed',e?'true':'false');}
