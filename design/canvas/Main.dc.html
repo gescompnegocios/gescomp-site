@@ -1,0 +1,828 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>GESCOMP — Página inicial</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+summary::-webkit-details-marker{display:none}
+.ig-trilha::-webkit-scrollbar{display:none}
+details[open] .faq-icone{transform:rotate(45deg)}
+.faq-icone{transition:transform .25s ease}
+body{margin:0;background:#F1F5F4}
+html{scroll-behavior:smooth}
+a{color:#0B5963}a:hover{color:#003F4A}
+input,textarea,select,button{font-family:inherit}
+@media (prefers-reduced-motion: no-preference){.tema-raiz,.tema-raiz section,.tema-raiz form,.tema-raiz h2,.tema-raiz h3,.tema-raiz p,.tema-raiz path,.tema-raiz rect,.tema-raiz input,.tema-raiz textarea,.tema-raiz select{transition:background-color .7s ease,color .7s ease,fill .7s ease}}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #E8952F;outline-offset:3px;box-shadow:0 0 0 3px #003F4A}
+.tema-raiz ::placeholder{color:var(--texto2);opacity:1}
+</style>
+</helmet>
+<div class="tema-raiz" style="--chao: {{tema.chao}}; --superficie: {{tema.superficie}}; --papel: {{tema.papel}}; --foto: {{tema.foto}}; --sombra: {{tema.sombra}}; --fotoTexto: {{tema.fotoTexto}}; --titulo: {{tema.titulo}}; --texto: {{tema.texto}}; --texto2: {{tema.texto2}}; --linha: {{tema.linha}}; --campo: {{tema.campo}}; --nuvem: {{tema.nuvem}}; font-family: 'Figtree', 'Segoe UI', system-ui, sans-serif; color: var(--texto); background: var(--chao); min-height: 100vh; overflow-x: clip">
+
+<svg width="0" height="0" style="position: absolute" aria-hidden="true">
+<defs>
+<filter id="pincel" x="-5%" y="-5%" width="110%" height="110%">
+<feTurbulence type="fractalNoise" baseFrequency="0.035 0.09" numOctaves="3" seed="7" result="n"></feTurbulence>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="9" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+</filter>
+<filter id="pincelForte" x="-10%" y="-20%" width="120%" height="140%">
+<feTurbulence type="fractalNoise" baseFrequency="0.02 0.12" numOctaves="4" seed="3" result="n"></feTurbulence>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="16" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+</filter>
+<filter id="pincelBotao" x="-6%" y="-15%" width="112%" height="130%">
+<feTurbulence type="fractalNoise" baseFrequency="0.05 0.25" numOctaves="3" seed="11" result="n"></feTurbulence>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+</filter>
+<filter id="tela">
+<feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"></feTurbulence>
+<feColorMatrix type="saturate" values="0"></feColorMatrix>
+</filter>
+</defs>
+</svg>
+
+<header style="position: sticky; top: 0; z-index: 20; background: #003F4A">
+<sc-if value="{{wide}}" hint-placeholder-val="{{ true }}">
+<div style="max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px">
+<a href="#inicio" aria-label="GESCOMP, página inicial" style="position: relative; display: flex; align-items: center; padding: 8px 18px; text-decoration: none">
+<svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#EEF0EF" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D6DEDD" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg>
+<img src="/_blob/111a01f93829aa97b2132a58b7df5574" alt="GESCOMP — Gestão Empresarial e Planejamento Contábil" style="position: relative; height: 44px; width: auto; display: block; mix-blend-mode: multiply">
+</a>
+<nav aria-label="Principal" style="display: flex; align-items: center; gap: 30px; font-size: 16px; font-weight: 500">
+<a href="#sobre" style="text-decoration: none; color: #FFFFFF">Sobre</a>
+<a href="#servicos" style="text-decoration: none; color: #FFFFFF">Serviços</a>
+<a href="Info.dc.html" style="text-decoration: none; color: #FFFFFF">Informações</a>
+<a href="#contato" style="text-decoration: none; color: #FFFFFF">Contato</a>
+<button type="button" onClick="{{toggleTema}}" aria-label="Modo escuro" aria-pressed="{{escuro}}" title="{{temaLabel}}" style="position: relative; flex-shrink: 0; width: 48px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0"><svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></path></svg><sc-if value="{{claro}}" hint-placeholder-val="{{ true }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F3EED8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></sc-if><sc-if value="{{escuro}}" hint-placeholder-val="{{ false }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4"></path></svg></sc-if></button>
+<a href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 12px 24px; min-height: 48px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Fale conosco</span></a>
+</nav>
+</div>
+</sc-if>
+<sc-if value="{{narrow}}" hint-placeholder-val="{{ false }}">
+<div style="padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<a href="#inicio" aria-label="GESCOMP, página inicial" style="position: relative; display: flex; align-items: center; padding: 6px 12px; text-decoration: none">
+<svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#EEF0EF" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D6DEDD" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg>
+<img src="/_blob/111a01f93829aa97b2132a58b7df5574" alt="GESCOMP — Gestão Empresarial e Planejamento Contábil" style="position: relative; height: auto; width: min(118px, 30vw); display: block; mix-blend-mode: multiply">
+</a>
+<div style="display: flex; align-items: center; gap: 8px">
+<button type="button" onClick="{{toggleTema}}" aria-label="Modo escuro" aria-pressed="{{escuro}}" title="{{temaLabel}}" style="position: relative; flex-shrink: 0; width: 48px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0"><svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></path></svg><sc-if value="{{claro}}" hint-placeholder-val="{{ true }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F3EED8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></sc-if><sc-if value="{{escuro}}" hint-placeholder-val="{{ false }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4"></path></svg></sc-if></button>
+<a href="#contato" aria-label="Falar pelo WhatsApp" style="position: relative; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></path></svg>
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+</a>
+<button type="button" onClick="{{toggleMenu}}" aria-label="{{menuLabel}}" aria-expanded="{{menuOpen}}" style="position: relative; width: 48px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<sc-if value="{{menuClosed}}" hint-placeholder-val="{{ true }}">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#003F4A" stroke-width="2.4" stroke-linecap="round" style="position: relative" aria-hidden="true"><path d="M4 7h16 M4 12h11 M4 17h16"></path></svg>
+</sc-if>
+<sc-if value="{{menuOpen}}" hint-placeholder-val="{{ false }}">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#003F4A" stroke-width="2.4" stroke-linecap="round" style="position: relative" aria-hidden="true"><path d="M6 6l12 12 M18 6L6 18"></path></svg>
+</sc-if>
+</button>
+</div>
+</div>
+<sc-if value="{{menuOpen}}" hint-placeholder-val="{{ false }}">
+<div style="position: relative; background: #003F4A; padding: 8px 20px 72px">
+<nav aria-label="Principal" style="display: flex; flex-direction: column">
+<a href="#sobre" onClick="{{closeMenu}}" style="text-decoration: none; color: #FFFFFF; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 28px; font-weight: 600; padding: 14px 0; border-bottom: 1px solid #1E727D">Sobre</a>
+<a href="Info.dc.html" onClick="{{closeMenu}}" style="text-decoration: none; color: #FFFFFF; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 28px; font-weight: 600; padding: 14px 0; border-bottom: 1px solid #1E727D">Informações</a>
+<a href="#servicos" onClick="{{closeMenu}}" style="text-decoration: none; color: #FFFFFF; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 28px; font-weight: 600; padding: 14px 0; border-bottom: 1px solid #1E727D">Serviços</a>
+<a href="#contato" onClick="{{closeMenu}}" style="text-decoration: none; color: #FFFFFF; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 28px; font-weight: 600; padding: 14px 0">Contato</a>
+<div style="display: flex; margin-top: 18px"><a href="#contato" onClick="{{closeMenu}}" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 18px 24px; flex: 1; font-size: 17px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Falar no WhatsApp</span></a></div>
+</nav>
+<svg viewBox="0 0 400 60" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: 0; width: 100%; height: 50px; display: block" aria-hidden="true">
+<path d="M0 30 C 90 6, 200 50, 290 24 S 380 14, 400 22 L400 60 L0 60 Z" fill="#1E727D" filter="url(#pincel)"></path>
+<path d="M0 44 C 110 26, 230 60, 400 36" fill="none" stroke="#E8952F" stroke-width="4" filter="url(#pincel)"></path>
+</svg>
+</div>
+</sc-if>
+</sc-if>
+</header>
+
+<main id="conteudo">
+<section id="inicio" style="position: relative; background: #003F4A; overflow: hidden">
+<svg width="100%" height="100%" style="position: absolute; inset: 0; opacity: 0.1; mix-blend-mode: overlay" aria-hidden="true"><rect width="100%" height="100%" filter="url(#tela)"></rect></svg>
+<svg viewBox="0 0 600 600" style="position: absolute; right: -160px; top: -200px; width: 640px; height: 640px; opacity: 0.35" aria-hidden="true">
+<circle cx="300" cy="300" r="250" fill="#1E727D" filter="url(#pincelForte)"></circle>
+</svg>
+<div style="position: relative; max-width: 1240px; margin: 0 auto; padding: {{heroPad}}; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px 56px; align-items: center">
+<div style="order: {{artOrder}}; position: relative; width: 100%; max-width: clamp(290px, 46vw, 600px); justify-self: center">
+<svg viewBox="0 0 560 460" style="width: 100%; height: auto; display: block; overflow: visible" role="img" aria-label="Pintura de gráfico de barras crescente com curva laranja subindo">
+<g style="{{sunStyle}}">
+<circle cx="150" cy="130" r="106" fill="#E8952F" filter="url(#pincelForte)"></circle>
+<circle cx="150" cy="130" r="128" fill="none" stroke="#F2B45A" stroke-width="2.5" opacity="0.5" filter="url(#pincel)"></circle>
+</g>
+<g filter="url(#pincel)">
+<g transform="{{barTransform}}">
+<rect x="30" y="360" width="46" height="72" fill="#1E727D"></rect>
+<rect x="92" y="335" width="46" height="97" fill="#1E727D"></rect>
+<rect x="154" y="305" width="46" height="127" fill="#1E727D"></rect>
+<rect x="216" y="268" width="46" height="164" fill="#2A8590"></rect>
+<rect x="278" y="226" width="46" height="206" fill="#2A8590"></rect>
+<rect x="340" y="180" width="46" height="252" fill="#3F979C"></rect>
+<rect x="402" y="132" width="46" height="300" fill="#3F979C"></rect>
+<rect x="464" y="80" width="46" height="352" fill="#5FA3A8"></rect>
+</g>
+</g>
+<path d="M14 418 C 190 412, 340 330, 470 150 S 535 52, 548 40" fill="none" stroke="#D87319" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="{{curveOff}}" filter="url(#pincel)"></path>
+<path d="M14 418 C 190 412, 340 330, 470 150 S 535 52, 548 40" fill="none" stroke="#F2B45A" stroke-width="4" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="{{curveOff}}"></path>
+<path d="M524 32 L556 30 L550 62" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="{{arrowOp}}" filter="url(#pincel)"></path>
+<path d="M0 434 C 140 428, 400 440, 560 430" stroke="#5FA3A8" stroke-width="4" fill="none" filter="url(#pincel)"></path>
+</svg>
+<div style="position: absolute; left: 11.6%; top: 9.8%; width: 30.4%; aspect-ratio: 1; border-radius: 50%; overflow: hidden; background: var(--foto); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; color: var(--fotoTexto); font-size: 12px; font-weight: 600; padding: 10px; box-sizing: border-box; {{photoStyle}}">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" style="stroke: var(--fotoTexto)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path></svg>
+<span>[Foto da Gabriela]</span>
+</div>
+<p style="margin: 6px 0 0; text-align: center; font-size: 15px; line-height: 1.5; color: #D3E6E6"><strong style="font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 18px; font-weight: 700; color: #FFFFFF">Gabriela do Nascimento Vieira</strong><br>Contadora responsável, CRC 009186/SE</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 22px">
+<div style="position: relative">
+<h1 style="position: relative; margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: {{h1Size}}; line-height: 0.98; font-weight: 800; letter-spacing: -0.035em; color: #FFFFFF">Contabilidade próxima para a sua empresa crescer sem dor de cabeça.</h1>
+<svg viewBox="0 0 400 30" preserveAspectRatio="none" style="display: block; width: 72%; height: 22px; margin-top: 10px; overflow: visible" aria-hidden="true">
+<path d="M4 18 C 90 6, 200 26, 300 12 S 380 10, 396 14" fill="none" stroke="#E8952F" stroke-width="9" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="{{swashOff}}" filter="url(#pincelForte)"></path>
+</svg>
+</div>
+<p style="margin: 0; font-size: 19px; line-height: 1.55; color: #D3E6E6; max-width: 480px">Abrimos, regularizamos e encerramos CNPJs, cuidamos da contabilidade da sua empresa e do seu Imposto de Renda. Atendimento online, de onde você estiver, falando direto com a contadora.</p>
+<div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 4px">
+<a href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px; flex: 1 1 210px; max-width: 280px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative; display: inline-flex; align-items: center; gap: 10px"><img src="/_blob/58e53bdf0c44086fd91a148dab8362b8" alt="" style="width: 22px; height: 22px; display: block; filter: brightness(0); opacity: 0.85">Falar no WhatsApp</span></a>
+<a href="#servicos" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 28px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="none" stroke="#8FC1C3" stroke-width="2.5" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><span style="position: relative">Ver os serviços</span></a>
+</div>
+<ul aria-label="Por que confiar na GESCOMP" style="list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 15.5px; line-height: 1.4; color: #D3E6E6">
+<li style="display: flex; align-items: center; gap: 8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z M9 12l2 2 4-4"></path></svg>Registro no CRC 009186/SE</li>
+<li style="display: flex; align-items: center; gap: 8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0"><path d="M4 6h16v14H4z M4 10h16 M9 3v4 M15 3v4"></path></svg>12 anos de experiência</li>
+<li style="display: flex; align-items: center; gap: 8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2B45A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0"><path d="M3 5h18v11H3z M8 20h8 M12 16v4"></path></svg>Atendimento online</li>
+</ul>
+</div>
+</div>
+<svg viewBox="0 0 1440 170" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: -4px; width: 100%; height: 154px; display: block" aria-hidden="true">
+<path d="M0 70 C 240 20, 470 120, 760 78 S 1210 18, 1440 60 L1440 170 L0 170 Z" fill="#1E727D" filter="url(#pincel)"></path>
+<path d="M0 110 C 300 60, 560 150, 860 108 S 1260 70, 1440 100 L1440 170 L0 170 Z" fill="#5FA3A8" opacity="0.75" filter="url(#pincel)"></path>
+<path style="fill: var(--chao)" d="M0 132 C 320 96, 620 168, 920 128 S 1300 104, 1440 122 L1440 170 L0 170 Z"></path>
+<path d="M0 132 C 320 96, 620 168, 920 128 S 1300 104, 1440 122" fill="none" stroke="#D87319" stroke-width="5" filter="url(#pincel)"></path>
+<rect data-borda="1" x="0" y="162" width="1440" height="10" fill="#5FA3A8"></rect></svg>
+</section>
+
+<section id="sobre" style="background: var(--chao)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px 96px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 64px; align-items: center">
+<div style="position: relative; padding: 5% 5% 84px">
+<svg viewBox="0 0 400 300" style="position: absolute; left: 0; top: 0; width: 62%; height: auto; opacity: 0.9" aria-hidden="true">
+<path d="M40 70 C 90 18, 250 8, 330 40 S 380 170, 300 230 S 90 270, 40 210 S 0 110, 40 70 Z" fill="#1E727D" filter="url(#pincelForte)"></path>
+</svg>
+<div style="position: relative">
+<div style="position: relative; aspect-ratio: 5 / 4; background: var(--foto); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--fotoTexto); font-weight: 600; font-size: 15px; text-align: center; padding: 20% 18%; box-sizing: border-box">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" style="stroke: var(--fotoTexto)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path></svg>
+<span>[Foto real da equipe ou do escritório]</span>
+</div>
+<svg viewBox="0 0 500 400" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true">
+<path d="M-8 -8 L508 -8 L508 408 L-8 408 Z M38 34 C 140 18, 360 14, 464 32 C 484 140, 488 262, 468 364 C 360 384, 140 386, 34 368 C 16 262, 14 138, 38 34 Z" style="fill: var(--chao)" fill-rule="evenodd" filter="url(#pincelForte)"></path>
+<path d="M60 382 C 150 370, 250 388, 330 376" fill="none" stroke="#E8952F" stroke-width="7" stroke-linecap="round" filter="url(#pincel)"></path>
+</svg>
+</div>
+<svg viewBox="0 0 520 440" style="position: absolute; right: -3%; bottom: 0; width: 48%; height: auto; overflow: visible" role="img" aria-label="Pintura de mesa de trabalho com documentos, calculadora, café e planta">
+<path style="fill: var(--chao)" d="M60 150 C 120 66, 300 56, 424 100 S 528 250, 484 342 S 300 424, 158 404 S 18 252, 60 150 Z" filter="url(#pincelForte)"></path>
+<path d="M60 150 C 120 66, 300 56, 424 100 S 528 250, 484 342 S 300 424, 158 404 S 18 252, 60 150 Z" fill="none" stroke="#5FA3A8" stroke-width="5" opacity="0.75" filter="url(#pincelForte)"></path>
+<circle cx="418" cy="112" r="46" fill="#E8952F" filter="url(#pincelForte)"></circle>
+<path d="M392 96 C 404 84, 422 82, 436 88" fill="none" stroke="#F2B45A" stroke-width="5" stroke-linecap="round" filter="url(#pincel)"></path>
+<g filter="url(#pincel)">
+<g transform="rotate(-6 200 250)">
+<rect x="128" y="160" width="160" height="200" fill="#C7DADA"></rect>
+<rect x="120" y="150" width="160" height="200" fill="#FFFFFF"></rect>
+<path d="M140 178 h88" stroke="#7FB0B3" stroke-width="8" stroke-linecap="round"></path>
+<path d="M140 198 h118 M140 212 h104" stroke="#D3E2E2" stroke-width="6" stroke-linecap="round"></path>
+<rect x="148" y="290" width="18" height="40" fill="#1E727D"></rect>
+<rect x="174" y="272" width="18" height="58" fill="#2A8590"></rect>
+<rect x="200" y="252" width="18" height="78" fill="#D87319"></rect>
+<rect x="226" y="236" width="18" height="94" fill="#E8952F"></rect>
+<path d="M144 286 C 180 270, 210 250, 250 226" fill="none" stroke="#003F4A" stroke-width="3" stroke-linecap="round"></path>
+</g>
+<rect x="256" y="216" width="96" height="136" fill="#0B5963" transform="translate(6 4)" opacity="0.5"></rect>
+<rect x="250" y="210" width="96" height="136" fill="#003F4A"></rect>
+<path d="M256 216 v124" stroke="#1E727D" stroke-width="5" stroke-linecap="round"></path>
+<rect x="262" y="222" width="72" height="26" fill="#9CD0CF"></rect>
+<path d="M268 236 h40" stroke="#5FA3A8" stroke-width="4" stroke-linecap="round"></path>
+<g fill="#5FA3A8">
+<rect x="264" y="260" width="18" height="14"></rect><rect x="289" y="260" width="18" height="14"></rect><rect x="314" y="260" width="18" height="14" fill="#E8952F"></rect>
+<rect x="264" y="282" width="18" height="14"></rect><rect x="289" y="282" width="18" height="14" fill="#3F979C"></rect><rect x="314" y="282" width="18" height="14"></rect>
+<rect x="264" y="304" width="18" height="14" fill="#3F979C"></rect><rect x="289" y="304" width="18" height="14"></rect><rect x="314" y="304" width="18" height="36" fill="#E8952F"></rect>
+<rect x="264" y="326" width="43" height="14"></rect>
+</g>
+<path d="M372 292 h44 v38 a12 12 0 0 1 -12 12 h-20 a12 12 0 0 1 -12 -12 z" fill="#D87319"></path>
+<path d="M378 300 v28" stroke="#F2B45A" stroke-width="5" stroke-linecap="round"></path>
+<path d="M416 302 a12 12 0 0 1 0 22" fill="none" stroke="#D87319" stroke-width="7"></path>
+<path d="M384 280 c -6 -10 6 -14 0 -26 M400 280 c -6 -10 6 -14 0 -26" fill="none" stroke="#5FA3A8" stroke-width="3" stroke-linecap="round" opacity="0.8"></path>
+<path d="M76 348 h44 l-7 -46 h-30 z" fill="#E8952F"></path>
+<path d="M84 306 v38" stroke="#D87319" stroke-width="5" stroke-linecap="round"></path>
+<ellipse cx="88" cy="262" rx="13" ry="36" transform="rotate(-26 88 262)" fill="#3F979C"></ellipse>
+<ellipse cx="112" cy="252" rx="13" ry="40" transform="rotate(20 112 252)" fill="#5FA3A8"></ellipse>
+<ellipse cx="98" cy="238" rx="11" ry="42" fill="#1E727D"></ellipse>
+<path d="M98 300 C 96 270, 98 240, 98 204 M98 290 C 92 270, 86 250, 76 236 M98 286 C 106 266, 112 248, 122 222" fill="none" stroke="#9CD0CF" stroke-width="2.5" stroke-linecap="round" opacity="0.8"></path>
+</g>
+<path d="M44 354 C 180 342, 340 360, 486 346" fill="none" stroke="#003F4A" stroke-width="16" stroke-linecap="round" filter="url(#pincelForte)"></path>
+<path d="M70 372 C 200 364, 330 376, 450 366" fill="none" stroke="#D87319" stroke-width="5" stroke-linecap="round" opacity="0.8" filter="url(#pincel)"></path>
+<g fill="#E8952F"><circle cx="472" cy="380" r="5"></circle><circle cx="488" cy="370" r="2.5"></circle><circle cx="60" cy="384" r="3"></circle></g>
+<g fill="#5FA3A8"><circle cx="40" cy="200" r="4"></circle><circle cx="30" cy="214" r="2"></circle></g>
+</svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 22px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Um escritório que acompanha de perto cada cliente.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">A GESCOMP – Gestão Empresarial e Planejamento Contábil oferece soluções completas para você e para empresas em geral. Atuamos com abertura, regularização e baixa de CNPJ, contabilidade para empresas, declarações de Imposto de Renda, consultoria administrativa e financeira, entre outros serviços.</p>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">Nosso objetivo é que você não precise se preocupar com a parte burocrática: mantemos sua empresa em conformidade com a lei e com a melhor tributação possível para o crescimento do seu negócio. À frente do escritório está a contadora Gabriela do Nascimento Vieira, que trabalha com contabilidade desde 2014.</p>
+</div>
+</div>
+</section>
+
+<section id="instagram" aria-labelledby="ig-titulo" style="background: var(--chao)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 8px 24px 104px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 18px 32px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 640px">
+<h2 id="ig-titulo" style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">A GESCOMP no Instagram</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">Vídeos do nosso perfil. Toque em um deles para assistir aqui mesmo.</p>
+</div>
+<a href="https://www.instagram.com/gescomp_" target="_blank" rel="noopener" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: var(--titulo); padding: 16px 28px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="none" stroke="#5FA3A8" stroke-width="2.5" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><span style="position: relative; display: inline-flex; align-items: center; gap: 10px">Seguir @gescomp_ no Instagram<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre em nova aba)</span></span></a>
+</div>
+<div data-carrossel role="region" aria-roledescription="carrossel" aria-label="Vídeos da GESCOMP no Instagram" style="position: relative; display: flex; flex-direction: column; gap: 18px">
+<div data-carrossel-trilha class="ig-trilha" tabindex="0" aria-label="Lista de vídeos" style="position: relative; display: flex; align-items: flex-start; gap: 22px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 8px 4px 14px">
+<div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 1 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
+<a data-reel href="https://www.instagram.com/reel/DbynBYHpN_N/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 1 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
+<rect width="360" height="640" fill="#0B5963"></rect>
+<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
+<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9" filter="url(#pincelForte)"></circle>
+<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+</svg>
+<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
+</span>
+<span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
+<span data-numero style="font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Vídeo 1</span>
+<span style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
+</span>
+</a>
+<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+</div><div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 2 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
+<a data-reel href="https://www.instagram.com/reel/DbQ4v35u7Rb/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 2 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
+<rect width="360" height="640" fill="#0B5963"></rect>
+<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
+<circle cx="88" cy="130" r="86" fill="#3F979C" opacity="0.9" filter="url(#pincelForte)"></circle>
+<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+</svg>
+<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
+</span>
+<span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
+<span data-numero style="font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Vídeo 2</span>
+<span style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
+</span>
+</a>
+<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+</div><div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 3 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
+<a data-reel href="https://www.instagram.com/reel/DbWFtMyOKwH/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 3 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
+<rect width="360" height="640" fill="#0B5963"></rect>
+<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
+<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9" filter="url(#pincelForte)"></circle>
+<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+</svg>
+<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
+</span>
+<span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
+<span data-numero style="font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Vídeo 3</span>
+<span style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
+</span>
+</a>
+<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+</div><div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 4 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
+<a data-reel href="https://www.instagram.com/reel/Dc815Ibu2np/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 4 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
+<rect width="360" height="640" fill="#0B5963"></rect>
+<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
+<circle cx="88" cy="130" r="86" fill="#3F979C" opacity="0.9" filter="url(#pincelForte)"></circle>
+<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+</svg>
+<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
+</span>
+<span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
+<span data-numero style="font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Vídeo 4</span>
+<span style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
+</span>
+</a>
+<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+</div><div data-slide role="group" aria-roledescription="slide" aria-label="Vídeo 5 de 5" style="position: relative; flex: 0 0 auto; width: min(330px, 80vw); scroll-snap-align: start">
+<a data-reel href="https://www.instagram.com/reel/DdycreEMXQQ/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo 5 da GESCOMP" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 26px 32px 24px 30px; overflow: hidden; background: #0B5963; color: #FFFFFF; text-decoration: none">
+<svg viewBox="0 0 360 640" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true">
+<rect width="360" height="640" fill="#0B5963"></rect>
+<rect width="360" height="640" filter="url(#tela)" opacity="0.08"></rect>
+<circle cx="272" cy="130" r="86" fill="#E8952F" opacity="0.9" filter="url(#pincelForte)"></circle>
+<g filter="url(#pincel)" opacity="0.6"><rect x="32" y="472" width="40" height="120" fill="#1E727D"></rect><rect x="88" y="432" width="40" height="160" fill="#1E727D"></rect><rect x="144" y="392" width="40" height="200" fill="#2A8590"></rect><rect x="200" y="344" width="40" height="248" fill="#3F979C"></rect><rect x="256" y="288" width="40" height="304" fill="#5FA3A8"></rect></g>
+<path d="M16 600 C 120 584, 220 480, 344 328" fill="none" stroke="#D87319" stroke-width="12" stroke-linecap="round" filter="url(#pincel)"></path>
+</svg>
+<span style="position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; align-items: center; justify-content: center">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg>
+<svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="position: relative; margin-left: 4px"><path d="M7 4.5v15l12-7.5z" fill="#003F4A" stroke="#003F4A" stroke-width="1.5" stroke-linejoin="round"></path></svg>
+</span>
+<span style="position: absolute; left: 22px; right: 22px; bottom: 24px; display: flex; flex-direction: column; gap: 4px">
+<span data-numero style="font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Vídeo 5</span>
+<span style="font-size: 15px; line-height: 1.4; color: #D3E6E6">Toque para assistir · @gescomp_</span>
+</span>
+</a>
+<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.3%" height="99.3%" rx="26" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 14px">
+<button type="button" data-carrossel-anterior aria-label="Vídeo anterior" style="position: relative; width: 52px; height: 52px; border: 0; background: transparent; padding: 0; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" filter="url(#pincelBotao)"></path></svg><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></button>
+<button type="button" data-carrossel-pausa aria-pressed="false" aria-label="Pausar a passagem dos vídeos" style="position: relative; min-height: 52px; padding: 12px 24px; border: 0; background: transparent; cursor: pointer; display: inline-flex; align-items: center; gap: 10px; font-family: inherit; font-size: 16px; font-weight: 700; color: #003F4A"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#003F4A" stroke-width="2.6" stroke-linecap="round" style="position: relative" aria-hidden="true"><path d="M8 5v14 M16 5v14"></path></svg><span data-rotulo style="position: relative">Pausar</span></button>
+<button type="button" data-carrossel-proximo aria-label="Próximo vídeo" style="position: relative; width: 52px; height: 52px; border: 0; background: transparent; padding: 0; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#0B5963" filter="url(#pincelBotao)"></path></svg><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="position: relative" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg></button>
+<p data-carrossel-aviso aria-live="polite" style="margin: 0; flex: 1 1 260px; font-size: 15px; line-height: 1.5; color: var(--texto2)">Os vídeos vêm do Instagram e só carregam quando você toca em um deles.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="numeros" ref="{{statsRef}}" style="position: relative; background: #003F4A; overflow: hidden">
+<svg viewBox="0 0 1440 90" preserveAspectRatio="none" style="display: block; width: 100%; height: 90px; background: var(--chao)" aria-hidden="true">
+<path d="M0 50 C 260 0, 520 90, 820 46 S 1260 10, 1440 40 L1440 90 L0 90 Z" fill="#003F4A" filter="url(#pincel)"></path>
+<path d="M0 50 C 260 0, 520 90, 820 46 S 1260 10, 1440 40" fill="none" stroke="#E8952F" stroke-width="4" filter="url(#pincel)"></path>
+<rect data-borda="1" x="0" y="82" width="1440" height="10" fill="#003F4A"></rect></svg>
+<svg width="100%" height="100%" style="position: absolute; inset: 0; opacity: 0.1; mix-blend-mode: overlay; pointer-events: none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#tela)"></rect></svg>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 40px 24px 64px; display: flex; flex-direction: column; gap: 48px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(28px, 3vw, 38px); line-height: 1.15; font-weight: 700; color: #FFFFFF; max-width: 640px">Resultados construídos lado a lado com cada cliente.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px 32px">
+<sc-for list="{{stats}}" as="st" hint-placeholder-count="4">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="position: relative; height: 104px; display: flex; align-items: center">
+<svg viewBox="0 0 260 104" preserveAspectRatio="none" style="position: absolute; left: -10px; top: 0; width: calc(100% + 10px); height: 104px" aria-hidden="true">
+<path d="M8 66 C 60 52, 130 74, 190 58 S 244 50, 252 54" fill="none" stroke="{{st.color}}" stroke-width="30" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="{{st.off}}" filter="url(#pincelForte)" opacity="0.9"></path>
+</svg>
+<span aria-hidden="true" style="position: relative; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(54px, 6vw, 72px); font-weight: 800; letter-spacing: -0.03em; line-height: 1; color: #FFFFFF; font-variant-numeric: tabular-nums">{{st.text}}</span>
+<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0">{{st.final}}</span>
+</div>
+<span style="font-size: 17px; line-height: 1.5; color: #D3E6E6; max-width: 240px">{{st.label}}</span>
+</div>
+</sc-for>
+</div>
+</div>
+</section>
+
+<section id="servicos" style="position: relative; background: var(--superficie)">
+<svg viewBox="0 0 1440 90" preserveAspectRatio="none" style="display: block; width: 100%; height: 90px; background: #003F4A" aria-hidden="true">
+<path d="M0 38 C 300 78, 640 -2, 980 40 S 1330 58, 1440 28 L1440 90 L0 90 Z" fill="#1E727D" opacity="0.6" filter="url(#pincel)"></path>
+<path d="M0 50 C 300 90, 640 10, 980 52 S 1330 70, 1440 40 L1440 90 L0 90 Z" style="fill: var(--superficie)" filter="url(#pincel)"></path>
+<path d="M0 50 C 300 90, 640 10, 980 52 S 1330 70, 1440 40" fill="none" stroke="#E8952F" stroke-width="3" opacity="0.85" filter="url(#pincel)"></path>
+<g fill="#E8952F" opacity="0.7"><circle cx="1180" cy="40" r="3"></circle><circle cx="1196" cy="34" r="1.8"></circle><circle cx="240" cy="44" r="2.5"></circle></g>
+<rect data-borda="1" x="0" y="82" width="1440" height="10" style="fill: var(--superficie)"></rect></svg>
+<div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px 112px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 20px; max-width: 440px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Tudo o que a sua empresa precisa, em um só lugar.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">Da abertura do CNPJ ao fechamento do balanço, a GESCOMP organiza a rotina contábil para você decidir com segurança.</p>
+<div style="display: flex; margin-top: 4px"><a href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#0B5963" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#3F979C" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Pedir um orçamento</span></a></div>
+<div style="position: relative; margin-top: 18px">
+<svg viewBox="0 0 400 300" style="position: absolute; left: -6%; top: -6%; width: 112%; height: auto" aria-hidden="true">
+<path d="M40 60 C 120 0, 300 10, 370 70 S 400 230, 320 270 S 80 300, 30 220 S -10 110, 40 60 Z" fill="#E8952F" opacity="0.85" filter="url(#pincelForte)"></path>
+</svg>
+<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 28px 120px 28px 120px; overflow: hidden; background: var(--foto); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--fotoTexto); font-weight: 600; font-size: 15px; text-align: center; padding: 20px; box-sizing: border-box">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="stroke: var(--fotoTexto)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path></svg>
+<span>[Foto de atendimento a cliente]</span>
+</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); column-gap: 40px; align-content: start">
+<sc-for list="{{services}}" as="s" hint-placeholder-count="6">
+<div style="display: flex; gap: 18px; padding: 26px 0; border-top: 1.5px solid var(--linha)">
+<div style="position: relative; flex-shrink: 0; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="{{s.bg}}" filter="url(#pincelBotao)"></path></svg>
+<svg style="position: relative" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{s.d}}"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 600; color: var(--titulo)">{{s.title}}</h3>
+<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--texto2)">{{s.text}}</p>
+</div>
+</div>
+</sc-for>
+</div>
+</div>
+<div style="max-width: 1200px; margin: -64px auto 0; padding: 0 24px 72px">
+<div style="position: relative; padding: 36px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 24px 36px; background: var(--chao); border-radius: 30px 36px 28px 34px">
+<svg style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><rect x="1" y="1" width="99.6%" height="99.2%" rx="30" fill="none" stroke="#5FA3A8" stroke-width="2" filter="url(#pincelBotao)"></rect></svg>
+<svg viewBox="0 0 160 14" style="position: absolute; left: 34px; bottom: -6px; width: 160px; height: 14px; overflow: visible; pointer-events: none" aria-hidden="true"><path d="M3 8 C 50 3, 100 12, 157 6" fill="none" stroke="#E8952F" stroke-width="6" stroke-linecap="round" filter="url(#pincelBotao)"></path></svg>
+<div style="position: relative; flex-shrink: 0; width: 72px; height: 72px; display: flex; align-items: center; justify-content: center">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#D87319" filter="url(#pincelBotao)"></path></svg>
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: relative"><path d="M5 4h11l3 3v13H5z M8 9h8 M8 13h8 M8 17h5"></path></svg>
+</div>
+<div style="position: relative; flex: 1 1 320px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 26px; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Reforma tributária: o que muda para a sua empresa?</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: var(--texto2); max-width: 620px">Explicamos em palavras simples o que já mudou em 2026 e o que vem pela frente, além de outras informações úteis para o seu negócio.</p>
+</div>
+<div style="position: relative"><a href="Info.dc.html" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#0B5963" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#3F979C" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Ler as informações</span></a></div>
+</div>
+</div>
+<div id="perguntas" style="max-width: 1200px; margin: 0 auto; padding: 0 24px 104px">
+<div style="max-width: 860px; display: flex; flex-direction: column">
+<h2 style="margin: 0 0 14px; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Dúvidas que nossos clientes sempre têm</h2>
+<div style="display: flex; flex-direction: column; border-bottom: 1.5px solid var(--linha)"><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Como separar o dinheiro da pessoa física e da empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Tenha uma conta bancária só para a empresa e passe por ela todas as vendas e despesas. O que você retira para você deve sair como pró-labore ou como distribuição de lucros, sempre registrado. Assim a contabilidade fica correta e você evita problemas com o Imposto de Renda.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Qual é o melhor regime de impostos para a minha empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Depende do faturamento, da atividade, da margem de lucro e dos gastos com funcionários. O Simples Nacional costuma ser vantajoso para pequenas empresas, mas nem sempre é o mais barato. Fazemos as contas e mostramos qual regime faz você pagar menos, dentro da lei. Veja também a página do <a href="simples-nacional.dc.html" style="color: var(--titulo); text-decoration: underline; text-decoration-color: #E8952F; text-underline-offset: 4px">Simples Nacional</a>.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Qual é o melhor momento para deixar de ser MEI?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Quando o faturamento chega perto de R$ 81 mil por ano, quando você precisa de mais de um funcionário, quer ter sócio ou exerce uma atividade que não é permitida para o MEI. O ideal é planejar a mudança antes de passar do limite, para não pagar imposto a mais. Veja a página sobre o <a href="mei.dc.html" style="color: var(--titulo); text-decoration: underline; text-decoration-color: #E8952F; text-underline-offset: 4px">MEI</a>.</p></details><details style="position: relative; padding: 4px 0; border-top: 1.5px solid var(--linha)"><summary style="cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--titulo)"><span>Como controlar os custos e as despesas da empresa?</span><svg class="faq-icone" width="34" height="34" viewBox="0 0 60 60" aria-hidden="true" style="flex-shrink: 0; overflow: visible"><path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M30 19 V41 M19 30 H41" stroke="#003F4A" stroke-width="5" stroke-linecap="round"></path></svg></summary><p style="margin: 0 0 20px; font-size: 17px; line-height: 1.7; color: var(--texto2); max-width: 760px">Anote todas as entradas e saídas, separe as contas pessoais das da empresa e acompanhe os números todo mês. Com relatórios simples, você vê para onde vai o dinheiro e onde dá para economizar. A consultoria da GESCOMP ajuda a montar esse controle.</p></details></div>
+</div>
+</div>
+</section>
+
+<sc-if value="{{mostrarCursos}}" hint-placeholder-val="{{ false }}">
+<section id="cursos" style="background: var(--superficie)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 24px 104px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px 56px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Cursos e comunidade</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--texto2)">Aprenda a cuidar das contas da sua empresa com cursos simples e troque experiências com outros empreendedores.</p>
+</div>
+<div><a href="[LINK-DA-PLATAFORMA]" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Conhecer a plataforma</span></a></div>
+</div>
+</section>
+</sc-if>
+<section style="position: relative; background: #0B5963; overflow: hidden">
+<svg viewBox="0 0 1440 100" preserveAspectRatio="none" style="display: block; width: 100%; height: 100px; background: var(--superficie)" aria-hidden="true">
+<path d="M0 60 C 300 10, 640 100, 980 50 S 1330 20, 1440 44 L1440 100 L0 100 Z" fill="#1E727D" filter="url(#pincel)"></path>
+<path d="M0 78 C 340 40, 700 110, 1040 70 S 1360 52, 1440 66 L1440 100 L0 100 Z" fill="#0B5963"></path>
+<path d="M0 78 C 340 40, 700 110, 1040 70 S 1360 52, 1440 66" fill="none" stroke="#E8952F" stroke-width="4" filter="url(#pincel)"></path>
+<rect data-borda="1" x="0" y="92" width="1440" height="10" fill="#0B5963"></rect></svg>
+<svg width="100%" height="100%" style="position: absolute; inset: 0; opacity: 0.08; mix-blend-mode: overlay; pointer-events: none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#tela)"></rect></svg>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 40px 24px 88px; display: flex; align-items: center; gap: 44px; flex-wrap: wrap">
+<img src="/_blob/419b7b868fba96e7c703a860ebde56dd" alt="Selo GESCOMP" style="width: 150px; height: 150px; border-radius: 50%; display: block; box-shadow: 0 0 0 8px #1E727D">
+<div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(28px, 3vw, 36px); line-height: 1.15; font-weight: 700; color: #FFFFFF">Vamos planejar juntos o próximo passo da sua empresa?</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #D3E6E6">Converse com a equipe pelo WhatsApp ou envie sua mensagem pelo formulário.</p>
+</div>
+<a href="#contato" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#E8952F" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#D87319" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Falar com a GESCOMP</span></a>
+</div>
+</section>
+
+<section id="rio" style="position: relative; background: var(--chao); overflow: hidden">
+<svg viewBox="0 0 1440 90" preserveAspectRatio="none" style="display: block; width: 100%; height: 90px; background: #0B5963" aria-hidden="true">
+<path style="fill: var(--chao)" d="M0 40 C 280 90, 600 10, 920 52 S 1300 80, 1440 46 L1440 90 L0 90 Z" filter="url(#pincel)"></path>
+</svg>
+<div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px 56px; align-items: end">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(32px, 4vw, 50px); line-height: 1.05; font-weight: 800; letter-spacing: -0.03em; color: var(--titulo)">Às margens do Rio Sergipe.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: var(--texto2); max-width: 500px">O escritório fica em Barra dos Coqueiros, de frente para o rio. Venha nos visitar ou fale com a gente online, de onde estiver.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; align-items: flex-start">
+<address style="font-style: normal; font-size: 17px; line-height: 1.6; color: var(--texto)">Avenida Moisés Gomes Pereira, 368, Centro<br>Barra dos Coqueiros, SE</address>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Avenida+Mois%C3%A9s+Gomes+Pereira%2C+368%2C+Centro%2C+Barra+dos+Coqueiros+-+SE" target="_blank" rel="noopener" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #FFFFFF; padding: 16px 30px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#B65A0C" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#B85E10" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Como chegar</span><span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre o Google Maps em nova aba)</span></a>
+</div>
+</div>
+<svg viewBox="0 0 1440 560" preserveAspectRatio="xMidYMax slice" style="display: block; width: 100%; height: {{sceneH}}" role="img" aria-label="Pintura animada do Rio Sergipe com coqueiros na outra margem, um barco à vela e o escritório da GESCOMP na margem, marcado por um alfinete">
+<g style="fill: var(--nuvem)" filter="url(#pincelForte)">
+<animateTransform attributeName="transform" type="translate" values="0 0; 46 0; 0 0" dur="38s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform>
+<ellipse cx="250" cy="110" rx="120" ry="24"></ellipse><ellipse cx="320" cy="92" rx="70" ry="22"></ellipse>
+<ellipse cx="1130" cy="84" rx="140" ry="22"></ellipse><ellipse cx="1060" cy="68" rx="60" ry="18"></ellipse>
+</g>
+<g style="opacity: {{estrelas}}; transition: opacity 1.6s ease"><circle cx="251" cy="208" r="3" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.9s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="224" cy="41" r="1.6" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="160" cy="80" r="2.4" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.5s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="393" cy="51" r="2.4" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.3s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="92" cy="188" r="2.4" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="3.7s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="436" cy="66" r="2.4" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.5s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="802" cy="46" r="2.4" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="3.4s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="1076" cy="87" r="2" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="613" cy="46" r="2.4" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="678" cy="219" r="2" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="1266" cy="97" r="3" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.9s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><circle cx="128" cy="44" r="1.6" fill="#F3EED8"><animate attributeName="opacity" values="1;0.25;1" dur="2.9s" begin="{{animBegin}}" repeatCount="indefinite"></animate></circle><path d="M1180 140 l4 12 l12 4 l-12 4 l-4 12 l-4 -12 l-12 -4 l12 -4 z" fill="#F3EED8"></path><path d="M300 60 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 l9 -3 z" fill="#F3EED8"></path></g>
+<g style="{{solStyle}}">
+<circle cx="560" cy="170" r="112" fill="none" stroke="#F2B45A" stroke-width="2.5" opacity="0.4">
+<animate attributeName="r" values="100;118;100" dur="7s" repeatCount="indefinite" begin="{{animBegin}}"></animate>
+</circle>
+<circle cx="560" cy="170" r="84" fill="#F2B45A" opacity="0.35" filter="url(#pincelForte)"></circle>
+<circle cx="560" cy="170" r="62" fill="#E8952F" filter="url(#pincelForte)"></circle>
+</g>
+<g style="{{luaStyle}}">
+<circle cx="560" cy="170" r="104" fill="#F3EED8" opacity="0.1" filter="url(#pincelForte)"></circle>
+<circle cx="560" cy="170" r="80" fill="none" stroke="#F3EED8" stroke-width="2" opacity="0.35">
+<animate attributeName="r" values="76;92;76" dur="7s" repeatCount="indefinite" begin="{{animBegin}}"></animate>
+</circle>
+<circle cx="560" cy="170" r="58" fill="#EDE7CF" filter="url(#pincelForte)"></circle>
+<g fill="#D8CFAF" filter="url(#pincel)">
+<circle cx="540" cy="152" r="11"></circle><circle cx="578" cy="186" r="8"></circle><circle cx="572" cy="146" r="5"></circle><circle cx="546" cy="192" r="6"></circle>
+</g>
+<path d="M520 150 C 526 130, 544 118, 562 116" fill="none" stroke="#FFFDF2" stroke-width="5" stroke-linecap="round" opacity="0.7" filter="url(#pincel)"></path>
+</g>
+<g fill="none" stroke="#0B5963" stroke-width="3" stroke-linecap="round">
+<g><animateTransform attributeName="transform" type="translate" values="300 140; 1180 70" dur="34s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform>
+<path d="M0 0 q9 -9 18 0 q9 -9 18 0"><animateTransform attributeName="transform" type="scale" values="1 1; 1 0.4; 1 1" dur="0.9s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform></path></g>
+<g><animateTransform attributeName="transform" type="translate" values="250 170; 1120 104" dur="34s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform>
+<path d="M0 0 q7 -7 14 0 q7 -7 14 0"><animateTransform attributeName="transform" type="scale" values="1 0.5; 1 1; 1 0.5" dur="1s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform></path></g>
+</g>
+<path d="M0 262 C 120 246, 240 258, 360 250 S 600 240, 720 252 S 980 244, 1100 254 S 1340 246, 1440 256 L1440 304 L0 304 Z" fill="#1E727D" filter="url(#pincel)"></path>
+<g fill="#2A8590" filter="url(#pincel)">
+<ellipse cx="60" cy="262" rx="70" ry="16"></ellipse><ellipse cx="250" cy="256" rx="90" ry="18"></ellipse><ellipse cx="520" cy="252" rx="80" ry="14"></ellipse>
+<ellipse cx="820" cy="254" rx="110" ry="18"></ellipse><ellipse cx="1180" cy="256" rx="120" ry="18"></ellipse><ellipse cx="1400" cy="258" rx="70" ry="14"></ellipse>
+</g>
+<g><animateTransform attributeName="transform" type="rotate" values="-1.6 90 262; 1.6 90 262; -1.6 90 262" dur="5.2s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M90 262 q2 -48 10 -80" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M100 182 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M100 182 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M100 182 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M100 182 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M100 182 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M100 182 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M100 182 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="100" cy="186" r="5" fill="#D87319"></circle></g><g><animateTransform attributeName="transform" type="rotate" values="-1.6 190 258; 1.6 190 258; -1.6 190 258" dur="6.1s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M190 258 q-2 -62 -8 -104" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M182 154 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M182 154 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M182 154 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M182 154 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M182 154 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M182 154 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M182 154 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="182" cy="158" r="5" fill="#D87319"></circle></g><g><animateTransform attributeName="transform" type="rotate" values="-1.6 300 256; 1.6 300 256; -1.6 300 256" dur="4.8s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M300 256 q3 -44 14 -74" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M314 182 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M314 182 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M314 182 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M314 182 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M314 182 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M314 182 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M314 182 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="314" cy="186" r="5" fill="#D87319"></circle></g><g><animateTransform attributeName="transform" type="rotate" values="-1.6 430 254; 1.6 430 254; -1.6 430 254" dur="5.6s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M430 254 q-2 -58 -10 -96" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M420 158 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M420 158 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M420 158 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M420 158 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M420 158 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M420 158 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M420 158 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="420" cy="162" r="5" fill="#D87319"></circle></g><g><animateTransform attributeName="transform" type="rotate" values="-1.6 700 256; 1.6 700 256; -1.6 700 256" dur="6.4s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M700 256 q2 -53 12 -88" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M712 168 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M712 168 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M712 168 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M712 168 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M712 168 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M712 168 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M712 168 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="712" cy="172" r="5" fill="#D87319"></circle></g><g><animateTransform attributeName="transform" type="rotate" values="-1.6 1000 254; 1.6 1000 254; -1.6 1000 254" dur="5.1s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M1000 254 q-2 -65 -12 -108" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M988 146 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M988 146 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M988 146 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M988 146 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M988 146 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M988 146 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M988 146 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="988" cy="150" r="5" fill="#D87319"></circle></g><g><animateTransform attributeName="transform" type="rotate" values="-1.6 1110 258; 1.6 1110 258; -1.6 1110 258" dur="4.6s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M1110 258 q2 -47 8 -78" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M1118 180 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1118 180 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1118 180 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1118 180 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1118 180 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1118 180 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1118 180 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="1118" cy="184" r="5" fill="#D87319"></circle></g><g><animateTransform attributeName="transform" type="rotate" values="-1.6 1260 256; 1.6 1260 256; -1.6 1260 256" dur="5.9s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M1260 256 q-1 -59 -6 -98" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M1254 158 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1254 158 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1254 158 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1254 158 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1254 158 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1254 158 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1254 158 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="1254" cy="162" r="5" fill="#D87319"></circle></g><g><animateTransform attributeName="transform" type="rotate" values="-1.6 1380 260; 1.6 1380 260; -1.6 1380 260" dur="5.3s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform><path d="M1380 260 q2 -49 10 -82" fill="none" stroke="#0B5963" stroke-width="6" stroke-linecap="round"></path><path d="M1390 178 q-23 -6 -46 8" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1390 178 q-15 -28 -30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1390 178 q0 -36 0 -22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1390 178 q15 -28 30 -14" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1390 178 q23 -4 46 10" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1390 178 q-7 8 -14 22" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><path d="M1390 178 q9 6 18 20" fill="none" stroke="#0B5963" stroke-width="5" stroke-linecap="round"></path><circle cx="1390" cy="182" r="5" fill="#D87319"></circle></g>
+<rect x="0" y="292" width="1440" height="240" fill="#0B5963"></rect>
+<path d="M0 294 C 300 300, 700 288, 1000 298 S 1300 292, 1440 296 L1440 312 L0 312 Z" fill="#1E727D" opacity="0.8" filter="url(#pincel)"></path>
+<g><path d="M-480 318 q60 -5 120 0 t120 0 q60 -5 120 0 t120 0 q60 -5 120 0 t120 0 q60 -5 120 0 t120 0 q60 -5 120 0 t120 0 q60 -5 120 0 t120 0 q60 -5 120 0 t120 0 q60 -5 120 0 t120 0 q60 -5 120 0 t120 0" fill="none" stroke="#1E727D" stroke-width="6" stroke-linecap="round" opacity="0.9"><animateTransform attributeName="transform" type="translate" from="0 0" to="-240 0" dur="14s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform></path><path d="M-480 346 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0" fill="none" stroke="#3F979C" stroke-width="4" stroke-linecap="round" opacity="0.7"><animateTransform attributeName="transform" type="translate" from="0 0" to="-240 0" dur="11s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform></path><path d="M-480 372 q60 -6 120 0 t120 0 q60 -6 120 0 t120 0 q60 -6 120 0 t120 0 q60 -6 120 0 t120 0 q60 -6 120 0 t120 0 q60 -6 120 0 t120 0 q60 -6 120 0 t120 0 q60 -6 120 0 t120 0 q60 -6 120 0 t120 0" fill="none" stroke="#1E727D" stroke-width="7" stroke-linecap="round" opacity="0.8"><animateTransform attributeName="transform" type="translate" from="0 0" to="-240 0" dur="16s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform></path><path d="M-480 398 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0" fill="none" stroke="#5FA3A8" stroke-width="3" stroke-linecap="round" opacity="0.6"><animateTransform attributeName="transform" type="translate" from="0 0" to="-240 0" dur="9s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform></path><path d="M-480 424 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0 q60 -7 120 0 t120 0" fill="none" stroke="#3F979C" stroke-width="5" stroke-linecap="round" opacity="0.7"><animateTransform attributeName="transform" type="translate" from="0 0" to="-240 0" dur="12s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform></path><path d="M-480 450 q60 -9 120 0 t120 0 q60 -9 120 0 t120 0 q60 -9 120 0 t120 0 q60 -9 120 0 t120 0 q60 -9 120 0 t120 0 q60 -9 120 0 t120 0 q60 -9 120 0 t120 0 q60 -9 120 0 t120 0 q60 -9 120 0 t120 0" fill="none" stroke="#5FA3A8" stroke-width="4" stroke-linecap="round" opacity="0.55"><animateTransform attributeName="transform" type="translate" from="0 0" to="-240 0" dur="10s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform></path></g>
+<g filter="url(#pincel)"><path d="M505 312 q28 -3 55 0 t55 0" fill="none" stroke="{{reflexo}}" stroke-width="5" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.2s" begin="{{animBegin}}" repeatCount="indefinite"></animate></path><path d="M514 330 q23 -3 46 0 t46 0" fill="none" stroke="{{reflexo}}" stroke-width="5" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.9s" begin="{{animBegin}}" repeatCount="indefinite"></animate></path><path d="M500 348 q30 -3 60 0 t60 0" fill="none" stroke="{{reflexo}}" stroke-width="5" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="3.6s" begin="{{animBegin}}" repeatCount="indefinite"></animate></path><path d="M522 368 q19 -3 38 0 t38 0" fill="none" stroke="{{reflexo}}" stroke-width="5" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.2s" begin="{{animBegin}}" repeatCount="indefinite"></animate></path><path d="M512 388 q24 -3 48 0 t48 0" fill="none" stroke="{{reflexo}}" stroke-width="5" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.9s" begin="{{animBegin}}" repeatCount="indefinite"></animate></path><path d="M531 410 q14 -3 29 0 t29 0" fill="none" stroke="{{reflexo}}" stroke-width="5" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="3.6s" begin="{{animBegin}}" repeatCount="indefinite"></animate></path><path d="M525 432 q18 -3 35 0 t35 0" fill="none" stroke="{{reflexo}}" stroke-width="5" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.2s" begin="{{animBegin}}" repeatCount="indefinite"></animate></path><path d="M540 452 q10 -3 20 0 t20 0" fill="none" stroke="{{reflexo}}" stroke-width="5" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.9s" begin="{{animBegin}}" repeatCount="indefinite"></animate></path></g>
+<g>
+<animateTransform attributeName="transform" type="translate" values="470 402; 930 410; 470 402" dur="46s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="3.2s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform>
+<ellipse cx="0" cy="18" rx="56" ry="5" fill="#003F4A" opacity="0.45"></ellipse>
+<path d="M0 -2 L0 -60" stroke="#003F4A" stroke-width="3" stroke-linecap="round"></path>
+<path d="M3 -58 L3 -8 L40 -8 Z" fill="#FFFFFF" filter="url(#pincelBotao)"></path>
+<path d="M-3 -48 L-3 -10 L-28 -10 Z" fill="#E8952F" filter="url(#pincelBotao)"></path>
+<path d="M-52 -2 Q0 6 52 -2 L40 14 Q0 18 -40 14 Z" fill="#D87319" filter="url(#pincelBotao)"></path>
+<path d="M-36 6 Q0 10 36 6" fill="none" stroke="#F2B45A" stroke-width="2" stroke-linecap="round"></path>
+</g>
+</g>
+<path style="fill: var(--chao)" d="M0 478 C 160 462, 300 486, 460 472 S 760 460, 900 470 S 1200 486, 1440 468 L1440 560 L0 560 Z" filter="url(#pincel)"></path>
+<path d="M0 478 C 160 462, 300 486, 460 472 S 760 460, 900 470 S 1200 486, 1440 468" fill="none" stroke="#D87319" stroke-width="5" filter="url(#pincel)"></path>
+<path d="M0 492 C 200 480, 420 500, 700 486 S 1180 496, 1440 484" fill="none" stroke="#5FA3A8" stroke-width="3" opacity="0.7" filter="url(#pincel)"></path>
+<g fill="#5FA3A8" filter="url(#pincel)">
+<ellipse cx="640" cy="478" rx="34" ry="16"></ellipse><ellipse cx="664" cy="472" rx="22" ry="14"></ellipse>
+<ellipse cx="960" cy="480" rx="30" ry="14"></ellipse><ellipse cx="1300" cy="478" rx="40" ry="16"></ellipse><ellipse cx="200" cy="482" rx="36" ry="14"></ellipse>
+</g>
+<path d="M720 484 L720 420" stroke="#003F4A" stroke-width="4" stroke-linecap="round"></path>
+<path d="M712 420 h16" stroke="#003F4A" stroke-width="4" stroke-linecap="round"></path>
+<circle cx="720" cy="414" r="34" fill="#F2B45A" filter="url(#pincelForte)" style="opacity: {{luz}}; transition: opacity 1.4s ease"></circle><circle cx="848" cy="436" r="70" fill="#F2B45A" filter="url(#pincelForte)" style="opacity: {{luzPredio}}; transition: opacity 1.4s ease"></circle><circle cx="720" cy="414" r="7" fill="#F2B45A"></circle>
+<g filter="url(#pincelBotao)">
+<rect x="790" y="388" width="116" height="94" fill="#FFFFFF" stroke="#003F4A" stroke-width="3"></rect>
+<path d="M782 392 Q848 334 914 392" fill="none" stroke="#D87319" stroke-width="11" stroke-linecap="round"></path>
+<rect x="804" y="402" width="20" height="18" fill="{{janelaA}}"></rect><rect x="838" y="402" width="20" height="18" fill="{{janelaA}}"></rect><rect x="872" y="402" width="20" height="18" fill="{{janelaB}}"></rect>
+<rect x="804" y="432" width="20" height="18" fill="{{janelaB}}"></rect><rect x="872" y="432" width="20" height="18" fill="{{janelaA}}"></rect>
+<rect x="836" y="436" width="24" height="46" fill="#0B5963"></rect>
+</g>
+<text x="848" y="380" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-size="13" font-weight="700" fill="#003F4A">GESCOMP</text>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="2.4s" repeatCount="indefinite" begin="{{animBegin}}"></animateTransform>
+<ellipse cx="848" cy="356" rx="14" ry="4" fill="#003F4A" opacity="0.25"></ellipse>
+<path d="M848 348 c -26 -30 -34 -44 -34 -58 a34 34 0 0 1 68 0 c 0 14 -8 28 -34 58 z" fill="#D87319" filter="url(#pincelBotao)"></path>
+<circle cx="848" cy="290" r="13" fill="#FFFFFF"></circle>
+</g>
+</svg>
+</section>
+<section id="contato" ref="{{contatoRef}}" style="background: var(--chao)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 24px 24px 112px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Fale com a nossa equipe.</h2>
+<div style="display: flex; flex-direction: column; gap: 14px; font-size: 17px; line-height: 1.6; color: var(--texto2)">
+<div><strong style="color: var(--titulo)">WhatsApp:</strong> <a href="https://wa.me/5579988771430" target="_blank" rel="noopener" style="color: var(--fotoTexto); text-decoration: underline; text-underline-offset: 4px">(79) 98877-1430<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre o WhatsApp)</span></a></div>
+<div><strong style="color: var(--titulo)">E-mail:</strong> <a href="mailto:escritoriogescomp@gmail.com" style="color: var(--fotoTexto); text-decoration: underline; text-underline-offset: 4px">escritoriogescomp@gmail.com</a></div>
+<div><strong style="color: var(--titulo)">Endereço:</strong> Avenida Moisés Gomes Pereira, 368, Centro, Barra dos Coqueiros, SE</div>
+<div><strong style="color: var(--titulo)">Atendimento:</strong> segunda a sexta, das 8h às 12h e das 14h às 18h</div>
+<div><strong style="color: var(--titulo)">Instagram:</strong> <a href="https://www.instagram.com/gescomp_" target="_blank" rel="noopener" style="color: var(--fotoTexto); text-decoration: underline; text-underline-offset: 4px">@gescomp_<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre em nova aba)</span></a></div>
+<div><strong style="color: var(--titulo)">TikTok:</strong> <a href="https://www.tiktok.com/@gescomp" target="_blank" rel="noopener" style="color: var(--fotoTexto); text-decoration: underline; text-underline-offset: 4px">@gescomp<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre em nova aba)</span></a></div>
+</div>
+
+</div>
+<form style="position: relative; padding: 44px 34px 40px; display: flex; flex-direction: column; gap: 18px">
+<svg viewBox="0 0 400 600" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true">
+<path d="M14 18 C 120 4, 280 10, 388 14 C 396 160, 392 420, 390 584 C 280 596, 120 592, 10 588 C 4 420, 8 160, 14 18 Z" style="fill: var(--sombra)" transform="translate(10 12)" filter="url(#pincelForte)"></path>
+<path d="M14 18 C 120 4, 280 10, 388 14 C 396 160, 392 420, 390 584 C 280 596, 120 592, 10 588 C 4 420, 8 160, 14 18 Z" style="fill: var(--papel)" filter="url(#pincelForte)"></path>
+<rect x="166" y="-4" width="72" height="22" fill="#E8952F" opacity="0.85" transform="rotate(-4 202 7)" filter="url(#pincelBotao)"></rect>
+<path d="M330 548 c 14 -10 30 -10 40 -2" fill="none" stroke="#5FA3A8" stroke-width="3" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
+</svg>
+<div style="position: relative; display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 28px; font-weight: 700; letter-spacing: -0.02em; color: var(--titulo)">Envie sua mensagem</h3>
+<svg viewBox="0 0 200 16" preserveAspectRatio="none" style="width: 150px; height: 12px; overflow: visible" aria-hidden="true"><path d="M3 10 C 50 3, 120 14, 197 6" fill="none" stroke="#E8952F" stroke-width="6" stroke-linecap="round" filter="url(#pincelBotao)"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="nome" style="position: relative; font-size: 14px; font-weight: 600; color: var(--texto)">Nome</label>
+<div style="position: relative"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><path style="fill: var(--campo)" d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" stroke="#5E9599" stroke-width="2" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><input id="nome" type="text" autocomplete="name" placeholder="Seu nome" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 18px; font-size: 16px; color: var(--texto)"></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="tel" style="position: relative; font-size: 14px; font-weight: 600; color: var(--texto)">Telefone ou WhatsApp</label>
+<div style="position: relative"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><path style="fill: var(--campo)" d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" stroke="#5E9599" stroke-width="2" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><input id="tel" type="tel" autocomplete="tel" placeholder="(79) 00000-0000" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 18px; font-size: 16px; color: var(--texto)"></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="assunto" style="position: relative; font-size: 14px; font-weight: 600; color: var(--texto)">Assunto</label>
+<div style="position: relative"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><path style="fill: var(--campo)" d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" stroke="#5E9599" stroke-width="2" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><select id="assunto" style="position: relative; width: 100%; box-sizing: border-box; height: 54px; border: 0; background: transparent; padding: 0 16px; font-size: 16px; color: var(--texto)">
+<option>Abertura, regularização ou baixa de CNPJ</option>
+<option>Contabilidade para o meu CNPJ</option>
+<option>Imposto de Renda (IRPF)</option>
+<option>Cálculos trabalhistas</option>
+<option>Consultoria administrativa e financeira</option>
+<option>Outro assunto</option>
+</select></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="msg" style="position: relative; font-size: 14px; font-weight: 600; color: var(--texto)">Mensagem</label>
+<div style="position: relative"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none" aria-hidden="true"><path style="fill: var(--campo)" d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" stroke="#5E9599" stroke-width="2" vector-effect="non-scaling-stroke" filter="url(#pincelBotao)"></path></svg><textarea id="msg" rows="4" placeholder="Como podemos ajudar?" style="position: relative; display: block; width: 100%; box-sizing: border-box; border: 0; background: transparent; padding: 16px 18px; font-size: 16px; resize: vertical; color: var(--texto)"></textarea></div>
+</div>
+<button type="button" style="position: relative; min-height: 58px; margin-top: 6px; border: 0; background: transparent; color: #FFFFFF; font-size: 16px; font-weight: 700; cursor: pointer; padding: 16px 24px"><svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#0B5963" filter="url(#pincelBotao)"></path><path d="M26 50 C 80 55, 150 53, 198 48" fill="none" stroke="#3F979C" stroke-width="3" stroke-linecap="round" opacity="0.55" vector-effect="non-scaling-stroke"></path></svg><span style="position: relative">Enviar mensagem</span></button>
+</form>
+</div>
+</section>
+
+</main>
+<footer style="position: relative; background: #003F4A; color: #BFD6D7">
+<svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display: block; width: 100%; height: 80px; background: var(--chao)" aria-hidden="true">
+<path d="M0 36 C 320 0, 660 70, 1000 30 S 1340 14, 1440 28 L1440 80 L0 80 Z" fill="#1E727D" filter="url(#pincel)"></path>
+<path d="M0 54 C 360 24, 720 86, 1080 48 S 1380 40, 1440 48 L1440 80 L0 80 Z" fill="#003F4A"></path>
+<rect data-borda="1" x="0" y="72" width="1440" height="10" fill="#003F4A"></rect></svg>
+<div style="max-width: 1200px; margin: 0 auto; padding: 36px 24px 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 36px 40px; font-size: 15px; line-height: 1.6">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<a href="#inicio" aria-label="GESCOMP, voltar ao início" style="position: relative; align-self: flex-start; display: flex; padding: 8px 16px">
+<svg viewBox="0 0 220 64" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true"><path d="M10 12 C 60 2, 150 6, 212 8 C 218 22, 216 44, 211 56 C 150 63, 70 61, 8 57 C 2 42, 3 24, 10 12 Z" fill="#EEF0EF" filter="url(#pincelBotao)"></path></svg>
+<img src="/_blob/111a01f93829aa97b2132a58b7df5574" alt="GESCOMP — Gestão Empresarial e Planejamento Contábil" style="position: relative; height: 38px; width: auto; display: block; mix-blend-mode: multiply">
+</a>
+<p style="margin: 0; color: #BFD6D7; max-width: 280px">Conectando Gestão, Estratégia e Resultados.</p>
+</div>
+<nav aria-label="Rodapé">
+<h2 style="margin: 0 0 14px; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 17px; font-weight: 700; color: #FFFFFF">Navegação</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px">
+<li><a href="#sobre" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px">Sobre</a></li>
+<li><a href="Info.dc.html" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px">Informações</a></li>
+<li><a href="#servicos" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px">Serviços</a></li>
+<li><a href="#contato" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px">Contato</a></li>
+</ul>
+</nav>
+<div>
+<h2 style="margin: 0 0 14px; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 17px; font-weight: 700; color: #FFFFFF">Contato</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; color: #BFD6D7">
+<li>WhatsApp: <a href="https://wa.me/5579988771430" target="_blank" rel="noopener" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px">(79) 98877-1430<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre o WhatsApp)</span></a></li>
+<li>E-mail: <a href="mailto:escritoriogescomp@gmail.com" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px">escritoriogescomp@gmail.com</a></li>
+<li>Segunda a sexta, das 8h às 12h e das 14h às 18h</li>
+<li>Instagram: <a href="https://www.instagram.com/gescomp_" target="_blank" rel="noopener" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px">@gescomp_<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre em nova aba)</span></a></li>
+<li>TikTok: <a href="https://www.tiktok.com/@gescomp" target="_blank" rel="noopener" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px">@gescomp<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre em nova aba)</span></a></li>
+</ul>
+</div>
+<div>
+<h2 style="margin: 0 0 14px; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 17px; font-weight: 700; color: #FFFFFF">Endereço</h2>
+<address style="font-style: normal; color: #BFD6D7">Avenida Moisés Gomes Pereira, 368<br>Centro, Barra dos Coqueiros, SE</address>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Avenida+Mois%C3%A9s+Gomes+Pereira%2C+368%2C+Centro%2C+Barra+dos+Coqueiros+-+SE" target="_blank" rel="noopener" style="color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px; display: inline-block; margin-top: 10px">Como chegar<span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0"> (abre o Google Maps em nova aba)</span></a>
+</div>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 24px">
+<svg viewBox="0 0 1200 12" preserveAspectRatio="none" style="display: block; width: 100%; height: 10px; margin-top: 36px" aria-hidden="true"><path d="M2 6 C 300 2, 700 10, 1198 5" fill="none" stroke="#1E727D" stroke-width="3" vector-effect="non-scaling-stroke" filter="url(#pincel)"></path></svg>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 18px 24px 36px; display: flex; justify-content: space-between; align-items: center; gap: 10px 24px; flex-wrap: wrap; font-size: 14px; color: #BFD6D7">
+<span>© 2026 GESCOMP – Gestão Empresarial e Planejamento Contábil Ltda. Todos os direitos reservados.</span>
+<span style="display: flex; gap: 20px; flex-wrap: wrap"><span>CNPJ 67.569.857/0001-06</span><span>Contadora responsável: CRC 009186/SE</span></span>
+</div>
+</footer>
+
+<sc-if value="{{showFab}}" hint-placeholder-val="{{ true }}">
+<a href="#contato" aria-label="Falar pelo WhatsApp" style="position: fixed; right: 18px; bottom: 18px; z-index: 30; width: 68px; height: 68px; display: flex; align-items: center; justify-content: center; filter: drop-shadow(0 8px 14px rgba(0,63,74,0.35))">
+<svg viewBox="0 0 60 60" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" aria-hidden="true">
+<circle cx="30" cy="30" r="27" fill="none" stroke="#2FB24C" stroke-width="2" opacity="0" filter="url(#pincelBotao)">
+<animate attributeName="r" values="27;40;40" keyTimes="0;0.5;1" dur="3.2s" begin="{{animBegin}}" repeatCount="indefinite"></animate>
+<animate attributeName="opacity" values="0.7;0;0" keyTimes="0;0.5;1" dur="3.2s" begin="{{animBegin}}" repeatCount="indefinite"></animate>
+</circle>
+<path d="M30 3 C 46 2, 58 14, 57 30 C 58 46, 45 58, 29 57 C 13 58, 2 45, 3 29 C 2 14, 14 3, 30 3 Z" fill="#2FB24C" filter="url(#pincelBotao)"></path>
+<path d="M12 42 C 20 52, 38 54, 48 44" fill="none" stroke="#1F8A3A" stroke-width="3" stroke-linecap="round" opacity="0.7" filter="url(#pincelBotao)"></path>
+<path d="M14 18 C 18 12, 24 9, 30 8" fill="none" stroke="#7FDA93" stroke-width="2.5" stroke-linecap="round" opacity="0.8" filter="url(#pincelBotao)"></path>
+</svg>
+<img src="/_blob/58e53bdf0c44086fd91a148dab8362b8" alt="" style="position: relative; width: 38px; height: 38px; display: block; filter: url(#pincelBotao)">
+</a>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"anos":{"editor":"int","default":12,"min":0,"section":"Números"},"empresas":{"editor":"int","default":200,"min":0,"section":"Números"},"contratos":{"editor":"int","default":50,"min":0,"section":"Números"},"estados":{"editor":"int","default":5,"min":0,"section":"Números"},"mostrarCursos":{"editor":"boolean","default":false,"section":"Seções"},"$preview":{"width":1280,"height":5000}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+var esc = false;
+this.state = { escuro: esc, p: 0, h: 0, menu: false, narrow: false, scrolled: false, inContato: false, reduce: !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) };
+this.contatoEl = null;
+this.setContatoEl = (el) => { this.contatoEl = el; };
+this.statsEl = null;
+this.started = false;
+this.setStatsEl = (el) => { this.statsEl = el; };
+this.toggleTema = () => {
+var n = !this.state.escuro;
+this.setState({ escuro: n });
+};
+this.toggleMenu = () => this.setState({ menu: !this.state.menu });
+this.closeMenu = () => this.setState({ menu: false });
+this.onResize = () => {
+var n = window.innerWidth < 780;
+if (n !== this.state.narrow) this.setState({ narrow: n, menu: n ? this.state.menu : false });
+};
+this.onScroll = () => {
+var s = (window.scrollY || 0) > 640;
+var c = false;
+if (this.contatoEl && this.contatoEl.getBoundingClientRect) {
+var r = this.contatoEl.getBoundingClientRect();
+c = r.top < window.innerHeight * 0.7 && r.bottom > 0;
+}
+if (s !== this.state.scrolled || c !== this.state.inContato) this.setState({ scrolled: s, inContato: c });
+};
+this.animate = (key, dur, done) => {
+var t0 = null, self = this;
+var step = function (t) {
+if (t0 === null) t0 = t;
+var x = Math.min(1, (t - t0) / dur);
+var o = {}; o[key] = x; self.setState(o);
+if (x < 1) self[key + 'Raf'] = requestAnimationFrame(step); else if (done) done();
+};
+this[key + 'Raf'] = requestAnimationFrame(step);
+};
+this.run = () => {
+if (this.started) return;
+this.started = true;
+this.animate('p', 2800);
+};
+}
+componentDidMount() {
+this.onResize();
+this.onScroll();
+window.addEventListener('resize', this.onResize);
+window.addEventListener('scroll', this.onScroll, { passive: true });
+var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (reduce) { this.started = true; this.setState({ p: 1, h: 1, reduce: true }); return; }
+this.animate('h', 1000);
+var self = this;
+this.timer = setTimeout(function () {
+if (self.statsEl && self.statsEl.nodeType === 1 && 'IntersectionObserver' in window) {
+self.io = new IntersectionObserver(function (es) {
+for (var i = 0; i < es.length; i++) { if (es[i].isIntersecting) { self.io.disconnect(); self.run(); return; } }
+}, { threshold: 0.35 });
+self.io.observe(self.statsEl);
+} else { self.run(); }
+}, 150);
+}
+componentWillUnmount() {
+window.removeEventListener('resize', this.onResize);
+window.removeEventListener('scroll', this.onScroll);
+if (this.io) this.io.disconnect();
+if (this.pRaf) cancelAnimationFrame(this.pRaf);
+if (this.hRaf) cancelAnimationFrame(this.hRaf);
+clearTimeout(this.timer);
+}
+renderVals() {
+var ease = function (x) { return 1 - Math.pow(1 - x, 3); };
+var seg = function (t, a, b) { return ease(Math.max(0, Math.min(1, (t - a) / (b - a)))); };
+var p = ease(this.state.p);
+var h = this.state.h;
+var bars = Math.max(0.001, seg(h, 0, 0.7));
+var sun = seg(h, 0, 0.6);
+var curve = seg(h, 0.25, 1);
+var swash = seg(h, 0.4, 1);
+var fmt = function (n) { return Math.round(n).toLocaleString('pt-BR'); };
+var data = [
+{ v: this.props.anos ?? 12, pre: '', label: 'anos de experiência em contabilidade', color: '#D87319' },
+{ v: this.props.empresas ?? 200, pre: '+', label: 'empresas e clientes atendidos', color: '#1E727D' },
+{ v: this.props.contratos ?? 50, pre: '+', label: 'empresas com contrato ativo hoje', color: '#C9651A' },
+{ v: this.props.estados ?? 5, pre: '', label: 'estados atendidos, com mais de 30 cidades: SE, MA, RJ, SP e MG', color: '#3F979C' }
+];
+var stats = data.map(function (d) {
+return { text: d.pre + fmt(d.v * p), final: d.pre + fmt(d.v), label: d.label, color: d.color, off: String(100 - 100 * p) };
+});
+var narrow = this.state.narrow;
+var open = narrow && this.state.menu;
+var dk = this.state.escuro;
+var T = dk ? { chao: '#0A2B31', superficie: '#0E363D', papel: '#123F46', foto: '#1A4C53', sombra: '#06222A', fotoTexto: '#9CD0CF', titulo: '#F1F5F4', texto: '#D5E4E4', texto2: '#A9C3C4', linha: '#1F5359', campo: '#0E363D', nuvem: '#1C4A51' }
+: { chao: '#F1F5F4', superficie: '#FFFFFF', papel: '#FFFFFF', foto: '#CFE0E0', sombra: '#CFE0E0', fotoTexto: '#0B5963', titulo: '#003F4A', texto: '#12292D', texto2: '#45585B', linha: '#D6E4E4', campo: '#F4F9F8', nuvem: '#DCE8E7' };
+var mv = 'transition: transform 1.6s cubic-bezier(.2,.7,.2,1), opacity 1.3s ease; transform-box: view-box; ';
+return {
+mostrarCursos: !!(this.props.mostrarCursos ?? false),
+tema: T,
+escuro: dk,
+claro: !dk,
+toggleTema: this.toggleTema,
+temaLabel: dk ? 'Ativar modo claro' : 'Ativar modo escuro',
+solStyle: mv + (dk ? 'opacity: 0; transform: translateY(150px)' : 'opacity: 1; transform: translateY(0px)'),
+luaStyle: mv + (dk ? 'opacity: 1; transform: translateY(0px)' : 'opacity: 0; transform: translateY(150px)'),
+estrelas: dk ? '1' : '0',
+reflexo: dk ? '#E9E4CC' : '#F2B45A',
+janelaA: dk ? '#F2B45A' : '#1E727D',
+janelaB: dk ? '#E8952F' : '#5FA3A8',
+luz: dk ? '0.45' : '0',
+luzPredio: dk ? '0.18' : '0',
+stats: stats,
+statsRef: this.setStatsEl,
+narrow: narrow,
+wide: !narrow,
+menuOpen: open,
+menuClosed: !open,
+menuLabel: open ? 'Fechar menu' : 'Abrir menu',
+toggleMenu: this.toggleMenu,
+closeMenu: this.closeMenu,
+showFab: this.state.scrolled && !this.state.inContato,
+contatoRef: this.setContatoEl,
+animBegin: this.state.reduce ? 'indefinite' : '0s',
+sceneH: narrow ? '360px' : '520px',
+artOrder: '1',
+heroPad: narrow ? '28px 20px 150px' : '72px 32px 190px',
+h1Size: narrow ? '38px' : 'clamp(44px, 5vw, 70px)',
+barTransform: 'translate(0 ' + (432 * (1 - bars)).toFixed(2) + ') scale(1 ' + bars.toFixed(4) + ')',
+sunStyle: 'opacity: ' + sun.toFixed(3) + '; transform: scale(' + (0.7 + 0.3 * sun).toFixed(3) + '); transform-origin: 150px 130px',
+photoStyle: 'opacity: ' + sun.toFixed(3) + '; transform: scale(' + (0.8 + 0.2 * sun).toFixed(3) + ')',
+curveOff: String(100 - 100 * curve),
+arrowOp: String(seg(h, 0.85, 1)),
+swashOff: String(100 - 100 * swash),
+services: [
+{ title: 'Abertura, regularização e baixa de CNPJ', text: 'Abrimos sua empresa, colocamos a documentação em dia e, quando preciso, encerramos o CNPJ do jeito certo.', bg: '#0B5963', d: 'M4 21V8l8-5 8 5v13 M9 21v-6h6v6 M3 21h18' },
+{ title: 'Contabilidade para o seu CNPJ', text: 'Contas, impostos e relatórios da sua empresa em dia, todo mês. A partir de R$ 150,00.', bg: '#D87319', d: 'M4 5h16v16H4z M4 10h16 M9 3v4 M15 3v4 M8 14h3 M8 17h6' },
+{ title: 'Imposto de Renda (IRPF)', text: 'Declaração de Imposto de Renda de pessoa física, feita com cuidado e no prazo. A partir de R$ 100,00.', bg: '#1E727D', d: 'M6 3h12v18l-3-2-3 2-3-2-3 2z M9 15l6-6 M9 9.5h0.5 M14.5 14.5h0.5' },
+{ title: 'Cálculos trabalhistas', text: 'Rescisão, férias, 13º salário e outras verbas trabalhistas calculadas corretamente. A partir de R$ 100,00.', bg: '#0B5963', d: 'M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6 M16 5.5a3 3 0 0 1 0 5.5 M17 14c2.4.5 4 2.9 4 6' },
+{ title: 'Consultoria administrativa e financeira', text: 'Controle de custos e despesas e orientação para decidir com mais segurança sobre o dinheiro da empresa. Valor a consultar.', bg: '#1E727D', d: 'M3 17l6-6 4 4 8-8 M15 7h6v6' },
+{ title: 'MEI e regime de impostos', text: 'Ajudamos a escolher o regime que faz você pagar menos e o melhor momento para deixar de ser MEI.', bg: '#D87319', d: 'M3 9l2-5h14l2 5 M3 9h18 M5 9v11h14V9 M10 20v-5h4v5' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

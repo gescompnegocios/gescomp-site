@@ -1,0 +1,46 @@
+# O que fazer quando cada material chegar
+
+**Já aplicado em 01/10/2026:** WhatsApp e e-mail (em `assets/js/config.js`), endereço físico, horário, Instagram e TikTok, CNPJ, CRC, nome oficial, logo nova, slogan, texto Sobre, números, serviços com preços e perguntas frequentes.
+**Materiais já disponíveis com o usuário (03/10/2026):** domínio escolhido, imagens e nome completo. O nome **Gabriela do Nascimento Vieira** já foi aplicado. Registrar o domínio final e selecionar/aplicar as imagens no site, sem pedir esses materiais novamente.
+**Ainda falta confirmar/receber:** depoimentos autorizados, CEP, autorizações das fotos, alcance do serviço de folha, aprovação dos textos, logo vetorial (se houver) e referências visuais.
+
+Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → textos e seções novas → publicação final.
+
+1. **Domínio confirmado** (faça primeiro: a troca de servidores pode levar até 48 h)
+   - Registre no Registro.br em nome da empresa ou da Gabriela, não no seu.
+   - No Cloudflare, adicione o domínio (Add a domain) e troque os servidores DNS no Registro.br pelos que o Cloudflare indicar.
+   - No projeto do Pages: Custom domains → adicione `gescompcontabilidade.com.br` e `www.gescompcontabilidade.com.br`. Crie uma regra de redirecionamento do `www` para o endereço sem `www`.
+   - Se o domínio final for outro, troque o endereço nos arquivos (veja `pendencias.md`).
+   - Cadastre o site no Google Search Console e envie `https://gescompcontabilidade.com.br/sitemap.xml`.
+2. **Logo em alta qualidade**
+   - Gere de novo: `assets/img/logo-gescomp.webp` e `.png`, `assets/img/selo-gescomp.webp`, `assets/img/og-image.jpg`, `favicon.ico`, `apple-touch-icon.png` e os ícones de `assets/icones/`.
+   - Use nomes novos (ex.: `logo-gescomp-v2.webp`) e atualize as referências: assim ninguém vê a logo antiga guardada no navegador.
+   - Se vier com fundo transparente, tire o `mix-blend-mode: multiply` da logo no cabeçalho e no rodapé.
+3. **Cores oficiais:** só se forem diferentes. Troque os 8 códigos de `01-empresa/identidade-visual/cores.md` em todos os arquivos (busca e substituição) e confira o contraste dos botões.
+4. **WhatsApp:** preencha `whatsapp` em `assets/js/config.js` (ex.: `5579999999999`). Todos os botões de WhatsApp e o formulário passam a usar o número. Escreva o número também no Contato, no rodapé e nos dados do Google.
+5. **E-mail:** preencha `email` em `assets/js/config.js`, troque `[E-MAIL]` no Contato e no rodapé. Para ter um e-mail com o domínio (ex.: contato@gescompcontabilidade.com.br), o Cloudflare Email Routing encaminha as mensagens para um Gmail, sem custo (só recebe; para enviar com o domínio, é preciso um serviço como Google Workspace ou Zoho).
+6. **Endereço com número:** Contato, rodapé, link "Como chegar" (inclua o número na busca do Maps), dados do Google e `llms.txt`. Se ela não quiser divulgar, deixe só bairro e cidade.
+7. **Horário:** Contato, rodapé e dados do Google.
+8. **Instagram e redes:** troque `@[USUARIO]` e o link `instagram.com/[USUARIO]` no Contato, no rodapé e no `llms.txt`; adicione `sameAs` nos dados do Google.
+9. **CNPJ e CRC:** rodapé, linha de confiança da abertura e legenda da foto da Gabriela.
+10. **Nome completo e ano de fundação:** legenda da foto ("Gabriela do Nascimento Vieira") e "Desde [ANO]".
+11. **Texto sobre a GESCOMP:** substitua os dois parágrafos entre colchetes da seção Sobre. Reescreva em frases curtas e peça aprovação.
+12. **Números reais:** troque o texto e o `data-contador` de cada número. Publique só números verdadeiros.
+13. **Slogan:** mantenha o título atual (bom para o Google) e use o slogan como frase menor, se ela tiver.
+14. **Preços:** se ela divulgar, coloque "A partir de R$" nos cartões de serviço, com aviso de que o valor final depende da análise.
+15. **Depoimentos:** crie a seção com cartões pintados, só com autorização por escrito. Não marque como avaliação com estrelas nos dados do Google.
+16. **Perguntas frequentes:** crie a seção na página inicial, no formato das páginas de Informações, e adicione os dados de FAQ do Google.
+17. **Fotos:** corte na proporção do espaço, reduza para até 1600 px, salve em WebP (de preferência abaixo de 300 KB) em `assets/img/` e escreva o texto alternativo. Guarde os originais em `01-empresa/fotos/`.
+18. **Sites de referência:** só no fim, para pequenos ajustes.
+
+## Depois de publicar
+- Teste no celular e no computador: WhatsApp, formulário, menu, modo escuro.
+- Peça à Gabriela para criar ou atualizar o Perfil da Empresa no Google, com o mesmo nome, endereço e telefone do site.
+- Opcional: ative o Cloudflare Web Analytics no projeto (estatísticas de visitas, sem cookies).
+
+## Manutenção
+- **Todo janeiro:** revise as páginas de Informações (salário mínimo, INSS, DAS do MEI, Imposto de Renda, limites) e atualize a data "Atualizado em", o `dateModified` dos dados do Google e o `lastmod` do `sitemap.xml`.
+- **Depois de 30/10/2026:** atualize ou remova os avisos de prazo de 15/10 e 30/10 (Simples Nacional, CBS e IBS) em `simples-nacional.html`, `informacoes.html` e `calendario-fiscal.html`.
+
+## Como trocar os vídeos do Instagram
+Edite `publicar/assets/js/config.js` (lista `instagramReels`), salve e publique de novo.
