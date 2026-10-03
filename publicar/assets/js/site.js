@@ -156,18 +156,25 @@ function falhar(s,tipo){
   capa.classList.remove('ig-capa');capa.removeAttribute('aria-hidden');capa.removeAttribute('tabindex');
   var tx=capa.querySelector('[data-capa-texto]'); if(tx)tx.textContent=tipo==='embed'?'Toque para assistir no Instagram':'Toque para assistir';
 }
+// Se o Instagram demorar (rede lenta, aba em segundo plano), a capa vira um link provisório
+// para o Reel; o iframe continua sendo observado e substitui a capa assim que fica pronto.
+function liberarCapa(capa){
+  if(!capa||!capa.parentNode)return;
+  capa.classList.add('livre');capa.removeAttribute('aria-hidden');capa.removeAttribute('tabindex');
+  var tx=capa.querySelector('[data-capa-texto]'); if(tx)tx.textContent='Toque para assistir no Instagram';
+}
 function vigiarIframe(s,caixa,capa,n){
-  var pararAltura=null, encerrado=false;
-  var limite=setTimeout(function(){encerrado=true;mo.disconnect();if(pararAltura)pararAltura();falhar(s,'embed');},LIMITE_CARGA);
+  var pararAltura=null, pronto=false;
+  var limite=setTimeout(function(){if(!pronto)liberarCapa(capa);},LIMITE_CARGA);
   var mo=new MutationObserver(function(){
     var f=caixa.querySelector('iframe'); if(!f)return; mo.disconnect();
     if(!f.getAttribute('title'))f.setAttribute('title','Vídeo '+n+' da GESCOMP no Instagram');
     f.addEventListener('load',function(){
-      if(encerrado)return;
+      if(pronto)return;
       if(pararAltura)pararAltura();
       pararAltura=esperarAltura(f,function(){
-        if(encerrado)return;
-        encerrado=true;clearTimeout(limite);caixa.classList.add('pronto');tirarCapa(capa);
+        if(pronto)return;
+        pronto=true;clearTimeout(limite);caixa.classList.add('pronto');tirarCapa(capa);
       });
     });
   });
@@ -176,7 +183,7 @@ function vigiarIframe(s,caixa,capa,n){
 // O Instagram ajusta a altura do iframe depois do "load"; a capa só sai quando ele já tem tamanho de vídeo.
 function esperarAltura(f,feito){
   if(f.offsetHeight>=200){feito();return function(){};}
-  if(!window.ResizeObserver){var timer=setTimeout(function(){if(f.offsetHeight>=200)feito();},1500);return function(){clearTimeout(timer);};}
+  if(!window.ResizeObserver){var timer=setInterval(function(){if(f.offsetHeight>=200){clearInterval(timer);feito();}},500);return function(){clearInterval(timer);};}
   var ro=new ResizeObserver(function(){if(f.offsetHeight>=200){ro.disconnect();feito();}});
   ro.observe(f);
   return function(){ro.disconnect();};

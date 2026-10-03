@@ -27,8 +27,10 @@ body{background:var(--chao)}
 .hero-arte{order:1}
 .hero-titulo{font-size:clamp(44px,5vw,70px)}
 @media (max-width:779px){.hero-grade{padding:28px 20px 150px}.hero-titulo{font-size:38px}}
-.rio-cena{height:520px}
-@media (max-width:779px){.rio-cena{height:360px}}
+.rio-conteudo{max-width:1200px;margin:0 auto;padding:40px 24px 8px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:24px 56px;align-items:end}
+.rio-conteudo>div{min-width:0}
+.rio-cena{height:auto;min-height:520px}
+@media (max-width:779px){.rio-cena{height:min(360px,80vw);min-height:0}}
 .rio-sol,.rio-lua{transform-box:view-box;transition:transform 1.6s cubic-bezier(.2,.7,.2,1),opacity 1.3s ease}
 .rio-lua{opacity:0;transform:translateY(150px)}
 [data-theme="dark"] .rio-sol{opacity:0;transform:translateY(150px)}
@@ -67,6 +69,7 @@ body{background:var(--chao)}
 .ig-midia video{display:block;width:100%;height:100%;object-fit:contain;background:#003F4A}
 .ig-midia blockquote.instagram-media,.ig-midia iframe.instagram-media{min-width:0!important;max-width:100%!important;width:100%!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important}
 .ig-capa{position:absolute!important;left:0;top:0;width:100%;z-index:1;pointer-events:none}
+.ig-capa.livre{pointer-events:auto}
 .ig-seta{position:absolute;top:50%;z-index:2;width:52px;height:52px;margin-top:-26px;padding:0;border:0;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center}
 .ig-seta[hidden]{display:none}
 .ig-seta-anterior{left:-14px}
