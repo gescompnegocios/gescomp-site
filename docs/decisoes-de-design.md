@@ -1,5 +1,24 @@
 # Decisões de design
 
+## Estado atual — 04/10/2026
+
+Esta seção substitui as decisões visuais anteriores; os registros abaixo ficam como histórico.
+
+- **Abertura:** fundo petróleo vibrante `#0A7A82`, texto primeiro e arte/retrato à direita; no celular, arte menor abaixo. Título “Contabilidade próxima, sem dor de cabeça.”, H1 até 56px, sublinhado de pincel, três selos e entrada de 600ms somente na imagem. A arte de gráfico permanece até chegar a foto real.
+- **Serviços:** três cards em destaque e cinco links compactos. Card de contabilidade em petróleo vibrante, com botão laranja e texto petróleo profundo. Títulos pela voz do cliente. Oito mensagens em `config.js`, conectadas por `data-whatsapp-msg`.
+- **Escala:** corpo 16px, destaque 17px, H2 até 38px, H3 20–22px, leitura até 65ch. Container de 1180px, margem de 24px, espaçamento de cards 24px, botões de 48px com raio de 12px e cards com raio de 20px. Fontes Bricolage Grotesque e Figtree.
+- **Paleta:** petróleo profundo `#003F4A`, petróleo vibrante `#0A7A82`, verde-água `#E3F4F2`, borda `#BFE6E2`, laranja `#F28A1E`, terracota `#C4572A` e âmbar `#FFB547`. Tokens de tema em `site.css`; contraste AA verificado nos dois temas.
+- **Cabeçalho:** logo 42px no computador e 40px no celular; controles de 48px. Margem móvel de 16px e gap de 6px resolvem o encaixe em 360px. Chamada “Falar com a contadora” abre WhatsApp.
+- **Ritmo:** abertura → serviços → números → Gabriela → avaliações → Instagram → Informações/FAQ → chamada final → rio → contato → rodapé. Fundos alternados. Avaliações ficam escondidas enquanto não houver textos reais aprovados.
+- **Desenho:** sublinhado e moldura da abertura, cena do rio, onda da abertura e de entrada do rio, e WhatsApp flutuante. Cards, botões, campos e demais fundos são limpos. A onda da abertura tem 56px; a do rio mantém 90px. A faixa anterior ao rio mantém `#0B5963` para preservar a transição existente.
+- **Rio:** preservado fora das duas áreas de ajuste confirmadas: placa “GESCOMP” na casa e onda de entrada lisa (cobertura da borda e remoção do filtro só no path de transição). Codex não alterou animações, cores ou enquadramento. A comparação estática desconta essas diferenças exatas e confere o restante contra `e3c3bb5`.
+- **Fotos:** `data-foto` e `data-foto-alt` no HTML; `config.fotos` libera só arquivos WebP locais já entregues. Arte de espera sem texto visível de espaço reservado; nenhuma fotografia de pessoa foi inventada.
+- **Movimento:** revelação uma vez, até 400ms. Hover de cards, revelação e carrosséis automáticos desligam com movimento reduzido; o comportamento existente do rio é preservado.
+- **Contato e acesso:** telefone opcional no formulário. Lançadores WhatsApp/VLibras são ocultados durante sobreposição com selos, carrosséis ou formulário no celular; painel aberto do VLibras preservado.
+- **Evidências:** matriz de 72 casos, testes funcionais e Lighthouse em `docs/evidencias/2026-10-04/`; alcance e limitações no handoff.
+
+## Histórico até 03/10/2026
+
 - **Estilo:** desde 03/10/2026, visual sóbrio com o traço desenhado só em pontos-chave (veja "Visual sóbrio" abaixo). Antes era "pintura" com bordas de pincel, ondas pintadas e textura de tela em tudo.
 - **Fontes:** Bricolage Grotesque (títulos) e Figtree (textos).
 - **Abertura:** fundo petróleo escuro igual ao rodapé; no celular, texto primeiro e arte depois; título com cidade e benefício ("Contabilidade em Aracaju para sua empresa crescer sem dor de cabeça.").

@@ -1,0 +1,14 @@
+{
+  "data": "2026-10-04",
+  "origem": "https://gescompnegocios.com.br",
+  "nameservers": ["alec.ns.cloudflare.com", "dora.ns.cloudflare.com"],
+  "metodo": "GET pelo navegador Playwright, somente leitura",
+  "respostas": [
+    {"path": "/", "status": 200, "https": true, "versoes": ["20261003"]},
+    {"path": "/sitemap.xml", "status": 200, "https": true},
+    {"path": "/robots.txt", "status": 200, "https": true},
+    {"path": "/llms.txt", "status": 200, "https": true},
+    {"path": "/assets/img/og-image.jpg", "status": 200, "https": true}
+  ],
+  "observacao": "Domínio ativo; a nova versão local 20261004 não foi publicada nesta rodada. Nenhum DNS/deploy/push executado."
+}

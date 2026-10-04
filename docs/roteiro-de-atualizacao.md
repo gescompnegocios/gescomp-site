@@ -1,48 +1,45 @@
-# O que fazer quando cada material chegar
+# Atualização, domínio e publicação
 
-**Já aplicado em 01/10/2026:** WhatsApp e e-mail (em `assets/js/config.js`), endereço físico, horário, Instagram e TikTok, CNPJ, CRC, nome oficial, logo nova, slogan, texto Sobre, números, serviços com preços e perguntas frequentes.
-**Materiais já disponíveis com o usuário (03/10/2026):** domínio **gescompnegocios.com.br**, comprado no Registro.br, imagens e nome completo. O nome **Gabriela do Nascimento Vieira** já foi aplicado. Conectar o domínio à hospedagem e selecionar/aplicar as imagens no site.
-**Ainda falta confirmar/receber:** avaliações do Google (link, avaliações escolhidas, nota e total), CEP, autorizações das fotos, alcance do serviço de folha, aprovação dos textos, logo vetorial (se houver) e referências visuais.
+O código usa **https://gescompnegocios.com.br/** em todos os endereços oficiais. A hospedagem existente é o Cloudflare Worker `gescomp-site`, conectado ao GitHub, com assets em `publicar/`. Não há framework nem build.
 
-Ordem recomendada: domínio → logo e cores → contatos e dados → fotos → textos e seções novas → publicação final.
+**Nesta rodada não executar DNS, deploy, push nem alterações em produção.** Os passos externos abaixo são um roteiro para uma execução futura autorizada, não um registro de ações realizadas.
 
-1. **Conectar gescompnegocios.com.br ao Worker gescomp-site**
-   - O endereço ativo é `https://gescomp-site.gescompnegocios.workers.dev`. O domínio final já foi comprado. Na consulta de 03/10/2026, a delegação DNS ainda está em `a.auto.dns.br` e `b.auto.dns.br` (Registro.br).
-   - Adicione `gescompnegocios.com.br` à mesma conta Cloudflare que contém o Worker `gescomp-site`. Confira os registros DNS importados. Anote os dois servidores DNS atribuídos pela Cloudflare.
-   - No Registro.br, edite os servidores DNS do domínio e informe exatamente os dois servidores atribuídos pela Cloudflare. Aguarde a zona aparecer como ativa; não use servidores de outro domínio ou de outra conta.
-   - No Worker: Workers & Pages → gescomp-site → Settings → Domains & Routes → Add → Custom Domain. Adicione `gescompnegocios.com.br` quando a zona estiver ativa. A Cloudflare cria o registro DNS e o certificado HTTPS. [Documentação oficial](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
-   - Para `www`, configure um registro DNS com proxy e uma regra de redirecionamento permanente para `https://gescompnegocios.com.br`, preservando caminho e parâmetros. Veja a seção sobre redirecionamento entre `www` e domínio raiz na documentação oficial acima.
-   - Confirme a página inicial, `/informacoes`, `/assets/css/site.css` e `/sitemap.xml` com HTTPS no domínio final. Só depois troque `https://gescomp-site.gescompnegocios.workers.dev` por `https://gescompnegocios.com.br` nos HTMLs de `publicar/`, nos dados estruturados, em `sitemap.xml`, `robots.txt` e `llms.txt`, e publique. Comando, dentro de `publicar/`: `grep -rl "gescomp-site.gescompnegocios.workers.dev" . | xargs sed -i "s#gescomp-site.gescompnegocios.workers.dev#gescompnegocios.com.br#g"`.
-   - Cadastre o domínio no Google Search Console e envie `https://gescompnegocios.com.br/sitemap.xml`.
-2. **Logo em alta qualidade**
-   - Gere de novo: `assets/img/logo-gescomp.webp` e `.png`, `assets/img/selo-gescomp.webp`, `assets/img/og-image.jpg`, `favicon.ico`, `apple-touch-icon.png` e os ícones de `assets/icones/`.
-   - Use nomes novos (ex.: `logo-gescomp-v2.webp`) e atualize as referências: assim ninguém vê a logo antiga guardada no navegador.
-   - Se vier com fundo transparente, tire o `mix-blend-mode: multiply` da logo no cabeçalho e no rodapé.
-3. **Cores oficiais:** só se forem diferentes. Troque os 8 códigos de `01-empresa/identidade-visual/cores.md` em todos os arquivos (busca e substituição) e confira o contraste dos botões.
-4. **WhatsApp:** preencha `whatsapp` em `assets/js/config.js` (ex.: `5579999999999`). Todos os botões de WhatsApp e o formulário passam a usar o número. Escreva o número também no Contato, no rodapé e nos dados do Google.
-5. **E-mail:** preencha `email` em `assets/js/config.js`, troque `[E-MAIL]` no Contato e no rodapé. Para ter um e-mail com o domínio (ex.: contato@gescompnegocios.com.br), o Cloudflare Email Routing encaminha as mensagens para um Gmail, sem custo (só recebe; para enviar com o domínio, é preciso um serviço como Google Workspace ou Zoho).
-6. **Endereço com número:** Contato, rodapé, link "Como chegar" (inclua o número na busca do Maps), dados do Google e `llms.txt`. Se ela não quiser divulgar, deixe só bairro e cidade.
-7. **Horário:** Contato, rodapé e dados do Google.
-8. **Instagram e redes:** troque `@[USUARIO]` e o link `instagram.com/[USUARIO]` no Contato, no rodapé e no `llms.txt`; adicione `sameAs` nos dados do Google.
-9. **CNPJ e CRC:** rodapé, linha de confiança da abertura e legenda da foto da Gabriela.
-10. **Nome completo e ano de fundação:** legenda da foto ("Gabriela do Nascimento Vieira") e "Desde [ANO]".
-11. **Texto sobre a GESCOMP:** substitua os dois parágrafos entre colchetes da seção Sobre. Reescreva em frases curtas e peça aprovação.
-12. **Números reais:** troque o texto e o `data-contador` de cada número. Publique só números verdadeiros.
-13. **Slogan:** mantenha o título atual (bom para o Google) e use o slogan como frase menor, se ela tiver.
-14. **Preços:** se ela divulgar, coloque "A partir de R$" nos cartões de serviço, com aviso de que o valor final depende da análise.
-15. **Avaliações:** a seção "O que dizem nossos clientes" já existe e fica escondida. Preencha o objeto `avaliacoes` em `assets/js/config.js` (links, nota, total e itens); ela aparece sozinha. Só publique avaliações reais, com autorização, e não marque como avaliação nos dados do Google.
-16. **Perguntas frequentes:** crie a seção na página inicial, no formato das páginas de Informações, e adicione os dados de FAQ do Google.
-17. **Fotos:** corte na proporção do espaço, reduza para até 1600 px, salve em WebP (de preferência abaixo de 300 KB) em `assets/img/` e escreva o texto alternativo. Guarde os originais em `01-empresa/fotos/`.
-18. **Sites de referência:** só no fim, para pequenos ajustes.
+**Verificado em 04/10/2026:** domínio já ativo com NS `alec.ns.cloudflare.com` e `dora.ns.cloudflare.com`; raiz, sitemap, robots, llms e imagem Open Graph respondem HTTPS 200. No ar permanece a versão de assets `20261003`. Codex fez somente consultas de leitura; nenhum DNS/deploy/push. Não repetir os passos de conexão abaixo em uma zona já ativa sem necessidade. Evidência em `evidencias/2026-10-04/dominio-https.json`.
 
-## Depois de publicar
-- Teste no celular e no computador: WhatsApp, formulário, menu, modo escuro.
-- Peça à Gabriela para criar ou atualizar o Perfil da Empresa no Google, com o mesmo nome, endereço e telefone do site.
-- Opcional: ative o Cloudflare Web Analytics no projeto (estatísticas de visitas, sem cookies).
+## Conexão externa do domínio
+
+1. Entrar na conta Cloudflare que contém o Worker `gescomp-site`. Não criar uma cópia do Worker na conta curtiZ por engano.
+2. Adicionar `gescompnegocios.com.br` nessa conta. Conferir os registros DNS importados, incluindo os de e-mail, e anotar os dois servidores DNS atribuídos pela Cloudflare.
+3. No Registro.br, informar exatamente os servidores atribuídos a essa zona e aguardar seu estado ativo. Não reutilizar servidores de outro domínio.
+4. No Worker, abrir Settings → Domains & Routes → Add → Custom Domain e adicionar `gescompnegocios.com.br`. A Cloudflare configura o DNS e o certificado do domínio personalizado. [Documentação oficial](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
+5. Se houver `www`, configurar DNS com proxy e redirecionamento permanente para a raiz, preservando caminho e parâmetros. Usar as orientações da documentação acima.
+6. Conferir HTTPS, página inicial, todas as oito páginas de Informações, imagem Open Graph, sitemap, robots e assets. Após autorização, configurar o redirecionamento do endereço de hospedagem anterior para o domínio oficial.
+7. Após a publicação autorizada, cadastrar o domínio no Search Console e enviar `https://gescompnegocios.com.br/sitemap.xml`.
+
+A consulta de DNS de 04/10/2026 e a resposta HTTPS confirmaram a ativação. A publicação das mudanças locais é uma etapa separada, ainda proibida pelo protocolo desta rodada.
+
+## Alterar conteúdo e configuração
+
+- WhatsApp, mensagem padrão, mensagens específicas, e-mail, vídeos e avaliações: `publicar/assets/js/config.js`.
+- Conteúdo visível e preços: HTML. Manter ofertas do JSON-LD sincronizadas, sem criar preços ou condições.
+- Fotos: seguir `imagens.md`; usar arquivos reais aprovados em `assets/img/fotos/` e manter arte de espera até a entrega.
+- Avaliações: só preencher dados reais; seção vazia fica escondida. Cada item contém `nome`, `texto`, `estrelas` e `link` opcional. Não adicionar avaliações ao JSON-LD.
+- Respostas de contratação: revisar `perguntas-para-aprovar.md` com a Gabriela antes de publicar. Sincronizar HTML e FAQ estruturada somente após aprovação.
+- A estrutura visual e os tokens já foram implementados por Claude e estão descritos no LEIA-ME. Rio protegido, com somente duas exceções confirmadas: placa da casa e cobertura da borda pontilhada da onda. Não alterar outros pontos.
+- Atualizar a versão de CSS/JS em todas as páginas: nesta rodada `?v=20261004`. Se houver mais de uma publicação no mesmo dia, usar um sufixo novo.
+
+## Conferência local e fechamento
+
+Usar `py -3 -m http.server 8080 --bind 127.0.0.1` no Windows, dentro de `publicar/`. Abrir páginas internas com `.html` nesse servidor. Para testar URLs sem extensão e `_headers`, usar o Wrangler local existente.
+
+Na etapa 3, verificar as quatro telas, ambos os temas, contraste, teclado, erros, textos de espaço reservado, formulário sem telefone, mensagens dos oito serviços, avaliações vazias e três avaliações de teste, carrosséis com/sem movimento reduzido e prints do rio. Dados de teste não podem ficar em `config.js`.
+
+Executar `node --check` nos dois scripts. A busca pelos dois endereços antigos deve retornar zero em `02-site/`. Registrar resultados efetivos e limitações no `handoff.md` e no arquivo de colaboração.
+
+O commit final pertence ao Codex, após a revisão. O push fica condicionado à resolução da proibição explícita de produção; não há publicação nesta rodada.
 
 ## Manutenção
-- **Todo janeiro:** revise as páginas de Informações (salário mínimo, INSS, DAS do MEI, Imposto de Renda, limites) e atualize a data "Atualizado em", o `dateModified` dos dados do Google e o `lastmod` do `sitemap.xml`.
-- **Depois de 30/10/2026:** atualize ou remova os avisos de prazo de 15/10 e 30/10 (Simples Nacional, CBS e IBS) em `simples-nacional.html`, `informacoes.html` e `calendario-fiscal.html`.
 
-## Como trocar os vídeos do Instagram
-Edite `publicar/assets/js/config.js` (lista `instagramReels`), salve e publique de novo.
+- Revisar artigos tributários todo janeiro e sempre que houver alteração legal. Só mudar `dateModified`, data visível e `lastmod` do artigo quando o conteúdo for efetivamente revisado.
+- Depois dos prazos de outubro de 2026, conferir os avisos em Simples Nacional, Informações e Calendário Fiscal.
+- Quando imagens já publicadas forem substituídas, mudar seu nome ou versionar a URL; os assets de imagem têm cache de sete dias.

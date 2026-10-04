@@ -8,8 +8,23 @@
   "background_color": "#F1F5F4",
   "theme_color": "#003F4A",
   "icons": [
-    { "src": "/assets/icones/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/assets/icones/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/assets/icones/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
-  ]
+    {
+      "src": "/assets/icones/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icones/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icones/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/",
+  "scope": "/"
 }

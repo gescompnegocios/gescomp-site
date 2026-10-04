@@ -1,0 +1,425 @@
+[
+  {
+    "nome": "Oito links reais do WhatsApp em 1366",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "chave": "abrirEmpresa",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "contabilidade",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "impostoRenda",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "trabalhista",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "regime",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "mei",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "consultoria",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      }
+    ]
+  },
+  {
+    "nome": "Foco visível em 65 passos de teclado em 1366",
+    "aprovado": true,
+    "detalhe": []
+  },
+  {
+    "nome": "Pergunta abre pelo teclado em 1366",
+    "aprovado": true
+  },
+  {
+    "nome": "Seta do carrossel pelo teclado em 1366",
+    "aprovado": true
+  },
+  {
+    "nome": "Oito links reais do WhatsApp em 390",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "chave": "abrirEmpresa",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "contabilidade",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "impostoRenda",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "trabalhista",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "regime",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "mei",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "chave": "consultoria",
+        "correto": true,
+        "target": "_blank",
+        "rel": "noopener"
+      }
+    ]
+  },
+  {
+    "nome": "Foco visível em 65 passos de teclado em 390",
+    "aprovado": true,
+    "detalhe": []
+  },
+  {
+    "nome": "Menu abre pelo teclado",
+    "aprovado": true
+  },
+  {
+    "nome": "Escape fecha menu e devolve foco",
+    "aprovado": true
+  },
+  {
+    "nome": "Pergunta abre pelo teclado em 390",
+    "aprovado": true
+  },
+  {
+    "nome": "Seta do carrossel pelo teclado em 390",
+    "aprovado": true
+  },
+  {
+    "nome": "Barco, coqueiro e pássaro continuam animados",
+    "aprovado": true,
+    "detalhe": {
+      "antes": {
+        "tempo": 2.0833239555358887,
+        "pausado": false,
+        "transformacoes": [
+          [
+            1,
+            0,
+            0,
+            1,
+            506.0000305175781,
+            402.6260986328125
+          ],
+          [
+            0.9999423210540156,
+            0.010740324255258985,
+            -0.010740324255258985,
+            0.9999423210540156,
+            2.8191560600164536,
+            -0.9515172991253849
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            346.5882873535156,
+            136.2941131591797
+          ]
+        ]
+      },
+      "depois": {
+        "tempo": 2.616702079772949,
+        "pausado": false,
+        "transformacoes": [
+          [
+            1,
+            0,
+            0,
+            1,
+            522.3340454101562,
+            402.91015625
+          ],
+          [
+            0.999620068240584,
+            0.027563003658712826,
+            -0.027563003658712826,
+            0.999620068240584,
+            7.255700816930201,
+            -2.381128208317193
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            367.7264099121094,
+            134.6126708984375
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Transição sol para lua preservada",
+    "aprovado": true,
+    "detalhe": {
+      "meio": {
+        "sol": 0.549895,
+        "lua": 0.450105
+      },
+      "fim": {
+        "sol": 0,
+        "lua": 1
+      }
+    }
+  },
+  {
+    "nome": "Lançadores não cobrem a arte da abertura em 390",
+    "aprovado": true,
+    "detalhe": {
+      "fab": "none",
+      "libras": "hidden",
+      "access": {
+        "x": 303,
+        "y": 704,
+        "width": 40,
+        "height": 40,
+        "top": 704,
+        "right": 343,
+        "bottom": 744,
+        "left": 303
+      },
+      "car": {
+        "x": 24,
+        "y": 5713.5625,
+        "width": 327,
+        "height": 576.65625,
+        "top": 5713.5625,
+        "right": 351,
+        "bottom": 6290.21875,
+        "left": 24
+      },
+      "focus": "BODY"
+    }
+  },
+  {
+    "nome": "Lançadores não cobrem carrossel em 390",
+    "aprovado": true,
+    "detalhe": {
+      "fab": "none",
+      "libras": "hidden",
+      "access": {
+        "x": 303,
+        "y": 704,
+        "width": 40,
+        "height": 40,
+        "top": 704,
+        "right": 343,
+        "bottom": 744,
+        "left": 303
+      },
+      "car": {
+        "x": 24,
+        "y": 299.5625,
+        "width": 327,
+        "height": 575.109375,
+        "top": 299.5625,
+        "right": 351,
+        "bottom": 874.671875,
+        "left": 24
+      },
+      "focus": "BODY"
+    }
+  },
+  {
+    "nome": "Lançadores não cobrem formulário em 390",
+    "aprovado": true,
+    "detalhe": {
+      "fab": "none",
+      "libras": "hidden",
+      "access": {
+        "x": 303,
+        "y": 704,
+        "width": 40,
+        "height": 40,
+        "top": 704,
+        "right": 343,
+        "bottom": 744,
+        "left": 303
+      },
+      "car": {
+        "x": 24,
+        "y": -3474.4375,
+        "width": 327,
+        "height": 620,
+        "top": -3474.4375,
+        "right": 351,
+        "bottom": -2854.4375,
+        "left": 24
+      },
+      "focus": "BODY"
+    }
+  },
+  {
+    "nome": "Lançadores voltam fora dos controles em 390",
+    "aprovado": true,
+    "detalhe": {
+      "fab": "flex",
+      "libras": "visible"
+    }
+  },
+  {
+    "nome": "Lançadores não cobrem a arte da abertura em 360",
+    "aprovado": true,
+    "detalhe": {
+      "fab": "none",
+      "libras": "hidden",
+      "access": {
+        "x": 273,
+        "y": 704,
+        "width": 40,
+        "height": 40,
+        "top": 704,
+        "right": 313,
+        "bottom": 744,
+        "left": 273
+      },
+      "car": {
+        "x": 24,
+        "y": 5726.265625,
+        "width": 297,
+        "height": 590,
+        "top": 5726.265625,
+        "right": 321,
+        "bottom": 6316.265625,
+        "left": 24
+      },
+      "focus": "BODY"
+    }
+  },
+  {
+    "nome": "Lançadores não cobrem carrossel em 360",
+    "aprovado": true,
+    "detalhe": {
+      "fab": "none",
+      "libras": "hidden",
+      "access": {
+        "x": 273,
+        "y": 704,
+        "width": 40,
+        "height": 40,
+        "top": 704,
+        "right": 313,
+        "bottom": 744,
+        "left": 273
+      },
+      "car": {
+        "x": 24,
+        "y": 300.265625,
+        "width": 297,
+        "height": 590,
+        "top": 300.265625,
+        "right": 321,
+        "bottom": 890.265625,
+        "left": 24
+      },
+      "focus": "BODY"
+    }
+  },
+  {
+    "nome": "Lançadores não cobrem formulário em 360",
+    "aprovado": true,
+    "detalhe": {
+      "fab": "none",
+      "libras": "hidden",
+      "access": {
+        "x": 273,
+        "y": 704,
+        "width": 40,
+        "height": 40,
+        "top": 704,
+        "right": 313,
+        "bottom": 744,
+        "left": 273
+      },
+      "car": {
+        "x": 24,
+        "y": -3497.734375,
+        "width": 297,
+        "height": 590,
+        "top": -3497.734375,
+        "right": 321,
+        "bottom": -2907.734375,
+        "left": 24
+      },
+      "focus": "BODY"
+    }
+  },
+  {
+    "nome": "Lançadores voltam fora dos controles em 360",
+    "aprovado": true,
+    "detalhe": {
+      "fab": "flex",
+      "libras": "visible"
+    }
+  },
+  {
+    "nome": "Serviços externos reais — observação",
+    "detalhe": {
+      "meta": {
+        "frames": 5,
+        "prontos": 5,
+        "links": []
+      },
+      "erros": []
+    }
+  }
+]

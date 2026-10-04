@@ -1,0 +1,32 @@
+[
+  {
+    "texto": "Regularizar ou dar baixa no CNPJ (abre o WhatsApp)",
+    "avisos": 1,
+    "visivel": true,
+    "pausa": null
+  },
+  {
+    "texto": "Calcular verbas trabalhistas, A partir de R$ 100 (abre o WhatsApp)",
+    "avisos": 1,
+    "visivel": true,
+    "pausa": ", "
+  },
+  {
+    "texto": "Escolher o melhor regime de impostos, Valor a consultar (abre o WhatsApp)",
+    "avisos": 1,
+    "visivel": true,
+    "pausa": ", "
+  },
+  {
+    "texto": "Deixar de ser MEI (abre o WhatsApp)",
+    "avisos": 1,
+    "visivel": true,
+    "pausa": null
+  },
+  {
+    "texto": "Consultoria administrativa e financeira, Valor a consultar (abre o WhatsApp)",
+    "avisos": 1,
+    "visivel": true,
+    "pausa": ", "
+  }
+]

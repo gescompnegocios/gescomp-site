@@ -1,0 +1,58 @@
+[
+  {
+    "width": 1366,
+    "theme": "claro",
+    "antes": "b6a40971e12f2080d1ba9fb6e192bbd9df960ade88cb404199990b939d5a54fb",
+    "depois": "1c3045d80df258a1a0a9f2e5a3edba3a55641a2a73e52fb24e44a904d68efea9",
+    "identico": false
+  },
+  {
+    "width": 1366,
+    "theme": "escuro",
+    "antes": "86271a584231323effa40e864452c7efd946d60a1f2672c59e9d3513e2a36ed8",
+    "depois": "20b616828c01113e11847031823e235409e297ab160e75112c30363d7d864cc1",
+    "identico": false
+  },
+  {
+    "width": 1920,
+    "theme": "claro",
+    "antes": "5a7ac182daf3c9f1ab526ad35996ebca87baac97627028487174d4b8dcef4079",
+    "depois": "5911907858287377972a1bbf8e168cae5c66fe7ef695733922401671cf9824b4",
+    "identico": false
+  },
+  {
+    "width": 1920,
+    "theme": "escuro",
+    "antes": "45de136dff9fe79247a7263388cff6cc678ef9d345bfd4555fb3efe85f8693dc",
+    "depois": "8fd976e14f1ef1f1dd5468b1e99b3f3daa96a60a0d3c63535393d3f1d7087db3",
+    "identico": false
+  },
+  {
+    "width": 390,
+    "theme": "claro",
+    "antes": "3ebbafa81f2ffff7988ec2be3a7eb03dd955328ac3bafe31f4172359ea8c87c6",
+    "depois": "3ebbafa81f2ffff7988ec2be3a7eb03dd955328ac3bafe31f4172359ea8c87c6",
+    "identico": true
+  },
+  {
+    "width": 390,
+    "theme": "escuro",
+    "antes": "3c5956bbcf16c772d0704eeb1b6ad5e11804f98c4b87ddc0dafd8f1b085b14b6",
+    "depois": "3c5956bbcf16c772d0704eeb1b6ad5e11804f98c4b87ddc0dafd8f1b085b14b6",
+    "identico": true
+  },
+  {
+    "width": 360,
+    "theme": "claro",
+    "antes": "b716c17762df81bfad9cff7f7790c108fcce78043c5ee65475673cc823b342e2",
+    "depois": "b716c17762df81bfad9cff7f7790c108fcce78043c5ee65475673cc823b342e2",
+    "identico": true
+  },
+  {
+    "width": 360,
+    "theme": "escuro",
+    "antes": "2c015e4e079bdeedf7f1eb53b81b84849df59a9de5533e2e273b10c192b1ad6b",
+    "depois": "2c015e4e079bdeedf7f1eb53b81b84849df59a9de5533e2e273b10c192b1ad6b",
+    "identico": true
+  }
+]

@@ -137,3 +137,154 @@ body{background:var(--chao)}
 .avaliacao-autor{margin:auto 0 0;font-weight:700;font-size:15.5px;color:var(--titulo)}
 .avaliacoes-resumo{margin:0;font-size:17px;font-weight:600;color:var(--texto2)}
 .so-leitor{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* ==========================================================================
+   Etapa 2 (04/10/2026): tokens de escala, cores vibrantes e componentes.
+   Não altera --chao, --nuvem, --texto, --titulo nem --texto2 (usadas pela seção #rio).
+   ========================================================================== */
+:root{
+  --fs-corpo:16px;--fs-destaque:17px;--fs-h1:clamp(34px,4.2vw,56px);--fs-h2:clamp(26px,2.8vw,38px);--fs-h3:21px;
+  --lh-corpo:1.6;--lh-titulo:1.15;--leitura:65ch;
+  --container:1180px;--margem:24px;--secao-y:clamp(48px,7vw,96px);--gap-cards:24px;
+  --raio-btn:12px;--raio-card:20px;--onda-max:56px;
+  --sombra-card:0 1px 2px rgba(0,63,74,.05),0 6px 18px rgba(0,63,74,.07);
+  --petroleo:#003F4A;--petroleo-vibrante:#0A7A82;--agua-claro:#E3F4F2;--agua-borda:#BFE6E2;
+  --laranja:#F28A1E;--laranja-hover:#F59A3A;--terracota:#C4572A;--ambar:#FFB547;
+  --fundo-vibrante:#0A7A82;--fundo-agua:#E3F4F2;--borda-card:#BFE6E2;--texto-sobre-vibrante:#F3FBFA
+}
+[data-theme="dark"]{--fundo-vibrante:#075F66;--fundo-agua:#0B3238;--borda-card:#1F5359;--sombra-card:0 1px 2px rgba(0,0,0,.25),0 8px 22px rgba(0,0,0,.3)}
+
+/* Estrutura e texto */
+.container{max-width:var(--container);margin-left:auto;margin-right:auto;padding-left:var(--margem);padding-right:var(--margem);box-sizing:border-box}
+.secao{padding-top:var(--secao-y);padding-bottom:var(--secao-y)}
+.secao-branca{background:var(--superficie)}
+.secao-agua{background:var(--fundo-agua)}
+.faixa-vibrante{background:var(--fundo-vibrante)}
+.titulo-pagina{font-family:'Bricolage Grotesque',Georgia,serif;font-size:var(--fs-h1);line-height:1.08;font-weight:700;letter-spacing:-.025em}
+.titulo-secao{margin:0;font-family:'Bricolage Grotesque',Georgia,serif;font-size:var(--fs-h2);line-height:var(--lh-titulo);font-weight:700;letter-spacing:-.02em}
+.titulo-card{margin:0;font-family:'Bricolage Grotesque',Georgia,serif;font-size:var(--fs-h3);line-height:1.25;font-weight:700}
+.texto{font-size:var(--fs-corpo);line-height:var(--lh-corpo)}
+.texto-destaque{font-size:var(--fs-destaque);line-height:var(--lh-corpo)}
+.leitura{max-width:var(--leitura)}
+
+/* Botões: 48 px, cantos de 12 px; principal sólido, secundário com contorno de 2 px */
+.btn{min-height:48px;padding:12px 22px;font-size:16px;line-height:1.3;border-radius:var(--raio-btn);box-sizing:border-box}
+.btn-primario,.btn-bloco.btn-primario{background:var(--laranja);color:#003F4A}
+.btn-primario:hover,.btn-bloco.btn-primario:hover{background:var(--laranja-hover);color:#003F4A}
+.btn-contorno-claro{border-color:#FFFFFF}
+.gc-cabecalho .gc-cabecalho-contato,.gc-cabecalho .gc-menu-contato{background:var(--laranja)}
+.gc-cabecalho .gc-cabecalho-contato:hover,.gc-cabecalho .gc-menu-contato:hover{background:var(--laranja-hover)}
+.gc-cabecalho .gc-cabecalho-logo{height:42px}
+.gc-cabecalho .gc-cabecalho-logo-mobile{width:auto;height:clamp(30px,9vw,38px)}
+.gc-rodape .gc-rodape-grade{padding-top:56px}
+
+/* Cards: cantos de 20 px, borda de 1 px, sombra suave; sobe 2 px no hover */
+.cartao{border:1px solid var(--borda-card);border-radius:var(--raio-card);box-shadow:var(--sombra-card)}
+@media (prefers-reduced-motion:no-preference){
+  .cartao,.ajuda-card,.avaliacao-card,.ajuda-linha{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+  .cartao:hover,.ajuda-card:hover,.avaliacao-card:hover{transform:translateY(-2px)}
+}
+
+/* Ondas: no máximo 56 px (a da seção #rio fica como está) */
+.onda{display:block;width:100%;height:var(--onda-max)}
+
+/* Fotos com painel de espera ([data-foto]; o JS cria o <img> quando a foto existir e põe .tem-foto) */
+.foto-moldura{position:relative;overflow:hidden;background:var(--painel,#0A7A82)}
+.foto-moldura>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.foto-moldura .painel{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--painel-icone,#FFFFFF)}
+.foto-moldura.tem-foto .painel{display:none}
+.painel .icone-painel{width:72px;height:72px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.painel .onda-painel{position:absolute;left:0;bottom:16%;width:100%;height:28px;fill:none;stroke:currentColor;stroke-width:2;opacity:.35}
+
+/* Abertura */
+.abertura{position:relative;background:var(--fundo-vibrante);overflow:hidden}
+.abertura-grade{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:40px 48px;align-items:center;padding-top:clamp(36px,5.5vw,72px);padding-bottom:calc(var(--onda-max) + clamp(28px,4vw,56px))}
+@media (max-width:899px){.abertura-grade{grid-template-columns:1fr}}
+.abertura-texto{display:flex;flex-direction:column;gap:22px;min-width:0}
+.abertura-titulo{margin:0;color:#FFFFFF}
+.com-sublinhado{position:relative;display:inline-block;white-space:nowrap}
+.com-sublinhado svg{position:absolute;left:-2%;bottom:-.16em;width:104%;height:.3em;overflow:visible;pointer-events:none}
+.abertura-sub{margin:0;font-size:clamp(17px,1.35vw,19px);line-height:1.6;color:var(--texto-sobre-vibrante);max-width:52ch}
+.abertura-acoes{display:flex;flex-wrap:wrap;gap:12px}
+.abertura-acoes .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font-weight:700}
+.abertura-acoes .btn-contorno-claro{color:#FFFFFF;border:2px solid #FFFFFF;background:transparent}
+.abertura-acoes .btn-contorno-claro:hover{background:rgba(255,255,255,.12);color:#FFFFFF}
+.abertura-acoes img{width:20px;height:20px;display:block;filter:brightness(0);opacity:.85}
+.confianca{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px 22px;font-size:15px;line-height:1.4;color:#FFFFFF}
+.confianca li{display:flex;align-items:center;gap:8px}
+.confianca svg{flex-shrink:0;width:19px;height:19px;fill:none;stroke:var(--ambar);stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.abertura-imagem{position:relative;justify-self:center;width:100%;max-width:440px;padding:18px 26px 34px;box-sizing:border-box}
+@media (max-width:899px){.abertura-imagem{max-width:300px;padding:14px 18px 28px}}
+.moldura-organica{position:relative}
+.moldura-organica .foto-moldura{aspect-ratio:4/5;border-radius:46% 54% 44% 56% / 52% 46% 54% 48%;--painel:#0B6A71}
+.moldura-organica .traco{position:absolute;inset:-12px;width:calc(100% + 24px);height:calc(100% + 24px);overflow:visible;pointer-events:none}
+.moldura-organica .arte-espera{position:absolute;left:8%;right:8%;bottom:12%;width:84%;height:auto}
+.selo{position:absolute;z-index:2;display:flex;align-items:center;gap:8px;padding:9px 13px;border-radius:14px;background:#FFFFFF;color:#003F4A;font-size:14px;font-weight:700;line-height:1.25;box-shadow:0 10px 24px rgba(0,40,46,.22);white-space:nowrap}
+.selo svg{width:18px;height:18px;flex-shrink:0;fill:none;stroke:var(--terracota);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.selo-1{top:6%;left:0}
+.selo-2{top:44%;right:0}
+.selo-3{bottom:6%;left:4%}
+@media (max-width:899px){.selo{font-size:13px;padding:8px 11px}}
+@media (prefers-reduced-motion:no-preference){.abertura-imagem{animation:gc-entrada .6s cubic-bezier(.2,.7,.2,1) both}}
+@keyframes gc-entrada{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
+.abertura .onda{position:absolute;left:0;bottom:-1px}
+
+/* Como podemos ajudar */
+.ajuda-cabecalho{display:flex;flex-direction:column;gap:12px;max-width:720px;margin-bottom:36px}
+.ajuda-grade{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap-cards);align-items:stretch}
+@media (max-width:899px){.ajuda-grade{grid-template-columns:1fr;max-width:560px}}
+.ajuda-card{display:flex;flex-direction:column;background:var(--cartao);border:1px solid var(--borda-card);border-radius:var(--raio-card);box-shadow:var(--sombra-card);overflow:hidden}
+.ajuda-card .foto-moldura{aspect-ratio:4/3}
+.ajuda-corpo{flex:1;display:flex;flex-direction:column;gap:10px;padding:22px 24px 24px}
+.ajuda-card .titulo-card{color:var(--titulo)}
+.ajuda-card .texto{margin:0;color:var(--texto2)}
+.ajuda-preco{margin:2px 0 0;font-size:15.5px;font-weight:700;color:var(--titulo)}
+.ajuda-acao{margin-top:auto;padding-top:10px}
+.btn-acao{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:48px;padding:12px 22px;box-sizing:border-box;border-radius:var(--raio-btn);font-size:16px;font-weight:700;line-height:1.3;text-decoration:none;text-align:center;transition:background-color .2s ease,border-color .2s ease}
+.btn-acao img{width:18px;height:18px;flex-shrink:0;display:block;filter:brightness(0);opacity:.8}
+.btn-acao-contorno{border:2px solid var(--petroleo-vibrante);color:var(--titulo);background:transparent}
+.btn-acao-contorno:hover{background:rgba(10,122,130,.08);color:var(--titulo)}
+[data-theme="dark"] .btn-acao-contorno{border-color:#5FA3A8}
+[data-theme="dark"] .btn-acao-contorno img{filter:brightness(0) invert(1);opacity:.9}
+.btn-acao-laranja{background:var(--laranja);color:#003F4A}
+.btn-acao-laranja:hover{background:var(--laranja-hover);color:#003F4A}
+.ajuda-card.destaque{background:var(--fundo-vibrante);border-color:transparent}
+.ajuda-card.destaque .titulo-card,.ajuda-card.destaque .ajuda-preco{color:#FFFFFF}
+.ajuda-card.destaque .texto{color:var(--texto-sobre-vibrante)}
+.ajuda-outros{margin-top:44px}
+.ajuda-outros .titulo-card{color:var(--titulo)}
+.ajuda-lista{list-style:none;margin:16px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px var(--gap-cards)}
+@media (max-width:719px){.ajuda-lista{grid-template-columns:1fr}}
+.ajuda-linha{display:flex;align-items:center;gap:14px;min-height:56px;padding:12px 16px;box-sizing:border-box;border:1px solid var(--borda-card);border-radius:14px;background:var(--cartao);color:var(--titulo);text-decoration:none}
+.ajuda-linha:hover{border-color:var(--petroleo-vibrante);color:var(--titulo)}
+.ajuda-linha .icone-linha{width:20px;height:20px;flex-shrink:0;fill:none;stroke:var(--petroleo-vibrante);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+[data-theme="dark"] .ajuda-linha .icone-linha{stroke:#9CD0CF}
+.ajuda-linha-texto{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:2px 12px}
+.ajuda-linha-nome{font-weight:600;font-size:16px;line-height:1.35}
+.ajuda-linha-preco{font-size:14px;color:var(--texto2);white-space:nowrap}
+.ajuda-linha .seta{width:18px;height:18px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* Quem é a Gabriela */
+.gabriela-grade{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:40px 64px;align-items:center}
+@media (max-width:899px){.gabriela-grade{grid-template-columns:1fr}}
+.gabriela-foto{width:100%;max-width:380px;justify-self:center;aspect-ratio:4/5;border-radius:var(--raio-card);border:1px solid var(--borda-card);box-shadow:var(--sombra-card);--painel:var(--cartao)}
+.painel-selo img{width:58%;height:auto;border-radius:50%;box-shadow:0 0 0 8px var(--fundo-agua),0 0 0 9px var(--borda-card)}
+.gabriela-texto{display:flex;flex-direction:column;gap:18px}
+.gabriela-texto p{margin:0;color:var(--texto2)}
+.selos-linha{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.selos-linha li{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:var(--cartao);border:1px solid var(--borda-card);color:var(--titulo);font-size:15px;font-weight:700}
+.selos-linha svg{width:18px;height:18px;fill:none;stroke:var(--terracota);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+[data-theme="dark"] .selos-linha svg{stroke:var(--ambar)}
+
+/* Avaliações: link para a avaliação no Google (montado pelo JS do Codex) */
+.avaliacao-link{align-self:flex-start;font-size:15px;font-weight:600;color:var(--fotoTexto);text-decoration:underline;text-underline-offset:3px}
+
+/* Revelação suave ao rolar (o JS põe .js-revelar no <html> e .revelado em cada item, uma vez só) */
+@media (prefers-reduced-motion:no-preference){
+  html.js-revelar [data-revelar]{transition:opacity .4s ease,transform .4s ease}
+  html.js-revelar [data-revelar]:not(.revelado){opacity:0;transform:translateY(16px)}
+}
+/* Ritmo dos fundos enquanto a seção de avaliações estiver escondida (evita dois verde-água seguidos) */
+#avaliacoes[hidden] + #instagram{background:var(--superficie)}
+#avaliacoes[hidden] ~ #informacoes{background:var(--fundo-agua)}
+@media (max-width:479px){.btn-acao,.btn{font-size:15px;padding-left:18px;padding-right:18px}.ajuda-corpo{padding:20px}}

@@ -1,0 +1,58 @@
+[
+  {
+    "width": 1366,
+    "theme": "claro",
+    "antes": "50d0a49aee7dfef56f547a3022460b4fce4aea2cc6a1f2936701cbd502c7f4e4",
+    "depois": "66b1d65f2d5452b9661e2b5a8893bfe86bbd24386e5b26e4f1aff87c59055021",
+    "identico": false
+  },
+  {
+    "width": 1366,
+    "theme": "escuro",
+    "antes": "1c907733dfca9c484f8eed621f7d039ddf036e683e5d531fffa4386e74adfa8f",
+    "depois": "76eeb13b7c7701b342fd44a823dbb76764ce3e14e4f620a09301f79dcb114f81",
+    "identico": false
+  },
+  {
+    "width": 1920,
+    "theme": "claro",
+    "antes": "8823039e20a21b4240177d16e32a39cb041427b797771f6d4d017d6e1d7322c8",
+    "depois": "cc171711ff9f36806cdb54bc9394b11346e0aac95017a7bad9535bedeacfc654",
+    "identico": false
+  },
+  {
+    "width": 1920,
+    "theme": "escuro",
+    "antes": "0c512dc54368a048088cef170611deb20870c65687747f1708c9048fdd09a056",
+    "depois": "902f152f530ab5835c390d829820ffba14b743b43b36c9b34b954ee023105147",
+    "identico": false
+  },
+  {
+    "width": 390,
+    "theme": "claro",
+    "antes": "44ac893cb5232026be20bbba1a715d184b01352149e5166a357545ed54f7e903",
+    "depois": "a3dc2a0f271e205bd265542a30dee3afc4451a7a52105af3082fe3f465f10a78",
+    "identico": false
+  },
+  {
+    "width": 390,
+    "theme": "escuro",
+    "antes": "069aa4dfc4c940aaf053c65baf96d61d54384d5dece04e7012a6815a1206fa53",
+    "depois": "fa3c0745a059253b4df4cfe0a2774039705ee2e9258d8edb9d902548e4162e31",
+    "identico": false
+  },
+  {
+    "width": 360,
+    "theme": "claro",
+    "antes": "d0def9a53b519da0c488c4451e4e8abe0082e528214b557bccf0215925696c8b",
+    "depois": "19b1606a7cf5968bbccfc27458448379e6c1f6db131cae0d67138e92464283a0",
+    "identico": false
+  },
+  {
+    "width": 360,
+    "theme": "escuro",
+    "antes": "60d7508f8d9bf3f4549741c0ab277812e09f8dda4556a7532015735aac618e05",
+    "depois": "37b4154986d62d34f0acdf526eb65c6b7da3a96c4563e54ab7ab3585096ab5c6",
+    "identico": false
+  }
+]

@@ -1,102 +1,125 @@
-# 02 – Site
+# Site da GESCOMP
 
-```
+HTML, CSS e JavaScript puros, sem framework, bibliotecas adicionais ou etapa de build. Contadora: **Gabriela do Nascimento Vieira — CRC 009186/SE**.
+
+```text
 02-site/
-├── publicar/     ← arquivos servidos pela hospedagem do site
-├── conteudo/     ← textos de cada página, para revisão
-├── design/       ← cópia dos arquivos do canvas
-└── docs/         ← pendências, roteiro de atualização e decisões
+├── publicar/                  arquivos servidos pelo Cloudflare Worker
+│   ├── *.html                 página inicial, informações e 404
+│   ├── assets/css/            site.css e estrutura.css
+│   ├── assets/js/             config.js, site.js e libras.js
+│   ├── assets/img/fotos/      fotos reais, quando entregues
+│   └── sitemap.xml, robots.txt, llms.txt, site.webmanifest, _headers
+├── conteudo/                  cópias de textos para revisão
+├── design/                    arquivos de referência anteriores
+└── docs/                      handoff, imagens, aprovação e evidências
 ```
 
-## Hospedagem atual e domínio
+## Domínio e hospedagem
 
-O site está no Worker `gescomp-site`, em `https://gescomp-site.gescompnegocios.workers.dev`. O domínio final é **gescompnegocios.com.br**, comprado no Registro.br e ainda aguardando conexão à Cloudflare.
+O domínio oficial é **https://gescompnegocios.com.br/**. Canonical, compartilhamento, JSON-LD, sitemap, robots e llms usam esse endereço. Conferido em 04/10/2026: DNS na Cloudflare (alec/dora) e HTTPS com resposta 200 na raiz, sitemap, robots, llms e imagem Open Graph. A versão no ar ainda usa assets de 03/10; esta rodada atualiza os arquivos localmente.
 
-Os endereços oficiais nos arquivos usam o endereço ativo do Worker até o domínio final funcionar com HTTPS. Veja o passo 1 de `docs/roteiro-de-atualizacao.md` para conectar o domínio ao Worker e depois atualizar esses endereços.
+Hospedagem existente: Cloudflare Workers, Worker `gescomp-site`, com integração ao GitHub. Somente `publicar/` é servida; `docs/`, `conteudo/`, `design/` e os dados privados da empresa não são publicados. Não há comando de build. Verificação e roteiro externo em [roteiro-de-atualizacao.md](docs/roteiro-de-atualizacao.md).
 
-## Como publicar no Cloudflare Pages (alternativa)
+Nesta rodada, a regra obrigatória do usuário proíbe push, deploy e alterações em produção. Codex preparou a configuração, Claude concluiu o visual e Codex revisou a integração. O fechamento é um commit local. Alterar o GitHub pode disparar publicação automática, portanto não fazer push enquanto essa restrição estiver vigente.
 
-**Opção 1 – Envio direto (mais simples)**
-1. Entre em https://dash.cloudflare.com → Workers & Pages → Create → aba Pages → Upload assets.
-2. Dê o nome `gescomp` ao projeto e envie a pasta `publicar` (ou um ZIP com o conteúdo dela).
-3. O site fica no ar em `gescomp.pages.dev`. Para atualizar, crie uma nova implantação (Create deployment) com a pasta nova.
+## Executar localmente
 
-**Opção 2 – Pelo GitHub**
-1. Coloque **apenas** o conteúdo de `02-site` em um repositório **privado** (nunca suba a pasta `01-empresa`).
-2. No Cloudflare: Create → Pages → Connect to Git.
-3. Build command: deixe em branco. Build output directory: `publicar`.
+```bash
+cd 02-site/publicar
+python3 -m http.server 8080
+```
 
-**Domínio:** veja o passo 1 de `docs/roteiro-de-atualizacao.md`.
+No Windows deste ambiente, use `py -3 -m http.server 8080 --bind 127.0.0.1` na mesma pasta. Abra http://127.0.0.1:8080/ e encerre com Ctrl+C. O servidor Python serve as páginas internas com `.html` (por exemplo, `/mei.html`). Os endereços sem extensão do site são tratados pelo Cloudflare; o servidor Python não reproduz esse roteamento nem `_headers`.
 
-## Como executar localmente
+Para testar também o comportamento da hospedagem, o Wrangler já disponível pode servir `publicar/` localmente. Não é uma dependência do site.
 
-No terminal, a partir da pasta raiz `GESCOMP`, execute `npx.cmd wrangler pages dev ./02-site/publicar` (Windows). Nos demais sistemas, use `npx wrangler pages dev ./02-site/publicar`.
+## Estrutura da página
 
-Abra o endereço informado no terminal, normalmente `http://localhost:8788`. Encerre com `Ctrl + C`. O projeto não precisa de uma etapa de build.
+A página segue esta ordem: abertura → Como podemos ajudar (`#servicos`) → números → Quem é a Gabriela (`#sobre`) → avaliações → Instagram → faixa de Informações e dúvidas → chamada final → `#rio` → contato → rodapé.
 
-## Como funciona
-- **Endereços sem `.html`:** o Cloudflare Pages mostra as páginas como `/mei`, `/informacoes` etc. Links, mapa do site e endereços oficiais já estão nesse formato.
-- **WhatsApp e formulário:** já configurados em `publicar/assets/js/config.js` com (79) 98877-1430 e escritoriogescomp@gmail.com. Para trocar, edite esse arquivo.
-- **Visual:** regras de tema, animações e responsividade em `publicar/assets/css/site.css`; estilos comuns do cabeçalho e rodapé em `publicar/assets/css/estrutura.css`. Estilos específicos e ilustrações também usam atributos `style` nos HTMLs. O JavaScript compartilhado está em `publicar/assets/js/site.js`.
-- **Cabeçalhos e cache:** `publicar/_headers` define segurança, cache de 7 dias para imagens e ícones em `/assets/` e revalidação a cada visita para `/assets/js/` e `/assets/css/`. Assim, uma correção no JavaScript ou no CSS chega na hora a quem já visitou o site. Ao trocar uma imagem, use um nome de arquivo novo.
-- **Versão dos arquivos (evita cache antigo):** todas as páginas carregam `assets/css/site.css`, `assets/css/estrutura.css`, `assets/js/config.js` e `assets/js/site.js` com `?v=AAAAMMDD` no fim (hoje: `?v=20261003`). **Esse número deve mudar a cada atualização desses arquivos**, inclusive quando só o `config.js` mudar (mensagens, vídeos, avaliações). Use a data do dia da publicação; se publicar mais de uma vez no mesmo dia, acrescente uma letra (`20261003b`). Troque em todos os `.html` de uma vez. No terminal, dentro de `publicar/`: `sed -i "s/?v=20261003/?v=AAAAMMDD/g" *.html`, com a data nova no lugar de AAAAMMDD. Sem isso, quem já visitou o site pode continuar vendo a versão anterior.
-- **"Reduzir movimento":** se o aparelho estiver com as animações desligadas (no Windows: Configurações → Acessibilidade → Efeitos visuais → Efeitos de animação), o site respeita a escolha. Os números de Resultados aparecem prontos, sem contar, e o carrossel não passa sozinho. Para ver as animações ao testar, ligue esse efeito.
-- **Página de erro:** `publicar/404.html` é usada automaticamente.
-- **SEO:** título, descrição e dados estruturados em cada página; `sitemap.xml`, `robots.txt` (liberado para Google, Bing e robôs de IA) e `llms.txt`.
+Abertura com texto à esquerda e imagem à direita; até o retrato chegar, aparece a arte de gráfico. Serviços com três cards e cinco linhas de Outros serviços. Fotos ausentes usam arte de espera, sem textos de espaço reservado. Requisitos e nomes em [imagens.md](docs/imagens.md). Implementação e revisão registradas em [handoff.md](docs/handoff.md).
 
+**O rio é protegido:** preservar animações, cores, filtros da cena, enquadramento e aparência em claro/escuro. O usuário confirmou duas áreas de ajuste implementadas pelo Claude: placa “GESCOMP” na casa e correção da onda (cobertura da borda e retirada do filtro só do path de transição, para ficar liso). A validação estática compara todo o restante com o commit base. Os prints ficam em `docs/evidencias/2026-10-04/`.
 
-## Vídeos do Instagram (carrossel)
-- Os links ficam em `publicar/assets/js/config.js`, na lista `instagramReels`. Para incluir um vídeo, cole o link (pode ser do jeito que o Instagram copia, com `?stkn=...`), salve e publique de novo. Para tirar, apague a linha.
-- Os posts precisam ser **públicos**.
-- **Vídeo próprio:** a lista também aceita arquivos `.mp4` ou `.webm`. Coloque o arquivo em `publicar/assets/videos/` e cole o caminho na lista (ex.: `'/assets/videos/apresentacao.mp4'`). Ele aparece com os controles do navegador, sem tocar sozinho. Prefira arquivos leves (até uns 10 MB).
-- **Carregamento:** os vídeos aparecem prontos no site, sem precisar tocar para carregar. O `embed.js` do Instagram e os vídeos só são buscados quando a seção chega perto da tela (cerca de 400 px antes). Enquanto carregam, aparece a capa pintada. Se o Instagram demorar mais de 20 s, a capa vira um link provisório para abrir o vídeo no Instagram, e o vídeo substitui a capa sozinho assim que terminar de carregar. Se o `embed.js` não carregar (bloqueado ou fora do ar), as capas ficam como link. Sem JavaScript, aparecem as capas com link para cada Reel.
-- **Privacidade:** como os embeds carregam sozinhos, o navegador de quem rola até essa seção se conecta à Meta (Instagram) em toda visita. Cite isso numa futura política de privacidade do site.
-- **Passagem automática:** um vídeo a cada 8 segundos, com rolagem suave, voltando ao início no fim. Todos os vídeos começam pausados. A passagem para enquanto o mouse está sobre o carrossel, enquanto há foco de teclado dentro dele, com a aba em segundo plano e para quem ativou "reduzir movimento" no aparelho (aí também não há rolagem suave).
-- **Parar ao assistir:**
-  - *Vídeo próprio:* o carrossel para no "play" e volta cerca de 3 s depois do "pause" ou do fim do vídeo. Se o vídeo sair da área visível do carrossel, ele é pausado.
-  - *Instagram:* o embed é um iframe de outro domínio, então o site não consegue saber se o vídeo está tocando ou pausado. O site deduz: quando a pessoa clica ou toca dentro do vídeo, o foco vai para o iframe e o carrossel para. Ele volta cerca de 3 s depois de a pessoa clicar ou tocar fora, tirar o mouse do carrossel, usar as setas ou o vídeo sair da tela. Se a pessoa pausar o Reel pelo próprio botão do Instagram e continuar com o mouse parado em cima, o carrossel continua parado até ela sair dali.
-- **Controles:** setas redondas lisas (petróleo, ícone branco) nas laterais, no meio da altura do carrossel (52 px no computador, 44 px no celular). Também funcionam as teclas ← e → com a lista de vídeos focada. As setas somem quando há um único vídeo ou quando todos cabem na tela.
+## Tokens de CSS
 
-## Cards de serviços (WhatsApp)
-- A seção **Serviços** da página inicial tem 6 cards: Abrir meu CNPJ; Contabilidade para a minha empresa; Imposto de Renda; Cálculos trabalhistas; Qual o melhor regime de impostos?; Sou MEI. É hora de mudar?
-- Títulos, textos e preços ficam no `publicar/index.html` (o Google lê esse conteúdo). Os preços também estão nas ofertas dos dados estruturados (`application/ld+json`) da mesma página: se mudar um preço, mude nos dois lugares.
-- **Mensagens do WhatsApp:** ficam em `publicar/assets/js/config.js`, no objeto `mensagensWhatsApp`. Cada card aponta para a sua mensagem pelo atributo `data-whatsapp-msg` (`abrirCnpj`, `contabilidade`, `impostoDeRenda`, `calculosTrabalhistas`, `regimeDeImpostos`, `mei`). Para mudar o texto, troque só o que está entre aspas. Se um nome não existir, o card usa a `mensagemPadrao`.
-- O botão abre o WhatsApp do número configurado em `config.js`, em nova aba, com a mensagem pronta. Sem JavaScript, leva ao formulário de contato.
-
-## Avaliações de clientes
-- Seção **"O que dizem nossos clientes"**, logo depois de Resultados. **Fica escondida enquanto não houver avaliações** na configuração.
-- Tudo é preenchido em `publicar/assets/js/config.js`, no objeto `avaliacoes`:
-  - `linkAvaliar`: link do Google para deixar avaliação (no Perfil da Empresa no Google: "Pedir avaliações"; formato `https://g.page/r/CODIGO/review`). Vazio = o botão "Avaliar a GESCOMP no Google" não aparece.
-  - `linkVerTodas`: link que abre as avaliações no Google (por exemplo, o perfil no Google Maps). Vazio = o botão "Ver todas as avaliações no Google" não aparece.
-  - `nota` e `total`: como aparecem no Google (ex.: `nota: 4.9, total: 37`). O resumo "Nota 4,9 no Google, 37 avaliações" só aparece com os dois preenchidos.
-  - `itens`: as avaliações escolhidas, uma por bloco: `{ nome: "Maria Souza", texto: "...", estrelas: 5 },`. No site aparece só o primeiro nome e a inicial do último sobrenome ("Maria S."), sem foto, com as estrelas e o texto acessível "5 de 5 estrelas".
-- Use o texto original da avaliação, com a autorização do cliente. Não ofereça desconto, brinde ou qualquer vantagem em troca de avaliação: o Google proíbe.
-- As avaliações **não** entram nos dados estruturados (`AggregateRating`/`Review`): o Google ignora avaliações que a empresa publica sobre si mesma.
-- O carrossel funciona como o dos vídeos: um card a cada 8 segundos, para com mouse, foco de teclado, toque e "reduzir movimento"; setas nas laterais e teclas ← e →. Os dois carrosséis usam a mesma função `criarCarrossel` em `publicar/assets/js/site.js`.
-
-## Visual (nível sóbrio)
-- **Página inicial ("nível 2"):** botões retangulares com cantos arredondados (12 px), cards com borda fina e sombra suave, ícones em quadrados arredondados de cor sólida, formulário em cartão branco com campos retos e cabeçalho com botões redondos lisos. Laranja só em botões de ação e sublinhados.
-- **Continua desenhado:** sublinhado de pincel do título da abertura e do formulário, ilustração da abertura (com pincel mais suave), moldura da foto no Sobre, três ondas (fim da abertura, entrada do rio e topo do rodapé), botão flutuante do WhatsApp e **toda a seção do Rio Sergipe, intacta**.
-- **Páginas de Informações ("nível 3"):** só o sublinhado do título e a onda do fim da abertura ficam desenhados; linha do tempo, cards, tabelas, perguntas frequentes e botões ficam limpos.
-- As classes dos componentes limpos (`btn`, `cartao`, `icone-solido`, `etiqueta`, `campo`, `servico-card`, `avaliacao-card`, `carrossel-seta`) estão em `publicar/assets/css/site.css`; cabeçalho e rodapé em `publicar/assets/css/estrutura.css`. Os filtros de pincel mais leves das partes mantidas são `pincelSuave` e `pincelMedio`, definidos em cada página (os filtros antigos continuam só para o rio).
-
-## Libras (VLibras)
-- O tradutor de Libras do Governo Federal está nas nove páginas principais (botão no lado direito da tela, logo acima do WhatsApp).
-- É carregado de `vlibras.gov.br`; se o serviço do governo estiver fora do ar, o botão não aparece, mas o resto do site funciona normalmente.
-- `publicar/assets/js/libras.js` posiciona o botão oficial no lado direito, logo acima do botão do WhatsApp e alinhado com ele, respeitando a área segura do aparelho e preservando a abertura e o fechamento do widget. Assim ele fica sempre visível, não cobre texto e fica longe do meio da tela, onde estão as setas do carrossel. No canto inferior esquerdo ele ficava pequeno, sobre o texto, e passava despercebido.
-- Testado em 03/10/2026: abertura/fechamento, tradução de texto no computador e celular e seleção de uma palavra da página, com resposta do serviço oficial e avatar carregado.
-- Ele não aparece no canvas de design, só no site publicado.
-## Páginas
-| Arquivo | Endereço |
+| Grupo | Valores solicitados |
 |---|---|
-| `index.html` | `/` |
-| `informacoes.html` | `/informacoes` (reforma tributária e links para os assuntos) |
-| `imposto-de-renda.html` | `/imposto-de-renda` |
-| `mei.html` | `/mei` |
-| `simples-nacional.html` | `/simples-nacional` |
-| `abrir-empresa.html` | `/abrir-empresa` |
-| `pro-labore-e-lucros.html` | `/pro-labore-e-lucros` |
-| `departamento-pessoal.html` | `/departamento-pessoal` |
-| `calendario-fiscal.html` | `/calendario-fiscal` |
+| Fontes | Bricolage Grotesque nos títulos; Figtree no corpo |
+| Corpo | 16px; destaque 17px; linha 1.6; leitura até 65ch |
+| Títulos | H1 `clamp(34px,4.2vw,56px)`, peso 700; H2 `clamp(26px,2.8vw,38px)`; H3 20–22px; linha 1.15 |
+| Espaços | escala de 4/8px; seções 80–96px no desktop, 48–64px no celular; gap de cards 24px |
+| Container | 1180px, margens laterais de 24px |
+| Botões | altura 48px; padding 12px 22px; fonte 15–16px; raio 12px; secundário com borda de 2px |
+| Cards | raio 20px; borda de 1px; sombra suave; hover de 2px, desligado com movimento reduzido |
+| Marca | petróleo profundo `#003F4A`, petróleo vibrante `#0A7A82`, verde-água `#E3F4F2`, borda `#BFE6E2`, laranja `#F28A1E`, terracota `#C4572A`, âmbar `#FFB547` |
+| Contraste | branco no petróleo vibrante; petróleo profundo no laranja; terracota só em detalhes ou texto grande em negrito; AA em claro/escuro |
+| Desenho | rio, sublinhado da abertura, moldura da Gabriela, até duas ondas e WhatsApp flutuante |
 
-As páginas de Informações têm conteúdo-base de 01/10/2026. Em 03/10/2026 foram revisados os trechos sobre o ano-teste no Simples e a retenção de dividendos nas páginas Simples Nacional, Pró-labore e lucros e Imposto de Renda. Isso não representa uma nova conferência integral de todas as regras tributárias. Veja `docs/revisao-03-10-2026.md`. Revise todo janeiro e quando houver mudanças legais (veja `docs/roteiro-de-atualizacao.md`).
+Os tokens estão no bloco “Etapa 2” de `site.css`: `--fs-*`, `--lh-*`, `--leitura`, `--container`, `--margem`, `--secao-y`, `--gap-cards`, `--raio-btn`, `--raio-card` e cores. Classes principais: `.container`, `.secao`, `.titulo-pagina`, `.titulo-secao`, `.titulo-card`, `.texto`, `.texto-destaque`, `.abertura*`, `.ajuda-*`, `.gabriela-*` e `.foto-moldura`.
+
+Não recolorir o rio para aplicar a paleta. A chamada imediatamente anterior mantém `#0B5963` e a onda do rio mantém 90px para preservar sua transição; as demais ondas têm 56px. Cabeçalho e rodapé também usam `estrutura.css`. Logo com 42px no computador e 40px no celular; margens de 16px no cabeçalho móvel permitem três controles de 48px em 360px. As seções continuam com margens de 24px.
+
+A revelação ao rolar usa `data-revelar`: `site.js` aplica `js-revelar` na raiz e depois `revelado` no item, uma única vez. O CSS faz fade-up de até 400ms, visível sem JS e com movimento reduzido. Não aplicar à seção `#rio`, a seus descendentes ou a um ancestral dela.
+
+## WhatsApp e formulário
+
+Telefone configurado: (79) 98877-1430. E-mail de fallback: escritoriogescomp@gmail.com. Ambos ficam em `publicar/assets/js/config.js`.
+
+`data-whatsapp` usa `mensagemPadrao`. Cada card/linha usa `data-whatsapp-msg` com uma das chaves abaixo, todas começando com “Olá, Gabriela! Vim pelo site e”:
+
+| Chave | Ação |
+|---|---|
+| `abrirEmpresa` | abrir meu CNPJ |
+| `contabilidade` | contratar contabilidade |
+| `impostoRenda` | declarar meu IR |
+| `regularizarBaixa` | regularizar ou dar baixa no CNPJ |
+| `trabalhista` | calcular verbas trabalhistas |
+| `regime` | escolher o regime de impostos |
+| `mei` | deixar de ser MEI |
+| `consultoria` | consultar sobre gestão administrativa e financeira |
+
+O HTML usa as oito chaves acima. Preços visíveis e ofertas do JSON-LD precisam permanecer alinhados: contabilidade a partir de R$ 150/mês, IR e cálculos a partir de R$ 100. Não criar outros preços.
+
+O cabeçalho e as chamadas têm `data-whatsapp` e recebem a mensagem padrão via JS. A faixa “Falar com a GESCOMP” abre o WhatsApp direto. Links de navegação ao contato continuam sendo âncoras.
+
+O formulário abre uma mensagem com nome e assunto. Telefone e mensagem são opcionais; linhas vazias são omitidas. HTML e JS estão sincronizados, com rótulo “Telefone ou WhatsApp (opcional)”. Sem WhatsApp configurado, o envio usa o e-mail. Nenhum dado do formulário é armazenado pelo site.
+
+## Avaliações
+
+Em `config.js`, `avaliacoes` contém `linkAvaliar`, `linkVerTodas`, `nota`, `total` e `itens: [{ nome, texto, estrelas, link }]`. Os links do perfil do Google já foram informados; nota 5,0 e total 28 foram conferidos no perfil em 04/10/2026. **A lista `itens` permanece vazia** até a escolha e aprovação dos textos reais pela Gabriela, e a seção fica escondida.
+
+- A seção fica escondida sem itens válidos. Cada item precisa de nome, texto e estrelas inteiras de 1 a 5; dados incompletos não recebem uma nota inventada.
+- O site mostra só primeiro nome e inicial do último sobrenome, sem foto. As estrelas têm texto acessível, por exemplo “5 de 5 estrelas”. O texto é inserido por `textContent`.
+- `link` válido gera “Ver avaliação no Google”. `linkAvaliar` e `linkVerTodas` controlam seus botões, escondidos quando vazios ou inválidos. São aceitos somente links HTTPS do Google ou seus encurtadores conhecidos.
+- Nota/total só aparecem com ambos preenchidos e válidos. Não adicionar `AggregateRating` ou `Review` no JSON-LD.
+- Avaliações de teste devem existir só no navegador de teste, nunca na configuração publicada.
+
+## Carrosséis e movimento
+
+Instagram e avaliações usam a mesma função `criarCarrossel`, com `data-carrossel`, `data-carrossel-trilha`, `data-slide`, `data-carrossel-anterior`, `data-carrossel-proximo` e `data-carrossel-aviso`. A lista deve ter `tabindex="0"`, nome acessível e aviso `aria-live="polite"`.
+
+Passagem a cada 8s com rolagem suave. Para com mouse em cima, foco de teclado, foco dentro de iframe, toque, aba escondida, seção fora da tela e movimento reduzido; não agenda passagem se todos os cards couberem. Após clique de mouse na seta, sair do carrossel permite a retomada. Setas e teclas ←/→ continuam funcionando. Sem botão Pausar.
+
+Os links do Instagram ficam em `instagramReels`. Apenas posts públicos; também são aceitos vídeos próprios `.mp4`/`.webm`. Embeds e vídeos são montados sem clique, a cerca de 400px da tela. Vídeos próprios não usam autoplay; embeds seguem o comportamento da Meta. O foco dentro do iframe trava a passagem; sair do vídeo libera a trava após cerca de 3s. O site não pode inspecionar o play/pause de um iframe de outro domínio. Falha externa mantém um link utilizável; carga lenta libera a capa após 20s e continua aguardando o iframe.
+
+Movimento reduzido desliga passagem automática, contadores e revelação. O comportamento já existente das animações do rio é preservado.
+
+## Libras, cache e SEO
+
+O VLibras oficial é externo; `libras.js` posiciona seu botão. No celular, o JS oculta temporariamente os lançadores flutuantes quando cobririam a arte/selos da abertura, carrosséis ou formulário, preservando o painel aberto do VLibras. Falhas da Meta/VLibras devem ser registradas separadamente de erros do site.
+
+`_headers` mantém segurança e cache de sete dias para imagens, com revalidação para CSS/JS. `site.css`, `estrutura.css`, `config.js` e `site.js` usam `?v=20261004` em todas as páginas. Se houver outra publicação na mesma data, use um sufixo novo.
+
+Canonical, Open Graph, Twitter e JSON-LD usam o domínio final. `sitemap.xml` lista as nove páginas, `robots.txt` aponta para ele e `llms.txt` reúne dados e links públicos. `404.html` permanece com `noindex`. Manifest usa caminhos relativos, `id` e `scope` na raiz. `_headers` vale para assets estáticos do Worker, conforme [documentação Cloudflare](https://developers.cloudflare.com/workers/static-assets/headers/).
+
+As páginas de Informações mantêm suas datas de revisão e regras existentes. Esta rodada não é uma nova auditoria tributária. Consulte `docs/revisao-03-10-2026.md` antes de alterar conteúdo legal.
+
+## Próximas entregas
+
+Fotos reais otimizadas, textos das avaliações escolhidas e aprovação das respostas de contratação em [perguntas-para-aprovar.md](docs/perguntas-para-aprovar.md). Essas respostas são internas e não podem entrar no site antes da aprovação. Os links e dados gerais do Google já estão configurados (fonte no handoff).
+
+Para ativar uma foto entregue, adicionar seu caminho a `fotos` em `config.js`, por exemplo `'/assets/img/fotos/gabriela-retrato.webp'`. O HTML define `data-foto` e `data-foto-alt` na `.foto-moldura`. Só uma foto listada é buscada; após o carregamento a moldura recebe `.tem-foto`. Um erro de carga remove a imagem e mantém a arte de espera. Não listar arquivos que ainda não existem.
+
+Leia `docs/handoff.md` e `COLABORACAO_IA.md` antes de editar. Scripts e evidências da revisão ficam em `docs/testes/` e `docs/evidencias/2026-10-04/`; o handoff descreve o alcance dos testes, as capturas e as limitações externas.

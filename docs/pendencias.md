@@ -1,31 +1,32 @@
-# Pendências no site
+# Pendências do site
 
-Atualizado em 03/10/2026. Domínio final confirmado: **gescompnegocios.com.br**, comprado no Registro.br. Nome confirmado e aplicado: **Gabriela do Nascimento Vieira**. Falta conectar o domínio à hospedagem e selecionar/aplicar as imagens que já estão com o usuário.
+Atualizado em 04/10/2026. Nome confirmado: **Gabriela do Nascimento Vieira**, CRC **009186/SE**. Domínio oficial dos arquivos: **https://gescompnegocios.com.br/**.
 
-Textos entre colchetes que ainda precisam ser trocados por informações reais (busque o texto exato nos arquivos).
+## Rodada atual
 
-| Marcador | Arquivo(s) em `publicar/` |
-|---|---|
-| `[Foto da Gabriela]` | index.html |
-| `[Foto de atendimento a cliente]` | index.html |
-| `[Foto real da equipe ou do escritório]` | index.html |
-| `[LINK-DA-PLATAFORMA]` | index.html |
+1. Codex prepara domínio, SEO, JavaScript, configuração e documentação (A/F/G/H).
+2. Claude concluiu o visual e a estrutura (B/C/D/E). O usuário confirmou duas exceções no rio: placa da casa e correção da borda da onda; restante preservado.
+3. Codex faz a revisão e registra os testes finais (I).
 
-## Outras pendências
-- **Fotos:** disponíveis com o usuário. Selecionar as imagens para os três espaços de `index.html` (abertura, Sobre e Serviços), otimizar e aplicar. Confirmar as autorizações de uso das pessoas retratadas.
-- **Domínio:** **gescompnegocios.com.br**, comprado no Registro.br. Na consulta de 03/10/2026, ainda usa `a.auto.dns.br` e `b.auto.dns.br` e não tem endereço IPv4 publicado. Enquanto a conexão ao Worker não estiver concluída, canonical, compartilhamento, dados estruturados, `sitemap.xml`, `robots.txt` e `llms.txt` usam `https://gescomp-site.gescompnegocios.workers.dev`, seguindo a correção do Claude. Veja o passo 1 de `roteiro-de-atualizacao.md`. Depois de confirmar o domínio funcionando com HTTPS, atualizar esses endereços para `https://gescompnegocios.com.br` e publicar. Comando para a troca, dentro de `publicar/`: `grep -rl "gescomp-site.gescompnegocios.workers.dev" . | xargs sed -i "s#gescomp-site.gescompnegocios.workers.dev#gescompnegocios.com.br#g"`.
-- **CEP** do endereço de Barra dos Coqueiros: adicionar no Contato, no rodapé e em `postalCode` nos dados do Google.
-- **Nome da contadora:** **Gabriela do Nascimento Vieira**, confirmado e aplicado na legenda, texto Sobre, dados estruturados, `llms.txt` e cópia de revisão. Grafia correta: Gabriela, com um `l`.
-- **Folha de pagamento:** confirmar se ela faz folha completa; hoje o site fala só em cálculos trabalhistas.
-- **Perguntas frequentes da página inicial:** as respostas foram escritas para o site; pedir a revisão dela.
-- **Avaliações de clientes:** a seção está pronta e escondida. Falta receber da Gabriela: o link de avaliação do Google (`g.page/r/CODIGO/review`), o link para ver todas as avaliações, as avaliações escolhidas (com autorização), a nota e o total. Tudo vai em `publicar/assets/js/config.js`, objeto `avaliacoes` (veja `LEIA-ME.md`).
-- **Cursos e comunidade:** seção pronta e escondida; ativar quando houver a plataforma (`[LINK-DA-PLATAFORMA]`).
+Veja `handoff.md` para saber qual etapa está liberada. A regra obrigatória atual proíbe push/deploy/produção; a configuração de DNS e a publicação não foram executadas nesta rodada.
 
-## Revisão de 03/10/2026
-- Corrigida a FAQ sobre CBS/IBS no Simples em 2026, inclusive nos dados estruturados.
-- Esclarecida a retenção de 10% sobre o total dos dividendos quando ultrapassado o limite mensal; atualizada a orientação sobre empresas do Simples.
-- Sincronizadas as três páginas corrigidas com suas cópias de revisão e as datas de atualização do sitemap.
-- Extraídos os estilos comuns do cabeçalho e rodapé para `assets/css/estrutura.css`. O HTML da estrutura continua estático em cada página; estilos específicos e ilustrações ainda podem estar inline.
-- Atualizada a mensagem para a Gabriela com as confirmações restantes.
+## Cliente
 
-Fontes e escopo: `revisao-03-10-2026.md`.
+- **Fotos:** selecionar e entregar as fotos reais nos nomes, proporções e tamanhos de `imagens.md`. Confirmar as autorizações. Não usar fotos de banco com pessoas.
+- **Avaliações:** links já configurados e nota 5,0/total 28 conferidos no Google em 04/10/2026. Falta escolher e aprovar as avaliações com nome/texto/estrelas/link. `avaliacoes.itens` permanece vazio. Não inventar avaliações.
+- **Respostas de contratação:** aprovar os rascunhos internos de `perguntas-para-aprovar.md`. Não publicar antes da aprovação.
+- **CEP:** 49140-386, conferido no perfil do Google e aplicado. **Escopo de folha:** confirmar antes de acrescentar serviços ou condições.
+- **Textos e preços:** validar com Gabriela as condições dos preços mínimos, serviços e respostas atuais. Não mudar números de experiência/clientes sem confirmação.
+
+## Técnica e visual
+
+- Domínio ativo, conferido em 04/10/2026: DNS `alec.ns.cloudflare.com` / `dora.ns.cloudflare.com`, HTTPS 200 na raiz, sitemap, robots, llms e imagem Open Graph. A versão no ar ainda usa assets de 03/10; as alterações desta rodada não foram publicadas.
+- A publicação da nova versão depende de autorização que resolva a proibição atual de push/deploy. Nenhum DNS ou recurso de produção foi alterado por Codex nesta rodada. Roteiro em `roteiro-de-atualizacao.md`.
+- Textos de espaço reservado visíveis foram removidos. Artes de espera permanecem enquanto não houver fotos aprovadas.
+- Claude sincronizou os scripts no `body` com `?v=20261004`, marcou as chamadas com `data-whatsapp` e retirou `required` do telefone no HTML.
+- Os lançadores de WhatsApp/VLibras recebem proteção contra sobreposição no celular. Testes e alcance da verificação externa estão no handoff.
+- Cursos/comunidade só podem ser ativados quando houver conteúdo e link real aprovados.
+
+## Conteúdo tributário
+
+As correções e fontes da revisão anterior permanecem em `revisao-03-10-2026.md`. Esta rodada não revisa legislação integralmente. Manter as datas de revisão dos artigos até uma nova conferência do conteúdo.

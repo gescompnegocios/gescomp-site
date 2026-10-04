@@ -1,0 +1,226 @@
+[
+  {
+    "width": 1366,
+    "theme": "light",
+    "versao": "base",
+    "nome": "rio-base-final-claro-1366.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1351,
+      "height": 838.375
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 1366,
+    "theme": "dark",
+    "versao": "base",
+    "nome": "rio-base-final-escuro-1366.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1351,
+      "height": 838.375
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 1366,
+    "theme": "light",
+    "versao": "atual",
+    "nome": "rio-atual-final-claro-1366.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1351,
+      "height": 838.375
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 1366,
+    "theme": "dark",
+    "versao": "atual",
+    "nome": "rio-atual-final-escuro-1366.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1351,
+      "height": 838.375
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 1920,
+    "theme": "light",
+    "versao": "base",
+    "nome": "rio-base-final-claro-1920.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1027.453125
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 1920,
+    "theme": "dark",
+    "versao": "base",
+    "nome": "rio-base-final-escuro-1920.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1027.453125
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 1920,
+    "theme": "light",
+    "versao": "atual",
+    "nome": "rio-atual-final-claro-1920.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1027.453125
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 1920,
+    "theme": "dark",
+    "versao": "atual",
+    "nome": "rio-atual-final-escuro-1920.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1027.453125
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "versao": "base",
+    "nome": "rio-base-final-claro-390.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 875.5
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "versao": "base",
+    "nome": "rio-base-final-escuro-390.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 875.5
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "versao": "atual",
+    "nome": "rio-atual-final-claro-390.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 875.5
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "versao": "atual",
+    "nome": "rio-atual-final-escuro-390.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 875.5
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 360,
+    "theme": "light",
+    "versao": "base",
+    "nome": "rio-base-final-claro-360.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 345,
+      "height": 875.5
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 360,
+    "theme": "dark",
+    "versao": "base",
+    "nome": "rio-base-final-escuro-360.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 345,
+      "height": 875.5
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 360,
+    "theme": "light",
+    "versao": "atual",
+    "nome": "rio-atual-final-claro-360.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 345,
+      "height": 875.5
+    },
+    "tempo": 2,
+    "pausado": true
+  },
+  {
+    "width": 360,
+    "theme": "dark",
+    "versao": "atual",
+    "nome": "rio-atual-final-escuro-360.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 345,
+      "height": 875.5
+    },
+    "tempo": 2,
+    "pausado": true
+  }
+]

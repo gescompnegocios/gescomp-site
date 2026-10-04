@@ -1,0 +1,170 @@
+[
+  {
+    "width": 1366,
+    "theme": "claro",
+    "antes": [
+      1351,
+      839
+    ],
+    "depois": [
+      1351,
+      840
+    ],
+    "pixelsDiferentes": 15977,
+    "percentual": 1.4095,
+    "erroMedio": 1.079265,
+    "bbox": [
+      0,
+      37,
+      1351,
+      529
+    ]
+  },
+  {
+    "width": 1366,
+    "theme": "escuro",
+    "antes": [
+      1351,
+      839
+    ],
+    "depois": [
+      1351,
+      840
+    ],
+    "pixelsDiferentes": 17348,
+    "percentual": 1.5305,
+    "erroMedio": 0.813028,
+    "bbox": [
+      0,
+      37,
+      1351,
+      306
+    ]
+  },
+  {
+    "width": 1920,
+    "theme": "claro",
+    "antes": [
+      1905,
+      1028
+    ],
+    "depois": [
+      1905,
+      1028
+    ],
+    "pixelsDiferentes": 153563,
+    "percentual": 7.8415,
+    "erroMedio": 1.575368,
+    "bbox": [
+      0,
+      259,
+      1905,
+      1012
+    ]
+  },
+  {
+    "width": 1920,
+    "theme": "escuro",
+    "antes": [
+      1905,
+      1028
+    ],
+    "depois": [
+      1905,
+      1028
+    ],
+    "pixelsDiferentes": 101262,
+    "percentual": 5.1708,
+    "erroMedio": 1.240112,
+    "bbox": [
+      0,
+      259,
+      1905,
+      1011
+    ]
+  },
+  {
+    "width": 390,
+    "theme": "claro",
+    "antes": [
+      375,
+      876
+    ],
+    "depois": [
+      375,
+      876
+    ],
+    "pixelsDiferentes": 143492,
+    "percentual": 43.681,
+    "erroMedio": 45.881928,
+    "bbox": [
+      0,
+      0,
+      375,
+      864
+    ]
+  },
+  {
+    "width": 390,
+    "theme": "escuro",
+    "antes": [
+      375,
+      876
+    ],
+    "depois": [
+      375,
+      876
+    ],
+    "pixelsDiferentes": 169221,
+    "percentual": 51.5132,
+    "erroMedio": 37.78456,
+    "bbox": [
+      0,
+      0,
+      375,
+      864
+    ]
+  },
+  {
+    "width": 360,
+    "theme": "claro",
+    "antes": [
+      345,
+      877
+    ],
+    "depois": [
+      345,
+      877
+    ],
+    "pixelsDiferentes": 139445,
+    "percentual": 46.0876,
+    "erroMedio": 54.197385,
+    "bbox": [
+      0,
+      16,
+      345,
+      877
+    ]
+  },
+  {
+    "width": 360,
+    "theme": "escuro",
+    "antes": [
+      345,
+      877
+    ],
+    "depois": [
+      345,
+      877
+    ],
+    "pixelsDiferentes": 156590,
+    "percentual": 51.7542,
+    "erroMedio": 37.690057,
+    "bbox": [
+      0,
+      16,
+      345,
+      877
+    ]
+  }
+]
