@@ -1,0 +1,35 @@
+{
+  "observacao": "Instagram real, cinco embeds; VLibras simulado; nenhum clique ou comando de reprodução.",
+  "videos": [
+    [
+      {
+        "pausado": true,
+        "autoplay": false
+      }
+    ],
+    [
+      {
+        "pausado": true,
+        "autoplay": false
+      }
+    ],
+    [
+      {
+        "pausado": true,
+        "autoplay": false
+      }
+    ],
+    [
+      {
+        "pausado": true,
+        "autoplay": false
+      }
+    ],
+    [
+      {
+        "pausado": true,
+        "autoplay": false
+      }
+    ]
+  ]
+}

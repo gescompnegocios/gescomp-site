@@ -1,0 +1,64 @@
+{
+  "base": "e3c3bb5",
+  "paginas": [
+    {
+      "nome": "404.html",
+      "jsonLd": 0
+    },
+    {
+      "nome": "abrir-empresa.html",
+      "jsonLd": 1
+    },
+    {
+      "nome": "calendario-fiscal.html",
+      "jsonLd": 1
+    },
+    {
+      "nome": "departamento-pessoal.html",
+      "jsonLd": 1
+    },
+    {
+      "nome": "imposto-de-renda.html",
+      "jsonLd": 1
+    },
+    {
+      "nome": "index.html",
+      "jsonLd": 1
+    },
+    {
+      "nome": "informacoes.html",
+      "jsonLd": 1
+    },
+    {
+      "nome": "mei.html",
+      "jsonLd": 1
+    },
+    {
+      "nome": "pro-labore-e-lucros.html",
+      "jsonLd": 1
+    },
+    {
+      "nome": "simples-nacional.html",
+      "jsonLd": 1
+    }
+  ],
+  "corposAlterados": [
+    "404.html",
+    "abrir-empresa.html",
+    "calendario-fiscal.html",
+    "departamento-pessoal.html",
+    "imposto-de-renda.html",
+    "index.html",
+    "informacoes.html",
+    "mei.html",
+    "pro-labore-e-lucros.html",
+    "simples-nacional.html"
+  ],
+  "cssAlterado": [
+    "site.css",
+    "estrutura.css"
+  ],
+  "rioPreservadoForaDosDoisAjustes": true,
+  "rioHtmlSha256": "ce2a842ce68c416b2b7a60506763b5f9672858a244435d929ba11a1e91e78c89",
+  "manifestValido": true
+}

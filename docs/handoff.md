@@ -280,3 +280,111 @@ O usuário também autorizou selecionar avaliações reais do Google. Buscar a f
 Esta rodada está concluída; não reaplicar o gráfico oval nem retirar avaliações/WhatsApp. As mudanças visuais desta rodada foram pedidas diretamente pelo usuário, após a divisão inicial dos arquivos. Código e evidências prontos para revisão, sem trabalho simultâneo do outro agente.
 
 Faltam somente retratos reais da Gabriela, foto real do escritório e aprovação das quatro respostas de contratação. Avaliações e imagens dos serviços estão entregues. A versão local ainda precisa de publicação externa autorizada; nenhuma ação de produção, push ou deploy foi realizada. Entrega versionada em commit local descritivo na main; consultar git log para o hash desta entrega.
+
+## 04/10/2026 — avaliações circulares e fotografias reais (Codex, concluído)
+
+O pedido posterior do usuário substitui as preferências visuais da rodada anterior. Codex revisou e alterou HTML/CSS diretamente dentro desse pedido. Claude: esta etapa está concluída; conferir este registro antes de começar outra edição, mantendo o trabalho em sequência.
+
+### Alterações e critérios
+
+- **Avaliações:** de três para cinco textos reais conferidos no perfil público do Google. Acrescentados Wallace Douglas Nascimento dos Santos e Ainoan Cavalcantemelo, ambos com cinco estrelas. Primeiro nome/inicial, sem fotos, sem Review/AggregateRating. O resumo mostra só “5 estrelas no Google”; total está null. O Google limita a leitura pública, por isso foram usados somente os cinco textos efetivamente conferidos. [Fonte e IDs](evidencias/2026-10-04/avaliacoes-google-ampliadas.json).
+- **Layout:** cards de avaliações com a mesma altura em cada tela, alinhando autor/link e sem truncar textos. Mínimo 300px no computador e 320px nas telas menores; podem crescer juntos se houver texto maior. Setas no computador deslocadas para fora do texto; ocultas até 899px. A grade dos sete assuntos passou de quatro colunas estreitas para 3/2/1 colunas; largura aproximada de 361px no computador, sem rolagem lateral.
+- **Ciclo circular:** opção continuo/velocidade na função compartilhada criarCarrossel. Avaliações avançam continuamente a 24px/s; o card já fora da tela é movido para o fim e o deslocamento compensado, sem pulo, cópias de depoimentos ou links duplicados. Pausa com mouse/foco/toque, aba oculta e seção fora da tela; retoma 6s após o gesto. Movimento reduzido desliga a passagem. Instagram conserva o intervalo de 8s e suas travas de vídeo. Gesto nativo de deslizar conferido no Chrome, inclusive com eventos reais de toque.
+- **Fotografias:** sete fotos reais licenciadas de Pexels/Unsplash, sem pessoas, mãos ou representações da equipe/escritório. Usadas nos serviços, oito aberturas de Informações, sete miniaturas, 404 e um recorte de compartilhamento. Arquivos WebP locais com nomes novos; 1200×900 e OG 1200×630, todos abaixo de 300 KB. Os treze arquivos gerados anteriores foram removidos de publicar/ depois de verificar ausência de referências. As fixtures antigas são reconstruídas do Git para repetir comparações. [Autores/licenças](imagens-reais-fontes.md), [manifesto](evidencias/2026-10-04/fotos-reais.json), [folha de contato](evidencias/2026-10-04/contato-fotos-reais.jpg).
+- **Abertura:** gráfico e três selos retirados. O usuário confirmou que a foto real da Gabriela ainda não chegou. A moldura ficará oculta até a foto carregar e aparecerá só a partir de 900px. Enquanto isso, o texto ocupa a abertura. Sem retrato fabricado, imagem quebrada ou texto de espaço reservado.
+- **Console/Instagram:** identificado o cabeçalho real de cada iframe. O site não envia attribution-reporting, shared-storage ou shared-storage-select-url: esses três avisos vêm das respostas da Meta. A compatibilidade de unload foi ajustada no _headers e no allow dos iframes, limitada a self/Instagram. Com os cabeçalhos locais simulados no servidor Python, cinco vídeos reais prontos, unload permitido e zero erros JS/violações unload no cenário observado. **Os três avisos de recursos desconhecidos permanecem porque seus cabeçalhos são controlados pela Meta; não foram ocultados nem foi removida a integração para mascará-los.** [Evidência](evidencias/2026-10-04/instagram-politicas-fotos-reais.json). O servidor Python não aplica _headers; não confundir essa verificação com publicação.
+
+### Testes executados
+
+- **80 cenários** de dez páginas, quatro telas e dois temas: nenhum overflow, placeholder, erro local, recurso local ausente ou violação axe A/AA. Serviços externos simulados apenas nessa matriz. [Resultado](evidencias/2026-10-04/matriz-fotos-reais.json).
+- **31 verificações específicas:** altura/largura iguais, textos sem cortes, 900/1024px adicionais, movimento contínuo, transição circular medida no mesmo card, mouse, teclado, gesto real de toque, retomada, movimento reduzido, grade e fotos/retrato. [Resultado](evidencias/2026-10-04/revisao-fotos-reais.json). Uma prova acelerada confirmou várias voltas, cinco ordens e retorno ao início sem duplicar os cards: [ciclos](evidencias/2026-10-04/ciclos-fotos-reais.json).
+- **23 testes funcionais** de mensagens, formulário, lista vazia/fixtures, segurança dos textos e pausas/retomadas do carrossel compartilhado. Fixtures removidas do navegador, cinco avaliações reais restauradas. [Resultado](evidencias/2026-10-04/funcionais-fotos-reais.json).
+- **Lighthouse acessibilidade 100/100:** [celular](evidencias/2026-10-04/lighthouse-fotos-reais-mobile.report.html) e [computador](evidencias/2026-10-04/lighthouse-fotos-reais-desktop.report.html), sem avisos de execução. Não foi medida pontuação de desempenho.
+- **Rio intacto:** HTML e regras CSS da cena idênticos a 5d4dc81. Oito pares de capturas, quatro larguras/dois temas, com **zero pixels diferentes**. [Comparação](evidencias/2026-10-04/rio-fotos-reais-comparacao.json). Não editadas animações, cores ou HTML do rio.
+- **Sintaxe, metadados e referências:** node --check nos dois scripts, validador estático, diff --check, referências locais e ausência dos dois domínios antigos conferidos. Nenhuma dependência ou framework adicionado. [Estático](evidencias/2026-10-04/validacao-estatica-fotos-reais.json), [referências](evidencias/2026-10-04/referencias-fotos-reais.json).
+
+### Capturas, arquivos e pendências
+
+Antes/depois da abertura e dos serviços em 1366/390px e nos dois temas: inicio-fotos-reais-antes/depois-*.png e servicos-fotos-reais-antes/depois-*.png, em evidencias/2026-10-04/. Avaliações também capturadas em seis larguras/dois temas; assuntos em assuntos-fotos-reais-desktop.png. Scripts e instruções para repetir estão em [testes/LEIA-ME.md](testes/LEIA-ME.md).
+
+Arquivos principais: index.html e páginas de Informações/404 (fotos e metadados); site.js/config.js/site.css; _headers; oito WebP; documentação, fontes e evidências. LEIA-ME/COLABORACAO na raiz do workspace também sincronizados. Nenhuma alteração do outro agente descartada, nenhum comando destrutivo do Git executado.
+
+Dependem da cliente: foto de abertura, foto de Sobre, foto real do escritório e aprovação das respostas de contratação. Os comentários e links do Google já estão configurados. A publicação permanece pendente de autorização explícita que resolva a regra de não executar push/deploy/produção. Fechamento em commit local descritivo na main, sem push; consultar git log para o hash. Nenhum DNS, Worker ou outro recurso de produção foi alterado.
+
+## 04/10/2026, 18:47 — Claude aplicando o plano revisado (CONCLUÍDO)
+
+O usuário mandou aplicar agora, por cima da rodada de fotos reais do Codex, que ainda não tem commit (nada é desfeito). Codex: os arquivos já estão liberados (veja abaixo).
+
+### CONCLUÍDO (Claude) — plano revisado aplicado
+
+Sem commit e sem push. Aplicado por cima da rodada de fotos reais do Codex, sem desfazer nada dela. `index.html`, as 8 páginas de Informações e `site.css` estão liberados.
+
+**O que mudou (body e `site.css`; CSS no bloco "Plano revisado (Claude, 04/10/2026)", no fim do arquivo)**
+1. **Abertura:**
+   - Sem retrato, a coluna direita deixou de ficar vazia: entrou o card `.abertura-prova` com **5,0 ★ no Google**, a avaliação real completa do Marcelo S. (texto igual ao do `config.js`) e "Ver avaliações no Google", com o `linkVerTodas`.
+   - Com retrato (`.tem-retrato`), o card some e o retrato toma o lugar.
+   - Substituí a regra `.abertura-grade:not(:has(.tem-retrato)){grid-template-columns:1fr}` por duas colunas (1fr no celular).
+   - Não fixei o total de avaliações: `total` está `null` no `config.js`.
+2. **"Como funciona"** (`#como-funciona`, depois de `#servicos`): 3 passos e a faixa "Já tem contador e pensa em trocar? Converse com a Gabriela…" (`data-whatsapp`, mensagem padrão). É um convite para conversar, não uma promessa de que a GESCOMP "cuida da troca", porque isso ainda está em `perguntas-para-aprovar.md`.
+3. **Números:** fundo claro (`secao-branca`), números e título em petróleo, legendas `--texto2` e sublinhados laranja e petróleo.
+4. **Quem é a Gabriela:**
+   - **Textos:** dois parágrafos **factuais, em terceira pessoa** (CRC, desde 2014, anos em escritório, criou a GESCOMP, Barra dos Coqueiros e online, serviços).
+   - **Citação no lugar do selo:** a frase dela, de `textos/sobre-a-gescomp.md`: "Nosso objetivo é que você não precise se preocupar com a parte burocrática."
+   - **Foto:** quando `gabriela-sobre.webp` for liberada, ela aparece acima da citação (`.gabriela-midia`).
+5. **Botão flutuante do WhatsApp:** o pulso passou de infinito para 3 vezes ao carregar (`repeatCount="3"`). O desenho não mudou.
+6. **Hub de Informações:** saiu o ícone dos 7 cards que já têm foto. O último card, quando fica sozinho na linha, ocupa a largura toda em formato horizontal (2 colunas no tablet).
+7. **8 páginas de Informações:**
+   - autoria na abertura: "Por Gabriela do Nascimento Vieira, contadora (CRC 009186/SE) · Atualizado em …";
+   - `.cta-contexto` ("Ficou na dúvida sobre o seu caso?") no fim da seção anterior às perguntas, com `data-whatsapp-msg` por assunto (`regime`, `impostoRenda`, `mei`, `abrirEmpresa`, `consultoria`, `trabalhista`, `contabilidade`) e `href="/#contato"` como alternativa.
+8. **Microinterações** (só sem "reduzir movimento"): resposta das perguntas esmaece ao abrir, seta das linhas desliza 3 px e cards sobem também com o foco do teclado.
+
+**Testes executados** (Playwright, Chrome, axe-core; `py -m http.server`)
+- **9 páginas** em 1366, 1920, 390 e 360 px, modos claro e escuro: contraste AA com 0 violações em 72 combinações, sem rolagem lateral e sem erros de console ou HTTP.
+- **Chamados novos:** os 8 `.cta-contexto` abrem o WhatsApp com a mensagem certa, em nova aba; a faixa "trocar de contador" usa a mensagem padrão.
+- **Movimento reduzido:** sem animação na abertura nem transição nos cards. Foco visível (3 px).
+- **Rio:** o HTML da seção e as regras `.rio-*` são idênticos ao `HEAD` (`5d4dc81`). `node --check` passou nos dois scripts.
+
+**Pedidos ao Codex**
+1. **Fotos com texto em inglês legível:**
+   - abertura do MEI (`caderno-real-20261004.webp`: caderno com "Do you do it in the mornings…");
+   - calendário (`calendario-real-20261004.webp`: "January").
+   - Trocar por fotos sem texto legível, ou recortar.
+2. **Fotos repetidas:** a da mesa aparece 3 vezes e a de contabilidade 2. Variar quando possível.
+3. **Instagram:** os cards ficam brancos enquanto o embed carrega (visto de novo hoje). Manter a capa até o iframe estar pintado.
+4. **Contagem dos números:** reduzir de 2800 para cerca de 1600 ms em `site.js`.
+5. **`?v=`:** o CSS mudou. Pela regra do LEIA-ME, trocar a versão no `<head>` (o CSS já revalida pelo `_headers`).
+6. **Documentação:** registrar no LEIA-ME e em `decisoes-de-design.md` as seções novas (`.abertura-prova`, `#como-funciona`, `.gabriela-midia` e `.gabriela-citacao`, `.cta-contexto`).
+7. **Nota no card da abertura:** o "5,0" está fixo no HTML. Se `avaliacoes.nota` mudar, atualizar ali também, ou ligar o card ao `config.js`.
+8. **Para aprovação da Gabriela** (incluir em `docs/perguntas-para-aprovar.md`): versão em primeira pessoa da seção "Quem é a Gabriela":
+   - "Sou a Gabriela do Nascimento Vieira, contadora registrada no CRC de Sergipe (009186/SE). Trabalho com contabilidade desde 2014 e, depois de anos atuando em escritório, abri a GESCOMP para atender de perto, com clareza e sem burocracia para o cliente."
+   - "Aqui você fala direto comigo. Cuido da abertura, da regularização e da baixa do seu CNPJ, da contabilidade da sua empresa, do seu Imposto de Renda e dos cálculos trabalhistas, sempre buscando a melhor tributação possível, dentro da lei."
+9. **Commit único** das duas rodadas (fotos reais do Codex e este plano) depois da sua revisão. Push e publicação só com autorização do usuário.
+
+**Decisões do usuário, ainda abertas:** medição (Cloudflare Web Analytics e página de origem na mensagem do WhatsApp), imagem de compartilhamento por página, botão "Como chegar" e alinhamento do texto no rio, e o logo em SVG (depende da cliente).
+
+## 04/10/2026 — Codex revisou o plano do Claude e concluiu a integração
+
+Codex aguardou a entrega visual e, a pedido do usuário, acompanhou em leitura enquanto o Claude finalizava. Depois da marca CONCLUÍDO, revisou os nove pedidos do handoff. As fotos reais e avaliações circulares da primeira rodada e o plano visual do Claude serão incluídos em um único commit local na main. Nenhum push/deploy/DNS/produção foi executado.
+
+### Correções comprovadas e pedidos atendidos
+
+1. **Foto de Sobre:** reproduzida a falha de carregamento: moldura com display:none e imagem lazy geravam zero pedidos, mesmo com arquivo liberado. Corrigida em site.js, com carregamento imediato somente na abertura e na moldura de Sobre; demais cards continuam lazy. A fixture carregou e exibiu a foto. [Diagnóstico anterior](evidencias/2026-10-04/monitoramento-plano-claude.json), [validação corrigida](evidencias/2026-10-04/revisao-integracao-claude.json).
+2. **Destaque da abertura:** nota, trecho, nome e link passam a usar avaliacoes de config.js. `destaque` seleciona Marcelo; sem correspondência, primeiro item válido. Lista vazia esconde seção/destaque; nota/link inválidos ficam ocultos. Duas regras CSS mínimas fazem hidden prevalecer no card e retiram a coluna vazia. O texto de Marcelo é o trecho literal já selecionado, e não uma transcrição completa de uma avaliação maior. Sem mudança no rio.
+3. **Instagram:** observado o protocolo real LOADING/MEASURE/MOUNTED. A altura inicial não bastava para afirmar montagem. A capa agora aguarda load, altura e MOUNTED da origem https://www.instagram.com e da janela exata do iframe; duas pinturas completam a troca. Mensagem de outra janela não libera a capa. Timeout conserva o link da capa e continua aguardando. Teste real final: cinco embeds prontos, imagens carregadas, um vídeo por embed, sem erros JS; os cinco vídeos iniciam pausados e sem autoplay. [Montagem real](evidencias/2026-10-04/instagram-montagem-final.json), [pausa inicial](evidencias/2026-10-04/instagram-pausa-inicial-final.json).
+4. **Fotos/variação:** caderno com texto em inglês substituído por foto real de Cup of Couple; calendário recortado abaixo do mês e dos dias. Outra foto real, de Tirachard Kumtanom, diferencia Simples Nacional do card de contabilidade e substitui a imagem repetida da 404. A mesa ficou em dois assuntos; oito fotografias finais, nove WebP incluindo OG, todos abaixo de 300 KB. Só recorte/conversão, sem geração. A ampliação do recorte do calendário está explicitada no manifesto. Fontes, autores e folha de contato atualizados em imagens-reais-fontes.md.
+5. **Contagem:** duração reduzida de 2800 para 1600ms; valores finais confirmados em 1800ms. Movimento reduzido mantém os números prontos.
+6. **Cache:** links de CSS/JS de todas as páginas usam ?v=20261004&rev=2, com ampersand escapado no HTML. Data atual preservada e revisão adicional para evitar cache da primeira alteração do dia.
+7. **Documentação:** LEIA-ME, decisões, imagens, fontes, testes e pendências refletem abertura-prova, Como funciona, mídia/citação de Gabriela, autoria e chamados contextuais. Texto em primeira pessoa foi adicionado somente a perguntas-para-aprovar.md; não está publicado. Metadados usam fotografia real de compartilhamento.
+
+### Verificação final executada após a entrega do Claude
+
+- 80 combinações de dez páginas, quatro telas e dois temas: sem rolagem lateral, placeholders, erros/referências locais ausentes ou violações axe A/AA. Serviços externos simulados nessa matriz.
+- 31 verificações do carrossel/layout/fotos e 23 funcionais repetidas e aprovadas; mais 16 verificações da integração: futuros retratos, nota/lista vazia, montagem/origem das mensagens e oito WhatsApps contextuais. As fixtures existem somente no navegador.
+- Lighthouse final repetido: acessibilidade **100/100 no celular e no computador**, sem avisos de execução. Nenhuma pontuação de desempenho alegada.
+- Rio: HTML e regras da cena continuam idênticos a 5d4dc81. Capturas antes/depois repetidas após o plano do Claude; oito pares com **zero pixels diferentes**.
+- node --check nos dois scripts, validador de metadados, diff --check e busca dos domínios antigos aprovados. Dez páginas, **282 referências locais**, sem arquivos ausentes. Nenhuma dependência adicionada ao site.
+- Instagram real com Permissions-Policy local simulado: zero violações unload; permanecem os três tipos de aviso nos cabeçalhos da Meta. O servidor Python não aplica _headers e os testes não representam publicação.
+
+As evidências fotos-reais foram atualizadas para a integração final; o diagnóstico monitoramento-plano-claude é histórico anterior à correção. Capturas da abertura/serviços antes e depois, em 1366/390px e nos dois temas, foram repetidas. A folha de contato contém oito fotos atuais. Revisão visual inspecionada no navegador e nas capturas; não houve remoção de funcionalidades nem alteração da seção protegida.
+
+Cliente: retratos reais de Gabriela, foto do escritório, aprovação das respostas e do texto em primeira pessoa, logo SVG e decisões abertas acima. Avaliações e links do Google já estão configurados. Publicação continua dependendo de autorização posterior que resolva a proibição vigente. Commit único local descritivo; consultar git log para o hash final. Claude: esta etapa está concluída, sem pendência de código dos nove pedidos; não restaurar gráfico, selos, total de avaliações ou imagens geradas.

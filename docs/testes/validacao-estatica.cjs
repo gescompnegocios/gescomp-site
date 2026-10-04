@@ -28,7 +28,7 @@ for (const nome of arquivos) {
     const rota = nome === 'index.html' ? '/' : '/' + nome.replace(/\.html$/, '');
     assert.ok(html.includes('rel="canonical" href="' + origem + rota + '"'), nome + ': canonical');
     assert.ok(html.includes('property="og:url" content="' + origem + rota + '"'), nome + ': Open Graph URL');
-    for (const atributo of ['og:image', 'twitter:image']) assert.ok(html.includes('"' + atributo + '" content="' + origem + '/assets/img/og-composicao-20261004.webp"'));
+    for (const atributo of ['og:image', 'twitter:image']) assert.ok(html.includes('"' + atributo + '" content="' + origem + '/assets/img/og-foto-real-20261004.webp"'));
     assert.ok(html.includes('/assets/css/site.css?v=20261004'));
     assert.ok(blocos.length > 0);
   }
@@ -73,5 +73,5 @@ assert.equal(manifest.scope, '/');
 resultado.manifestValido = true;
 const dir = path.join('docs', 'evidencias', '2026-10-04');
 fs.mkdirSync(dir, { recursive: true });
-fs.writeFileSync(path.join(dir, 'validacao-estatica-imagens.json'), JSON.stringify(resultado, null, 2) + '\n');
+fs.writeFileSync(path.join(dir, 'validacao-estatica-fotos-reais.json'), JSON.stringify(resultado, null, 2) + '\n');
 console.log(JSON.stringify(resultado));

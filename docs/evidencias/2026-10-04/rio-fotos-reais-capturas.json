@@ -1,0 +1,194 @@
+[
+  {
+    "width": 1366,
+    "theme": "light",
+    "versao": "antes",
+    "nome": "rio-fotos-reais-antes-light-1366.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1351,
+      "height": 838.375
+    }
+  },
+  {
+    "width": 1366,
+    "theme": "dark",
+    "versao": "antes",
+    "nome": "rio-fotos-reais-antes-dark-1366.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1351,
+      "height": 838.375
+    }
+  },
+  {
+    "width": 1366,
+    "theme": "light",
+    "versao": "depois",
+    "nome": "rio-fotos-reais-depois-light-1366.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1351,
+      "height": 838.375
+    }
+  },
+  {
+    "width": 1366,
+    "theme": "dark",
+    "versao": "depois",
+    "nome": "rio-fotos-reais-depois-dark-1366.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1351,
+      "height": 838.375
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "light",
+    "versao": "antes",
+    "nome": "rio-fotos-reais-antes-light-1920.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1027.453125
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "dark",
+    "versao": "antes",
+    "nome": "rio-fotos-reais-antes-dark-1920.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1027.453125
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "light",
+    "versao": "depois",
+    "nome": "rio-fotos-reais-depois-light-1920.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1027.453125
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "dark",
+    "versao": "depois",
+    "nome": "rio-fotos-reais-depois-dark-1920.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1027.453125
+    }
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "versao": "antes",
+    "nome": "rio-fotos-reais-antes-light-390.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 875.5
+    }
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "versao": "antes",
+    "nome": "rio-fotos-reais-antes-dark-390.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 875.5
+    }
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "versao": "depois",
+    "nome": "rio-fotos-reais-depois-light-390.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 875.5
+    }
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "versao": "depois",
+    "nome": "rio-fotos-reais-depois-dark-390.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 875.5
+    }
+  },
+  {
+    "width": 360,
+    "theme": "light",
+    "versao": "antes",
+    "nome": "rio-fotos-reais-antes-light-360.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 345,
+      "height": 875.5
+    }
+  },
+  {
+    "width": 360,
+    "theme": "dark",
+    "versao": "antes",
+    "nome": "rio-fotos-reais-antes-dark-360.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 345,
+      "height": 875.5
+    }
+  },
+  {
+    "width": 360,
+    "theme": "light",
+    "versao": "depois",
+    "nome": "rio-fotos-reais-depois-light-360.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 345,
+      "height": 875.5
+    }
+  },
+  {
+    "width": 360,
+    "theme": "dark",
+    "versao": "depois",
+    "nome": "rio-fotos-reais-depois-dark-360.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 345,
+      "height": 875.5
+    }
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "data": "2026-10-04",
+  "fonte": "https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU",
+  "metodo": "Leitura do perfil público, aba Avaliações, nomes e indicação acessível de 5 estrelas conferidos no navegador; sem fotos. O Google limita a lista pública, então não foram criados textos adicionais.",
+  "notaPublicada": 5,
+  "totalPublicado": false,
+  "itens": [
+    {
+      "nome": "Yasmin Dantas",
+      "texto": "A melhor contadora!\nConfio demais em Gabi",
+      "estrelas": 5,
+      "link": "https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU",
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25KamRUUlFMVkpFVUZsUlIyMUhVR1ZRV2xadVRHYxAB",
+      "trecho": false
+    },
+    {
+      "nome": "Simone Soares",
+      "texto": "Atendimento de qualidade. Super indico",
+      "estrelas": 5,
+      "link": "https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU",
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2trMVNtOUlZV3RYWkRacWVHVktVVUkwU0RsNGFIYxAB",
+      "trecho": false
+    },
+    {
+      "nome": "Marcelo Melo da Silva",
+      "texto": "Empresa com grande profissionalismo, dúvidas tiradas com clareza, atendimento excepcional. Desde que conheci não larguei!",
+      "estrelas": 5,
+      "link": "https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU",
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25WYVdXNTBUbWhTVFV0aVFuRmFRMTlTZHpWZlVHYxAB",
+      "trecho": true
+    },
+    {
+      "nome": "Wallace Douglas Nascimento dos Santos",
+      "texto": "Escritório eficiente e transparente. Atendimento de excelência.",
+      "estrelas": 5,
+      "link": "https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU",
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25WcFFrZ3lUakpTV0dGV1kxSlRkV0Z3U0ZsWlFuYxAB",
+      "trecho": false
+    },
+    {
+      "nome": "Ainoan Cavalcantemelo",
+      "texto": "Profissional excelente e responsável!",
+      "estrelas": 5,
+      "link": "https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU",
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WVlNqTTBXVUZPZVRRNVlreHhTM2hDV2xOa1lXYxAB",
+      "trecho": false
+    }
+  ]
+}

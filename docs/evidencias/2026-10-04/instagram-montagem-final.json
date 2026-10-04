@@ -1,0 +1,144 @@
+{
+  "prontos": 5,
+  "capas": 0,
+  "erros": [],
+  "violacoesUnload": 0,
+  "avisosMeta": [
+    "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'.",
+    "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'.",
+    "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+  ],
+  "frames": [
+    {
+      "imagens": [
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 328
+        },
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        }
+      ],
+      "videos": 1,
+      "texto": "gescomp_\nÁudio original\nVer perfil\ngescomp_\n64 posts · 317 seguidores\nVer mais no Instagram\nCurtir\nComentar\nCompartilhar\nSalvar\n19 curtidas\nAdicione u"
+    },
+    {
+      "imagens": [
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 328
+        },
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        }
+      ],
+      "videos": 1,
+      "texto": "gescomp_\nÁudio original\nVer perfil\ngescomp_\n64 posts · 317 seguidores\nVer mais no Instagram\nCurtir\nComentar\nCompartilhar\nSalvar\n43 curtidas\nAdicione u"
+    },
+    {
+      "imagens": [
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 328
+        },
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        }
+      ],
+      "videos": 1,
+      "texto": "gescomp_\nÁudio original\nVer perfil\ngescomp_\n64 posts · 317 seguidores\nVer mais no Instagram\nCurtir\nComentar\nCompartilhar\nSalvar\n27 curtidas\nAdicione u"
+    },
+    {
+      "imagens": [
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 328
+        },
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        }
+      ],
+      "videos": 1,
+      "texto": "gescomp_\nÁudio original\nVer perfil\ngescomp_\n64 posts · 317 seguidores\nVer mais no Instagram\nCurtir\nComentar\nCompartilhar\nSalvar\n18 curtidas\nAdicione u"
+    },
+    {
+      "imagens": [
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 328
+        },
+        {
+          "carregada": true,
+          "largura": 100
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        },
+        {
+          "carregada": true,
+          "largura": 150
+        }
+      ],
+      "videos": 1,
+      "texto": "gescomp_\nÁudio original\nVer perfil\ngescomp_\n64 posts · 317 seguidores\nVer mais no Instagram\nCurtir\nComentar\nCompartilhar\nSalvar\n16 curtidas\nAdicione u"
+    }
+  ],
+  "observacao": "Somente Permissions-Policy local simulado; Meta real. VLibras simulado neste teste."
+}

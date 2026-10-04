@@ -1,0 +1,114 @@
+[
+  {
+    "nome": "Destaque usa texto e nota configurados",
+    "aprovado": true
+  },
+  {
+    "nome": "Capa permanece com iframe carregado antes de MOUNTED",
+    "aprovado": true
+  },
+  {
+    "nome": "Mensagem de outra janela não libera capas",
+    "aprovado": true
+  },
+  {
+    "nome": "Montagem válida libera as cinco capas",
+    "aprovado": true
+  },
+  {
+    "nome": "Números completos em até 1,8 segundo",
+    "aprovado": true
+  },
+  {
+    "nome": "Foto futura de Sobre carrega apesar da moldura inicial oculta",
+    "aprovado": true
+  },
+  {
+    "nome": "Nota da abertura acompanha config.js",
+    "aprovado": true
+  },
+  {
+    "nome": "Lista vazia esconde seção e destaque sem coluna vazia",
+    "aprovado": true
+  },
+  {
+    "nome": "WhatsApp contextual informacoes",
+    "aprovado": true,
+    "dados": {
+      "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20saber%20qual%20o%20melhor%20regime%20de%20impostos%20para%20a%20minha%20empresa.",
+      "key": "regime",
+      "target": "_blank",
+      "expected": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+    }
+  },
+  {
+    "nome": "WhatsApp contextual imposto-de-renda",
+    "aprovado": true,
+    "dados": {
+      "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20fazer%20meu%20Imposto%20de%20Renda%20com%20voc%C3%AAs.%20Como%20funciona%3F",
+      "key": "impostoRenda",
+      "target": "_blank",
+      "expected": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+    }
+  },
+  {
+    "nome": "WhatsApp contextual mei",
+    "aprovado": true,
+    "dados": {
+      "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20sou%20MEI%20e%20quero%20saber%20se%20%C3%A9%20hora%20de%20deixar%20de%20ser%20MEI.",
+      "key": "mei",
+      "target": "_blank",
+      "expected": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+    }
+  },
+  {
+    "nome": "WhatsApp contextual abrir-empresa",
+    "aprovado": true,
+    "dados": {
+      "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20abrir%20um%20CNPJ.%20Pode%20me%20orientar%3F",
+      "key": "abrirEmpresa",
+      "target": "_blank",
+      "expected": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+    }
+  },
+  {
+    "nome": "WhatsApp contextual simples-nacional",
+    "aprovado": true,
+    "dados": {
+      "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20saber%20qual%20o%20melhor%20regime%20de%20impostos%20para%20a%20minha%20empresa.",
+      "key": "regime",
+      "target": "_blank",
+      "expected": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+    }
+  },
+  {
+    "nome": "WhatsApp contextual pro-labore-e-lucros",
+    "aprovado": true,
+    "dados": {
+      "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20consultoria%20administrativa%20e%20financeira.",
+      "key": "consultoria",
+      "target": "_blank",
+      "expected": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+    }
+  },
+  {
+    "nome": "WhatsApp contextual departamento-pessoal",
+    "aprovado": true,
+    "dados": {
+      "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20preciso%20de%20um%20c%C3%A1lculo%20trabalhista.",
+      "key": "trabalhista",
+      "target": "_blank",
+      "expected": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+    }
+  },
+  {
+    "nome": "WhatsApp contextual calendario-fiscal",
+    "aprovado": true,
+    "dados": {
+      "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20contabilidade%20para%20a%20minha%20empresa.%20Como%20funciona%20e%20qual%20o%20valor%3F",
+      "key": "contabilidade",
+      "target": "_blank",
+      "expected": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+    }
+  }
+]

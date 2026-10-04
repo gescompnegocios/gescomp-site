@@ -46,7 +46,7 @@ for(var b=0;b<pinceis.length;b++)pinceis[b].setAttribute('stroke-dashoffset',Str
 if(!secao||!('IntersectionObserver' in window))return;
 desenhar(0);
 var io=new IntersectionObserver(function(es){for(var c=0;c<es.length;c++){if(es[c].isIntersecting){io.disconnect();var t0=null;
-function passo(t){if(t0===null)t0=t;var x=Math.min(1,(t-t0)/2800);desenhar(1-Math.pow(1-x,3));if(x<1)requestAnimationFrame(passo);}
+function passo(t){if(t0===null)t0=t;var x=Math.min(1,(t-t0)/1600);desenhar(1-Math.pow(1-x,3));if(x<1)requestAnimationFrame(passo);}
 requestAnimationFrame(passo);return;}}},{threshold:0.35});
 io.observe(secao);
 })();
@@ -88,7 +88,8 @@ else if(st){st.textContent='O contato pelo site ainda está sendo configurado. U
    [data-carrossel-anterior], [data-carrossel-proximo] e [data-carrossel-aviso] (aria-live).
    Passa sozinho a cada 8 s, com rolagem suave, e volta ao início no fim. Para com mouse em cima,
    foco de teclado, toque, aba escondida, "reduzir movimento" e enquanto houver uma trava
-   (por exemplo, alguém assistindo a um vídeo). Opções: rotulo, intervalo, aoNavegar, aoSairMouse. */
+   (por exemplo, alguém assistindo a um vídeo). Avaliações usam continuo/velocidade para um ciclo
+   fluido com os mesmos cards, sem cópias. Opções: rotulo, intervalo, aoNavegar, aoSairMouse. */
 function criarCarrossel(raiz,op){
   op=op||{};
   var trilha=raiz.querySelector('[data-carrossel-trilha]'); if(!trilha)return null;
@@ -96,31 +97,53 @@ function criarCarrossel(raiz,op){
   var rotulo=op.rotulo||'Item', intervalo=op.intervalo||8000;
   var mq=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):null;
   var mouse=false, foco=false, toque=false, visivel=!('IntersectionObserver' in window), travas={}, timer=null, tRolagem=null, tToque=null;
+  var quadro=null, instante=0, posicao=0, circular=false;
+  function passo(){var s=slides();return s.length>1?s[1].offsetLeft-s[0].offsetLeft:0;}
+  // Reutiliza os próprios cards: não duplica textos, links ou paradas de teclado.
+  function moverInicio(){var p=passo();trilha.appendChild(trilha.firstElementChild);trilha.scrollLeft-=p;posicao-=p;}
+  function reservarAnterior(){var p=passo();trilha.insertBefore(trilha.lastElementChild,trilha.firstElementChild);trilha.scrollLeft+=p;posicao=trilha.scrollLeft;}
+  function animar(t){
+    quadro=null;if(parado())return;
+    if(instante)posicao+=(Math.min(t-instante,64)/1000)*(op.velocidade||24);
+    instante=t;trilha.scrollLeft=posicao;
+    if(posicao>=passo()&&passo()>0)moverInicio();
+    quadro=requestAnimationFrame(animar);
+  }
   function slides(){return trilha.querySelectorAll('[data-slide]');}
   function reduzir(){return !!(mq&&mq.matches);}
   function posicoes(s){var p=[],b=s[0].offsetLeft;for(var i=0;i<s.length;i++)p.push(s[i].offsetLeft-b);return p;}
   function maisPerto(p,x){var m=0;for(var i=1;i<p.length;i++)if(Math.abs(p[i]-x)<Math.abs(p[m]-x))m=i;return m;}
   function ir(d,manual){
     var s=slides(), n=s.length; if(n<2)return;
+    if(circular){
+      if(d<0&&trilha.scrollLeft<passo()){reservarAnterior();s=slides();}
+      if(d>0&&trilha.scrollLeft+passo()>trilha.scrollWidth-trilha.clientWidth){moverInicio();s=slides();}
+    }
     var p=posicoes(s), max=trilha.scrollWidth-trilha.clientWidth, x=trilha.scrollLeft, i=maisPerto(p,x), alvo;
     if(d>0)alvo=x>=max-4?0:Math.min(p[Math.min(i+1,n-1)],max);
     else alvo=x<=4?max:Math.max(p[Math.max(i-1,0)],0);
     trilha.scrollTo({left:alvo,behavior:reduzir()?'auto':'smooth'});
-    if(manual&&aviso)aviso.textContent=rotulo+' '+(maisPerto(p,alvo)+1)+' de '+n;
+    if(manual&&aviso)aviso.textContent=s[maisPerto(p,alvo)].getAttribute('aria-label')||rotulo+' '+(maisPerto(p,alvo)+1)+' de '+n;
   }
   function parado(){
     if(reduzir()||!visivel||slides().length<2||trilha.scrollWidth-trilha.clientWidth<=4||mouse||foco||toque||document.hidden)return true;
     for(var k in travas)if(travas[k])return true;
     return false;
   }
-  function agendar(){clearTimeout(timer);timer=null;if(parado())return;timer=setTimeout(function(){timer=null;if(!parado())ir(1,false);agendar();},intervalo);}
+  function agendar(){
+    clearTimeout(timer);timer=null;cancelAnimationFrame(quadro);quadro=null;instante=0;posicao=trilha.scrollLeft;
+    if(parado())return;
+    if(circular){quadro=requestAnimationFrame(animar);return;}
+    timer=setTimeout(function(){timer=null;if(!parado())ir(1,false);agendar();},intervalo);
+  }
   function travar(motivo,sim){if(sim)travas[motivo]=true;else delete travas[motivo];agendar();}
   // Setas só aparecem com mais de um item e quando nem todos cabem na tela.
-  function atualizarSetas(){var ver=slides().length>1&&trilha.scrollWidth-trilha.clientWidth>4;if(ant)ant.hidden=!ver;if(prox)prox.hidden=!ver;agendar();}
-  function navegar(d){if(op.aoNavegar)op.aoNavegar(d);ir(d,true);agendar();}
+  function atualizarSetas(){var excedente=trilha.scrollWidth-trilha.clientWidth;var ver=slides().length>1&&excedente>4;circular=!!op.continuo&&slides().length>2&&excedente>=passo();raiz.classList.toggle('carrossel-continuo',circular);if(ant)ant.hidden=!ver;if(prox)prox.hidden=!ver;agendar();}
+  function navegar(d){if(op.aoNavegar)op.aoNavegar(d);if(circular)travar('navegacao',true);ir(d,true);if(circular)setTimeout(function(){travar('navegacao',false);},1000);else agendar();}
   raiz.addEventListener('pointerenter',function(e){if(e.pointerType==='mouse'){mouse=true;agendar();}});
   raiz.addEventListener('pointerleave',function(e){if(e.pointerType!=='mouse')return;mouse=false;if(op.aoSairMouse)op.aoSairMouse();agendar();});
-  raiz.addEventListener('pointerdown',function(e){if(e.pointerType==='mouse'){foco=false;agendar();return;}toque=true;clearTimeout(tToque);agendar();});
+  raiz.addEventListener('pointerdown',function(e){if(e.pointerType==='mouse'){foco=false;agendar();return;}toque=true;clearTimeout(tToque);agendar();if(circular&&trilha.contains(e.target)&&trilha.scrollLeft<passo())reservarAnterior();});
+  trilha.addEventListener('wheel',function(e){if(circular&&e.deltaX<0&&trilha.scrollLeft<passo())reservarAnterior();},{passive:true});
   function soltarToque(e){if(e.pointerType==='mouse')return;clearTimeout(tToque);tToque=setTimeout(function(){toque=false;agendar();},6000);}
   window.addEventListener('pointerup',function(e){if(toque)soltarToque(e);});window.addEventListener('pointercancel',function(e){if(toque)soltarToque(e);});
   raiz.addEventListener('focusin',function(e){foco=e.target.tagName==='IFRAME'||e.target.matches(':focus-visible');agendar();});
@@ -223,18 +246,31 @@ function liberarCapa(capa){
   var tx=capa.querySelector('[data-capa-texto]'); if(tx)tx.textContent='Toque para assistir no Instagram';
 }
 function vigiarIframe(s,caixa,capa,n){
-  var pararAltura=null, pronto=false;
+  var pararAltura=null, pronto=false, f=null, carregado=false, montado=false;
   var limite=setTimeout(function(){if(!pronto)liberarCapa(capa);},LIMITE_CARGA);
+  function revelar(){
+    if(pronto||!carregado||!montado||!f||f.offsetHeight<200)return;
+    pronto=true;clearTimeout(limite);if(pararAltura)pararAltura();
+    window.removeEventListener('message',mensagem);
+    // MOUNTED confirma a montagem da Meta; duas pinturas mantêm a capa durante a troca.
+    requestAnimationFrame(function(){requestAnimationFrame(function(){caixa.classList.add('pronto');tirarCapa(capa);});});
+  }
+  function mensagem(ev){
+    if(ev.origin!=='https://www.instagram.com'||!f||ev.source!==f.contentWindow)return;
+    var dado=ev.data;if(typeof dado==='string'){try{dado=JSON.parse(dado);}catch(e){return;}}
+    if(dado&&dado.type==='MOUNTED'){montado=true;revelar();}
+  }
+  window.addEventListener('message',mensagem);
   var mo=new MutationObserver(function(){
-    var f=caixa.querySelector('iframe'); if(!f)return; mo.disconnect();
+    f=caixa.querySelector('iframe'); if(!f)return; mo.disconnect();
+    // Compatibilidade com o SDK atual da Meta; permissão restrita ao próprio Instagram.
+    f.setAttribute('allow','unload https://www.instagram.com');
     if(!f.getAttribute('title'))f.setAttribute('title','Vídeo '+n+' da GESCOMP no Instagram');
     f.addEventListener('load',function(){
       if(pronto)return;
+      carregado=true;
       if(pararAltura)pararAltura();
-      pararAltura=esperarAltura(f,function(){
-        if(pronto)return;
-        pronto=true;clearTimeout(limite);caixa.classList.add('pronto');tirarCapa(capa);
-      });
+      pararAltura=esperarAltura(f,revelar);
     });
   });
   mo.observe(caixa,{childList:true,subtree:true});
@@ -305,6 +341,7 @@ else montar();
 var sec=document.getElementById('avaliacoes'); if(!sec)return;
 var cfg=(window.GESCOMP_CONFIG||{}).avaliacoes||{};
 sec.hidden=true;
+var prova=document.querySelector('.abertura-prova');if(prova)prova.hidden=true;
 var itens=(Array.isArray(cfg.itens)?cfg.itens:[]).filter(function(a){var n=a&&Number(a.estrelas);return a&&String(a.nome||'').trim()&&String(a.texto||'').trim()&&n>=1&&n<=5&&Math.floor(n)===n;});
 if(!itens.length)return;
 var regiao=sec.querySelector('[data-carrossel]'), trilha=sec.querySelector('[data-carrossel-trilha]'); if(!regiao||!trilha)return;
@@ -325,15 +362,33 @@ itens.forEach(function(a,i){
   if(linkValido(a.link)){var link=el('a','avaliacao-link','Ver avaliação no Google');link.href=linkValido(a.link);link.target='_blank';link.rel='noopener';link.appendChild(el('span','so-leitor',' (abre em nova aba)'));card.appendChild(link);}
   trilha.appendChild(card);
 });
-// Resumo "Nota 4,9 no Google, 37 avaliações": só com nota e total preenchidos.
-var nota=Number(String(cfg.nota==null?'':cfg.nota).replace(',','.')), qtd=Number(cfg.total);
+// Exibe somente a nota; a quantidade de avaliações não aparece na página.
+var nota=Number(String(cfg.nota==null?'':cfg.nota).replace(',','.'));
 var resumo=sec.querySelector('[data-avaliacoes-resumo]');
-if(resumo&&nota>0&&nota<=5&&qtd>0&&Math.floor(qtd)===qtd){resumo.textContent='Nota '+nota.toFixed(1).replace('.',',')+' no Google, '+qtd+(qtd===1?' avaliação':' avaliações');resumo.hidden=false;}
+if(resumo&&nota>0&&nota<=5){resumo.textContent=String(nota).replace('.',',')+' estrelas no Google';resumo.hidden=false;}
 var avaliar=sec.querySelector('[data-avaliacoes-avaliar]'), ver=sec.querySelector('[data-avaliacoes-ver]');
 if(avaliar&&linkValido(cfg.linkAvaliar)){avaliar.href=linkValido(cfg.linkAvaliar);avaliar.hidden=false;}
 if(ver&&linkValido(cfg.linkVerTodas)){ver.href=linkValido(cfg.linkVerTodas);ver.hidden=false;}
+// O destaque da abertura usa os mesmos dados conferidos do carrossel, sem cópia independente.
+if(prova){
+  var destaque=itens.filter(function(a){return a.nome===cfg.destaque;})[0]||itens[0];
+  var texto=prova.querySelector('.prova-citacao p'),autor=prova.querySelector('.prova-autor'),fonte=prova.querySelector('.prova-link'),notaProva=prova.querySelector('.prova-nota');
+  if(texto)texto.textContent='“'+String(destaque.texto).trim()+'”';
+  if(autor)autor.textContent=nomeCurto(destaque.nome)+', avaliação no Google';
+  if(notaProva){
+    notaProva.hidden=!(nota>0&&nota<=5);
+    if(!notaProva.hidden){
+      var rotulo=nota.toFixed(1).replace('.',','),numero=notaProva.querySelector('.prova-numero'),estrelas=notaProva.querySelector('.prova-estrelas'),acessivel=notaProva.querySelector('.so-leitor');
+      if(numero){numero.textContent=rotulo;numero.setAttribute('aria-hidden','true');}
+      if(estrelas)estrelas.textContent='★'.repeat(Math.round(nota))+'☆'.repeat(5-Math.round(nota));
+      if(acessivel)acessivel.textContent='Nota '+rotulo+' de 5';
+    }
+  }
+  if(fonte){var destino=linkValido(cfg.linkVerTodas)||linkValido(destaque.link);fonte.hidden=!destino;if(destino)fonte.href=destino;}
+  prova.hidden=false;
+}
 sec.hidden=false;
-criarCarrossel(regiao,{rotulo:'Avaliação'});
+criarCarrossel(regiao,{rotulo:'Avaliação',continuo:true,velocidade:24});
 })();
 
 /* Fotos liberadas pela configuração; imagens ausentes mantêm a arte de espera sem pedido HTTP. */
@@ -343,7 +398,8 @@ var molduras=document.querySelectorAll('[data-foto]');
 for(var i=0;i<molduras.length;i++)(function(moldura){
 var caminho=moldura.getAttribute('data-foto');
 if(moldura.closest('#rio')||fotos.indexOf(caminho)<0||!/^\/assets\/img\/fotos\/[A-Za-z0-9._-]+\.webp$/.test(caminho))return;
-var img=document.createElement('img');img.alt=moldura.getAttribute('data-foto-alt')||'';img.decoding='async';img.loading=moldura.closest('#inicio')?'eager':'lazy';img.style.visibility='hidden';
+// A moldura de Sobre fica escondida até o load; lazy nesse caso impediria a própria carga.
+var img=document.createElement('img');img.alt=moldura.getAttribute('data-foto-alt')||'';img.decoding='async';img.loading=moldura.closest('#inicio')||moldura.classList.contains('gabriela-foto')?'eager':'lazy';img.style.visibility='hidden';
 img.width=1200;img.height=moldura.closest('.ajuda-card')?900:1500;
 img.addEventListener('load',function(){img.style.visibility='';moldura.classList.add('tem-foto');var abertura=moldura.closest('.abertura-imagem');if(abertura)abertura.classList.add('tem-retrato');});
 img.addEventListener('error',function(){img.remove();moldura.classList.remove('tem-foto');var abertura=moldura.closest('.abertura-imagem');if(abertura)abertura.classList.remove('tem-retrato');});

@@ -37,11 +37,13 @@ window.GESCOMP_CONFIG = {
     // Vazio = o botão "Ver todas as avaliações no Google" não aparece.
     linkVerTodas: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU',
 
-    // Nota média e número de avaliações, como aparecem no Google (ex.: nota: 4.9, total: 37).
-    // O resumo "Nota 4,9 no Google, 37 avaliações" só aparece se os dois estiverem preenchidos.
-    // Nota 5,0 e 28 avaliações conferidas no perfil do Google em 04/10/2026.
+    // Nota conferida no perfil do Google em 04/10/2026. O site mostra só as estrelas.
+    // A quantidade de avaliações não é publicada.
     nota: 5,
-    total: 28,
+    total: null,
+    // Nome completo de uma avaliação da lista para destacar na abertura. Sem correspondência,
+    // usa o primeiro item válido; a lista vazia também esconde o destaque.
+    destaque: 'Marcelo Melo da Silva',
 
     // Avaliações reais selecionadas do Google em 04/10/2026, autorizadas pelo usuário.
     // O texto de Marcelo é um trecho literal; a fonte completa está no perfil vinculado.
@@ -53,7 +55,9 @@ window.GESCOMP_CONFIG = {
     itens: [
       { nome: 'Yasmin Dantas', texto: 'A melhor contadora!\nConfio demais em Gabi', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' },
       { nome: 'Simone Soares', texto: 'Atendimento de qualidade. Super indico', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' },
-      { nome: 'Marcelo Melo da Silva', texto: 'Empresa com grande profissionalismo, dúvidas tiradas com clareza, atendimento excepcional. Desde que conheci não larguei!', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' }
+      { nome: 'Marcelo Melo da Silva', texto: 'Empresa com grande profissionalismo, dúvidas tiradas com clareza, atendimento excepcional. Desde que conheci não larguei!', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' },
+      { nome: 'Wallace Douglas Nascimento dos Santos', texto: 'Escritório eficiente e transparente. Atendimento de excelência.', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' },
+      { nome: 'Ainoan Cavalcantemelo', texto: 'Profissional excelente e responsável!', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' }
     ]
   },
 
@@ -61,9 +65,9 @@ window.GESCOMP_CONFIG = {
   // Inclua o caminho só depois que o arquivo existir; lista vazia mantém a arte de espera.
   // Exemplo de caminho: '/assets/img/fotos/gabriela-retrato.webp'.
   fotos: [
-    '/assets/img/fotos/card-abrir-empresa.webp',
-    '/assets/img/fotos/card-contabilidade.webp',
-    '/assets/img/fotos/card-imposto-de-renda.webp'
+    '/assets/img/fotos/empresa-real-20261004.webp',
+    '/assets/img/fotos/contabilidade-real-20261004.webp',
+    '/assets/img/fotos/documentos-reais-20261004.webp'
   ],
 
   // E-mail usado pelo formulário se o WhatsApp ainda não estiver configurado.

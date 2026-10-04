@@ -1,0 +1,96 @@
+{
+  "base": "5d4dc81",
+  "htmlIdentico": true,
+  "cssDaCenaIdentico": true,
+  "rioSha256": "ce2a842ce68c416b2b7a60506763b5f9672858a244435d929ba11a1e91e78c89",
+  "pares": [
+    {
+      "largura": 1366,
+      "tema": "light",
+      "tamanho": [
+        1351,
+        839
+      ],
+      "pixelsDiferentes": 0,
+      "fracao": 0.0,
+      "areaDiferente": null
+    },
+    {
+      "largura": 1366,
+      "tema": "dark",
+      "tamanho": [
+        1351,
+        839
+      ],
+      "pixelsDiferentes": 0,
+      "fracao": 0.0,
+      "areaDiferente": null
+    },
+    {
+      "largura": 1920,
+      "tema": "light",
+      "tamanho": [
+        1905,
+        1028
+      ],
+      "pixelsDiferentes": 0,
+      "fracao": 0.0,
+      "areaDiferente": null
+    },
+    {
+      "largura": 1920,
+      "tema": "dark",
+      "tamanho": [
+        1905,
+        1028
+      ],
+      "pixelsDiferentes": 0,
+      "fracao": 0.0,
+      "areaDiferente": null
+    },
+    {
+      "largura": 390,
+      "tema": "light",
+      "tamanho": [
+        375,
+        876
+      ],
+      "pixelsDiferentes": 0,
+      "fracao": 0.0,
+      "areaDiferente": null
+    },
+    {
+      "largura": 390,
+      "tema": "dark",
+      "tamanho": [
+        375,
+        876
+      ],
+      "pixelsDiferentes": 0,
+      "fracao": 0.0,
+      "areaDiferente": null
+    },
+    {
+      "largura": 360,
+      "tema": "light",
+      "tamanho": [
+        345,
+        876
+      ],
+      "pixelsDiferentes": 0,
+      "fracao": 0.0,
+      "areaDiferente": null
+    },
+    {
+      "largura": 360,
+      "tema": "dark",
+      "tamanho": [
+        345,
+        876
+      ],
+      "pixelsDiferentes": 0,
+      "fracao": 0.0,
+      "areaDiferente": null
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "data": "2026-10-04",
+  "licencas": [
+    "https://www.pexels.com/license/",
+    "https://unsplash.com/license/"
+  ],
+  "alteracoes": "Apenas recorte, redimensionamento e conversão WebP; sem geração ou pessoas.",
+  "arquivos": [
+    {
+      "arquivo": "publicar/assets/img/fotos/empresa-real-20261004.webp",
+      "origem": "empresa",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 112998,
+      "autor": "Asad Photo Maldives",
+      "fonte": "https://www.pexels.com/photo/empty-store-facade-with-lighted-fixtures-1449773/",
+      "download": "https://images.pexels.com/photos/1449773/pexels-photo-1449773.jpeg"
+    },
+    {
+      "arquivo": "publicar/assets/img/fotos/contabilidade-real-20261004.webp",
+      "origem": "calculadora",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 34166,
+      "autor": "Cht Gsml",
+      "fonte": "https://unsplash.com/photos/desk-with-calculator-notebook-pencil-and-plant-QfQW294I8sQ",
+      "download": "https://images.unsplash.com/photo-1762831063004-bbd3ea38ba3a"
+    },
+    {
+      "arquivo": "publicar/assets/img/fotos/documentos-reais-20261004.webp",
+      "origem": "documentos",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 74060,
+      "autor": "Mikhail Nilov",
+      "fonte": "https://www.pexels.com/photo/a-calculator-over-the-white-papers-on-a-desk-8296988/",
+      "download": "https://images.pexels.com/photos/8296988/pexels-photo-8296988.jpeg"
+    },
+    {
+      "arquivo": "publicar/assets/img/fotos/mesa-real-20261004.webp",
+      "origem": "mesa",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 26964,
+      "autor": "Kaboompics",
+      "fonte": "https://www.pexels.com/photo/eyeglasses-next-to-a-laptop-5208879/",
+      "download": "https://images.pexels.com/photos/5208879/pexels-photo-5208879.jpeg"
+    },
+    {
+      "arquivo": "publicar/assets/img/fotos/planejamento-real-20261004.webp",
+      "origem": "escrivaninha",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 34910,
+      "autor": "Jakub Zerdzicki",
+      "fonte": "https://www.pexels.com/photo/a-calculator-on-a-desk-20552572/",
+      "download": "https://images.pexels.com/photos/20552572/pexels-photo-20552572.jpeg"
+    },
+    {
+      "arquivo": "publicar/assets/img/fotos/calendario-recortado-20261004.webp",
+      "origem": "calendario",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 130190,
+      "autor": "Marko Klaric",
+      "fonte": "https://www.pexels.com/photo/clipboard-with-calendar-placed-on-desk-amidst-stationery-6408282/",
+      "download": "https://images.pexels.com/photos/6408282/pexels-photo-6408282.jpeg",
+      "recorte": [
+        400,
+        500,
+        1360,
+        1220
+      ],
+      "observacao": "Recorte sem mês/dias em inglês; ampliação de 960x720 para 1200x900."
+    },
+    {
+      "arquivo": "publicar/assets/img/og-foto-real-20261004.webp",
+      "origem": "mesa",
+      "largura": 1200,
+      "altura": 630,
+      "bytes": 15050,
+      "autor": "Kaboompics",
+      "fonte": "https://www.pexels.com/photo/eyeglasses-next-to-a-laptop-5208879/",
+      "download": "https://images.pexels.com/photos/5208879/pexels-photo-5208879.jpeg"
+    },
+    {
+      "arquivo": "publicar/assets/img/fotos/caderno-sem-texto-20261004.webp",
+      "origem": "caderno-aberto",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 19742,
+      "autor": "Cup of Couple",
+      "fonte": "https://www.pexels.com/photo/7657397/",
+      "download": "https://images.pexels.com/photos/7657397/pexels-photo-7657397.jpeg"
+    },
+    {
+      "arquivo": "publicar/assets/img/fotos/anotacoes-reais-20261004.webp",
+      "origem": "caderno-limpo",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 7404,
+      "autor": "Tirachard Kumtanom",
+      "fonte": "https://www.pexels.com/photo/574283/",
+      "download": "https://images.pexels.com/photos/574283/pexels-photo-574283.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+[
+  {
+    "nome": "Cinco avaliações reais, sem total publicado",
+    "aprovado": true
+  },
+  {
+    "nome": "Sem gráfico, selos ou pedido de retrato ausente",
+    "aprovado": true
+  },
+  {
+    "nome": "Movimento contínuo em velocidade de leitura",
+    "aprovado": true,
+    "detalhe": {
+      "a": {
+        "x": 12,
+        "order": [
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5"
+        ]
+      },
+      "b": {
+        "x": 41,
+        "order": [
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5"
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Mouse pausa avaliações",
+    "aprovado": true,
+    "detalhe": {
+      "a": {
+        "x": 0,
+        "order": [
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5"
+        ]
+      },
+      "b": {
+        "x": 0,
+        "order": [
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5"
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Fim circular sem salto nem cards duplicados",
+    "aprovado": true,
+    "detalhe": {
+      "before": {
+        "x": 114.5,
+        "order": [
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5"
+        ]
+      },
+      "after": {
+        "x": 107.5,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ],
+        "n": 5
+      }
+    }
+  },
+  {
+    "nome": "Foco de teclado pausa",
+    "aprovado": true,
+    "detalhe": {
+      "a": {
+        "x": 6,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ]
+      },
+      "b": {
+        "x": 6,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Teclado navega manualmente",
+    "aprovado": true,
+    "detalhe": {
+      "a": {
+        "x": 6,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ]
+      },
+      "b": {
+        "x": 384,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Movimento reduzido desativa autoplay",
+    "aprovado": true,
+    "detalhe": {
+      "a": {
+        "x": 4,
+        "order": [
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5"
+        ]
+      },
+      "b": {
+        "x": 4,
+        "order": [
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5"
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 1366 light",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "flex",
+        "flex"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 1366 dark",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "flex",
+        "flex"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 1920 light",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "flex",
+        "flex"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 1920 dark",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "flex",
+        "flex"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 1024 light",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "flex",
+        "flex"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 1024 dark",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "flex",
+        "flex"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 900 light",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "flex",
+        "flex"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 900 dark",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        },
+        {
+          "h": 300,
+          "w": 360,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "flex",
+        "flex"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 390 light",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "none",
+        "none"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 390 dark",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 314,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "none",
+        "none"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 360 light",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "none",
+        "none"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Cards iguais sem cortes 360 dark",
+    "aprovado": true,
+    "detalhe": {
+      "sizes": [
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        },
+        {
+          "h": 320,
+          "w": 284,
+          "clipped": false
+        }
+      ],
+      "arrows": [
+        "none",
+        "none"
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Deslizar com o dedo move cards no celular",
+    "aprovado": true,
+    "detalhe": {
+      "a": {
+        "x": 348,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ]
+      },
+      "b": {
+        "x": 517,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Toque mantém pausa para leitura",
+    "aprovado": true,
+    "detalhe": {
+      "a": {
+        "x": 517,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ]
+      },
+      "b": {
+        "x": 517,
+        "order": [
+          "Avaliação 2 de 5",
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5"
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Autoplay retoma depois do gesto",
+    "aprovado": true,
+    "detalhe": {
+      "a": {
+        "x": 212,
+        "order": [
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5"
+        ]
+      },
+      "b": {
+        "x": 234,
+        "order": [
+          "Avaliação 3 de 5",
+          "Avaliação 4 de 5",
+          "Avaliação 5 de 5",
+          "Avaliação 1 de 5",
+          "Avaliação 2 de 5"
+        ]
+      }
+    }
+  },
+  {
+    "nome": "Grade ampla e responsiva 1366",
+    "aprovado": true,
+    "detalhe": {
+      "columns": 3,
+      "width": 361.328125,
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Grade ampla e responsiva 1920",
+    "aprovado": true,
+    "detalhe": {
+      "columns": 3,
+      "width": 361.328125,
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Grade ampla e responsiva 795",
+    "aprovado": true,
+    "detalhe": {
+      "columns": 2,
+      "width": 354,
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Grade ampla e responsiva 390",
+    "aprovado": true,
+    "detalhe": {
+      "columns": 1,
+      "width": 327,
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Grade ampla e responsiva 360",
+    "aprovado": true,
+    "detalhe": {
+      "columns": 1,
+      "width": 297,
+      "overflow": false
+    }
+  },
+  {
+    "nome": "Três fotos reais locais dos serviços",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "http://127.0.0.1:8080/assets/img/fotos/empresa-real-20261004.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8080/assets/img/fotos/contabilidade-real-20261004.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8080/assets/img/fotos/documentos-reais-20261004.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "nome": "Retrato real configurável aparece no computador",
+    "aprovado": true
+  },
+  {
+    "nome": "Retrato permanece oculto no celular",
+    "aprovado": true
+  }
+]

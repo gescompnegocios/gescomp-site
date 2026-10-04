@@ -9,7 +9,6 @@ HTML, CSS e JavaScript puros, sem framework, bibliotecas adicionais ou etapa de 
 │   ├── assets/css/            site.css e estrutura.css
 │   ├── assets/js/             config.js, site.js e libras.js
 │   ├── assets/img/fotos/      imagens dos cards e futuros retratos reais
-│   ├── assets/img/capas/      capas ilustradas das Informações
 │   └── sitemap.xml, robots.txt, llms.txt, site.webmanifest, _headers
 ├── conteudo/                  cópias de textos para revisão
 ├── design/                    arquivos de referência anteriores
@@ -37,9 +36,13 @@ Para testar também o comportamento da hospedagem, o Wrangler já disponível po
 
 ## Estrutura da página
 
-A página segue esta ordem: abertura → Como podemos ajudar (`#servicos`) → números → Quem é a Gabriela (`#sobre`) → avaliações → Instagram → faixa de Informações e dúvidas → chamada final → `#rio` → contato → rodapé.
+A página segue esta ordem: abertura → Como podemos ajudar (`#servicos`) → Como funciona (`#como-funciona`) → números → Quem é a Gabriela (`#sobre`) → avaliações → Instagram → faixa de Informações e dúvidas → chamada final → `#rio` → contato → rodapé.
 
-Abertura com texto à esquerda e o gráfico largo anterior à direita; a moldura orgânica aparece quando o retrato real carregar. Serviços com três cards fotográficos e cinco linhas de Outros serviços. Capas das Informações, ilustração da 404 e composição de compartilhamento foram geradas sem pessoas ou textos falsos. Fotos reais ausentes usam arte de espera. Requisitos e prompts em [imagens.md](docs/imagens.md). Implementação e revisão registradas em [handoff.md](docs/handoff.md).
+Abertura sem gráfico nem selos: a foto real de Gabriela aparece somente no computador, depois de entregue e liberada em config.fotos. Enquanto ela não chega, `.abertura-prova` mostra a nota e um depoimento real configurados em `avaliacoes`; `destaque` escolhe o nome completo da lista. Sem itens válidos, o destaque também fica escondido. A futura foto substitui esse card. `#como-funciona` tem três passos e um convite para conversar sobre troca de contador, sem prometer condições ainda não aprovadas.
+
+Sobre usa `.gabriela-midia` e `.gabriela-citacao`: a frase do texto original da empresa aparece enquanto a foto real está pendente. Depois de liberada, a foto fica acima dela. O carregamento imediato dessa moldura evita que o estado oculto impeça a carga. A versão em primeira pessoa permanece em [rascunhos para aprovação](docs/perguntas-para-aprovar.md).
+
+Serviços com três cards fotográficos e cinco linhas de Outros serviços. Cards, capas de Informações, 404 e compartilhamento usam oito fotos reais da web, sem pessoas, guardadas localmente; licenças e autores em [imagens-reais-fontes.md](docs/imagens-reais-fontes.md). A grade de assuntos usa três colunas amplas, duas no tablet e uma no celular; o último card sozinho ocupa a linha. As oito páginas de Informações têm autoria e `.cta-contexto`, com a mensagem do WhatsApp correspondente ao assunto. Requisitos em [imagens.md](docs/imagens.md); revisão em [handoff.md](docs/handoff.md).
 
 **O rio é protegido:** preservar animações, cores, filtros da cena, enquadramento e aparência em claro/escuro. O usuário confirmou duas áreas de ajuste implementadas pelo Claude: placa “GESCOMP” na casa e correção da onda (cobertura da borda e retirada do filtro só do path de transição, para ficar liso). A validação estática compara todo o restante com o commit base. Os prints ficam em `docs/evidencias/2026-10-04/`.
 
@@ -89,21 +92,23 @@ O formulário abre uma mensagem com nome e assunto. Telefone e mensagem são opc
 
 ## Avaliações
 
-Em `config.js`, `avaliacoes` contém `linkAvaliar`, `linkVerTodas`, `nota`, `total` e `itens: [{ nome, texto, estrelas, link }]`. Nota 5,0 e total 28 conferidos no perfil em 04/10/2026. Após autorização direta do usuário, três avaliações reais foram selecionadas; os links levam ao perfil de origem no Google. A fonte e os trechos estão registrados em [avaliacoes-google-selecionadas.json](docs/evidencias/2026-10-04/avaliacoes-google-selecionadas.json).
+Em `config.js`, `avaliacoes` contém `linkAvaliar`, `linkVerTodas`, `nota`, `total`, `destaque` e `itens: [{ nome, texto, estrelas, link }]`. Cinco textos reais foram conferidos no perfil em 04/10/2026, com autorização do usuário. O resumo exibe apenas “5 estrelas no Google”, sem quantidade; total fica null. `destaque` escolhe o nome completo do depoimento da abertura, que usa a mesma nota/texto/link da lista. Os links levam ao perfil de origem. Fonte e trechos em [avaliacoes-google-ampliadas.json](docs/evidencias/2026-10-04/avaliacoes-google-ampliadas.json).
 
 - A seção fica escondida sem itens válidos. Cada item precisa de nome, texto e estrelas inteiras de 1 a 5; dados incompletos não recebem uma nota inventada.
 - O site mostra só primeiro nome e inicial do último sobrenome, sem foto. As estrelas têm texto acessível, por exemplo “5 de 5 estrelas”. O texto é inserido por `textContent`.
 - `link` válido gera “Ver avaliação no Google”. `linkAvaliar` e `linkVerTodas` controlam seus botões, escondidos quando vazios ou inválidos. São aceitos somente links HTTPS do Google ou seus encurtadores conhecidos.
-- Nota/total só aparecem com ambos preenchidos e válidos. Não adicionar `AggregateRating` ou `Review` no JSON-LD.
+- Somente a nota válida aparece no resumo. Não publicar a quantidade nem adicionar `AggregateRating` ou `Review` no JSON-LD.
 - Avaliações de teste devem existir só no navegador de teste, nunca na configuração publicada.
 
 ## Carrosséis e movimento
 
 Instagram e avaliações usam a mesma função `criarCarrossel`, com `data-carrossel`, `data-carrossel-trilha`, `data-slide`, `data-carrossel-anterior`, `data-carrossel-proximo` e `data-carrossel-aviso`. A lista deve ter `tabindex="0"`, nome acessível e aviso `aria-live="polite"`.
 
-Passagem a cada 8s com rolagem suave. Para com mouse em cima, foco de teclado, foco dentro de iframe, toque, aba escondida, seção fora da tela e movimento reduzido; não agenda passagem se todos os cards couberem. Após clique de mouse na seta, sair do carrossel permite a retomada. Setas e teclas ←/→ continuam funcionando. Sem botão Pausar.
+Instagram passa a cada 8s com rolagem suave. Avaliações usam continuo: true e velocidade: 24 (px/s), com ciclo sem salto: o primeiro card já fora da tela é movido para o fim e a rolagem compensada. Não há cópias de avaliações ou links duplicados. Cards têm largura/altura comuns por tela, esticando para o maior texto sem truncar. Setas das avaliações são ocultas até 899px; o gesto nativo de deslizar funciona nos dois temas.
 
-Os links do Instagram ficam em `instagramReels`. Apenas posts públicos; também são aceitos vídeos próprios `.mp4`/`.webm`. Embeds e vídeos são montados sem clique, a cerca de 400px da tela. Vídeos próprios não usam autoplay; embeds seguem o comportamento da Meta. O foco dentro do iframe trava a passagem; sair do vídeo libera a trava após cerca de 3s. O site não pode inspecionar o play/pause de um iframe de outro domínio. Falha externa mantém um link utilizável; carga lenta libera a capa após 20s e continua aguardando o iframe.
+Os dois carrosséis param com mouse em cima, foco de teclado, foco dentro de iframe, toque, aba escondida, seção fora da tela e movimento reduzido. Depois do toque, a leitura fica pausada por 6s; sair da seta após clique do mouse permite retomar. Setas no computador e teclas ←/→ continuam funcionando. Sem botão Pausar. Com poucos itens, quando não há uma faixa suficiente para o ciclo, a função usa a passagem convencional; se todos couberem, permanece parada.
+
+Os links do Instagram ficam em `instagramReels`. Apenas posts públicos; também são aceitos vídeos próprios `.mp4`/`.webm`. Embeds e vídeos são montados sem clique, a cerca de 400px da tela. A capa do embed permanece até load, altura e mensagem MOUNTED da origem/janela corretas; duas pinturas completam a troca. Vídeos próprios não usam autoplay; embeds seguem o comportamento da Meta. O foco dentro do iframe trava a passagem; sair do vídeo libera a trava após cerca de 3s. O site não pode inspecionar o play/pause de um iframe de outro domínio. Falha externa mantém um link utilizável; carga lenta libera o link da capa após 20s e continua aguardando o iframe.
 
 Movimento reduzido desliga passagem automática, contadores e revelação. O comportamento já existente das animações do rio é preservado.
 
@@ -111,7 +116,7 @@ Movimento reduzido desliga passagem automática, contadores e revelação. O com
 
 O VLibras oficial é externo; `libras.js` posiciona seu botão. No celular, o JS oculta temporariamente os lançadores flutuantes quando cobririam a arte/selos da abertura, carrosséis ou formulário, preservando o painel aberto do VLibras. Falhas da Meta/VLibras devem ser registradas separadamente de erros do site.
 
-`_headers` mantém segurança e cache de sete dias para imagens, com revalidação para CSS/JS. `site.css`, `estrutura.css`, `config.js` e `site.js` usam `?v=20261004` em todas as páginas. Se houver outra publicação na mesma data, use um sufixo novo.
+`_headers` mantém segurança e cache de sete dias para imagens, com revalidação para CSS/JS. Autoriza unload somente em self e https://www.instagram.com para compatibilidade com o SDK da Meta; os iframes recebem a mesma permissão restrita. Os três avisos de recursos desconhecidos vêm dos cabeçalhos do Instagram e não podem ser removidos pelo HTML local. Evidências e limites em docs/evidencias/2026-10-04/instagram-politicas-fotos-reais.json. `site.css`, `estrutura.css`, `config.js` e `site.js` usam `?v=20261004&rev=2` em todas as páginas, escapado com `&amp;` no HTML. Se houver outra publicação na mesma data, use uma revisão nova.
 
 Canonical, Open Graph, Twitter e JSON-LD usam o domínio final. `sitemap.xml` lista as nove páginas, `robots.txt` aponta para ele e `llms.txt` reúne dados e links públicos. `404.html` permanece com `noindex`. Manifest usa caminhos relativos, `id` e `scope` na raiz. `_headers` vale para assets estáticos do Worker, conforme [documentação Cloudflare](https://developers.cloudflare.com/workers/static-assets/headers/).
 

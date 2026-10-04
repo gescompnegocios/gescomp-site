@@ -1,0 +1,249 @@
+{
+  "data": "2026-10-04",
+  "browser": "154.0.8037.95",
+  "metodo": "Headers do arquivo local simulados na resposta Python; Instagram e VLibras reais, leitura apenas.",
+  "parentPolicy": "camera=(), microphone=(), geolocation=(), unload=(self \"https://www.instagram.com\")",
+  "unloadPaiPermitido": true,
+  "warnings": [
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'."
+    },
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+    }
+  ],
+  "warningsUnicos": [
+    "Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'.",
+    "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'.",
+    "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'."
+  ],
+  "errors": [],
+  "headers": [
+    {
+      "url": "https://www.instagram.com/reel/DbynBYHpN_N/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self \"https://*.facebook.com\" \"https://facebook.com\"), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\""
+    },
+    {
+      "url": "https://www.instagram.com/reel/DbWFtMyOKwH/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self \"https://*.facebook.com\" \"https://facebook.com\"), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\""
+    },
+    {
+      "url": "https://www.instagram.com/reel/DbQ4v35u7Rb/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self \"https://*.facebook.com\" \"https://facebook.com\"), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\""
+    },
+    {
+      "url": "https://www.instagram.com/reel/Dc815Ibu2np/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self \"https://*.facebook.com\" \"https://facebook.com\"), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\""
+    },
+    {
+      "url": "https://www.instagram.com/reel/DdycreEMXQQ/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self \"https://*.facebook.com\" \"https://facebook.com\"), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\""
+    }
+  ],
+  "frames": [
+    {
+      "url": "https://www.instagram.com/reel/DbynBYHpN_N/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "allow": "unload https://www.instagram.com",
+      "unloadPermitido": true,
+      "ready": true
+    },
+    {
+      "url": "https://www.instagram.com/reel/DbQ4v35u7Rb/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "allow": "unload https://www.instagram.com",
+      "unloadPermitido": true,
+      "ready": true
+    },
+    {
+      "url": "https://www.instagram.com/reel/DbWFtMyOKwH/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "allow": "unload https://www.instagram.com",
+      "unloadPermitido": true,
+      "ready": true
+    },
+    {
+      "url": "https://www.instagram.com/reel/Dc815Ibu2np/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "allow": "unload https://www.instagram.com",
+      "unloadPermitido": true,
+      "ready": true
+    },
+    {
+      "url": "https://www.instagram.com/reel/DdycreEMXQQ/embed/?cr=1&v=14&wp=328&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2F",
+      "allow": "unload https://www.instagram.com",
+      "unloadPermitido": true,
+      "ready": true
+    }
+  ]
+}

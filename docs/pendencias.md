@@ -12,9 +12,9 @@ Veja `handoff.md` para saber qual etapa está liberada. A regra obrigatória atu
 
 ## Cliente
 
-- **Fotos reais:** entregar retrato e foto de Sobre da Gabriela e a foto do escritório conforme `imagens.md`. Cards, capas, 404 e compartilhamento já têm imagens geradas sem pessoas, autorizadas pelo usuário.
-- **Avaliações:** três textos reais selecionados do Google após autorização direta do usuário; nota 5,0/total 28 e links configurados. Fonte documentada em `evidencias/2026-10-04/avaliacoes-google-selecionadas.json`. Não inventar novas avaliações.
-- **Respostas de contratação:** aprovar os rascunhos internos de `perguntas-para-aprovar.md`. Não publicar antes da aprovação.
+- **Fotos reais:** entregar retrato e foto de Sobre da Gabriela e a foto do escritório conforme imagens.md. O usuário confirmou que o retrato ainda não chegou. A abertura está sem gráfico/selos e preparada para mostrar a foto somente no computador. Cards, capas, 404 e compartilhamento já usam fotografias reais licenciadas da web; fontes em imagens-reais-fontes.md.
+- **Avaliações:** cinco textos reais conferidos no Google após autorização direta do usuário. Exibir somente “5 estrelas no Google”; não publicar quantidade. Fonte em evidencias/2026-10-04/avaliacoes-google-ampliadas.json. Não inventar novas avaliações.
+- **Respostas de contratação e Sobre:** aprovar os rascunhos internos de `perguntas-para-aprovar.md`, incluindo a versão em primeira pessoa. Não publicar antes da aprovação.
 - **CEP:** 49140-386, conferido no perfil do Google e aplicado. **Escopo de folha:** confirmar antes de acrescentar serviços ou condições.
 - **Textos e preços:** validar com Gabriela as condições dos preços mínimos, serviços e respostas atuais. Não mudar números de experiência/clientes sem confirmação.
 

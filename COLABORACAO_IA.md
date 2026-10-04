@@ -16,3 +16,54 @@ Atualização posterior do usuário: autorizou imagens geradas sem pessoas, text
 Revisão adicional: 80 cenários em dez páginas, quatro telas e dois temas; 47 testes de imagens/hover/avaliações/retrato, 23 funcionais e 20 de interação aprovados. Instagram real com cinco embeds prontos; VLibras real carregado e sem sobrepor controles no celular. Lighthouse acessibilidade 100/100 no celular e computador. Rio com HTML e CSS da cena idênticos a `c390783`; oito pares de capturas controladas sem nenhum pixel diferente. Evidências e limites em `docs/handoff.md`.
 
 Pendências atuais: retratos reais da Gabriela, foto real do escritório, aprovação das respostas de contratação e publicação externa autorizada da nova versão. Avaliações e imagens ilustrativas dos serviços já entregues. Sem push/deploy nesta rodada.
+
+## 04/10/2026 — nova rodada concluída pelo Codex
+
+O último pedido substitui a preferência anterior por gráfico/imagens geradas. Cinco avaliações reais, resumo somente “5 estrelas no Google”, cards de tamanho comum, ciclo contínuo sem cópias e gesto no celular sem setas. Setas no computador afastadas do texto. Grade dos assuntos em 3/2/1 colunas. Sete fotografias reais licenciadas da web substituem as artes nos cards, capas e 404; compartilhamento também fotográfico. Treze arquivos gerados sem referências removidos da pasta publicada.
+
+Gráfico e selos da abertura removidos; moldura reservada à foto real de Gabriela e somente no computador. O usuário confirmou que ela ainda não chegou. Rio integralmente preservado: HTML/CSS idênticos a 5d4dc81 e zero pixels diferentes nos oito pares.
+
+Testes: 80 cenários, 31 verificações específicas, 23 funcionais, prova de várias voltas do ciclo e Lighthouse acessibilidade 100/100 no celular/computador. Cinco embeds reais prontos; permissão unload validada com os cabeçalhos locais simulados. Três avisos de recursos desconhecidos continuam nas respostas do Instagram e dependem da Meta; não são cabeçalhos do site nem foram mascarados. Fontes, capturas e limites em docs/handoff.md.
+
+Arquivos: HTML/metadados/fotos, site.js, config.js, site.css, _headers, docs e LEIA-ME. Sem alteração fora do pedido; sem frameworks, bibliotecas de execução, push, deploy ou produção. Etapa pronta para revisão em sequência pelo Claude; não restaurar gráfico, selos, total de avaliações ou imagens geradas. Retratos reais, escritório e respostas da cliente continuam pendentes. Fechamento em commit local descritivo na main.
+
+## 04/10/2026 — Codex aguardando a entrega visual do Claude
+
+Na conferência anterior ao commit, Codex encontrou o registro de 18:47 do Claude em docs/handoff.md, ainda EM ANDAMENTO. Nenhum commit desta rodada foi feito. Codex não editará os arquivos visuais reservados enquanto esse registro estiver ativo. Os testes fotos-reais documentados acima descrevem a versão concluída antes do novo plano visual; após a entrega, serão repetidos os testes afetados e revisada a integração antes do commit local. Push/deploy continuam proibidos.
+
+## 04/10/2026 — integração final concluída pelo Codex após a entrega do Claude
+
+Claude marcou a entrega CONCLUÍDO e liberou os arquivos. Codex revisou seus nove pedidos: corrigiu o carregamento futuro da foto na moldura oculta de Sobre, ligou nota/depoimento da abertura ao config.js, manteve capa do Instagram até MOUNTED da janela/origem corretas, reduziu contagem para 1600ms, variou fotos e retirou textos em inglês do caderno/calendário. Oito fotos reais finais, fontes documentadas; versões de CSS/JS com rev=2. Rascunho em primeira pessoa permanece somente para aprovação interna.
+
+Verificação final: 80 cenários, 31 verificações específicas, 23 funcionais e 16 da integração aprovados. Lighthouse acessibilidade 100/100, celular/computador. Rio literalmente preservado e oito pares sem pixels diferentes. Cinco embeds reais carregados com imagens, vídeos inicialmente pausados; zero erros JS e violações unload no teste com cabeçalhos locais simulados. Três avisos dos cabeçalhos da Meta continuam externos.
+
+LEIA-ME, decisões, pendências, fontes e evidências atualizados; detalhes em docs/handoff.md. Commit único local das duas rodadas na main; nenhum push/deploy/produção. Nenhuma pendência de código nos nove pedidos do Claude. Faltam fotos da cliente, aprovações dos textos e decisões abertas registradas no handoff. A nota de espera anterior foi encerrada por esta entrega.
+
+## 04/10/2026 — Claude Code: plano visual revisado concluído (sem commit)
+
+Registro de 18:47 em `docs/handoff.md` marcado como CONCLUÍDO. `index.html`, as 8 páginas de Informações e `site.css` estão liberados para o Codex. O trabalho foi feito por cima da rodada de fotos reais, sem desfazer nada dela.
+
+O que entrou:
+- **Abertura:** card com a prova real do Google (5,0 e a avaliação do Marcelo S.), que dá lugar ao retrato quando ele existir.
+- **"Como funciona":** seção nova com 3 passos e o convite para quem pensa em trocar de contador.
+- **Números:** faixa com fundo claro.
+- **"Quem é a Gabriela":** textos factuais e a citação dela no lugar do selo.
+- **Botão flutuante do WhatsApp:** pulso finito.
+- **Hub de Informações:** sem o ícone redundante nos cards com foto.
+- **Páginas de Informações:** autoria e chamado de WhatsApp contextual em cada uma.
+- **Microinterações:** só quando "reduzir movimento" está desligado.
+
+Testes:
+- 9 páginas × 4 larguras × 2 temas: 0 violações de contraste AA, sem rolagem lateral e sem erros;
+- chamados novos abrem o WhatsApp com a mensagem certa;
+- "reduzir movimento" e foco visível conferidos;
+- rio com HTML e CSS idênticos a `5d4dc81`.
+
+Para o Codex, detalhes em `docs/handoff.md`:
+- fotos com texto em inglês legível (MEI e calendário) e fotos repetidas;
+- Instagram com cards brancos enquanto carrega;
+- contagem dos números em cerca de 1,6 s;
+- `?v=` novo;
+- documentação das seções novas;
+- texto em primeira pessoa da Gabriela para aprovação;
+- revisão e commit único das duas rodadas, sem push nem deploy.

@@ -19,7 +19,7 @@ async (paginaCompartilhada) => {
   // Simula só a entrega da Meta, mantendo iframe em outro domínio e os eventos reais do navegador.
   await page.route('https://www.instagram.com/**', r => r.fulfill({
     contentType: r.request().url().endsWith('/embed.js') ? 'application/javascript; charset=utf-8' : 'text/html; charset=utf-8',
-    body: r.request().url().endsWith('/embed.js') ? `window.instgrm={Embeds:{process:function(){document.querySelectorAll('blockquote.instagram-media').forEach(function(b){var f=document.createElement('iframe');f.className='instagram-media';f.style.height='420px';f.src=b.getAttribute('data-instgrm-permalink').split('?')[0]+'embed/';b.replaceWith(f);});}}};` : '<!doctype html><html lang="pt-BR"><body><button>Vídeo de teste</button></body></html>'
+    body: r.request().url().endsWith('/embed.js') ? `window.instgrm={Embeds:{process:function(){document.querySelectorAll('blockquote.instagram-media').forEach(function(b){var f=document.createElement('iframe');f.className='instagram-media';f.style.height='420px';f.src=b.getAttribute('data-instgrm-permalink').split('?')[0]+'embed/';b.replaceWith(f);});}}};` : '<!doctype html><html lang="pt-BR"><body><button>Vídeo de teste</button><script>addEventListener("load",function(){parent.postMessage(JSON.stringify({type:"MOUNTED"}),"http://127.0.0.1:8080");});</script></body></html>'
   }));
   const cfgOriginal = await (await page.request.get(base + '/assets/js/config.js')).text();
   await page.route('**/assets/js/config.js*', r => r.fulfill({contentType:'application/javascript',body:cfgOriginal+'\nwindow.GESCOMP_CONFIG.avaliacoes.itens=[];'}));
@@ -66,7 +66,7 @@ async (paginaCompartilhada) => {
   await page.locator('#avaliacoes').scrollIntoViewIfNeeded();
   await page.mouse.move(0, 0);
   await page.waitForTimeout(8800);
-  conferir('Passagem real das avaliações após 8s', await page.locator('#avaliacoes [data-carrossel-trilha]').evaluate(e => e.scrollLeft > 0));
+  conferir('Avaliações passam automaticamente', await page.locator('#avaliacoes [data-carrossel-trilha]').evaluate(e => e.scrollLeft > 0));
   await page.locator('#instagram').scrollIntoViewIfNeeded();
   await page.waitForTimeout(500);
   conferir('Embeds montados sem clique', await page.locator('#instagram iframe').count() === 5 && await page.locator('#instagram .ig-midia.pronto').count() === 5);
@@ -109,7 +109,7 @@ async (paginaCompartilhada) => {
   await page.unroute('**/assets/js/config.js*');
   await page.emulateMedia({reducedMotion:'no-preference'});
   await page.goto(base+'/',{waitUntil:'networkidle'});
-  conferir('Dados de teste removidos, avaliações reais restauradas', await page.evaluate(() => window.GESCOMP_CONFIG.avaliacoes.itens.length === 3 && !document.querySelector('#avaliacoes').hidden && !document.querySelector('#avaliacoes').textContent.includes('Ana T.')));
+  conferir('Dados de teste removidos, avaliações reais restauradas', await page.evaluate(() => window.GESCOMP_CONFIG.avaliacoes.itens.length === 5 && !document.querySelector('#avaliacoes').hidden && !document.querySelector('#avaliacoes').textContent.includes('Ana T.')));
   page.off('pageerror',onError);
   return resultados;
   } finally {

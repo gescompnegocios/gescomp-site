@@ -28,4 +28,12 @@ Confirmar primeiro se o serviço é oferecido; depois confirmar etapas, custos, 
 
 ## Registro de aprovação
 
+### Texto de Sobre em primeira pessoa — rascunho solicitado no plano revisado
+
+Confirmar os dois parágrafos abaixo com Gabriela antes de substituir o texto atual em terceira pessoa. Não publicar esta versão antes da aprovação:
+
+“Sou a Gabriela do Nascimento Vieira, contadora registrada no CRC de Sergipe (009186/SE). Trabalho com contabilidade desde 2014 e, depois de anos atuando em escritório, abri a GESCOMP para atender de perto, com clareza e sem burocracia para o cliente.”
+
+“Aqui você fala direto comigo. Cuido da abertura, da regularização e da baixa do seu CNPJ, da contabilidade da sua empresa, do seu Imposto de Renda e dos cálculos trabalhistas, sempre buscando a melhor tributação possível, dentro da lei.”
+
 Para cada resposta, registrar o texto final, quem aprovou e a data. Só então incluir a pergunta no site e sincronizar qualquer FAQ em dados estruturados. Não adicionar avaliações ou notas aos dados estruturados.
