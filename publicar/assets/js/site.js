@@ -102,11 +102,15 @@ function criarCarrossel(raiz,op){
   // Reutiliza os próprios cards: não duplica textos, links ou paradas de teclado.
   function moverInicio(){var p=passo();trilha.appendChild(trilha.firstElementChild);trilha.scrollLeft-=p;posicao-=p;}
   function reservarAnterior(){var p=passo();trilha.insertBefore(trilha.lastElementChild,trilha.firstElementChild);trilha.scrollLeft+=p;posicao=trilha.scrollLeft;}
+  // A rolagem do navegador só anda em pixels inteiros (aos trancos em velocidade baixa);
+  // a fração restante vai para --desliza (translate dos cards), para deslizar como um dedo.
+  function deslizar(f){trilha.style.setProperty('--desliza',f?f.toFixed(3)+'px':'0px');}
   function animar(t){
     quadro=null;if(parado())return;
     if(instante)posicao+=(Math.min(t-instante,64)/1000)*(op.velocidade||24);
-    instante=t;trilha.scrollLeft=posicao;
+    instante=t;
     if(posicao>=passo()&&passo()>0)moverInicio();
+    trilha.scrollLeft=Math.floor(posicao);deslizar(trilha.scrollLeft-posicao);
     quadro=requestAnimationFrame(animar);
   }
   function slides(){return trilha.querySelectorAll('[data-slide]');}
@@ -131,7 +135,9 @@ function criarCarrossel(raiz,op){
     return false;
   }
   function agendar(){
-    clearTimeout(timer);timer=null;cancelAnimationFrame(quadro);quadro=null;instante=0;posicao=trilha.scrollLeft;
+    clearTimeout(timer);timer=null;cancelAnimationFrame(quadro);quadro=null;instante=0;
+    // Mantém a fração ao retomar; se a pessoa rolou (dedo, setas), parte do ponto em que ela deixou.
+    if(Math.floor(posicao)!==trilha.scrollLeft)posicao=trilha.scrollLeft;deslizar(trilha.scrollLeft-posicao);
     if(parado())return;
     if(circular){quadro=requestAnimationFrame(animar);return;}
     timer=setTimeout(function(){timer=null;if(!parado())ir(1,false);agendar();},intervalo);
@@ -388,7 +394,7 @@ if(prova){
   prova.hidden=false;
 }
 sec.hidden=false;
-criarCarrossel(regiao,{rotulo:'Avaliação',continuo:true,velocidade:24});
+criarCarrossel(regiao,{rotulo:'Avaliação',continuo:true,velocidade:30});
 })();
 
 /* Fotos liberadas pela configuração; imagens ausentes mantêm a arte de espera sem pedido HTTP. */

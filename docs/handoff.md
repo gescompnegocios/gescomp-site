@@ -388,3 +388,43 @@ Codex aguardou a entrega visual e, a pedido do usuário, acompanhou em leitura e
 As evidências fotos-reais foram atualizadas para a integração final; o diagnóstico monitoramento-plano-claude é histórico anterior à correção. Capturas da abertura/serviços antes e depois, em 1366/390px e nos dois temas, foram repetidas. A folha de contato contém oito fotos atuais. Revisão visual inspecionada no navegador e nas capturas; não houve remoção de funcionalidades nem alteração da seção protegida.
 
 Cliente: retratos reais de Gabriela, foto do escritório, aprovação das respostas e do texto em primeira pessoa, logo SVG e decisões abertas acima. Avaliações e links do Google já estão configurados. Publicação continua dependendo de autorização posterior que resolva a proibição vigente. Commit único local descritivo; consultar git log para o hash final. Claude: esta etapa está concluída, sem pendência de código dos nove pedidos; não restaurar gráfico, selos, total de avaliações ou imagens geradas.
+
+## 04/10/2026 — Claude: botão do WhatsApp redondo e avaliações deslizando sem trancos (CONCLUÍDO, sem commit)
+
+Pedido do usuário: "manter o design do botão flutuante do WhatsApp, mas com o círculo mais reto" e "avaliações em 360°, passando de forma fluida e sozinhas, não uma por uma, como se eu estivesse passando devagar com o dedo".
+
+### Botão flutuante (9 páginas)
+- O contorno ondulado (`path M30 3 C 46 2…`) virou `<circle cx="30" cy="30" r="27">` com a mesma cor (#2FB24C).
+- Na inicial, o círculo e o anel do pulso perderam o filtro `pincelBotao`, que deixava a borda tremida.
+- O brilho de cima, a sombra de baixo, o ícone (com o pincel), o tamanho, a sombra externa e a posição continuam iguais.
+- O pulso das 8 páginas de assunto passou de `indefinite` para `repeatCount="3"`, igual à inicial.
+
+### Avaliações (`site.js` e `site.css`)
+- **Causa medida:** o Chrome só move `scrollLeft` em pixels inteiros. A 24 px/s, o card andava 1 px a cada 2 ou 3 quadros: em 4 s foram 140 quadros parados e 92 com movimento. Por isso parecia aos trancos.
+- **Correção:**
+  - `animar` grava `scrollLeft=Math.floor(posicao)` e passa a fração para `--desliza`;
+  - o CSS aplica `translate:var(--desliza) 0` aos `[data-slide]` só em `.carrossel-continuo` e sem "reduzir movimento";
+  - usei `translate`, e não `transform`, para não brigar com a subida do card no hover;
+  - `agendar` mantém a fração ao retomar e só a zera quando a pessoa rolou de verdade. Isso evita um recuo de até 1 px que acontecia quando o aviso de fim de rolagem (150 ms) disparava.
+- **Velocidade:** de 24 para 30 px/s, cerca de 13 s por card.
+- O ciclo continua girando os próprios cards, sem cópias.
+- **Instagram:** não é afetado, porque `--desliza` só tem efeito no modo contínuo.
+- **LEIA-ME:** a linha da velocidade foi atualizada.
+
+### Testes (Playwright, Chrome)
+- **Movimento quadro a quadro, 25 s, em 1366, 1920, 390 e 360 px:**
+  - média de 0,50 px por quadro e nenhum recuo;
+  - quadros parados entre 0 e 2, contra cerca de 60% antes;
+  - as voltas do ciclo acontecem sem salto visível.
+- **Comportamento:**
+  - anda sozinho (60 px em 2 s);
+  - para com o mouse em cima e retoma ao tirar;
+  - a seta "próxima" avança;
+  - o arraste com o dedo rola e o carrossel retoma sozinho depois do toque;
+  - fica parado com "reduzir movimento".
+- **Revisão:** `node --check` OK; o rio não foi tocado. O critério de `docs/testes/revisao-fotos-reais.js` (15 a 45 px em 1,2 s) continua atendido, já que 30 px/s dão 36 px.
+
+### Para o Codex
+- Revisar e fazer o commit.
+- Subir o `?v=` do CSS e do JS (por exemplo, `rev=3`) nas páginas, conforme o LEIA-ME.
+- Push e publicação só com autorização do usuário.

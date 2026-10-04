@@ -291,7 +291,7 @@ body{background:var(--chao)}
 #avaliacoes .carrossel-seta-anterior{left:-36px}
 #avaliacoes .carrossel-seta-proximo{right:-36px}
 @media (min-width:900px) and (max-width:1279px){#avaliacoes [data-carrossel]{margin-inline:24px}}
-@media (prefers-reduced-motion:no-preference){.carrossel-continuo .carrossel-trilha{scroll-snap-type:none;overflow-anchor:none}}
+@media (prefers-reduced-motion:no-preference){.carrossel-continuo .carrossel-trilha{scroll-snap-type:none;overflow-anchor:none}.carrossel-continuo .carrossel-trilha>[data-slide]{translate:var(--desliza,0px) 0}}
 @media (max-width:899px){
   #avaliacoes .carrossel-seta{display:none}
   #avaliacoes .avaliacao-card{width:min(360px,calc(100vw - 76px));min-height:320px;padding:24px}
