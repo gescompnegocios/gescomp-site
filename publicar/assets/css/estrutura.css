@@ -6,6 +6,8 @@
 .gc-navegacao { display: flex; align-items: center; gap: 30px; font-size: 16px; font-weight: 500; }
 .gc-navegacao-link { text-decoration: none; color: #FFFFFF; }
 .gc-navegacao-atual { text-decoration: underline; text-decoration-color: #E8952F; text-decoration-thickness: 3px; text-underline-offset: 8px; color: #FFFFFF; }
+.gc-navegacao-link:hover, .gc-navegacao-atual:hover, .gc-menu-link:hover, .gc-menu-link-final:hover, .gc-rodape-link:hover, .gc-rodape-mapa:hover { color: #FFB547; text-decoration: underline; text-underline-offset: 6px; }
+.gc-navegacao-link:focus-visible, .gc-navegacao-atual:focus-visible, .gc-menu-link:focus-visible, .gc-menu-link-final:focus-visible { color: #FFFFFF; }
 .gc-botao-tema { position: relative; flex-shrink: 0; width: 48px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
 .gc-cabecalho-contato { position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 12px 24px; min-height: 48px; }
 .gc-cabecalho-mobile { padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }

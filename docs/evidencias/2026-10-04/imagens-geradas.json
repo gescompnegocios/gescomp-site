@@ -1,0 +1,123 @@
+{
+  "data": "2026-10-04",
+  "ferramenta": "imagegen integrada",
+  "assets": [
+    {
+      "name": "card-abrir-empresa",
+      "prompt": "Use case: photorealistic-natural. Asset type: one service card image for the Brazilian GESCOMP accounting website. Landscape 4:3, 1536x1152. Photorealistic editorial still-life, soft natural side lighting, tactile paper and wood, understated premium small-business atmosphere, warm neutral desk, deep petroleum teal #003F4A / vibrant teal #0A7A82 stationery and one subtle orange #F28A1E accent. Consistent cohesive photography series. Objects compose beautifully and remain legible when cropped to a mobile card. Absolutely no people, faces, hands, body parts, logos, watermarks, legible text, letters, numbers, fake currency, fake documents or branding. Unbranded objects and entirely blank paper. Not a real GESCOMP office photograph. Subject: starting a business, an elegant set of two brass keys on top of a closed teal document folder and blank cream notebook, simple orange pencil nearby, calm uncluttered desktop with optimism and natural shadows. Three-quarter overhead camera, tangible realistic materials. No laptop needed.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-ff029164-0388-4d7b-975c-4761a491ed74.png",
+      "output": "publicar/assets/img/fotos/card-abrir-empresa.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 151918
+    },
+    {
+      "name": "card-contabilidade",
+      "prompt": "Use case: photorealistic-natural. Asset type: one service card image for the Brazilian GESCOMP accounting website. Landscape 4:3, 1536x1152. Photorealistic editorial still-life, soft natural side lighting, tactile paper and wood, understated premium small-business atmosphere, warm neutral desk, deep petroleum teal #003F4A / vibrant teal #0A7A82 stationery and one subtle orange #F28A1E accent. Consistent cohesive photography series. Objects compose beautifully and remain legible when cropped to a mobile card. Absolutely no people, faces, hands, body parts, logos, watermarks, legible text, letters, numbers, fake currency, fake documents or branding. Unbranded objects and entirely blank paper. Not a real GESCOMP office photograph. Subject: organized monthly accounting, an unbranded charcoal calculator with blank unmarked keys and no digits on display, two neatly aligned teal/cream document folders with blank cream sheets, a subtle orange pencil, one brass clip. Three-quarter overhead camera, calm balance, realistic editorial photography.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-0cd5bbf6-4320-4533-9b73-a6a622cb9af7.png",
+      "output": "publicar/assets/img/fotos/card-contabilidade.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 99424
+    },
+    {
+      "name": "card-imposto-de-renda",
+      "prompt": "Use case: photorealistic-natural. Asset type: one service card image for the Brazilian GESCOMP accounting website. Landscape 4:3, 1536x1152. Photorealistic editorial still-life, soft natural side lighting, tactile paper and wood, understated premium small-business atmosphere, warm neutral desk, deep petroleum teal #003F4A / vibrant teal #0A7A82 stationery and one subtle orange #F28A1E accent. Consistent cohesive photography series. Objects compose beautifully and remain legible when cropped to a mobile card. Absolutely no people, faces, hands, body parts, logos, watermarks, legible text, letters, numbers, fake currency, fake documents or branding. Unbranded objects and entirely blank paper. Not a real GESCOMP office photograph. Subject: personal tax declaration, a neatly arranged stack of blank cream sheets held by a brass binder clip, an unbranded slim dark calculator with entirely blank screen and blank keys, teal folder and subtle orange pen. Three-quarter overhead camera, calm tactile organization, no printed forms or money.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-11d208d4-9832-49d0-bbf6-bcf815a022fe.png",
+      "output": "publicar/assets/img/fotos/card-imposto-de-renda.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 121176
+    },
+    {
+      "name": "capa-informacoes",
+      "prompt": "Use case: stylized-concept. Asset type: editorial topic cover for GESCOMP accounting website, landscape 4:3, 1536x1152. A consistent semi-realistic paper collage series: sculptural tangible objects with matte paper and subtle tactile texture, crisp layered geometric shapes, elegant limited palette petroleum teal #003F4A, vibrant teal #0A7A82, light aqua #E3F4F2, restrained orange #F28A1E, cream. Soft directional studio light, refined practical friendly business mood. A compact uncluttered composition centered on a teal background, enough surrounding space to crop, no gradients pretending to be real data. Absolutely no people or body parts, no faces, no letters, digits, words, logos, currency or watermarks, no fake legal forms. Conceptual generic imagery, not a real company office. Subject: clarity and useful information, layered blank cream document sheets and an orange bookmark, a magnifying glass and three subtle aqua stepped shapes. Editorial collage combining real paper objects and abstract geometry.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-d20ea9eb-b8be-4adf-b93d-7ad2311c9369.png",
+      "output": "publicar/assets/img/capas/capa-informacoes.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 71286
+    },
+    {
+      "name": "capa-abrir-empresa",
+      "prompt": "Use case: stylized-concept. Asset type: editorial topic cover for GESCOMP accounting website, landscape 4:3, 1536x1152. A consistent semi-realistic paper collage series: sculptural tangible objects with matte paper and subtle tactile texture, crisp layered geometric shapes, elegant limited palette petroleum teal #003F4A, vibrant teal #0A7A82, light aqua #E3F4F2, restrained orange #F28A1E, cream. Soft directional studio light, refined practical friendly business mood. A compact uncluttered composition centered on a teal background, enough surrounding space to crop, no gradients pretending to be real data. Absolutely no people or body parts, no faces, no letters, digits, words, logos, currency or watermarks, no fake legal forms. Conceptual generic imagery, not a real company office. Subject: opening a company, a sculptural small storefront made of teal and cream paper, plain empty sign area with no marks, a simple gold key and open blank folder. No engraved key lettering.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-c39f05be-8816-4482-ba08-499941656111.png",
+      "output": "publicar/assets/img/capas/capa-abrir-empresa.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 94380
+    },
+    {
+      "name": "capa-mei",
+      "prompt": "Use case: stylized-concept. Asset type: editorial topic cover for GESCOMP accounting website, landscape 4:3, 1536x1152. A consistent semi-realistic paper collage series: sculptural tangible objects with matte paper and subtle tactile texture, crisp layered geometric shapes, elegant limited palette petroleum teal #003F4A, vibrant teal #0A7A82, light aqua #E3F4F2, restrained orange #F28A1E, cream. Soft directional studio light, refined practical friendly business mood. A compact uncluttered composition centered on a teal background, enough surrounding space to crop, no gradients pretending to be real data. Absolutely no people or body parts, no faces, no letters, digits, words, logos, currency or watermarks, no fake legal forms. Conceptual generic imagery, not a real company office. Subject: microentrepreneur's organized small business, a small stylized paper shop with striped teal and cream awning, blank cream notebook and one subtle orange pencil. Warm approachable collage, no human figures.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-1b180482-64ed-41ae-be87-4e5bcfca30f4.png",
+      "output": "publicar/assets/img/capas/capa-mei.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 96694
+    },
+    {
+      "name": "capa-imposto-de-renda",
+      "prompt": "Use case: stylized-concept. Asset type: editorial topic cover for GESCOMP accounting website, landscape 4:3, 1536x1152. A consistent semi-realistic paper collage series: sculptural tangible objects with matte paper and subtle tactile texture, crisp layered geometric shapes, elegant limited palette petroleum teal #003F4A, vibrant teal #0A7A82, light aqua #E3F4F2, restrained orange #F28A1E, cream. Soft directional studio light, refined practical friendly business mood. A compact uncluttered composition centered on a teal background, enough surrounding space to crop, no gradients pretending to be real data. Absolutely no people or body parts, no faces, no letters, digits, words, logos, currency or watermarks, no fake legal forms. Conceptual generic imagery, not a real company office. Subject: personal tax organization, a sculptural unbranded calculator with blank keys and blank display, a stack of completely blank cream paper, orange binder clip and aqua semicircle accents. More illustrative and sculptural than photography.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-60be9db8-2ee9-4f65-998d-9096f8f2f734.png",
+      "output": "publicar/assets/img/capas/capa-imposto-de-renda.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 87908
+    },
+    {
+      "name": "capa-simples-nacional",
+      "prompt": "Use case: stylized-concept. Asset type: editorial topic cover for GESCOMP accounting website, landscape 4:3, 1536x1152. A consistent semi-realistic paper collage series: sculptural tangible objects with matte paper and subtle tactile texture, crisp layered geometric shapes, elegant limited palette petroleum teal #003F4A, vibrant teal #0A7A82, light aqua #E3F4F2, restrained orange #F28A1E, cream. Soft directional studio light, refined practical friendly business mood. Compact uncluttered composition centered on teal background, enough surrounding space to crop. Absolutely no people, human silhouettes or body parts, no faces, letters, digits, words, logos, currency or watermarks, no fake legal forms. Conceptual generic imagery, not a real company office. Subject: simplifying taxes into one organized place, a single cream blank folder receiving three matte teal/aqua blank paper sheets, small orange circular seal without marks. Clear orderly elegant sculptural paper collage.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-4d2c2cc4-d4c9-401f-8370-aceb6f75e760.png",
+      "output": "publicar/assets/img/capas/capa-simples-nacional.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 49096
+    },
+    {
+      "name": "capa-pro-labore-e-lucros",
+      "prompt": "Use case: stylized-concept. Asset type: editorial topic cover for GESCOMP accounting website, landscape 4:3, 1536x1152. A consistent semi-realistic paper collage series: sculptural tangible objects with matte paper and subtle tactile texture, crisp layered geometric shapes, elegant limited palette petroleum teal #003F4A, vibrant teal #0A7A82, light aqua #E3F4F2, restrained orange #F28A1E, cream. Soft directional studio light, refined practical friendly business mood. Compact uncluttered composition centered on teal background, enough surrounding space to crop. Absolutely no people, human silhouettes or body parts, no faces, letters, digits, words, logos, currency or watermarks, no fake legal forms. Conceptual generic imagery, not a real company office. Subject: separating business and personal financial organization, two balanced compartments of a teal paper tray holding cream blank envelopes, a simple orange dividing line, blank unmarked disc accents, no currency or hands.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-0b5a4e1d-1add-4605-9970-a2390c94f711.png",
+      "output": "publicar/assets/img/capas/capa-pro-labore-e-lucros.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 84906
+    },
+    {
+      "name": "capa-departamento-pessoal",
+      "prompt": "Use case: stylized-concept. Asset type: editorial topic cover for GESCOMP accounting website, landscape 4:3, 1536x1152. A consistent semi-realistic paper collage series: sculptural tangible objects with matte paper and subtle tactile texture, crisp layered geometric shapes, elegant limited palette petroleum teal #003F4A, vibrant teal #0A7A82, light aqua #E3F4F2, restrained orange #F28A1E, cream. Soft directional studio light, refined practical friendly business mood. Compact uncluttered composition centered on teal background, enough surrounding space to crop. Absolutely no people, human silhouettes or body parts, no faces, letters, digits, words, logos, currency or watermarks, no fake legal forms. Conceptual generic imagery, not a real company office. Subject: organized work routines and payroll, a matte teal blank binder, small cream desk calendar showing a grid of blank squares WITHOUT ANY NUMBERS OR TEXT, orange paper clip and simple unmarked clock without numbers. Sculptural business still-life.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-2f5d70d5-2707-47a1-b04e-ad8f16a78056.png",
+      "output": "publicar/assets/img/capas/capa-departamento-pessoal.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 87334
+    },
+    {
+      "name": "capa-calendario-fiscal",
+      "prompt": "Use case: stylized-concept. Asset type: editorial topic cover for GESCOMP accounting website, landscape 4:3, 1536x1152. A consistent semi-realistic paper collage series: sculptural tangible objects with matte paper and subtle tactile texture, crisp layered geometric shapes, elegant limited palette petroleum teal #003F4A, vibrant teal #0A7A82, light aqua #E3F4F2, restrained orange #F28A1E, cream. Soft directional studio light, refined practical friendly business mood. Compact uncluttered composition centered on teal background, enough surrounding space to crop. Absolutely no people, human silhouettes or body parts, no faces, letters, digits, words, logos, currency or watermarks, no fake legal forms. Conceptual generic imagery, not a real company office. Subject: deadlines and scheduling, a handsome free-standing paper desk calendar with a grid of blank cream squares, two orange marker dots, teal rings and a simple unmarked circular clock. No dates, numbers, weekdays, characters or labels.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-6a3fbe45-2145-4cfa-b302-17c8d3381d11.png",
+      "output": "publicar/assets/img/capas/capa-calendario-fiscal.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 72190
+    },
+    {
+      "name": "rio-404",
+      "prompt": "Use case: illustration-story. Asset type: GESCOMP 404 page decorative illustration, landscape 4:3, 1536x1152. The attached image is a STYLE REFERENCE ONLY for its hand-painted coastal river illustration; do not edit that image or reproduce its website text. Generate a NEW small clean welcoming gouache-style river scene: deep petroleum teal flowing water with gentle painted aqua horizontal ripples, one tiny orange-and-white unoccupied sailboat, a few thin teal coconut palms on the far bank, warm orange sun, two minimal distant birds, pale aqua and cream sky. Flat painterly shapes, slightly rough brush edges, understated joyful Brazilian coastal mood. No building, no map pin. Absolutely no people, bodies, lettering, text, numerals, logos, signs, watermark or 404 digits. Not a photograph. Keep visual compact and centered for a webpage illustration.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-affe03fd-b78b-4d52-bdb0-978b1d591b5d.png",
+      "output": "publicar/assets/img/rio-404.webp",
+      "largura": 1200,
+      "altura": 900,
+      "bytes": 82010
+    },
+    {
+      "name": "og-composicao-20261004",
+      "prompt": "Use case: ads-marketing. Asset type: social sharing Open Graph background for the GESCOMP accounting website, landscape about 1.91:1, ideally 1536x800. Create an elegant clean graphic composition in petroleum teal #003F4A and vibrant teal #0A7A82 with warm orange #F28A1E and pale aqua #E3F4F2 accents. Abstract gently rising stepped forms and a single flowing orange line on the right, subtle aqua horizontal ripples near the bottom linking the coastal identity, generous uncluttered dark teal negative space across the left half. Crisp flat geometric design with subtle tactile grain, sophisticated warm approachable business identity. No fake data visualization, no actual statistical information. Absolutely no text, numbers, currency, letters, logos, people, human figures, faces or watermarks.",
+      "original": "C:\\Users\\fabri\\.codex\\generated_images\\01a1028d-7a30-7733-af72-ddca1d621b75\\exec-749866ed-ea6f-4919-b665-7523f0d8fbf9.png",
+      "output": "publicar/assets/img/og-composicao-20261004.webp",
+      "largura": 1200,
+      "altura": 630,
+      "bytes": 53518
+    }
+  ]
+}

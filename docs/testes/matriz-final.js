@@ -1,4 +1,4 @@
-// Playwright MCP: nove páginas × quatro telas × dois temas. Axe é apenas ferramenta de teste.
+// Playwright MCP: dez páginas × quatro telas × dois temas. Axe é apenas ferramenta de teste.
 async (compartilhada) => {
   const contexto=await compartilhada.context().browser().newContext();
   const page=await contexto.newPage();
@@ -8,7 +8,7 @@ async (compartilhada) => {
     await page.route('https://vlibras.gov.br/app/vlibras-plugin.js',r=>r.fulfill({contentType:'application/javascript',body:''}));
     await page.route('https://www.instagram.com/**',r=>r.fulfill({contentType:'application/javascript',body:''}));
     await page.emulateMedia({reducedMotion:'reduce'});
-    const paginas=['index','informacoes','abrir-empresa','imposto-de-renda','mei','simples-nacional','pro-labore-e-lucros','departamento-pessoal','calendario-fiscal'];
+    const paginas=['index','informacoes','abrir-empresa','imposto-de-renda','mei','simples-nacional','pro-labore-e-lucros','departamento-pessoal','calendario-fiscal','404'];
     for(const nome of paginas){
       for(const [width,height] of [[1366,768],[1920,1080],[390,844],[360,800]]){
         await page.setViewportSize({width,height});

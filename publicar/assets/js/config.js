@@ -43,19 +43,28 @@ window.GESCOMP_CONFIG = {
     nota: 5,
     total: 28,
 
-    // Avaliações escolhidas, copiadas do Google com o texto original. Nome, texto e estrelas
+    // Avaliações reais selecionadas do Google em 04/10/2026, autorizadas pelo usuário.
+    // O texto de Marcelo é um trecho literal; a fonte completa está no perfil vinculado.
+    // Nome, texto e estrelas
     // inteiras de 1 a 5 são obrigatórios; link é opcional. Uma por bloco:
     //   { nome: 'Maria Souza', texto: 'Texto original aprovado', estrelas: 5, link: '' },
     // No site aparece só o primeiro nome e a inicial do sobrenome (ex.: "Maria S."), sem foto.
     // Não ofereça desconto nem brinde em troca de avaliação: o Google proíbe.
     itens: [
+      { nome: 'Yasmin Dantas', texto: 'A melhor contadora!\nConfio demais em Gabi', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' },
+      { nome: 'Simone Soares', texto: 'Atendimento de qualidade. Super indico', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' },
+      { nome: 'Marcelo Melo da Silva', texto: 'Empresa com grande profissionalismo, dúvidas tiradas com clareza, atendimento excepcional. Desde que conheci não larguei!', estrelas: 5, link: 'https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU' }
     ]
   },
 
   // Fotos já entregues e conferidas em publicar/assets/img/fotos/.
   // Inclua o caminho só depois que o arquivo existir; lista vazia mantém a arte de espera.
   // Exemplo de caminho: '/assets/img/fotos/gabriela-retrato.webp'.
-  fotos: [],
+  fotos: [
+    '/assets/img/fotos/card-abrir-empresa.webp',
+    '/assets/img/fotos/card-contabilidade.webp',
+    '/assets/img/fotos/card-imposto-de-renda.webp'
+  ],
 
   // E-mail usado pelo formulário se o WhatsApp ainda não estiver configurado.
   email: 'escritoriogescomp@gmail.com',

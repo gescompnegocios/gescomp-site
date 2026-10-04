@@ -1,0 +1,1386 @@
+[
+  {
+    "pagina": "index",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [
+      {
+        "chave": "abrirEmpresa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+      },
+      {
+        "chave": "contabilidade",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+      },
+      {
+        "chave": "impostoRenda",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ."
+      },
+      {
+        "chave": "trabalhista",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+      },
+      {
+        "chave": "regime",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+      },
+      {
+        "chave": "mei",
+        "mensagem": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+      },
+      {
+        "chave": "consultoria",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+      }
+    ],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "index",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [
+      {
+        "chave": "abrirEmpresa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+      },
+      {
+        "chave": "contabilidade",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+      },
+      {
+        "chave": "impostoRenda",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ."
+      },
+      {
+        "chave": "trabalhista",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+      },
+      {
+        "chave": "regime",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+      },
+      {
+        "chave": "mei",
+        "mensagem": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+      },
+      {
+        "chave": "consultoria",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+      }
+    ],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "index",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [
+      {
+        "chave": "abrirEmpresa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+      },
+      {
+        "chave": "contabilidade",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+      },
+      {
+        "chave": "impostoRenda",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ."
+      },
+      {
+        "chave": "trabalhista",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+      },
+      {
+        "chave": "regime",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+      },
+      {
+        "chave": "mei",
+        "mensagem": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+      },
+      {
+        "chave": "consultoria",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+      }
+    ],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "index",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [
+      {
+        "chave": "abrirEmpresa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+      },
+      {
+        "chave": "contabilidade",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+      },
+      {
+        "chave": "impostoRenda",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ."
+      },
+      {
+        "chave": "trabalhista",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+      },
+      {
+        "chave": "regime",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+      },
+      {
+        "chave": "mei",
+        "mensagem": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+      },
+      {
+        "chave": "consultoria",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+      }
+    ],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "index",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [
+      {
+        "chave": "abrirEmpresa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+      },
+      {
+        "chave": "contabilidade",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+      },
+      {
+        "chave": "impostoRenda",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ."
+      },
+      {
+        "chave": "trabalhista",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+      },
+      {
+        "chave": "regime",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+      },
+      {
+        "chave": "mei",
+        "mensagem": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+      },
+      {
+        "chave": "consultoria",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+      }
+    ],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "index",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [
+      {
+        "chave": "abrirEmpresa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+      },
+      {
+        "chave": "contabilidade",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+      },
+      {
+        "chave": "impostoRenda",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ."
+      },
+      {
+        "chave": "trabalhista",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+      },
+      {
+        "chave": "regime",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+      },
+      {
+        "chave": "mei",
+        "mensagem": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+      },
+      {
+        "chave": "consultoria",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+      }
+    ],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "index",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [
+      {
+        "chave": "abrirEmpresa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+      },
+      {
+        "chave": "contabilidade",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+      },
+      {
+        "chave": "impostoRenda",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ."
+      },
+      {
+        "chave": "trabalhista",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+      },
+      {
+        "chave": "regime",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+      },
+      {
+        "chave": "mei",
+        "mensagem": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+      },
+      {
+        "chave": "consultoria",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+      }
+    ],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "index",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [
+      {
+        "chave": "abrirEmpresa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?"
+      },
+      {
+        "chave": "contabilidade",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?"
+      },
+      {
+        "chave": "impostoRenda",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ."
+      },
+      {
+        "chave": "trabalhista",
+        "mensagem": "Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista."
+      },
+      {
+        "chave": "regime",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa."
+      },
+      {
+        "chave": "mei",
+        "mensagem": "Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI."
+      },
+      {
+        "chave": "consultoria",
+        "mensagem": "Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira."
+      }
+    ],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "informacoes",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "informacoes",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "informacoes",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "informacoes",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "informacoes",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "informacoes",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "informacoes",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "informacoes",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "abrir-empresa",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "abrir-empresa",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "abrir-empresa",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "abrir-empresa",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "abrir-empresa",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "abrir-empresa",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "abrir-empresa",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "abrir-empresa",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "imposto-de-renda",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "imposto-de-renda",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "imposto-de-renda",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "imposto-de-renda",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "imposto-de-renda",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "imposto-de-renda",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "imposto-de-renda",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "imposto-de-renda",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "mei",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "mei",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "mei",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "mei",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "mei",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "mei",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "mei",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "mei",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "simples-nacional",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "simples-nacional",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "simples-nacional",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "simples-nacional",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "simples-nacional",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "simples-nacional",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "simples-nacional",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "simples-nacional",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "pro-labore-e-lucros",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "pro-labore-e-lucros",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "pro-labore-e-lucros",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "pro-labore-e-lucros",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "pro-labore-e-lucros",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "pro-labore-e-lucros",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "pro-labore-e-lucros",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "pro-labore-e-lucros",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "departamento-pessoal",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "departamento-pessoal",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "departamento-pessoal",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "departamento-pessoal",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "departamento-pessoal",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "departamento-pessoal",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "departamento-pessoal",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "departamento-pessoal",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "calendario-fiscal",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "calendario-fiscal",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "calendario-fiscal",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "calendario-fiscal",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1905,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "calendario-fiscal",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "calendario-fiscal",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 375,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "calendario-fiscal",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "calendario-fiscal",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 345,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "404",
+    "width": 1366,
+    "height": 768,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "404",
+    "width": 1366,
+    "height": 768,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1366,
+    "scrollWidth": 1351,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "404",
+    "width": 1920,
+    "height": 1080,
+    "theme": "light",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1920,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "404",
+    "width": 1920,
+    "height": 1080,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 1920,
+    "scrollWidth": 1920,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "404",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 390,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "404",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 390,
+    "scrollWidth": 390,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "404",
+    "width": 360,
+    "height": 800,
+    "theme": "light",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 360,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  },
+  {
+    "pagina": "404",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "overflow": false,
+    "largura": 360,
+    "scrollWidth": 360,
+    "placeholders": false,
+    "mensagens": [],
+    "erros": [],
+    "http": [],
+    "axe": []
+  }
+]

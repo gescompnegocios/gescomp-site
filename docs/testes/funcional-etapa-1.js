@@ -21,6 +21,8 @@ async (paginaCompartilhada) => {
     contentType: r.request().url().endsWith('/embed.js') ? 'application/javascript; charset=utf-8' : 'text/html; charset=utf-8',
     body: r.request().url().endsWith('/embed.js') ? `window.instgrm={Embeds:{process:function(){document.querySelectorAll('blockquote.instagram-media').forEach(function(b){var f=document.createElement('iframe');f.className='instagram-media';f.style.height='420px';f.src=b.getAttribute('data-instgrm-permalink').split('?')[0]+'embed/';b.replaceWith(f);});}}};` : '<!doctype html><html lang="pt-BR"><body><button>Vídeo de teste</button></body></html>'
   }));
+  const cfgOriginal = await (await page.request.get(base + '/assets/js/config.js')).text();
+  await page.route('**/assets/js/config.js*', r => r.fulfill({contentType:'application/javascript',body:cfgOriginal+'\nwindow.GESCOMP_CONFIG.avaliacoes.itens=[];'}));
   await page.goto(base + '/', { waitUntil: 'networkidle' });
   conferir('Avaliações vazias escondidas', await page.locator('#avaliacoes').evaluate(e => e.hidden && getComputedStyle(e).display === 'none'));
   await page.evaluate(() => { window.__aberturas = []; window.open = (...args) => { window.__aberturas.push(args); return null; }; });
@@ -32,7 +34,7 @@ async (paginaCompartilhada) => {
   conferir('Formulário envia sem telefone', !formulario.required && mensagem.includes('Nome: Contato de teste') && mensagem.includes('Assunto: Outro assunto') && !mensagem.includes('Telefone:'), formulario);
   const chamadas = await page.locator('.gc-cabecalho-contato,a.btn').evaluateAll(es => es.filter(e => e.textContent.includes('Falar com a GESCOMP') || e.classList.contains('gc-cabecalho-contato')).map(e => e.href));
   conferir('Chamadas abrem WhatsApp direto', chamadas.length >= 2 && chamadas.every(u => new URL(u).hostname === 'wa.me'), chamadas);
-  const cfgOriginal = await (await page.request.get(base + '/assets/js/config.js')).text();
+  await page.unroute('**/assets/js/config.js*');
   const mensagens = {
     abrirEmpresa: 'Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?',
     contabilidade: 'Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?',
@@ -107,7 +109,7 @@ async (paginaCompartilhada) => {
   await page.unroute('**/assets/js/config.js*');
   await page.emulateMedia({reducedMotion:'no-preference'});
   await page.goto(base+'/',{waitUntil:'networkidle'});
-  conferir('Dados de teste removidos', await page.evaluate(() => window.GESCOMP_CONFIG.avaliacoes.itens.length === 0 && document.querySelector('#avaliacoes').hidden));
+  conferir('Dados de teste removidos, avaliações reais restauradas', await page.evaluate(() => window.GESCOMP_CONFIG.avaliacoes.itens.length === 3 && !document.querySelector('#avaliacoes').hidden && !document.querySelector('#avaliacoes').textContent.includes('Ana T.')));
   page.off('pageerror',onError);
   return resultados;
   } finally {

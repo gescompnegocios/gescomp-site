@@ -17,6 +17,8 @@
 body{margin:0;background:var(--chao);font-family:'Figtree','Segoe UI',system-ui,sans-serif;color:var(--texto2)}
 header{background:#003F4A;padding:14px 24px}
 main{max-width:640px;margin:0 auto;padding:96px 24px;display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.rio-ilustracao{display:block;width:100%;max-width:520px;height:auto;border-radius:20px}
+@media(max-width:600px){main{padding:48px 24px}}
 h1{margin:0;font-family:'Bricolage Grotesque',Georgia,serif;font-size:clamp(34px,6vw,52px);line-height:1.05;letter-spacing:-.03em;color:var(--titulo)}
 p{margin:0;font-size:18px;line-height:1.6}
 .botao{position:relative;display:inline-flex;align-items:center;min-height:54px;padding:16px 30px;color:#003F4A;font-weight:700;text-decoration:none;box-sizing:border-box;background:#F28A1E;border-radius:12px}
@@ -30,6 +32,7 @@ a:focus-visible{outline:3px solid #F28A1E;outline-offset:3px;box-shadow:0 0 0 3p
 <main>
 <h1>Página não encontrada.</h1>
 <p>O endereço que você acessou não existe ou foi alterado.</p>
+<img class="rio-ilustracao" src="/assets/img/rio-404.webp" width="1200" height="900" alt="" decoding="async">
 <a class="botao btn btn-primario" href="/"><span>Voltar para o site</span></a>
 </main>
 </body>

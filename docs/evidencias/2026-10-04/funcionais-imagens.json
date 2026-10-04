@@ -1,0 +1,209 @@
+[
+  {
+    "nome": "Avaliações vazias escondidas",
+    "aprovado": true
+  },
+  {
+    "nome": "Formulário envia sem telefone",
+    "aprovado": true,
+    "detalhe": {
+      "required": false,
+      "aberturas": [
+        [
+          "https://wa.me/5579988771430?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20GESCOMP%20e%20gostaria%20de%20atendimento.%0ANome%3A%20Contato%20de%20teste%0AAssunto%3A%20Outro%20assunto",
+          "_blank",
+          "noopener"
+        ]
+      ],
+      "status": "Abrimos o WhatsApp com a sua mensagem. Se não abriu, toque no botão verde do WhatsApp."
+    }
+  },
+  {
+    "nome": "Chamadas abrem WhatsApp direto",
+    "aprovado": true,
+    "detalhe": [
+      "https://wa.me/5579988771430?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20GESCOMP%20e%20gostaria%20de%20atendimento.",
+      "https://wa.me/5579988771430?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20GESCOMP%20e%20gostaria%20de%20atendimento."
+    ]
+  },
+  {
+    "nome": "Oito mensagens específicas",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "chave": "abrirEmpresa",
+        "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20abrir%20um%20CNPJ.%20Pode%20me%20orientar%3F",
+        "rel": "noopener",
+        "target": "_blank"
+      },
+      {
+        "chave": "contabilidade",
+        "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20contabilidade%20para%20a%20minha%20empresa.%20Como%20funciona%20e%20qual%20o%20valor%3F",
+        "rel": "noopener",
+        "target": "_blank"
+      },
+      {
+        "chave": "impostoRenda",
+        "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20fazer%20meu%20Imposto%20de%20Renda%20com%20voc%C3%AAs.%20Como%20funciona%3F",
+        "rel": "noopener",
+        "target": "_blank"
+      },
+      {
+        "chave": "regularizarBaixa",
+        "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20preciso%20regularizar%20ou%20dar%20baixa%20em%20um%20CNPJ.",
+        "rel": "noopener",
+        "target": "_blank"
+      },
+      {
+        "chave": "trabalhista",
+        "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20preciso%20de%20um%20c%C3%A1lculo%20trabalhista.",
+        "rel": "noopener",
+        "target": "_blank"
+      },
+      {
+        "chave": "regime",
+        "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20saber%20qual%20o%20melhor%20regime%20de%20impostos%20para%20a%20minha%20empresa.",
+        "rel": "noopener",
+        "target": "_blank"
+      },
+      {
+        "chave": "mei",
+        "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20sou%20MEI%20e%20quero%20saber%20se%20%C3%A9%20hora%20de%20deixar%20de%20ser%20MEI.",
+        "rel": "noopener",
+        "target": "_blank"
+      },
+      {
+        "chave": "consultoria",
+        "href": "https://wa.me/5579988771430?text=Ol%C3%A1%2C%20Gabriela!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20consultoria%20administrativa%20e%20financeira.",
+        "rel": "noopener",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "nome": "Foto ausente mantém painel sem img",
+    "aprovado": true
+  },
+  {
+    "nome": "Três avaliações renderizam com privacidade",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "cards": 3,
+      "autores": [
+        "Ana T.",
+        "Bruno T.",
+        "Carla T."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "4 de 5 estrelas",
+        "3 de 5 estrelas"
+      ],
+      "links": 1,
+      "fotos": 0,
+      "botoes": [
+        "none",
+        "none"
+      ],
+      "resumo": true,
+      "texto": "\n\n\n\nO que dizem nossos clientes\n\n\n\nAvaliar a GESCOMP no Google (abre em nova aba)\nVer todas as avaliações no Google (abre em nova aba)\n\n\n\n★★★★★5 de 5 estrelasAvaliação de teste — não publicar.Ana T.Ver avaliação no Google (abre em nova aba)★★★★★4 de 5 estrelas<img src=x onerror=alert(1)> Texto de teste — não publicar.Bruno T.★★★★★3 de 5 estrelasTerceira avaliação de teste — não publicar.Carla T.\n\n\n\n\n\n"
+    }
+  },
+  {
+    "nome": "Links e resumo vazios escondidos",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "cards": 3,
+      "autores": [
+        "Ana T.",
+        "Bruno T.",
+        "Carla T."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "4 de 5 estrelas",
+        "3 de 5 estrelas"
+      ],
+      "links": 1,
+      "fotos": 0,
+      "botoes": [
+        "none",
+        "none"
+      ],
+      "resumo": true,
+      "texto": "\n\n\n\nO que dizem nossos clientes\n\n\n\nAvaliar a GESCOMP no Google (abre em nova aba)\nVer todas as avaliações no Google (abre em nova aba)\n\n\n\n★★★★★5 de 5 estrelasAvaliação de teste — não publicar.Ana T.Ver avaliação no Google (abre em nova aba)★★★★★4 de 5 estrelas<img src=x onerror=alert(1)> Texto de teste — não publicar.Bruno T.★★★★★3 de 5 estrelasTerceira avaliação de teste — não publicar.Carla T.\n\n\n\n\n\n"
+    }
+  },
+  {
+    "nome": "Passagem real das avaliações após 8s",
+    "aprovado": true
+  },
+  {
+    "nome": "Embeds montados sem clique",
+    "aprovado": true
+  },
+  {
+    "nome": "Foco dentro do iframe impede passagem",
+    "aprovado": true,
+    "detalhe": {
+      "posicao": 4,
+      "posicaoDepois": 4
+    }
+  },
+  {
+    "nome": "Carrossel de prova passa sozinho",
+    "aprovado": true,
+    "detalhe": 180
+  },
+  {
+    "nome": "Mouse pausa",
+    "aprovado": true
+  },
+  {
+    "nome": "Saída do mouse retoma",
+    "aprovado": true
+  },
+  {
+    "nome": "Clique na seta permanece parado com mouse em cima",
+    "aprovado": true
+  },
+  {
+    "nome": "Após clique do mouse, sair da seta retoma",
+    "aprovado": true
+  },
+  {
+    "nome": "Foco pausa",
+    "aprovado": true
+  },
+  {
+    "nome": "Saída do foco retoma",
+    "aprovado": true
+  },
+  {
+    "nome": "Toque pausa",
+    "aprovado": true
+  },
+  {
+    "nome": "Soltar toque fora também retoma",
+    "aprovado": true
+  },
+  {
+    "nome": "Movimento reduzido impede passagem",
+    "aprovado": true
+  },
+  {
+    "nome": "Seta manual funciona com movimento reduzido",
+    "aprovado": true
+  },
+  {
+    "nome": "Sem erro de JavaScript do site",
+    "aprovado": true,
+    "detalhe": []
+  },
+  {
+    "nome": "Dados de teste removidos, avaliações reais restauradas",
+    "aprovado": true
+  }
+]

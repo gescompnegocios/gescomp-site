@@ -8,7 +8,8 @@ HTML, CSS e JavaScript puros, sem framework, bibliotecas adicionais ou etapa de 
 │   ├── *.html                 página inicial, informações e 404
 │   ├── assets/css/            site.css e estrutura.css
 │   ├── assets/js/             config.js, site.js e libras.js
-│   ├── assets/img/fotos/      fotos reais, quando entregues
+│   ├── assets/img/fotos/      imagens dos cards e futuros retratos reais
+│   ├── assets/img/capas/      capas ilustradas das Informações
 │   └── sitemap.xml, robots.txt, llms.txt, site.webmanifest, _headers
 ├── conteudo/                  cópias de textos para revisão
 ├── design/                    arquivos de referência anteriores
@@ -38,7 +39,7 @@ Para testar também o comportamento da hospedagem, o Wrangler já disponível po
 
 A página segue esta ordem: abertura → Como podemos ajudar (`#servicos`) → números → Quem é a Gabriela (`#sobre`) → avaliações → Instagram → faixa de Informações e dúvidas → chamada final → `#rio` → contato → rodapé.
 
-Abertura com texto à esquerda e imagem à direita; até o retrato chegar, aparece a arte de gráfico. Serviços com três cards e cinco linhas de Outros serviços. Fotos ausentes usam arte de espera, sem textos de espaço reservado. Requisitos e nomes em [imagens.md](docs/imagens.md). Implementação e revisão registradas em [handoff.md](docs/handoff.md).
+Abertura com texto à esquerda e o gráfico largo anterior à direita; a moldura orgânica aparece quando o retrato real carregar. Serviços com três cards fotográficos e cinco linhas de Outros serviços. Capas das Informações, ilustração da 404 e composição de compartilhamento foram geradas sem pessoas ou textos falsos. Fotos reais ausentes usam arte de espera. Requisitos e prompts em [imagens.md](docs/imagens.md). Implementação e revisão registradas em [handoff.md](docs/handoff.md).
 
 **O rio é protegido:** preservar animações, cores, filtros da cena, enquadramento e aparência em claro/escuro. O usuário confirmou duas áreas de ajuste implementadas pelo Claude: placa “GESCOMP” na casa e correção da onda (cobertura da borda e retirada do filtro só do path de transição, para ficar liso). A validação estática compara todo o restante com o commit base. Os prints ficam em `docs/evidencias/2026-10-04/`.
 
@@ -88,7 +89,7 @@ O formulário abre uma mensagem com nome e assunto. Telefone e mensagem são opc
 
 ## Avaliações
 
-Em `config.js`, `avaliacoes` contém `linkAvaliar`, `linkVerTodas`, `nota`, `total` e `itens: [{ nome, texto, estrelas, link }]`. Os links do perfil do Google já foram informados; nota 5,0 e total 28 foram conferidos no perfil em 04/10/2026. **A lista `itens` permanece vazia** até a escolha e aprovação dos textos reais pela Gabriela, e a seção fica escondida.
+Em `config.js`, `avaliacoes` contém `linkAvaliar`, `linkVerTodas`, `nota`, `total` e `itens: [{ nome, texto, estrelas, link }]`. Nota 5,0 e total 28 conferidos no perfil em 04/10/2026. Após autorização direta do usuário, três avaliações reais foram selecionadas; os links levam ao perfil de origem no Google. A fonte e os trechos estão registrados em [avaliacoes-google-selecionadas.json](docs/evidencias/2026-10-04/avaliacoes-google-selecionadas.json).
 
 - A seção fica escondida sem itens válidos. Cada item precisa de nome, texto e estrelas inteiras de 1 a 5; dados incompletos não recebem uma nota inventada.
 - O site mostra só primeiro nome e inicial do último sobrenome, sem foto. As estrelas têm texto acessível, por exemplo “5 de 5 estrelas”. O texto é inserido por `textContent`.
@@ -118,7 +119,7 @@ As páginas de Informações mantêm suas datas de revisão e regras existentes.
 
 ## Próximas entregas
 
-Fotos reais otimizadas, textos das avaliações escolhidas e aprovação das respostas de contratação em [perguntas-para-aprovar.md](docs/perguntas-para-aprovar.md). Essas respostas são internas e não podem entrar no site antes da aprovação. Os links e dados gerais do Google já estão configurados (fonte no handoff).
+Retratos reais da Gabriela, foto real do escritório e aprovação das respostas de contratação em [perguntas-para-aprovar.md](docs/perguntas-para-aprovar.md). Essas respostas são internas e não podem entrar no site antes da aprovação. Avaliações reais e imagens dos cards/capas já estão configuradas; detalhes no handoff e em [imagens.md](docs/imagens.md).
 
 Para ativar uma foto entregue, adicionar seu caminho a `fotos` em `config.js`, por exemplo `'/assets/img/fotos/gabriela-retrato.webp'`. O HTML define `data-foto` e `data-foto-alt` na `.foto-moldura`. Só uma foto listada é buscada; após o carregamento a moldura recebe `.tem-foto`. Um erro de carga remove a imagem e mantém a arte de espera. Não listar arquivos que ainda não existem.
 

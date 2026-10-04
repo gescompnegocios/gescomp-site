@@ -92,7 +92,7 @@ body{background:var(--chao)}
 [data-theme="dark"] .btn-escuro{background:#1E727D}
 [data-theme="dark"] .btn-escuro:hover{background:#0B5963}
 .btn-contorno{background:transparent;border:2px solid #0B5963}
-.btn-contorno:hover{background:rgba(11,89,99,.08)}
+.btn-contorno:hover{background:rgba(11,89,99,.08);color:var(--titulo)}
 [data-theme="dark"] .btn-contorno{border-color:#5FA3A8}
 [data-theme="dark"] .btn-contorno:hover{background:rgba(95,163,168,.14)}
 .btn-contorno-claro{background:transparent;border:2px solid #8FC1C3}
@@ -214,6 +214,14 @@ body{background:var(--chao)}
 .confianca li{display:flex;align-items:center;gap:8px}
 .confianca svg{flex-shrink:0;width:19px;height:19px;fill:none;stroke:var(--ambar);stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
 .abertura-imagem{position:relative;justify-self:center;width:100%;max-width:440px;padding:18px 26px 34px;box-sizing:border-box}
+.abertura-imagem .moldura-organica{display:none}
+.abertura-imagem.tem-retrato .moldura-organica{display:block}
+.abertura-imagem.tem-retrato .grafico-anterior{display:none}
+.grafico-anterior{padding:32px 0 24px}
+.grafico-anterior svg{display:block;width:100%;height:auto;overflow:visible}
+.assunto-capa{display:block;width:100%;max-width:440px;height:auto;justify-self:center;border-radius:20px}
+.assunto-miniatura{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.assunto-cartao{display:flex;flex-direction:column;overflow:hidden}
 @media (max-width:899px){.abertura-imagem{max-width:300px;padding:14px 18px 28px}}
 .moldura-organica{position:relative}
 .moldura-organica .foto-moldura{aspect-ratio:4/5;border-radius:46% 54% 44% 56% / 52% 46% 54% 48%;--painel:#0B6A71}
@@ -278,6 +286,7 @@ body{background:var(--chao)}
 
 /* Avaliações: link para a avaliação no Google (montado pelo JS do Codex) */
 .avaliacao-link{align-self:flex-start;font-size:15px;font-weight:600;color:var(--fotoTexto);text-decoration:underline;text-underline-offset:3px}
+.avaliacao-link:hover{color:var(--titulo)}
 
 /* Revelação suave ao rolar (o JS põe .js-revelar no <html> e .revelado em cada item, uma vez só) */
 @media (prefers-reduced-motion:no-preference){

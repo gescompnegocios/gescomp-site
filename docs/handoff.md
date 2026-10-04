@@ -245,4 +245,38 @@ O usuário respondeu diretamente: **“Codex pode concluir esse ajuste no HTML�
 
 Claude: o item 1 está concluído; não precisa aplicar novamente. Os quatro itens da revisão estão resolvidos. As notas anteriores que dizem “aguarda body” e “nenhuma edição de body pelo Codex” são anteriores a essa autorização explícita.
 
-Os resultados finais são 72 casos na matriz, 23 testes funcionais e 20 de interação; nomes das cinco linhas conferidos, sem duplicação ou concatenação nome/preço. Lighthouse final 100/100 no celular e computador. Falta apenas criar o commit local após a conferência do diff; push/deploy continuam proibidos pelo protocolo.
+Os resultados finais são 72 casos na matriz, 23 testes funcionais e 20 de interação; nomes das cinco linhas conferidos, sem duplicação ou concatenação nome/preço. Lighthouse final 100/100 no celular e computador. Esse fechamento foi versionado no commit local `c390783`; push/deploy continuam proibidos pelo protocolo.
+
+## 04/10/2026 — nova revisão solicitada pelo usuário (Codex em andamento)
+
+O fechamento anterior está no commit local `c390783`. O usuário trouxe uma orientação posterior do Claude sobre imagens: estilo livre, sem pessoas, textos ou logos falsos; os cards seguem uma série fotográfica, capas uma série própria, 404 com ilustração de rio e compartilhamento com composição gráfica. Retratos de Gabriela continuam reservados às fotos reais. Codex assume esta rodada, incluindo os ajustes visuais pedidos diretamente pelo usuário: recuperar o gráfico anterior, restaurar o acesso flutuante ao WhatsApp e corrigir hover do menu. Não editar o rio, seus estilos nem animações.
+
+O usuário também autorizou selecionar avaliações reais do Google. Buscar a fonte e registrar os textos selecionados; não criar depoimentos. Claude: aguardar a conclusão desta rodada antes de editar os mesmos arquivos. Commit local ao concluir; a proibição de push/deploy continua vigente.
+
+## 04/10/2026 — revisão de imagens CONCLUÍDA (Codex)
+
+### Entrega e decisões
+
+- **Abertura:** recuperado o desenho anterior do gráfico, com barras, sol pintado e curva larga, sem o recorte oval. O texto e os selos atuais continuam. A moldura orgânica fica reservada ao retrato real; quando ele carregar, substitui o gráfico. Sem foto, ou em caso de erro, o gráfico permanece. Não foi gerado retrato de Gabriela.
+- **WhatsApp:** o botão flutuante existia, mas o JS o escondia até 640 px de rolagem e na seção de contato. Essas duas condições foram retiradas. Continua escondido temporariamente somente quando cobrir arte/selos, carrosséis ou formulário no celular; o link do cabeçalho continua disponível. Não altera o botão pintado nem a seção do rio.
+- **Hover:** a regra geral `a:hover` deixava links com a cor do cabeçalho. Estados explícitos em estrutura.css mantêm contraste no menu e rodapé. Botão com contorno e links das avaliações também ficam legíveis no modo escuro.
+- **Avaliações reais:** o usuário autorizou a seleção no Google. Incluídos Yasmin Dantas, Simone Soares e um trecho literal de Marcelo Melo da Silva, todos com cinco estrelas. O site mostra primeiro nome e inicial, sem fotos. Links levam ao perfil de origem, pois não foi concluída a extração dos links individuais. Fonte e texto conferidos em [avaliacoes-google-selecionadas.json](evidencias/2026-10-04/avaliacoes-google-selecionadas.json). Nenhum dado de Review/AggregateRating no JSON-LD.
+- **13 imagens:** três cards fotográficos de objetos, oito capas de colagem com estilo comum, uma ilustração nova de rio para a 404 e uma composição gráfica para compartilhamento. Sem pessoas, textos ou logos falsos. Todas em WebP, abaixo de 300 KB; cards/capas/404 em 1200×900 e compartilhamento em 1200×630. A composição de compartilhamento usa um nome novo; metadados e JSON-LD das nove páginas atualizados. Originais gerados com `imagegen` integrada; Pillow somente para tamanho/recorte/conversão e folha de contato de inspeção.
+- **Arquivos principais:** index.html, oito páginas de Informações, 404.html, site.css, estrutura.css, site.js e config.js; treze WebP em assets/img/fotos, capas e assets/img; LEIA-ME, decisões, pendências, imagens, colaboração e testes/evidências. Não alterado HTML/CSS/animações do rio.
+- **Imagens e prompts:** [imagens.md](imagens.md), [manifesto com prompts](evidencias/2026-10-04/imagens-geradas.json), [folha de contato](evidencias/2026-10-04/contato-imagens-geradas.jpg). Capas são usadas nas aberturas e nas sete linhas de assuntos. Confirmado o carregamento das sete miniaturas após rolar, respeitando lazy loading; captura atualizada após a carga, sem cabeçalho sobreposto apenas na evidência.
+
+### Verificação desta rodada (executada)
+
+- **80 cenários:** dez páginas incluindo 404, quatro larguras (1366, 1920, 390, 360) e dois temas. Zero rolagem lateral, espaço reservado visível, erros locais e violações WCAG A/AA detectadas pelo axe. Serviços externos simulados apenas nesta matriz. [matriz-imagens.json](evidencias/2026-10-04/matriz-imagens.json).
+- **47 verificações específicas:** hover do menu e links das avaliações com contraste AA, gráfico anterior, três imagens dos cards, avaliações reais sem fotos, WhatsApp visível no início em desktop e troca/fallback do futuro retrato. Fixtures de retrato apenas no navegador. [revisao-imagens.json](evidencias/2026-10-04/revisao-imagens.json).
+- **23 testes funcionais:** lista vazia escondida, três avaliações de teste, dados seguros e privacidade, formulário sem telefone, mensagens e pausas/retomadas dos carrosséis por mouse, seta, teclado, toque, iframe e movimento reduzido. Ao terminar, os três depoimentos reais são restaurados. [funcionais-imagens.json](evidencias/2026-10-04/funcionais-imagens.json).
+- **20 testes de interação:** teclado, WhatsApp, menu/FAQ, movimento real de barco/coqueiro/pássaro, transição sol/lua e proteção dos lançadores móveis com VLibras real. Instagram real: cinco iframes prontos, sem erros no cenário observado. A observação de serviços externos é um registro adicional, não um teste reprovado. [interacoes-imagens.json](evidencias/2026-10-04/interacoes-imagens.json).
+- **Lighthouse acessibilidade 100/100:** [celular](evidencias/2026-10-04/lighthouse-imagens-mobile.report.html) e [computador](evidencias/2026-10-04/lighthouse-imagens-desktop.report.html). Não foi executada uma auditoria de desempenho.
+- **Rio idêntico:** HTML e regras da cena iguais ao commit c390783. Antes reconstruído desse commit no navegador; depois atual, com a mesma câmera, fontes e animações congeladas só para captura. Nos oito pares, modos claro/escuro e quatro larguras, **zero pixels diferentes**. [rio-imagens-comparacao.json](evidencias/2026-10-04/rio-imagens-comparacao.json). Capturas: rio-imagens-antes/depois-light/dark-*.png.
+- **Sintaxe/SEO:** node --check nos dois scripts, validação estática, diff --check e busca dos endereços antigos aprovados. [validacao-estatica-imagens.json](evidencias/2026-10-04/validacao-estatica-imagens.json). Nenhuma dependência adicionada ao site.
+
+### Para o Claude e pendências
+
+Esta rodada está concluída; não reaplicar o gráfico oval nem retirar avaliações/WhatsApp. As mudanças visuais desta rodada foram pedidas diretamente pelo usuário, após a divisão inicial dos arquivos. Código e evidências prontos para revisão, sem trabalho simultâneo do outro agente.
+
+Faltam somente retratos reais da Gabriela, foto real do escritório e aprovação das quatro respostas de contratação. Avaliações e imagens dos serviços estão entregues. A versão local ainda precisa de publicação externa autorizada; nenhuma ação de produção, push ou deploy foi realizada. Entrega versionada em commit local descritivo na main; consultar git log para o hash desta entrega.

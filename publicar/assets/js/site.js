@@ -19,14 +19,13 @@ var fechar=document.querySelectorAll('[data-fecha-menu]');
 for(var j=0;j<fechar.length;j++)fechar[j].addEventListener('click',function(){menu(false);});
 document.addEventListener('keydown',function(ev){if(ev.key==='Escape'&&mm&&!mm.hidden){menu(false);bm.focus();}});
 var mq=window.matchMedia('(max-width: 779px)');
-var fab=document.getElementById('fab'),contato=document.getElementById('contato');
+var fab=document.getElementById('fab');
 var displayFab=fab?fab.style.display:'';
 function sobrepoe(a,b){return a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top;}
-function atualizarFab(){var rolou=(window.scrollY||0)>640;var noContato=false;
-if(contato){var r=contato.getBoundingClientRect();noContato=r.top<window.innerHeight*0.7&&r.bottom>0;}
+function atualizarFab(){
 var areas=document.querySelectorAll('#inicio .abertura-imagem,#inicio .selo,#instagram [data-carrossel],#avaliacoes [data-carrossel],#form-contato');
 function cobre(el){if(!el||!mq.matches)return false;var b=el.getBoundingClientRect();for(var n=0;n<areas.length;n++){var a=areas[n];if(a.getClientRects().length&&sobrepoe(b,a.getBoundingClientRect()))return true;}return false;}
-if(fab){fab.classList.remove('oculto');fab.style.display=displayFab;var ocultar=!rolou||noContato||cobre(fab);if(document.activeElement!==fab){fab.classList.toggle('oculto',ocultar);fab.style.display=ocultar?'none':displayFab;}}
+if(fab){fab.classList.remove('oculto');fab.style.display=displayFab;var ocultar=cobre(fab);if(document.activeElement!==fab){fab.classList.toggle('oculto',ocultar);fab.style.display=ocultar?'none':displayFab;}}
 // Oculta apenas o lançador fechado do VLibras se ele cobrir controles; o painel aberto permanece utilizável.
 var widget=window.VLibrasWidget,acesso=widget&&widget.access;
 if(acesso){var raizWidget=acesso.getRootNode();var focado=acesso.contains(document.activeElement)||acesso.contains(raizWidget.activeElement);var ocultarLibras=cobre(acesso)&&!focado;var visibilidade=ocultarLibras?'hidden':'',ponteiro=ocultarLibras?'none':'';if(acesso.style.visibility!==visibilidade)acesso.style.visibility=visibilidade;if(acesso.style.pointerEvents!==ponteiro)acesso.style.pointerEvents=ponteiro;}
@@ -345,8 +344,9 @@ for(var i=0;i<molduras.length;i++)(function(moldura){
 var caminho=moldura.getAttribute('data-foto');
 if(moldura.closest('#rio')||fotos.indexOf(caminho)<0||!/^\/assets\/img\/fotos\/[A-Za-z0-9._-]+\.webp$/.test(caminho))return;
 var img=document.createElement('img');img.alt=moldura.getAttribute('data-foto-alt')||'';img.decoding='async';img.loading=moldura.closest('#inicio')?'eager':'lazy';img.style.visibility='hidden';
-img.addEventListener('load',function(){img.style.visibility='';moldura.classList.add('tem-foto');});
-img.addEventListener('error',function(){img.remove();moldura.classList.remove('tem-foto');});
+img.width=1200;img.height=moldura.closest('.ajuda-card')?900:1500;
+img.addEventListener('load',function(){img.style.visibility='';moldura.classList.add('tem-foto');var abertura=moldura.closest('.abertura-imagem');if(abertura)abertura.classList.add('tem-retrato');});
+img.addEventListener('error',function(){img.remove();moldura.classList.remove('tem-foto');var abertura=moldura.closest('.abertura-imagem');if(abertura)abertura.classList.remove('tem-retrato');});
 img.src=caminho;moldura.appendChild(img);
 })(molduras[i]);
 })();

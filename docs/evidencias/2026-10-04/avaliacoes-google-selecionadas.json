@@ -1,0 +1,14 @@
+{
+  "data": "2026-10-04",
+  "fonte": "https://www.google.com/maps/search/?api=1&query=GESCOMP&query_place_id=ChIJqQk9uSS1GgcRaEAeH0T-vUU",
+  "metodo": "Leitura do perfil público no Google Maps, após abrir a nota 5,0; três avaliações apresentadas na página. Sem login, API privada ou envio de mensagens.",
+  "autorizacao": "O usuário respondeu: Selecionar avaliações reais do Google.",
+  "nota": 5,
+  "total": 28,
+  "itens": [
+    {"nome": "Yasmin Dantas", "texto": "A melhor contadora!\nConfio demais em Gabi", "estrelas": 5, "trecho": false},
+    {"nome": "Simone Soares", "texto": "Atendimento de qualidade. Super indico", "estrelas": 5, "trecho": false},
+    {"nome": "Marcelo Melo da Silva", "texto": "Empresa com grande profissionalismo, dúvidas tiradas com clareza, atendimento excepcional. Desde que conheci não larguei!", "estrelas": 5, "trecho": true}
+  ],
+  "observacao": "Os links levam ao perfil de origem; a extração de links individuais no diálogo de compartilhamento não foi concluída. Exibir somente primeiro nome e inicial, sem foto. Não adicionar Review ou AggregateRating ao JSON-LD."
+}

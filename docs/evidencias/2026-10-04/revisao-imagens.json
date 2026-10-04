@@ -1,0 +1,647 @@
+[
+  {
+    "nome": "Menu visível no hover 1366/light",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "texto": "Sobre",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Serviços",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Informações",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Contato",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      }
+    ]
+  },
+  {
+    "nome": "WhatsApp visível desde a abertura 1366/light",
+    "aprovado": true
+  },
+  {
+    "nome": "Gráfico largo anterior 1366/light",
+    "aprovado": true
+  },
+  {
+    "nome": "Três imagens dos cards 1366/light",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "/assets/img/fotos/card-abrir-empresa.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-contabilidade.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-imposto-de-renda.webp",
+        "largura": 1200,
+        "altura": 900
+      }
+    ]
+  },
+  {
+    "nome": "Avaliações reais sem fotos 1366/light",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "nomes": [
+        "Yasmin D.",
+        "Simone S.",
+        "Marcelo S."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "5 de 5 estrelas",
+        "5 de 5 estrelas"
+      ],
+      "fotos": 0
+    }
+  },
+  {
+    "nome": "Link da avaliação visível no hover 1366/light",
+    "aprovado": true,
+    "detalhe": {
+      "cor": "rgb(0, 63, 74)",
+      "fundo": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "nome": "Menu visível no hover 1366/dark",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "texto": "Sobre",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Serviços",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Informações",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Contato",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      }
+    ]
+  },
+  {
+    "nome": "WhatsApp visível desde a abertura 1366/dark",
+    "aprovado": true
+  },
+  {
+    "nome": "Gráfico largo anterior 1366/dark",
+    "aprovado": true
+  },
+  {
+    "nome": "Três imagens dos cards 1366/dark",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "/assets/img/fotos/card-abrir-empresa.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-contabilidade.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-imposto-de-renda.webp",
+        "largura": 1200,
+        "altura": 900
+      }
+    ]
+  },
+  {
+    "nome": "Avaliações reais sem fotos 1366/dark",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "nomes": [
+        "Yasmin D.",
+        "Simone S.",
+        "Marcelo S."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "5 de 5 estrelas",
+        "5 de 5 estrelas"
+      ],
+      "fotos": 0
+    }
+  },
+  {
+    "nome": "Link da avaliação visível no hover 1366/dark",
+    "aprovado": true,
+    "detalhe": {
+      "cor": "rgb(241, 245, 244)",
+      "fundo": "rgb(18, 63, 70)"
+    }
+  },
+  {
+    "nome": "Menu visível no hover 1920/light",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "texto": "Sobre",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Serviços",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Informações",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Contato",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      }
+    ]
+  },
+  {
+    "nome": "WhatsApp visível desde a abertura 1920/light",
+    "aprovado": true
+  },
+  {
+    "nome": "Gráfico largo anterior 1920/light",
+    "aprovado": true
+  },
+  {
+    "nome": "Três imagens dos cards 1920/light",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "/assets/img/fotos/card-abrir-empresa.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-contabilidade.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-imposto-de-renda.webp",
+        "largura": 1200,
+        "altura": 900
+      }
+    ]
+  },
+  {
+    "nome": "Avaliações reais sem fotos 1920/light",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "nomes": [
+        "Yasmin D.",
+        "Simone S.",
+        "Marcelo S."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "5 de 5 estrelas",
+        "5 de 5 estrelas"
+      ],
+      "fotos": 0
+    }
+  },
+  {
+    "nome": "Link da avaliação visível no hover 1920/light",
+    "aprovado": true,
+    "detalhe": {
+      "cor": "rgb(0, 63, 74)",
+      "fundo": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "nome": "Menu visível no hover 1920/dark",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "texto": "Sobre",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Serviços",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Informações",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Contato",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      }
+    ]
+  },
+  {
+    "nome": "WhatsApp visível desde a abertura 1920/dark",
+    "aprovado": true
+  },
+  {
+    "nome": "Gráfico largo anterior 1920/dark",
+    "aprovado": true
+  },
+  {
+    "nome": "Três imagens dos cards 1920/dark",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "/assets/img/fotos/card-abrir-empresa.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-contabilidade.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-imposto-de-renda.webp",
+        "largura": 1200,
+        "altura": 900
+      }
+    ]
+  },
+  {
+    "nome": "Avaliações reais sem fotos 1920/dark",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "nomes": [
+        "Yasmin D.",
+        "Simone S.",
+        "Marcelo S."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "5 de 5 estrelas",
+        "5 de 5 estrelas"
+      ],
+      "fotos": 0
+    }
+  },
+  {
+    "nome": "Link da avaliação visível no hover 1920/dark",
+    "aprovado": true,
+    "detalhe": {
+      "cor": "rgb(241, 245, 244)",
+      "fundo": "rgb(18, 63, 70)"
+    }
+  },
+  {
+    "nome": "Menu visível no hover 390/light",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "texto": "Sobre",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Informações",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Serviços",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Contato",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      }
+    ]
+  },
+  {
+    "nome": "Gráfico largo anterior 390/light",
+    "aprovado": true
+  },
+  {
+    "nome": "Três imagens dos cards 390/light",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "/assets/img/fotos/card-abrir-empresa.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-contabilidade.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-imposto-de-renda.webp",
+        "largura": 1200,
+        "altura": 900
+      }
+    ]
+  },
+  {
+    "nome": "Avaliações reais sem fotos 390/light",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "nomes": [
+        "Yasmin D.",
+        "Simone S.",
+        "Marcelo S."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "5 de 5 estrelas",
+        "5 de 5 estrelas"
+      ],
+      "fotos": 0
+    }
+  },
+  {
+    "nome": "Link da avaliação visível no hover 390/light",
+    "aprovado": true,
+    "detalhe": {
+      "cor": "rgb(0, 63, 74)",
+      "fundo": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "nome": "Menu visível no hover 390/dark",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "texto": "Sobre",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Informações",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Serviços",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Contato",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      }
+    ]
+  },
+  {
+    "nome": "Gráfico largo anterior 390/dark",
+    "aprovado": true
+  },
+  {
+    "nome": "Três imagens dos cards 390/dark",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "/assets/img/fotos/card-abrir-empresa.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-contabilidade.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-imposto-de-renda.webp",
+        "largura": 1200,
+        "altura": 900
+      }
+    ]
+  },
+  {
+    "nome": "Avaliações reais sem fotos 390/dark",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "nomes": [
+        "Yasmin D.",
+        "Simone S.",
+        "Marcelo S."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "5 de 5 estrelas",
+        "5 de 5 estrelas"
+      ],
+      "fotos": 0
+    }
+  },
+  {
+    "nome": "Link da avaliação visível no hover 390/dark",
+    "aprovado": true,
+    "detalhe": {
+      "cor": "rgb(241, 245, 244)",
+      "fundo": "rgb(18, 63, 70)"
+    }
+  },
+  {
+    "nome": "Menu visível no hover 360/light",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "texto": "Sobre",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Informações",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Serviços",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Contato",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      }
+    ]
+  },
+  {
+    "nome": "Gráfico largo anterior 360/light",
+    "aprovado": true
+  },
+  {
+    "nome": "Três imagens dos cards 360/light",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "/assets/img/fotos/card-abrir-empresa.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-contabilidade.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-imposto-de-renda.webp",
+        "largura": 1200,
+        "altura": 900
+      }
+    ]
+  },
+  {
+    "nome": "Avaliações reais sem fotos 360/light",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "nomes": [
+        "Yasmin D.",
+        "Simone S.",
+        "Marcelo S."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "5 de 5 estrelas",
+        "5 de 5 estrelas"
+      ],
+      "fotos": 0
+    }
+  },
+  {
+    "nome": "Link da avaliação visível no hover 360/light",
+    "aprovado": true,
+    "detalhe": {
+      "cor": "rgb(0, 63, 74)",
+      "fundo": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "nome": "Menu visível no hover 360/dark",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "texto": "Sobre",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Informações",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Serviços",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      },
+      {
+        "texto": "Contato",
+        "cor": "rgb(255, 181, 71)",
+        "contraste": 6.604029851037265
+      }
+    ]
+  },
+  {
+    "nome": "Gráfico largo anterior 360/dark",
+    "aprovado": true
+  },
+  {
+    "nome": "Três imagens dos cards 360/dark",
+    "aprovado": true,
+    "detalhe": [
+      {
+        "src": "/assets/img/fotos/card-abrir-empresa.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-contabilidade.webp",
+        "largura": 1200,
+        "altura": 900
+      },
+      {
+        "src": "/assets/img/fotos/card-imposto-de-renda.webp",
+        "largura": 1200,
+        "altura": 900
+      }
+    ]
+  },
+  {
+    "nome": "Avaliações reais sem fotos 360/dark",
+    "aprovado": true,
+    "detalhe": {
+      "hidden": false,
+      "nomes": [
+        "Yasmin D.",
+        "Simone S.",
+        "Marcelo S."
+      ],
+      "estrelas": [
+        "5 de 5 estrelas",
+        "5 de 5 estrelas",
+        "5 de 5 estrelas"
+      ],
+      "fotos": 0
+    }
+  },
+  {
+    "nome": "Link da avaliação visível no hover 360/dark",
+    "aprovado": true,
+    "detalhe": {
+      "cor": "rgb(241, 245, 244)",
+      "fundo": "rgb(18, 63, 70)"
+    }
+  },
+  {
+    "nome": "Retrato liberado troca o gráfico pela moldura (fixture)",
+    "aprovado": true
+  },
+  {
+    "nome": "Erro de retrato mantém gráfico, sem imagem quebrada",
+    "aprovado": true
+  },
+  {
+    "nome": "Sem erros de JavaScript",
+    "aprovado": true,
+    "detalhe": []
+  }
+]
