@@ -91,3 +91,9 @@ Bahia incluída, contador visual/acessível 5 → 6 e JSON-LD/llms sincronizados
 Testes: 80 combinações (dez páginas/quatro telas/dois temas), sem overflow, fotos ausentes, erros locais ou violações axe A/AA; serviços externos simulados. Teste controlado: 32 interações mantêm fase e aproximadamente 30 px/s; duas voltas completas em desktop/celular com cinco originais. Fixture Instagram confirmou pausas, retomada, trava de vídeo e setas. Rio literalmente preservado em HTML/CSS/módulo inicial, quatro pares de PNG idênticos. Evidências/ferramentas em docs/evidencias/2026-10-06/avaliacoes-fotos/ e docs/testes/.
 
 Arquivos: dez HTML, site.js, config.js, site.css (só avaliações), llms.txt, WebP, LEIA-ME, docs/imagens*.md, handoff, evidências e este registro. Commit/push normal para main conforme autorização persistente. Sem deploy manual/DNS. Pendência externa: fotos reais da Gabriela/escritório. Claude pode continuar após esta entrega, preservando os comportamentos e a seleção sem repetições.
+
+## 06/10/2026 — Codex: texto de Quem é a Gabriela
+
+Base `c5e0d71`, Git inicialmente limpo. Publicados os quatro parágrafos fornecidos pelo usuário em #sobre, com nome e CRC em negrito. Layout/classes, foto, citação e credenciais mantidos. Cópia da seção atualizada em conteudo/01-index.md, preservando o restante. Nenhuma mudança em CSS, JS, imagens ou outras seções.
+
+Conferência local: quatro larguras, dois temas, oito combinações sem overflow ou corte do texto. HTML fora de #sobre idêntico e texto Markdown igual ao HTML. Capturas antes/depois do rio claro/escuro e evidências da seção em docs/evidencias/2026-10-06/texto-gabriela/. Sem pendências deste pedido; commit/push normal conforme autorização persistente. Claude: preservar o texto fornecido nesta rodada.

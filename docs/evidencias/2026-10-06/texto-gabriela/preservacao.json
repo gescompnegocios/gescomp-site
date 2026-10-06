@@ -1,0 +1,17 @@
+{
+  "baseline": "c5e0d71",
+  "htmlForaDeSobreIdentico": true,
+  "textoMarkdownIgualHTML": true,
+  "capturasRio": [
+    {
+      "tema": "light",
+      "pixelsDiferentes": 0,
+      "diferencaMaxima": 0
+    },
+    {
+      "tema": "dark",
+      "pixelsDiferentes": 0,
+      "diferencaMaxima": 0
+    }
+  ]
+}

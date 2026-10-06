@@ -491,3 +491,11 @@ Conferências executadas:
 Capturas em `docs/evidencias/2026-10-06/avaliacoes-fotos/`: `servicos|avaliacoes|numeros|informacoes|rio-antes|depois-light|dark-1366|360.png`. Serviços: [antes](evidencias/2026-10-06/avaliacoes-fotos/servicos-antes-light-1366.png) / [depois](evidencias/2026-10-06/avaliacoes-fotos/servicos-depois-light-1366.png). Avaliações: [antes](evidencias/2026-10-06/avaliacoes-fotos/avaliacoes-antes-light-1366.png) / [depois](evidencias/2026-10-06/avaliacoes-fotos/avaliacoes-depois-light-1366.png). [Celular](evidencias/2026-10-06/avaliacoes-fotos/avaliacoes-depois-light-360.png).
 
 Arquivos: dez HTML, site.js, config.js, site.css (só avaliações), llms.txt, 28 WebP, LEIA-ME, docs/imagens*.md, ferramentas/evidências, handoff e colaboração. Claude: manter avaliações exclusivamente automáticas e fotos distintas com fontes CC0. Fotos reais da Gabriela/escritório continuam pendentes da cliente; nenhuma pendência de código deste pedido. Commit/push normal para main conforme autorização já registrada; consultar o Git para o hash. Sem deploy manual ou mudança de DNS.
+
+## 06/10/2026 — Codex: texto aprovado de Quem é a Gabriela (CONCLUÍDO)
+
+Pedido direto do usuário aplicado em `publicar/index.html`: substituídos os dois parágrafos pelos quatro fornecidos, exatamente, com nome completo e CRC em `<strong>`. Título, classes/estilos, moldura da foto, citação lateral e credenciais mantidos. Cópia da seção sincronizada em `conteudo/01-index.md`; demais textos desse arquivo não foram revisados.
+
+Git limpo na base `c5e0d71`, sem alterações simultâneas de outro agente. Conferência local no navegador em 1366×768, 1920×1080, 390×844 e 360×800, ambos os temas: oito combinações sem rolagem lateral ou corte do texto; quatro parágrafos e dois trechos em negrito conferidos. Comparação comprovou HTML fora de #sobre literalmente idêntico e igualdade do texto publicado com a cópia Markdown. Sem mudanças em CSS/JS ou imagens. Capturas do rio antes/depois em claro/escuro preservadas em `docs/evidencias/2026-10-06/texto-gabriela/`, junto às capturas da seção e relatórios.
+
+Arquivos: index.html, conteudo/01-index.md, evidências desta alteração e registros de colaboração. Nenhuma pendência deste pedido. Fechamento com commit/push normal para main conforme autorização vigente; sem deploy manual/DNS.

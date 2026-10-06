@@ -1,4 +1,4 @@
-<!-- Texto da página "Página inicial" (/), extraído do site para revisão. Atualizado em 01/10/2026. -->
+<!-- Texto da página "Página inicial" (/), extraído do site para revisão. Atualizado em 01/10/2026; seção Quem é a Gabriela revisada em 06/10/2026. -->
 
 [Foto da Gabriela]
 Gabriela do Nascimento Vieira Contadora responsável, CRC 009186/SE
@@ -10,9 +10,15 @@ Falar no WhatsApp Ver os serviços
 - Atendimento online
 [Foto real da equipe ou do escritório]
 
-## Um escritório que acompanha de perto cada cliente.
-A GESCOMP – Gestão Empresarial e Planejamento Contábil oferece soluções completas para você e para empresas em geral. Atuamos com abertura, regularização e baixa de CNPJ, contabilidade para empresas, declarações de Imposto de Renda, consultoria administrativa e financeira, entre outros serviços.
-Nosso objetivo é que você não precise se preocupar com a parte burocrática: mantemos sua empresa em conformidade com a lei e com a melhor tributação possível para o crescimento do seu negócio. À frente do escritório está a contadora Gabriela do Nascimento Vieira, que trabalha com contabilidade desde 2014.
+## Quem é a Gabriela
+
+Por trás da GESCOMP está uma contadora que acredita que a contabilidade pode ser simples, próxima e fazer sentido para quem empreende.
+
+**Gabriela do Nascimento Vieira** é contadora registrada no CRC de Sergipe, sob o nº **009186/SE**, e atua na área contábil desde 2014. Depois de anos de experiência em escritório, criou a GESCOMP com um propósito claro: oferecer uma contabilidade mais humana, acessível e próxima da realidade de cada cliente.
+
+No escritório, em Barra dos Coqueiros, de frente para o Rio Sergipe, ou no atendimento online, é com a própria Gabriela que você fala. Ela acompanha cada caso de perto, desde a abertura, regularização e baixa de CNPJ até a contabilidade da empresa, Imposto de Renda, cálculos trabalhistas e consultoria financeira.
+
+Na GESCOMP, contabilidade não se resume a cumprir obrigações. O objetivo é transformar números e informações em clareza para que empresas e pessoas possam se organizar melhor, tomar decisões com mais segurança e crescer de forma sustentável.
 
 ## A GESCOMP no Instagram
 Vídeos do nosso perfil. Toque em um deles para assistir aqui mesmo.
