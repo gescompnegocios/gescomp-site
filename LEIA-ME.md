@@ -116,11 +116,19 @@ Movimento reduzido desliga passagem automática, contadores e revelação. O com
 
 O VLibras oficial é externo; `libras.js` posiciona seu botão. No celular, o JS oculta temporariamente os lançadores flutuantes quando cobririam a arte/selos da abertura, carrosséis ou formulário, preservando o painel aberto do VLibras. Falhas da Meta/VLibras devem ser registradas separadamente de erros do site.
 
-`_headers` mantém segurança e cache de sete dias para imagens, com revalidação para CSS/JS. Autoriza unload somente em self e https://www.instagram.com para compatibilidade com o SDK da Meta; os iframes recebem a mesma permissão restrita. Os três avisos de recursos desconhecidos vêm dos cabeçalhos do Instagram e não podem ser removidos pelo HTML local. Evidências e limites em docs/evidencias/2026-10-04/instagram-politicas-fotos-reais.json. `site.css`, `estrutura.css`, `config.js` e `site.js` usam `?v=20261006&rev=4` em todas as páginas, escapado com `&amp;` no HTML. Se houver outra publicação na mesma data, use uma revisão nova.
+`_headers` mantém segurança e cache de 30 dias para imagens e ícones, de 1 ano (immutable) para fontes versionadas e revalidação para CSS/JS. Autoriza unload somente em self e https://www.instagram.com para compatibilidade com o SDK da Meta; os iframes recebem a mesma permissão restrita. Os três avisos de recursos desconhecidos vêm dos cabeçalhos do Instagram e não podem ser removidos pelo HTML local. Evidências e limites em docs/evidencias/2026-10-04/instagram-politicas-fotos-reais.json. `site.css`, `estrutura.css`, `config.js` e `site.js` usam `?v=20261006&rev=6` em todas as páginas, escapado com `&amp;` no HTML. Se houver outra publicação na mesma data, use uma revisão nova.
 
 Canonical, Open Graph, Twitter e JSON-LD usam o domínio final. `sitemap.xml` lista as 11 páginas indexáveis, `robots.txt` aponta para ele e `llms.txt` reúne dados e links públicos. Gabriela é identificada como Person e autora dos artigos; a inicial mantém AccountingService com endereço e serviços reais. O painel tem CollectionPage e ItemList com nove assuntos. `404.html` permanece com `noindex`. Manifest usa caminhos relativos, `id` e `scope` na raiz. `_headers` vale para assets estáticos do Worker, conforme [documentação Cloudflare](https://developers.cloudflare.com/workers/static-assets/headers/). Roteiro de cadastro, envio do sitemap e pendências externas em [google-search-console.md](docs/google-search-console.md); não existe garantia de posição ou recomendação por IA.
 
 As páginas de Informações mantêm suas datas de revisão e regras existentes. Esta rodada não é uma nova auditoria tributária. Consulte `docs/revisao-03-10-2026.md` antes de alterar conteúdo legal.
+
+## Desempenho
+
+- **Fontes locais:** Bricolage Grotesque e Figtree ficam em `assets/fonts/` (licença OFL) e são declaradas em `assets/css/fontes.css`, um `@font-face` por arquivo. As duas fontes latinas são pré-carregadas no `<head>`. Não volte ao Google Fonts: ele adicionava dois domínios e uma cadeia de requisições antes do primeiro desenho.
+- **Imagens responsivas:** fotos de cards, capas, miniaturas e 404 têm versões `-480` e `-720` ao lado do original de 1200 px, usadas por `srcset`/`sizes` no HTML e no `site.js`. Ao incluir uma foto nova, rode `py docs/testes/gerar-variantes-imagens.py` (requer Pillow). Logos e glifo do WhatsApp também têm versões do tamanho exibido (`-480`, `-600`, `-128`).
+- **VLibras:** o plugin oficial é pedido por `libras.js` só depois do `load` e com o navegador ocioso.
+- **Botão flutuante:** a primeira medição de sobreposição espera o próximo quadro, evitando layout forçado durante a carga.
+- **Ao publicar:** troque o `rev` do `?v=` de CSS e JS em todas as páginas.
 
 ## Próximas entregas
 

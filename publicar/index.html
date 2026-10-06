@@ -35,10 +35,10 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="/assets/img/logo/logo-gescomp-negativa-compacta.webp" type="image/webp">
+<link rel="preload" as="font" href="/assets/fonts/bricolage-v9-latin.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/figtree-v9-latin.woff2" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/fontes.css?v=20261006&amp;rev=6">
+<link rel="preload" as="image" href="/assets/img/logo/logo-gescomp-negativa-compacta-480.webp" type="image/webp">
 
 <script>
 document.documentElement.setAttribute('data-theme','light');
@@ -59,6 +59,7 @@ document.documentElement.setAttribute('data-theme','light');
    "url": "https://gescompnegocios.com.br/",
    "logo": "https://gescompnegocios.com.br/assets/img/logo-gescomp.png",
    "image": "https://gescompnegocios.com.br/assets/img/compartilhamento-inicio-cc0-20261006.webp",
+   "priceRange": "Contabilidade: a partir de R$ 150/mês; IR e cálculos: a partir de R$ 100",
    "telephone": "+55-79-98877-1430",
    "email": "escritoriogescomp@gmail.com",
    "address": {
@@ -311,8 +312,8 @@ document.documentElement.setAttribute('data-theme','light');
  ]
 }
 </script>
-<link rel="stylesheet" href="/assets/css/site.css?v=20261006&amp;rev=4">
-<link rel="stylesheet" href="/assets/css/estrutura.css?v=20261006&amp;rev=4">
+<link rel="stylesheet" href="/assets/css/site.css?v=20261006&amp;rev=6">
+<link rel="stylesheet" href="/assets/css/estrutura.css?v=20261006&amp;rev=6">
 </head>
 <body>
 <div class="tema-raiz" style="font-family: 'Figtree', 'Segoe UI', system-ui, sans-serif; color: var(--texto); background: var(--chao); min-height: 100vh; overflow-x: clip">
@@ -352,7 +353,7 @@ document.documentElement.setAttribute('data-theme','light');
 <a href="#inicio" class="gc-cabecalho-marca">
 
 <picture>
-<source srcset="/assets/img/logo/logo-gescomp-negativa-compacta.webp" type="image/webp">
+<source srcset="/assets/img/logo/logo-gescomp-negativa-compacta-480.webp" type="image/webp">
 <img src="/assets/img/logo/logo-gescomp-negativa-compacta.png" width="794" height="200" decoding="async" alt="GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início" class="gc-cabecalho-logo">
 </picture>
 </a>
@@ -371,7 +372,7 @@ document.documentElement.setAttribute('data-theme','light');
 <a href="#inicio" class="gc-cabecalho-marca-mobile">
 
 <picture>
-<source srcset="/assets/img/logo/logo-gescomp-negativa-compacta.webp" type="image/webp">
+<source srcset="/assets/img/logo/logo-gescomp-negativa-compacta-480.webp" type="image/webp">
 <img src="/assets/img/logo/logo-gescomp-negativa-compacta.png" width="794" height="200" decoding="async" alt="GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início" class="gc-cabecalho-logo-mobile">
 </picture>
 </a>
@@ -416,7 +417,7 @@ document.documentElement.setAttribute('data-theme','light');
 <p class="abertura-sub">Tiramos todas as suas dúvidas de forma clara, transparente e acessível.</p>
 <p class="abertura-sub"><strong>Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP.</strong> Sem intermediários e sem respostas automáticas.</p>
 <div class="abertura-acoes">
-<a class="btn btn-primario" data-whatsapp href="#contato"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Falar com a contadora</a>
+<a class="btn btn-primario" data-whatsapp href="#contato"><img src="/assets/img/whatsapp-glifo-128.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Falar com a contadora</a>
 <a class="btn btn-contorno-claro" href="#servicos">Ver serviços</a>
 </div>
 <ul class="confianca" aria-label="Por que confiar na GESCOMP">
@@ -461,7 +462,7 @@ document.documentElement.setAttribute('data-theme','light');
 <h3 class="titulo-card">Abrir minha empresa</h3>
 <p class="texto">Do tipo de empresa ao CNPJ pronto, com orientação em cada etapa.</p>
 
-<div class="ajuda-acao"><a class="btn-acao btn-acao-contorno" href="#contato" data-whatsapp-msg="abrirEmpresa"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Quero abrir meu CNPJ<span class="so-leitor"> (abre o WhatsApp)</span></a></div>
+<div class="ajuda-acao"><a class="btn-acao btn-acao-contorno" href="#contato" data-whatsapp-msg="abrirEmpresa"><img src="/assets/img/whatsapp-glifo-128.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Quero abrir meu CNPJ<span class="so-leitor"> (abre o WhatsApp)</span></a></div>
 </div>
 </li>
 <li class="ajuda-card destaque" data-revelar>
@@ -472,7 +473,7 @@ document.documentElement.setAttribute('data-theme','light');
 <h3 class="titulo-card">Contabilidade para minha empresa</h3>
 <p class="texto">Impostos, obrigações e relatórios em dia, todo mês, falando direto com a contadora.</p>
 <p class="ajuda-preco">A partir de R$ 150/mês</p>
-<div class="ajuda-acao"><a class="btn-acao btn-acao-laranja" href="#contato" data-whatsapp-msg="contabilidade"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Quero contratar a contabilidade<span class="so-leitor"> (abre o WhatsApp)</span></a></div>
+<div class="ajuda-acao"><a class="btn-acao btn-acao-laranja" href="#contato" data-whatsapp-msg="contabilidade"><img src="/assets/img/whatsapp-glifo-128.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Quero contratar a contabilidade<span class="so-leitor"> (abre o WhatsApp)</span></a></div>
 </div>
 </li>
 <li class="ajuda-card" data-revelar>
@@ -483,7 +484,7 @@ document.documentElement.setAttribute('data-theme','light');
 <h3 class="titulo-card">Fazer meu Imposto de Renda</h3>
 <p class="texto">Declaração de pessoa física feita com cuidado e no prazo.</p>
 <p class="ajuda-preco">A partir de R$ 100</p>
-<div class="ajuda-acao"><a class="btn-acao btn-acao-contorno" href="#contato" data-whatsapp-msg="impostoRenda"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Quero declarar meu IR<span class="so-leitor"> (abre o WhatsApp)</span></a></div>
+<div class="ajuda-acao"><a class="btn-acao btn-acao-contorno" href="#contato" data-whatsapp-msg="impostoRenda"><img src="/assets/img/whatsapp-glifo-128.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Quero declarar meu IR<span class="so-leitor"> (abre o WhatsApp)</span></a></div>
 </div>
 </li>
 </ul>
@@ -513,7 +514,7 @@ document.documentElement.setAttribute('data-theme','light');
 </ol>
 <div class="troca-contador" data-revelar>
 <p class="texto"><strong>Já tem contador e pensa em trocar?</strong> Converse com a Gabriela e tire as suas dúvidas antes de decidir.</p>
-<a class="btn-acao btn-acao-contorno" data-whatsapp href="#contato"><img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Conversar com a contadora<span class="so-leitor"> (abre o WhatsApp)</span></a>
+<a class="btn-acao btn-acao-contorno" data-whatsapp href="#contato"><img src="/assets/img/whatsapp-glifo-128.webp" width="256" height="254" loading="lazy" decoding="async" alt="">Conversar com a contadora<span class="so-leitor"> (abre o WhatsApp)</span></a>
 </div>
 </div>
 </section>
@@ -929,7 +930,7 @@ document.documentElement.setAttribute('data-theme','light');
 <a href="#inicio" aria-label="GESCOMP, voltar ao início" class="gc-rodape-marca">
 
 <picture>
-<source srcset="/assets/img/logo/logo-gescomp-negativa.webp" type="image/webp">
+<source srcset="/assets/img/logo/logo-gescomp-negativa-600.webp" type="image/webp">
 <img src="/assets/img/logo/logo-gescomp-negativa.png" width="1225" height="300" loading="lazy" decoding="async" alt="GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início" class="gc-rodape-logo">
 </picture>
 </a>
@@ -980,15 +981,14 @@ document.documentElement.setAttribute('data-theme','light');
 <path d="M12 42 C 20 52, 38 54, 48 44" fill="none" stroke="#1F8A3A" stroke-width="3" stroke-linecap="round" opacity="0.7" filter="url(#pincelBotao)"></path>
 <path d="M14 18 C 18 12, 24 9, 30 8" fill="none" stroke="#7FDA93" stroke-width="2.5" stroke-linecap="round" opacity="0.8" filter="url(#pincelBotao)"></path>
 </svg>
-<img src="/assets/img/whatsapp-glifo.webp" width="256" height="254" decoding="async" alt="" style="position: relative; width: 38px; height: 38px; display: block; filter: url(#pincelBotao)">
+<img src="/assets/img/whatsapp-glifo-128.webp" width="256" height="254" decoding="async" alt="" style="position: relative; width: 38px; height: 38px; display: block; filter: url(#pincelBotao)">
 </a>
 
 
 </div>
-<script src="/assets/js/config.js?v=20261006&amp;rev=4"></script>
-<script src="/assets/js/site.js?v=20261006&amp;rev=4"></script>
-<!-- VLibras: tradução automática para Libras (Governo Federal) -->
-<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script src="/assets/js/config.js?v=20261006&amp;rev=6"></script>
+<script src="/assets/js/site.js?v=20261006&amp;rev=6"></script>
+<!-- VLibras (Governo Federal): o plugin é carregado por /assets/js/libras.js depois da carga da página -->
 <script src="/assets/js/libras.js" defer></script>
 </body>
 </html>

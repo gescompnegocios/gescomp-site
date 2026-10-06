@@ -36,8 +36,9 @@ window.addEventListener('scroll',agendarFab,{passive:true});
 window.addEventListener('resize',function(){agendarFab();if(!mq.matches)menu(false);});
 // O serviço monta e posiciona o lançador em etapas; recalcular também quando seu estilo ou tamanho chegar.
 function observarAcessoLibras(){var w=window.VLibrasWidget,a=w&&w.access;if(!a)return false;if(window.ResizeObserver)new ResizeObserver(agendarFab).observe(a);if(window.MutationObserver)new MutationObserver(agendarFab).observe(a,{attributes:true,attributeFilter:['style','class']});agendarFab();return true;}
-if(!observarAcessoLibras()&&window.MutationObserver){var ioLibras=new MutationObserver(function(){if(observarAcessoLibras())ioLibras.disconnect();});ioLibras.observe(document.body,{childList:true});setTimeout(function(){ioLibras.disconnect();},15000);}
-atualizarFab();
+if(!observarAcessoLibras()&&window.MutationObserver){var ioLibras=new MutationObserver(function(){if(observarAcessoLibras())ioLibras.disconnect();});ioLibras.observe(document.body,{childList:true});setTimeout(function(){ioLibras.disconnect();},30000);}
+// A primeira medição espera o próximo quadro: lê o layout uma vez, depois de todas as montagens abaixo, em vez de forçá-lo aqui.
+agendarFab();
 if(reduzir){var svgs=document.querySelectorAll('svg:not(.rio-cena)');for(var k=0;k<svgs.length;k++){if(svgs[k].pauseAnimations)svgs[k].pauseAnimations();}return;}
 var nums=document.querySelectorAll('[data-contador]'),pinceis=document.querySelectorAll('.pincel-numero'),secao=document.getElementById('numeros');
 function fmt(n){return Math.round(n).toLocaleString('pt-BR');}
@@ -423,7 +424,9 @@ if(moldura.closest('#rio')||fotos.indexOf(caminho)<0||!/^\/assets\/img\/fotos\/[
 var img=document.createElement('img');img.alt=moldura.getAttribute('data-foto-alt')||'';img.decoding='async';img.loading=moldura.closest('#inicio')||moldura.classList.contains('gabriela-foto')?'eager':'lazy';img.style.visibility='hidden';
 img.width=1200;img.height=moldura.closest('.ajuda-card')?900:1500;
 img.addEventListener('load',function(){img.style.visibility='';moldura.classList.add('tem-foto');var abertura=moldura.closest('.abertura-imagem');if(abertura)abertura.classList.add('tem-retrato');});
-img.addEventListener('error',function(){img.remove();moldura.classList.remove('tem-foto');var abertura=moldura.closest('.abertura-imagem');if(abertura)abertura.classList.remove('tem-retrato');});
+img.addEventListener('error',function(){if(img.hasAttribute('srcset')){img.removeAttribute('srcset');img.removeAttribute('sizes');img.src=caminho;return;}img.remove();moldura.classList.remove('tem-foto');var abertura=moldura.closest('.abertura-imagem');if(abertura)abertura.classList.remove('tem-retrato');});
+// Cards de serviço têm versões de 480 e 720 px (docs/testes/gerar-variantes-imagens.py); o original de 1200 px fica para telas grandes e densas.
+if(moldura.closest('.ajuda-card')){var base=caminho.replace(/\.webp$/,'');img.srcset=base+'-480.webp 480w, '+base+'-720.webp 720w, '+caminho+' 1200w';img.sizes='(min-width:1024px) 360px, (min-width:640px) 560px, calc(100vw - 50px)';}
 img.src=caminho;moldura.appendChild(img);
 })(molduras[i]);
 })();

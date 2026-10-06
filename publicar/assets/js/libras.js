@@ -1,3 +1,23 @@
+/* Carrega o plugin oficial do VLibras (Governo Federal) só depois que a página terminou de carregar
+   e o navegador está ocioso. Assim o plugin e os arquivos que ele busca em outros domínios não
+   disputam banda e processador com o conteúdo que o visitante vê primeiro. */
+(function () {
+  function carregar() {
+    if (window.VLibrasWidget || document.querySelector("script[data-vlibras]")) return;
+    var s = document.createElement("script");
+    s.src = "https://vlibras.gov.br/app/vlibras-plugin.js";
+    s.async = true;
+    s.setAttribute("data-vlibras", "");
+    document.body.appendChild(s);
+  }
+  function agendar() {
+    if ("requestIdleCallback" in window) requestIdleCallback(carregar, { timeout: 2500 });
+    else setTimeout(carregar, 1500);
+  }
+  if (document.readyState === "complete") agendar();
+  else window.addEventListener("load", agendar);
+})();
+
 /* Ajuste do botão oficial do VLibras: lado direito, logo acima do botão do WhatsApp
    (que tem 68 px a 18 px da borda), centralizado com ele. Fica sempre visível e longe
    do meio da tela, onde ficam as setas do carrossel. */
@@ -28,5 +48,5 @@
   observador = new MutationObserver(posicionar);
   observador.observe(document.body, { childList: true });
   // Uma falha do serviço externo não impede o uso do site nem deixa a observação ativa.
-  limite = setTimeout(function () { observador.disconnect(); }, 15000);
+  limite = setTimeout(function () { observador.disconnect(); }, 30000);
 })();

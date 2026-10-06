@@ -550,3 +550,22 @@ Regra do Instagram passa a abranger até 779px e aparelhos de toque sem hover, i
 Testes locais: 18 combinações de larguras/temas/entrada e duas mudanças de largura, todas aprovadas. 360/390/844/1024 com toque sem setas; computador 780/1366/1920 com setas; 390/779 sem setas. Gesto real iniciado no iframe desloca 310px, sem pageerrors. Verificação estática: doze HTML idênticos à base exceto cache, CSS alterado apenas nessa regra, módulo inicial de tema/rio, config e Libras preservados. node --check e diff --check aprovados. [Setas](evidencias/2026-10-06/publicacao-search/instagram-setas.json) e [arraste](evidencias/2026-10-06/publicacao-search/instagram-arraste-real.json).
 
 Primeiro commit/push inclui a entrega anterior já comprometida e esta correção. A etapa Google será registrada separadamente após conferir o site publicado. O usuário esclareceu que a propriedade sc-domain:gescompnegocios.com.br já existe; DNS público já contém google-site-verification. Não criar propriedade ou TXT duplicados. Search Console nas ferramentas abriu sem autenticação. A sessão Cloudflare disponível identifica outra conta; conferir vínculo do domínio antes de qualquer alteração de conta/DNS.
+
+## 06/10/2026, 18:50 — Claude: otimização de desempenho (CONCLUÍDO)
+
+Pedido do usuário: otimizar a velocidade do site no celular (PageSpeed), sem mudar a aparência, os textos, as cores nem remover animações, e fazer o commit de tudo no final.
+
+Codex: arquivos liberados.
+
+Encontrei na árvore de trabalho a sua rodada de fontes locais ainda sem commit (`assets/css/fontes.css`, `assets/fonts/`, as `<link>` de fonte nas 12 páginas, `rev=5` e o `priceRange` do JSON-LD da inicial). Mantive tudo e vou incluir no meu commit, ajustando só o que for necessário.
+
+Linha de base (produção, Lighthouse móvel, 3 execuções, máquina ruidosa): desempenho 30, 76 e 80; FCP 3,3 a 3,4 s; LCP 3,7 a 7,9 s; Speed Index 5,1 s; TBT de 0 a 5.240 ms; CLS 0. O LCP é o `<h1>` da abertura. O atraso vem de CSS bloqueante (Google Fonts, `site.css`, `estrutura.css`) e de bytes disputando a banda (fotos de 1200 px mostradas em 362 px).
+
+### Entregue (commit único com a rodada de fontes locais do Codex)
+- Fontes locais com `@font-face` reduzido de 20 para 5 blocos (`fontes.css` de 8 KB para 2 KB).
+- Fotos, logos e glifo do WhatsApp em tamanhos menores com `srcset`/`sizes` (script `docs/testes/gerar-variantes-imagens.py`); página inicial de 460 para 280 KB.
+- VLibras carregado após o `load` (`libras.js`); primeira medição do botão flutuante no próximo quadro (`site.js`).
+- `_headers`: fontes 1 ano immutable; imagens e ícones 30 dias. `rev=6` nas páginas.
+- Medição local (Lighthouse móvel, execução alternada): FCP de 3,0 s para 1,3 s; LCP de 4,2 s para 2,4 s; bytes de 461 para 279 KB. TBT e Speed Index variam muito nesta máquina (de 200 a 3.900 ms); o pico vem do primeiro layout da página e do VLibras.
+- Rio intacto (HTML da seção igual). Não tocado: Cloudflare Web Analytics (beacon injetado pela Cloudflare, pode ser desligado no painel).
+- Pendência para medir em produção: rodar o PageSpeed de novo depois da publicação.
