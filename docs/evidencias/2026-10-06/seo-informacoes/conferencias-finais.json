@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-06",
+  "nodeCheck": "site.js, config.js e libras.js aprovados",
+  "staticCheck": "11 canonicals/indexáveis e URLs do sitemap; rio/código protegido preservados",
+  "diffCheck": "aprovado",
+  "legacyDomains": "zero em publicar",
+  "commit": false,
+  "push": false,
+  "checks": [
+    {
+      "check": 0,
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "{\"passed\": true, \"indexablePages\": 11, \"sitemapURLs\": 11, \"rioIdentical\": true, \"newOriginalPhotos\": 4}\r\n"
+    },
+    {
+      "check": 1,
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "Nenhuma ocorrência de domínio antigo ou mix-blend-mode em publicar\r\n"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "details": {
+    "scroll": 4,
+    "ancho": 312,
+    "contenido": 1536,
+    "frame": {
+      "src": "https://www.instagram.com/reel/DbynBYHpN_N/embed/?cr=1&v=14&wp=286&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2Findex.html#%7B%22ci%22%3A0%2C%22os%22%3A1103.800000000745%2C%22ls%22%3A805%2C%22le%22%3A1073.6000000005588%7D",
+      "rect": {
+        "x": 25,
+        "y": 276.140625,
+        "width": 286,
+        "height": 566
+      }
+    },
+    "arrows": [
+      {
+        "hidden": true,
+        "display": "none"
+      },
+      {
+        "hidden": true,
+        "display": "none"
+      }
+    ]
+  },
+  "gesture": {
+    "start": 276,
+    "end": 60,
+    "y": 354.140625,
+    "before": 4,
+    "after": 314,
+    "delta": 310,
+    "startsInsideIframe": true
+  },
+  "frameStatus": {
+    "loaded": "ig-midia pronto",
+    "documentTitle": "Vídeo 1 da GESCOMP no Instagram"
+  },
+  "frames": [
+    "http://127.0.0.1:8080/index.html",
+    "https://www.instagram.com/reel/DbynBYHpN_N/embed/?cr=1&v=14&wp=286&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2Findex.html#%7B%22ci%22%3A0%2C%22os%22%3A1103.800000000745%2C%22ls%22%3A805%2C%22le%22%3A1073.6000000005588%7D",
+    "https://www.instagram.com/reel/DbQ4v35u7Rb/embed/?cr=1&v=14&wp=286&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2Findex.html#%7B%22ci%22%3A1%2C%22os%22%3A1114.2000000001863%2C%22ls%22%3A805%2C%22le%22%3A1073.6000000005588%7D",
+    "https://www.instagram.com/reel/DbWFtMyOKwH/embed/?cr=1&v=14&wp=286&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2Findex.html#%7B%22ci%22%3A2%2C%22os%22%3A1116.1000000005588%2C%22ls%22%3A805%2C%22le%22%3A1073.6000000005588%7D",
+    "https://www.instagram.com/reel/Dc815Ibu2np/embed/?cr=1&v=14&wp=286&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2Findex.html#%7B%22ci%22%3A3%2C%22os%22%3A2335.600000000559%2C%22ls%22%3A805%2C%22le%22%3A1073.6000000005588%7D",
+    "https://www.instagram.com/reel/DdycreEMXQQ/embed/?cr=1&v=14&wp=286&rd=http%3A%2F%2F127.0.0.1%3A8080&rp=%2Findex.html#%7B%22ci%22%3A4%2C%22os%22%3A2392.2000000001863%2C%22ls%22%3A805%2C%22le%22%3A1073.6000000005588%7D"
+  ],
+  "errors": [],
+  "swipe": true
+}

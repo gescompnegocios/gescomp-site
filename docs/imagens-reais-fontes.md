@@ -2,6 +2,17 @@
 
 Cada posição visível usa uma foto real distinta: 19 originais nos três serviços, sete miniaturas, oito capas e na 404. A inicial tem outra foto para compartilhamento. Cada assunto usa um recorte da própria capa nos metadados, sem repetir a foto em outra posição visível.
 
+Na ampliação do painel de Informações desta mesma data, entraram quatro originais adicionais: agora são **23 posições visíveis distintas**, com nove miniaturas e dez capas, além dos serviços e da 404. As fontes anteriores abaixo continuam válidas.
+
+| Arquivo adicional | Posição | Fonte CC0 |
+| --- | --- | --- |
+| `assunto-escala-6x1-cc0-20261006.webp` | miniatura: Fim da escala 6x1 | [PxHere 1546015](https://pxhere.com/en/photo/1546015) |
+| `capa-escala-6x1-cc0-20261006.webp` | capa: Fim da escala 6x1 | [PxHere 998183](https://pxhere.com/en/photo/998183) |
+| `assunto-novo-limite-mei-cc0-20261006.webp` | miniatura: Projeto de novo limite para MEI | [PxHere 699196](https://pxhere.com/en/photo/699196) |
+| `capa-novo-limite-mei-cc0-20261006.webp` | capa: Projeto de novo limite para MEI | [PxHere 970472](https://pxhere.com/en/photo/970472) |
+
+Esses quatro originais foram inspecionados: não têm pessoas, não são gerados e não repetem os hashes dos vinte anteriores. Exportação 1200 × 900; compartilhamento 1200 × 630, recortado da própria capa. Downloads nativos de 1200 × 800/794/900, com ampliação após recorte. Seis WebP entre 43.944 e 90.806 bytes. [Manifesto adicional](evidencias/2026-10-06/seo-informacoes/fontes-fotos.json). As páginas declaram CC0, consultadas em 06/10/2026; os ambientes não representam instalações da GESCOMP.
+
 As fontes declaram **CC0/domínio público**, conforme as páginas individuais e a [licença oficial do PxHere](https://pxhere.com/en/license), conferidas em 06/10/2026. Permitem uso comercial e recorte sem exigir atribuição. Autoria não informada nas páginas selecionadas; não inventar nomes. Não sugerir que locais ou marcas fotografados recomendam a GESCOMP.
 
 Inspeção visual excluiu pessoas, mãos, manequins e retratos desenhados. São objetos e ambientes genéricos, sem representar escritório, equipe ou clientes da empresa. Nenhuma imagem gerada foi usada. Apenas recorte, redimensionamento e conversão WebP; arquivos locais, sem hotlink.

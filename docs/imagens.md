@@ -25,6 +25,8 @@ Os retratos e a foto real do escritório ainda precisam ser entregues. As fotogr
 
 ## Histórico da versão anterior
 
+Na atualização de Informações de 06/10, quatro fotos adicionais reais e distintas cobrem miniaturas e capas dos assuntos escala 6x1 e novo limite do MEI. O site passa a 23 posições visíveis com fotografias distintas. Os arquivos novos e suas licenças estão em [imagens-reais-fontes.md](imagens-reais-fontes.md), e os tamanhos/hashes no [manifesto desta rodada](evidencias/2026-10-06/seo-informacoes/fontes-fotos.json). As fotos pessoais continuam reservadas à cliente.
+
 O commit 5d4dc81 usava 13 imagens geradas com imagegen. Elas foram substituídas por fotografias reais a pedido posterior do usuário. Os prompts e registros antigos continuam apenas como histórico: [imagens-geradas.json](evidencias/2026-10-04/imagens-geradas.json) e [folha antiga](evidencias/2026-10-04/contato-imagens-geradas.jpg). Não reutilizar essas imagens na versão atual.
 
 As fontes e a [folha de contato atual](evidencias/2026-10-06/avaliacoes-fotos/contato-fotos-cc0.jpg) permitem conferir as novas fotografias. A seção #rio e suas ilustrações originais foram preservadas integralmente. Os arquivos anteriores permanecem como histórico, sem uso no HTML atual.

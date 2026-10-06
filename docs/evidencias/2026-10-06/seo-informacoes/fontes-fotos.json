@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1546015",
+    "source": "https://pxhere.com/en/photo/1546015",
+    "download": "https://c.pxhere.com/photos/7a/09/alarm_alarm_clock_analog_ballpens_blur_clock_computer_curtain-1546015.jpg!d",
+    "license": "CC0",
+    "nativeSize": [
+      1200,
+      800
+    ],
+    "originalSha256": "e905ab81801912ee886061583615ea41e96ad63d244a5eaac616f712a3ce3596",
+    "outputs": [
+      {
+        "path": "publicar/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+        "size": [
+          1200,
+          900
+        ],
+        "bytes": 59342
+      }
+    ]
+  },
+  {
+    "id": "998183",
+    "source": "https://pxhere.com/en/photo/998183",
+    "download": "https://c.pxhere.com/photos/ed/00/alarm_clock_chair_clock_table_time-998183.jpg!d",
+    "license": "CC0",
+    "nativeSize": [
+      1200,
+      800
+    ],
+    "originalSha256": "a9cf96b44e63ac55bf91ace8cfcfc906e708c93287df53da0435e0d3e3d7246d",
+    "outputs": [
+      {
+        "path": "publicar/assets/img/fotos/capa-escala-6x1-cc0-20261006.webp",
+        "size": [
+          1200,
+          900
+        ],
+        "bytes": 52230
+      },
+      {
+        "path": "publicar/assets/img/og-escala-6x1-cc0-20261006.webp",
+        "size": [
+          1200,
+          630
+        ],
+        "bytes": 43944
+      }
+    ]
+  },
+  {
+    "id": "699196",
+    "source": "https://pxhere.com/en/photo/699196",
+    "download": "https://c.pxhere.com/photos/58/26/desk_organize_office_space_organization_desk_top_notebook_pen_office-699196.jpg!d",
+    "license": "CC0",
+    "nativeSize": [
+      1200,
+      900
+    ],
+    "originalSha256": "58a55f4774046b61b239facdf1086487cf70022914575c41f7cd6f0b9075e1c2",
+    "outputs": [
+      {
+        "path": "publicar/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+        "size": [
+          1200,
+          900
+        ],
+        "bytes": 90806
+      }
+    ]
+  },
+  {
+    "id": "970472",
+    "source": "https://pxhere.com/en/photo/970472",
+    "download": "https://c.pxhere.com/photos/a2/db/keyboard_apple_input_keys_hardware_pc_calculator_tap-970472.jpg!d",
+    "license": "CC0",
+    "nativeSize": [
+      1200,
+      794
+    ],
+    "originalSha256": "032fbc193807ef5f7f127cd0a21f18c567b148600e95fd90748530c26b255b12",
+    "outputs": [
+      {
+        "path": "publicar/assets/img/fotos/capa-novo-limite-mei-cc0-20261006.webp",
+        "size": [
+          1200,
+          900
+        ],
+        "bytes": 56254
+      },
+      {
+        "path": "publicar/assets/img/og-novo-limite-mei-cc0-20261006.webp",
+        "size": [
+          1200,
+          630
+        ],
+        "bytes": 49920
+      }
+    ]
+  }
+]

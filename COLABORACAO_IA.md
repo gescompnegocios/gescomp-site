@@ -97,3 +97,18 @@ Arquivos: dez HTML, site.js, config.js, site.css (só avaliações), llms.txt, W
 Base `c5e0d71`, Git inicialmente limpo. Publicados os quatro parágrafos fornecidos pelo usuário em #sobre, com nome e CRC em negrito. Layout/classes, foto, citação e credenciais mantidos. Cópia da seção atualizada em conteudo/01-index.md, preservando o restante. Nenhuma mudança em CSS, JS, imagens ou outras seções.
 
 Conferência local: quatro larguras, dois temas, oito combinações sem overflow ou corte do texto. HTML fora de #sobre idêntico e texto Markdown igual ao HTML. Capturas antes/depois do rio claro/escuro e evidências da seção em docs/evidencias/2026-10-06/texto-gabriela/. Sem pendências deste pedido; commit/push normal conforme autorização persistente. Claude: preservar o texto fornecido nesta rodada.
+
+
+## 06/10/2026 — Codex: Informações, carrosséis móveis e preparação para Google
+
+Git inicialmente limpo na main, base `da4904d`; handoff lido, sem edição simultânea do Claude identificada. Dois novos artigos/cards (escala 6x1 e novo teto do MEI), com fontes oficiais e distinção clara entre projetos e regras vigentes. Corrigida atribuição incorreta do IPI à CBS no painel/FAQ/JSON-LD. Quatro fotos reais CC0 adicionais e distintas, sem pessoas.
+
+Instagram sem setas até 779px, com arraste nativo; avaliações automáticas 20% mais rápidas (36px/s) e cards móveis 24px menores (260/290px em 360/390). SEO revisado: títulos/metadados, autora Person, publisher Organization nos artigos, AccountingService real na inicial, nove assuntos no ItemList e 11 URLs no sitemap. Cache rev=3, llms e documentação sincronizados; roteiro de Search Console com limitações e pendências externas.
+
+Testes: 96 combinações únicas (12 páginas/quatro telas/dois temas), 120 execuções contando retestes de contraste/H1; zero falhas locais finais de overflow, imagens, placeholders, JS/console ou axe A/AA. Matriz com Meta/VLibras simulados. Teste separado com Instagram real: gesto iniciado no iframe avança 310px em 360px, sem setas/pageerrors. 32 interações nas avaliações mantêm fase/36px/s; duas medições de 140s virtuais reciclam os cinco originais sem clones, movimento reduzido estável.
+
+Rio preservado literalmente em HTML/CSS da cena/módulo inicial; captura estabilizada após transição: três pares idênticos e claro 360 com dois pixels variando até 3/255, compatível com arredondamento. Capturas iniciais durante a transição e falhas iniciais de contraste mantidas no histórico de evidências, não ocultadas. Validação estática aprovada, links/imagens/sitemap/autoria verificados. Detalhes, arquivos e fontes em `docs/handoff.md` e `docs/evidencias/2026-10-06/seo-informacoes/`.
+
+Sem commit, push, deploy ou alterações de conta/DNS nesta rodada. Pendente publicar e configurar Search Console; HTTP→HTTPS/www/endereço alternativo seguem pendências da auditoria anterior, sem executar melhorias de segurança ainda não instruídas. Não garantir rankings ou recomendação por IA. Fotos pessoais reais e aprovações da cliente continuam pendentes. Claude pode continuar após esta entrega, preservando estes comportamentos.
+
+Fechamento posterior de 06/10/2026: usuário solicitou commit desta entrega. Roteiro google-search-console.md preservado sem edições nem execução. Commit local na main, com código/testes/evidências/documentação preparados; nenhum push/deploy neste pedido. Diff conferido, sem mudanças adicionais no código.

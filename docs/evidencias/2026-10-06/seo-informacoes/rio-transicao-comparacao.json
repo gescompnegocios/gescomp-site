@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "width": 1366,
+      "theme": "light",
+      "size": [
+        1351,
+        839
+      ],
+      "pixelsDifferent": 0,
+      "maxChannelDelta": 0,
+      "identical": true
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "size": [
+        1351,
+        839
+      ],
+      "pixelsDifferent": 21118,
+      "maxChannelDelta": 166,
+      "identical": false
+    },
+    {
+      "width": 360,
+      "theme": "light",
+      "size": [
+        345,
+        876
+      ],
+      "pixelsDifferent": 2,
+      "maxChannelDelta": 3,
+      "identical": false
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "size": [
+        345,
+        876
+      ],
+      "pixelsDifferent": 9389,
+      "maxChannelDelta": 51,
+      "identical": false
+    }
+  ],
+  "identical": false
+}

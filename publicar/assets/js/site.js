@@ -148,7 +148,7 @@ function criarCarrossel(raiz,op){
   }
   function travar(motivo,sim){if(sim)travas[motivo]=true;else delete travas[motivo];agendar();}
   // Setas só aparecem com mais de um item e quando nem todos cabem na tela.
-  function atualizarSetas(){var excedente=trilha.scrollWidth-trilha.clientWidth;var ver=!somenteAutomatico&&slides().length>1&&excedente>4;circular=!!op.continuo&&slides().length>2&&excedente>=passo();raiz.classList.toggle('carrossel-continuo',circular);if(ant)ant.hidden=!ver;if(prox)prox.hidden=!ver;agendar();}
+  function atualizarSetas(){var excedente=trilha.scrollWidth-trilha.clientWidth;var celular=!!op.ocultarSetasNoCelular&&window.matchMedia('(max-width:779px)').matches;var ver=!somenteAutomatico&&!celular&&slides().length>1&&excedente>4;circular=!!op.continuo&&slides().length>2&&excedente>=passo();raiz.classList.toggle('carrossel-continuo',circular);if(ant)ant.hidden=!ver;if(prox)prox.hidden=!ver;agendar();}
   function navegar(d){if(somenteAutomatico)return;if(op.aoNavegar)op.aoNavegar(d);if(circular)travar('navegacao',true);ir(d,true);if(circular)setTimeout(function(){travar('navegacao',false);},1000);else agendar();}
   if(!somenteAutomatico){
   raiz.addEventListener('pointerenter',function(e){if(e.pointerType==='mouse'){mouse=true;agendar();}});
@@ -216,6 +216,7 @@ var lista=trilha.querySelectorAll('[data-slide]'), total=lista.length;
 var assistindo=null, tRetomar=null, vigia=null;
 var car=criarCarrossel(regiao,{
   rotulo:'Vídeo',
+  ocultarSetasNoCelular:true,
   aoNavegar:function(){if(assistindo&&assistindo.tipo!=='video')retomar();},
   aoSairMouse:function(){if(assistindo&&assistindo.tipo!=='video')retomar();}
 });
@@ -406,7 +407,7 @@ if(prova){
   prova.hidden=false;
 }
 sec.hidden=false;
-criarCarrossel(regiao,{rotulo:'Avaliação',continuo:true,velocidade:30,somenteAutomatico:true});
+criarCarrossel(regiao,{rotulo:'Avaliação',continuo:true,velocidade:36,somenteAutomatico:true});
 })();
 
 /* Fotos liberadas pela configuração; imagens ausentes mantêm a arte de espera sem pedido HTTP. */

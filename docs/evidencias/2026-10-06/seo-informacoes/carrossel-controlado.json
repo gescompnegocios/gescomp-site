@@ -1,0 +1,253 @@
+{
+  "casos": [
+    {
+      "width": 1366,
+      "theme": "light",
+      "medidas": [
+        {
+          "acao": "normal",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "mouse",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "foco",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "toque",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "roda",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "teclado",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "focoFora",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "rolagemForcada",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        }
+      ],
+      "ciclos": {
+        "trocas": 13,
+        "itens": 5,
+        "originais": true,
+        "testado": true
+      },
+      "reduzidoEstavel": true,
+      "semSetas": true
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "medidas": [
+        {
+          "acao": "normal",
+          "deltaPx": 35.496000000000095,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "mouse",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "foco",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "toque",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "roda",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "teclado",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "focoFora",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "rolagemForcada",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        }
+      ],
+      "ciclos": {
+        "trocas": 0,
+        "itens": 5,
+        "originais": true,
+        "testado": false
+      },
+      "reduzidoEstavel": true,
+      "semSetas": true
+    },
+    {
+      "width": 360,
+      "theme": "light",
+      "medidas": [
+        {
+          "acao": "normal",
+          "deltaPx": 35.96399999999994,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "mouse",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "foco",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "toque",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "roda",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "teclado",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "focoFora",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "rolagemForcada",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        }
+      ],
+      "ciclos": {
+        "trocas": 0,
+        "itens": 5,
+        "originais": true,
+        "testado": false
+      },
+      "reduzidoEstavel": true,
+      "semSetas": true
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "medidas": [
+        {
+          "acao": "normal",
+          "deltaPx": 35.496000000000095,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "mouse",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "foco",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "toque",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "roda",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "teclado",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "focoFora",
+          "deltaPx": 35.71199999999999,
+          "faseMantida": true,
+          "passou": true
+        },
+        {
+          "acao": "rolagemForcada",
+          "deltaPx": 36.28800000000001,
+          "faseMantida": true,
+          "passou": true
+        }
+      ],
+      "ciclos": {
+        "trocas": 17,
+        "itens": 5,
+        "originais": true,
+        "testado": true
+      },
+      "reduzidoEstavel": true,
+      "semSetas": true
+    }
+  ],
+  "aprovado": true
+}

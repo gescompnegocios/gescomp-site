@@ -1,0 +1,1510 @@
+{
+  "casos": [
+    {
+      "pagina": "index.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        }
+      ],
+      "setasInstagram": [
+        {
+          "hidden": false,
+          "display": "flex"
+        },
+        {
+          "hidden": false,
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "pagina": "index.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        }
+      ],
+      "setasInstagram": [
+        {
+          "hidden": false,
+          "display": "flex"
+        },
+        {
+          "hidden": false,
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "pagina": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        }
+      ],
+      "setasInstagram": [
+        {
+          "hidden": false,
+          "display": "flex"
+        },
+        {
+          "hidden": false,
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "pagina": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        }
+      ],
+      "setasInstagram": [
+        {
+          "hidden": false,
+          "display": "flex"
+        },
+        {
+          "hidden": false,
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "pagina": "index.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [
+        {
+          "w": 290,
+          "h": 320
+        },
+        {
+          "w": 290,
+          "h": 320
+        },
+        {
+          "w": 290,
+          "h": 320
+        },
+        {
+          "w": 290,
+          "h": 320
+        },
+        {
+          "w": 290,
+          "h": 320
+        }
+      ],
+      "setasInstagram": [
+        {
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "hidden": true,
+          "display": "none"
+        }
+      ]
+    },
+    {
+      "pagina": "index.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [
+        {
+          "w": 290,
+          "h": 320
+        },
+        {
+          "w": 290,
+          "h": 320
+        },
+        {
+          "w": 290,
+          "h": 320
+        },
+        {
+          "w": 290,
+          "h": 320
+        },
+        {
+          "w": 290,
+          "h": 320
+        }
+      ],
+      "setasInstagram": [
+        {
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "hidden": true,
+          "display": "none"
+        }
+      ]
+    },
+    {
+      "pagina": "index.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [
+        {
+          "w": 260,
+          "h": 320
+        },
+        {
+          "w": 260,
+          "h": 320
+        },
+        {
+          "w": 260,
+          "h": 320
+        },
+        {
+          "w": 260,
+          "h": 320
+        },
+        {
+          "w": 260,
+          "h": 320
+        }
+      ],
+      "setasInstagram": [
+        {
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "hidden": true,
+          "display": "none"
+        }
+      ]
+    },
+    {
+      "pagina": "index.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [
+        {
+          "w": 260,
+          "h": 320
+        },
+        {
+          "w": 260,
+          "h": 320
+        },
+        {
+          "w": 260,
+          "h": 320
+        },
+        {
+          "w": 260,
+          "h": 320
+        },
+        {
+          "w": 260,
+          "h": 320
+        }
+      ],
+      "setasInstagram": [
+        {
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "hidden": true,
+          "display": "none"
+        }
+      ]
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "mei.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "mei.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "mei.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "mei.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "mei.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "mei.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "mei.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "mei.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "h1Linhas": 2,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "h1Linhas": 2,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "h1Linhas": 2,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "h1Linhas": 2,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "h1Linhas": 2,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "h1Linhas": 2,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "h1Linhas": 3,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "h1Linhas": 3,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "404.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "404.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "404.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "404.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "404.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "404.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "404.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    },
+    {
+      "pagina": "404.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "imagensAusentes": [],
+      "placeholders": false,
+      "violations": [],
+      "h1": 1,
+      "avaliacoes": [],
+      "setasInstagram": []
+    }
+  ],
+  "erros": [],
+  "resumo": {
+    "combinacoes": 96,
+    "execucoes": 120,
+    "overflow": 0,
+    "violacoes": 0,
+    "imagensAusentes": 0,
+    "placeholders": 0
+  },
+  "nota": "Matriz local com Instagram e VLibras simulados. 16 casos repetidos após contraste do CTA e 8 após encurtar H1 do artigo 6x1. Demais casos aprovados preservados. Não é Lighthouse ou produção."
+}
