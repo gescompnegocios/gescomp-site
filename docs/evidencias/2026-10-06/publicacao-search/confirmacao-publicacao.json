@@ -1,0 +1,42 @@
+{
+  "commitPublicado": "5e7d850ad78e9cdfef952c15fbcf3aba705a7e10",
+  "purge": {
+    "modo": "files",
+    "urls": [
+      "https://gescompnegocios.com.br/robots.txt"
+    ],
+    "resposta": "Purge request successfully received. Changes should take effect in less than 5 seconds.",
+    "escopo": "Somente robots.txt; sem purge everything ou mudanca de politica."
+  },
+  "producao": {
+    "data": "2026-10-06T23:38:43.463Z",
+    "checks": [
+      {
+        "url": "https://gescompnegocios.com.br/robots.txt",
+        "status": 200,
+        "cache": "HIT",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "location": null,
+        "sitemap": "https://gescompnegocios.com.br/sitemap.xml?v=20261006"
+      },
+      {
+        "url": "https://gescompnegocios.com.br/sitemap.xml?v=20261006",
+        "status": 200,
+        "cache": "HIT",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "location": null,
+        "urls": 11
+      },
+      {
+        "url": "http://gescompnegocios.com.br/",
+        "status": 301,
+        "location": "https://gescompnegocios.com.br/"
+      },
+      {
+        "url": "https://www.gescompnegocios.com.br/novo-limite-mei?origem=teste%20seo&teste=1",
+        "status": 301,
+        "location": "https://gescompnegocios.com.br/novo-limite-mei?origem=teste%20seo&teste=1"
+      }
+    ]
+  }
+}

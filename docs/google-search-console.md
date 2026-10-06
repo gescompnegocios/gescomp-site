@@ -38,6 +38,7 @@ As primeiras solicitações manuais de indexação das quatro páginas retornara
 - CNAME **www → gescompnegocios.com.br**, com proxy ativo e TTL automático.
 - Single Redirect **301**, nome “GESCOMP: www para dominio oficial”: origem `http*://www.gescompnegocios.com.br/*`, destino `https://gescompnegocios.com.br/${2}`, com preservação da query string.
 - Conferência pública confirmou que HTTP e HTTPS de www preservam caminho e parâmetros ao redirecionar para o domínio oficial. Sitemap e robots acessíveis sem desafio; o acesso real do Google foi confirmado no Search Console.
+- Após o commit/push `5e7d850`, a nova versão do robots já estava publicada, mas sua URL normal ainda entregava a cópia anterior pelo cache. Executado Custom Purge **somente de https://gescompnegocios.com.br/robots.txt**. Conferência posterior da URL normal: HTTP 200 e ponteiro para o sitemap processado, sem mudar políticas de cache. Esse episódio posterior não comprova a causa do erro inicial do sitemap.
 - Registros de e-mail/verificação existentes preservados. Nenhuma nova regra WAF, limitação de taxa, assinatura paga ou alteração de segurança alheia ao roteiro.
 
 O endereço alternativo de hospedagem permanece acessível, com canonical para o domínio oficial. Seu eventual desligamento/redirecionamento é uma decisão separada de hospedagem; não foi removido nesta configuração. _redirects de assets Workers não suporta redirecionamento entre domínios.
@@ -54,7 +55,7 @@ O Google usa os requisitos comuns de SEO para AI Overviews e AI Mode. A inclusã
 
 ## Evidências e limites
 
-Registros em [publicacao-search](evidencias/2026-10-06/publicacao-search/) e detalhes em [handoff.md](handoff.md). A matriz de 96 telas/fontes pertence à revisão local anterior à otimização posterior do Claude; não deve ser apresentada como teste da revisão visual mais recente.
+Registros em [publicacao-search](evidencias/2026-10-06/publicacao-search/), [confirmação da publicação](evidencias/2026-10-06/publicacao-search/confirmacao-publicacao.json) e detalhes em [handoff.md](handoff.md). A matriz de 96 telas/fontes pertence à revisão local anterior à otimização posterior do Claude; não deve ser apresentada como teste da revisão visual mais recente.
 
 ## Fontes oficiais
 
