@@ -467,3 +467,27 @@ Relatórios: [matriz de páginas e foco](evidencias/2026-10-06/revisao-abertura-
 Ferramentas desta entrega em `docs/testes/`: `capturas-abertura-logo.js` (Playwright; versão depois), `revisao-abertura-logo.js` (matriz e PNG) e `verificar-preservacao-abertura-logo.py` (baseline fixo, Pillow e arquivos fornecidos). São ferramentas de conferência, sem dependências adicionadas ao site.
 
 Nenhuma pendência de implementação nestes dois ajustes. Claude: manter a nova abertura e as logos; não reintroduzir pílula/blend/SVG inline do antigo H1. Fotos reais de Gabriela continuam pendentes, fora do escopo deste pedido. Commit e envio normal para main; consultar o Git para o hash desta entrega.
+
+## 06/10/2026 — Codex: avaliações automáticas, Bahia e fotos distintas (CONCLUÍDO)
+
+Git inicialmente limpo, base `531dc6c`, sem modificação simultânea do Claude identificada. Codex implementou o pedido posterior do usuário.
+
+- Avaliações conservam a animação fracionária contínua de 30 px/s e os cinco cards originais, sem clones, com `somenteAutomatico: true`. Mouse, foco, toque, arrasto, roda e teclas não pausam nem navegam. Setas e controles de navegação manual removidos do HTML; links do Google e rolagem vertical mantidos. Proteções existentes para movimento reduzido, aba escondida e seção fora da tela permanecem.
+- Teste comprovou deslocamento nativo de 28 para 772 px ao focar um link fora da faixa. Corrigido repondo a fase antes da pintura, sem reiniciar a animação: depois, 30 → 30 px, sem salto no quadro seguinte. Instagram preservado.
+- Bahia incluída (SE, BA, MA, RJ, SP e MG); contador visual/acessível de 5 para 6; JSON-LD e llms sincronizados. Cidades e demais números preservados.
+- 19 posições visíveis usam 19 fotografias reais distintas, sem pessoas/mãos/manequins ou retratos desenhados, com declaração CC0. Outra foto para compartilhar a inicial; assuntos usam a própria capa nos metadados. Fontes, ampliação dos recortes e hashes documentados. 28 WebP novos, máximo 142,3 KB; arquivos anteriores preservados, sem uso nas páginas atuais. Sem imagens geradas.
+- Cache CSS/config/site com `?v=20261006&rev=2`. Sem frameworks, bibliotecas ou mudança do layout.
+
+Conferências executadas:
+
+- Dez páginas × quatro telas (1366×768, 1920×1080, 390×844 e 360×800) × dois temas: **80 combinações**, sem overflow, fotos ausentes, erros locais de console/JavaScript ou violações axe A/AA. Servidor Python e Playwright em contexto próprio. Instagram/VLibras simulados na matriz; não é medição Lighthouse nem validação de servidores terceiros.
+- Ações reais de mouse/foco/arrasto/roda/teclado e eventos de toque exercitados. Após a correção, teste controlado em 1366/360 e dois temas: 32 interações mantiveram a fase e avançaram aproximadamente 30 px em 1 s. Duas voltas completas em desktop claro/celular escuro: 11/13 transferências em 140 s virtuais, mantendo os cinco originais. Movimento reduzido estável. SVG do rio retirado somente do contexto temporário dessa medição, nunca dos arquivos.
+- Modo Instagram da função compartilhada: avanço automático, pausa/retomada com mouse, trava de vídeo e setas funcionaram em fixture. Módulo real do Instagram literalmente preservado.
+- Rio: HTML idêntico, hash `ce2a842ce68c416b2b7a60506763b5f9672858a244435d929ba11a1e91e78c89`; CSS fora das duas regras de avaliações, módulo inicial de tema/rio, estrutura.css e libras.js literalmente preservados. Quatro pares de PNG (1366/360, claro/escuro) idênticos pixel a pixel.
+- `node --check` nos scripts e `git diff --check` antes do commit. Depoimentos e preços preservados.
+
+[Matriz](evidencias/2026-10-06/avaliacoes-fotos/matriz-paginas.json), [carrossel controlado](evidencias/2026-10-06/avaliacoes-fotos/carrossel-controlado.json), [preservação/hashes](evidencias/2026-10-06/avaliacoes-fotos/preservacao-e-fotos.json), [fontes](imagens-reais-fontes.md) e [folha de contato](evidencias/2026-10-06/avaliacoes-fotos/contato-fotos-cc0.jpg).
+
+Capturas em `docs/evidencias/2026-10-06/avaliacoes-fotos/`: `servicos|avaliacoes|numeros|informacoes|rio-antes|depois-light|dark-1366|360.png`. Serviços: [antes](evidencias/2026-10-06/avaliacoes-fotos/servicos-antes-light-1366.png) / [depois](evidencias/2026-10-06/avaliacoes-fotos/servicos-depois-light-1366.png). Avaliações: [antes](evidencias/2026-10-06/avaliacoes-fotos/avaliacoes-antes-light-1366.png) / [depois](evidencias/2026-10-06/avaliacoes-fotos/avaliacoes-depois-light-1366.png). [Celular](evidencias/2026-10-06/avaliacoes-fotos/avaliacoes-depois-light-360.png).
+
+Arquivos: dez HTML, site.js, config.js, site.css (só avaliações), llms.txt, 28 WebP, LEIA-ME, docs/imagens*.md, ferramentas/evidências, handoff e colaboração. Claude: manter avaliações exclusivamente automáticas e fotos distintas com fontes CC0. Fotos reais da Gabriela/escritório continuam pendentes da cliente; nenhuma pendência de código deste pedido. Commit/push normal para main conforme autorização já registrada; consultar o Git para o hash. Sem deploy manual ou mudança de DNS.

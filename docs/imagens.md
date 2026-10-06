@@ -7,9 +7,9 @@ Todos os arquivos de foto ficam em publicar/assets/img/fotos/, em **WebP e abaix
 | `gabriela-retrato.webp` | 4:5 | 1200 × 1500 px | Abertura somente no computador, com moldura orgânica e sem selos |
 | `gabriela-sobre.webp` | 4:5 | 1200 × 1500 px | Quem é a Gabriela |
 | `escritorio.webp` | 16:10 | 1600 × 1000 px | Escritório/contato, quando houver espaço aprovado no layout |
-| `empresa-real-20261004.webp` | 4:3 | 1200 × 900 px | Card Abrir minha empresa e capa do assunto |
-| `contabilidade-real-20261004.webp` | 4:3 | 1200 × 900 px | Card Contabilidade para minha empresa |
-| `documentos-reais-20261004.webp` | 4:3 | 1200 × 900 px | Card Fazer meu Imposto de Renda e capa do assunto |
+| `servico-abrir-empresa-cc0-20261006.webp` | 4:3 | 1200 × 900 px (exportação) | Card Abrir minha empresa |
+| `servico-contabilidade-cc0-20261006.webp` | 4:3 | 1200 × 900 px (exportação) | Card Contabilidade para minha empresa |
+| `servico-imposto-renda-cc0-20261006.webp` | 4:3 | 1200 × 900 px (exportação) | Card Fazer meu Imposto de Renda |
 
 ## Entrega e uso
 
@@ -21,10 +21,10 @@ Todos os arquivos de foto ficam em publicar/assets/img/fotos/, em **WebP e abaix
 - Fotografias e artes de espera não podem alterar a seção `#rio`.
 - Ao substituir uma imagem publicada, mudar o nome (por exemplo, `gabriela-retrato-v2.webp`) no arquivo, em `data-foto` e em `config.fotos` para evitar cache antigo. A lista aceita caminhos WebP locais sem parâmetros na URL.
 
-Os retratos e a foto real do escritório ainda precisam ser entregues. As fotografias editoriais usadas nos cards e assuntos não representam instalações, equipe ou clientes da GESCOMP. Oito fotos são reaproveitadas em assuntos compatíveis. Caderno do MEI sem texto legível; calendário recortado abaixo do mês/dias em inglês. Cards/capas têm 1200 × 900 px e compartilhamento 1200 × 630 px, todos abaixo de 300 KB.
+Os retratos e a foto real do escritório ainda precisam ser entregues. As fotografias editoriais não representam instalações, equipe ou clientes da GESCOMP. Desde 06/10, as 19 posições visíveis usam fotografias reais CC0 distintas, sem pessoas: três serviços, sete miniaturas, oito capas e a 404. Os arquivos de compartilhamento também foram atualizados, cada assunto com recorte de sua própria capa e a inicial com outra foto. Exportação de cards/capas: 1200 × 900 px; compartilhamento: 1200 × 630 px. As fontes baixadas têm largura de 1200 px; houve ampliação após recorte para atingir a exportação, registrada no manifesto. Não confundir o tamanho exportado com a resolução nativa do recorte. Todos abaixo de 150 KB.
 
 ## Histórico da versão anterior
 
 O commit 5d4dc81 usava 13 imagens geradas com imagegen. Elas foram substituídas por fotografias reais a pedido posterior do usuário. Os prompts e registros antigos continuam apenas como histórico: [imagens-geradas.json](evidencias/2026-10-04/imagens-geradas.json) e [folha antiga](evidencias/2026-10-04/contato-imagens-geradas.jpg). Não reutilizar essas imagens na versão atual.
 
-As fontes e a [folha de contato atual](evidencias/2026-10-04/contato-fotos-reais.jpg) permitem conferir as oito fotografias. A seção #rio e suas ilustrações originais foram preservadas integralmente.
+As fontes e a [folha de contato atual](evidencias/2026-10-06/avaliacoes-fotos/contato-fotos-cc0.jpg) permitem conferir as novas fotografias. A seção #rio e suas ilustrações originais foram preservadas integralmente. Os arquivos anteriores permanecem como histórico, sem uso no HTML atual.

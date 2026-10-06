@@ -1,0 +1,270 @@
+{
+  "casos": [
+    {
+      "width": 1366,
+      "theme": "light",
+      "medidas": [
+        {
+          "acao": "semInteracao",
+          "velocidade": 30.102815857722508
+        },
+        {
+          "acao": "mouse",
+          "velocidade": 29.9326438971231
+        },
+        {
+          "acao": "foco",
+          "velocidade": 28.01498127339888
+        },
+        {
+          "acao": "toque",
+          "velocidade": 19.514802631572277
+        },
+        {
+          "acao": "arrasto",
+          "velocidade": 24.49346523214841
+        },
+        {
+          "acao": "rodaHorizontal",
+          "velocidade": 30.486908177900236
+        },
+        {
+          "acao": "setasTeclado",
+          "velocidade": 30.013640083666886
+        },
+        {
+          "acao": "focoNativoForaDaFaixa",
+          "velocidade": 24.512867647053092
+        }
+      ],
+      "reduzidoEstavel": true,
+      "setas": 0,
+      "tamanhos": [
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "medidas": [
+        {
+          "acao": "semInteracao",
+          "velocidade": 30.48114800224568
+        },
+        {
+          "acao": "mouse",
+          "velocidade": 29.994841372192546
+        },
+        {
+          "acao": "foco",
+          "velocidade": 28.052373158760968
+        },
+        {
+          "acao": "toque",
+          "velocidade": 29.80739246079572
+        },
+        {
+          "acao": "arrasto",
+          "velocidade": 29.90109637352729
+        },
+        {
+          "acao": "rodaHorizontal",
+          "velocidade": 30.04035512509842
+        },
+        {
+          "acao": "setasTeclado",
+          "velocidade": 30.151215121512195
+        },
+        {
+          "acao": "focoNativoForaDaFaixa",
+          "velocidade": 27.040929203544522
+        }
+      ],
+      "reduzidoEstavel": true,
+      "setas": 0,
+      "tamanhos": [
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        },
+        {
+          "w": 360,
+          "h": 300
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "theme": "light",
+      "medidas": [
+        {
+          "acao": "semInteracao",
+          "velocidade": 31.549428760265364
+        },
+        {
+          "acao": "mouse",
+          "velocidade": 14.507753876938457
+        },
+        {
+          "acao": "foco",
+          "velocidade": 30.280548628433973
+        },
+        {
+          "acao": "toque",
+          "velocidade": 29.964042043147
+        },
+        {
+          "acao": "arrasto",
+          "velocidade": 30.004557192767063
+        },
+        {
+          "acao": "rodaHorizontal",
+          "velocidade": 29.983394833948292
+        },
+        {
+          "acao": "setasTeclado",
+          "velocidade": 30.024949177595957
+        },
+        {
+          "acao": "focoNativoForaDaFaixa",
+          "velocidade": 30.276572668115392
+        }
+      ],
+      "reduzidoEstavel": true,
+      "setas": 0,
+      "tamanhos": [
+        {
+          "w": 284,
+          "h": 320
+        },
+        {
+          "w": 284,
+          "h": 320
+        },
+        {
+          "w": 284,
+          "h": 320
+        },
+        {
+          "w": 284,
+          "h": 320
+        },
+        {
+          "w": 284,
+          "h": 320
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "medidas": [
+        {
+          "acao": "semInteracao",
+          "velocidade": 31.04723372223504
+        },
+        {
+          "acao": "mouse",
+          "velocidade": 28.175023898492046
+        },
+        {
+          "acao": "foco",
+          "velocidade": 30.0027688047993
+        },
+        {
+          "acao": "toque",
+          "velocidade": 30.115026474337082
+        },
+        {
+          "acao": "arrasto",
+          "velocidade": 30.060129509719637
+        },
+        {
+          "acao": "rodaHorizontal",
+          "velocidade": 30.05270457697638
+        },
+        {
+          "acao": "setasTeclado",
+          "velocidade": 30.091619509558583
+        },
+        {
+          "acao": "focoNativoForaDaFaixa",
+          "velocidade": 30.058279370952764
+        }
+      ],
+      "reduzidoEstavel": true,
+      "setas": 0,
+      "tamanhos": [
+        {
+          "w": 284,
+          "h": 320
+        },
+        {
+          "w": 284,
+          "h": 320
+        },
+        {
+          "w": 284,
+          "h": 320
+        },
+        {
+          "w": 284,
+          "h": 320
+        },
+        {
+          "w": 284,
+          "h": 320
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "voltas": {
+    "trocas": 13,
+    "quantidade": 5,
+    "identidadesUnicas": 5,
+    "originais": true,
+    "fase": 170
+  },
+  "instagram": {
+    "automatico": true,
+    "hoverPausa": true,
+    "retoma": true,
+    "videoPausa": true,
+    "setas": true
+  }
+}

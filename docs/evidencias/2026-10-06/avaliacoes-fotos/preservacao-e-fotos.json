@@ -1,0 +1,39 @@
+{
+  "baseline": "531dc6c",
+  "rioHTMLIdentico": true,
+  "rioSHA256": "ce2a842ce68c416b2b7a60506763b5f9672858a244435d929ba11a1e91e78c89",
+  "cssForaDasAvaliacoesIdentico": true,
+  "moduloInicialTemaRioIdentico": true,
+  "moduloInstagramIdentico": true,
+  "estruturaELibrasIdenticos": true,
+  "capturasRio": [
+    {
+      "width": 1366,
+      "theme": "light",
+      "pixelsDiferentes": 0,
+      "maiorDiferencaPorCanal": 0
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "pixelsDiferentes": 0,
+      "maiorDiferencaPorCanal": 0
+    },
+    {
+      "width": 360,
+      "theme": "light",
+      "pixelsDiferentes": 0,
+      "maiorDiferencaPorCanal": 0
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "pixelsDiferentes": 0,
+      "maiorDiferencaPorCanal": 0
+    }
+  ],
+  "fotosVisiveis": 19,
+  "originaisVisiveisDistintos": 19,
+  "webpNovos": 28,
+  "maxBytes": 145722
+}

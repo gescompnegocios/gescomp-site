@@ -21,7 +21,7 @@ O domínio oficial é **https://gescompnegocios.com.br/**. Canonical, compartilh
 
 Hospedagem existente: Cloudflare Workers, Worker `gescomp-site`, com integração ao GitHub. Somente `publicar/` é servida; `docs/`, `conteudo/`, `design/` e os dados privados da empresa não são publicados. Não há comando de build. Verificação e roteiro externo em [roteiro-de-atualizacao.md](docs/roteiro-de-atualizacao.md).
 
-Nesta rodada, a regra obrigatória do usuário proíbe push, deploy e alterações em produção. Codex preparou a configuração, Claude concluiu o visual e Codex revisou a integração. O fechamento é um commit local. Alterar o GitHub pode disparar publicação automática, portanto não fazer push enquanto essa restrição estiver vigente.
+O pedido posterior de 06/10/2026 autoriza Codex a revisar, fazer commit e push normal para main. Claude mantém as entregas sem commit/push. A integração existente pode publicar automaticamente após o push; não executar deploy manual nem alterar DNS nesta revisão.
 
 ## Executar localmente
 
@@ -102,11 +102,11 @@ Em `config.js`, `avaliacoes` contém `linkAvaliar`, `linkVerTodas`, `nota`, `tot
 
 ## Carrosséis e movimento
 
-Instagram e avaliações usam a mesma função `criarCarrossel`, com `data-carrossel`, `data-carrossel-trilha`, `data-slide`, `data-carrossel-anterior`, `data-carrossel-proximo` e `data-carrossel-aviso`. A lista deve ter `tabindex="0"`, nome acessível e aviso `aria-live="polite"`.
+Instagram e avaliações usam a mesma função `criarCarrossel`, com `data-carrossel`, `data-carrossel-trilha` e `data-slide`. No Instagram, as setas, o `tabindex="0"` da lista e o aviso `aria-live="polite"` permitem navegação manual. As avaliações não têm esses controles; seus links para o Google continuam acessíveis por teclado.
 
-Instagram passa a cada 8s com rolagem suave. Avaliações usam continuo: true e velocidade: 30 (px/s), deslizando sem trancos (a rolagem anda em pixels inteiros e a fração vai para --desliza, aplicada como translate nos cards), com ciclo sem salto: o primeiro card já fora da tela é movido para o fim e a rolagem compensada. Não há cópias de avaliações ou links duplicados. Cards têm largura/altura comuns por tela, esticando para o maior texto sem truncar. Setas das avaliações são ocultas até 899px; o gesto nativo de deslizar funciona nos dois temas.
+Instagram passa a cada 8s com rolagem suave. Avaliações usam `continuo: true`, `velocidade: 30` (px/s) e `somenteAutomatico: true`, com a mesma animação fracionária e ciclo sem salto: o primeiro card já fora da tela é movido para o fim e a rolagem compensada. Não há cópias de avaliações ou links duplicados. Cards mantêm largura/altura comuns por tela. A pedido do usuário em 06/10, não existem setas em nenhuma largura; mouse, foco, toque, roda e teclas não pausam nem navegam nas avaliações. Arrastar horizontalmente não muda a faixa; rolar a página verticalmente continua funcionando. O foco em um link fora da faixa não desloca a fase da animação.
 
-Os dois carrosséis param com mouse em cima, foco de teclado, foco dentro de iframe, toque, aba escondida, seção fora da tela e movimento reduzido. Depois do toque, a leitura fica pausada por 6s; sair da seta após clique do mouse permite retomar. Setas no computador e teclas ←/→ continuam funcionando. Sem botão Pausar. Com poucos itens, quando não há uma faixa suficiente para o ciclo, a função usa a passagem convencional; se todos couberem, permanece parada.
+O Instagram mantém as pausas com mouse, foco, iframe e toque; depois do toque, espera 6s. Suas setas e teclas ←/→ continuam funcionando. Sem botão Pausar. Ambos preservam as proteções existentes para aba escondida, seção fora da tela e movimento reduzido. Com poucos itens, a função usa a passagem convencional; se todos couberem, permanece parada.
 
 Os links do Instagram ficam em `instagramReels`. Apenas posts públicos; também são aceitos vídeos próprios `.mp4`/`.webm`. Embeds e vídeos são montados sem clique, a cerca de 400px da tela. A capa do embed permanece até load, altura e mensagem MOUNTED da origem/janela corretas; duas pinturas completam a troca. Vídeos próprios não usam autoplay; embeds seguem o comportamento da Meta. O foco dentro do iframe trava a passagem; sair do vídeo libera a trava após cerca de 3s. O site não pode inspecionar o play/pause de um iframe de outro domínio. Falha externa mantém um link utilizável; carga lenta libera o link da capa após 20s e continua aguardando o iframe.
 
@@ -116,7 +116,7 @@ Movimento reduzido desliga passagem automática, contadores e revelação. O com
 
 O VLibras oficial é externo; `libras.js` posiciona seu botão. No celular, o JS oculta temporariamente os lançadores flutuantes quando cobririam a arte/selos da abertura, carrosséis ou formulário, preservando o painel aberto do VLibras. Falhas da Meta/VLibras devem ser registradas separadamente de erros do site.
 
-`_headers` mantém segurança e cache de sete dias para imagens, com revalidação para CSS/JS. Autoriza unload somente em self e https://www.instagram.com para compatibilidade com o SDK da Meta; os iframes recebem a mesma permissão restrita. Os três avisos de recursos desconhecidos vêm dos cabeçalhos do Instagram e não podem ser removidos pelo HTML local. Evidências e limites em docs/evidencias/2026-10-04/instagram-politicas-fotos-reais.json. `site.css`, `estrutura.css`, `config.js` e `site.js` usam `?v=20261004&rev=2` em todas as páginas, escapado com `&amp;` no HTML. Se houver outra publicação na mesma data, use uma revisão nova.
+`_headers` mantém segurança e cache de sete dias para imagens, com revalidação para CSS/JS. Autoriza unload somente em self e https://www.instagram.com para compatibilidade com o SDK da Meta; os iframes recebem a mesma permissão restrita. Os três avisos de recursos desconhecidos vêm dos cabeçalhos do Instagram e não podem ser removidos pelo HTML local. Evidências e limites em docs/evidencias/2026-10-04/instagram-politicas-fotos-reais.json. `site.css`, `estrutura.css`, `config.js` e `site.js` usam `?v=20261006&rev=2` em todas as páginas, escapado com `&amp;` no HTML. Se houver outra publicação na mesma data, use uma revisão nova.
 
 Canonical, Open Graph, Twitter e JSON-LD usam o domínio final. `sitemap.xml` lista as nove páginas, `robots.txt` aponta para ele e `llms.txt` reúne dados e links públicos. `404.html` permanece com `noindex`. Manifest usa caminhos relativos, `id` e `scope` na raiz. `_headers` vale para assets estáticos do Worker, conforme [documentação Cloudflare](https://developers.cloudflare.com/workers/static-assets/headers/).
 

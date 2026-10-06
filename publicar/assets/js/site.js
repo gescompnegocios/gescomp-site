@@ -89,12 +89,14 @@ else if(st){st.textContent='O contato pelo site ainda está sendo configurado. U
    Passa sozinho a cada 8 s, com rolagem suave, e volta ao início no fim. Para com mouse em cima,
    foco de teclado, toque, aba escondida, "reduzir movimento" e enquanto houver uma trava
    (por exemplo, alguém assistindo a um vídeo). Avaliações usam continuo/velocidade para um ciclo
-   fluido com os mesmos cards, sem cópias. Opções: rotulo, intervalo, aoNavegar, aoSairMouse. */
+   fluido com os mesmos cards, sem cópias. somenteAutomatico ignora navegação e interações
+   do visitante. Opções: rotulo, intervalo, aoNavegar, aoSairMouse. */
 function criarCarrossel(raiz,op){
   op=op||{};
   var trilha=raiz.querySelector('[data-carrossel-trilha]'); if(!trilha)return null;
   var ant=raiz.querySelector('[data-carrossel-anterior]'), prox=raiz.querySelector('[data-carrossel-proximo]'), aviso=raiz.querySelector('[data-carrossel-aviso]');
-  var rotulo=op.rotulo||'Item', intervalo=op.intervalo||8000;
+  var rotulo=op.rotulo||'Item', intervalo=op.intervalo||8000, somenteAutomatico=!!op.somenteAutomatico;
+  raiz.classList.toggle('carrossel-somente-automatico',somenteAutomatico);
   var mq=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):null;
   var mouse=false, foco=false, toque=false, visivel=!('IntersectionObserver' in window), travas={}, timer=null, tRolagem=null, tToque=null;
   var quadro=null, instante=0, posicao=0, circular=false;
@@ -118,6 +120,7 @@ function criarCarrossel(raiz,op){
   function posicoes(s){var p=[],b=s[0].offsetLeft;for(var i=0;i<s.length;i++)p.push(s[i].offsetLeft-b);return p;}
   function maisPerto(p,x){var m=0;for(var i=1;i<p.length;i++)if(Math.abs(p[i]-x)<Math.abs(p[m]-x))m=i;return m;}
   function ir(d,manual){
+    if(somenteAutomatico&&manual)return;
     var s=slides(), n=s.length; if(n<2)return;
     if(circular){
       if(d<0&&trilha.scrollLeft<passo()){reservarAnterior();s=slides();}
@@ -130,22 +133,24 @@ function criarCarrossel(raiz,op){
     if(manual&&aviso)aviso.textContent=s[maisPerto(p,alvo)].getAttribute('aria-label')||rotulo+' '+(maisPerto(p,alvo)+1)+' de '+n;
   }
   function parado(){
-    if(reduzir()||!visivel||slides().length<2||trilha.scrollWidth-trilha.clientWidth<=4||mouse||foco||toque||document.hidden)return true;
+    if(reduzir()||!visivel||slides().length<2||trilha.scrollWidth-trilha.clientWidth<=4||document.hidden)return true;
+    if(!somenteAutomatico&&(mouse||foco||toque))return true;
     for(var k in travas)if(travas[k])return true;
     return false;
   }
   function agendar(){
     clearTimeout(timer);timer=null;cancelAnimationFrame(quadro);quadro=null;instante=0;
     // Mantém a fração ao retomar; se a pessoa rolou (dedo, setas), parte do ponto em que ela deixou.
-    if(Math.floor(posicao)!==trilha.scrollLeft)posicao=trilha.scrollLeft;deslizar(trilha.scrollLeft-posicao);
+    if(!somenteAutomatico&&Math.floor(posicao)!==trilha.scrollLeft)posicao=trilha.scrollLeft;deslizar(Math.floor(posicao)-posicao);
     if(parado())return;
     if(circular){quadro=requestAnimationFrame(animar);return;}
     timer=setTimeout(function(){timer=null;if(!parado())ir(1,false);agendar();},intervalo);
   }
   function travar(motivo,sim){if(sim)travas[motivo]=true;else delete travas[motivo];agendar();}
   // Setas só aparecem com mais de um item e quando nem todos cabem na tela.
-  function atualizarSetas(){var excedente=trilha.scrollWidth-trilha.clientWidth;var ver=slides().length>1&&excedente>4;circular=!!op.continuo&&slides().length>2&&excedente>=passo();raiz.classList.toggle('carrossel-continuo',circular);if(ant)ant.hidden=!ver;if(prox)prox.hidden=!ver;agendar();}
-  function navegar(d){if(op.aoNavegar)op.aoNavegar(d);if(circular)travar('navegacao',true);ir(d,true);if(circular)setTimeout(function(){travar('navegacao',false);},1000);else agendar();}
+  function atualizarSetas(){var excedente=trilha.scrollWidth-trilha.clientWidth;var ver=!somenteAutomatico&&slides().length>1&&excedente>4;circular=!!op.continuo&&slides().length>2&&excedente>=passo();raiz.classList.toggle('carrossel-continuo',circular);if(ant)ant.hidden=!ver;if(prox)prox.hidden=!ver;agendar();}
+  function navegar(d){if(somenteAutomatico)return;if(op.aoNavegar)op.aoNavegar(d);if(circular)travar('navegacao',true);ir(d,true);if(circular)setTimeout(function(){travar('navegacao',false);},1000);else agendar();}
+  if(!somenteAutomatico){
   raiz.addEventListener('pointerenter',function(e){if(e.pointerType==='mouse'){mouse=true;agendar();}});
   raiz.addEventListener('pointerleave',function(e){if(e.pointerType!=='mouse')return;mouse=false;if(op.aoSairMouse)op.aoSairMouse();agendar();});
   raiz.addEventListener('pointerdown',function(e){if(e.pointerType==='mouse'){foco=false;agendar();return;}toque=true;clearTimeout(tToque);agendar();if(circular&&trilha.contains(e.target)&&trilha.scrollLeft<passo())reservarAnterior();});
@@ -155,12 +160,19 @@ function criarCarrossel(raiz,op){
   raiz.addEventListener('focusin',function(e){foco=e.target.tagName==='IFRAME'||e.target.matches(':focus-visible');agendar();});
   raiz.addEventListener('keydown',function(){foco=true;agendar();});
   raiz.addEventListener('focusout',function(e){if(!e.relatedTarget||!raiz.contains(e.relatedTarget)){foco=false;agendar();}});
+  }
   document.addEventListener('visibilitychange',agendar);
   if(mq&&mq.addEventListener)mq.addEventListener('change',agendar);
-  trilha.addEventListener('scroll',function(){clearTimeout(tRolagem);tRolagem=setTimeout(agendar,150);},{passive:true});
+  if(somenteAutomatico){
+    // O navegador pode rolar ao focar um link fora da faixa. Repõe a posição
+    // antes da pintura, sem pausar, reiniciar ou alterar a fase da animação.
+    function manterPosicao(){if(circular&&trilha.scrollLeft!==Math.floor(posicao))trilha.scrollLeft=Math.floor(posicao);}
+    trilha.addEventListener('scroll',manterPosicao,{passive:true});
+    raiz.addEventListener('focusin',function(){Promise.resolve().then(manterPosicao);});
+  }else trilha.addEventListener('scroll',function(){clearTimeout(tRolagem);tRolagem=setTimeout(agendar,150);},{passive:true});
   if(ant)ant.addEventListener('click',function(){navegar(-1);});
   if(prox)prox.addEventListener('click',function(){navegar(1);});
-  trilha.addEventListener('keydown',function(e){if(e.target!==trilha)return;if(e.key==='ArrowRight'){e.preventDefault();navegar(1);}else if(e.key==='ArrowLeft'){e.preventDefault();navegar(-1);}});
+  if(!somenteAutomatico)trilha.addEventListener('keydown',function(e){if(e.target!==trilha)return;if(e.key==='ArrowRight'){e.preventDefault();navegar(1);}else if(e.key==='ArrowLeft'){e.preventDefault();navegar(-1);}});
   window.addEventListener('resize',atualizarSetas);
   if(window.ResizeObserver)new ResizeObserver(atualizarSetas).observe(trilha);
   if(window.IntersectionObserver){var ioCarrossel=new IntersectionObserver(function(es){visivel=es.some(function(e){return e.isIntersecting;});agendar();});ioCarrossel.observe(raiz);}
@@ -394,7 +406,7 @@ if(prova){
   prova.hidden=false;
 }
 sec.hidden=false;
-criarCarrossel(regiao,{rotulo:'Avaliação',continuo:true,velocidade:30});
+criarCarrossel(regiao,{rotulo:'Avaliação',continuo:true,velocidade:30,somenteAutomatico:true});
 })();
 
 /* Fotos liberadas pela configuração; imagens ausentes mantêm a arte de espera sem pedido HTTP. */

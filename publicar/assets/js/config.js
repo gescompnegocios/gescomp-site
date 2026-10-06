@@ -65,9 +65,9 @@ window.GESCOMP_CONFIG = {
   // Inclua o caminho só depois que o arquivo existir; lista vazia mantém a arte de espera.
   // Exemplo de caminho: '/assets/img/fotos/gabriela-retrato.webp'.
   fotos: [
-    '/assets/img/fotos/empresa-real-20261004.webp',
-    '/assets/img/fotos/contabilidade-real-20261004.webp',
-    '/assets/img/fotos/documentos-reais-20261004.webp'
+    '/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp',
+    '/assets/img/fotos/servico-contabilidade-cc0-20261006.webp',
+    '/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp'
   ],
 
   // E-mail usado pelo formulário se o WhatsApp ainda não estiver configurado.

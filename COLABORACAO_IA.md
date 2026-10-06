@@ -81,3 +81,13 @@ Conferências executadas: 62 combinações de páginas/telas/temas, sem rolagem 
 Rio: HTML, CSS e variáveis literalmente preservados. Oito pares de capturas: sete idênticos pixel a pixel; escuro de 1366 com 12 pixels de arredondamento de 1/255 por canal, sem diferença visual. Detalhes e links antes/depois em `docs/handoff.md` e `docs/evidencias/2026-10-06/`.
 
 Nenhuma pendência destes ajustes. Foto real da cliente continua pendente e não foi substituída. Commit e push normal da entrega atual para main autorizados; sem execução de deploy ou mudança de DNS.
+
+## 06/10/2026 — Codex: avaliações automáticas, Bahia e fotografias distintas
+
+Base `531dc6c`, Git inicialmente limpo, sem mudança simultânea do Claude identificada. A pedido do usuário, avaliações mantêm cinco cards originais e 30 px/s, sem setas ou interferência de mouse/foco/toque/arrasto/roda/teclas. Corrigido deslocamento nativo ao focar link fora da faixa; animação não reinicia. Links do Google, rolagem vertical, movimento reduzido e proteções de visibilidade mantidos. Instagram preservado.
+
+Bahia incluída, contador visual/acessível 5 → 6 e JSON-LD/llms sincronizados. Fotos repetidas substituídas por 19 originais visíveis distintos com declaração CC0, sem pessoas/mãos/manequins ou retratos desenhados; outra foto para compartilhar a inicial. Fontes, ampliação dos recortes e hashes em docs/imagens-reais-fontes.md; 28 WebP locais abaixo de 150 KB, sem geração por IA. Arquivos anteriores preservados; cache `20261006&rev=2`.
+
+Testes: 80 combinações (dez páginas/quatro telas/dois temas), sem overflow, fotos ausentes, erros locais ou violações axe A/AA; serviços externos simulados. Teste controlado: 32 interações mantêm fase e aproximadamente 30 px/s; duas voltas completas em desktop/celular com cinco originais. Fixture Instagram confirmou pausas, retomada, trava de vídeo e setas. Rio literalmente preservado em HTML/CSS/módulo inicial, quatro pares de PNG idênticos. Evidências/ferramentas em docs/evidencias/2026-10-06/avaliacoes-fotos/ e docs/testes/.
+
+Arquivos: dez HTML, site.js, config.js, site.css (só avaliações), llms.txt, WebP, LEIA-ME, docs/imagens*.md, handoff, evidências e este registro. Commit/push normal para main conforme autorização persistente. Sem deploy manual/DNS. Pendência externa: fotos reais da Gabriela/escritório. Claude pode continuar após esta entrega, preservando os comportamentos e a seleção sem repetições.

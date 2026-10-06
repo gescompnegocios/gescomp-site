@@ -1,0 +1,1819 @@
+{
+  "casos": [
+    {
+      "pagina": "index.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0,
+      "contador": "6",
+      "estados": "\n\n\n\n6\n6\n"
+    },
+    {
+      "pagina": "index.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0,
+      "contador": "6",
+      "estados": "\n\n\n\n6\n6\n"
+    },
+    {
+      "pagina": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0,
+      "contador": "6",
+      "estados": "\n\n\n\n6\n6\n"
+    },
+    {
+      "pagina": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0,
+      "contador": "6",
+      "estados": "\n\n\n\n6\n6\n"
+    },
+    {
+      "pagina": "index.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0,
+      "contador": "6",
+      "estados": "\n\n\n\n6\n6\n"
+    },
+    {
+      "pagina": "index.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0,
+      "contador": "6",
+      "estados": "\n\n\n\n6\n6\n"
+    },
+    {
+      "pagina": "index.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0,
+      "contador": "6",
+      "estados": "\n\n\n\n6\n6\n"
+    },
+    {
+      "pagina": "index.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/servico-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0,
+      "contador": "6",
+      "estados": "\n\n\n\n6\n6\n"
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "informacoes.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-abrir-empresa-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "mei.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "mei.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "mei.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "mei.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "mei.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "mei.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "mei.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "mei.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "404.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/pagina-nao-encontrada-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "404.html",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/pagina-nao-encontrada-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "404.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/pagina-nao-encontrada-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "404.html",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/pagina-nao-encontrada-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "404.html",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/pagina-nao-encontrada-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "404.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/pagina-nao-encontrada-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "404.html",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/pagina-nao-encontrada-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    },
+    {
+      "pagina": "404.html",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "fotos": [
+        {
+          "src": "/assets/img/fotos/pagina-nao-encontrada-cc0-20261006.webp",
+          "carregada": true,
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "falhas": [],
+      "avaliacoesSetas": 0
+    }
+  ],
+  "erros": [],
+  "resumo": {
+    "combinacoes": 80,
+    "overflow": 0,
+    "violacoes": 0,
+    "fotosAusentes": 0
+  }
+}
