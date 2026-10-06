@@ -16,6 +16,9 @@
 [data-theme="dark"]{--chao:#0A2B31;--titulo:#F1F5F4;--texto2:#A9C3C4}
 body{margin:0;background:var(--chao);font-family:'Figtree','Segoe UI',system-ui,sans-serif;color:var(--texto2)}
 header{background:#003F4A;padding:14px 24px}
+.gc-cabecalho-marca{display:inline-flex;text-decoration:none}
+.gc-cabecalho-logo{display:block;width:auto;height:40px}
+@media(max-width:779px){.gc-cabecalho-logo{height:34px}}
 main{max-width:640px;margin:0 auto;padding:96px 24px;display:flex;flex-direction:column;gap:20px;align-items:flex-start}
 .rio-ilustracao{display:block;width:100%;max-width:520px;height:auto;border-radius:20px}
 @media(max-width:600px){main{padding:48px 24px}}
@@ -28,7 +31,10 @@ a:focus-visible{outline:3px solid #F28A1E;outline-offset:3px;box-shadow:0 0 0 3p
 </style>
 </head>
 <body>
-<header><a href="/" style="display:inline-flex;background:#EEF0EF;border-radius:12px;padding:6px 14px"><img src="/assets/img/logo-gescomp.webp" width="666" height="183" alt="GESCOMP — Gestão Empresarial e Planejamento Contábil, voltar ao site" style="height:42px;width:auto;display:block"></a></header>
+<header><a href="/" class="gc-cabecalho-marca"><picture>
+<source srcset="/assets/img/logo/logo-gescomp-negativa-compacta.webp" type="image/webp">
+<img src="/assets/img/logo/logo-gescomp-negativa-compacta.png" width="794" height="200" decoding="async" alt="GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início" class="gc-cabecalho-logo">
+</picture></a></header>
 <main>
 <h1>Página não encontrada.</h1>
 <p>O endereço que você acessou não existe ou foi alterado.</p>

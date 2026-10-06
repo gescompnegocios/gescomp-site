@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 30" preserveAspectRatio="none">
+  <defs>
+    <filter id="pincel" x="-6%" y="-15%" width="112%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03 0.1" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <path d="M4 18 C 90 6, 200 26, 300 12 S 380 10, 396 14" fill="none" stroke="#F28A1E" stroke-width="9" stroke-linecap="round" filter="url(#pincel)"/>
+</svg>

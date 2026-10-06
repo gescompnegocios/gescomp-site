@@ -174,8 +174,8 @@ body{background:var(--chao)}
 .btn-contorno-claro{border-color:#FFFFFF}
 .gc-cabecalho .gc-cabecalho-contato,.gc-cabecalho .gc-menu-contato{background:var(--laranja)}
 .gc-cabecalho .gc-cabecalho-contato:hover,.gc-cabecalho .gc-menu-contato:hover{background:var(--laranja-hover)}
-.gc-cabecalho .gc-cabecalho-logo{height:42px}
-.gc-cabecalho .gc-cabecalho-logo-mobile{width:auto;height:clamp(30px,9vw,38px)}
+.gc-cabecalho .gc-cabecalho-logo{height:40px}
+.gc-cabecalho .gc-cabecalho-logo-mobile{width:auto;height:34px}
 .gc-rodape .gc-rodape-grade{padding-top:56px}
 
 /* Cards: cantos de 20 px, borda de 1 px, sombra suave; sobe 2 px no hover */
@@ -201,7 +201,9 @@ body{background:var(--chao)}
 .abertura-grade{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:40px 48px;align-items:center;padding-top:clamp(36px,5.5vw,72px);padding-bottom:calc(var(--onda-max) + clamp(28px,4vw,56px))}
 @media (max-width:899px){.abertura-grade{grid-template-columns:1fr}}
 .abertura-texto{display:flex;flex-direction:column;gap:22px;min-width:0}
-.abertura-titulo{margin:0;color:#FFFFFF}
+.abertura-titulo{margin:0;color:#FFFFFF;font-size:clamp(34px,3.7vw,50px)}
+.grifo-pincel{background-image:url("../img/grifo-pincel.svg");background-repeat:no-repeat;background-position:bottom;background-size:100% .35em;-webkit-box-decoration-break:clone;box-decoration-break:clone;padding-bottom:.12em}
+.abertura-sub strong{font-weight:700}
 .com-sublinhado{position:relative;display:inline-block;white-space:nowrap}
 .com-sublinhado svg{position:absolute;left:-2%;bottom:-.16em;width:104%;height:.3em;overflow:visible;pointer-events:none}
 .abertura-sub{margin:0;font-size:clamp(17px,1.35vw,19px);line-height:1.6;color:var(--texto-sobre-vibrante);max-width:52ch}

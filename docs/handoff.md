@@ -428,3 +428,42 @@ Pedido do usuário: "manter o design do botão flutuante do WhatsApp, mas com o 
 - Revisar e fazer o commit.
 - Subir o `?v=` do CSS e do JS (por exemplo, `rev=3`) nas páginas, conforme o LEIA-ME.
 - Push e publicação só com autorização do usuário.
+
+## 06/10/2026 — Codex: texto da abertura e logos transparentes (CONCLUÍDO)
+
+Pedido atual limitado à abertura, logos de cabeçalho/rodapé e cache, com commit e push para a main explicitamente autorizados. Esse pedido autoriza o envio desta entrega, apesar das restrições de publicação registradas nas etapas anteriores. Não foi executado comando de deploy nem alterado domínio/DNS.
+
+Codex leu o handoff e conferiu o Git: main limpa, base `5953ec4`, sem implementação ou registro do Claude para este pedido. Assumiu a implementação inicial conforme o item 3 do protocolo de colaboração e concluiu a revisão técnica. Nenhuma mudança preexistente foi descartada.
+
+### Alterações
+
+- `index.html`, somente texto de `#inicio`: H1 “Contabilidade para entender, planejar e crescer.”; grifo em “entender, planejar e crescer.”, incluindo o ponto; dois parágrafos exatamente como pedidos, com “on-line” e destaque de peso 700. Botões, linha de confiança, destaque do Google e preços dos serviços preservados.
+- `assets/img/grifo-pincel.svg`: mesmo caminho, cor e filtro do traço anterior, agora como fundo do span com `background-size:100% .35em` e as duas propriedades `box-decoration-break:clone`. SVG antigo removido apenas desse H1. Seu tamanho foi limitado a 50px, exclusivamente na abertura, porque o texto novo produzia três linhas com 56px; ficou em duas nas telas de computador pedidas. Os subtítulos mantêm a regra original de tamanho e cor.
+- Dez páginas HTML: cabeçalho usa `<picture>` com logo negativa compacta (WebP/PNG, 794×200), altura 40px no computador e 34px no celular, com o alt solicitado. Nove rodapés existentes usam a negativa completa (1225×300), altura 64px. A 404 recebeu a mesma troca no cabeçalho; não possui rodapé. Links da logo mantêm foco visível e destino original.
+- `assets/css/estrutura.css` e regras de logo em `site.css`: retirados fundo claro, padding de caixa e `mix-blend-mode`. Não havia SVG de pílula restante nos links; os demais SVGs foram preservados. Nenhuma sombra foi adicionada à marca; o contorno de foco existente continua funcionando.
+- Oito logos de `Downloads/logos-gescomp` copiadas para `assets/img/logo/`, sem edição/conversão; dimensões, transparência e hashes conferidos. Versões coloridas ficam disponíveis para fundos claros. Os arquivos antigos permanecem intactos, inclusive a referência do JSON-LD.
+- Links existentes de `site.css`, `estrutura.css`, `config.js` e `site.js` atualizados para `?v=20261006` em todas as páginas que os usam. A 404 mantém seu CSS interno e não usa esses scripts. Conteúdo de `site.js` e `config.js` não alterado.
+
+### Conferências executadas
+
+- Servidor Python local em 127.0.0.1:8080; Playwright em contexto próprio. Homepage em 1366×768, 1920×1080, 390×844 e 360×800, modos claro/escuro. Demais nove páginas em 1366, 390 e 360, ambos os temas: **62 combinações**.
+- Sem rolagem lateral, erros de JavaScript/console local ou respostas HTTP locais ausentes. **Zero violações axe A/AA**. Instagram e VLibras simulados nessa matriz; não é uma auditoria de serviços externos nem medição de produção.
+- H1 com duas linhas no computador; span do grifo com dois fragmentos nos celulares, alinhados visualmente. Dois parágrafos com a mesma fonte/cor de antes; preço ausente da abertura e mantido nos serviços.
+- Logos carregadas em WebP, proporções corretas, alturas 40/34/64px, fundo transparente, alinhamento central com o menu (diferença medida de 0px), sem filtros/mistura/pílula. Reserva PNG carregou ao simular ausência de suporte WebP. Foco visível de 3px nos links, incluindo a 404.
+- `node --check` nos dois scripts aprovado; busca `mix-blend-mode` em publicar sem resultados; `git diff --check` aprovado.
+- Verificação contra `5953ec4`: HTML fora dos trechos autorizados, CSS fora da tipografia/grifo/logos, scripts e logo antiga preservados. O HTML de `#rio` e todas as regras/variáveis de sua cena são idênticos. Capturas em quatro larguras e dois temas: sete pares com zero pixels diferentes; no par escuro de 1366px, 12 pixels diferem em apenas 1/255 por canal, arredondamento de rasterização. Sem diferença visual da cena ou alteração de suas animações/cores.
+
+### Evidências e reprodução
+
+Relatórios: [matriz de páginas e foco](evidencias/2026-10-06/revisao-abertura-logo.json), [preservação, hashes e comparação do rio](evidencias/2026-10-06/preservacao-abertura-logo.json). Capturas de antes e depois nas quatro larguras e nos dois temas estão em `docs/evidencias/2026-10-06/`, com nomes `abertura|cabecalho|rodape|rio-antes|depois-light|dark-LARGURA.png`.
+
+| Tela/tema | Abertura | Cabeçalho | Rodapé |
+| --- | --- | --- | --- |
+| 1366 claro | [antes](evidencias/2026-10-06/abertura-antes-light-1366.png) / [depois](evidencias/2026-10-06/abertura-depois-light-1366.png) | [antes](evidencias/2026-10-06/cabecalho-antes-light-1366.png) / [depois](evidencias/2026-10-06/cabecalho-depois-light-1366.png) | [antes](evidencias/2026-10-06/rodape-antes-light-1366.png) / [depois](evidencias/2026-10-06/rodape-depois-light-1366.png) |
+| 1366 escuro | [antes](evidencias/2026-10-06/abertura-antes-dark-1366.png) / [depois](evidencias/2026-10-06/abertura-depois-dark-1366.png) | [antes](evidencias/2026-10-06/cabecalho-antes-dark-1366.png) / [depois](evidencias/2026-10-06/cabecalho-depois-dark-1366.png) | [antes](evidencias/2026-10-06/rodape-antes-dark-1366.png) / [depois](evidencias/2026-10-06/rodape-depois-dark-1366.png) |
+| 360 claro | [antes](evidencias/2026-10-06/abertura-antes-light-360.png) / [depois](evidencias/2026-10-06/abertura-depois-light-360.png) | [antes](evidencias/2026-10-06/cabecalho-antes-light-360.png) / [depois](evidencias/2026-10-06/cabecalho-depois-light-360.png) | [antes](evidencias/2026-10-06/rodape-antes-light-360.png) / [depois](evidencias/2026-10-06/rodape-depois-light-360.png) |
+| 360 escuro | [antes](evidencias/2026-10-06/abertura-antes-dark-360.png) / [depois](evidencias/2026-10-06/abertura-depois-dark-360.png) | [antes](evidencias/2026-10-06/cabecalho-antes-dark-360.png) / [depois](evidencias/2026-10-06/cabecalho-depois-dark-360.png) | [antes](evidencias/2026-10-06/rodape-antes-dark-360.png) / [depois](evidencias/2026-10-06/rodape-depois-dark-360.png) |
+
+Ferramentas desta entrega em `docs/testes/`: `capturas-abertura-logo.js` (Playwright; versão depois), `revisao-abertura-logo.js` (matriz e PNG) e `verificar-preservacao-abertura-logo.py` (baseline fixo, Pillow e arquivos fornecidos). São ferramentas de conferência, sem dependências adicionadas ao site.
+
+Nenhuma pendência de implementação nestes dois ajustes. Claude: manter a nova abertura e as logos; não reintroduzir pílula/blend/SVG inline do antigo H1. Fotos reais de Gabriela continuam pendentes, fora do escopo deste pedido. Commit e envio normal para main; consultar o Git para o hash desta entrega.

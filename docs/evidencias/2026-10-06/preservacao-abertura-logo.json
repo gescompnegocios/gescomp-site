@@ -1,0 +1,207 @@
+{
+  "base": "5953ec4",
+  "escopoPreservado": true,
+  "scriptsELogoAnteriorPreservados": true,
+  "rioHtmlECssIdenticos": true,
+  "rioSha256": "ce2a842ce68c416b2b7a60506763b5f9672858a244435d929ba11a1e91e78c89",
+  "cache": [
+    {
+      "pagina": "404.html",
+      "links": 0,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "links": 4,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "links": 4,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "links": 4,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "links": 4,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "index.html",
+      "links": 4,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "informacoes.html",
+      "links": 4,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "mei.html",
+      "links": 4,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "links": 4,
+      "versao": "20261006"
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "links": 4,
+      "versao": "20261006"
+    }
+  ],
+  "logosOriginais": [
+    {
+      "arquivo": "logo-gescomp-cor-compacta.png",
+      "tamanho": [
+        794,
+        200
+      ],
+      "sha256": "07196435b76696159b3bcd27483685cefc21231d9e1b4a39c40fa12a65c7f821"
+    },
+    {
+      "arquivo": "logo-gescomp-cor-compacta.webp",
+      "tamanho": [
+        794,
+        200
+      ],
+      "sha256": "9518ffddbaa3fa2fdd73434052ad0dfe883f93ef2387abbc181a77b69945ea00"
+    },
+    {
+      "arquivo": "logo-gescomp-cor.png",
+      "tamanho": [
+        1225,
+        300
+      ],
+      "sha256": "e84fb2c6110089759f3af4d77eb286b915a87057f61d1131a509066113e7137c"
+    },
+    {
+      "arquivo": "logo-gescomp-cor.webp",
+      "tamanho": [
+        1225,
+        300
+      ],
+      "sha256": "b2ae0746c68a537ba5eff302faf99cd21ce418f9a85aa0d3ff69c70e5be6f121"
+    },
+    {
+      "arquivo": "logo-gescomp-negativa-compacta.png",
+      "tamanho": [
+        794,
+        200
+      ],
+      "sha256": "54da1dbdebb22c508ab73119381452f004608147f58b8291d6f0a3a1c083cc1e"
+    },
+    {
+      "arquivo": "logo-gescomp-negativa-compacta.webp",
+      "tamanho": [
+        794,
+        200
+      ],
+      "sha256": "1b77d7cf0be5f065a7991fd1601fe3c75516c42a8fae0189563ea905aa236fe2"
+    },
+    {
+      "arquivo": "logo-gescomp-negativa.png",
+      "tamanho": [
+        1225,
+        300
+      ],
+      "sha256": "f59e2c891cb07a2a854beca7d77a73815632e74c6d48bfb46dac8f93309d3da8"
+    },
+    {
+      "arquivo": "logo-gescomp-negativa.webp",
+      "tamanho": [
+        1225,
+        300
+      ],
+      "sha256": "c61da5f9d9b53f21d9ec94f511ff97a64130a29b63153ea494b05d34ce5701d1"
+    }
+  ],
+  "rioPixels": [
+    {
+      "largura": 1366,
+      "tema": "light",
+      "tamanho": [
+        1351,
+        839
+      ],
+      "pixelsDiferentes": 0,
+      "diferencaMaximaPorCanal": 0
+    },
+    {
+      "largura": 1366,
+      "tema": "dark",
+      "tamanho": [
+        1351,
+        839
+      ],
+      "pixelsDiferentes": 12,
+      "diferencaMaximaPorCanal": 1
+    },
+    {
+      "largura": 1920,
+      "tema": "light",
+      "tamanho": [
+        1905,
+        1028
+      ],
+      "pixelsDiferentes": 0,
+      "diferencaMaximaPorCanal": 0
+    },
+    {
+      "largura": 1920,
+      "tema": "dark",
+      "tamanho": [
+        1905,
+        1028
+      ],
+      "pixelsDiferentes": 0,
+      "diferencaMaximaPorCanal": 0
+    },
+    {
+      "largura": 390,
+      "tema": "light",
+      "tamanho": [
+        375,
+        846
+      ],
+      "pixelsDiferentes": 0,
+      "diferencaMaximaPorCanal": 0
+    },
+    {
+      "largura": 390,
+      "tema": "dark",
+      "tamanho": [
+        375,
+        846
+      ],
+      "pixelsDiferentes": 0,
+      "diferencaMaximaPorCanal": 0
+    },
+    {
+      "largura": 360,
+      "tema": "light",
+      "tamanho": [
+        345,
+        876
+      ],
+      "pixelsDiferentes": 0,
+      "diferencaMaximaPorCanal": 0
+    },
+    {
+      "largura": 360,
+      "tema": "dark",
+      "tamanho": [
+        345,
+        876
+      ],
+      "pixelsDiferentes": 0,
+      "diferencaMaximaPorCanal": 0
+    }
+  ]
+}

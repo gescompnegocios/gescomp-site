@@ -1,0 +1,4386 @@
+{
+  "base": "5953ec4",
+  "date": "2026-10-06",
+  "externalServices": "simulated",
+  "cases": [
+    {
+      "page": "index",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": {
+        "title": "Contabilidade para entender, planejar e crescer.",
+        "lines": 2,
+        "font": "50px",
+        "span": "entender, planejar e crescer.",
+        "fragments": 1,
+        "background": "url(\"http://127.0.0.1:8080/assets/img/grifo-pincel.svg\")",
+        "repeat": "no-repeat",
+        "backgroundSize": "100% 17.5px",
+        "decoration": "clone",
+        "svg": 0,
+        "paragraphs": [
+          {
+            "text": "Tiramos todas as suas dúvidas de forma clara, transparente e acessível.",
+            "font": "18.441px",
+            "color": "rgb(243, 251, 250)",
+            "strong": null
+          },
+          {
+            "text": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP. Sem intermediários e sem respostas automáticas.",
+            "font": "18.441px",
+            "color": "rgb(243, 251, 250)",
+            "strong": "700"
+          }
+        ],
+        "heroPrice": false,
+        "servicePrices": [
+          "A partir de R$ 150/mês",
+          "A partir de R$ 100"
+        ]
+      },
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "index",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": {
+        "title": "Contabilidade para entender, planejar e crescer.",
+        "lines": 2,
+        "font": "50px",
+        "span": "entender, planejar e crescer.",
+        "fragments": 1,
+        "background": "url(\"http://127.0.0.1:8080/assets/img/grifo-pincel.svg\")",
+        "repeat": "no-repeat",
+        "backgroundSize": "100% 17.5px",
+        "decoration": "clone",
+        "svg": 0,
+        "paragraphs": [
+          {
+            "text": "Tiramos todas as suas dúvidas de forma clara, transparente e acessível.",
+            "font": "18.441px",
+            "color": "rgb(243, 251, 250)",
+            "strong": null
+          },
+          {
+            "text": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP. Sem intermediários e sem respostas automáticas.",
+            "font": "18.441px",
+            "color": "rgb(243, 251, 250)",
+            "strong": "700"
+          }
+        ],
+        "heroPrice": false,
+        "servicePrices": [
+          "A partir de R$ 150/mês",
+          "A partir de R$ 100"
+        ]
+      },
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "index",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1905,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": {
+        "title": "Contabilidade para entender, planejar e crescer.",
+        "lines": 2,
+        "font": "50px",
+        "span": "entender, planejar e crescer.",
+        "fragments": 1,
+        "background": "url(\"http://127.0.0.1:8080/assets/img/grifo-pincel.svg\")",
+        "repeat": "no-repeat",
+        "backgroundSize": "100% 17.5px",
+        "decoration": "clone",
+        "svg": 0,
+        "paragraphs": [
+          {
+            "text": "Tiramos todas as suas dúvidas de forma clara, transparente e acessível.",
+            "font": "19px",
+            "color": "rgb(243, 251, 250)",
+            "strong": null
+          },
+          {
+            "text": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP. Sem intermediários e sem respostas automáticas.",
+            "font": "19px",
+            "color": "rgb(243, 251, 250)",
+            "strong": "700"
+          }
+        ],
+        "heroPrice": false,
+        "servicePrices": [
+          "A partir de R$ 150/mês",
+          "A partir de R$ 100"
+        ]
+      },
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "index",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1905,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": {
+        "title": "Contabilidade para entender, planejar e crescer.",
+        "lines": 2,
+        "font": "50px",
+        "span": "entender, planejar e crescer.",
+        "fragments": 1,
+        "background": "url(\"http://127.0.0.1:8080/assets/img/grifo-pincel.svg\")",
+        "repeat": "no-repeat",
+        "backgroundSize": "100% 17.5px",
+        "decoration": "clone",
+        "svg": 0,
+        "paragraphs": [
+          {
+            "text": "Tiramos todas as suas dúvidas de forma clara, transparente e acessível.",
+            "font": "19px",
+            "color": "rgb(243, 251, 250)",
+            "strong": null
+          },
+          {
+            "text": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP. Sem intermediários e sem respostas automáticas.",
+            "font": "19px",
+            "color": "rgb(243, 251, 250)",
+            "strong": "700"
+          }
+        ],
+        "heroPrice": false,
+        "servicePrices": [
+          "A partir de R$ 150/mês",
+          "A partir de R$ 100"
+        ]
+      },
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": {
+        "title": "Contabilidade para entender, planejar e crescer.",
+        "lines": 3,
+        "font": "34px",
+        "span": "entender, planejar e crescer.",
+        "fragments": 2,
+        "background": "url(\"http://127.0.0.1:8080/assets/img/grifo-pincel.svg\")",
+        "repeat": "no-repeat",
+        "backgroundSize": "100% 11.9px",
+        "decoration": "clone",
+        "svg": 0,
+        "paragraphs": [
+          {
+            "text": "Tiramos todas as suas dúvidas de forma clara, transparente e acessível.",
+            "font": "17px",
+            "color": "rgb(243, 251, 250)",
+            "strong": null
+          },
+          {
+            "text": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP. Sem intermediários e sem respostas automáticas.",
+            "font": "17px",
+            "color": "rgb(243, 251, 250)",
+            "strong": "700"
+          }
+        ],
+        "heroPrice": false,
+        "servicePrices": [
+          "A partir de R$ 150/mês",
+          "A partir de R$ 100"
+        ]
+      },
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": {
+        "title": "Contabilidade para entender, planejar e crescer.",
+        "lines": 3,
+        "font": "34px",
+        "span": "entender, planejar e crescer.",
+        "fragments": 2,
+        "background": "url(\"http://127.0.0.1:8080/assets/img/grifo-pincel.svg\")",
+        "repeat": "no-repeat",
+        "backgroundSize": "100% 11.9px",
+        "decoration": "clone",
+        "svg": 0,
+        "paragraphs": [
+          {
+            "text": "Tiramos todas as suas dúvidas de forma clara, transparente e acessível.",
+            "font": "17px",
+            "color": "rgb(243, 251, 250)",
+            "strong": null
+          },
+          {
+            "text": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP. Sem intermediários e sem respostas automáticas.",
+            "font": "17px",
+            "color": "rgb(243, 251, 250)",
+            "strong": "700"
+          }
+        ],
+        "heroPrice": false,
+        "servicePrices": [
+          "A partir de R$ 150/mês",
+          "A partir de R$ 100"
+        ]
+      },
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": {
+        "title": "Contabilidade para entender, planejar e crescer.",
+        "lines": 3,
+        "font": "34px",
+        "span": "entender, planejar e crescer.",
+        "fragments": 2,
+        "background": "url(\"http://127.0.0.1:8080/assets/img/grifo-pincel.svg\")",
+        "repeat": "no-repeat",
+        "backgroundSize": "100% 11.9px",
+        "decoration": "clone",
+        "svg": 0,
+        "paragraphs": [
+          {
+            "text": "Tiramos todas as suas dúvidas de forma clara, transparente e acessível.",
+            "font": "17px",
+            "color": "rgb(243, 251, 250)",
+            "strong": null
+          },
+          {
+            "text": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP. Sem intermediários e sem respostas automáticas.",
+            "font": "17px",
+            "color": "rgb(243, 251, 250)",
+            "strong": "700"
+          }
+        ],
+        "heroPrice": false,
+        "servicePrices": [
+          "A partir de R$ 150/mês",
+          "A partir de R$ 100"
+        ]
+      },
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": {
+        "title": "Contabilidade para entender, planejar e crescer.",
+        "lines": 3,
+        "font": "34px",
+        "span": "entender, planejar e crescer.",
+        "fragments": 2,
+        "background": "url(\"http://127.0.0.1:8080/assets/img/grifo-pincel.svg\")",
+        "repeat": "no-repeat",
+        "backgroundSize": "100% 11.9px",
+        "decoration": "clone",
+        "svg": 0,
+        "paragraphs": [
+          {
+            "text": "Tiramos todas as suas dúvidas de forma clara, transparente e acessível.",
+            "font": "17px",
+            "color": "rgb(243, 251, 250)",
+            "strong": null
+          },
+          {
+            "text": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP. Sem intermediários e sem respostas automáticas.",
+            "font": "17px",
+            "color": "rgb(243, 251, 250)",
+            "strong": "700"
+          }
+        ],
+        "heroPrice": false,
+        "servicePrices": [
+          "A partir de R$ 150/mês",
+          "A partir de R$ 100"
+        ]
+      },
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "#inicio"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "informacoes",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "informacoes",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "informacoes",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "informacoes",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "mei",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "mei",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "mei",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "mei",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "mei",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "mei",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 375,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 345,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 261.328125,
+          "height": 64,
+          "naturalWidth": 1225,
+          "naturalHeight": 300,
+          "declaredWidth": "1225",
+          "declaredHeight": "300",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        },
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "404",
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "404",
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 1351,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 158.796875,
+          "height": 40,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "404",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 390,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "404",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 390,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "404",
+      "width": 360,
+      "height": 800,
+      "theme": "light",
+      "overflow": false,
+      "scrollWidth": 360,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "none",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    },
+    {
+      "page": "404",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "overflow": false,
+      "scrollWidth": 360,
+      "header": [
+        {
+          "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "alt": "GESCOMP – Gestão Empresarial e Planejamento Contábil, voltar ao início",
+          "width": 134.96875,
+          "height": 34,
+          "naturalWidth": 794,
+          "naturalHeight": 200,
+          "declaredWidth": "794",
+          "declaredHeight": "200",
+          "picture": true,
+          "source": "/assets/img/logo/logo-gescomp-negativa-compacta.webp",
+          "blend": "normal",
+          "filter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "border": "0px",
+          "shadow": "rgb(0, 63, 74) 0px 0px 0px 3px",
+          "pillSvg": 0
+        }
+      ],
+      "footer": [],
+      "alignment": 0,
+      "hero": null,
+      "focus": [
+        {
+          "visible": true,
+          "outline": "solid",
+          "width": "3px",
+          "href": "/"
+        }
+      ],
+      "errors": [],
+      "http": [],
+      "axe": []
+    }
+  ],
+  "fallback": [
+    {
+      "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.png",
+      "width": 794,
+      "height": 200
+    },
+    {
+      "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa-compacta.png",
+      "width": 794,
+      "height": 200
+    },
+    {
+      "src": "http://127.0.0.1:8080/assets/img/logo/logo-gescomp-negativa.png",
+      "width": 1225,
+      "height": 300
+    }
+  ]
+}

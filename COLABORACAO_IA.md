@@ -67,3 +67,17 @@ Para o Codex, detalhes em `docs/handoff.md`:
 - documentação das seções novas;
 - texto em primeira pessoa da Gabriela para aprovação;
 - revisão e commit único das duas rodadas, sem push nem deploy.
+
+## 06/10/2026 — Codex: revisão e implementação dos dois ajustes de abertura/logo
+
+Handoff lido; main inicialmente limpa, base `5953ec4`, sem entrega do Claude para este pedido. Codex assumiu a implementação inicial conforme o protocolo. Pedido atual autoriza explicitamente commit e push para main.
+
+H1 e dois parágrafos da abertura aplicados exatamente como solicitados; span com grifo SVG de fundo e quebra clonada por linha. H1 limitado a 50px só na abertura para cumprir duas linhas no computador; subtítulos, botões, confiança e preços dos serviços preservados. Logos transparentes fornecidas copiadas sem edição; cabeçalhos (inclusive 404) com negativa compacta de 40/34px, rodapés com negativa completa de 64px, WebP e reserva PNG. Retiradas caixa/pílula/mistura, mantido foco visível. Cache dos CSS/scripts existentes com data 20261006; scripts e JSON-LD preservados.
+
+Arquivos: dez HTML de `publicar/`, `assets/css/site.css`, `assets/css/estrutura.css`, `assets/img/grifo-pincel.svg`, oito arquivos em `assets/img/logo/`, handoff, registro de colaboração e evidências/ferramentas locais em docs. Nenhum framework nem biblioteca no site.
+
+Conferências executadas: 62 combinações de páginas/telas/temas, sem rolagem lateral, erros locais ou violações axe A/AA. H1 em duas linhas em 1366/1920; grifo em dois fragmentos em 390/360. Logos alinhadas, PNG de reserva carregado e foco de 3px. Node syntax check e diff --check aprovados; busca de mix-blend-mode sem resultados. Serviços externos simulados na matriz.
+
+Rio: HTML, CSS e variáveis literalmente preservados. Oito pares de capturas: sete idênticos pixel a pixel; escuro de 1366 com 12 pixels de arredondamento de 1/255 por canal, sem diferença visual. Detalhes e links antes/depois em `docs/handoff.md` e `docs/evidencias/2026-10-06/`.
+
+Nenhuma pendência destes ajustes. Foto real da cliente continua pendente e não foi substituída. Commit e push normal da entrega atual para main autorizados; sem execução de deploy ou mudança de DNS.

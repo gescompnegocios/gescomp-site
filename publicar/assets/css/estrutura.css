@@ -1,8 +1,8 @@
 /* Estilos comuns do cabeçalho e rodapé. As classes gc- são usadas nas nove páginas. */
 .gc-cabecalho { position: sticky; top: 0; z-index: 20; background: #003F4A; }
 .gc-cabecalho-conteudo { max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.gc-cabecalho-marca { position: relative; display: flex; align-items: center; padding: 8px 18px; text-decoration: none; }
-.gc-cabecalho-logo { position: relative; height: 44px; width: auto; display: block; mix-blend-mode: multiply; }
+.gc-cabecalho-marca { position: relative; display: flex; align-items: center; padding: 0; text-decoration: none; }
+.gc-cabecalho-logo { position: relative; height: 40px; width: auto; display: block; }
 .gc-navegacao { display: flex; align-items: center; gap: 30px; font-size: 16px; font-weight: 500; }
 .gc-navegacao-link { text-decoration: none; color: #FFFFFF; }
 .gc-navegacao-atual { text-decoration: underline; text-decoration-color: #E8952F; text-decoration-thickness: 3px; text-underline-offset: 8px; color: #FFFFFF; }
@@ -11,8 +11,8 @@
 .gc-botao-tema { position: relative; flex-shrink: 0; width: 48px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
 .gc-cabecalho-contato { position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 54px; box-sizing: border-box; font-weight: 700; font-size: 16px; color: #003F4A; padding: 12px 24px; min-height: 48px; }
 .gc-cabecalho-mobile { padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.gc-cabecalho-marca-mobile { position: relative; display: flex; align-items: center; padding: 6px 12px; text-decoration: none; }
-.gc-cabecalho-logo-mobile { position: relative; height: auto; width: min(118px, 30vw); display: block; mix-blend-mode: multiply; }
+.gc-cabecalho-marca-mobile { position: relative; display: flex; align-items: center; padding: 0; text-decoration: none; }
+.gc-cabecalho-logo-mobile { position: relative; height: 34px; width: auto; display: block; }
 .gc-cabecalho-acoes { display: flex; align-items: center; gap: 8px; }
 .gc-cabecalho-whatsapp { position: relative; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; }
 .gc-botao-menu { position: relative; width: 48px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
@@ -25,8 +25,8 @@
 .gc-rodape { position: relative; background: #003F4A; color: #BFD6D7; }
 .gc-rodape-grade { max-width: 1200px; margin: 0 auto; padding: 36px 24px 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 36px 40px; font-size: 15px; line-height: 1.6; }
 .gc-rodape-marca-coluna { display: flex; flex-direction: column; gap: 16px; }
-.gc-rodape-marca { position: relative; align-self: flex-start; display: flex; padding: 8px 16px; }
-.gc-rodape-logo { position: relative; height: 38px; width: auto; display: block; mix-blend-mode: multiply; }
+.gc-rodape-marca { position: relative; align-self: flex-start; display: flex; padding: 0; }
+.gc-rodape-logo { position: relative; height: 64px; width: auto; display: block; }
 .gc-rodape-slogan { margin: 0; color: #BFD6D7; max-width: 280px; }
 .gc-rodape-titulo { margin: 0 0 14px; font-family: 'Bricolage Grotesque', Georgia, serif; font-size: 17px; font-weight: 700; color: #FFFFFF; }
 .gc-rodape-lista { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
@@ -39,7 +39,6 @@
 .gc-rodape-registros { display: flex; gap: 20px; flex-wrap: wrap; }
 
 /* Visual sóbrio: cabeçalho e rodapé com formas limpas (sem pincel) */
-.gc-cabecalho-marca, .gc-cabecalho-marca-mobile, .gc-rodape-marca { background: #EEF0EF; border-radius: 12px; }
 .gc-botao-tema { background: #0B5963; border-radius: 50%; box-shadow: inset 0 0 0 2px #5FA3A8; transition: background-color .2s ease; }
 .gc-botao-tema:hover { background: #1E727D; }
 .gc-cabecalho-whatsapp { border-radius: 50%; box-shadow: inset 0 0 0 2px #5FA3A8; transition: background-color .2s ease; }
@@ -49,10 +48,10 @@
 .gc-cabecalho-contato:hover, .gc-menu-contato:hover { background: #F2A447; color: #003F4A; }
 .gc-menu-painel { padding-bottom: 28px; border-bottom: 1px solid #1E727D; }
 
-/* Cabeçalho móvel: logo de 40px e três controles de 48px cabem também em 360px. */
+/* Cabeçalho móvel: logo de 34px e três controles de 48px cabem também em 360px. */
 @media (max-width: 779px) {
   .gc-cabecalho .gc-cabecalho-mobile { padding-left: 16px; padding-right: 16px; gap: 0; }
   .gc-cabecalho .gc-cabecalho-marca-mobile { padding: 0; flex-shrink: 0; }
-  .gc-cabecalho .gc-cabecalho-logo-mobile { height: 40px; }
+  .gc-cabecalho .gc-cabecalho-logo-mobile { height: 34px; }
   .gc-cabecalho .gc-cabecalho-acoes { gap: 6px; }
 }
