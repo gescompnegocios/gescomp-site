@@ -37,7 +37,7 @@
 
 <link rel="preload" as="font" href="/assets/fonts/bricolage-v9-latin.woff2" type="font/woff2" crossorigin>
 <link rel="preload" as="font" href="/assets/fonts/figtree-v9-latin.woff2" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/fontes.css?v=20261006&amp;rev=6">
+<link rel="stylesheet" href="/assets/css/fontes.css?v=20261006&amp;rev=7">
 <link rel="preload" as="image" href="/assets/img/logo/logo-gescomp-negativa-compacta-480.webp" type="image/webp">
 
 <script>
@@ -312,8 +312,8 @@ document.documentElement.setAttribute('data-theme','light');
  ]
 }
 </script>
-<link rel="stylesheet" href="/assets/css/site.css?v=20261006&amp;rev=6">
-<link rel="stylesheet" href="/assets/css/estrutura.css?v=20261006&amp;rev=6">
+<link rel="stylesheet" href="/assets/css/site.css?v=20261006&amp;rev=7">
+<link rel="stylesheet" href="/assets/css/estrutura.css?v=20261006&amp;rev=7">
 </head>
 <body>
 <div class="tema-raiz" style="font-family: 'Figtree', 'Segoe UI', system-ui, sans-serif; color: var(--texto); background: var(--chao); min-height: 100vh; overflow-x: clip">
@@ -731,18 +731,22 @@ document.documentElement.setAttribute('data-theme','light');
 
 <section id="informacoes" class="secao secao-branca" aria-label="Informações e perguntas frequentes">
 <div style="max-width: var(--container); box-sizing: border-box; margin: 0 auto; padding: 0 var(--margem) 48px">
-<div class="cartao" style="position: relative; padding: 36px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 24px 36px; background: var(--chao); ">
-
-
-<div class="icone-solido" style="position: relative; flex-shrink: 0; width: 72px; height: 72px; display: flex; align-items: center; justify-content: center; background: #0B5963">
-
+<div class="cartao info-painel" style="position: relative; background: var(--chao)">
+<div class="info-cabecalho">
+<div class="icone-solido info-icone" style="position: relative; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: #0B5963">
 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: relative"><path d="M5 4h11l3 3v13H5z M8 9h8 M8 13h8 M8 17h5"></path></svg>
 </div>
-<div style="position: relative; flex: 1 1 320px; display: flex; flex-direction: column; gap: 8px">
-<h3 class="titulo-card" style="letter-spacing: -0.02em; color: var(--titulo)">Reforma tributária: o que muda para a sua empresa?</h3>
+<div class="info-cabecalho-texto">
+<h3 class="titulo-card" style="letter-spacing: -0.02em; color: var(--titulo)">Informações para a sua empresa</h3>
 <p class="texto" style="margin: 0; color: var(--texto2); max-width: 620px">Explicamos em palavras simples o que já mudou em 2026 e o que vem pela frente, além de outras informações úteis para o seu negócio.</p>
 </div>
-<div style="position: relative"><a class="btn btn-escuro" href="/informacoes" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; box-sizing: border-box; font-weight: 700; color: #FFFFFF"><span style="position: relative">Ler as informações</span></a></div>
+<div class="info-cabecalho-acao"><a class="btn btn-escuro" href="/informacoes" style="position: relative; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; box-sizing: border-box; font-weight: 700; color: #FFFFFF"><span style="position: relative">Ler as informações</span></a></div>
+</div>
+<ul class="info-destaques" aria-label="Assuntos em destaque">
+<li><a class="info-item" href="/informacoes#reforma-tributaria"><span class="info-etiqueta">Em transição desde 2026</span><span class="info-item-titulo">Reforma tributária</span><span class="info-item-texto">O que já mudou em 2026 e o que vem pela frente para a sua empresa.</span><span class="info-item-ler">Ler<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14 M13 6l6 6-6 6"></path></svg></span></a></li>
+<li><a class="info-item" href="/fim-escala-6x1"><span class="info-etiqueta">Proposta em tramitação</span><span class="info-item-titulo">Fim da escala 6x1</span><span class="info-item-texto">O que propõe a PEC, como está a tramitação e o que acompanhar antes de mudar a jornada da equipe.</span><span class="info-item-ler">Ler<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14 M13 6l6 6-6 6"></path></svg></span></a></li>
+<li><a class="info-item" href="/novo-limite-mei"><span class="info-etiqueta">Proposta em tramitação</span><span class="info-item-titulo">Novo limite do MEI</span><span class="info-item-texto">Qual teto continua valendo e o que propõem os projetos de aumento do faturamento permitido.</span><span class="info-item-ler">Ler<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14 M13 6l6 6-6 6"></path></svg></span></a></li>
+</ul>
 </div>
 </div>
 <div id="perguntas" style="max-width: var(--container); box-sizing: border-box; margin: 0 auto; padding: 0 var(--margem)">
@@ -986,8 +990,8 @@ document.documentElement.setAttribute('data-theme','light');
 
 
 </div>
-<script src="/assets/js/config.js?v=20261006&amp;rev=6"></script>
-<script src="/assets/js/site.js?v=20261006&amp;rev=6"></script>
+<script src="/assets/js/config.js?v=20261006&amp;rev=7"></script>
+<script src="/assets/js/site.js?v=20261006&amp;rev=7"></script>
 <!-- VLibras (Governo Federal): o plugin é carregado por /assets/js/libras.js depois da carga da página -->
 <script src="/assets/js/libras.js" defer></script>
 </body>

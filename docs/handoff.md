@@ -569,3 +569,15 @@ Linha de base (produção, Lighthouse móvel, 3 execuções, máquina ruidosa): 
 - Medição local (Lighthouse móvel, execução alternada): FCP de 3,0 s para 1,3 s; LCP de 4,2 s para 2,4 s; bytes de 461 para 279 KB. TBT e Speed Index variam muito nesta máquina (de 200 a 3.900 ms); o pico vem do primeiro layout da página e do VLibras.
 - Rio intacto (HTML da seção igual). Não tocado: Cloudflare Web Analytics (beacon injetado pela Cloudflare, pode ser desligado no painel).
 - Pendência para medir em produção: rodar o PageSpeed de novo depois da publicação.
+
+## 06/10/2026 — Claude: três assuntos na faixa de Informações da inicial (CONCLUÍDO)
+
+Pedido da Gabriela, via usuário: mostrar na faixa antes de "Dúvidas que nossos clientes sempre têm" também os assuntos Fim da escala 6x1 e Projeto de novo limite para MEI.
+
+- **`index.html`:** o card único virou `.info-painel`, com cabeçalho e lista `.info-destaques` de três links.
+  - Cabeçalho: ícone, título "Informações para a sua empresa", o mesmo texto e o mesmo botão "Ler as informações".
+  - Reforma tributária leva a `/informacoes#reforma-tributaria`. Os resumos dos outros dois vêm dos cards existentes em `informacoes.html`.
+  - Etiquetas: "Em transição desde 2026" e "Proposta em tramitação" (projetos separados das regras em vigor).
+- **`site.css`:** bloco "Destaques de Informações". Três colunas a partir de 900 px, uma coluna abaixo disso e linhas compactas com seta abaixo de 640 px. Subida de 2 px e seta deslizando só sem "reduzir movimento".
+- **Cache:** `rev=7` em todas as páginas.
+- **Testes:** 6 larguras (360 a 1920 px) × claro/escuro, com axe AA 0, sem rolagem lateral e sem erros. Os três links respondem 200. O rio está idêntico ao `d03b023`.
