@@ -395,44 +395,31 @@ body{background:var(--chao)}
 }
 
 /* ==========================================================================
-   Destaques de Informações (Claude, 06/10/2026): painel da inicial com os três
-   assuntos (reforma tributária, fim da escala 6x1, novo limite do MEI).
+   O que está mudando (Claude, 06/10/2026): lista editorial da inicial com três
+   artigos. Mesma linguagem do FAQ logo abaixo: fios finos, sem caixa nem etiqueta.
    ========================================================================== */
-.info-painel{padding:32px;display:flex;flex-direction:column;gap:26px}
-.info-cabecalho{display:flex;flex-wrap:wrap;align-items:center;gap:20px 32px}
-.info-icone{width:64px;height:64px}
-.info-cabecalho-texto{flex:1 1 320px;display:flex;flex-direction:column;gap:8px;min-width:0}
-.info-destaques{list-style:none;margin:0;padding:24px 0 0;border-top:1px solid var(--borda-card);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.info-destaques li{display:flex}
-.info-item{flex:1;display:flex;flex-direction:column;gap:8px;padding:20px 20px 18px;box-sizing:border-box;border-radius:14px;background:var(--cartao);border:1px solid var(--borda-card);text-decoration:none;color:inherit}
-.info-item:hover{border-color:#3F979C}
-.info-item:focus-visible{outline:3px solid #E8952F;outline-offset:3px}
-.info-etiqueta{align-self:flex-start;justify-self:start;padding:3px 10px;border:1px solid var(--borda-card);border-radius:999px;font-size:12.5px;font-weight:600;line-height:1.4;color:var(--texto2)}
-.info-item-titulo{font-family:'Bricolage Grotesque',Georgia,serif;font-size:19px;font-weight:700;line-height:1.25;letter-spacing:-.01em;color:var(--titulo)}
-.info-item-texto{font-size:15.5px;line-height:1.55;color:var(--texto2)}
-.info-item-ler{margin-top:auto;padding-top:4px;display:inline-flex;align-items:center;gap:6px;font-size:15px;font-weight:800;color:var(--titulo)}
-.info-item-ler svg{transition:none}
+.mudancas{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
+.mudancas-lista{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px}
+.mudancas-lista li{display:flex;border-top:1.5px solid var(--linha)}
+.mudancas-item{flex:1;display:flex;flex-direction:column;gap:8px;padding:18px 0 4px;text-decoration:none;color:inherit}
+.mudancas-item:focus-visible{outline:3px solid #E8952F;outline-offset:4px;border-radius:4px}
+.mudancas-numero{font-size:14px;font-weight:700;letter-spacing:.04em;font-variant-numeric:tabular-nums;color:var(--texto2)}
+.mudancas-titulo{font-family:'Bricolage Grotesque',Georgia,serif;font-size:21px;font-weight:700;line-height:1.25;letter-spacing:-.01em;color:var(--titulo);text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;text-decoration-thickness:2px}
+.mudancas-texto{font-size:15.5px;line-height:1.55;color:var(--texto2)}
+.mudancas-ler{margin-top:auto;padding-top:6px;display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:800;color:var(--titulo)}
+.mudancas-item:hover .mudancas-titulo,.mudancas-item:focus-visible .mudancas-titulo{text-decoration-color:currentColor}
 @media (prefers-reduced-motion:no-preference){
-  .info-item{transition:transform .2s ease,border-color .2s ease}
-  .info-item:hover,.info-item:focus-visible{transform:translateY(-2px)}
-  .info-item-ler svg{transition:transform .2s ease}
-  .info-item:hover .info-item-ler svg,.info-item:focus-visible .info-item-ler svg{transform:translateX(3px)}
+  .mudancas-titulo{transition:text-decoration-color .2s ease}
+  .mudancas-ler svg{transition:transform .2s ease}
+  .mudancas-item:hover .mudancas-ler svg,.mudancas-item:focus-visible .mudancas-ler svg{transform:translateX(3px)}
 }
-@media (max-width:899px){
-  .info-destaques{grid-template-columns:1fr;gap:12px}
-}
-@media (max-width:639px){
-  .info-painel{padding:24px 20px;gap:20px}
-  .info-icone{width:52px;height:52px}
-  .info-icone svg{width:26px;height:26px}
-  .info-cabecalho{gap:16px}
-  .info-cabecalho-acao{width:100%}
-  .info-cabecalho-acao .btn{width:100%}
-  .info-destaques{padding-top:20px}
-  .info-item{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:14px;row-gap:6px;padding:16px}
-  .info-item>span:not(.info-item-ler){grid-column:1}
-  .info-item-titulo{font-size:18px}
-  .info-item-texto{font-size:15px;line-height:1.5}
-  .info-item-ler{grid-column:2;grid-row:1/span 3;align-self:center;margin:0;padding:0;font-size:0;gap:0}
-  .info-item-ler svg{width:22px;height:22px}
+@media (max-width:699px){
+  .mudancas{gap:18px}
+  .mudancas-lista{grid-template-columns:1fr;border-bottom:1.5px solid var(--linha)}
+  .mudancas-item{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:16px;row-gap:6px;padding:18px 0}
+  .mudancas-numero,.mudancas-titulo,.mudancas-texto{grid-column:1}
+  .mudancas-ler{grid-column:2;grid-row:1/span 3;align-self:center;margin:0;padding:0;font-size:0;gap:0}
+  .mudancas-ler svg{width:22px;height:22px}
+  .mudancas-titulo{font-size:19px}
+  .mudancas-texto{font-size:15px;line-height:1.5}
 }

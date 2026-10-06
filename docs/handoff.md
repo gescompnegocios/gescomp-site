@@ -581,3 +581,17 @@ Pedido da Gabriela, via usuário: mostrar na faixa antes de "Dúvidas que nossos
 - **`site.css`:** bloco "Destaques de Informações". Três colunas a partir de 900 px, uma coluna abaixo disso e linhas compactas com seta abaixo de 640 px. Subida de 2 px e seta deslizando só sem "reduzir movimento".
 - **Cache:** `rev=7` em todas as páginas.
 - **Testes:** 6 larguras (360 a 1920 px) × claro/escuro, com axe AA 0, sem rolagem lateral e sem erros. Os três links respondem 200. O rio está idêntico ao `d03b023`.
+
+## 06/10/2026 — Claude: faixa de Informações refeita como lista editorial (CONCLUÍDO)
+
+O usuário reprovou o `.info-painel` (caixa grande, ícone, descrição, cards brancos e etiquetas em pílula), que achou com "cara de IA".
+
+- **Formato:** escolhido por ele, `.mudancas` é um `h2.titulo-secao` ("O que está mudando e pode impactar sua empresa") seguido de uma lista numerada 01/02/03.
+  - Cada item tem título em Bricolage, uma frase de resumo e "Ler artigo →".
+  - Os fios de 1,5 px `var(--linha)` são os mesmos do FAQ.
+  - A largura de 860 px alinha o título com "Dúvidas…".
+- **Layout:** três colunas a partir de 700 px; no celular, lista com seta à direita.
+- **CSS:** o bloco `.info-*` foi removido do `site.css`.
+- **Cache:** `rev=8` em todas as páginas.
+- **Regra do usuário para os dois agentes:** não usar etiquetas tipo pílula com borda arredondada, caixas grandes em volta de pouco conteúdo nem descrições que repetem o que os itens já dizem. Preferir padrões editoriais de mercado.
+- **Testes:** 6 larguras × claro/escuro, com axe AA 0, sem rolagem lateral e sem erros. Os três links respondem 200. O rio está idêntico.
