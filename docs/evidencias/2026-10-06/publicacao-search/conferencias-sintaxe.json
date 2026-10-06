@@ -1,0 +1,27 @@
+{
+  "conferencia": "2026-10-06",
+  "checks": [
+    {
+      "comando": "node --check site.js",
+      "exit_code": 0
+    },
+    {
+      "comando": "node --check config.js",
+      "exit_code": 0
+    },
+    {
+      "comando": "node --check libras.js",
+      "exit_code": 0
+    },
+    {
+      "comando": "node --check painel-search-cdp.cjs",
+      "exit_code": 0
+    },
+    {
+      "comando": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "conferenciaEstatica": "conferencia-final-estatica.json",
+  "observacao": "Resultado da matriz de telas anterior encontra-se separado; estes checks nao medem responsividade nem indexacao."
+}

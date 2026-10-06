@@ -1,0 +1,44 @@
+[
+  {
+    "arquivo": "publicar/assets/fonts/bricolage-v9-vietnamese.woff2",
+    "fonte": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGHInHEVA.woff2",
+    "bytes": 12984,
+    "sha256": "b50a9d90a5264f20d1e45be0b948fe947ddb3644557f1e85ef5d3bd06427c944"
+  },
+  {
+    "arquivo": "publicar/assets/fonts/bricolage-v9-latin-ext.woff2",
+    "fonte": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGGInHEVA.woff2",
+    "bytes": 30736,
+    "sha256": "776f6dcaf03636cd69a5802c94808cc8896c0a66c8e9ce0fe147231b6ee01957"
+  },
+  {
+    "arquivo": "publicar/assets/fonts/bricolage-v9-latin.woff2",
+    "fonte": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2",
+    "bytes": 76888,
+    "sha256": "a79fdb52d4a5c76552452f69202add96e287401fff03d3e8c0e38b4dcb5a99cd"
+  },
+  {
+    "arquivo": "publicar/assets/fonts/figtree-v9-latin-ext.woff2",
+    "fonte": "https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4q9DbZs.woff2",
+    "bytes": 10280,
+    "sha256": "bf7828e2c258cffcfa50a048ee388a36b95bc16b452e8d36fa797635dbe15965"
+  },
+  {
+    "arquivo": "publicar/assets/fonts/figtree-v9-latin.woff2",
+    "fonte": "https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4S9DQ.woff2",
+    "bytes": 20156,
+    "sha256": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd"
+  },
+  {
+    "arquivo": "publicar/assets/fonts/bricolage-OFL.txt",
+    "fonte": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/OFL.txt",
+    "bytes": 4403,
+    "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+  },
+  {
+    "arquivo": "publicar/assets/fonts/figtree-OFL.txt",
+    "fonte": "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/OFL.txt",
+    "bytes": 4388,
+    "sha256": "140d37233e7f3ce7313798befa9600893bcceaf41a55fa0fa5ad52f7f657a268"
+  }
+]

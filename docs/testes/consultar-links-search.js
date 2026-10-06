@@ -1,0 +1,1 @@
+JSON.stringify({url:location.href,links:[...document.querySelectorAll('a[href]')].filter(e=>e.getClientRects().length).map(e=>({texto:e.innerText.trim(),url:e.href})).filter(e=>e.url.startsWith('https://search.google.com/search-console/'))})

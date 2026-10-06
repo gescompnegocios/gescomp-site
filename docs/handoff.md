@@ -595,3 +595,43 @@ O usuário reprovou o `.info-painel` (caixa grande, ícone, descrição, cards b
 - **Cache:** `rev=8` em todas as páginas.
 - **Regra do usuário para os dois agentes:** não usar etiquetas tipo pílula com borda arredondada, caixas grandes em volta de pouco conteúdo nem descrições que repetem o que os itens já dizem. Preferir padrões editoriais de mercado.
 - **Testes:** 6 larguras × claro/escuro, com axe AA 0, sem rolagem lateral e sem erros. Os três links respondem 200. O rio está idêntico.
+
+## 06/10/2026 — Codex: Search Console, Cloudflare e fechamento da rodada de fontes
+
+Pedido mais recente restringe esta continuação a Google/Cloudflare e ao código que já estava pendente. Releitura do handoff e Git: Claude concluiu/publicou `d03b023` (desempenho), `e374ef2` e `4ca2d45` (faixa editorial). Suas entregas são preservadas; esta continuação não altera HTML, CSS do site, JS publicado, imagens, textos ou #rio.
+
+### Contas e sitemap: execução real
+
+- Usuário autenticou manualmente `gescompnegocios@gmail.com` no Chrome temporário dedicado. Nenhuma senha, cookie ou token foi incluído no projeto. Search Console confirmou proprietário verificado da propriedade de Domínio; TXT preexistente preservado.
+- A inscrição original do sitemap retornava “Não foi possível buscar”, apesar de XML válido/200/application/xml. Teste publicado **do próprio Google** do XML confirmou rastreamento permitido e busca bem-sucedida. Reenviar o endereço original não eliminou o erro.
+- Enviado `https://gescompnegocios.com.br/sitemap.xml?v=20261006`: **Processado, 11 páginas, 0 vídeos**, envio/leitura em 06/10. Inscrição antiga removida do painel somente depois de confirmar a nova; nenhum XML ou conteúdo excluído. `robots.txt` aponta agora para o endereço processado. XML/canonicals literalmente preservados. Hipótese de estado anterior de busca/processamento não é uma causa interna comprovada.
+- Quatro testes publicados passaram: inicial, Informações, escala 6x1 e limite MEI. As primeiras solicitações manuais retornaram erro genérico do Google: não declaradas como aceitas. Conferência posterior da inicial: **“O URL está no Google” / “A página está indexada”**, HTTPS. Não afirmar que as outras dez páginas já estão indexadas só porque aparecem no sitemap.
+- Verificados: IA generativa em **Incluir**, nenhum problema nos relatórios de Ações manuais/Problemas de segurança; relatório de Páginas ainda processando dados. Core Web Vitals sem dados reais suficientes. As ações do Google são comprovadas pela interface da conta, não por user-agent de teste.
+
+### Cloudflare
+
+- Conta correta da GESCOMP, certificados de domínio/wildcard ativos. Ativado **Always Use HTTPS**.
+- Adicionado CNAME `www` para domínio oficial, **proxied**, TTL automático; preservados os registros de e-mail/verificação.
+- Single Redirect ativo “GESCOMP: www para dominio oficial”: `http*://www.gescompnegocios.com.br/*` → `https://gescompnegocios.com.br/${2}`, **301**, preservar query string.
+- Conferência pública: HTTP da raiz → HTTPS 301; HTTP e HTTPS de www → domínio oficial 301, com caminho/parâmetros idênticos; sitemap 200, rota inexistente 404. XML acessível ao Google confirmado pelo teste real e processamento.
+- Sessão CLI Wrangler de outra conta mantida intacta; configuração realizada no painel autenticado correto. Consulta CLI anterior em cloudflare-acesso.json é histórica e não significa falta de acesso da conta atual.
+- Nenhuma regra adicional de WAF/rate limit nem execução das melhorias de segurança da auditoria. Endereço alternativo de hospedagem mantém canonical oficial e permanece público; não foi desligado. `_redirects` de Workers assets não resolve redirects entre domínios.
+
+### Código pendente já integrado pelo Claude e conferências anteriores
+
+A rodada de fontes do Codex foi incorporada ao commit `d03b023` do Claude: cinco WOFF2 originais do Google, **151.044 bytes**, duas licenças OFL, links/preload locais e priceRange com os preços já publicados. Claude reduziu os 20 blocos @font-face a cinco faces variáveis e aplicou suas otimizações de imagens/VLibras. Não revertê-las. Adicionada proteção em preparar-fontes-search.py para impedir reexecução que sobrescreveria esse CSS otimizado.
+
+Evidências antes dessa integração, preservadas em publicacao-search:
+
+- Matriz local **rev=5**, 12 páginas × quatro telas × dois temas = 96 combinações; sem overflow, imagens faltantes, placeholders, erros locais ou violações axe A/AA. Meta/VLibras simulados nessa matriz. Não valida a revisão visual rev=8 do Claude.
+- Rio literalmente preservado em HTML/CSS/módulo inicial na rodada de fontes; comparação estabilizada: três pares de capturas idênticos e claro 360 com dois pixels variando no máximo 3/255 por canal. Comparação estrita inicial detectou esses pixels; limite explícito está registrado. Nenhuma alteração na cena.
+- Lighthouse em produção rev=4: primeira execução falhou NO_FCP, repetição completou com **77 desempenho / 100 acessibilidade / 96 boas práticas / 100 SEO**, FCP 3,4s, LCP 4,1s, CLS 0. Teste local da rodada de fontes registrou 62/100/96/100; redes/carga da máquina diferentes, não é comparação de ganho nem comprovação de Core Web Vitals.
+- Rich Results Test real do Google encontrou dois itens válidos antes do priceRange; aviso opcional de preço motivou o campo. Não declarar que esse aviso desapareceu sem novo teste publicado.
+
+O verificar-fontes-search.py é específico da base 0e84408/rev=5 e do CSS original com 20 faces. Seus resultados ficam como registro histórico; não executá-lo contra o código posterior do Claude como critério de aceite atual.
+
+Conferência final atual: 11 URLs publicadas com HTTP 200, canonical correspondente e sem noindex/X-Robots-Tag de bloqueio; XML com/sem versão idêntico; redirects 301 preservam parâmetros; rota inexistente 404. Node syntax check em site/config/libras e ferramenta CDP, diff --check aprovados. Hashes dos cinco WOFF2 e duas licenças conferidos, cinco faces otimizadas preservadas. Proteção da preparação interrompe a reexecução antes de rede/escrita, CSS inalterado. Duas verificações do teste precisaram ajuste (menção de @font-face no comentário e codificação de acentos do pipe PowerShell); problemas do teste, sem alteração do CSS. Escopo contra HEAD 4ca2d45: em publicar, somente o ponteiro do sitemap em robots.txt muda. [Resultado estático](evidencias/2026-10-06/publicacao-search/conferencia-final-estatica.json), [HTTP](evidencias/2026-10-06/publicacao-search/http-canonicals-antes-push.json), [painéis reais](evidencias/2026-10-06/publicacao-search/google-cloudflare-paineis.json).
+
+Arquivos desta continuação: robots.txt; LEIA-ME; google-search-console.md; proteção da ferramenta de fontes; ferramentas de conferência dos painéis, evidências e registros de colaboração. Sem dependência de execução nova. Código da cena, formulário, carrosséis e conteúdo do Claude preservados.
+
+Após a publicação, conferir robots e redirects novamente. Acompanhar indexação das demais páginas e métricas quando o Google tiver dados. Revisão do Perfil da Empresa, eventual tratamento do hostname alternativo, fotos reais da cliente e respostas de contratação continuam decisões/insumos separados. Sem promessa de posição ou recomendação pela IA. Fechamento autorizado com commit/push normal para main, sem deploy manual.

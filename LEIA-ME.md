@@ -17,11 +17,11 @@ HTML, CSS e JavaScript puros, sem framework, bibliotecas adicionais ou etapa de 
 
 ## Domínio e hospedagem
 
-O domínio oficial é **https://gescompnegocios.com.br/**. Canonical, compartilhamento, JSON-LD, sitemap, robots e llms usam esse endereço. Conferido em 04/10/2026: DNS na Cloudflare (alec/dora) e HTTPS com resposta 200 na raiz, sitemap, robots, llms e imagem Open Graph. A versão no ar ainda usa assets de 03/10; esta rodada atualiza os arquivos localmente.
+O domínio oficial é **https://gescompnegocios.com.br/**. Canonical, compartilhamento, JSON-LD, sitemap, robots e llms usam esse endereço. Em 06/10/2026, HTTPS e www foram consolidados na Cloudflare com redirecionamentos 301. A propriedade do Search Console está verificada, a inicial está indexada e `https://gescompnegocios.com.br/sitemap.xml?v=20261006` foi processado com 11 páginas. Resultados e acompanhamento em [google-search-console.md](docs/google-search-console.md).
 
 Hospedagem existente: Cloudflare Workers, Worker `gescomp-site`, com integração ao GitHub. Somente `publicar/` é servida; `docs/`, `conteudo/`, `design/` e os dados privados da empresa não são publicados. Não há comando de build. Verificação e roteiro externo em [roteiro-de-atualizacao.md](docs/roteiro-de-atualizacao.md).
 
-O pedido posterior de 06/10/2026 autoriza Codex a revisar, fazer commit e push normal para main. Claude mantém as entregas sem commit/push. A integração existente pode publicar automaticamente após o push; não executar deploy manual nem alterar DNS nesta revisão.
+O pedido posterior de 06/10/2026 autoriza Codex a revisar, fazer commit e push normal para main e configurar Search Console/Cloudflare. A integração existente publica após o push; esta rodada não executa deploy manual. As alterações recentes de desempenho e da faixa de Informações feitas pelo Claude são preservadas.
 
 ## Executar localmente
 

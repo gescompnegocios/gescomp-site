@@ -1,0 +1,1 @@
+JSON.stringify({url:location.href,links:[...document.querySelectorAll('a[href]')].filter(e=>/ai-crawl|security|workers|ssl-tls/.test(e.getAttribute('href'))).map(e=>({text:e.innerText.trim(),href:e.getAttribute('href')}))})

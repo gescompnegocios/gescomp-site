@@ -1,0 +1,15 @@
+{
+  "base": "4ca2d45ab0c54b5c23b14e3f9fc74d197a72db68",
+  "escopoPublicado": [
+    "publicar/robots.txt"
+  ],
+  "htmlCssJsImagensRioPreservados": true,
+  "robotsSomenteEnderecoSitemap": true,
+  "canonicalsESitemap": 11,
+  "fontesOriginaisVerificadas": 5,
+  "licencasVerificadas": 2,
+  "facesOtimizadasPreservadas": 5,
+  "preparacaoProtegidaSemSobrescrita": true,
+  "retestes": "Contagem exclui comentario de @font-face; verificacao do aviso usa bytes ASCII para evitar alteracao de acentos no pipe PowerShell. Nenhum CSS alterado.",
+  "teste": "Conferencia estatica atual; nao substitui testes visuais do Claude nem processamento do Google."
+}

@@ -9,6 +9,9 @@ import re
 import urllib.request
 
 root = Path(__file__).resolve().parents[2]
+css_destino = root / 'publicar/assets/css/fontes.css'
+if css_destino.exists():
+    raise SystemExit('Preparação já aplicada; preserve fontes.css e a otimização posterior do Claude.')
 evidencias = root / 'docs/evidencias/2026-10-06/publicacao-search'
 css_original = (evidencias / 'google-fonts-original.css').read_text(encoding='utf-8')
 fontes = root / 'publicar/assets/fonts'
