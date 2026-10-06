@@ -98,6 +98,7 @@ function criarCarrossel(raiz,op){
   var rotulo=op.rotulo||'Item', intervalo=op.intervalo||8000, somenteAutomatico=!!op.somenteAutomatico;
   raiz.classList.toggle('carrossel-somente-automatico',somenteAutomatico);
   var mq=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):null;
+  var mqSetas=op.ocultarSetasNoCelular&&window.matchMedia?window.matchMedia('(max-width:779px), (hover:none) and (pointer:coarse)'):null;
   var mouse=false, foco=false, toque=false, visivel=!('IntersectionObserver' in window), travas={}, timer=null, tRolagem=null, tToque=null;
   var quadro=null, instante=0, posicao=0, circular=false;
   function passo(){var s=slides();return s.length>1?s[1].offsetLeft-s[0].offsetLeft:0;}
@@ -148,7 +149,7 @@ function criarCarrossel(raiz,op){
   }
   function travar(motivo,sim){if(sim)travas[motivo]=true;else delete travas[motivo];agendar();}
   // Setas só aparecem com mais de um item e quando nem todos cabem na tela.
-  function atualizarSetas(){var excedente=trilha.scrollWidth-trilha.clientWidth;var celular=!!op.ocultarSetasNoCelular&&window.matchMedia('(max-width:779px)').matches;var ver=!somenteAutomatico&&!celular&&slides().length>1&&excedente>4;circular=!!op.continuo&&slides().length>2&&excedente>=passo();raiz.classList.toggle('carrossel-continuo',circular);if(ant)ant.hidden=!ver;if(prox)prox.hidden=!ver;agendar();}
+  function atualizarSetas(){var excedente=trilha.scrollWidth-trilha.clientWidth;var celular=mqSetas&&mqSetas.matches;var ver=!somenteAutomatico&&!celular&&slides().length>1&&excedente>4;circular=!!op.continuo&&slides().length>2&&excedente>=passo();raiz.classList.toggle('carrossel-continuo',circular);if(ant)ant.hidden=!ver;if(prox)prox.hidden=!ver;agendar();}
   function navegar(d){if(somenteAutomatico)return;if(op.aoNavegar)op.aoNavegar(d);if(circular)travar('navegacao',true);ir(d,true);if(circular)setTimeout(function(){travar('navegacao',false);},1000);else agendar();}
   if(!somenteAutomatico){
   raiz.addEventListener('pointerenter',function(e){if(e.pointerType==='mouse'){mouse=true;agendar();}});
@@ -174,6 +175,7 @@ function criarCarrossel(raiz,op){
   if(prox)prox.addEventListener('click',function(){navegar(1);});
   if(!somenteAutomatico)trilha.addEventListener('keydown',function(e){if(e.target!==trilha)return;if(e.key==='ArrowRight'){e.preventDefault();navegar(1);}else if(e.key==='ArrowLeft'){e.preventDefault();navegar(-1);}});
   window.addEventListener('resize',atualizarSetas);
+  if(mqSetas&&mqSetas.addEventListener)mqSetas.addEventListener('change',atualizarSetas);
   if(window.ResizeObserver)new ResizeObserver(atualizarSetas).observe(trilha);
   if(window.IntersectionObserver){var ioCarrossel=new IntersectionObserver(function(es){visivel=es.some(function(e){return e.isIntersecting;});agendar();});ioCarrossel.observe(raiz);}
   atualizarSetas(); agendar();

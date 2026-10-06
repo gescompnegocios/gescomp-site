@@ -540,3 +540,13 @@ Claude: preservar o rio, avaliações exclusivamente automáticas e fontes/fotos
 ### Fechamento solicitado pelo usuário — 06/10/2026
 
 Usuário pediu o commit da entrega e orientou deixar o roteiro quieto por enquanto. Arquivo google-search-console.md mantido exatamente como estava, sem novas edições ou execução das etapas. Commit local na main; nenhum push/deploy neste fechamento. Conferência de diff aprovada; testes da entrega registrados acima permanecem válidos, sem alterações adicionais no código.
+
+## 06/10/2026 — Codex: publicação e execução do roteiro, etapa 1
+
+Novo pedido autoriza explicitamente dois commits/pushes para main e a execução do roteiro. Verificado Git limpo na base 5d0f72e, main remota ainda em da4904d após fetch. No site publicado, CSS/JS rev=2 e setas visíveis em 390px: a revisão anterior estava somente local.
+
+Regra do Instagram passa a abranger até 779px e aparelhos de toque sem hover, inclusive celular horizontal. CSS oculta controles e JS sincroniza hidden ao redimensionar ou mudar a capacidade de entrada. Setas do computador e arraste nativo preservados; avaliações não alteradas. Cache dos assets existentes rev=4 em onze páginas (404 não usa esses assets).
+
+Testes locais: 18 combinações de larguras/temas/entrada e duas mudanças de largura, todas aprovadas. 360/390/844/1024 com toque sem setas; computador 780/1366/1920 com setas; 390/779 sem setas. Gesto real iniciado no iframe desloca 310px, sem pageerrors. Verificação estática: doze HTML idênticos à base exceto cache, CSS alterado apenas nessa regra, módulo inicial de tema/rio, config e Libras preservados. node --check e diff --check aprovados. [Setas](evidencias/2026-10-06/publicacao-search/instagram-setas.json) e [arraste](evidencias/2026-10-06/publicacao-search/instagram-arraste-real.json).
+
+Primeiro commit/push inclui a entrega anterior já comprometida e esta correção. A etapa Google será registrada separadamente após conferir o site publicado. O usuário esclareceu que a propriedade sc-domain:gescompnegocios.com.br já existe; DNS público já contém google-site-verification. Não criar propriedade ou TXT duplicados. Search Console nas ferramentas abriu sem autenticação. A sessão Cloudflare disponível identifica outra conta; conferir vínculo do domínio antes de qualquer alteração de conta/DNS.
