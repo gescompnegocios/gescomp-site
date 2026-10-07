@@ -423,3 +423,10 @@ body{background:var(--chao)}
   .mudancas-titulo{font-size:19px}
   .mudancas-texto{font-size:15px;line-height:1.5}
 }
+
+/* Passagem 1 de SEO (Claude, 07/10/2026): links de serviço discretos, sem duplicar chamadas. */
+.ajuda-saiba{margin:14px 0 0;font-size:15px;line-height:1.7;color:var(--texto2)}
+.ajuda-saiba a{color:var(--titulo);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.ajuda-saiba a:hover{text-decoration-thickness:2px}
+.link-claro,.conteudo-artigo a.link-claro{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.link-claro:hover,.conteudo-artigo a.link-claro:hover{color:#FFFFFF;text-decoration-thickness:2px}

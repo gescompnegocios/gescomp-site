@@ -26,6 +26,10 @@ Rascunho, condicionado à confirmação do serviço: “Sim. A Gabriela analisa 
 
 Confirmar primeiro se o serviço é oferecido; depois confirmar etapas, custos, contato com o contador anterior e pendências. Sem essa confirmação, retirar o “Sim” e não publicar a resposta.
 
+## Qual é o escopo da consultoria administrativa e financeira?
+
+O serviço já consta nos materiais aprovados e no site; detalhes de contratação continuam a confirmar. Perguntar: quais problemas são atendidos, quais informações são analisadas, quais entregas estão incluídas e como o trabalho é cobrado? A página de serviço não deve prometer entregáveis ou preços ainda não aprovados.
+
 ## Registro de aprovação
 
 ### Texto de Sobre em primeira pessoa — rascunho solicitado no plano revisado

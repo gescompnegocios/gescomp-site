@@ -3,6 +3,14 @@
 > Escritório de contabilidade com atendimento online em todo o Brasil e escritório físico em Barra dos Coqueiros (Sergipe), de frente para o Rio Sergipe. Slogan: "Conectando Gestão, Estratégia e Resultados". Atende clientes em Sergipe, Bahia, Maranhão, Rio de Janeiro, São Paulo e Minas Gerais (mais de 30 cidades). Contadora responsável: Gabriela do Nascimento Vieira, CRC 009186/SE, com 12 anos de experiência em contabilidade.
 
 ## Serviços
+
+Páginas de atendimento, com escopo a confirmar para cada caso:
+- Contabilidade para minha empresa: https://gescompnegocios.com.br/contabilidade-empresarial
+- Regularizar ou dar baixa no CNPJ: https://gescompnegocios.com.br/regularizacao-baixa-cnpj
+- Calcular verbas trabalhistas: https://gescompnegocios.com.br/calculos-trabalhistas
+- Consultoria administrativa e financeira: https://gescompnegocios.com.br/consultoria-financeira
+- Escolher o melhor regime de impostos: https://gescompnegocios.com.br/escolha-de-regime-tributario
+
 - Abertura, regularização e baixa de CNPJ.
 - Contabilidade para empresas (a partir de R$ 150,00 por mês).
 - Declaração de Imposto de Renda de pessoa física (IRPF), a partir de R$ 100,00.

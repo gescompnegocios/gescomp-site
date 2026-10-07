@@ -1,0 +1,160 @@
+{
+  "html": [
+    {
+      "page": "404.html",
+      "bytes": 3128,
+      "gzipBytes": 1456,
+      "baselineGzipBytes": 1391
+    },
+    {
+      "page": "abrir-empresa.html",
+      "bytes": 58263,
+      "gzipBytes": 10399,
+      "baselineGzipBytes": 10225
+    },
+    {
+      "page": "calculos-trabalhistas.html",
+      "bytes": 22773,
+      "gzipBytes": 6237,
+      "baselineGzipBytes": null
+    },
+    {
+      "page": "calendario-fiscal.html",
+      "bytes": 46187,
+      "gzipBytes": 8614,
+      "baselineGzipBytes": 8499
+    },
+    {
+      "page": "consultoria-financeira.html",
+      "bytes": 22525,
+      "gzipBytes": 6170,
+      "baselineGzipBytes": null
+    },
+    {
+      "page": "contabilidade-empresarial.html",
+      "bytes": 23213,
+      "gzipBytes": 6391,
+      "baselineGzipBytes": null
+    },
+    {
+      "page": "departamento-pessoal.html",
+      "bytes": 61731,
+      "gzipBytes": 10321,
+      "baselineGzipBytes": 10211
+    },
+    {
+      "page": "escolha-de-regime-tributario.html",
+      "bytes": 22675,
+      "gzipBytes": 6205,
+      "baselineGzipBytes": null
+    },
+    {
+      "page": "fim-escala-6x1.html",
+      "bytes": 24499,
+      "gzipBytes": 6833,
+      "baselineGzipBytes": 6706
+    },
+    {
+      "page": "imposto-de-renda.html",
+      "bytes": 61118,
+      "gzipBytes": 10469,
+      "baselineGzipBytes": 10357
+    },
+    {
+      "page": "index.html",
+      "bytes": 102407,
+      "gzipBytes": 18252,
+      "baselineGzipBytes": 17882
+    },
+    {
+      "page": "informacoes.html",
+      "bytes": 57735,
+      "gzipBytes": 10447,
+      "baselineGzipBytes": 10367
+    },
+    {
+      "page": "mei.html",
+      "bytes": 58149,
+      "gzipBytes": 10388,
+      "baselineGzipBytes": 10218
+    },
+    {
+      "page": "novo-limite-mei.html",
+      "bytes": 24416,
+      "gzipBytes": 6828,
+      "baselineGzipBytes": 6693
+    },
+    {
+      "page": "pro-labore-e-lucros.html",
+      "bytes": 51373,
+      "gzipBytes": 9658,
+      "baselineGzipBytes": 9532
+    },
+    {
+      "page": "regularizacao-baixa-cnpj.html",
+      "bytes": 22440,
+      "gzipBytes": 6157,
+      "baselineGzipBytes": null
+    },
+    {
+      "page": "simples-nacional.html",
+      "bytes": 60090,
+      "gzipBytes": 10787,
+      "baselineGzipBytes": 10663
+    }
+  ],
+  "largestReferencedImages": [
+    {
+      "asset": "/assets/img/logo-gescomp.png",
+      "bytes": 157905
+    },
+    {
+      "asset": "/assets/img/fotos/servico-abrir-empresa-cc0-20261006.webp",
+      "bytes": 145722
+    },
+    {
+      "asset": "/assets/img/fotos/capa-simples-cc0-20261006.webp",
+      "bytes": 104232
+    },
+    {
+      "asset": "/assets/img/fotos/capa-pro-labore-cc0-20261006.webp",
+      "bytes": 92936
+    },
+    {
+      "asset": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+      "bytes": 90806
+    },
+    {
+      "asset": "/assets/img/logo/logo-gescomp-negativa.png",
+      "bytes": 88948
+    },
+    {
+      "asset": "/assets/img/fotos/servico-contabilidade-cc0-20261006.webp",
+      "bytes": 85626
+    },
+    {
+      "asset": "/assets/img/fotos/assunto-pessoal-cc0-20261006.webp",
+      "bytes": 67912
+    },
+    {
+      "asset": "/assets/img/og-pro-labore-e-lucros-cc0-20261006.webp",
+      "bytes": 66530
+    },
+    {
+      "asset": "/assets/img/og-simples-nacional-cc0-20261006.webp",
+      "bytes": 64364
+    },
+    {
+      "asset": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261006.webp",
+      "bytes": 61418
+    },
+    {
+      "asset": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+      "bytes": 59342
+    }
+  ],
+  "newRuntimeDependencies": 0,
+  "newFonts": 0,
+  "newImages": 0,
+  "networkUsed": false
+}

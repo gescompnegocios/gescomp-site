@@ -126,3 +126,7 @@ Cloudflare: Always Use HTTPS ativo; CNAME www proxied; Single Redirect 301 para 
 Documentação atualizada com ações realizadas e limites. Evidências de fonte/Lighthouse/Rio anteriores à integração do Claude preservadas com revisão identificada; matriz de 96 casos rev=5 não apresentada como validação do visual atual. Arquivos novos apenas em docs, ferramenta de preparação protegida e sitemap pointer de robots. Fechamento com segundo commit/push normal autorizado; publicação pela integração existente, sem deploy manual. Detalhes e pendências em docs/handoff.md e docs/google-search-console.md.
 
 Fechamento confirmado: `5e7d850` commit/push para main, publicação automática conferida. Purge seletivo somente de robots.txt corrigiu cópia antiga ainda entregue pelo CDN; URL normal já aponta para sitemap processado, HTTP 200/11 URLs e redirects 301 conferidos novamente. Registro final em docs/evidencias/2026-10-06/publicacao-search/confirmacao-publicacao.json; complemento documental em commit separado, sem novos ajustes no site.
+
+## 07/10/2026 — SEO local (Codex executor, Claude auditor)
+
+Concluída e com commit local (sem push nem deploy). Cinco páginas de serviço, links internos sem tirar o WhatsApp direto, JSON-LD consistente, revisão editorial e testes sem falhas. Detalhes em `docs/seo-colaboracao.md` e `docs/relatorio-seo-local.md`.

@@ -637,3 +637,29 @@ Arquivos desta continuação: robots.txt; LEIA-ME; google-search-console.md; pro
 Após a publicação, conferir robots e redirects novamente. Acompanhar indexação das demais páginas e métricas quando o Google tiver dados. Revisão do Perfil da Empresa, eventual tratamento do hostname alternativo, fotos reais da cliente e respostas de contratação continuam decisões/insumos separados. Sem promessa de posição ou recomendação pela IA. Fechamento autorizado com commit/push normal para main, sem deploy manual.
 
 **Fechamento efetivo:** commit `5e7d850`, push normal main confirmado; referências local/remota iguais e árvore limpa após envio. Publicação automática conferida: versão nova de robots disponível, mas URL normal inicialmente com cópia antiga no CDN. Custom Purge restrito a **https://gescompnegocios.com.br/robots.txt**, resposta Cloudflare de sucesso. Reteste da URL normal já indica sitemap com ?v=20261006; XML HTTP 200, 11 URLs, redirects HTTP/www 301. Nenhum purge de todo o site/política de cache. [Confirmação](evidencias/2026-10-06/publicacao-search/confirmacao-publicacao.json). Complemento documental registrado em commit separado para preservar o histórico já enviado.
+
+## 07/10/2026 — Rodada de SEO local: Codex (executor) e Claude (auditor) — CONCLUÍDA
+
+Coordenação completa em `docs/seo-colaboracao.md` (linha de base, passagens 0 a 2) e entrega em `docs/relatorio-seo-local.md`. Rodada só local: sem Google, Search Console, Business Profile, Cloudflare, deploy nem push.
+
+- **Novas páginas de serviço:** `/contabilidade-empresarial`, `/regularizacao-baixa-cnpj`, `/calculos-trabalhistas`, `/escolha-de-regime-tributario` e `/consultoria-financeira`. Sitemap com 16 URLs e `llms.txt` atualizado.
+- **Inicial:**
+  - WhatsApp direto preservado em todos os botões e linhas;
+  - links secundários nos 3 cards e uma linha "Saiba como funciona" abaixo de "Outros serviços";
+  - parágrafos aprovados da abertura intactos;
+  - "Escritório em Barra dos Coqueiros (SE)" na lista de confiança;
+  - description com 147 caracteres.
+- **Guias:** uma única chamada final, com link para o serviço relacionado. As âncoras `#declarar-ir`, `#atendimento-abertura`, `#atendimento-mei` etc. foram mantidas.
+- **JSON-LD:**
+  - `AccountingService #empresa` consistente em todas as páginas;
+  - `Service` com `offers` só onde há preço visível;
+  - sem Review nem AggregateRating;
+  - sem `WebPage.dateModified` nos guias.
+- **CSS:** só o bloco "Passagem 1 de SEO" (`.ajuda-saiba`, `.link-claro`). Cache em `20261007`/rev 9.
+- **Testes:**
+  - `node docs/testes/validacao-estatica.cjs py`: 0 falhas;
+  - 68 cenários no navegador sem falhas;
+  - rio idêntico ao `f970f3f`.
+- **Interrupção:** o limite do Codex acabou durante os testes finais. O Claude removeu o temporário `publicar/__seo_base_local.html`, repetiu as conferências e fez o commit local, sem push.
+- **Pendências da cliente:** escopo do plano de R$ 150 e da consultoria, troca de contador e folha mensal. Depois que essas respostas chegarem, enriquecer as páginas de serviço com exemplos reais.
+- **Publicação:** precisa de autorização do usuário. Depois de publicar, enviar o sitemap atualizado conforme `docs/google-search-console.md`.

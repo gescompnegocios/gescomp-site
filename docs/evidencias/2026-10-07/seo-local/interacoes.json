@@ -1,0 +1,295 @@
+{
+  "localOnly": true,
+  "externalConnections": 0,
+  "checks": [
+    {
+      "name": "Oito contatos diretos preservados em 1366",
+      "passed": true,
+      "detail": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "name": "Foco visível em 72 passos em 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "FAQ pelo teclado em 1366",
+      "passed": true
+    },
+    {
+      "name": "Formulário sem telefone e sem envio externo em 1366",
+      "passed": true,
+      "detail": {
+        "phoneRequired": false,
+        "openedLocally": true
+      }
+    },
+    {
+      "name": "Home → serviço por link HTML em 1366",
+      "passed": true
+    },
+    {
+      "name": "Serviço → contato correto em 1366",
+      "passed": true
+    },
+    {
+      "name": "Oito contatos diretos preservados em 390",
+      "passed": true,
+      "detail": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "name": "Foco visível em 72 passos em 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Menu pelo teclado em 390",
+      "passed": true
+    },
+    {
+      "name": "Escape fecha e devolve foco em 390",
+      "passed": true
+    },
+    {
+      "name": "FAQ pelo teclado em 390",
+      "passed": true
+    },
+    {
+      "name": "Formulário sem telefone e sem envio externo em 390",
+      "passed": true,
+      "detail": {
+        "phoneRequired": false,
+        "openedLocally": true
+      }
+    },
+    {
+      "name": "Home → serviço por link HTML em 390",
+      "passed": true
+    },
+    {
+      "name": "Serviço → contato correto em 390",
+      "passed": true
+    },
+    {
+      "name": "Oito contatos diretos preservados em 360",
+      "passed": true,
+      "detail": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "name": "Foco visível em 72 passos em 360",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Menu pelo teclado em 360",
+      "passed": true
+    },
+    {
+      "name": "Escape fecha e devolve foco em 360",
+      "passed": true
+    },
+    {
+      "name": "FAQ pelo teclado em 360",
+      "passed": true
+    },
+    {
+      "name": "Formulário sem telefone e sem envio externo em 360",
+      "passed": true,
+      "detail": {
+        "phoneRequired": false,
+        "openedLocally": true
+      }
+    },
+    {
+      "name": "Home → serviço por link HTML em 360",
+      "passed": true
+    },
+    {
+      "name": "Serviço → contato correto em 360",
+      "passed": true
+    },
+    {
+      "name": "Barco, coqueiro e pássaro animados",
+      "passed": true,
+      "detail": {
+        "before": {
+          "time": 0.2667660117149353,
+          "paused": false,
+          "transforms": [
+            [
+              1,
+              0,
+              0,
+              1,
+              474.6686706542969,
+              402.0812072753906
+            ],
+            [
+              0.9997375572824164,
+              -0.02290887511396392,
+              0.02290887511396392,
+              0.9997375572824164,
+              -5.97850543527602,
+              2.130558752263653
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              306.04180908203125,
+              139.51939392089844
+            ]
+          ]
+        },
+        "after": {
+          "time": 0.8497999906539917,
+          "paused": false,
+          "transforms": [
+            [
+              1,
+              0,
+              0,
+              1,
+              486.6626892089844,
+              402.289794921875
+            ],
+            [
+              0.9999497126440121,
+              -0.010028568350350818,
+              0.010028568350350818,
+              0.9999497126440121,
+              -2.6229590457530065,
+              0.9157464388003973
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              321.5634765625,
+              138.28472900390625
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "name": "Transição sol/lua preservada",
+      "passed": true,
+      "detail": {
+        "middle": {
+          "sun": 0.664129,
+          "moon": 0.335871
+        },
+        "end": {
+          "sun": 0,
+          "moon": 1
+        }
+      }
+    },
+    {
+      "name": "Conteúdo e contato sem JavaScript",
+      "passed": true
+    }
+  ]
+}

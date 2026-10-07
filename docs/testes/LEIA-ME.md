@@ -1,5 +1,28 @@
 # Verificações da versão atual
 
+## Rodada exclusivamente local de SEO — 07/10/2026
+
+Servidor dos testes desta rodada: `python -m http.server 8091 --bind 127.0.0.1 --directory publicar`, a partir de `02-site`. Na máquina atual, use `C:/Users/fabri/AppData/Local/Programs/Python/Python314/python.exe` no lugar de `python` se necessário.
+
+Validação sem rede:
+
+```powershell
+node docs/testes/validacao-estatica.cjs "C:/Users/fabri/AppData/Local/Programs/Python/Python314/python.exe"
+```
+
+O argumento Python é opcional: no Windows, procura a instalação local de Python 3.14 e depois usa `py`; nos demais sistemas usa `python3`. Também aceita `GESCOMP_PYTHON`. Nesta máquina o launcher `py` não encontra a instalação, então o caminho explícito evita o atalho da Store. O comando executa `node --check` de site.js/config.js e `auditoria-seo-local.py`: metadados, duplicidades, JSON-LD, identidade/NAP, breadcrumbs, assets/alt/dimensões, links/âncoras, grafo de descoberta, sitemap e preservação da base. A auditoria inicial usa `--antes`; não sobrescrever sua evidência depois da implementação. A base desta rodada é `f970f3f`.
+
+Funções para Playwright MCP:
+
+- `revisao-seo-local.js`: 17 páginas × 4 larguras × 2 temas, axe A/AA, overflow, H1, imagens, exceções JS e mensagens WhatsApp. Permite `page.seoOnlyPages`/`page.seoOnlyThemes` para repetir cenários afetados. Toda conexão externa é interceptada em contexto novo, sem contas autenticadas.
+- `interacoes-seo-local.js`: foco/teclado, oito contatos diretos, formulário com telefone opcional e window.open simulado, caminho home → serviço, conteúdo sem JS, animações/transição do rio e capturas. URLs limpas são emuladas somente no servidor local; não prova redirects ou publicação de produção.
+- `rio-comparacao-seo-local.js`: comparar a base Git e a versão atual com transição concluída, SMIL em t=0 e elementos externos ao rio fora do enquadramento. Preparar apenas temporariamente `publicar/__seo_base_local.html` com o HTML do Git e remover imediatamente após o teste. Nunca publicar esse arquivo de teste.
+- `comparar-rio-seo-local.py`: comparação de pixels das oito duplas estabilizadas, com Pillow já disponível. Não modifica imagens.
+
+Resultados em `../evidencias/2026-10-07/seo-local/`. A execução inicial com defeitos e os retestes ficam separados: não confundir diagnóstico histórico com a matriz final. SDKs de Meta/VLibras são bloqueados; seus serviços externos e cabeçalhos de hospedagem não foram testados nesta rodada. Acessibilidade automatizada não substitui toda avaliação humana. Os scripts históricos abaixo não autorizam contato externo nesta tarefa.
+
+## Histórico anterior à rodada de SEO
+
 Executar o servidor dentro de publicar/: `python -m http.server 8080 --bind 127.0.0.1`. Na máquina atual o Python 3.14 é chamado pelo executável instalado; o launcher py não encontrou a instalação.
 
 Sintaxe e SEO, a partir de 02-site:
