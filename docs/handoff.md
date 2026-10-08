@@ -763,3 +763,17 @@ Testes executados por Codex: 88 cenários com axe (11 páginas, quatro larguras,
 Rio: nenhuma alteração; quatro pares de prints 1366/360 claro/escuro idênticos pixel a pixel. Evidências em `docs/evidencias/2026-10-08/revisao-factual/`.
 
 Pendências de acompanhamento editorial: tramitação futura de PEC/PLPs, publicação das regras IRPF 2027 e decisões judiciais aplicáveis a casos concretos. Manter a data de consulta e conferir as fontes antes de nova atualização. Commit e push normal desta revisão autorizados; sem deploy manual, acesso a contas ou mudanças de DNS nesta rodada.
+
+## 08/10/2026 — Codex: logo do rodapé e WhatsApp nítidos — CONCLUÍDO
+
+Pedido posterior: melhorar somente a logo do rodapé e deixar o botão flutuante do WhatsApp normal, no canto inferior direito, sem pixelização.
+
+- A inspeção mostrou pixelização no WebP de 600 px usado no rodapé. As 16 páginas com rodapé agora usam diretamente o PNG original transparente, nítido, de 1225×300. Dimensões, link e descrição acessível preservados; arquivos antigos mantidos. Cabeçalho não alterado.
+- Botão flutuante: círculo verde de 60 px, ícone SVG branco, sombra suave e foco visível. Removidos somente seus filtros de pincel, bitmap e desenhos/pulso decorativos. Margens de 18 px com consideração das áreas seguras; href/data-whatsapp e id=fab da inicial preservados. A lógica existente de evitar sobreposição dos controles no celular continua no JavaScript, sem edição.
+- Arquivos: 16 HTML, assets/css/estrutura.css e novo assets/img/whatsapp.svg. Cache apenas da folha alterada: estrutura.css?v=20261008&rev=11. Documentação e evidências desta rodada atualizadas; não foram solicitados commit/push novos.
+- Verificação efetivamente executada: 23 cenários de navegador (inicial nas quatro larguras e dois temas, mais as 15 páginas internas no celular), sem overflow/erros próprios/imagem ausente/WhatsApp incorreto. Logo PNG selecionada em todas, ícone SVG carregado, botão 60×60 e foco visível na inicial.
+- Conferência do diff: HTML muda somente logo do rodapé, botão flutuante e cache da folha. Imagens existentes e todo JavaScript preservados. #rio intacto; quatro pares de capturas controladas claro/escuro em 1366/360 idênticos pixel a pixel. A comparação final usa DPR1 e congela as animações apenas no navegador de teste, evitando diferenças de rasterização/tempo.
+
+Evidências: docs/evidencias/2026-10-08/logo-rodape-whatsapp/ (antes/depois, navegador.json e preservacao.json). A auditoria antiga de arquivos protegidos precisa reconhecer estrutura.css quando esta mudança for integrada; não foi enfraquecida nesta rodada.
+
+Pedido posterior do usuário em 08/10/2026 autoriza commit e push destes ajustes para main. Estado do Git conferido: apenas os componentes, cache e documentação/evidências desta rodada pendentes; base 1c4fb23. Resultados de navegador e preservação aprovados, sem novas alterações funcionais desde os testes.

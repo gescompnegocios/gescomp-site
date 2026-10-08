@@ -1,0 +1,29 @@
+{
+  "base": "1c4fb23",
+  "rio": [
+    {
+      "width": 1366,
+      "theme": "light",
+      "identical": true
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "identical": true
+    },
+    {
+      "width": 360,
+      "theme": "light",
+      "identical": true
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "identical": true
+    }
+  ],
+  "htmlOnlyRequestedChanges": true,
+  "existingImagesAndJavaScriptPreserved": true,
+  "failures": [],
+  "captureNote": "Before from actual HEAD HTML/CSS; after from checkout. Both same context,DPR1,transitions/CSS animations frozen only during capture;SVG time2s."
+}

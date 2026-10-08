@@ -162,3 +162,11 @@ Claude concluiu a fila de vídeos no commit local `cd11fb2`. Preservei o módulo
 Resultados locais efetivamente executados: 88 cenários Playwright/axe nas páginas corrigidas com JS publicado 9b67307; 136 cenários adicionais na versão integrada cd11fb2, nas 17 páginas, quatro larguras e dois temas; 17 páginas na validação estática; node --check; equivalência FAQ/JSON-LD/fontes/datas; preservação pessoal/institucional e dos assets. Zero falhas finais. Terceiros simulados, sem medição própria de produção/Meta. Os números de rede no handoff foram medidos pelo Claude.
 
 #rio intacto: HTML e assets preservados; quatro pares de capturas claro/escuro (1366 e 360) idênticos pixel a pixel. Não houve mudança de layout, fotos, cores ou animações por Codex. Pendências editoriais: tramitações futuras, calendário IRPF 2027 e efeitos das decisões judiciais em casos concretos. Sem deploy manual ou mudanças de conta/DNS.
+
+## 08/10/2026 — Codex: logo do rodapé e botão flutuante
+
+Pedido atual implementado somente nesses dois componentes: PNG original transparente substitui a fonte WebP pixelada nos 16 rodapés; botão WhatsApp ganha círculo verde limpo e ícone SVG, sem bitmap/filtro de pincel. Posicionamento inferior direito, links, acessibilidade e lógica móvel existentes preservados. Folha estrutura.css e seu cache atualizados; demais imagens, conteúdo, cabeçalho e JavaScript mantidos.
+
+Verificações: 23 cenários locais de navegador em computador/celular, sem erros próprios, overflow ou falhas dos componentes; foco visível, WhatsApp correto e PNG/SVG carregados. Conferência literal do HTML fora dos componentes e preservação dos assets existentes aprovada. Quatro pares de capturas controladas do rio, 1366/360 e claro/escuro, idênticos pixel a pixel. Evidências em docs/evidencias/2026-10-08/logo-rodape-whatsapp/; detalhes no handoff. Alterações locais prontas para revisão; esta solicitação não pediu novo commit/push.
+
+08/10/2026 — Pedido posterior autoriza commit e push normal desta rodada na main. Git e evidências conferidos antes do envio; incluídos apenas os dois ajustes, cache relacionado e registros da colaboração.
