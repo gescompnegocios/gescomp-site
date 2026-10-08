@@ -1,0 +1,7 @@
+{
+  "pixelsIdenticos": {
+    "light": true,
+    "dark": true
+  },
+  "metodo": "Mesmo viewport 360px, SVG em t=2s e recorte 345x876px. Animacoes congeladas somente no navegador de teste, sem alterar os arquivos."
+}

@@ -1,0 +1,23 @@
+{
+  "base": "cec532b",
+  "contagens": {
+    "paginas": 17,
+    "assets_locais": 167,
+    "fotos_novas": 9
+  },
+  "fotos_visiveis_distintas": 23,
+  "maior_webp_bytes": 168570,
+  "rio_html_identico": true,
+  "rio_capturas": [
+    {
+      "tema": "light",
+      "identico": true
+    },
+    {
+      "tema": "dark",
+      "identico": true
+    }
+  ],
+  "css_js_preservados": true,
+  "erros": []
+}

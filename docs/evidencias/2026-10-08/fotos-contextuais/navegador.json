@@ -1,0 +1,1343 @@
+{
+  "checks": [
+    {
+      "slug": "index",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "photos": [],
+      "faq": "Dúvidas que nossos clientes têm"
+    },
+    {
+      "slug": "index",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [],
+      "faq": "Dúvidas que nossos clientes têm"
+    },
+    {
+      "slug": "index",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "photos": [],
+      "faq": "Dúvidas que nossos clientes têm"
+    },
+    {
+      "slug": "index",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [],
+      "faq": "Dúvidas que nossos clientes têm"
+    },
+    {
+      "slug": "index",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "photos": [],
+      "faq": "Dúvidas que nossos clientes têm"
+    },
+    {
+      "slug": "index",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [],
+      "faq": "Dúvidas que nossos clientes têm"
+    },
+    {
+      "slug": "index",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "photos": [],
+      "faq": "Dúvidas que nossos clientes têm"
+    },
+    {
+      "slug": "index",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [],
+      "faq": "Dúvidas que nossos clientes têm"
+    },
+    {
+      "slug": "informacoes",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-informacoes-cc0-20261006-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-imposto-renda-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-mei-cc0-20261008-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-simples-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-abrir-empresa-cc0-20261008-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pro-labore-cc0-20261008-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pessoal-cc0-20261008-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-calendario-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-escala-6x1-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "informacoes",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-informacoes-cc0-20261006-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-imposto-renda-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-mei-cc0-20261008-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-simples-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-abrir-empresa-cc0-20261008-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pro-labore-cc0-20261008-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pessoal-cc0-20261008-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-calendario-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-escala-6x1-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006-480.webp",
+          "width": 310,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "informacoes",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-informacoes-cc0-20261006-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-imposto-renda-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-mei-cc0-20261008-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-simples-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-abrir-empresa-cc0-20261008-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pro-labore-cc0-20261008-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pessoal-cc0-20261008-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-calendario-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-escala-6x1-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "informacoes",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-informacoes-cc0-20261006-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-imposto-renda-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-mei-cc0-20261008-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-simples-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-abrir-empresa-cc0-20261008-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pro-labore-cc0-20261008-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pessoal-cc0-20261008-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-calendario-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-escala-6x1-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006-480.webp",
+          "width": 340,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "informacoes",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-informacoes-cc0-20261006-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-imposto-renda-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-mei-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-simples-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-abrir-empresa-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pro-labore-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pessoal-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-calendario-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-escala-6x1-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "informacoes",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-informacoes-cc0-20261006-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-imposto-renda-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-mei-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-simples-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-abrir-empresa-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pro-labore-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pessoal-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-calendario-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-escala-6x1-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "informacoes",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-informacoes-cc0-20261006-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-imposto-renda-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-mei-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-simples-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-abrir-empresa-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pro-labore-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pessoal-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-calendario-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-escala-6x1-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "informacoes",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-informacoes-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-informacoes-cc0-20261006-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-imposto-renda-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-imposto-renda-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-mei-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-simples-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-simples-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-abrir-empresa-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-abrir-empresa-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pro-labore-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pro-labore-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-pessoal-cc0-20261008-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-calendario-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-calendario-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-escala-6x1-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-escala-6x1-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        },
+        {
+          "src": "/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/assunto-novo-limite-mei-cc0-20261006-480.webp",
+          "width": 360,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-imposto-renda-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-imposto-renda-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-imposto-renda-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-imposto-renda-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-imposto-renda-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-imposto-renda-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-imposto-renda-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-imposto-renda-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-imposto-renda-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "mei",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-mei-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "mei",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-mei-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "mei",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-mei-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "mei",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-mei-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "mei",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-mei-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "mei",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-mei-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "mei",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-mei-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "mei",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-mei-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-mei-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-simples-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-simples-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-simples-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-simples-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-simples-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-simples-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-simples-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-simples-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-simples-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-pessoal-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-pessoal-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-pessoal-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-pessoal-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-pessoal-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-pessoal-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-pessoal-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-pessoal-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-pessoal-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-calendario-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-calendario-cc0-20261008-480.webp",
+          "width": 312,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-calendario-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-calendario-cc0-20261008-480.webp",
+          "width": 342,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-calendario-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-calendario-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-calendario-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "photos": [
+        {
+          "src": "/assets/img/fotos/capa-calendario-cc0-20261008.webp",
+          "selected": "http://127.0.0.1:8091/assets/img/fotos/capa-calendario-cc0-20261008-480.webp",
+          "width": 439,
+          "loaded": true,
+          "ratioOK": true
+        }
+      ],
+      "faq": null
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "thirdParties": "simulados; somente pagina e imagens locais"
+}

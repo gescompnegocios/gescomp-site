@@ -38,6 +38,16 @@
 .gc-rodape-creditos { max-width: 1200px; margin: 0 auto; padding: 18px 24px 36px; display: flex; justify-content: space-between; align-items: center; gap: 10px 24px; flex-wrap: wrap; font-size: 14px; color: #BFD6D7; }
 .gc-rodape-registros { display: flex; gap: 20px; flex-wrap: wrap; }
 
+/* Assinatura do desenvolvedor (Rumera). Sem href, é só texto; para virar link, acrescente ao <a class="gc-rodape-rumera"> nas páginas: href="https://www.instagram.com/rumera/" target="_blank" rel="noopener". */
+.gc-rodape-rumera { display: inline-flex; align-items: baseline; gap: .35em; color: inherit; text-decoration: none; opacity: .8; }
+.gc-rodape-rumera svg { height: .8em; width: auto; display: block; fill: currentColor; overflow: visible; }
+.gc-rodape-rumera[href] { transition: opacity .2s ease; }
+.gc-rodape-rumera[href]:hover, .gc-rodape-rumera[href]:focus-visible { opacity: 1; }
+.gc-rodape-rumera[href]:hover .gc-rodape-rumera-ponto, .gc-rodape-rumera[href]:focus-visible .gc-rodape-rumera-ponto { fill: #E05AA6; }
+.gc-rodape-rumera[href]:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 4px; }
+/* No computador, a assinatura fica na ponta direita: reserva o espaço do WhatsApp flutuante quando a tela é estreita demais para a margem cobrir. */
+@media (min-width: 900px) { .gc-rodape-creditos { padding-right: max(24px, calc(var(--gc-whatsapp-tamanho) + var(--gc-flutuante-direita) + 32px - (100vw - 1200px) / 2)); } }
+
 /* WhatsApp flutuante: círculo e ícone vetorial nítidos, sem filtro de pincel. */
 :root { --gc-flutuante-direita: max(18px, env(safe-area-inset-right, 0px)); --gc-flutuante-base: max(18px, env(safe-area-inset-bottom, 0px)); --gc-whatsapp-tamanho: 60px; --gc-flutuante-gap: 16px; }
 .gc-whatsapp-flutuante { position: fixed; right: var(--gc-flutuante-direita); bottom: var(--gc-flutuante-base); z-index: 30; width: var(--gc-whatsapp-tamanho); height: var(--gc-whatsapp-tamanho); display: flex; align-items: center; justify-content: center; background: #1FA855; border-radius: 50%; box-shadow: 0 4px 14px rgba(0,63,74,.25); text-decoration: none; }

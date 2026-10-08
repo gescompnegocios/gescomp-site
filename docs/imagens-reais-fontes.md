@@ -1,4 +1,32 @@
-# Fotografias usadas no site — 06/10/2026
+# Fotografias usadas no site — atualizadas em 08/10/2026
+
+## Substituições de 08/10/2026
+
+Nove posições receberam fotos mais ligadas ao assunto. As demais fotos de 06/10 continuam em uso. Permanecem 23 posições visíveis distintas; as versões menores de uma foto e seu recorte para compartilhamento representam a mesma posição, sem reutilizar a foto em outro card ou outra capa.
+
+| Arquivo em `assets/img/fotos/` | Onde aparece e motivo da troca | Fonte e licença |
+| --- | --- | --- |
+| `capa-imposto-renda-cc0-20261008.webp` | Imposto de Renda: calculadora e registros numéricos substituem o prendedor isolado | [PxHere 916424 — CC0](https://pxhere.com/en/photo/916424) |
+| `capa-mei-cc0-20261008.webp` | MEI: ferramentas de costura ilustram uma atividade independente, em lugar dos cadernos | [PxHere 1370422 — CC0](https://pxhere.com/en/photo/1370422) |
+| `capa-simples-cc0-20261008.webp` | Simples Nacional: calculadora e caneta substituem o caderno em branco com café | [PxHere 1328490 — CC0](https://pxhere.com/en/photo/1328490) |
+| `capa-pessoal-cc0-20261008.webp` | Funcionários e folha: relatório numérico e calculadora substituem o corredor | [PxHere 489765 — CC0](https://pxhere.com/en/photo/489765) |
+| `capa-calendario-cc0-20261008.webp` | Calendário fiscal: agenda mensal substitui o relógio digital | [PxHere 913018 — CC0](https://pxhere.com/en/photo/913018) |
+| `assunto-mei-cc0-20261008.webp` | Miniatura MEI: bancada de costura substitui a pilha de cadernos | [EVG Photos / StockSnap — CC0](https://stocksnap.io/photo/sewing-machine-7ULBJPUFYB) |
+| `assunto-pessoal-cc0-20261008.webp` | Miniatura funcionários e folha: instrumentos de controle financeiro substituem o porta-canetas | [Negative Space / StockSnap — CC0](https://stocksnap.io/photo/calculator-numbers-GIDMT5TDUF) |
+| `assunto-abrir-empresa-cc0-20261008.webp` | Miniatura abrir empresa: produtos no balcão de um comércio substituem o salão vazio | [PxHere 184398 — CC0](https://pxhere.com/en/photo/184398) |
+| `assunto-pro-labore-cc0-20261008.webp` | Miniatura pró-labore: planejamento financeiro substitui a mesa com papel amassado | [PxHere 676191 — CC0](https://pxhere.com/en/photo/676191) |
+
+Licenças individuais conferidas em 08/10/2026. As páginas e as licenças oficiais do [PxHere](https://pxhere.com/en/license) e do [StockSnap](https://stocksnap.io/license) declaram CC0, permitindo este uso comercial e recorte sem atribuição obrigatória. Os créditos disponíveis foram registrados no manifesto; nas fontes PxHere selecionadas, não foi identificado um nome de autor.
+
+Inspeção dos nove recortes finais: fotos reais, sem pessoas, mãos, manequins, marcas inventadas ou imagens geradas. A foto da confeitaria teve o enquadramento limitado ao balcão e aos produtos, excluindo pessoas e reflexos do fundo original. São imagens ilustrativas; não representam instalações, clientes, dados financeiros ou prazos da GESCOMP. A agenda não mostra um ano nem vencimentos fiscais. A costura é um exemplo de atividade, sem afirmar que toda ocupação pode ser MEI.
+
+Sete originais nativos do PxHere foram reduzidos para 1200 × 900; duas prévias StockSnap de 960 px foram usadas somente nas miniaturas, sem ampliação: 960 × 720 e 852 × 639 após recorte. Todas têm variantes de 480 e 720 px. As cinco capas também receberam imagens de compartilhamento 1200 × 630; OG, Twitter e JSON-LD foram sincronizados. São 32 WebP locais, o maior com 168.570 bytes. Nomes novos evitam servir a foto antiga pelo cache; fotos antigas foram preservadas.
+
+[Manifesto desta rodada](evidencias/2026-10-08/fotos-contextuais/fontes-fotos.json): páginas de origem, URLs dos downloads, autoria disponível, licença, resoluções, recortes, tamanhos e hashes. [Validação](evidencias/2026-10-08/fotos-contextuais/validacao-estatica.json) e [navegador](evidencias/2026-10-08/fotos-contextuais/navegador.json).
+
+## Registro anterior — 06/10/2026
+
+As tabelas abaixo documentam a seleção anterior. Para as nove posições substituídas, prevalecem os arquivos e fontes de 08/10 acima.
 
 Cada posição visível usa uma foto real distinta: 19 originais nos três serviços, sete miniaturas, oito capas e na 404. A inicial tem outra foto para compartilhamento. Cada assunto usa um recorte da própria capa nos metadados, sem repetir a foto em outra posição visível.
 

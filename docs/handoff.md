@@ -572,7 +572,7 @@ Linha de base (produção, Lighthouse móvel, 3 execuções, máquina ruidosa): 
 
 ## 06/10/2026 — Claude: três assuntos na faixa de Informações da inicial (CONCLUÍDO)
 
-Pedido da Gabriela, via usuário: mostrar na faixa antes de "Dúvidas que nossos clientes sempre têm" também os assuntos Fim da escala 6x1 e Projeto de novo limite para MEI.
+Pedido da Gabriela, via usuário: mostrar na faixa antes de "Dúvidas que nossos clientes têm" também os assuntos Fim da escala 6x1 e Projeto de novo limite para MEI.
 
 - **`index.html`:** o card único virou `.info-painel`, com cabeçalho e lista `.info-destaques` de três links.
   - Cabeçalho: ícone, título "Informações para a sua empresa", o mesmo texto e o mesmo botão "Ler as informações".
@@ -794,3 +794,54 @@ Verificação leve efetivamente executada: um contexto e uma aba de teste, 360/3
 node --check de site.js, libras.js e config.js aprovado; SVG válido. Diferença de HTML limitada ao cache, função do formulário e módulos seguintes de site.js idênticos; site.css/cores e logo PNG intactos. Dois pares de capturas do rio em 360 px, claro/escuro, idênticos pixel a pixel, com animações congeladas apenas na captura de teste. Evidências em docs/evidencias/2026-10-08/whatsapp-alinhamento/.
 
 Correção pronta para o commit e push normal autorizados. A auditoria histórica de arquivos protegidos ainda usa base anterior às alterações visuais; reconhecer esta entrega quando a base de preservação for atualizada, sem apagar registros antigos.
+
+## 08/10/2026 — Codex: título das dúvidas e fotografias contextuais
+
+Pedido atual: retirar “sempre” do título das dúvidas e substituir fotografias ruins ou pouco relacionadas aos assuntos. Git estava limpo na main, base cec532b; registros de colaboração lidos antes da edição. Revisão delegada somente para leitura/pesquisa web, sem trabalho visual concorrente.
+
+- Título “Dúvidas que nossos clientes têm” aplicado na inicial publicada, conteudo/01-index.md, design/canvas/Main.dc.html e referência documental do handoff. Snapshots em .playwright-mcp, evidências de rodadas anteriores e a cópia 02-site-melhorias permanecem históricos, fora da publicação.
+- Substituídas nove posições: cinco capas (IR, MEI, Simples, pessoal e calendário) e quatro miniaturas (MEI, pessoal, abertura e pró-labore). Fotografias reais com licença CC0 conferida, sem pessoas nos recortes finais e sem repetição entre posições. Detalhes, resoluções, créditos e fontes em docs/imagens-reais-fontes.md e no manifesto desta rodada. As fotos comerciais ilustram atividades; não representam escritório ou clientes da GESCOMP.
+- 32 WebP novos (27 variantes e cinco imagens OG), até 168.570 bytes. Fotos antigas mantidas; nomes de 08/10 evitam cache antigo. srcset/dimensões reais, OG/Twitter/Article.image e descrições de compartilhamento sincronizados. CSS, JavaScript, configurações, logos, WhatsApp, vídeos, avaliações, textos legais e layout preservados.
+- Testes executados: validação estática das 17 páginas, existência/dimensões/hash das fotos, licenças e ausência de repetição; 56 cenários locais em sete páginas, 360/390/1366/1920 px e dois temas, sem overflow, erro próprio de console, imagem ausente ou proporção incorreta. Uma aba/contexto de teste, recursos pesados externos simulados; não mediu serviços externos nem produção. Revisão independente do diff não encontrou defeito comprovado.
+- Rio: HTML e assets intactos; prints antes/depois em 360 px, claro e escuro, idênticos pixel a pixel. Evidências em docs/evidencias/2026-10-08/fotos-contextuais/. Nenhuma mudança de animação, cor ou seção.
+
+Alterações locais concluídas. O pedido atual não solicitou commit/push. Fotos reais da Gabriela e do escritório continuam aguardando a cliente; nenhuma substituta com pessoa foi inserida. Para revisar, abrir 02-site/publicar/index.html: a aba rio-base-e3c3bb5 é um snapshot antigo de teste.
+
+
+
+## 08/10/2026 — Claude: assinatura "by rumera." no rodapé — CONCLUÍDO
+
+Pedido do Rafael: assinatura do desenvolvedor (Rumera, empresa dele) no fim do rodapé, pronta para virar link do Instagram no futuro. Git encontrado com as alterações locais da rodada de fotos do Codex (sem commit); nenhuma delas foi tocada além do acréscimo abaixo. Sem commit, push ou deploy.
+
+- 16 páginas com rodapé: `<a class="gc-rodape-rumera">` acrescentado como último item de `.gc-rodape-registros`, depois do CRC. Texto "by" + logotipo em SVG embutido (`role="img"`, `aria-label="Rumera"`), sem arquivo externo.
+- `assets/css/estrutura.css`: regras `.gc-rodape-rumera*` logo após `.gc-rodape-registros`. O SVG usa `fill: currentColor` (mesma cor dos créditos, opacidade .8). **Sem `href` não é clicável.** Para ativar, acrescentar ao `<a>` nas 16 páginas: `href="https://www.instagram.com/rumera/" target="_blank" rel="noopener"`; hover/foco já previstos (opacidade 1, ponto magenta, contorno branco).
+- A partir de 900px, `.gc-rodape-creditos` reserva à direita o espaço do WhatsApp flutuante quando a margem lateral não basta (fórmula com `--gc-whatsapp-tamanho` e `--gc-flutuante-direita`). Em 1280px os registros quebram para a segunda linha; em 1366 e 1920px ficam na mesma linha.
+- Conferido no Chrome com servidor local: 390, 1280, 1366 e 1920px, sem sobreposição com o WhatsApp nem com o VLibras. CSS com `must-revalidate` no `_headers`, por isso o `rev` dos links não foi alterado.
+
+## 08/10/2026 — Codex: SEO da marca, serviços e buscas locais
+
+Pedido atual: melhorar descoberta por marca e serviços, inclusive o relato de busca por “GEESCOMP”, e preparar o site para buscas e respostas de IA. A marca verdadeira continua GESCOMP; posições e recomendações são decididas pelo Google. Não foram criadas grafias falsas, páginas por cidade, dados de avaliações ou promessas de classificação.
+
+Git main, HEAD cec532b. Fotografias/título das dúvidas da rodada anterior estavam pendentes. Também há crédito Rumera e CSS de rodapé de outra alteração no diff; estavam presentes no snapshot feito antes do patch SEO. Essas alterações foram preservadas, sem atribuir sua autoria ou publicação a esta rodada. Revisão do subagente somente leitura, sem browser ou edição concorrente.
+
+Arquivos desta etapa: publicar/index.html, publicar/contabilidade-empresarial.html, publicar/regularizacao-baixa-cnpj.html, publicar/calculos-trabalhistas.html, publicar/consultoria-financeira.html, publicar/escolha-de-regime-tributario.html, publicar/sitemap.xml, conteudo/01-index.md, docs/google-search-console.md e novo docs/seo-marca-2026-10-08.md; evidências em docs/evidencias/2026-10-08/seo-marca/ e este registro.
+
+- Inicial: marca primeiro no título; descrição com serviços/localidade real; OG/Twitter/WebPage sincronizados. O WebSite existente recebe como alternativas o nome institucional verdadeiro e o domínio, mantendo o mesmo identificador/publisher. Parágrafo de serviços identifica escritório em Barra dos Coqueiros, Grande Aracaju (SE), e atendimento on-line; referência de conteúdo acompanha.
+- Contabilidade empresarial: título específico com localização, intro natural, descrição Service igual ao texto visível e tipo de serviço claro. H1 visual, preços e escopo continuam iguais.
+- Cinco comerciais: dateModified e lastmod sincronizados em 08/10, data real da alteração anterior de linguagem do atendimento e desta revisão. Os artigos mantêm suas datas reais; não foram alterados para simular novidade.
+- Preservados pelo Codex nesta rodada: rio, animações/cores, CSS/JavaScript, biografia, FAQs, formulário, avaliações, vídeos, botões e restante dos bodies fora dos dois parágrafos descritos. Sem alteração de Cloudflare, Perfil da Empresa ou conta Google.
+
+Verificações executadas: 17 HTML com JSON-LD válido, títulos/descrições únicos e OG/Twitter/canonical coerentes, recursos locais presentes; 16 URLs no sitemap e todas alcançáveis a partir da inicial por links HTML. 404 noindex e excluída do sitemap. Comparação estrita contra snapshot anterior ao patch: restante dos bodies e CSS/JS iguais; quatro comerciais mudam somente dateModified. Revisão independente aprovou os deltas SEO.
+
+Navegador local leve, uma aba/contexto: 16 cenários, inicial e contabilidade empresarial, 1366×768/1920×1080/390×844/360×844, claro/escuro, sem overflow ou erros de console. H1 inicial em duas linhas no computador. Instagram/VLibras simulados; nenhum fornecedor externo foi validado nem Lighthouse executado. Rio: HTML intacto e prints claro/escuro em 360px idênticos pixel a pixel, com animação congelada só durante a captura. Servidor de teste encerrado.
+
+Conferência pública anterior à publicação: 21 requisições, incluindo robots/sitemap, as 16 páginas e três variantes; sem falha HTTP/noindex; canonical e destinos de HTTP/www/index.html corretos. Isso não comprova rastreamento real do Googlebot nem indexação das 16 URLs. O navegador confirmou redirecionamento da propriedade para a página pública /search-console/about, sem autenticação: não consultou relatórios nem enviou solicitações. O histórico de 06/10 (sitemap processado com 11 URLs) foi preservado e complementado com acompanhamento das cinco novas. Manter a submissão já aceita sitemap.xml?v=20261006.
+
+Resultado pronto localmente, sem commit/push/deploy nesta rodada. Pendências para a integração: revisar separadamente o crédito/estilo do rodapé e integrar as fotos/título anteriores conforme seus respectivos registros; depois da publicação, inspecionar inicial/contabilidade empresarial, conferir indexação das cinco comerciais e acompanhar consultas de marca, serviços e localização. Nenhum ganho de posição ou menção por IA foi apresentado como teste aprovado. Fotos reais da Gabriela/escritório continuam pendentes da cliente.
+
+
+## 08/10/2026 — Codex: integração de todas as alterações pendentes no Git
+
+O usuário autorizou explicitamente commit e push de tudo. Conferidos os arquivos pendentes: título das dúvidas, fotografias CC0 e imagens de compartilhamento, assinatura Rumera do Claude no rodapé, melhorias SEO, sitemap e documentação/evidências das respectivas etapas. A assinatura e seu CSS foram revisados por leitura do diff; correspondem ao pedido registrado pelo Claude e não modificam o rio ou os controles do WhatsApp.
+
+Repetida a validação leve de integração: 17 páginas, 16 URLs no sitemap, todas alcançáveis por links HTML, sem erro; git diff --check aprovado. Os testes de navegador e preservação do rio permanecem registrados nas evidências anteriores. Nenhuma dependência, processo pesado ou mudança funcional adicional nesta etapa. Preparado um único commit com todas as alterações, seguido de push normal para origin/main; confirmação do hash remoto será apresentada ao usuário. Esta integração não representa confirmação de processamento do Google ou de conclusão do deploy Cloudflare.

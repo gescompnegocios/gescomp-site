@@ -1,0 +1,162 @@
+{
+  "verificadoEm": "2026-10-08T23:03:59.114733+00:00",
+  "paginas": [
+    {
+      "arquivo": "404.html",
+      "title": "Página não encontrada | GESCOMP",
+      "canonical": "",
+      "indexavel": false,
+      "robots": "noindex, follow"
+    },
+    {
+      "arquivo": "abrir-empresa.html",
+      "title": "Como abrir uma empresa: passo a passo | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/abrir-empresa",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "calculos-trabalhistas.html",
+      "title": "Cálculos trabalhistas: rescisão, férias e 13º | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/calculos-trabalhistas",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "calendario-fiscal.html",
+      "title": "Calendário fiscal: prazos até maio de 2027 | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/calendario-fiscal",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "consultoria-financeira.html",
+      "title": "Consultoria financeira empresarial | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/consultoria-financeira",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "contabilidade-empresarial.html",
+      "title": "Contabilidade empresarial em Barra dos Coqueiros | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/contabilidade-empresarial",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "departamento-pessoal.html",
+      "title": "Folha de pagamento 2026: INSS, FGTS, 13º e férias | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/departamento-pessoal",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "escolha-de-regime-tributario.html",
+      "title": "Escolha do regime de impostos | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/escolha-de-regime-tributario",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "fim-escala-6x1.html",
+      "title": "Fim da escala 6x1: situação da PEC e jornada | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/fim-escala-6x1",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "imposto-de-renda.html",
+      "title": "Imposto de Renda 2026: redução, tabela e dividendos | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/imposto-de-renda",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "index.html",
+      "title": "GESCOMP | Contabilidade em Barra dos Coqueiros e online",
+      "canonical": "https://gescompnegocios.com.br/",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "informacoes.html",
+      "title": "Informações contábeis, MEI e escala 6x1 | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/informacoes",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "mei.html",
+      "title": "MEI 2026: valor do DAS, limite de R$ 81 mil e prazos | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/mei",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "novo-limite-mei.html",
+      "title": "Novo limite do MEI: projetos e teto vigente | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/novo-limite-mei",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "pro-labore-e-lucros.html",
+      "title": "Pró-labore e distribuição de lucros em 2026 | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/pro-labore-e-lucros",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "regularizacao-baixa-cnpj.html",
+      "title": "Regularização e baixa de CNPJ | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/regularizacao-baixa-cnpj",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    {
+      "arquivo": "simples-nacional.html",
+      "title": "Simples Nacional: limites e prazos de outubro de 2026 | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/simples-nacional",
+      "indexavel": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    }
+  ],
+  "sitemap": {
+    "https://gescompnegocios.com.br/": "2026-10-08",
+    "https://gescompnegocios.com.br/informacoes": "2026-10-08",
+    "https://gescompnegocios.com.br/imposto-de-renda": "2026-10-08",
+    "https://gescompnegocios.com.br/mei": "2026-10-08",
+    "https://gescompnegocios.com.br/simples-nacional": "2026-10-08",
+    "https://gescompnegocios.com.br/abrir-empresa": "2026-10-08",
+    "https://gescompnegocios.com.br/pro-labore-e-lucros": "2026-10-08",
+    "https://gescompnegocios.com.br/departamento-pessoal": "2026-10-08",
+    "https://gescompnegocios.com.br/calendario-fiscal": "2026-10-08",
+    "https://gescompnegocios.com.br/fim-escala-6x1": "2026-10-08",
+    "https://gescompnegocios.com.br/novo-limite-mei": "2026-10-08",
+    "https://gescompnegocios.com.br/contabilidade-empresarial": "2026-10-08",
+    "https://gescompnegocios.com.br/regularizacao-baixa-cnpj": "2026-10-08",
+    "https://gescompnegocios.com.br/calculos-trabalhistas": "2026-10-08",
+    "https://gescompnegocios.com.br/consultoria-financeira": "2026-10-08",
+    "https://gescompnegocios.com.br/escolha-de-regime-tributario": "2026-10-08"
+  },
+  "alcancaveisPorLinksHTML": [
+    "abrir-empresa.html",
+    "calculos-trabalhistas.html",
+    "calendario-fiscal.html",
+    "consultoria-financeira.html",
+    "contabilidade-empresarial.html",
+    "departamento-pessoal.html",
+    "escolha-de-regime-tributario.html",
+    "fim-escala-6x1.html",
+    "imposto-de-renda.html",
+    "index.html",
+    "informacoes.html",
+    "mei.html",
+    "novo-limite-mei.html",
+    "pro-labore-e-lucros.html",
+    "regularizacao-baixa-cnpj.html",
+    "simples-nacional.html"
+  ],
+  "preservacao": "Baseline local antes desta rodada; fotos e titulo das duvidas preexistentes preservados; CSS/JS/rio e restante do body intactos.",
+  "erros": []
+}

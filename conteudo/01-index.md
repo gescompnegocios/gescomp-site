@@ -32,7 +32,7 @@ Seguir @gescomp_ no Instagram (abre em nova aba)
 (Seção que só aparece quando houver avaliações autorizadas. Mostra as estrelas, o texto e o primeiro nome com a inicial, por exemplo "Maria S.". Botões: "Avaliar a GESCOMP no Google" e "Ver todas as avaliações no Google".)
 
 ## Tudo o que a sua empresa precisa, em um só lugar.
-Da abertura do CNPJ ao fechamento do balanço, a GESCOMP organiza a rotina contábil para você decidir com segurança. Escolha o assunto e fale com um de nossos contadores pelo WhatsApp.
+A GESCOMP é um escritório de contabilidade em Barra dos Coqueiros, na Grande Aracaju (SE), com atendimento on-line em todo o Brasil. Da abertura do CNPJ à contabilidade da empresa, escolha o serviço e fale com um de nossos contadores pelo WhatsApp.
 [Foto de atendimento a cliente]
 
 Cada card tem o botão "Falar no WhatsApp", que abre o WhatsApp com a mensagem indicada.
@@ -69,7 +69,7 @@ Mensagem: "Olá, equipe GESCOMP! Vim pelo site. Sou MEI e quero saber se já é 
 Explicamos em palavras simples o que já mudou em 2026 e o que vem pela frente, além de outras informações úteis para o seu negócio.
 Ler as informações
 
-## Dúvidas que nossos clientes sempre têm
+## Dúvidas que nossos clientes têm
 
 **P:** Como separar o dinheiro da pessoa física e da empresa?
 Tenha uma conta bancária só para a empresa e passe por ela todas as vendas e despesas. Identifique e registre cada retirada pela sua natureza: remuneração pelo trabalho, lucro apurado ou outro pagamento documentado, como reembolso de despesa. Nem toda transferência para o sócio é lucro isento. Assim a contabilidade fica correta e você evita problemas com o Imposto de Renda.

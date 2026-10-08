@@ -65,3 +65,13 @@ Registros em [publicacao-search](evidencias/2026-10-06/publicacao-search/), [con
 - [Google: dados estruturados de empresas locais](https://developers.google.com/search/docs/appearance/structured-data/local-business).
 - [Cloudflare: Single Redirects e preservação de parâmetros](https://developers.cloudflare.com/rules/url-forwarding/single-redirects/create-dashboard/).
 - [Cloudflare: limites de redirecionamentos de assets Workers](https://developers.cloudflare.com/workers/static-assets/redirects/).
+
+## Atualização de 08/10/2026 — marca e descoberta dos serviços
+
+Conferência pública atual: o mesmo sitemap aceito `sitemap.xml?v=20261006` retorna HTTP 200/application/xml e **16 URLs**, com as cinco páginas comerciais adicionadas depois da coleta de 06/10. Todas respondem normalmente, têm canonical oficial e não apresentam noindex. robots.txt continua indicando o endereço aceito. HTTP, www e /index.html chegam ao destino canônico. Isso não altera a evidência histórica de 11 URLs no painel nem comprova que as cinco novas já estejam indexadas.
+
+Implementadas localmente melhorias de título/descrição da inicial, identidade WebSite, contexto do escritório e contabilidade empresarial, com datas reais das cinco páginas comerciais sincronizadas. Detalhes, consultas a acompanhar e testes em [seo-marca-2026-10-08.md](seo-marca-2026-10-08.md).
+
+Nesta rodada, o navegador das ferramentas não possui sessão Google autenticada. Nenhum relatório, status de indexação atual, solicitação manual ou alteração de configuração da conta foi confirmado. Depois da publicação, inspecionar a inicial e /contabilidade-empresarial, conferir as cinco comerciais e acompanhar consultas com a marca e com os serviços. Manter o sitemap no endereço já processado; não criar uma submissão com data nova a cada alteração.
+
+Primeiro lugar, correspondência de “GEESCOMP” com a marca GESCOMP e menções por IA são decisões automáticas do Google. Não incluir o erro de digitação como nome oficial nem inferir melhoria de posição apenas de testes locais. As alterações desta rodada ainda não foram publicadas.
