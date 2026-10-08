@@ -663,3 +663,23 @@ Coordenação completa em `docs/seo-colaboracao.md` (linha de base, passagens 0 
 - **Interrupção:** o limite do Codex acabou durante os testes finais. O Claude removeu o temporário `publicar/__seo_base_local.html`, repetiu as conferências e fez o commit local, sem push.
 - **Pendências da cliente:** escopo do plano de R$ 150 e da consultoria, troca de contador e folha mensal. Depois que essas respostas chegarem, enriquecer as páginas de serviço com exemplos reais.
 - **Publicação:** precisa de autorização do usuário. Depois de publicar, enviar o sitemap atualizado conforme `docs/google-search-console.md`.
+## 08/10/2026 — Claude: links internos param logo abaixo do cabeçalho (CONCLUÍDO)
+
+**Pedido do usuário:** ao clicar em botões que levam a uma parte do site (principalmente "Ver serviços"), a seção chegava cortada.
+
+**Causa medida:**
+- O título parava 104 px abaixo do cabeçalho no computador e 64 px no celular, porque a página ia para o topo da seção e sobrava o respiro interno. Os cards ficavam cortados embaixo.
+- Em `/informacoes#reforma-tributaria` (um `<article>`, fora da regra antiga `section[id]`), o título ficava escondido atrás do cabeçalho (−36 px).
+
+**Correção:**
+- **`site.css`:** `html{scroll-padding-top:var(--cabecalho)}` e `section[id]{scroll-margin-top:calc(var(--folga-ancora) - var(--secao-y))}`, com regra própria para `#reforma-tributaria` (40 px) e `#inicio`.
+- **`site.js`:** `medirCabecalho()` mantém `--cabecalho` igual à altura real, lida em `requestAnimationFrame` na carga e no redimensionamento, e não mede com o menu aberto.
+- **Cache:** `rev=10`.
+- **Auditoria:** `auditoria-seo-local.py` ganhou a lista `APROVADAS`, com as 3 trocas exatas desta alteração. Qualquer outra mudança em CSS ou JS continua acusada.
+
+**Testes:**
+- 10 links × 4 telas (1366, 1920, 390 e 360 px): conteúdo sempre 14 px abaixo do cabeçalho. A exceção são as chamadas no fim dos guias em telas grandes, que já ficam inteiras porque a página termina ali.
+- Menu do celular e "reduzir movimento": ok.
+- Regressão de 68 cenários: 0 falhas axe A/AA, sem rolagem lateral, sem erros.
+- `validacao-estatica.cjs`: 0 falhas.
+- Rio não tocado.

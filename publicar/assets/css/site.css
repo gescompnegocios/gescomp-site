@@ -4,7 +4,14 @@ details[open] .faq-icone{transform:rotate(45deg)}
 .faq-icone{transition:transform .25s ease}
 body{margin:0;background:#F1F5F4}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
-section[id]{scroll-margin-top:84px}
+/* Links internos: nada fica atrás do cabeçalho fixo (--cabecalho, ajustado pelo site.js à altura real)
+   e o respiro interno da seção é descontado, para o título parar logo abaixo do cabeçalho. */
+:root{--cabecalho:76px;--folga-ancora:14px}
+@media (max-width:779px){:root{--cabecalho:68px}}
+html{scroll-padding-top:var(--cabecalho)}
+section[id]{scroll-margin-top:calc(var(--folga-ancora) - var(--secao-y))}
+#reforma-tributaria{scroll-margin-top:calc(var(--folga-ancora) - 40px)}
+#inicio{scroll-margin-top:0}
 a{color:#0B5963}a:hover{color:#003F4A}
 input,textarea,select,button{font-family:inherit}
 @media (prefers-reduced-motion: no-preference){.tema-raiz,.tema-raiz section,.tema-raiz form,.tema-raiz h2,.tema-raiz h3,.tema-raiz p,.tema-raiz path,.tema-raiz rect,.tema-raiz input,.tema-raiz textarea,.tema-raiz select{transition:background-color .7s ease,color .7s ease,fill .7s ease}}

@@ -18,6 +18,10 @@ if(bm)bm.addEventListener('click',function(){menu(mm.hidden);});
 var fechar=document.querySelectorAll('[data-fecha-menu]');
 for(var j=0;j<fechar.length;j++)fechar[j].addEventListener('click',function(){menu(false);});
 document.addEventListener('keydown',function(ev){if(ev.key==='Escape'&&mm&&!mm.hidden){menu(false);bm.focus();}});
+// Links internos param abaixo do cabeçalho fixo: --cabecalho (CSS) acompanha a altura real. Com o menu aberto o cabeçalho cresce, então não mede.
+var cabecalho=document.querySelector('.gc-cabecalho');
+function medirCabecalho(){if(cabecalho&&(!mm||mm.hidden)){var a=Math.round(cabecalho.getBoundingClientRect().height);if(a>0)raiz.style.setProperty('--cabecalho',a+'px');}}
+requestAnimationFrame(medirCabecalho);
 var mq=window.matchMedia('(max-width: 779px)');
 var fab=document.getElementById('fab');
 var displayFab=fab?fab.style.display:'';
@@ -33,7 +37,7 @@ if(acesso){var raizWidget=acesso.getRootNode();var focado=acesso.contains(docume
 var quadroFab=null;
 function agendarFab(){if(quadroFab!==null)return;quadroFab=requestAnimationFrame(function(){quadroFab=null;atualizarFab();});}
 window.addEventListener('scroll',agendarFab,{passive:true});
-window.addEventListener('resize',function(){agendarFab();if(!mq.matches)menu(false);});
+window.addEventListener('resize',function(){agendarFab();if(!mq.matches)menu(false);requestAnimationFrame(medirCabecalho);});
 // O serviço monta e posiciona o lançador em etapas; recalcular também quando seu estilo ou tamanho chegar.
 function observarAcessoLibras(){var w=window.VLibrasWidget,a=w&&w.access;if(!a)return false;if(window.ResizeObserver)new ResizeObserver(agendarFab).observe(a);if(window.MutationObserver)new MutationObserver(agendarFab).observe(a,{attributes:true,attributeFilter:['style','class']});agendarFab();return true;}
 if(!observarAcessoLibras()&&window.MutationObserver){var ioLibras=new MutationObserver(function(){if(observarAcessoLibras())ioLibras.disconnect();});ioLibras.observe(document.body,{childList:true});setTimeout(function(){ioLibras.disconnect();},30000);}

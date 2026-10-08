@@ -57,8 +57,8 @@
       ],
       "jsonld": [],
       "ids": [],
-      "bytes": 3128,
-      "gzipBytes": 1456
+      "bytes": 3129,
+      "gzipBytes": 1457
     },
     "abrir-empresa.html": {
       "title": [
@@ -571,8 +571,8 @@
         "inicio",
         "atendimento-abertura"
       ],
-      "bytes": 58230,
-      "gzipBytes": 10397
+      "bytes": 58235,
+      "gzipBytes": 10398
     },
     "calculos-trabalhistas.html": {
       "title": [
@@ -1043,8 +1043,8 @@
         "conteudo",
         "inicio"
       ],
-      "bytes": 23790,
-      "gzipBytes": 6467
+      "bytes": 23795,
+      "gzipBytes": 6468
     },
     "calendario-fiscal.html": {
       "title": [
@@ -1535,8 +1535,8 @@
         "inicio",
         "acompanhamento-contabil"
       ],
-      "bytes": 46154,
-      "gzipBytes": 8613
+      "bytes": 46159,
+      "gzipBytes": 8615
     },
     "consultoria-financeira.html": {
       "title": [
@@ -1986,8 +1986,8 @@
         "conteudo",
         "inicio"
       ],
-      "bytes": 23540,
-      "gzipBytes": 6427
+      "bytes": 23545,
+      "gzipBytes": 6428
     },
     "contabilidade-empresarial.html": {
       "title": [
@@ -2470,8 +2470,8 @@
         "conteudo",
         "inicio"
       ],
-      "bytes": 24228,
-      "gzipBytes": 6641
+      "bytes": 24233,
+      "gzipBytes": 6642
     },
     "departamento-pessoal.html": {
       "title": [
@@ -2986,8 +2986,8 @@
         "inicio",
         "solicitar-calculo"
       ],
-      "bytes": 61698,
-      "gzipBytes": 10319
+      "bytes": 61703,
+      "gzipBytes": 10321
     },
     "escolha-de-regime-tributario.html": {
       "title": [
@@ -3455,8 +3455,8 @@
         "conteudo",
         "inicio"
       ],
-      "bytes": 23720,
-      "gzipBytes": 6465
+      "bytes": 23725,
+      "gzipBytes": 6466
     },
     "fim-escala-6x1.html": {
       "title": [
@@ -3865,8 +3865,8 @@
         "inicio",
         "orientacao-trabalhista"
       ],
-      "bytes": 24466,
-      "gzipBytes": 6830
+      "bytes": 24471,
+      "gzipBytes": 6831
     },
     "imposto-de-renda.html": {
       "title": [
@@ -4406,8 +4406,8 @@
         "inicio",
         "declarar-ir"
       ],
-      "bytes": 61085,
-      "gzipBytes": 10466
+      "bytes": 61090,
+      "gzipBytes": 10468
     },
     "index.html": {
       "title": [
@@ -5318,8 +5318,8 @@
         "form-status",
         "fab"
       ],
-      "bytes": 102347,
-      "gzipBytes": 18261
+      "bytes": 102352,
+      "gzipBytes": 18263
     },
     "informacoes.html": {
       "title": [
@@ -6034,8 +6034,8 @@
         "outros-assuntos",
         "orientacao-tributaria"
       ],
-      "bytes": 57702,
-      "gzipBytes": 10444
+      "bytes": 57707,
+      "gzipBytes": 10445
     },
     "mei.html": {
       "title": [
@@ -6584,8 +6584,8 @@
         "inicio",
         "atendimento-mei"
       ],
-      "bytes": 58116,
-      "gzipBytes": 10386
+      "bytes": 58121,
+      "gzipBytes": 10388
     },
     "novo-limite-mei.html": {
       "title": [
@@ -7000,7 +7000,7 @@
         "inicio",
         "orientacao-crescimento"
       ],
-      "bytes": 24383,
+      "bytes": 24388,
       "gzipBytes": 6826
     },
     "pro-labore-e-lucros.html": {
@@ -7510,8 +7510,8 @@
         "inicio",
         "orientacao-financeira"
       ],
-      "bytes": 51340,
-      "gzipBytes": 9655
+      "bytes": 51345,
+      "gzipBytes": 9657
     },
     "regularizacao-baixa-cnpj.html": {
       "title": [
@@ -7967,8 +7967,8 @@
         "conteudo",
         "inicio"
       ],
-      "bytes": 23455,
-      "gzipBytes": 6417
+      "bytes": 23460,
+      "gzipBytes": 6418
     },
     "simples-nacional.html": {
       "title": [
@@ -8487,8 +8487,8 @@
         "inicio",
         "orientacao-regime"
       ],
-      "bytes": 60057,
-      "gzipBytes": 10784
+      "bytes": 60062,
+      "gzipBytes": 10786
     }
   },
   "sitemap": [
@@ -8516,10 +8516,10 @@
     "publicar/assets/css/estrutura.css": "5d6ce4e8d1042d04a1d9b005e6e1d987f95f51af7d6050702e658aac838be729",
     "publicar/assets/css/fontes.css": "47adf94d8fca5a5c0fb76dcf76fe3c0665f006b244e3a1c70ff95f1b3cbd13ce",
     "cssBasePreservadaComClassesDeLinksNovos": true,
-    "publicar/assets/css/site.css": "aef905528d4e2c043f57a47fba1e7389a5a0a65c3b386ac575ff679c0b502d9f",
+    "publicar/assets/css/site.css": "b737956a97391da690933ac06d14314ad068601fe4373ee8dac345a9351960a9",
     "publicar/assets/js/config.js": "bf8e626351f68bc335a6bf8b2778589ca9cc707426cd3af28649f920227d37ec",
     "publicar/assets/js/libras.js": "6cb5d23802e0860273b8e48ac2f1eb64e3a810948d2bc9aaccf766c08c526c8a",
-    "publicar/assets/js/site.js": "9ce48eccce1857a4867619b2ad6ac3d8daccdedb0cf07734896bbe40e332f963",
+    "publicar/assets/js/site.js": "04da2ee0943f23b30b813bf459988a1c10ed344653f6d5a6de1c28830c41d222",
     "rioHtmlSha256": "ce2a842ce68c416b2b7a60506763b5f9672858a244435d929ba11a1e91e78c89"
   },
   "grafo": {
