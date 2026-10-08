@@ -72,13 +72,13 @@ Ler as informações
 ## Dúvidas que nossos clientes sempre têm
 
 **P:** Como separar o dinheiro da pessoa física e da empresa?
-Tenha uma conta bancária só para a empresa e passe por ela todas as vendas e despesas. O que você retira para você deve sair como pró-labore ou como distribuição de lucros, sempre registrado. Assim a contabilidade fica correta e você evita problemas com o Imposto de Renda.
+Tenha uma conta bancária só para a empresa e passe por ela todas as vendas e despesas. Identifique e registre cada retirada pela sua natureza: remuneração pelo trabalho, lucro apurado ou outro pagamento documentado, como reembolso de despesa. Nem toda transferência para o sócio é lucro isento. Assim a contabilidade fica correta e você evita problemas com o Imposto de Renda.
 
 **P:** Qual é o melhor regime de impostos para a minha empresa?
 Depende do faturamento, da atividade, da margem de lucro e dos gastos com funcionários. O Simples Nacional costuma ser vantajoso para pequenas empresas, mas nem sempre é o mais barato. Fazemos as contas e mostramos qual regime faz você pagar menos, dentro da lei. Veja também a página do Simples Nacional.
 
 **P:** Qual é o melhor momento para deixar de ser MEI?
-Quando o faturamento chega perto de R$ 81 mil por ano, quando você precisa de mais de um funcionário, quer ter sócio ou exerce uma atividade que não é permitida para o MEI. O ideal é planejar a mudança antes de passar do limite, para não pagar imposto a mais. Veja a página sobre o MEI.
+Quando a receita se aproxima do teto aplicável (em geral R$ 81 mil por ano, proporcional na abertura; MEI Caminhoneiro tem regra própria), ou quando precisa de mais de um empregado, pretende ter sócio ou exercer atividade não permitida. O ideal é planejar a mudança antes de passar do limite, para não pagar imposto a mais. Veja a página sobre o MEI.
 
 **P:** Como controlar os custos e as despesas da empresa?
 Anote todas as entradas e saídas, separe as contas pessoais das da empresa e acompanhe os números todo mês. Com relatórios simples, você vê para onde vai o dinheiro e onde dá para economizar. A consultoria da GESCOMP ajuda a montar esse controle.

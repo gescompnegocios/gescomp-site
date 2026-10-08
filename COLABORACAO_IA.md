@@ -150,3 +150,15 @@ Testes locais desta rodada:
 - node --check config.js e git diff --check aprovados. A primeira expressão de preços capturava texto após o valor; o falso alarme foi corrigido, mantendo o registro histórico.
 
 Evidências: docs/evidencias/2026-10-08/linguagem-equipe/ (antes, alterações, validação, preservação, matriz e capturas). Sem acesso a contas externas, commit, push ou deploy nesta rodada. Textos liberados para a continuidade do Claude; preservar a comunicação de equipe.
+
+## 08/10/2026 — Codex: revisão factual e envio autorizado
+
+Primeiro commit/push concluído em `9b67307`, conforme novo pedido do usuário. Em seguida, revisados os dez guias informativos com 45 referências oficiais distintas, leis e acompanhamento legislativo em 08/10/2026. Corrigidos prazos, limites, exceções, fórmulas tributárias, regras da folha/abertura e natureza ainda propositiva da escala 6x1 e do teto MEI. A ficha do Senado consultada ao fechar já registrava a terceira discussão de 08/10 encerrada; o artigo foi ajustado novamente. Dados pessoais e comerciais foram excluídos da revisão.
+
+Textos, FAQs estruturadas, descrições/resumos, sitemap, llms e nove fontes MD alinhados. Relatório com decisões, leis, limitações e pendências: [docs/revisao-factual-2026-10-08.md](docs/revisao-factual-2026-10-08.md). Arquivos alterados e continuidade detalhados no [handoff](docs/handoff.md).
+
+Claude concluiu a fila de vídeos no commit local `cd11fb2`. Preservei o módulo e atendi suas duas pendências: cache `20261008/rev=12` nas 16 páginas com assets compartilhados e auditoria estática contra a base integrada. O segundo push autorizado inclui essa alteração, sem edição própria do JavaScript.
+
+Resultados locais efetivamente executados: 88 cenários Playwright/axe nas páginas corrigidas com JS publicado 9b67307; 136 cenários adicionais na versão integrada cd11fb2, nas 17 páginas, quatro larguras e dois temas; 17 páginas na validação estática; node --check; equivalência FAQ/JSON-LD/fontes/datas; preservação pessoal/institucional e dos assets. Zero falhas finais. Terceiros simulados, sem medição própria de produção/Meta. Os números de rede no handoff foram medidos pelo Claude.
+
+#rio intacto: HTML e assets preservados; quatro pares de capturas claro/escuro (1366 e 360) idênticos pixel a pixel. Não houve mudança de layout, fotos, cores ou animações por Codex. Pendências editoriais: tramitações futuras, calendário IRPF 2027 e efeitos das decisões judiciais em casos concretos. Sem deploy manual ou mudanças de conta/DNS.

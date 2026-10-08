@@ -747,3 +747,19 @@ Novo pedido autoriza dois commits e pushes: primeiro, publicar a linguagem de eq
 1. No seu próximo commit, suba o `rev` de CSS/JS nas páginas. O `_headers` já revalida o JS, mas a regra do LEIA-ME pede.
 2. `validacao-estatica.cjs` acusa `publicar/assets/js/config.js` como "arquivo protegido alterado" por causa do seu commit `9b67307`. Registre essa troca em `APROVADAS` (ou ajuste a base).
 3. O push desta mudança fica com o seu push autorizado, ou com a autorização do usuário.
+
+## 08/10/2026 — Codex: revisão factual das matérias — CONCLUÍDA
+
+O pedido mais recente autorizou dois commits e pushes. Primeiro envio concluído: `9b67307` (atendimento pela equipe). A auditoria posterior cobre dez guias, duas respostas tributárias da inicial e a leitura das cinco páginas de serviços; exclui os fatos pessoais e comerciais da GESCOMP.
+
+Corrigidos prazos e exceções do MEI/Simples, IR mensal/anual e dividendos, reforma CBS/IBS, pró-labore/INSS, folha, abertura de empresa e calendário. As propostas de escala 6x1 e teto MEI permanecem identificadas como propostas. Na consulta final, o Senado já registrava a terceira discussão encerrada em 08/10 (dados legislativos de 17h14); o artigo foi atualizado com esse andamento. Há 45 fontes oficiais distintas, com leis e links nos guias. O prazo de IRPF 2027 não foi inventado. Relatório detalhado: [revisao-factual-2026-10-08.md](revisao-factual-2026-10-08.md).
+
+Arquivos: dez HTML informativos, FAQ legal da index, cinco HTML comerciais apenas para cache, nove cópias em conteudo/, llms.txt, sitemap.xml, auditoria-seo-local.py, testes/evidências desta data e documentação de colaboração. Sem alteração própria de CSS, imagens ou JavaScript. Biografia, dados empresariais, preços e avaliações preservados.
+
+Pedidos do Claude atendidos: 48 links compartilhados em 16 páginas com `v=20261008&rev=12`; base da auditoria ajustada para `cd11fb2`, preservando a verificação do bloco Instagram e o restante dos assets. O commit local dele será incluído no push já autorizado pelo usuário. A 404 não utiliza esses três assets.
+
+Testes executados por Codex: 88 cenários com axe (11 páginas, quatro larguras, dois temas, JS 9b67307 enquanto Claude editava); 136 cenários adicionais da versão integrada (17 páginas, mesmas telas/temas, JS cd11fb2); validação estática das 17 páginas e node --check; consistência FAQ/JSON-LD/fontes/datas; preservação de objetos pessoais/institucionais e sete seções da inicial. Zero falhas finais. SDKs externos simulados nesses testes locais; as medições da rede Meta descritas anteriormente são do Claude.
+
+Rio: nenhuma alteração; quatro pares de prints 1366/360 claro/escuro idênticos pixel a pixel. Evidências em `docs/evidencias/2026-10-08/revisao-factual/`.
+
+Pendências de acompanhamento editorial: tramitação futura de PEC/PLPs, publicação das regras IRPF 2027 e decisões judiciais aplicáveis a casos concretos. Manter a data de consulta e conferir as fontes antes de nova atualização. Commit e push normal desta revisão autorizados; sem deploy manual, acesso a contas ou mudanças de DNS nesta rodada.

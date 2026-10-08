@@ -1,0 +1,4565 @@
+{
+  "data": "2026-10-08",
+  "localOnly": true,
+  "externalConnections": 0,
+  "siteJs": "checkout integrado cd11fb2; sem substituir site.js",
+  "blockedOrigins": [
+    "https://vlibras.gov.br"
+  ],
+  "cases": 136,
+  "failures": [],
+  "results": [
+    {
+      "page": "index",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [],
+      "cache": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [],
+      "cache": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [],
+      "cache": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [],
+      "cache": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [],
+      "cache": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [],
+      "cache": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        }
+      ],
+      "cache": [
+        {
+          "url": "http://127.0.0.1:8091/assets/css/site.css?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/config.js?v=20261008&rev=12",
+          "correct": true
+        },
+        {
+          "url": "http://127.0.0.1:8091/assets/js/site.js?v=20261008&rev=12",
+          "correct": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [],
+      "cache": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "whatsapp": [],
+      "cache": [],
+      "errors": [],
+      "consoleErrors": []
+    }
+  ]
+}

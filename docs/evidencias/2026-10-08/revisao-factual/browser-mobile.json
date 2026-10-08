@@ -1,0 +1,1086 @@
+{
+  "localOnly": true,
+  "externalConnections": 0,
+  "siteJs": "9b67307 (edição externa em andamento excluída)",
+  "blockedOrigins": [
+    "https://vlibras.gov.br"
+  ],
+  "results": [
+    {
+      "page": "index",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 13,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 13,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 11,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 11,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 6,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 6,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 8,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 8,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 8,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 8,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 6,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 6,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 13,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 13,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 11,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 11,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 6,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "impostoRenda",
+          "correct": true
+        },
+        {
+          "key": "impostoRenda",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 6,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 8,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        },
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 8,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "regime",
+          "correct": true
+        },
+        {
+          "key": "regime",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "consultoria",
+          "correct": true
+        },
+        {
+          "key": "consultoria",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 8,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        },
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 8,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "contabilidade",
+          "correct": true
+        },
+        {
+          "key": "contabilidade",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 6,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 3,
+      "whatsapp": [
+        {
+          "key": "trabalhista",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 6,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "violations": [],
+      "h1": 1,
+      "brokenImages": [],
+      "headingLines": 2,
+      "whatsapp": [
+        {
+          "key": "mei",
+          "correct": true
+        }
+      ],
+      "serviceLinks": 7,
+      "errors": [],
+      "consoleErrors": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "baseConteudo": "9b67307",
+  "baseIntegrada": "cd11fb2",
+  "paginas": {
+    "abrir-empresa": {
+      "fontes": 5,
+      "perguntas": 4,
+      "data": "2026-10-08"
+    },
+    "calendario-fiscal": {
+      "fontes": 10,
+      "perguntas": 3,
+      "data": "2026-10-08"
+    },
+    "departamento-pessoal": {
+      "fontes": 10,
+      "perguntas": 4,
+      "data": "2026-10-08"
+    },
+    "fim-escala-6x1": {
+      "fontes": 4,
+      "perguntas": 2,
+      "data": "2026-10-08"
+    },
+    "imposto-de-renda": {
+      "fontes": 6,
+      "perguntas": 5,
+      "data": "2026-10-08"
+    },
+    "informacoes": {
+      "fontes": 6,
+      "perguntas": 4,
+      "data": "2026-10-08"
+    },
+    "mei": {
+      "fontes": 7,
+      "perguntas": 4,
+      "data": "2026-10-08"
+    },
+    "novo-limite-mei": {
+      "fontes": 4,
+      "perguntas": 2,
+      "data": "2026-10-08"
+    },
+    "pro-labore-e-lucros": {
+      "fontes": 7,
+      "perguntas": 4,
+      "data": "2026-10-08"
+    },
+    "simples-nacional": {
+      "fontes": 8,
+      "perguntas": 4,
+      "data": "2026-10-08"
+    }
+  },
+  "fontesUnicas": 45,
+  "secoesPreservadas": {
+    "inicio": true,
+    "servicos": true,
+    "sobre": true,
+    "avaliacoes": true,
+    "instagram": true,
+    "rio": true,
+    "contato": true
+  },
+  "rioCapturas": [
+    {
+      "largura": 1366,
+      "tema": "light",
+      "identico": true
+    },
+    {
+      "largura": 1366,
+      "tema": "dark",
+      "identico": true
+    },
+    {
+      "largura": 360,
+      "tema": "light",
+      "identico": true
+    },
+    {
+      "largura": 360,
+      "tema": "dark",
+      "identico": true
+    }
+  ],
+  "falhas": []
+}

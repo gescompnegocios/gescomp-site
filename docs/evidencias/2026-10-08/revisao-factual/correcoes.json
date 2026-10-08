@@ -1,0 +1,524 @@
+{
+  "informacoes": [
+    [
+      "As notas fiscais passam a mostrar a CBS (0,9%) e o IBS (0,1%). Quem cumpre as regras não paga imposto a mais: o valor é descontado dos tributos atuais. Desde 3 de agosto, esses campos são obrigatórios na nota das empresas do Lucro Presumido e do Lucro Real.",
+      "Em 2026, as alíquotas de teste são CBS de 0,9% e IBS de 0,1%. A LC 214/2025, art. 348, dispensa o recolhimento de quem cumpre as obrigações acessórias; PIS e Cofins continuam devidos. Se houver recolhimento, a lei prevê compensação. O cronograma de documentos fiscais e as validações variam conforme o modelo e a operação: a data de 3 de agosto não significa rejeição automática de toda nota sem os novos campos. Consulte os atos e as notas técnicas atuais."
+    ],
+    [
+      "O PIS e a Cofins deixam de existir e a CBS passa a ser cobrada. O IPI fica zerado para a maioria dos produtos e começa o Imposto Seletivo, sobre itens que fazem mal à saúde ou ao meio ambiente.",
+      "PIS e Cofins são substituídos pela CBS. As alíquotas do IPI ficam zeradas, com a exceção constitucional ligada aos produtos com industrialização incentivada na Zona Franca de Manaus. Começa o Imposto Seletivo (IS), sobre bens e serviços previstos em lei por seu impacto na saúde ou no meio ambiente."
+    ],
+    [
+      "O ICMS e o ISS diminuem um pouco a cada ano, enquanto o IBS aumenta na mesma medida.",
+      "ICMS e ISS passam a 90%, 80%, 70% e 60% das alíquotas atuais em 2029, 2030, 2031 e 2032. O IBS avança durante essa transição; isso não garante que a carga de cada empresa fique igual."
+    ],
+    [
+      "O ICMS e o ISS deixam de existir. Ficam só a CBS, o IBS e o Imposto Seletivo.",
+      "ICMS e ISS são extintos, completando a substituição desses tributos sobre o consumo pelo IBS. CBS e IS integram o novo modelo; outros tributos, como IRPJ, CSLL e contribuições previdenciárias, continuam existindo."
+    ],
+    [
+      "Continua pagando tudo em uma guia só, o DAS. No ano de teste, o MEI não destaca CBS nem IBS na nota fiscal.",
+      "O MEI continua no Simei, com seus tributos fixos no DAS-MEI. O teste de CBS e IBS de 2026 não se aplica às operações do Simples, incluindo o MEI. Obrigações de empregado, quando houver, são recolhidas em guia própria."
+    ],
+    [
+      "Não. Em 2026 a CBS e o IBS aparecem na nota fiscal em valores de teste, e quem cumpre as obrigações não paga nada a mais.",
+      "Em 2026 há dispensa de recolhimento de CBS e IBS para quem cumpre as obrigações acessórias aplicáveis, conforme o art. 348 da LC 214/2025. Isso não dispensa os tributos atuais nem permite afirmar que nenhum outro imposto ou custo da empresa poderá mudar."
+    ],
+    [
+      "São os dois novos impostos sobre o consumo. A CBS é do governo federal e substitui o PIS e a Cofins. O IBS é dos estados e municípios e substitui o ICMS e o ISS.",
+      "São novos tributos sobre o consumo. A CBS é uma contribuição federal que substitui PIS e Cofins em 2027. O IBS é um imposto de estados e municípios que substitui gradualmente ICMS e ISS, com conclusão em 2033."
+    ],
+    [
+      "É um imposto a mais sobre produtos que fazem mal à saúde ou ao meio ambiente, como cigarros e bebidas alcoólicas. Ele começa em 2027.",
+      "É o tributo federal sobre bens e serviços especificados em lei por seu impacto na saúde ou no meio ambiente, como produtos fumígenos e bebidas alcoólicas. Sua cobrança começa em 2027, conforme as regras e alíquotas aplicáveis a cada item."
+    ],
+    [
+      "Quem fica isento até R$ 5 mil, o que muda para sócios de empresas e como se preparar para a declaração de 2027.",
+      "Redução do IR mensal até R$ 5 mil de rendimentos tributáveis, regras para sócios e declaração de 2027."
+    ],
+    [
+      "Como funciona, os limites e o que decidir até 30 de outubro de 2026 por causa da reforma.",
+      "Limites, cálculo e prazos diferentes de 15 e 30 de outubro de 2026 para as opções de 2027."
+    ],
+    [
+      "Também continua no DAS. Quem já é do Simples pode escolher, até 30 de outubro de 2026, pagar CBS e IBS fora do DAS no 1º semestre de 2027. Pode valer a pena para quem vende para outras empresas. Veja a página do Simples Nacional.",
+      "Quem permanecer regularmente no Simples poderá manter CBS e IBS no DAS ou optar pelo regime regular, fora da guia, para o 1º semestre de 2027. A opção vai até 30/10/2026. Para entrar ou voltar ao Simples, ME/EPP já em atividade têm prazo anterior, em 15/10. Há regras próprias para SIMEI e abertura. Compare custos e créditos nas duas alternativas."
+    ]
+  ],
+  "imposto-de-renda": [
+    [
+      "Quem ganha até R$ 5 mil por mês deixou de pagar Imposto de Renda. Veja quem ganha com a mudança, o que muda para sócios de empresas e como se preparar para a declaração de 2027.",
+      "A redução do IR mensal pode zerar o imposto sobre rendimentos tributáveis de até R$ 5 mil. Entenda o cálculo, a declaração de 2027 e as regras para sócios, sem confundir isenção mensal com dispensa de declarar."
+    ],
+    [
+      "Desde 1º de janeiro de 2026, quem recebe até R$ 5.000 por mês não paga Imposto de Renda sobre esse rendimento.",
+      "Desde janeiro de 2026, a redução pode zerar o IR sobre rendimentos tributáveis sujeitos à incidência mensal de até R$ 5.000. Outras rendas e o ajuste anual precisam ser considerados."
+    ],
+    [
+      "Entre R$ 5.000,01 e R$ 7.350, o imposto é menor. Acima de R$ 7.350, nada muda.",
+      "De R$ 5.000,01 a R$ 7.350 há redução decrescente. Acima de R$ 7.350 não há essa redução mensal; outras regras, inclusive as anuais, continuam aplicáveis."
+    ],
+    [
+      "A Lei 15.270/2025, sancionada em 26 de novembro de 2025, começou a valer em 1º de janeiro de 2026. No salário, o efeito apareceu a partir de fevereiro.",
+      "A Lei 15.270/2025 produz efeitos desde 1º de janeiro de 2026. Para o IR na fonte, importa a data do pagamento: o salário de janeiro recebido em fevereiro usa a regra nova, mas pagamentos realizados em janeiro também já podem usá-la. A redução alcança ainda o cálculo separado do 13º salário."
+    ],
+    [
+      "Isento. Um desconto de até R$ 312,89 zera o imposto.",
+      "Para rendimentos tributáveis mensais de até R$ 5.000, a redução de até R$ 312,89, limitada ao imposto calculado, pode zerar o IR."
+    ],
+    [
+      "O limite é sobre o rendimento que paga imposto no mês, como salário, pró-labore e aposentadoria.",
+      "A faixa da redução considera os rendimentos tributáveis sujeitos à incidência mensal, como salário e pró-labore, antes das deduções usadas para formar a base da tabela. Aposentadorias podem ter isenções próprias. Rendimentos isentos ou sujeitos a regras específicas não entram automaticamente nesse cálculo."
+    ],
+    [
+      "Esta é a tabela usada em cada mês. O desconto novo é aplicado por cima dela.",
+      "Primeiro, forme a base de cálculo após as deduções legais ou o desconto simplificado mensal de R$ 607,20, quando mais favorável. Aplique a alíquota e subtraia a parcela a deduzir. Depois, aplique a redução da Lei 15.270/2025, limitada ao imposto apurado. A base da tabela e o rendimento usado para a faixa da redução são valores diferentes."
+    ],
+    [
+      "Para quem ganha de R$ 5.000,01 a R$ 7.350, o desconto novo é de R$ 978,62 menos 13,3145% do rendimento do mês. Ele diminui até chegar a zero em R$ 7.350.",
+      "Para rendimentos tributáveis mensais de R$ 5.000,01 a R$ 7.350, a redução é R$ 978,62 − (0,133145 × rendimento tributável mensal), limitada ao IR calculado. Acima desse intervalo, não há a redução. Ela não gera imposto negativo."
+    ],
+    [
+      "Vale a regra nova: isenção, desconto e imposto mínimo. Em valores do ano, a isenção vai até R$ 60 mil e o desconto vai de R$ 60.000,01 até R$ 88.200. A Receita Federal vai divulgar o calendário.",
+      "Sobre rendimentos tributáveis sujeitos ao ajuste anual de 2026, a redução pode zerar o IR até R$ 60 mil; de R$ 60.000,01 a R$ 88.200, é decrescente. Existe também a tributação mínima de altas rendas, com exclusões e compensações. Em 08/10/2026, o prazo e os critérios de obrigatoriedade da declaração de 2027 ainda não haviam sido divulgados: renda mensal isenta não significa dispensa automática de declarar."
+    ],
+    [
+      "Entra na regra nova. Até R$ 5 mil por mês, sem imposto de renda.",
+      "O pró-labore entra na redução mensal, conforme os rendimentos tributáveis e as deduções. A contribuição ao INSS continua devida; outras fontes de renda podem gerar ajuste anual."
+    ],
+    [
+      "Seguem isentos se a distribuição foi aprovada até 31 de dezembro de 2025. Podem ser pagos até 2028.",
+      "Não basta o lucro ser de 2025. A lei exige resultados apurados até 2025, aprovação pelo órgão competente até 31/12/2025, exigibilidade conforme o direito civil ou empresarial e cumprimento do cronograma original. Para a exclusão da base do imposto mínimo anual, o pagamento deve ocorrer em 2026, 2027 ou 2028. O STF concedeu liminar nas ADIs 7912 e 7914 estendendo a aprovação até 31/01/2026; o referendo foi destacado do julgamento virtual. Confira a decisão e sua aplicação ao caso, sem presumir isenção automática."
+    ],
+    [
+      "Para quem recebe mais de R$ 600 mil por ano, somando tudo, existe um imposto mínimo. Ele cresce até 10% para rendas acima de R$ 1,2 milhão por ano.",
+      "Na declaração de 2027, rendimentos de 2026 superiores a R$ 600 mil podem levar à tributação mínima. A alíquota cresce até 10% a partir de R$ 1,2 milhão, sobre a base apurada pela lei. Há exclusões, como determinados ganhos de capital, heranças e aplicações incentivadas, além de dedução do imposto já pago e possível redutor. Não é uma cobrança adicional automática de 10% sobre toda a renda."
+    ],
+    [
+      "Sim. Vale desde 1º de janeiro de 2026 para o imposto retido no salário. O efeito completo aparece na declaração de 2027.",
+      "Sim. A redução mensal vale para pagamentos a partir de janeiro de 2026, inclusive no cálculo separado do 13º. O ajuste dos rendimentos de 2026 será feito na declaração de 2027; não confunda a redução com dispensa de entregar a declaração."
+    ]
+  ],
+  "mei": [
+    [
+      "Em 2026, o MEI paga de R$ 82,05 a R$ 87,05 por mês, sempre até o dia 20.",
+      "Em 2026, o DAS-MEI geral varia de R$ 82,05 a R$ 87,05, conforme a atividade. Vence no dia 20 do mês seguinte, prorrogado para o próximo dia útil se não houver expediente bancário."
+    ],
+    [
+      "Pode faturar até R$ 81 mil por ano.",
+      "O limite geral é R$ 81 mil de receita bruta por ano-calendário; no ano de abertura, é proporcional aos meses de atividade."
+    ],
+    [
+      "Com o MEI, você tem CNPJ, pode emitir nota fiscal e fica protegido pelo INSS, com direito a aposentadoria por idade, auxílio-doença e salário-maternidade.",
+      "O MEI tem CNPJ e pode emitir nota fiscal. A contribuição previdenciária dá acesso a benefícios, como aposentadoria por idade, benefício por incapacidade e salário-maternidade, desde que sejam cumpridos os requisitos de cada benefício, inclusive qualidade de segurado e carência quando exigida. Pagar uma guia não garante qualquer benefício automaticamente."
+    ],
+    [
+      "A guia mensal se chama DAS e vence todo dia 20. O INSS é 5% do salário mínimo (R$ 1.621,00). O ICMS e o ISS têm valor fixo.",
+      "O DAS-MEI vence no dia 20 do mês seguinte à competência, com prorrogação para o próximo dia útil quando necessário. Para o MEI geral, o INSS é 5% do salário mínimo de R$ 1.621,00: R$ 81,05. Somam-se R$ 1 de ICMS e/ou R$ 5 de ISS, conforme a atividade. Os valores abaixo não se aplicam ao MEI Caminhoneiro."
+    ],
+    [
+      "Quem abre o MEI no meio do ano tem limite proporcional: R$ 6.750 multiplicado pelos meses de atividade.",
+      "No ano de abertura, o limite é R$ 6.750 multiplicado pelos meses de atividade, contando como mês inteiro qualquer fração. Para quem exerce exclusivamente as ocupações admitidas no MEI Caminhoneiro, o teto próprio é R$ 251.600 e a contribuição previdenciária é de 12% do mínimo (R$ 194,52 em 2026), mais ICMS e/ou ISS."
+    ],
+    [
+      "Há propostas no Congresso para aumentar esse limite. Até 01/10/2026, ele continua em R$ 81 mil.",
+      "Há propostas no Congresso para aumentar o teto. Na consulta de 08/10/2026, o limite geral em vigor continua em R$ 81 mil; nenhum projeto autoriza usar antecipadamente um teto maior."
+    ],
+    [
+      "Até 20% acima (até R$ 97.200): você continua como MEI neste ano, com imposto adicional sobre o valor que passou, e vira microempresa no ano seguinte. Mais de 20% acima: você deixa de ser MEI desde 1º de janeiro daquele ano.",
+      "Para um ano completo no MEI geral: excesso de até 20% (até R$ 97.200) produz desenquadramento a partir de janeiro do ano seguinte, com apuração do tributo sobre o excesso. Acima de 20%, o efeito é retroativo a 1º de janeiro do próprio ano. No ano de abertura, compare com o teto proporcional; se o excesso superar 20%, o efeito volta à data de início da atividade. Comunique o desenquadramento até o último dia útil do mês seguinte ao excesso. A receita passa a ser recalculada pelas regras aplicáveis; não é só pagar mais um DAS-MEI."
+    ],
+    [
+      "Pagar o DAS todo dia 20",
+      "Pagar o DAS-MEI no vencimento"
+    ],
+    [
+      "É a declaração anual. Vale até para quem não faturou nada. Em atraso, a multa mínima é de R$ 50.",
+      "É a declaração da receita do ano anterior, obrigatória mesmo sem faturamento. O prazo geral é 31 de maio; baixa do CNPJ tem prazo de situação especial. O atraso gera multa de 2% por mês ou fração, limitada a 20% dos tributos declarados, com mínimo de R$ 50 e reduções conforme a notificação. DASN-SIMEI não substitui eventual declaração de IR da pessoa física."
+    ],
+    [
+      "Quando vender para outra empresa, emita a nota.",
+      "Para destinatário com CNPJ, emita o documento fiscal, salvo a dispensa aplicável à venda de mercadoria quando o destinatário emitir nota de entrada. Para consumidor pessoa física, a regra geral é dispensa, ressalvada solicitação e regras da operação. Na prestação de serviços sujeita à emissão pelo MEI, use a NFS-e de padrão nacional; consulte também as regras estaduais para mercadorias."
+    ],
+    [
+      "Se tiver um, o MEI paga 3% de INSS e 8% de FGTS sobre o salário e registra tudo no eSocial.",
+      "O limite continua sendo um empregado, remunerado pelo mínimo ou piso da categoria, sem afastar adicionais e direitos legais. O MEI recolhe 3% de contribuição patronal e 8% de FGTS, além da contribuição descontada do empregado. O DAE do eSocial vence no dia 20 do mês seguinte, antecipado se não houver expediente bancário: a regra é diferente da do DAS-MEI."
+    ],
+    [
+      "Sim. Gere a guia atualizada no Portal do Simples Nacional ou no aplicativo MEI. Pagar logo evita juros maiores e a perda de benefícios do INSS.",
+      "Sim. Gere o DAS-MEI atualizado no Portal do Simples Nacional ou aplicativo oficial. Há multa e juros; atrasos também podem afetar a cobertura previdenciária. A regularização não garante, por si só, direito retroativo a benefícios."
+    ]
+  ],
+  "abrir-empresa": [
+    [
+      "Quem tem 18 anos ou mais pode abrir uma empresa. A partir dos 16, só emancipado.",
+      "Para exercer a atividade de empresário, é preciso capacidade civil e ausência de impedimento legal: em regra, 18 anos, ou 16/17 anos com emancipação. Menor não emancipado pode participar de sociedade sob condições próprias, sem administrá-la."
+    ],
+    [
+      "O MEI se abre de graça e na hora, pelo Portal do Empreendedor. As outras empresas passam pela Junta Comercial.",
+      "O MEI é formalizado gratuitamente no Portal do Empreendedor, se atender às regras. Empresas empresárias são registradas na Junta Comercial; sociedades simples e outras pessoas jurídicas podem usar órgãos de registro diferentes."
+    ],
+    [
+      "Com a integração digital, o CNPJ costuma sair em poucos dias.",
+      "O prazo depende da viabilidade, do registro, das informações tributárias e das licenças. Não há prazo único garantido para todos os CNPJs."
+    ],
+    [
+      "Para quem trabalha sozinho (ou com 1 funcionário) e fatura até R$ 81 mil por ano. Gratuito.",
+      "É um enquadramento simplificado para empresário individual em atividades permitidas, sem sócios, com até um empregado e teto geral de R$ 81 mil por ano (proporcional na abertura). A formalização é gratuita; há regras próprias para o MEI Caminhoneiro."
+    ],
+    [
+      "Uma pessoa só, mas com o patrimônio pessoal separado do da empresa, em regra.",
+      "É uma sociedade limitada com um sócio, com separação patrimonial em regra. A proteção não é absoluta: há responsabilidade pela integralização do capital, garantias pessoais e hipóteses legais de desconsideração."
+    ],
+    [
+      "Com dois ou mais sócios. Em regra, o patrimônio pessoal de cada sócio fica protegido.",
+      "Pode ter dois ou mais sócios; a limitada também pode ser unipessoal. Em regra, a responsabilidade se limita às quotas, mas os sócios respondem pela integralização do capital. Garantias pessoais, irregularidades e desconsideração podem alcançar o patrimônio pessoal."
+    ],
+    [
+      "Na Junta Comercial do seu estado (em Sergipe, a Jucese). Primeiro se gera o DBE (Documento Básico de Entrada) no site da Redesim. Depois se registra o contrato social ou o requerimento de empresário.",
+      "Para empresário e sociedade empresária, protocole o ato na Junta Comercial do estado (em Sergipe, a Jucese), pelo fluxo integrado da Redesim. A solicitação cadastral usa o Coletor Nacional/DBE quando aplicável. O órgão de registro depende da natureza jurídica."
+    ],
+    [
+      "Na maioria dos casos, sai automaticamente depois do registro.",
+      "Desde dezembro de 2025, no novo fluxo de inscrição de matriz, o registro do ato é seguido pelo Módulo de Administração Tributária (MAT). O CNPJ é gerado após a conclusão e transmissão das informações tributárias, com assinaturas do responsável e do contador nos casos previstos. O MEI mantém sua formalização própria."
+    ],
+    [
+      "Inscrição estadual (para vender produtos), inscrição municipal (para serviços) e alvará de funcionamento na prefeitura.",
+      "Confira as inscrições estadual e municipal exigidas pela atividade e pelo local, além do licenciamento. Dispensas de alvará para atividades de baixo risco ou para MEI não afastam requisitos de segurança, uso do imóvel, saúde e meio ambiente."
+    ],
+    [
+      "Se a atividade exigir, licenças dos Bombeiros e da Vigilância Sanitária. O certificado digital serve para emitir notas fiscais.",
+      "Obtenha as licenças exigidas pelo risco e pela atividade, como Bombeiros e Vigilância Sanitária. Verifique a autenticação exigida pelo emissor fiscal: há casos que usam certificado digital e outros que aceitam gov.br, como a NFS-e do MEI."
+    ],
+    [
+      "Com a integração digital da Redesim, o processo pode levar de 3 a 10 dias úteis. Para o MEI, é imediato.",
+      "A integração da Redesim facilita o processo, mas a duração varia conforme o órgão, a atividade e a regularidade dos documentos. A formalização do MEI é digital e gratuita; confira o comprovante e os requisitos de funcionamento antes de iniciar."
+    ],
+    [
+      "Emita nota fiscal em todas as vendas.",
+      "Emita os documentos fiscais exigidos para suas operações. O MEI tem dispensas específicas, como determinadas vendas a consumidor pessoa física; confirme as regras antes de deixar de emitir."
+    ],
+    [
+      "Para o MEI, não. Para as outras empresas, na prática sim: nossa equipe monta o registro, escolhe o regime de impostos e cuida do cadastro na Sefaz e na prefeitura.",
+      "O MEI não é obrigado a contratar contador para se formalizar. Para os demais casos, verifique as exigências do registro, do MAT e da escrituração: o Código Civil prevê contabilidade para empresários e sociedades, com exceções legais. Nossa equipe orienta o fluxo aplicável à sua empresa."
+    ],
+    [
+      "Com a integração digital, de 3 a 10 dias úteis. Atividades que pedem licenças podem levar mais.",
+      "Não há um prazo único. Viabilidade, registro, MAT, inscrições e licenças dependem do tipo de empresa, da atividade, do local e da análise dos órgãos envolvidos."
+    ]
+  ],
+  "pro-labore-e-lucros": [
+    [
+      "Como o sócio recebe da própria empresa em 2026: o que é salário, o que é lucro e o que mudou com a nova lei.",
+      "Como o sócio recebe da própria empresa em 2026: remuneração pelo trabalho, distribuição de resultados e as condições da nova tributação de lucros."
+    ],
+    [
+      "Pró-labore é o “salário” do sócio que trabalha na empresa. Tem INSS e Imposto de Renda.",
+      "Pró-labore remunera o trabalho do sócio; não é salário de empregado e não gera automaticamente férias, FGTS ou 13º. Há contribuição ao INSS e eventual IR."
+    ],
+    [
+      "Lucro é o que sobra depois de pagar todas as contas e impostos. Só pode ser distribuído se aparece na contabilidade.",
+      "Lucro é o resultado positivo apurado segundo as regras contábeis e societárias, após despesas e tributos. Distribuição exige resultado e documentação; valores retirados da conta não são automaticamente lucro isento."
+    ],
+    [
+      "Em geral, o pró-labore não deve ser menor que um salário mínimo (R$ 1.621 em 2026). Sobre ele, o sócio paga 11% de INSS, até o teto de R$ 8.475,55. O desconto máximo é de R$ 932,31.",
+      "Não existe um valor único de pró-labore fixado para todos os sócios. A remuneração deve corresponder ao trabalho e ficar separada do lucro. No recolhimento pela empresa, a contribuição do sócio é, em regra, de 11%, limitada ao teto de R$ 8.475,55 em 2026 (máximo de R$ 932,31), considerando outras remunerações sujeitas ao mesmo teto. Contribuição mensal abaixo do mínimo previdenciário pode exigir complementação para contar no INSS: isso não equivale a um piso legal de pró-labore."
+    ],
+    [
+      "O Imposto de Renda também entra na regra nova: até R$ 5.000 por mês, não há imposto. De R$ 5.000,01 a R$ 7.350, o imposto é menor.",
+      "O pró-labore está sujeito à tabela do IR e à redução mensal da Lei 15.270/2025: até R$ 5.000 de rendimentos tributáveis sujeitos à incidência mensal, a redução pode zerar o imposto; até R$ 7.350, é decrescente. Outras fontes de renda podem gerar ajuste anual."
+    ],
+    [
+      "No Simples Nacional, a parte do INSS da empresa já costuma estar dentro do DAS (exceto no Anexo IV). Fora do Simples, a empresa também paga INSS sobre o pró-labore.",
+      "No Simples, a contribuição previdenciária patronal costuma estar no DAS, exceto nas atividades do Anexo IV. Fora do Simples, a regra geral é 20% patronal sobre o pró-labore, ressalvados regimes e situações especiais. Os 11% retidos do sócio não estão incluídos no DAS."
+    ],
+    [
+      "Nas empresas de serviços do Simples, o pró-labore entra na conta do Fator R. Um valor bem definido pode mudar a tabela de impostos da empresa.",
+      "Nas atividades de serviços sujeitas ao Fator R, o pró-labore integra a folha considerada no cálculo. A relação entre folha e receita dos últimos 12 meses, com limite de 28%, define Anexo III ou V; nem todo serviço usa essa regra."
+    ],
+    [
+      "Sim, pela tabela. Isento até R$ 5 mil por mês",
+      "Tabela do IR e redução mensal, conforme os rendimentos tributáveis"
+    ],
+    [
+      "A Lei 15.270/2025 acabou com quase 30 anos de isenção total dos lucros e dividendos.",
+      "A Lei 15.270/2025 mudou a tributação de lucros e dividendos a partir de 2026. Há retenção mensal em situações específicas e tributação mínima anual, além das regras de transição."
+    ],
+    [
+      "Seguem isentos se a distribuição foi aprovada até 31 de dezembro de 2025. Podem ser pagos até 2028.",
+      "A transição exige resultados apurados até 2025, aprovação societária no prazo aplicável, exigibilidade legal e cumprimento do cronograma original. A lei fixa aprovação até 31/12/2025; liminar do STF nas ADIs 7912 e 7914 estendeu o prazo até 31/01/2026, com referendo destacado do julgamento virtual. Para excluir esses lucros do imposto mínimo anual, o pagamento deve ocorrer em 2026, 2027 ou 2028. A decisão judicial e sua aplicação precisam ser conferidas no caso concreto."
+    ],
+    [
+      "Quem recebe mais de R$ 600 mil por ano, somando todos os rendimentos, tem um imposto mínimo na declaração.",
+      "Rendimentos anuais acima de R$ 600 mil podem levar ao imposto mínimo na declaração de 2027, sobre 2026. A alíquota chega a 10% a partir de R$ 1,2 milhão, com exclusões de rendimentos previstas na lei, compensação do imposto já pago e possível redutor. Receber até R$ 50 mil em dividendos num mês não afasta essa análise anual."
+    ],
+    [
+      "Mantenha a contabilidade em dia. Só se distribui lucro que aparece nela.",
+      "Apure e documente os resultados. No Simples, sem contabilidade que comprove lucro maior, a parcela tratada como isenta tem limite calculado pelas presunções legais sobre a receita, descontado o IRPJ do DAS. A escrituração pode comprovar lucro superior; em ambos os casos, confira também a retenção e o imposto mínimo da Lei 15.270/2025."
+    ],
+    [
+      "Informe os valores na declaração de Imposto de Renda de cada sócio.",
+      "Se o sócio estiver obrigado a declarar IR, informe as retiradas na ficha adequada à natureza e à tributação de cada valor."
+    ],
+    [
+      "Não. O MEI não tem pró-labore. O importante é separar o dinheiro da empresa do dinheiro pessoal.",
+      "O MEI não é obrigado a fixar pró-labore. Sua contribuição previdenciária no DAS-MEI independe do valor retirado; o tratamento do dinheiro recebido pela pessoa física deve ser apurado separadamente. Nem toda retirada é lucro isento."
+    ],
+    [
+      "Sim. Eles entram na declaração anual de Imposto de Renda do sócio.",
+      "Se você estiver obrigado a entregar a declaração, informe os lucros nas fichas correspondentes à tributação. Receber lucros não dispensa a análise dos demais critérios de obrigatoriedade."
+    ]
+  ],
+  "departamento-pessoal": [
+    [
+      "O FGTS vence todo dia 20 e é pago por Pix no FGTS Digital.",
+      "O FGTS mensal vence no dia 20 do mês seguinte, antecipado se não houver expediente bancário. O FGTS Digital atende os empregadores abrangidos; MEI e doméstico usam DAE no eSocial para o recolhimento mensal."
+    ],
+    [
+      "Quem recebe até R$ 5.000 por mês não paga Imposto de Renda sobre o salário.",
+      "A redução mensal do IR pode zerar o imposto até R$ 5.000 de rendimentos tributáveis. INSS e outros descontos continuam; outras fontes de renda podem gerar ajuste anual."
+    ],
+    [
+      "Pode ter um período de experiência de até 90 dias.",
+      "O contrato de experiência pode ter até 90 dias no total, com no máximo uma prorrogação. Confira também piso, jornada e convenção coletiva da categoria."
+    ],
+    [
+      "O registro deve ser feito antes do primeiro dia de trabalho.",
+      "Informe a admissão até o dia anterior ao início do trabalho, pelo S-2200 ou S-2190 preliminar, com complementação no prazo do eSocial."
+    ],
+    [
+      "Até o 5º dia útil do mês seguinte.",
+      "Salário mensal: até o 5º dia útil do mês seguinte. Sábado conta como dia útil nessa contagem; confira feriados e eventual prazo mais favorável da convenção coletiva."
+    ],
+    [
+      "Se o dia 20 cair em fim de semana ou feriado, o FGTS precisa ser pago antes, no dia útil anterior.",
+      "FGTS mensal e contribuições previdenciárias da folha vencem em regra no dia 20 do mês seguinte, antecipados quando não houver expediente bancário. A entrega de declarações tem prazo próprio: não espere o prazo da DCTFWeb para pagar a guia."
+    ],
+    [
+      "Até o dia 15 do mês seguinte",
+      "Em regra, dia 15 do mês seguinte; postergado para o próximo dia útil fiscal"
+    ],
+    [
+      "Guia do FGTS Digital, paga por Pix",
+      "FGTS Digital/Pix, ou DAE do eSocial nos casos de MEI e doméstico"
+    ],
+    [
+      "INSS da empresa",
+      "INSS da folha"
+    ],
+    [
+      "No Simples, vai dentro do DAS (exceto Anexo IV)",
+      "INSS descontado de empregado/sócio: DARF da DCTFWeb. CPP pode estar no DAS, exceto Anexo IV; MEI usa DAE"
+    ],
+    [
+      "Metade do salário, sem descontos. Se preferir, a empresa pode pagar tudo de uma vez até 30 de novembro.",
+      "Adiantamento previsto entre fevereiro e novembro, em regra correspondente à metade do salário do mês anterior. Não há desconto de INSS e IR nessa primeira parcela; remuneração variável e períodos incompletos exigem cálculo próprio."
+    ],
+    [
+      "O prazo da lei é 20 de dezembro, mas em 2026 esse dia é domingo. Pague até sexta, dia 18. Nesta parcela entram INSS e Imposto de Renda sobre o valor total.",
+      "A lei fixa 20 de dezembro; em 2026 é domingo, então antecipe para sexta, 18/12. Na segunda parcela, desconte o adiantamento, o INSS e eventual IR calculados sobre o 13º, separadamente da folha mensal. A nova redução do IR também se aplica ao 13º; não há desconto de IR obrigatório para todo empregado."
+    ],
+    [
+      "O funcionário tem direito a 30 dias depois de 12 meses de trabalho. Elas podem ser divididas em até 3 períodos. O pagamento, com o adicional de 1/3, deve sair até 2 dias antes do início.",
+      "Depois do período aquisitivo de 12 meses, as férias são de até 30 dias, conforme faltas e demais regras da CLT, e devem ser concedidas nos 12 meses seguintes. Com concordância do empregado, podem ser divididas em até três períodos: um de pelo menos 14 dias e os demais de pelo menos cinco. Não podem começar nos dois dias anteriores a feriado ou descanso semanal. Pague a remuneração com 1/3 até dois dias antes do início."
+    ],
+    [
+      "As verbas devem ser pagas em até 10 dias corridos depois do desligamento. O FGTS da rescisão, com a multa de 40% na demissão sem justa causa, também vence em 10 dias corridos.",
+      "Pagamento das verbas e entrega dos documentos rescisórios: até 10 dias corridos contados do término do contrato, conforme o art. 477, § 6º, da CLT. O FGTS rescisório segue prazo de 10 dias, antecipado se não útil, e pode antecipar débitos mensais. A multa é de 40% na dispensa sem justa causa; acordo do art. 484-A tem regra de 20%. O motivo do desligamento define as verbas devidas."
+    ],
+    [
+      "Sim, apenas um, que receba um salário mínimo ou o piso da categoria. O MEI paga 3% de INSS e 8% de FGTS sobre o salário.",
+      "Sim, apenas um, com mínimo ou piso da categoria, sem excluir adicionais e direitos legais. O MEI paga 3% patronal e 8% de FGTS, além do INSS descontado do empregado, pela guia DAE do eSocial."
+    ],
+    [
+      "É o sistema do governo para calcular e pagar o FGTS. A guia é gerada nele e paga por Pix. Pode ser emitida antes, mas o pagamento só é obrigatório até o dia 20.",
+      "É o sistema de gestão e recolhimento do FGTS para os empregadores abrangidos, com pagamento por Pix. O prazo mensal é dia 20 do mês seguinte, antecipado se não útil; rescisões têm prazo próprio. MEI e doméstico continuam usando o DAE do eSocial no recolhimento mensal."
+    ],
+    [
+      "Sim. Quem ganha até R$ 5.000 deixou de ter Imposto de Renda descontado, desde o pagamento de fevereiro de 2026.",
+      "Pode mudar. A redução vale para pagamentos desde janeiro de 2026 e pode zerar o IR até R$ 5.000 de rendimentos tributáveis mensais. INSS e outros descontos permanecem. Outras fontes de renda podem exigir ajuste na declaração anual."
+    ]
+  ],
+  "calendario-fiscal": [
+    [
+      "Todo mês: dia 15 (folha no eSocial) e dia 20 (DAS, FGTS e INSS).",
+      "Em regra: folha mensal no eSocial até dia 15; DAS e encargos da folha até dia 20, com regras diferentes para dias não úteis. DCTFWeb mensal: último dia útil do mês seguinte."
+    ],
+    [
+      "Em 2027: DEFIS até 31/03 e DASN-SIMEI (MEI) até 31/05.",
+      "Pelos prazos gerais vigentes: DEFIS de 2026 até 31/03/2027 e DASN-SIMEI de 2026 até 31/05/2027, salvo situação especial ou prorrogação."
+    ],
+    [
+      "Estas datas se repetem. Se caírem em fim de semana ou feriado, o prazo pode mudar.",
+      "Este é um calendário das principais obrigações, não uma lista de todos os tributos. Confira o regime, a competência, os feriados e as prorrogações aplicáveis ao seu CNPJ."
+    ],
+    [
+      "Informar a folha de pagamento no eSocial.",
+      "Folha mensal no eSocial, em regra até dia 15 do mês seguinte à competência; se não útil para fins fiscais, passa ao próximo dia útil. MEI/doméstico e 13º têm rotinas próprias."
+    ],
+    [
+      "Pagar o DAS (MEI e Simples), o FGTS e o INSS da empresa.",
+      "DAS do Simples e DAS-MEI: dia 20 do mês seguinte, prorrogado para o próximo dia útil se não houver expediente bancário. FGTS, DAE e INSS da folha: dia 20, antecipado ao dia útil anterior. PGDAS-D: informe a receita mensal, inclusive zero, até o prazo aplicável."
+    ],
+    [
+      "Pagar o salário dos funcionários.",
+      "Pagar o salário mensal dos funcionários até o 5º dia útil do mês seguinte; sábado integra a contagem. A convenção coletiva pode exigir prazo mais favorável."
+    ],
+    [
+      "Vencem o DAS, o FGTS e o INSS de setembro.",
+      "Vencem DAS/DAS-MEI e FGTS/INSS da folha da competência setembro, segundo as regras gerais. Confira também o PGDAS-D e o DAE, se aplicáveis."
+    ],
+    [
+      "Dia 20 é feriado nacional (Consciência Negra). O vencimento do DAS e do FGTS muda. Confirme a data com nossa equipe.",
+      "20/11 é feriado nacional. Para a competência outubro: antecipe FGTS, DAE e INSS da folha para 19/11; DAS e DAS-MEI ficam para 23/11, próximo dia útil. Prazos especiais e feriados locais devem ser conferidos."
+    ],
+    [
+      "Data prevista para o Senado definir a alíquota da CBS de 2027.",
+      "Prazo legal para fixação da alíquota de referência da CBS de 2027: 31/10 acrescido dos 45 dias da transição (LC 214/2025, arts. 349 e 353, § 2º). É prazo da norma, não anúncio de alíquota já aprovada; acompanhe a resolução do Senado."
+    ],
+    [
+      "2ª parcela do 13º salário. O dia 20 é domingo, então o pagamento deve ser feito até sexta.",
+      "2ª parcela do 13º, antecipada porque 20/12 é domingo. Também vencem, pela regra geral, FGTS e INSS mensais da competência novembro; o INSS do 13º e o fechamento anual do eSocial têm prazo até dia 20, antecipado para 18/12. DAS/DAS-MEI de novembro ficam para 21/12."
+    ],
+    [
+      "DEFIS, a declaração anual do Simples Nacional.",
+      "DEFIS referente a 2026: prazo geral de 31/03/2027, salvo prorrogação ou situação especial. A opção pelo regime regular de CBS/IBS para o 2º semestre de 2027 tem janela própria em março."
+    ],
+    [
+      "DASN-SIMEI, a declaração anual do MEI, mesmo sem faturamento.",
+      "DASN-SIMEI referente a 2026, mesmo sem receita: prazo geral de 31/05/2027, salvo prorrogação ou regra de situação especial, como baixa do CNPJ."
+    ],
+    [
+      "Depende do imposto. O FGTS deve ser pago antes, no dia útil anterior. Para os demais, confirme com nossa equipe.",
+      "DAS do Simples e DAS-MEI vão para o próximo dia útil. FGTS, DAE do eSocial e INSS da folha são antecipados ao dia útil anterior. Consulte a guia e as normas específicas: não aplique uma única regra a todos os pagamentos."
+    ]
+  ],
+  "fim-escala-6x1": [
+    [
+      "Na consulta de 06/10/2026, a PEC 221/2019 estava em discussão no Senado. A aprovação na Câmara e na comissão do Senado não encerra o processo de mudança da Constituição.",
+      "Na consulta de 08/10/2026, a ficha do Senado registrava a segunda sessão de discussão em primeiro turno concluída em 07/10 e a terceira incluída na pauta de 08/10. Inclusão na pauta não é aprovação. A proposta ainda precisa concluir a tramitação constitucional."
+    ],
+    [
+      "O texto enviado pela Câmara prevê jornada máxima de 40 horas por semana, distribuídas em cinco dias, com dois dias de repouso e sem redução salarial. Há previsão de transição; prazos e exceções devem ser lidos no texto que vier a ser promulgado.",
+      "O texto aprovado pela Câmara prevê até 40 horas semanais em cinco dias, dois dias de repouso e ausência de redução salarial. A transição proposta é de 42 horas e dois dias de descanso após dois meses da publicação da emenda, chegando a 40 horas 14 meses depois. Há regras e exceções para situações específicas. Isso descreve a proposta, não direitos já em vigor."
+    ],
+    [
+      "A Câmara aprovou a proposta em dois turnos em maio de 2026. O Senado informou que os debates em Plenário começariam em 6 de outubro, após a análise da Comissão de Constituição e Justiça. A tramitação pode mudar: confira os links oficiais abaixo antes de tomar uma decisão.",
+      "A Câmara aprovou em dois turnos em 27/05/2026. No Senado, após a CCJ, ocorreram as primeiras sessões de discussão em 06 e 07/10. Ainda são necessárias as votações constitucionais: dois turnos em cada Casa, com pelo menos três quintos dos votos (308 deputados e 49 senadores). Alteração de mérito pelo Senado exige retorno à Câmara. PEC aprovada é promulgada pelas Mesas do Congresso; não depende de sanção presidencial."
+    ],
+    [
+      "Não. A proposta precisa concluir a tramitação constitucional antes de produzir efeitos. A situação consultada em 06/10/2026 ainda era de discussão no Senado.",
+      "Não. Em 08/10/2026, a PEC ainda estava na tramitação do Senado. Para produzir efeitos, precisa ser aprovada conforme o art. 60 da Constituição, promulgada e publicada, observando a vigência e a transição do texto final."
+    ],
+    [
+      "O texto aprovado pela Câmara prevê até 40 horas semanais em cinco dias, dois dias de repouso e ausência de redução salarial. A transição proposta é de 42 horas e dois dias de descanso após dois meses da publicação da emenda, chegando a 40 horas 14 meses depois. Há regras e exceções para situações específicas. Isso descreve a proposta, não direitos já em vigor.",
+      "O texto aprovado pela Câmara prevê até 40 horas semanais em cinco dias, dois dias de repouso e ausência de redução salarial. A transição proposta é de 42 horas e dois dias de descanso após dois meses da publicação da emenda, chegando a 40 horas 14 meses depois. Há regras e exceções para situações específicas. Isso descreve a proposta, não direitos já em vigor. Hoje, a regra constitucional geral continua sendo até oito horas diárias e 44 semanais, com repouso semanal remunerado, preferencialmente aos domingos; há jornadas especiais e regras de categoria."
+    ]
+  ],
+  "novo-limite-mei": [
+    [
+      "O limite geral do MEI permanece em R$ 81 mil por ano.",
+      "O limite geral do MEI permanece em R$ 81 mil de receita bruta por ano-calendário, com no máximo um empregado, conforme os arts. 18-A e 18-C da LC 123/2006."
+    ],
+    [
+      "O projeto propõe elevar o teto para R$ 130 mil anuais e permitir até dois empregados. Na ficha consultada em 06/10/2026, ele ainda estava em tramitação na Câmara. Esses valores não devem ser tratados como limite autorizado para o faturamento atual.",
+      "O PLP 108/2021 propõe R$ 130 mil anuais e até dois empregados. Aprovado no Senado em 2021, ainda estava em tramitação na Câmara na consulta de 08/10/2026. Pedidos de urgência ou de inclusão na pauta não são aprovação do texto. Os valores propostos não autorizam aumentar o faturamento ou as contratações atuais."
+    ],
+    [
+      "Sim. O Ministério do Empreendedorismo informa que o PLP 186/2026 propõe R$ 110 mil para 2027 e R$ 140 mil para 2028. A própria fonte esclarece que os valores dependem da conclusão do processo legislativo e de eventual aprovação e sanção, podendo mudar durante a tramitação.",
+      "Sim. O PLP 186/2026, do Executivo, propõe R$ 110 mil em 2027, R$ 140 mil em 2028 e até dois empregados. A ficha da Câmara consultada em 08/10/2026 indicava que aguardava despacho. O projeto também vincula a ampliação à previsão da renúncia na Lei Orçamentária. Os valores e as datas são propostas: dependem do texto aprovado, sanção ou promulgação, publicação e vigência da lei."
+    ],
+    [
+      "O projeto que prevê R$ 130 mil não é autorização para usar esse valor hoje. Na consulta de 06/10/2026, o limite geral vigente continuava sendo R$ 81 mil anuais.",
+      "Não. Na consulta de 08/10/2026, o teto geral vigente permanecia em R$ 81 mil anuais, proporcional no ano de abertura. O PLP 108/2021 ainda não autorizava faturar R$ 130 mil."
+    ]
+  ],
+  "simples-nacional": [
+    [
+      "Entenda como o Simples funciona, quanto você pode faturar e o que decidir até 30 de outubro de 2026 por causa da reforma tributária.",
+      "Entenda os limites, o cálculo e as escolhas para 2027. Há dois prazos diferentes em outubro de 2026: dia 15 para pedir entrada e dia 30 para regularizar pendências e optar pelo regime regular de CBS/IBS."
+    ],
+    [
+      "Em 2026, o limite é de R$ 4,8 milhões por ano.",
+      "O limite geral é R$ 4,8 milhões de receita bruta por ano-calendário, proporcional no ano de abertura. Há condições de enquadramento e sublimite de ICMS/ISS."
+    ],
+    [
+      "A Resolução CGSN nº 194/2026 mudou as datas. Elas valem para empresas que querem decidir sobre 2027.",
+      "A Resolução CGSN 194/2026 alterou a Resolução 186/2026. Para ME/EPP já em atividade, a entrada ou o retorno ao Simples em 2027 é solicitado de 01/09 a 15/10/2026. A regularização de pendências e a opção pelo regime regular de CBS/IBS vão até 30/10. SIMEI mantém a janela de janeiro; empresas em abertura seguem o procedimento próprio do MAT."
+    ],
+    [
+      "É um jeito simples de pagar impostos para microempresas (ME) e empresas de pequeno porte (EPP). Em vez de várias guias, a empresa paga uma só por mês, o DAS, sempre até o dia 20.",
+      "É um regime tributário para ME e EPP que atendem às condições legais. O DAS vence, em regra, no dia 20 do mês seguinte, prorrogado para o próximo dia útil se não houver expediente bancário. Nem todo tributo ou encargo da empresa está nessa guia."
+    ],
+    [
+      "Ele reúne tributos como IRPJ, CSLL, PIS, Cofins, IPI, ICMS, ISS e a contribuição patronal do INSS. O valor depende do que a empresa faturou nos últimos 12 meses e da atividade.",
+      "O DAS reúne IRPJ, CSLL, PIS, Cofins, IPI, ICMS, ISS e, em regra, a contribuição previdenciária patronal. Há exceções: CPP do Anexo IV, tributos retidos, FGTS e INSS descontado de trabalhadores têm recolhimentos próprios. O cálculo usa a receita acumulada dos últimos 12 meses (RBT12), a atividade e a receita do mês; esse período de cálculo não se confunde com o limite de enquadramento por ano-calendário."
+    ],
+    [
+      "Cabe no Simples",
+      "Pode optar, se cumprir os demais requisitos"
+    ],
+    [
+      "ICMS e ISS passam a ser pagos fora do DAS",
+      "Sublimite nacional de 2026. Excesso de até 20%: ICMS/ISS fora do DAS no ano seguinte; acima de 20%: a partir do mês seguinte. Início de atividade tem regras proporcionais próprias."
+    ],
+    [
+      "A empresa sai do Simples. Se passar mais de 20%, a saída é imediata",
+      "Excesso de até 20%: exclusão no ano seguinte. Acima de 20%: no mês seguinte, não no mesmo dia. No início de atividade, há teto proporcional e hipótese de efeito retroativo."
+    ],
+    [
+      "Cada atividade se encaixa em um anexo, com uma tabela de alíquotas própria. As alíquotas vão de 4% a 33%.",
+      "A atividade e as regras de enquadramento definem o anexo. As alíquotas nominais das tabelas vão de 4% a 33%; a efetiva depende da faixa e da parcela a deduzir. Em regra: alíquota efetiva = (RBT12 × alíquota nominal − parcela a deduzir) ÷ RBT12, aplicada à receita mensal segregada. Há regras próprias para início de atividade e receitas sujeitas a tratamentos específicos."
+    ],
+    [
+      "Se a folha de pagamento dos últimos 12 meses (com pró-labore e encargos) for pelo menos 28% do faturamento, a empresa de serviços paga pela tabela mais barata, a do Anexo III. Se for menos, paga pelo Anexo V.",
+      "Somente as atividades sujeitas ao Fator R alternam entre Anexos III e V por essa regra. A relação entre folha e receita dos últimos 12 meses deve ser de pelo menos 28% para o Anexo III; abaixo disso, usa-se o V. A folha inclui remunerações, pró-labore e encargos admitidos na norma. Nem todo serviço está sujeito ao Fator R."
+    ],
+    [
+      "Opção 1, ficar no DAS: nada a fazer. CBS e IBS ficam dentro da guia única. É a escolha automática de quem não se manifestar.",
+      "Opção 1, dentro do DAS: se a empresa permanecer regularmente no Simples e não optar pelo regime regular, CBS e IBS ficam na guia. Ela não apropria créditos desses tributos; o adquirente no regime regular pode ter crédito limitado aos valores de CBS/IBS efetivamente devidos na operação pelo Simples, nas condições legais."
+    ],
+    [
+      "Opção 2, pagar CBS e IBS fora do DAS (o “Simples híbrido”): a empresa continua no Simples para os outros impostos e paga CBS e IBS à parte. Os clientes que são empresas do regime regular podem aproveitar o crédito desses impostos. Costuma interessar mais a quem vende para outras empresas.",
+      "Opção 2, regime regular de CBS/IBS fora do DAS: a empresa mantém o Simples para os demais tributos, mas apura CBS/IBS separadamente, com débitos, créditos e obrigações do regime regular. Os créditos do fornecedor e do cliente seguem as condições legais. Vender para empresas não torna essa escolha automaticamente mais vantajosa: simule receita, compras, margem e perfil dos clientes."
+    ],
+    [
+      "Se não fizer nada, você continua no Simples e CBS e IBS ficam dentro do DAS no 1º semestre de 2027. Só precisa agir se quiser pagar CBS e IBS fora do DAS.",
+      "Se continuar regularmente enquadrada, a empresa permanece no Simples sem novo pedido anual. Sem opção pelo regime regular, CBS e IBS ficam no DAS no 1º semestre de 2027. Confira pendências e eventual termo de exclusão; a permanência não é garantida apenas pela ausência de manifestação."
+    ],
+    [
+      "Em geral, a empresa fica em outro regime durante todo o ano de 2027. Fale com um de nossos contadores para ver as opções.",
+      "Para ME/EPP já em atividade que pretende entrar ou voltar em 2027, perder 15/10 impede a opção nessa janela. Não confunda com 30/10 para sanar pendências de pedido já feito e optar pelo regime regular de CBS/IBS. SIMEI e empresas em abertura têm procedimentos próprios. Se já é optante regular, não precisa refazer o pedido anual."
+    ],
+    [
+      "A DEFIS, declaração anual do Simples, deve ser entregue até 31 de março.",
+      "O prazo geral da DEFIS é 31 de março do ano seguinte, mesmo sem atividade; baixa e outras situações especiais têm regras próprias. Para o ano-calendário 2026, a regra aponta 31/03/2027, salvo prorrogação."
+    ],
+    [
+      "Até R$ 78 milhões por ano",
+      "Até R$ 78 milhões no ano anterior, observadas as condições legais"
+    ],
+    [
+      "Impostos calculados sobre uma margem de lucro presumida",
+      "IRPJ/CSLL sobre bases presumidas por atividade; os demais tributos têm regras próprias. Em 2026, a LC 224/2025 aumenta em 10% os percentuais de presunção sobre a parcela da receita acima de R$ 5 milhões, com limite proporcional por período; não são dez pontos percentuais. Efeitos para IRPJ desde janeiro e CSLL desde abril."
+    ],
+    [
+      "Impostos calculados sobre o lucro de verdade",
+      "IRPJ/CSLL sobre resultado contábil ajustado pelas adições, exclusões e compensações legais; os demais tributos seguem regras próprias. Certas atividades e situações obrigam o Lucro Real, mesmo abaixo de R$ 78 milhões."
+    ],
+    [
+      "Faturamento acima de R$ 4,8 milhões nos últimos 12 meses.",
+      "Receita bruta acima do limite anual aplicável, com regras de proporcionalidade e de efeitos da exclusão; não confundir com RBT12 usada no cálculo."
+    ]
+  ],
+  "index": [
+    [
+      "O que você retira para você deve sair como pró-labore ou como distribuição de lucros, sempre registrado.",
+      "Identifique e registre cada retirada pela sua natureza: remuneração pelo trabalho, lucro apurado ou outro pagamento documentado, como reembolso de despesa. Nem toda transferência para o sócio é lucro isento."
+    ],
+    [
+      "Quando o faturamento chega perto de R$ 81 mil por ano, quando você precisa de mais de um funcionário, quer ter sócio ou exerce uma atividade que não é permitida para o MEI.",
+      "Quando a receita se aproxima do teto aplicável (em geral R$ 81 mil por ano, proporcional na abertura; MEI Caminhoneiro tem regra própria), ou quando precisa de mais de um empregado, pretende ter sócio ou exercer atividade não permitida."
+    ]
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "dataConsulta": "2026-10-08",
+  "criterio": "Fontes oficiais primárias; normas prevalecem sobre FAQs conflitantes. Propostas não são lei vigente.",
+  "paginas": {
+    "informacoes": [
+      [
+        "EC 132/2023 — transição de 2026 a 2033",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+      ],
+      [
+        "LC 214/2025 — reforma do consumo (arts. 343–353)",
+        "https://legis.senado.leg.br/norma/40180341/publicacao/40181429"
+      ],
+      [
+        "LC 227/2026 — alterações da reforma e do Simples",
+        "https://legis.senado.gov.br/norma/42042119/publicacao/42256084"
+      ],
+      [
+        "Fazenda — Resolução CGSN 194/2026 e prazos de 2027",
+        "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-tem-novos-prazos-para-microempresas-e-empresas-de-pequeno-porte/"
+      ],
+      [
+        "Receita/CGIBS — flexibilização das validações fiscais em 2026",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-cgibs-flexibilizarao-obrigatoriedade-de-informacoes-em-documentos-fiscais"
+      ],
+      [
+        "Receita/CGIBS — atos técnicos conjuntos atuais",
+        "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/legislacao/atos-tecnicos-conjuntos/"
+      ]
+    ],
+    "imposto-de-renda": [
+      [
+        "Lei 15.270/2025 — redução do IR e lucros/dividendos",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+      ],
+      [
+        "Receita Federal — tabelas do IR de 2026",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026"
+      ],
+      [
+        "Receita — prazos da declaração (não anuncia o prazo de 2027)",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/prazo"
+      ],
+      [
+        "Receita — perguntas e respostas sobre altas rendas e dividendos",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos/manual_padrao_rfb_per_tributacao_sutri_v2.pdf"
+      ],
+      [
+        "STF — liminar sobre lucros de 2025 e prazo de aprovação",
+        "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-prazo-para-aprovacao-de-lucros-e-dividendos-ate-janeiro-de-2026/"
+      ],
+      [
+        "STF — acompanhamento da ADI 7912",
+        "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7466925"
+      ]
+    ],
+    "mei": [
+      [
+        "LC 123/2006 — limites, DAS e distribuição de lucros",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+      ],
+      [
+        "Portal do Empreendedor — perguntas frequentes do MEI",
+        "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/impulsiona-mei/perguntas-frequentes"
+      ],
+      [
+        "INSS — tabela de contribuições de 2026",
+        "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal"
+      ],
+      [
+        "Receita — manual DASN-SIMEI",
+        "https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Manual_DASN-SIMEI.pdf"
+      ],
+      [
+        "Portal do Empreendedor — quando emitir nota fiscal",
+        "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes/nota-fiscal-inscricao-estadual-e-ou-municipal/o-microempreendedor-individual-mei-e-obrigado-1"
+      ],
+      [
+        "eSocial — Manual WEB MEI: empregado e vencimento do DAE",
+        "https://www.gov.br/esocial/pt-br/microempreendedor-individual/manual-web-mei"
+      ],
+      [
+        "CGSN — Resolução 140/2018, compilada (SIMEI e DAE)",
+        "https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=92278&visao=compilado"
+      ]
+    ],
+    "simples-nacional": [
+      [
+        "LC 123/2006 — limites, DAS e distribuição de lucros",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+      ],
+      [
+        "LC 214/2025 — reforma do consumo (arts. 343–353)",
+        "https://legis.senado.leg.br/norma/40180341/publicacao/40181429"
+      ],
+      [
+        "LC 227/2026 — alterações da reforma e do Simples",
+        "https://legis.senado.gov.br/norma/42042119/publicacao/42256084"
+      ],
+      [
+        "Fazenda — Resolução CGSN 194/2026 e prazos de 2027",
+        "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-tem-novos-prazos-para-microempresas-e-empresas-de-pequeno-porte/"
+      ],
+      [
+        "Sefaz/PE — opções para 2027 e exceção do SIMEI",
+        "https://www.sefaz.pe.gov.br/Servicos/ICMS/Paginas/OpcaoSN2022.aspx"
+      ],
+      [
+        "Receita — sublimite nacional de 2026",
+        "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=94c10cc2-7eb5-4ef0-bfb2-5479e72caff8"
+      ],
+      [
+        "Lei 9.718/1998 — opção pelo Lucro Presumido (arts. 13–14)",
+        "https://www.planalto.gov.br/ccivil_03/leis/l9718.htm"
+      ],
+      [
+        "LC 224/2025 — presunção do lucro e início dos efeitos",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm"
+      ]
+    ],
+    "abrir-empresa": [
+      [
+        "Código Civil — arts. 50, 972, 974, 1.052 e 1.179",
+        "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+      ],
+      [
+        "LC 123/2006 — limites, DAS e distribuição de lucros",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+      ],
+      [
+        "MEMP/Redesim — inscrição de matriz pelo MAT",
+        "https://www.gov.br/memp/pt-br/assuntos/noticias/nota-sobre-a-implantacao-do-modulo-de-administracao-tributaria-mat-e-a-instabilidade-temporaria-dos-sistemas-1"
+      ],
+      [
+        "Receita — início do CNPJ alfanumérico em 31/07/2026",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-gera-o-primeiro-cnpj-em-formato-alfanumerico"
+      ],
+      [
+        "Governo Federal — emissão da NFS-e",
+        "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica"
+      ]
+    ],
+    "pro-labore-e-lucros": [
+      [
+        "LC 123/2006 — limites, DAS e distribuição de lucros",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+      ],
+      [
+        "Lei 15.270/2025 — redução do IR e lucros/dividendos",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+      ],
+      [
+        "INSS — tabela de contribuições de 2026",
+        "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal"
+      ],
+      [
+        "Lei 8.212/1991 — contribuições e vencimentos",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"
+      ],
+      [
+        "Receita — Solução de Consulta Cosit 251/2024 (MEI e pró-labore)",
+        "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=06%2F09%2F2024&jornal=515&pagina=56"
+      ],
+      [
+        "STF — liminar sobre lucros de 2025 e prazo de aprovação",
+        "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-prazo-para-aprovacao-de-lucros-e-dividendos-ate-janeiro-de-2026/"
+      ],
+      [
+        "STF — acompanhamento da ADI 7912",
+        "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7466925"
+      ]
+    ],
+    "departamento-pessoal": [
+      [
+        "CLT — arts. 130, 134, 145, 445, 451, 459 e 477",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+      ],
+      [
+        "INSS — tabela de contribuições de 2026",
+        "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal"
+      ],
+      [
+        "Lei 8.212/1991 — contribuições e vencimentos",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"
+      ],
+      [
+        "Lei 15.270/2025 — redução do IR e lucros/dividendos",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+      ],
+      [
+        "MTE — perguntas frequentes do FGTS Digital",
+        "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/perguntas-frequentes"
+      ],
+      [
+        "eSocial — Manual de Orientação S-1.3, consolidado até NO 11/2026",
+        "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/mos-s-1-3-consolidada-ate-a-no-s-1-3-11-2026-retificada.pdf"
+      ],
+      [
+        "Lei 4.749/1965 — parcelas do 13º salário",
+        "https://www.planalto.gov.br/ccivil_03/leis/l4749.htm"
+      ],
+      [
+        "MTE — IN SRT 1/1989 (sábado na contagem do salário)",
+        "https://acesso.mte.gov.br/data/files/FF8080812BCB2790012BCB6D37AD2F14/in_19891107_01.pdf"
+      ],
+      [
+        "Lei 4.090/1962 — cálculo proporcional do 13º",
+        "https://www.planalto.gov.br/ccivil_03/leis/l4090.htm"
+      ],
+      [
+        "MTE — FGTS: regra geral e aprendizagem",
+        "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/fgts"
+      ]
+    ],
+    "calendario-fiscal": [
+      [
+        "LC 123/2006 — limites, DAS e distribuição de lucros",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+      ],
+      [
+        "LC 214/2025 — reforma do consumo (arts. 343–353)",
+        "https://legis.senado.leg.br/norma/40180341/publicacao/40181429"
+      ],
+      [
+        "Fazenda — Resolução CGSN 194/2026 e prazos de 2027",
+        "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-tem-novos-prazos-para-microempresas-e-empresas-de-pequeno-porte/"
+      ],
+      [
+        "MTE — perguntas frequentes do FGTS Digital",
+        "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/perguntas-frequentes"
+      ],
+      [
+        "eSocial — Manual de Orientação S-1.3, consolidado até NO 11/2026",
+        "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/mos-s-1-3-consolidada-ate-a-no-s-1-3-11-2026-retificada.pdf"
+      ],
+      [
+        "Lei 8.212/1991 — contribuições e vencimentos",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"
+      ],
+      [
+        "Receita — DCTFWeb: entrega no último dia útil",
+        "https://www.gov.br/pt-br/servicos/declarar-debitos-e-creditos-tributarios-federais"
+      ],
+      [
+        "Lei 14.759/2023 — feriado nacional de 20/11",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm"
+      ],
+      [
+        "MTE — IN SRT 1/1989 (sábado na contagem do salário)",
+        "https://acesso.mte.gov.br/data/files/FF8080812BCB2790012BCB6D37AD2F14/in_19891107_01.pdf"
+      ],
+      [
+        "eSocial — Manual WEB MEI: folha e DAE",
+        "https://www.gov.br/esocial/pt-br/microempreendedor-individual/manual-web-mei"
+      ]
+    ],
+    "fim-escala-6x1": [
+      [
+        "Constituição — jornada, repouso e rito de PEC (arts. 7º e 60)",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      [
+        "Câmara — texto aprovado em dois turnos em 27/05/2026",
+        "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais"
+      ],
+      [
+        "Senado — segunda discussão em Plenário em 07/10/2026",
+        "https://www12.senado.leg.br/noticias/materias/2026/10/07/pec-do-fim-da-escala-6x1-passa-por-2a-sessao-de-discussao-no-plenario"
+      ],
+      [
+        "Senado — ficha atual da PEC 221/2019",
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386"
+      ]
+    ],
+    "novo-limite-mei": [
+      [
+        "LC 123/2006 — limites, DAS e distribuição de lucros",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+      ],
+      [
+        "Câmara — ficha atual do PLP 108/2021",
+        "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao/?idProposicao=2295251"
+      ],
+      [
+        "Câmara — ficha atual do PLP 186/2026",
+        "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476"
+      ],
+      [
+        "Câmara — proposta do Executivo, valores e condição orçamentária",
+        "https://www.camara.leg.br/noticias/1286510-PROJETO-DO-GOVERNO-AUMENTA-TETO-DA-RECEITA-DE-MEI-PARA-ATE-R$-140-MIL-EM-2028"
+      ]
+    ]
+  }
+}

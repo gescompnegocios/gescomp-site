@@ -16,7 +16,8 @@ ROOT = Path(__file__).resolve().parents[2]
 PUB = ROOT / 'publicar'
 ORIGIN = 'https://gescompnegocios.com.br'
 OUT = ROOT / 'docs/evidencias/2026-10-07/seo-local'
-BASE = 'f970f3f'
+# Base integra as alterações de âncoras, linguagem de equipe e fila do Instagram.
+BASE = 'cd11fb2'
 
 # Alterações aprovadas depois da base, aplicadas à base antes da comparação: qualquer outra mudança continua acusada.
 # 08/10/2026 (Claude): links internos param logo abaixo do cabeçalho fixo (scroll-padding/scroll-margin + medição do cabeçalho).
@@ -26,11 +27,7 @@ TRECHOS=[
     ('publicar/assets/js/site.js', "/* Embeds e vídeos próprios", "/* Avaliações de clientes", 'cea02a6dd9bcb764cdbfdbcc132aaa4cf49610aeb8022804c81192bd551b8490'),
 ]
 
-APROVADAS=[
-    ('publicar/assets/css/site.css', "section[id]{scroll-margin-top:84px}", "/* Links internos: nada fica atrás do cabeçalho fixo (--cabecalho, ajustado pelo site.js à altura real)\n   e o respiro interno da seção é descontado, para o título parar logo abaixo do cabeçalho. */\n:root{--cabecalho:76px;--folga-ancora:14px}\n@media (max-width:779px){:root{--cabecalho:68px}}\nhtml{scroll-padding-top:var(--cabecalho)}\nsection[id]{scroll-margin-top:calc(var(--folga-ancora) - var(--secao-y))}\n#reforma-tributaria{scroll-margin-top:calc(var(--folga-ancora) - 40px)}\n#inicio{scroll-margin-top:0}"),
-    ('publicar/assets/js/site.js', "var mq=window.matchMedia('(max-width: 779px)');", "// Links internos param abaixo do cabeçalho fixo: --cabecalho (CSS) acompanha a altura real. Com o menu aberto o cabeçalho cresce, então não mede.\nvar cabecalho=document.querySelector('.gc-cabecalho');\nfunction medirCabecalho(){if(cabecalho&&(!mm||mm.hidden)){var a=Math.round(cabecalho.getBoundingClientRect().height);if(a>0)raiz.style.setProperty('--cabecalho',a+'px');}}\nrequestAnimationFrame(medirCabecalho);\nvar mq=window.matchMedia('(max-width: 779px)');"),
-    ('publicar/assets/js/site.js', "window.addEventListener('resize',function(){agendarFab();if(!mq.matches)menu(false);});", "window.addEventListener('resize',function(){agendarFab();if(!mq.matches)menu(false);requestAnimationFrame(medirCabecalho);});"),
-]
+APROVADAS=[]
 
 
 def norm(value):

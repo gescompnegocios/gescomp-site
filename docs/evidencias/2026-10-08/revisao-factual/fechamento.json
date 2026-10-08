@@ -1,0 +1,28 @@
+{
+  "data": "2026-10-08",
+  "senadoDadosLegislativos": "2026-10-08 17:14",
+  "consultasFinais": [
+    {
+      "pagina": "fim-escala-6x1",
+      "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386",
+      "resultado": "Terceira discussao em primeiro turno encerrada em 08/10; retorna a pauta; nao promulgada."
+    },
+    {
+      "pagina": "novo-limite-mei",
+      "fonte": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao/?idProposicao=2295251",
+      "resultado": "PLP108 pendente na Camara."
+    },
+    {
+      "pagina": "novo-limite-mei",
+      "fonte": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476",
+      "resultado": "PLP186 aguardando despacho."
+    },
+    {
+      "pagina": "pro-labore-e-lucros",
+      "fonte": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=06%2F09%2F2024&jornal=515&pagina=56",
+      "resultado": "SC Cosit251: publicação oficial indexada consultada; coleta direta apresentou502; URL substitui identificador binario nao confirmado."
+    }
+  ],
+  "falhasNavegadorIntegrado": 0,
+  "linksLocaisRelatorioAusentes": []
+}
