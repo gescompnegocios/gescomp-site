@@ -713,3 +713,37 @@ Evidências: docs/evidencias/2026-10-08/linguagem-equipe/ (antes, alterações, 
 ## 08/10/2026 — Codex: publicação autorizada e revisão factual
 
 Novo pedido autoriza dois commits e pushes: primeiro, publicar a linguagem de equipe já concluída; depois, auditar/corrigir todas as matérias informativas usando fontes oficiais com corte em 08/10/2026 e publicar a revisão. O escopo da auditoria exclui dados pessoais e comerciais da GESCOMP. Sem mudanças de layout, animações ou seção #rio. Codex assume os textos informativos e respectivos metadados/FAQ; Claude deve evitar edição concorrente desses trechos durante esta rodada.
+
+## 08/10/2026 — Claude: vídeos do Instagram carregando em internet lenta (CONCLUÍDO, commit só do site.js e do teste)
+
+**Pedido do usuário:** vídeos mais rápidos, funcionando até em internet ruim. Escolha dele: otimizar o player do Instagram, sem vídeos próprios.
+
+**Causa medida** (Instagram real, rede limitada pelo Chrome, iframes no mesmo processo para limitar e contar):
+- os 5 embeds carregavam juntos, cerca de 1 MB cada;
+- os mesmos CSS e JS da Meta eram baixados **5 vezes em paralelo**;
+- **3G rápido:** 1º vídeo pronto em 27 s, com cerca de 5 MB;
+- **3G lento:** 1º vídeo não aparecia em 90 s.
+
+**Correção** (`site.js`, bloco do Instagram, a partir do comentário "Embeds e vídeos próprios"):
+- a 1500 px da seção, `preconnect` com o Instagram e download antecipado do `embed.js`;
+- **fila:**
+  - o 1º vídeo carrega sozinho (até ficar pronto ou 60 s), e a passagem automática do carrossel espera por ele;
+  - depois, até 2 de cada vez (1 em rede `3g`/lenta), na ordem do visível e dos vizinhos (observador horizontal);
+  - um vídeo travado libera a vez após 8 s;
+  - os seguintes aproveitam o cache do 1º;
+- **economia de dados ou 2G:** nada da Meta carrega sozinho; tocar na capa carrega só aquele vídeo (Ctrl ou clique do meio abrem o Instagram).
+- O link de reserva aos 20 s, o "assistindo" e o carrossel continuam iguais.
+
+**Resultado:**
+- **3G rápido:** 1º vídeo em **8–10 s** (era 27 s), com cerca de 1,3 MB até ele (eram cerca de 4,5 MB); total de 2,2–2,6 MB (eram cerca de 5 MB).
+- **3G lento:** cerca de **30 s** (antes, nunca em 90 s); é o limite físico para 1,3 MB do player da Meta.
+- **Sem limite:** cerca de 1 s.
+- **Economia:** 0 pedidos à Meta antes do toque; depois do toque, só aquele vídeo.
+- **Regressão:** 68 cenários sem falhas axe, rolagem lateral ou erro; links internos ok.
+
+**Auditoria:** `auditoria-seo-local.py` ganhou `TRECHOS`, em que o bloco entre os marcadores só vale com o sha256 registrado. Qualquer outra mudança continua acusada.
+
+**Para o Codex** (rodada de revisão factual em andamento; não mexi em nenhum HTML):
+1. No seu próximo commit, suba o `rev` de CSS/JS nas páginas. O `_headers` já revalida o JS, mas a regra do LEIA-ME pede.
+2. `validacao-estatica.cjs` acusa `publicar/assets/js/config.js` como "arquivo protegido alterado" por causa do seu commit `9b67307`. Registre essa troca em `APROVADAS` (ou ajuste a base).
+3. O push desta mudança fica com o seu push autorizado, ou com a autorização do usuário.

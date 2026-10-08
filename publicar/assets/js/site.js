@@ -271,12 +271,12 @@ function liberarCapa(capa){
   capa.classList.add('livre');capa.removeAttribute('aria-hidden');capa.removeAttribute('tabindex');
   var tx=capa.querySelector('[data-capa-texto]'); if(tx)tx.textContent='Toque para assistir no Instagram';
 }
-function vigiarIframe(s,caixa,capa,n){
+function vigiarIframe(s,caixa,capa,n,fim){
   var pararAltura=null, pronto=false, f=null, carregado=false, montado=false;
   var limite=setTimeout(function(){if(!pronto)liberarCapa(capa);},LIMITE_CARGA);
   function revelar(){
     if(pronto||!carregado||!montado||!f||f.offsetHeight<200)return;
-    pronto=true;clearTimeout(limite);if(pararAltura)pararAltura();
+    pronto=true;clearTimeout(limite);if(pararAltura)pararAltura();if(fim)fim(true);
     window.removeEventListener('message',mensagem);
     // MOUNTED confirma a montagem da Meta; duas pinturas mantêm a capa durante a troca.
     requestAnimationFrame(function(){requestAnimationFrame(function(){caixa.classList.add('pronto');tirarCapa(capa);});});
@@ -309,18 +309,18 @@ function esperarAltura(f,feito){
   ro.observe(f);
   return function(){ro.disconnect();};
 }
-function montarVideo(s,caixa,capa,it,n){
+function montarVideo(s,caixa,capa,it,n,fim){
   var v=document.createElement('video');
   v.controls=true;v.setAttribute('playsinline','');v.preload='metadata';v.src=it.url;v.setAttribute('aria-label','Vídeo '+n+' da GESCOMP');
   caixa.classList.add('video');caixa.appendChild(v);
-  v.addEventListener('loadedmetadata',function(){tirarCapa(capa);});
-  v.addEventListener('error',function(){falhar(s,'video');});
+  v.addEventListener('loadedmetadata',function(){tirarCapa(capa);if(fim)fim(true);});
+  v.addEventListener('error',function(){falhar(s,'video');if(fim)fim(false);});
   v.addEventListener('play',function(){assistir(s,'video');});
   function parou(){if(assistindo&&assistindo.slide===s)retomar();}
   v.addEventListener('pause',parou);v.addEventListener('ended',parou);
   if(ioVideo)ioVideo.observe(s);
 }
-function montarEmbed(s,caixa,capa,it,n){
+function montarEmbed(s,caixa,capa,it,n,fim){
   var b=document.createElement('blockquote');
   b.className='instagram-media';
   b.setAttribute('data-instgrm-permalink',it.url+'?utm_source=ig_embed&utm_campaign=loading');
@@ -328,7 +328,7 @@ function montarEmbed(s,caixa,capa,it,n){
   b.style.cssText='background:#FFF;border:0;margin:0;padding:0;width:100%;';
   var l=document.createElement('a'); l.href=it.url; l.target='_blank'; l.rel='noopener'; l.textContent='Ver o vídeo '+n+' no Instagram';
   b.appendChild(l); caixa.appendChild(b);
-  vigiarIframe(s,caixa,capa,n);
+  vigiarIframe(s,caixa,capa,n,fim);
 }
 function processar(){if(window.instgrm&&window.instgrm.Embeds)window.instgrm.Embeds.process();}
 function carregarEmbedJs(){
@@ -336,28 +336,79 @@ function carregarEmbedJs(){
   var ja=document.querySelector('script[src="'+EMBED_JS+'"]'); if(ja){ja.addEventListener('load',processar);return;}
   var sc=document.createElement('script'); sc.async=true; sc.src=EMBED_JS;
   sc.onload=processar;
-  sc.onerror=function(){for(var i=0;i<total;i++)if(itens[i]&&itens[i].tipo==='embed')falhar(lista[i],'embed');};
+  sc.onerror=function(){for(var i=0;i<slides.length;i++){var x=slides[i];if(x.it.tipo==='embed'&&x.estado!=='pronto'){falhar(x.s,'embed');if(x.estado==='carregando')concluir(x,false);x.estado='falhou';}}};
   document.body.appendChild(sc);
 }
-var montado=false;
-function montar(){
-  if(montado)return; montado=true;
-  var precisaEmbed=false;
-  for(var i=0;i<total;i++){
-    var s=lista[i], it=itens[i], capa=s.querySelector('[data-reel]'); if(!it)continue;
-    var caixa=document.createElement('div'); caixa.className='ig-midia';
-    if(capa){
-      capa.classList.add('ig-capa');capa.setAttribute('aria-hidden','true');capa.setAttribute('tabindex','-1');
-      var tx=capa.querySelector('[data-capa-texto]'); if(tx)tx.textContent='Carregando o vídeo…';
-    }
-    s.insertBefore(caixa,capa||s.firstChild);
-    if(it.tipo==='video')montarVideo(s,caixa,capa,it,i+1);
-    else{montarEmbed(s,caixa,capa,it,i+1);precisaEmbed=true;}
-  }
-  if(precisaEmbed)carregarEmbedJs();
+
+/* Fila de carregamento, pensada para internet lenta:
+   - a conexão com o Instagram e o embed.js começam antes de a seção aparecer;
+   - os vídeos entram um a um, primeiro o que está na tela e depois os vizinhos do carrossel. Antes, os 5
+     carregavam juntos e baixavam 5 vezes os mesmos scripts e estilos da Meta; em fila, os seguintes
+     aproveitam o cache do primeiro;
+   - com economia de dados ou rede 2G, nada carrega sozinho: tocar na capa carrega só aquele vídeo
+     (Ctrl/clique do meio continuam abrindo o Instagram). */
+var con=navigator.connection||navigator.mozConnection||navigator.webkitConnection;
+var modo=(function(){if(!con)return 'normal';var t=String(con.effectiveType||'');if(con.saveData||/2g$/.test(t))return 'economia';if(t==='3g'||(con.downlink&&con.downlink<1.5))return 'lenta';return 'normal';})();
+var PARALELO=modo==='normal'?2:1, PASSO_FILA=8000, PASSO_PRIMEIRO=60000;
+var slides=[], fila=[], emCurso=0, algumPronto=false;
+for(var i=0;i<total;i++)if(itens[i])slides.push({s:lista[i],it:itens[i],n:i+1,capa:lista[i].querySelector('[data-reel]'),estado:'espera'});
+function proximo(){
+  while(emCurso<(algumPronto?PARALELO:1)&&fila.length){var x=fila.shift();if(x.estado==='fila')iniciar(x);}
 }
-if(temIO){var ioSec=new IntersectionObserver(function(es){for(var k=0;k<es.length;k++)if(es[k].isIntersecting){ioSec.disconnect();montar();return;}},{rootMargin:'400px 0px'});ioSec.observe(sec);}
-else montar();
+function enfileirar(x,urgente){if(x.estado!=='espera')return;x.estado='fila';if(urgente)fila.unshift(x);else fila.push(x);proximo();}
+function liberarVaga(x){if(x.liberou)return;x.liberou=true;emCurso--;proximo();}
+function concluir(x,ok){if(ok){x.estado='pronto';algumPronto=true;car.travar('primeiro-video',false);}else if(x.estado!=='pronto')x.estado='falhou';clearTimeout(x.passo);liberarVaga(x);}
+function iniciar(x){
+  x.estado='carregando';emCurso++;
+  var capa=x.capa, caixa=document.createElement('div'); caixa.className='ig-midia';
+  if(capa){
+    capa.classList.add('ig-capa');capa.setAttribute('aria-hidden','true');capa.setAttribute('tabindex','-1');
+    var tx=capa.querySelector('[data-capa-texto]'); if(tx)tx.textContent='Carregando o vídeo…';
+  }
+  x.s.insertBefore(caixa,capa||x.s.firstChild);
+  // O primeiro vídeo carrega sozinho (até ficar pronto ou 60 s): em rede lenta, um segundo roubaria a banda dele.
+  // Aos 20 s (LIMITE_CARGA) a capa dele já vira link para o Instagram, então ninguém fica sem acesso.
+  // Depois, um vídeo travado não segura a fila: após PASSO_FILA o próximo começa, e este continua tentando.
+  x.passo=setTimeout(function(){liberarVaga(x);},algumPronto?PASSO_FILA:PASSO_PRIMEIRO);
+  var fim=function(ok){concluir(x,ok);};
+  if(x.it.tipo==='video')montarVideo(x.s,caixa,capa,x.it,x.n,fim);
+  else{montarEmbed(x.s,caixa,capa,x.it,x.n,fim);carregarEmbedJs();}
+}
+function preconectar(){
+  ['https://www.instagram.com','https://static.cdninstagram.com'].forEach(function(o){
+    if(document.querySelector('link[rel="preconnect"][href="'+o+'"]'))return;
+    var l=document.createElement('link');l.rel='preconnect';l.href=o;document.head.appendChild(l);
+  });
+}
+var preparado=false;
+function preparar(){
+  if(preparado)return; preparado=true;
+  if(modo==='economia'){
+    slides.forEach(function(x){
+      if(!x.capa)return;
+      x.capa.setAttribute('aria-label','Carregar aqui o vídeo '+x.n+' da GESCOMP');
+      var tx=x.capa.querySelector('[data-capa-texto]'); if(tx)tx.textContent='Toque para carregar o vídeo · economia de dados';
+      x.capa.addEventListener('click',function(e){if(x.estado!=='espera'||e.ctrlKey||e.metaKey||e.shiftKey||e.button)return;e.preventDefault();preconectar();enfileirar(x,true);});
+    });
+    return;
+  }
+  // A passagem automática espera o primeiro vídeo: a pessoa vê o vídeo chegar, não capas de espera passando.
+  car.travar('primeiro-video',true);
+  setTimeout(function(){car.travar('primeiro-video',false);},PASSO_PRIMEIRO);
+  // Prioridade: o vídeo visível e os vizinhos de cada lado; os demais entram quando o carrossel chega neles.
+  if(!temIO){slides.forEach(function(x){enfileirar(x);});return;}
+  var ioVez=new IntersectionObserver(function(es){for(var k=0;k<es.length;k++)if(es[k].isIntersecting){for(var j=0;j<slides.length;j++)if(slides[j].s===es[k].target){enfileirar(slides[j]);ioVez.unobserve(es[k].target);}}},{root:trilha,rootMargin:'0px 60% 0px 60%',threshold:0});
+  slides.forEach(function(x){ioVez.observe(x.s);});
+}
+var temEmbed=slides.some(function(x){return x.it.tipo==='embed';});
+if(temIO){
+  // Bem antes de a seção aparecer: abre a conexão e baixa o embed.js (sem vídeos ainda, ele não processa nada).
+  var ioPerto=new IntersectionObserver(function(es){for(var k=0;k<es.length;k++)if(es[k].isIntersecting){ioPerto.disconnect();if(modo!=='economia'&&temEmbed){preconectar();carregarEmbedJs();}return;}},{rootMargin:'1500px 0px'});
+  ioPerto.observe(sec);
+  var ioSec=new IntersectionObserver(function(es){for(var k=0;k<es.length;k++)if(es[k].isIntersecting){ioSec.disconnect();preparar();return;}},{rootMargin:'400px 0px'});
+  ioSec.observe(sec);
+}
+else preparar();
 })();
 
 

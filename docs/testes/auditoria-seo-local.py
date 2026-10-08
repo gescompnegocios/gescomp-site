@@ -20,6 +20,12 @@ BASE = 'f970f3f'
 
 # Alterações aprovadas depois da base, aplicadas à base antes da comparação: qualquer outra mudança continua acusada.
 # 08/10/2026 (Claude): links internos param logo abaixo do cabeçalho fixo (scroll-padding/scroll-margin + medição do cabeçalho).
+# Trechos substituídos por inteiro: entre os marcadores, só vale o conteúdo com este sha256 (fim de linha LF).
+# 08/10/2026 (Claude): fila de carregamento dos vídeos do Instagram (internet lenta e economia de dados).
+TRECHOS=[
+    ('publicar/assets/js/site.js', "/* Embeds e vídeos próprios", "/* Avaliações de clientes", 'cea02a6dd9bcb764cdbfdbcc132aaa4cf49610aeb8022804c81192bd551b8490'),
+]
+
 APROVADAS=[
     ('publicar/assets/css/site.css', "section[id]{scroll-margin-top:84px}", "/* Links internos: nada fica atrás do cabeçalho fixo (--cabecalho, ajustado pelo site.js à altura real)\n   e o respiro interno da seção é descontado, para o título parar logo abaixo do cabeçalho. */\n:root{--cabecalho:76px;--folga-ancora:14px}\n@media (max-width:779px){:root{--cabecalho:68px}}\nhtml{scroll-padding-top:var(--cabecalho)}\nsection[id]{scroll-margin-top:calc(var(--folga-ancora) - var(--secao-y))}\n#reforma-tributaria{scroll-margin-top:calc(var(--folga-ancora) - 40px)}\n#inicio{scroll-margin-top:0}"),
     ('publicar/assets/js/site.js', "var mq=window.matchMedia('(max-width: 779px)');", "// Links internos param abaixo do cabeçalho fixo: --cabecalho (CSS) acompanha a altura real. Com o menu aberto o cabeçalho cresce, então não mede.\nvar cabecalho=document.querySelector('.gc-cabecalho');\nfunction medirCabecalho(){if(cabecalho&&(!mm||mm.hidden)){var a=Math.round(cabecalho.getBoundingClientRect().height);if(a>0)raiz.style.setProperty('--cabecalho',a+'px');}}\nrequestAnimationFrame(medirCabecalho);\nvar mq=window.matchMedia('(max-width: 779px)');"),
@@ -210,6 +216,13 @@ def scan():
                 rel='publicar/'+folder+'/'+f.name;base=normalized_bytes(git_file(rel));current=normalized_bytes(f.read_bytes())
                 for arq,antes,depois in APROVADAS:
                     if arq==rel:base=base.replace(antes.encode('utf-8'),depois.encode('utf-8'),1)
+                for arq,ini,fim,esperado in TRECHOS:
+                    if arq!=rel:continue
+                    def cortar(b):
+                        a=b.find(ini.encode('utf-8'));z=b.find(fim.encode('utf-8'))
+                        return (b[:a]+b[z:],b[a:z]) if a>=0 and z>a else (b,b'')
+                    base,_=cortar(base);current,trecho=cortar(current)
+                    if hashlib.sha256(trecho).hexdigest()!=esperado:failures.append([rel,'trecho aprovado alterado',ini])
                 if base!=current:
                     # Claude adicionou somente classes para links novos, sem modificar regras existentes.
                     extra=current[len(base):].decode('utf-8') if current.startswith(base) else None
