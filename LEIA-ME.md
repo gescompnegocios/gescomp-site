@@ -128,6 +128,23 @@ As páginas de Informações mantêm suas datas de revisão e regras existentes.
 
 O cabeçalho fica fixo no topo. Para os links internos (`#servicos`, `#sobre`, `#contato`, `/informacoes#reforma-tributaria` etc.) não pararem atrás dele, `site.css` usa `html{scroll-padding-top:var(--cabecalho)}` e desconta o respiro interno das seções com `scroll-margin-top` negativo (`--folga-ancora`: 14 px). O `site.js` atualiza `--cabecalho` com a altura real do cabeçalho na carga e no redimensionamento (sem medir com o menu do celular aberto). Seção nova com `id` e padding diferente de `--secao-y`: acrescente uma regra própria, como a de `#reforma-tributaria`.
 
+## Componentes dos artigos
+
+As páginas de Informações e os guias usam componentes com classe em `site.css` (bloco "Artigos — padrão"), não mais estilo inline caso a caso. Ao escrever um artigo novo, use estas classes:
+
+- **Tabela** (`.artigo-linhas` > `.artigo-tabela-linha`, três `div`s por linha):
+  - cada célula traz `.artigo-tabela-rotulo` e depois `.artigo-tabela-valor`, `.artigo-tabela-destaque` (número em negrito, como a alíquota, **sem pílula**) ou `.artigo-tabela-obs`;
+  - no computador, o rótulo aparece só na primeira linha; nas outras fica só para leitores de tela;
+  - no celular, as linhas empilham com rótulo.
+- **Agenda de datas** (`.artigo-linhas` > `.artigo-agenda-linha`): `.artigo-agenda-data` (com `destaque`, em laranja, ou `periodo`, em petróleo-claro) e `.artigo-agenda-texto`. A data é texto marcado por um fio, não pílula.
+- **Grade de cards** (`.artigo-cards`): as colunas seguem a quantidade de cards. 2 viram 2 colunas, 3 viram 3, **4 viram 2×2** e 5 ou mais viram 3; no celular, 1 coluna.
+- **Marcadores** (`.marcador` com `-contorno`, `-cbs` ou `-ibs`): retângulos com raio de 6 px. Não use etiqueta arredondada ou centralizada.
+- **Fontes oficiais** (`aside.artigo-fontes` com `h2.artigo-fontes-titulo`, `ul.artigo-fontes-lista` e `p.artigo-fontes-nota`):
+  - ficam no fim da seção "Perguntas frequentes", antes de "Veja também";
+  - a lista tem 2 colunas e ícone de link externo.
+
+`docs/testes/padronizar-artigos.js` converteu os 8 artigos de 08/10/2026. Ele só grava se o texto visível, os links, os `id`s e o JSON-LD de cada página continuarem idênticos.
+
 ## Desempenho
 
 - **Fontes locais:** Bricolage Grotesque e Figtree ficam em `assets/fonts/` (licença OFL) e são declaradas em `assets/css/fontes.css`, um `@font-face` por arquivo. As duas fontes latinas são pré-carregadas no `<head>`. Não volte ao Google Fonts: ele adicionava dois domínios e uma cadeia de requisições antes do primeiro desenho.

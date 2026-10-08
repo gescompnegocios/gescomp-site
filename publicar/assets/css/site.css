@@ -437,3 +437,59 @@ body{background:var(--chao)}
 .ajuda-saiba a:hover{text-decoration-thickness:2px}
 .link-claro,.conteudo-artigo a.link-claro{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 .link-claro:hover,.conteudo-artigo a.link-claro:hover{color:#FFFFFF;text-decoration-thickness:2px}
+
+/* ==========================================================================
+   Artigos — padrão (Claude, 08/10/2026). Componentes das páginas de Informações:
+   tabelas, agenda de datas, marcadores, grade de cards e fontes oficiais.
+   Gerados por docs/testes/padronizar-artigos.js a partir dos estilos inline antigos.
+   ========================================================================== */
+/* Tabela: colunas alinhadas em todas as linhas; no computador o rótulo aparece só na primeira */
+.artigo-linhas{display:flex;flex-direction:column;border-bottom:1.5px solid var(--linha)}
+.artigo-tabela-linha{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.8fr) minmax(0,1.25fr);gap:10px 28px;align-items:start;padding:18px 0;border-top:1.5px solid var(--linha)}
+.artigo-tabela-rotulo{display:block;margin-bottom:6px;font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--texto2)}
+.artigo-tabela-valor{font-size:17px;font-weight:700;line-height:1.45;color:var(--titulo)}
+.artigo-tabela-destaque{font-family:'Bricolage Grotesque',Georgia,serif;font-size:18px;font-weight:800;line-height:1.4;color:var(--titulo)}
+.artigo-tabela-obs{font-size:var(--fs-corpo);line-height:1.55;color:var(--texto2)}
+@media (min-width:760px){
+  .artigo-tabela-linha:first-child{padding-top:14px}
+  .artigo-tabela-linha:not(:first-child) .artigo-tabela-rotulo{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+}
+@media (max-width:759px){.artigo-tabela-linha{grid-template-columns:1fr;gap:12px}}
+
+/* Agenda de datas: a data é uma coluna fixa de texto, marcada por um fio colorido (sem pílula) */
+.artigo-agenda-linha{display:grid;grid-template-columns:150px minmax(0,1fr);gap:8px 24px;align-items:start;padding:16px 0;border-top:1.5px solid var(--linha)}
+.artigo-agenda-data{display:block;padding:1px 0 1px 12px;border-left:3px solid #0B5963;font-family:'Bricolage Grotesque',Georgia,serif;font-size:18px;font-weight:800;line-height:1.35;color:var(--titulo)}
+.artigo-agenda-data.periodo{border-left-color:#3F979C}
+.artigo-agenda-data.destaque{border-left-color:#E8952F}
+[data-theme="dark"] .artigo-agenda-data{border-left-color:#5FA3A8}
+[data-theme="dark"] .artigo-agenda-data.destaque{border-left-color:#E8952F}
+.artigo-agenda-texto{margin:0;font-size:var(--fs-corpo);line-height:1.6;color:var(--texto)}
+@media (max-width:599px){.artigo-agenda-linha{grid-template-columns:1fr;gap:6px}}
+
+/* Marcadores do esquema da reforma (tributos que saem e entram): retangulares e discretos */
+.marcador{position:relative;display:inline-flex;padding:7px 14px;border-radius:6px;font-weight:700;font-size:15px;line-height:1.3}
+.marcador-contorno{border:1.5px solid var(--borda-card);background:var(--superficie);color:var(--titulo)}
+.marcador-cbs{background:#0B5963;color:#FFFFFF;font-weight:800}
+.marcador-ibs{background:#B65A0C;color:#FFFFFF;font-weight:800}
+
+/* Grade de cards: número de colunas conforme a quantidade de cards (4 vira 2×2) */
+.artigo-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--gap-cards)}
+@media (min-width:900px){
+  .artigo-cards:has(> :nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}
+  .artigo-cards:has(> :nth-child(3):last-child),.artigo-cards:has(> :nth-child(5)){grid-template-columns:repeat(3,minmax(0,1fr))}
+  .artigo-cards:has(> :nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (min-width:600px) and (max-width:899px){.artigo-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.artigo-cards:has(> :nth-child(3):last-child)>:last-child{grid-column:1/-1}}
+@media (max-width:599px){.artigo-cards{grid-template-columns:1fr}}
+
+/* Fontes oficiais: fecham o conteúdo do artigo, depois das perguntas, com fio fino e lista em 2 colunas */
+.artigo-fontes{max-width:860px;margin-top:40px;padding-top:28px;border-top:1.5px solid var(--linha);display:flex;flex-direction:column;gap:16px}
+.artigo-fontes-titulo{margin:0;font-family:'Bricolage Grotesque',Georgia,serif;font-size:20px;font-weight:700;line-height:1.3;color:var(--titulo)}
+.artigo-fontes-lista{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 36px}
+@media (max-width:759px){.artigo-fontes-lista{grid-template-columns:1fr}}
+.artigo-fontes-lista li{position:relative;padding-left:24px;font-size:15.5px;line-height:1.5}
+.artigo-fontes-lista li::before{content:"";position:absolute;left:0;top:.35em;width:13px;height:13px;background:currentColor;color:#3F979C;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5'/%3E%3C/svg%3E") no-repeat center/contain;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5'/%3E%3C/svg%3E") no-repeat center/contain}
+.artigo-fontes-lista a{color:var(--titulo);text-decoration:underline;text-decoration-color:var(--borda-card);text-decoration-thickness:1.5px;text-underline-offset:3px}
+.artigo-fontes-lista a:hover{text-decoration-color:currentColor}
+.artigo-fontes-nota{margin:0;max-width:var(--leitura);font-size:15px;line-height:1.6;color:var(--texto2)}
+/* fim — Artigos padrão */
