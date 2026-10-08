@@ -24,12 +24,12 @@ function medirCabecalho(){if(cabecalho&&(!mm||mm.hidden)){var a=Math.round(cabec
 requestAnimationFrame(medirCabecalho);
 var mq=window.matchMedia('(max-width: 779px)');
 var fab=document.getElementById('fab');
-// O WhatsApp fica disponível também no formulário; não ocultar ao rolar.
-if(fab){fab.classList.remove('oculto');fab.style.removeProperty('display');}
+var displayFab=fab?fab.style.display:'';
 function sobrepoe(a,b){return a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top;}
 function atualizarFab(){
 var areas=document.querySelectorAll('#inicio .abertura-imagem,#inicio .selo,#instagram [data-carrossel],#avaliacoes [data-carrossel],#form-contato');
 function cobre(el){if(!el||!mq.matches)return false;var b=el.getBoundingClientRect();for(var n=0;n<areas.length;n++){var a=areas[n];if(a.getClientRects().length&&sobrepoe(b,a.getBoundingClientRect()))return true;}return false;}
+if(fab){fab.classList.remove('oculto');fab.style.display=displayFab;var ocultar=cobre(fab);if(document.activeElement!==fab){fab.classList.toggle('oculto',ocultar);fab.style.display=ocultar?'none':displayFab;}}
 // Oculta apenas o lançador fechado do VLibras se ele cobrir controles; o painel aberto permanece utilizável.
 var widget=window.VLibrasWidget,acesso=widget&&widget.access;
 if(acesso){var raizWidget=acesso.getRootNode();var focado=acesso.contains(document.activeElement)||acesso.contains(raizWidget.activeElement);var ocultarLibras=cobre(acesso)&&!focado;var visibilidade=ocultarLibras?'hidden':'',ponteiro=ocultarLibras?'none':'';if(acesso.style.visibility!==visibilidade)acesso.style.visibility=visibilidade;if(acesso.style.pointerEvents!==ponteiro)acesso.style.pointerEvents=ponteiro;}

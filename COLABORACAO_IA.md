@@ -170,3 +170,9 @@ Pedido atual implementado somente nesses dois componentes: PNG original transpar
 Verificações: 23 cenários locais de navegador em computador/celular, sem erros próprios, overflow ou falhas dos componentes; foco visível, WhatsApp correto e PNG/SVG carregados. Conferência literal do HTML fora dos componentes e preservação dos assets existentes aprovada. Quatro pares de capturas controladas do rio, 1366/360 e claro/escuro, idênticos pixel a pixel. Evidências em docs/evidencias/2026-10-08/logo-rodape-whatsapp/; detalhes no handoff. Alterações locais prontas para revisão; esta solicitação não pediu novo commit/push.
 
 08/10/2026 — Pedido posterior autoriza commit e push normal desta rodada na main. Git e evidências conferidos antes do envio; incluídos apenas os dois ajustes, cache relacionado e registros da colaboração.
+
+## 08/10/2026 — Codex: correção do WhatsApp e alinhamento com VLibras
+
+Corrigidos os três pontos relatados: SVG padrão e coeso no lugar do desenho assimétrico; centros dos botões alinhados por margens/dimensões compartilhadas; WhatsApp permanece visível no formulário do celular, sem ocultação automática. Somente SVG, estrutura.css, bloco de ocultação em site.js, posicionamento em libras.js e caches em 16 páginas alterados. Formulário, mensagens, carrosséis, logo e rio preservados. Licença do ícone incluída no SVG; nenhuma biblioteca adicionada.
+
+Revisão paralela restrita à leitura, sem edições ou processos pesados. Teste em uma aba/contexto, 34 checagens em 360/390/1366 e dois temas, sem falhas. VLibras simulado, externos pesados bloqueados, envio de formulário interceptado localmente; campo focado e viewport reduzido conferidos. node --check aprovado, escopo do HTML validado e dois pares de capturas do rio idênticos. Detalhes/limites no handoff; evidências em docs/evidencias/2026-10-08/whatsapp-alinhamento/. Commit/push autorizados pelo pedido atual.

@@ -777,3 +777,20 @@ Pedido posterior: melhorar somente a logo do rodapé e deixar o botão flutuante
 Evidências: docs/evidencias/2026-10-08/logo-rodape-whatsapp/ (antes/depois, navegador.json e preservacao.json). A auditoria antiga de arquivos protegidos precisa reconhecer estrutura.css quando esta mudança for integrada; não foi enfraquecida nesta rodada.
 
 Pedido posterior do usuário em 08/10/2026 autoriza commit e push destes ajustes para main. Estado do Git conferido: apenas os componentes, cache e documentação/evidências desta rodada pendentes; base 1c4fb23. Resultados de navegador e preservação aprovados, sem novas alterações funcionais desde os testes.
+
+## 08/10/2026 — Codex: correção do ícone, alinhamento e visibilidade do WhatsApp
+
+Pedido atual autoriza correção e commit/push; exige verificações leves para não sobrecarregar o computador. Base Git a562676, limpa ao iniciar. Subagente realizou somente leitura de três arquivos para confirmar causas; não editou arquivos nem abriu navegador/serviços.
+
+Causas comprovadas: o SVG anterior era um desenho manual assimétrico; libras.js ainda posicionava o lançador considerando o WhatsApp antigo de 68 px; site.js ocultava #fab quando ele sobrepunha o formulário no celular.
+
+- Substituído o desenho por um único path do ícone WhatsApp de [Bootstrap Icons](https://github.com/twbs/icons/blob/main/icons/whatsapp.svg), com viewBox original 16×16, preenchimento branco e sem transformações no telefone. Uso somente do arquivo SVG local; nenhuma biblioteca/framework adicionada. [Licença MIT](https://github.com/twbs/icons/blob/main/LICENSE) e copyright preservados no próprio asset.
+- Variáveis compartilhadas para margem direita, base, tamanho de 60 px e intervalo de 16 px. VLibras mede a largura do lançador uma única vez e alinha seu centro ao centro do WhatsApp; posição continua respeitando áreas seguras. Não há nova rotina contínua de medição, polling ou resize observer.
+- Retirada somente a ocultação automática do WhatsApp por sobreposição: permanece disponível ao rolar no formulário, carrosséis e demais seções. A proteção existente do lançador fechado do VLibras e o display controlado por seu painel foram preservados. Formulário, links e mensagens continuam iguais.
+- Arquivos: assets/img/whatsapp.svg, assets/css/estrutura.css, assets/js/site.js, assets/js/libras.js; nas 16 páginas, somente cache desses quatro recursos para 20261008/rev=13. Restante do HTML, logo corrigida e #rio preservados.
+
+Verificação leve efetivamente executada: um contexto e uma aba de teste, 360/390/1366 px, claro/escuro, 34 checagens de posição, centralização, rolagem do formulário, campo focado, viewport reduzido e submit interceptado localmente. Sem erros próprios, overflow, WhatsApp oculto ou centro desalinhado. Intervalo vertical 16 px. API do VLibras simulada com Shadow DOM de 40 px; plugins pesados e Instagram não foram carregados. Nenhum contato real foi enviado; não foi executado Lighthouse ou suíte ampla.
+
+node --check de site.js, libras.js e config.js aprovado; SVG válido. Diferença de HTML limitada ao cache, função do formulário e módulos seguintes de site.js idênticos; site.css/cores e logo PNG intactos. Dois pares de capturas do rio em 360 px, claro/escuro, idênticos pixel a pixel, com animações congeladas apenas na captura de teste. Evidências em docs/evidencias/2026-10-08/whatsapp-alinhamento/.
+
+Correção pronta para o commit e push normal autorizados. A auditoria histórica de arquivos protegidos ainda usa base anterior às alterações visuais; reconhecer esta entrega quando a base de preservação for atualizada, sem apagar registros antigos.

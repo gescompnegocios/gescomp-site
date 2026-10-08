@@ -1,0 +1,19 @@
+{
+  "base": "a562676",
+  "htmlOnlyCacheChanges": true,
+  "rio": [
+    {
+      "width": 360,
+      "theme": "light",
+      "identical": true
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "identical": true
+    }
+  ],
+  "formAndCarouselsPreserved": true,
+  "svg": "Single unchanged upstream path,white fill,no transforms",
+  "failures": []
+}

@@ -19,8 +19,7 @@
 })();
 
 /* Ajuste do botão oficial do VLibras: lado direito, logo acima do botão do WhatsApp
-   (que tem 68 px a 18 px da borda), centralizado com ele. Fica sempre visível e longe
-   do meio da tela, onde ficam as setas do carrossel. */
+   de 60 px, com os centros alinhados pelas mesmas variáveis CSS. */
 (function () {
   var observador;
   var limite;
@@ -31,12 +30,14 @@
 
     // A interface oficial fica em Shadow DOM. A API expõe o botão e seu contêiner.
     // Preservar o display controlado pelo widget quando ele abre e fecha.
+    var largura = widget.access.getBoundingClientRect().width ||
+      (typeof widget.initBtn.getBoundingClientRect === 'function' ? widget.initBtn.getBoundingClientRect().width : 0) || 40;
     var estilo = widget.access.style;
     estilo.setProperty('position', 'fixed');
     estilo.setProperty('left', 'auto');
-    estilo.setProperty('right', '32px');
+    estilo.setProperty('right', 'calc(var(--gc-flutuante-direita, 18px) + (var(--gc-whatsapp-tamanho, 60px) - ' + largura + 'px) / 2)');
     estilo.setProperty('top', 'auto');
-    estilo.setProperty('bottom', 'calc(100px + env(safe-area-inset-bottom, 0px))');
+    estilo.setProperty('bottom', 'calc(var(--gc-flutuante-base, 18px) + var(--gc-whatsapp-tamanho, 60px) + var(--gc-flutuante-gap, 16px))');
     estilo.setProperty('transform', 'none');
 
     if (observador) observador.disconnect();
