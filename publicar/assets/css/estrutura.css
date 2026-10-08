@@ -40,10 +40,11 @@
 
 /* Assinatura do desenvolvedor (Rumera). Sem href, é só texto; para virar link, acrescente ao <a class="gc-rodape-rumera"> nas páginas: href="https://www.instagram.com/rumera/" target="_blank" rel="noopener". */
 .gc-rodape-rumera { display: inline-flex; align-items: baseline; gap: .35em; color: inherit; text-decoration: none; opacity: .8; }
+/* site.css tem a:hover { color: #003F4A }, a mesma cor do fundo do rodapé: sem isto a assinatura some no hover. */
+.gc-rodape-rumera:hover, .gc-rodape-rumera:focus-visible { color: inherit; }
 .gc-rodape-rumera svg { height: .8em; width: auto; display: block; fill: currentColor; overflow: visible; }
 .gc-rodape-rumera[href] { transition: opacity .2s ease; }
 .gc-rodape-rumera[href]:hover, .gc-rodape-rumera[href]:focus-visible { opacity: 1; }
-.gc-rodape-rumera[href]:hover .gc-rodape-rumera-ponto, .gc-rodape-rumera[href]:focus-visible .gc-rodape-rumera-ponto { fill: #E05AA6; }
 .gc-rodape-rumera[href]:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 4px; }
 /* No computador, a assinatura fica na ponta direita: reserva o espaço do WhatsApp flutuante quando a tela é estreita demais para a margem cobrir. */
 @media (min-width: 900px) { .gc-rodape-creditos { padding-right: max(24px, calc(var(--gc-whatsapp-tamanho) + var(--gc-flutuante-direita) + 32px - (100vw - 1200px) / 2)); } }

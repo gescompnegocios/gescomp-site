@@ -845,3 +845,44 @@ Resultado pronto localmente, sem commit/push/deploy nesta rodada. Pendências pa
 O usuário autorizou explicitamente commit e push de tudo. Conferidos os arquivos pendentes: título das dúvidas, fotografias CC0 e imagens de compartilhamento, assinatura Rumera do Claude no rodapé, melhorias SEO, sitemap e documentação/evidências das respectivas etapas. A assinatura e seu CSS foram revisados por leitura do diff; correspondem ao pedido registrado pelo Claude e não modificam o rio ou os controles do WhatsApp.
 
 Repetida a validação leve de integração: 17 páginas, 16 URLs no sitemap, todas alcançáveis por links HTML, sem erro; git diff --check aprovado. Os testes de navegador e preservação do rio permanecem registrados nas evidências anteriores. Nenhuma dependência, processo pesado ou mudança funcional adicional nesta etapa. Preparado um único commit com todas as alterações, seguido de push normal para origin/main; confirmação do hash remoto será apresentada ao usuário. Esta integração não representa confirmação de processamento do Google ou de conclusão do deploy Cloudflare.
+- Correção posterior: a regra global `a:hover{color:#003F4A}` do site.css deixava a assinatura da cor do fundo no hover. `.gc-rodape-rumera:hover/:focus-visible { color: inherit }` em estrutura.css; conferido no Chrome (cor no hover #BFD6D7).
+
+## 08/10/2026 — Claude: assinatura Rumera v2 (sem rosa) — CONCLUÍDO
+
+A pedido do Rafael, a identidade da Rumera trocou o ponto magenta por uma agulha (losango vertical). Nas 16 páginas, o SVG dentro de `<a class="gc-rodape-rumera">` foi substituído ("by rumera" + agulha; metade de baixo em contorno, tudo em currentColor). Em estrutura.css saiu a regra que pintava o ponto de #E05AA6 no hover; o hover agora só muda a opacidade. Conferido no Chrome em 1366 e 390px, incluindo o hover (cor mantida em #BFD6D7). Sem commit, push ou deploy.
+
+## 08/10/2026 — Claude: padronização visual dos artigos (CONCLUÍDO)
+
+**Pedido do usuário:** padronizar as páginas de artigo, que "fogem do padrão" e não passam a mesma credibilidade da inicial.
+
+**Escopo:** `informacoes`, `abrir-empresa`, `calendario-fiscal`, `departamento-pessoal`, `imposto-de-renda`, `mei`, `pro-labore-e-lucros` e `simples-nacional`. Os textos não mudaram (nenhuma palavra).
+
+- **Componentes novos** em `site.css` (bloco "Artigos — padrão"; detalhes no LEIA-ME, "Componentes dos artigos"):
+  - `.artigo-linhas`/`.artigo-tabela-*`: rótulo só na 1ª linha no computador, colunas alinhadas e alíquota sem pílula;
+  - `.artigo-agenda-*`: data como texto com fio colorido;
+  - `.artigo-cards`: 4 cards viram 2×2;
+  - `.marcador-*`;
+  - `.artigo-fontes`: no fim das perguntas, antes de "Veja também", com lista de 2 colunas.
+- **Conversão:** `docs/testes/padronizar-artigos.js`. As travas exigem texto, links, `id`s e JSON-LD idênticos.
+  - Pílulas: 43 → 0.
+  - Estilos inline nos 8 artigos: cerca de −25%. Os que restam são estruturas já iguais em todas as páginas.
+- **Cache:** `site.css` passou para `rev=14`.
+- **Testes:**
+  - capturas antes e depois em 1366, 390 e escuro;
+  - 68 cenários sem falhas axe, rolagem lateral ou erro;
+  - links internos ok.
+
+**Para o Codex:**
+- **Artigos novos:** usar as classes do LEIA-ME em vez de estilo inline.
+- **`validacao-estatica.cjs`:** compara com a base `f970f3f` (rodada de SEO) e agora acusa vários arquivos alterados por commits posteriores: `estrutura.css`, `libras.js`, `site.js`, fotos de 08/10 e `whatsapp.svg`, além deste bloco do `site.css`. Atualizar a base para o commit vigente; nenhuma página falha.
+
+(Este registro fica pendente no `handoff.md` porque o arquivo tem alterações de outra sessão ainda sem commit; o mesmo conteúdo está no LEIA-ME commitado.)
+
+- Complemento (Claude, 08/10/2026): `fim-escala-6x1` e `novo-limite-mei` também foram padronizadas (FAQ com fios e +, lista ✓, bloco de fontes, linha "Outros assuntos") por `docs/testes/padronizar-propostas.js`, com as mesmas travas. `site.css` em `rev=15`. Ao criar nova página de proposta, usar essas classes (LEIA-ME, "Componentes dos artigos").
+
+
+## 08/10/2026 — Codex: novo commit e push de todas as pendências
+
+Pedido explícito do usuário para commit e push de tudo. Base local 677a8fc, com os commits 9953714 e 677a8fc de padronização dos artigos/propostas já presentes. Pendências revisadas: correção de hover da assinatura Rumera e retirada da cor rosa em estrutura.css, registros do Claude no handoff e relatório de validação atualizado. Nenhuma alteração funcional adicional realizada pelo Codex nesta etapa.
+
+Conferências executadas: estado/branch/remote do Git, leitura dos diffs e JSON do relatório válido; git diff --check sem problemas. O relatório conserva a base histórica cd11fb2 e não substitui testes dos commits atuais. Os testes de navegador do Claude estão registrados no handoff; não foram apresentados como novos testes executados pelo Codex. Preparado commit de todas as pendências e push normal para origin/main; hash e sincronização remota serão confirmados ao usuário.

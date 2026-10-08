@@ -217,3 +217,10 @@ Resultado pronto localmente, sem commit/push/deploy nesta rodada. Pendências pa
 O usuário autorizou explicitamente commit e push de tudo. Conferidos os arquivos pendentes: título das dúvidas, fotografias CC0 e imagens de compartilhamento, assinatura Rumera do Claude no rodapé, melhorias SEO, sitemap e documentação/evidências das respectivas etapas. A assinatura e seu CSS foram revisados por leitura do diff; correspondem ao pedido registrado pelo Claude e não modificam o rio ou os controles do WhatsApp.
 
 Repetida a validação leve de integração: 17 páginas, 16 URLs no sitemap, todas alcançáveis por links HTML, sem erro; git diff --check aprovado. Os testes de navegador e preservação do rio permanecem registrados nas evidências anteriores. Nenhuma dependência, processo pesado ou mudança funcional adicional nesta etapa. Preparado um único commit com todas as alterações, seguido de push normal para origin/main; confirmação do hash remoto será apresentada ao usuário. Esta integração não representa confirmação de processamento do Google ou de conclusão do deploy Cloudflare.
+
+
+## 08/10/2026 — Codex: novo commit e push de todas as pendências
+
+Pedido explícito do usuário para commit e push de tudo. Base local 677a8fc, com os commits 9953714 e 677a8fc de padronização dos artigos/propostas já presentes. Pendências revisadas: correção de hover da assinatura Rumera e retirada da cor rosa em estrutura.css, registros do Claude no handoff e relatório de validação atualizado. Nenhuma alteração funcional adicional realizada pelo Codex nesta etapa.
+
+Conferências executadas: estado/branch/remote do Git, leitura dos diffs e JSON do relatório válido; git diff --check sem problemas. O relatório conserva a base histórica cd11fb2 e não substitui testes dos commits atuais. Os testes de navegador do Claude estão registrados no handoff; não foram apresentados como novos testes executados pelo Codex. Preparado commit de todas as pendências e push normal para origin/main; hash e sincronização remota serão confirmados ao usuário.
