@@ -492,4 +492,24 @@ body{background:var(--chao)}
 .artigo-fontes-lista a{color:var(--titulo);text-decoration:underline;text-decoration-color:var(--borda-card);text-decoration-thickness:1.5px;text-underline-offset:3px}
 .artigo-fontes-lista a:hover{text-decoration-color:currentColor}
 .artigo-fontes-nota{margin:0;max-width:var(--leitura);font-size:15px;line-height:1.6;color:var(--texto2)}
+
+/* Páginas de proposta (.conteudo-artigo: fim-escala-6x1, novo-limite-mei): mesmo FAQ, lista ✓ e fontes dos outros guias */
+.conteudo-artigo>section.artigo-faq,.conteudo-artigo>section.artigo-fontes{max-width:860px}
+.artigo-faq-lista{display:flex;flex-direction:column;margin-top:22px;border-bottom:1.5px solid var(--linha)}
+.artigo-faq-lista details{position:relative;padding:4px 0;border-top:1.5px solid var(--linha)}
+.artigo-faq-lista summary{cursor:pointer;padding:18px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;list-style:none;font-family:'Bricolage Grotesque',Georgia,serif;font-size:18px;font-weight:700;line-height:1.3;color:var(--titulo)}
+.conteudo-artigo .artigo-faq-lista details>p{margin:0 0 20px;max-width:var(--leitura)}
+.artigo-lista-check{list-style:none;margin:20px 0;padding:0;display:flex;flex-direction:column;gap:14px}
+.conteudo-artigo .artigo-lista-check li{position:relative;padding-left:42px;font-size:var(--fs-destaque);line-height:1.55;color:var(--texto)}
+.artigo-lista-check li::before{content:"";position:absolute;left:0;top:0;width:28px;height:28px;background:#3F979C;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath d='M5 15 L12 22 L25 7' fill='none' stroke='black' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/contain;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath d='M5 15 L12 22 L25 7' fill='none' stroke='black' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/contain}
+.conteudo-artigo>section.artigo-fontes{margin-top:8px}
+/* Logo depois do FAQ, o fio de baixo das perguntas já separa: sem fio duplo */
+.artigo-faq+.artigo-fontes,div:has(>details:last-child)+.artigo-fontes{border-top:0;padding-top:0}
+.conteudo-artigo .artigo-fontes-nota{font-size:15px}
+.conteudo-artigo .artigo-fontes-lista li{font-size:15.5px;color:var(--titulo)}
+.conteudo-artigo .artigo-fontes-lista a{color:var(--titulo);text-decoration-color:var(--borda-card);text-decoration-thickness:1.5px}
+.conteudo-artigo .artigo-fontes-lista a:hover{text-decoration-color:currentColor}
+.artigo-outros{padding-top:22px;border-top:1.5px solid var(--linha);font-size:var(--fs-destaque);font-weight:700;line-height:1.6;color:var(--texto2)}
+.conteudo-artigo .artigo-outros a{color:var(--titulo);text-decoration-color:var(--borda-card);text-decoration-thickness:1.5px;text-underline-offset:4px}
+.conteudo-artigo .artigo-outros a:hover{text-decoration-color:currentColor}
 /* fim — Artigos padrão */

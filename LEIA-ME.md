@@ -143,7 +143,9 @@ As páginas de Informações e os guias usam componentes com classe em `site.css
   - ficam no fim da seção "Perguntas frequentes", antes de "Veja também";
   - a lista tem 2 colunas e ícone de link externo.
 
-`docs/testes/padronizar-artigos.js` converteu os 8 artigos de 08/10/2026. Ele só grava se o texto visível, os links, os `id`s e o JSON-LD de cada página continuarem idênticos.
+- **Páginas de proposta** (`.conteudo-artigo`, como `fim-escala-6x1` e `novo-limite-mei`): mesmos componentes em versão de classe. São eles: `section.artigo-faq` > `div.artigo-faq-lista` com `<summary><span>pergunta</span>` + ícone `.faq-icone`, `ul.artigo-lista-check` (✓), `section.artigo-fontes` e `nav.artigo-outros`.
+
+`docs/testes/padronizar-artigos.js` converteu os 8 artigos e `docs/testes/padronizar-propostas.js` as 2 páginas de proposta de 08/10/2026. Ele só grava se o texto visível, os links, os `id`s e o JSON-LD de cada página continuarem idênticos.
 
 ## Desempenho
 
