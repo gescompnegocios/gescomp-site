@@ -13,14 +13,14 @@ window.GESCOMP_CONFIG = {
   // aparece no WhatsApp, troque só o que está entre aspas. Se um nome não existir aqui,
   // o card usa a mensagemPadrao acima.
   mensagensWhatsApp: {
-    abrirEmpresa: 'Olá, Gabriela! Vim pelo site e quero abrir um CNPJ. Pode me orientar?',
-    contabilidade: 'Olá, Gabriela! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?',
-    impostoRenda: 'Olá, Gabriela! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?',
-    regularizarBaixa: 'Olá, Gabriela! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ.',
-    trabalhista: 'Olá, Gabriela! Vim pelo site e preciso de um cálculo trabalhista.',
-    regime: 'Olá, Gabriela! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa.',
-    mei: 'Olá, Gabriela! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI.',
-    consultoria: 'Olá, Gabriela! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira.'
+    abrirEmpresa: 'Olá, equipe GESCOMP! Vim pelo site e quero abrir um CNPJ. Pode me orientar?',
+    contabilidade: 'Olá, equipe GESCOMP! Vim pelo site e quero contabilidade para a minha empresa. Como funciona e qual o valor?',
+    impostoRenda: 'Olá, equipe GESCOMP! Vim pelo site e quero fazer meu Imposto de Renda com vocês. Como funciona?',
+    regularizarBaixa: 'Olá, equipe GESCOMP! Vim pelo site e preciso regularizar ou dar baixa em um CNPJ.',
+    trabalhista: 'Olá, equipe GESCOMP! Vim pelo site e preciso de um cálculo trabalhista.',
+    regime: 'Olá, equipe GESCOMP! Vim pelo site e quero saber qual o melhor regime de impostos para a minha empresa.',
+    mei: 'Olá, equipe GESCOMP! Vim pelo site e sou MEI e quero saber se é hora de deixar de ser MEI.',
+    consultoria: 'Olá, equipe GESCOMP! Vim pelo site e quero saber mais sobre a consultoria administrativa e financeira.'
   },
 
   // Avaliações de clientes (seção "O que dizem nossos clientes", depois de "Quem é a Gabriela").

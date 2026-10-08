@@ -10,19 +10,19 @@ Confirmar: quais empresas podem contratar por R$ 150/mês; impostos, declaraçõ
 
 ## Como funciona o atendimento online?
 
-Rascunho: “Você fala com a contadora Gabriela pelo WhatsApp para entender o serviço e combinar o envio dos documentos e o acompanhamento da sua empresa.”
+Rascunho: “Você fala com um de nossos contadores pelo WhatsApp para entender o serviço e combinar o envio dos documentos e o acompanhamento da sua empresa.”
 
 Confirmar: canais, horário, prazo de resposta, reuniões, forma de envio seguro dos documentos e quem acompanha a rotina. Não prometer disponibilidade permanente nem prazo ainda não combinado.
 
 ## Quais documentos preciso enviar para começar?
 
-Rascunho: “A lista depende do serviço e da situação da empresa. Entre em contato e a Gabriela orienta quais documentos são necessários para o seu caso.”
+Rascunho: “A lista depende do serviço e da situação da empresa. Entre em contato e nossa equipe orienta quais documentos são necessários para o seu caso.”
 
 Confirmar: checklist para abertura, empresa já existente, troca de contador e IRPF; forma segura de envio; necessidade de certificado digital e procuração. Não pedir documentos sensíveis pelo formulário público.
 
 ## Vocês atendem quem quer trocar de contador?
 
-Rascunho, condicionado à confirmação do serviço: “Sim. A Gabriela analisa a situação da empresa e orienta os passos e os documentos necessários para a troca.”
+Rascunho, condicionado à confirmação do serviço: “Sim. Nossa equipe analisa a situação da empresa e orienta os passos e os documentos necessários para a troca.”
 
 Confirmar primeiro se o serviço é oferecido; depois confirmar etapas, custos, contato com o contador anterior e pendências. Sem essa confirmação, retirar o “Sim” e não publicar a resposta.
 
@@ -38,6 +38,6 @@ Confirmar os dois parágrafos abaixo com Gabriela antes de substituir o texto at
 
 “Sou a Gabriela do Nascimento Vieira, contadora registrada no CRC de Sergipe (009186/SE). Trabalho com contabilidade desde 2014 e, depois de anos atuando em escritório, abri a GESCOMP para atender de perto, com clareza e sem burocracia para o cliente.”
 
-“Aqui você fala direto comigo. Cuido da abertura, da regularização e da baixa do seu CNPJ, da contabilidade da sua empresa, do seu Imposto de Renda e dos cálculos trabalhistas, sempre buscando a melhor tributação possível, dentro da lei.”
+“Aqui você fala com um de nossos contadores. Nossa equipe cuida da abertura, da regularização e da baixa do seu CNPJ, da contabilidade da sua empresa, do seu Imposto de Renda e dos cálculos trabalhistas, sempre buscando a melhor tributação possível, dentro da lei.”
 
 Para cada resposta, registrar o texto final, quem aprovou e a data. Só então incluir a pergunta no site e sincronizar qualquer FAQ em dados estruturados. Não adicionar avaliações ou notas aos dados estruturados.

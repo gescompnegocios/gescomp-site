@@ -36,7 +36,7 @@ Mesmo sendo um ano de teste, 2026 é o momento de se organizar para 2027.
 - Confira se o seu sistema de notas fiscais já tem os campos da CBS e do IBS.
 - Revise o cadastro dos seus produtos e serviços.
 - Faça as contas de como os novos impostos podem mexer nos seus preços.
-- Converse com a sua contadora antes de mudar de regime de impostos.
+- Converse com um de nossos contadores antes de mudar de regime de impostos.
 - Se a sua empresa é do Simples Nacional, decida até 30 de outubro de 2026 como pagar CBS e IBS no 1º semestre de 2027.
 
 ## Perguntas frequentes
@@ -83,8 +83,8 @@ Ler agora
 ### Calendário de datas
 Prazos que não podem passar em branco, de outubro de 2026 a maio de 2027.
 Ler agora
-Conteúdo informativo, atualizado em 01/10/2026, com base na Emenda Constitucional 132/2023 e na Lei Complementar 214/2025. As regras podem mudar; para decisões da sua empresa, converse com a contadora.
+Conteúdo informativo, atualizado em 01/10/2026, com base na Emenda Constitucional 132/2023 e na Lei Complementar 214/2025. As regras podem mudar; para decisões da sua empresa, converse com um de nossos contadores.
 
 ## Ficou com alguma dúvida?
-Fale com a contadora e veja como a reforma afeta a sua empresa.
+Fale com um de nossos contadores e veja como a reforma afeta a sua empresa.
 Falar no WhatsApp

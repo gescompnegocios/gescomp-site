@@ -1,0 +1,2774 @@
+{
+  "localOnly": true,
+  "externalConnections": 0,
+  "results": [
+    {
+      "page": "index",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "check": "mobileMenu",
+      "label": "Falar com um de nossos contadores",
+      "inside": true,
+      "overflow": false
+    },
+    {
+      "page": "informacoes",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "index",
+      "width": 360,
+      "check": "mobileMenu",
+      "label": "Falar com um de nossos contadores",
+      "inside": true,
+      "overflow": false
+    },
+    {
+      "page": "informacoes",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "informacoes",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "abrir-empresa",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        },
+        {
+          "key": "abrirEmpresa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "imposto-de-renda",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "impostoRenda",
+          "valid": true
+        },
+        {
+          "key": "impostoRenda",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "mei",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        },
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "simples-nacional",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        },
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "pro-labore-e-lucros",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        },
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "departamento-pessoal",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        },
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calendario-fiscal",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        },
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "fim-escala-6x1",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "novo-limite-mei",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "mei",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "404",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "contabilidade-empresarial",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "contabilidade",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "regularizacao-baixa-cnpj",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regularizarBaixa",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "calculos-trabalhistas",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "trabalhista",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "consultoria-financeira",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "consultoria",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "page": "escolha-de-regime-tributario",
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "h1": 1,
+      "oldCalls": false,
+      "badButtons": [],
+      "messages": [
+        {
+          "key": "regime",
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    }
+  ]
+}

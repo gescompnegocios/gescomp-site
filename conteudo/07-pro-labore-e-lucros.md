@@ -41,7 +41,7 @@ Seguem isentos se a distribuição foi aprovada até 31 de dezembro de 2025. Pod
 ### Imposto mínimo
 Quem recebe mais de R$ 600 mil por ano, somando todos os rendimentos, tem um imposto mínimo na declaração.
 E no Simples Nacional?
-Segundo a orientação da Receita Federal, a retenção também se aplica às empresas do Simples Nacional. A contadora verifica as exceções legais e eventuais decisões judiciais aplicáveis à sua empresa antes da distribuição.
+Segundo a orientação da Receita Federal, a retenção também se aplica às empresas do Simples Nacional. Nossa equipe verifica as exceções legais e eventuais decisões judiciais aplicáveis à sua empresa antes da distribuição.
 
 ## Como fazer do jeito certo
 Seis cuidados simples:
@@ -49,7 +49,7 @@ Seis cuidados simples:
 - Mantenha a contabilidade em dia. Só se distribui lucro que aparece nela.
 - Registre cada distribuição de lucros em documento.
 - Controle o total por sócio e por mês.
-- Avise a contadora antes de passar de R$ 50 mil em um mês.
+- Avise nossa equipe antes de passar de R$ 50 mil em um mês.
 - Informe os valores na declaração de Imposto de Renda de cada sócio.
 
 ## Perguntas frequentes
@@ -58,7 +58,7 @@ Seis cuidados simples:
 Não. O MEI não tem pró-labore. O importante é separar o dinheiro da empresa do dinheiro pessoal.
 
 **P:** Posso retirar dinheiro sem ter lucro?
-Não como lucro. Retirada sem lucro apurado pode ser questionada e tratada como outra coisa. Fale com a contadora.
+Não como lucro. Retirada sem lucro apurado pode ser questionada e tratada como outra coisa. Fale com um de nossos contadores.
 
 **P:** Preciso pagar INSS sobre o lucro?
 Não. O INSS incide sobre o pró-labore, não sobre a distribuição de lucros.
@@ -79,8 +79,8 @@ Ler agora
 ### Funcionários e folha
 Contratação, INSS, FGTS, 13º e férias, com os valores de 2026.
 Ler agoraVer todos os assuntos
-Base: Lei 15.270/2025, Lei Complementar 123/2006 e orientações da Receita Federal. Conteúdo informativo, atualizado em 03/10/2026. As regras podem mudar; para decisões da sua empresa, converse com a contadora.
+Base: Lei 15.270/2025, Lei Complementar 123/2006 e orientações da Receita Federal. Conteúdo informativo, atualizado em 03/10/2026. As regras podem mudar; para decisões da sua empresa, converse com um de nossos contadores.
 
 ## Ficou com alguma dúvida?
-Fale com a contadora e veja como isso afeta a sua empresa.
+Fale com um de nossos contadores e veja como isso afeta a sua empresa.
 Falar no WhatsApp

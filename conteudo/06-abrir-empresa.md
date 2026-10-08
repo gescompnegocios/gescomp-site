@@ -11,7 +11,7 @@ Em resumo
 - Desde 31 de julho de 2026, novos CNPJs podem ter letras e números.
 
 ## Escolha o tipo de empresa
-O tipo muda a responsabilidade do dono e os impostos. A contadora ajuda a escolher.
+O tipo muda a responsabilidade do dono e os impostos. Nossa equipe ajuda a escolher.
 
 ### MEI
 Para quem trabalha sozinho (ou com 1 funcionário) e fatura até R$ 81 mil por ano. Gratuito.
@@ -30,7 +30,7 @@ Não são tipos de empresa, e sim o “tamanho”. A microempresa (ME) fatura at
 ## Passo a passo
 Para as empresas que não são MEI.
 - 1
-Converse com a contadora
+Converse com um de nossos contadores
 Defina a atividade, o endereço, os sócios e o regime de impostos.
 - 2
 Consulta de viabilidade
@@ -53,7 +53,7 @@ Abra a conta da empresa, comece a emitir notas e deixe a contabilidade mensal em
 Com a integração digital da Redesim, o processo pode levar de 3 a 10 dias úteis. Para o MEI, é imediato.
 
 ## Documentos que você vai precisar
-Separe antes de começar. A contadora confirma a lista completa.
+Separe antes de começar. Nossa equipe confirma a lista completa.
 - RG ou CNH e CPF de todos os sócios.
 - Comprovante de residência dos sócios.
 - Endereço da empresa e, às vezes, o número do IPTU do imóvel.
@@ -70,7 +70,7 @@ Se algum cliente ou fornecedor novo tiver CNPJ com letras, confirme se o seu sis
 
 ## Depois de abrir
 Primeiros cuidados para a empresa nascer organizada:
-- Escolha o regime de impostos com a contadora (Simples, Lucro Presumido ou Lucro Real).
+- Escolha o regime de impostos com nossa equipe (Simples, Lucro Presumido ou Lucro Real).
 - Abra uma conta bancária só para a empresa.
 - Separe o dinheiro pessoal do dinheiro da empresa.
 - Emita nota fiscal em todas as vendas.
@@ -80,10 +80,10 @@ Primeiros cuidados para a empresa nascer organizada:
 ## Perguntas frequentes
 
 **P:** Quanto custa abrir uma empresa?
-O MEI é gratuito. Nas outras empresas, há taxas da Junta Comercial e da prefeitura que variam conforme o tipo e a atividade. A contadora passa o valor exato.
+O MEI é gratuito. Nas outras empresas, há taxas da Junta Comercial e da prefeitura que variam conforme o tipo e a atividade. Nossa equipe passa o valor exato.
 
 **P:** Preciso de contador para abrir?
-Para o MEI, não. Para as outras empresas, na prática sim: a contadora monta o registro, escolhe o regime de impostos e cuida do cadastro na Sefaz e na prefeitura.
+Para o MEI, não. Para as outras empresas, na prática sim: nossa equipe monta o registro, escolhe o regime de impostos e cuida do cadastro na Sefaz e na prefeitura.
 
 **P:** Posso abrir a empresa no endereço de casa?
 Depende da atividade e das regras da prefeitura. Isso é conferido na consulta de viabilidade.
@@ -104,8 +104,8 @@ Ler agora
 ### Pró-labore e lucros
 Como o sócio recebe da empresa e o que mudou em 2026 com a nova lei.
 Ler agoraVer todos os assuntos
-Base: orientações da Receita Federal, do Serpro, da Redesim e da Junta Comercial de Sergipe (Jucese). Conteúdo informativo, atualizado em 01/10/2026. As regras podem mudar; para decisões da sua empresa, converse com a contadora.
+Base: orientações da Receita Federal, do Serpro, da Redesim e da Junta Comercial de Sergipe (Jucese). Conteúdo informativo, atualizado em 01/10/2026. As regras podem mudar; para decisões da sua empresa, converse com um de nossos contadores.
 
 ## Ficou com alguma dúvida?
-Fale com a contadora e veja como isso afeta a sua empresa.
+Fale com um de nossos contadores e veja como isso afeta a sua empresa.
 Falar no WhatsApp

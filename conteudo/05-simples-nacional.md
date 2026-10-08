@@ -52,7 +52,7 @@ Se a folha de pagamento dos últimos 12 meses (com pró-labore e encargos) for p
 Em 2027, a CBS e o IBS passam a fazer parte do cálculo do DAS. Quem já está no Simples tem uma escolha nova, que vale por semestre:
 Opção 1, ficar no DAS: nada a fazer. CBS e IBS ficam dentro da guia única. É a escolha automática de quem não se manifestar.
 Opção 2, pagar CBS e IBS fora do DAS (o “Simples híbrido”): a empresa continua no Simples para os outros impostos e paga CBS e IBS à parte. Os clientes que são empresas do regime regular podem aproveitar o crédito desses impostos. Costuma interessar mais a quem vende para outras empresas.
-Cada caso é diferente. A contadora faz as contas com os números da sua empresa antes de 30 de outubro. Haverá uma nova escolha para o 2º semestre de 2027.
+Cada caso é diferente. Nossa equipe faz as contas com os números da sua empresa antes de 30 de outubro. Haverá uma nova escolha para o 2º semestre de 2027.
 Não deixe para a última hora
 O prazo termina em 30 de outubro de 2026. Passando disso, a empresa fica no DAS com CBS e IBS dentro da guia no 1º semestre de 2027.
 
@@ -73,7 +73,7 @@ Alguns motivos comuns de a empresa ficar de fora:
 Se não fizer nada, você continua no Simples e CBS e IBS ficam dentro do DAS no 1º semestre de 2027. Só precisa agir se quiser pagar CBS e IBS fora do DAS.
 
 **P:** Perdi o prazo de 15 de outubro. E agora?
-Em geral, a empresa fica em outro regime durante todo o ano de 2027. Fale com a contadora para ver as opções.
+Em geral, a empresa fica em outro regime durante todo o ano de 2027. Fale com um de nossos contadores para ver as opções.
 
 **P:** O ano-teste de 2026 mudou o meu DAS?
 Não. Em 2026, as empresas do Simples Nacional estão dispensadas de destacar CBS e IBS nas notas fiscais e de recolher esses tributos no ano-teste. O DAS não muda por causa desse teste. As novas regras para o Simples começam em 2027.
@@ -94,8 +94,8 @@ Ler agora
 ### Calendário de datas
 Prazos que não podem passar em branco, de outubro de 2026 a maio de 2027.
 Ler agoraVer todos os assuntos
-Base: Lei Complementar 123/2006, Lei Complementar 214/2025 e Resolução CGSN nº 194/2026. Conteúdo informativo, atualizado em 03/10/2026. As regras podem mudar; para decisões da sua empresa, converse com a contadora.
+Base: Lei Complementar 123/2006, Lei Complementar 214/2025 e Resolução CGSN nº 194/2026. Conteúdo informativo, atualizado em 03/10/2026. As regras podem mudar; para decisões da sua empresa, converse com um de nossos contadores.
 
 ## Ficou com alguma dúvida?
-Fale com a contadora e veja como isso afeta a sua empresa.
+Fale com um de nossos contadores e veja como isso afeta a sua empresa.
 Falar no WhatsApp

@@ -1,0 +1,1030 @@
+{
+  "localOnly": true,
+  "externalConnections": 0,
+  "results": [
+    {
+      "width": 360,
+      "page": "index",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "informacoes",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "abrir-empresa",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "imposto-de-renda",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "mei",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "simples-nacional",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "pro-labore-e-lucros",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "departamento-pessoal",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "calendario-fiscal",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "fim-escala-6x1",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "novo-limite-mei",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "contabilidade-empresarial",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "regularizacao-baixa-cnpj",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "calculos-trabalhistas",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "consultoria-financeira",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 360,
+      "page": "escolha-de-regime-tributario",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "index",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "informacoes",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "abrir-empresa",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "imposto-de-renda",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "mei",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "simples-nacional",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "pro-labore-e-lucros",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "departamento-pessoal",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "calendario-fiscal",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "fim-escala-6x1",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "novo-limite-mei",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "contabilidade-empresarial",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "regularizacao-baixa-cnpj",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "calculos-trabalhistas",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "consultoria-financeira",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 390,
+      "page": "escolha-de-regime-tributario",
+      "visible": false,
+      "right": 0,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "index",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "informacoes",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "abrir-empresa",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "imposto-de-renda",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "mei",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "simples-nacional",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "pro-labore-e-lucros",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "departamento-pessoal",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "calendario-fiscal",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "fim-escala-6x1",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "novo-limite-mei",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "contabilidade-empresarial",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "regularizacao-baixa-cnpj",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "calculos-trabalhistas",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "consultoria-financeira",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 780,
+      "page": "escolha-de-regime-tributario",
+      "visible": true,
+      "right": 756.671875,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "index",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "informacoes",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "abrir-empresa",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "imposto-de-renda",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "mei",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "simples-nacional",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "pro-labore-e-lucros",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "departamento-pessoal",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "calendario-fiscal",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "fim-escala-6x1",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "novo-limite-mei",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "contabilidade-empresarial",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "regularizacao-baixa-cnpj",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "calculos-trabalhistas",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "consultoria-financeira",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 820,
+      "page": "escolha-de-regime-tributario",
+      "visible": true,
+      "right": 781,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "index",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "informacoes",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "abrir-empresa",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "imposto-de-renda",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "mei",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "simples-nacional",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "pro-labore-e-lucros",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "departamento-pessoal",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "calendario-fiscal",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "fim-escala-6x1",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "novo-limite-mei",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "contabilidade-empresarial",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "regularizacao-baixa-cnpj",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "calculos-trabalhistas",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "consultoria-financeira",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 900,
+      "page": "escolha-de-regime-tributario",
+      "visible": true,
+      "right": 861,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "index",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "informacoes",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "abrir-empresa",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "imposto-de-renda",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "mei",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "simples-nacional",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "pro-labore-e-lucros",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "departamento-pessoal",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "calendario-fiscal",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "fim-escala-6x1",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "novo-limite-mei",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "contabilidade-empresarial",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "regularizacao-baixa-cnpj",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "calculos-trabalhistas",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "consultoria-financeira",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1024,
+      "page": "escolha-de-regime-tributario",
+      "visible": true,
+      "right": 985,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "index",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "informacoes",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "abrir-empresa",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "imposto-de-renda",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "mei",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "simples-nacional",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "pro-labore-e-lucros",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "departamento-pessoal",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "calendario-fiscal",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "fim-escala-6x1",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "novo-limite-mei",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "contabilidade-empresarial",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "regularizacao-baixa-cnpj",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "calculos-trabalhistas",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "consultoria-financeira",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1366,
+      "page": "escolha-de-regime-tributario",
+      "visible": true,
+      "right": 1275.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "index",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "informacoes",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "abrir-empresa",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "imposto-de-renda",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "mei",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "simples-nacional",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "pro-labore-e-lucros",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "departamento-pessoal",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "calendario-fiscal",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "fim-escala-6x1",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "novo-limite-mei",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "contabilidade-empresarial",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "regularizacao-baixa-cnpj",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "calculos-trabalhistas",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "consultoria-financeira",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    },
+    {
+      "width": 1920,
+      "page": "escolha-de-regime-tributario",
+      "visible": true,
+      "right": 1552.5,
+      "inside": true,
+      "text": "Falar com nossa equipe"
+    }
+  ]
+}

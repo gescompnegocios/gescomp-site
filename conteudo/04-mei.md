@@ -27,7 +27,7 @@ A abertura é gratuita, feita pelo Portal do Empreendedor, no gov.br. Para ser M
 Ou o valor proporcional, se abrir no meio do ano.
 
 ### Ter uma atividade permitida
-Nem toda atividade pode ser MEI. A contadora confere a sua.
+Nem toda atividade pode ser MEI. Nossa equipe confere a sua.
 
 ### Não ter sócio
 Não pode ser sócio, administrador ou dono de outra empresa.
@@ -68,7 +68,7 @@ Reforma tributária
 Em 2026, o MEI não destaca CBS nem IBS na nota fiscal e não participa do ano-teste.
 
 ## Sinais de que é hora de virar microempresa
-Converse com a contadora se alguma destas frases combina com você:
+Converse com um de nossos contadores se alguma destas frases combina com você:
 - Seu faturamento está perto de R$ 81 mil por ano.
 - Você precisa de mais de um funcionário.
 - Sua atividade não é permitida para o MEI.
@@ -87,7 +87,7 @@ Entregue mesmo assim. A declaração em atraso tem multa mínima de R$ 50.
 Sim. Gere a guia atualizada no Portal do Simples Nacional ou no aplicativo MEI. Pagar logo evita juros maiores e a perda de benefícios do INSS.
 
 **P:** O MEI precisa de contador?
-Não é obrigatório. Mas a contadora ajuda a cuidar do limite, das notas e das declarações. A GESCOMP atende MEIs.
+Não é obrigatório. Mas nossa equipe ajuda a cuidar do limite, das notas e das declarações. A GESCOMP atende MEIs.
 
 ## Veja também
 
@@ -102,8 +102,8 @@ Ler agora
 ### Calendário de datas
 Prazos que não podem passar em branco, de outubro de 2026 a maio de 2027.
 Ler agoraVer todos os assuntos
-Base: Lei Complementar 123/2006 e orientações do Portal do Empreendedor e da Receita Federal. Conteúdo informativo, atualizado em 01/10/2026. As regras podem mudar; para decisões da sua empresa, converse com a contadora.
+Base: Lei Complementar 123/2006 e orientações do Portal do Empreendedor e da Receita Federal. Conteúdo informativo, atualizado em 01/10/2026. As regras podem mudar; para decisões da sua empresa, converse com um de nossos contadores.
 
 ## Ficou com alguma dúvida?
-Fale com a contadora e veja como isso afeta a sua empresa.
+Fale com um de nossos contadores e veja como isso afeta a sua empresa.
 Falar no WhatsApp

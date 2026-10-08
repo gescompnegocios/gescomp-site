@@ -55,7 +55,7 @@ Seguem isentos se a distribuição foi aprovada até 31 de dezembro de 2025. Pod
 ### Imposto mínimo
 Para quem recebe mais de R$ 600 mil por ano, somando tudo, existe um imposto mínimo. Ele cresce até 10% para rendas acima de R$ 1,2 milhão por ano.
 Empresas do Simples Nacional
-Segundo a orientação da Receita Federal, a retenção também se aplica às empresas do Simples Nacional. A contadora verifica as exceções legais e eventuais decisões judiciais aplicáveis à sua empresa antes da distribuição.
+Segundo a orientação da Receita Federal, a retenção também se aplica às empresas do Simples Nacional. Nossa equipe verifica as exceções legais e eventuais decisões judiciais aplicáveis à sua empresa antes da distribuição.
 
 ## O que separar para a declaração
 Vá guardando durante o ano. Fica bem mais fácil na hora de declarar.
@@ -78,10 +78,10 @@ Não automaticamente. O desconto é limitado ao imposto que seria cobrado. Ele z
 Na regra geral para pessoas físicas residentes no Brasil, até R$ 50 mil no mês da mesma empresa não há retenção mensal. Ultrapassado esse limite, a retenção é de 10% sobre o total distribuído, ressalvadas as exceções legais. A declaração anual também pode exigir imposto mínimo, conforme os rendimentos e as regras aplicáveis.
 
 **P:** Preciso fazer algo agora?
-Guarde seus comprovantes ao longo do ano. Se você é sócio de empresa, converse com a contadora sobre pró-labore e distribuição de lucros.
+Guarde seus comprovantes ao longo do ano. Se você é sócio de empresa, converse com um de nossos contadores sobre pró-labore e distribuição de lucros.
 
 **P:** A GESCOMP faz a minha declaração?
-Sim. A declaração de Imposto de Renda de pessoa física custa a partir de R$ 100,00. Fale com a contadora pelo WhatsApp.
+Sim. A declaração de Imposto de Renda de pessoa física custa a partir de R$ 100,00. Fale com um de nossos contadores pelo WhatsApp.
 
 ## Veja também
 
@@ -96,8 +96,8 @@ Ler agora
 ### Calendário de datas
 Prazos que não podem passar em branco, de outubro de 2026 a maio de 2027.
 Ler agoraVer todos os assuntos
-Base: Lei 15.270/2025 e orientações da Receita Federal e do Ministério da Fazenda. Conteúdo informativo, atualizado em 03/10/2026. As regras podem mudar; para decisões da sua empresa, converse com a contadora.
+Base: Lei 15.270/2025 e orientações da Receita Federal e do Ministério da Fazenda. Conteúdo informativo, atualizado em 03/10/2026. As regras podem mudar; para decisões da sua empresa, converse com um de nossos contadores.
 
 ## Ficou com alguma dúvida?
-Fale com a contadora e veja como isso afeta a sua empresa.
+Fale com um de nossos contadores e veja como isso afeta a sua empresa.
 Falar no WhatsApp

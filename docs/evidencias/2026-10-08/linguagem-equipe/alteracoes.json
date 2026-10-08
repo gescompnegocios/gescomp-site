@@ -1,0 +1,1194 @@
+{
+  "baseGit": "a343a48df37e950e9ee1db164f87f473385d38cb",
+  "arquivosAlterados": [
+    "publicar\\abrir-empresa.html",
+    "publicar\\calculos-trabalhistas.html",
+    "publicar\\calendario-fiscal.html",
+    "publicar\\consultoria-financeira.html",
+    "publicar\\contabilidade-empresarial.html",
+    "publicar\\departamento-pessoal.html",
+    "publicar\\escolha-de-regime-tributario.html",
+    "publicar\\fim-escala-6x1.html",
+    "publicar\\imposto-de-renda.html",
+    "publicar\\index.html",
+    "publicar\\informacoes.html",
+    "publicar\\mei.html",
+    "publicar\\novo-limite-mei.html",
+    "publicar\\pro-labore-e-lucros.html",
+    "publicar\\regularizacao-baixa-cnpj.html",
+    "publicar\\simples-nacional.html",
+    "conteudo\\01-index.md",
+    "conteudo\\02-informacoes.md",
+    "conteudo\\03-imposto-de-renda.md",
+    "conteudo\\04-mei.md",
+    "conteudo\\05-simples-nacional.md",
+    "conteudo\\06-abrir-empresa.md",
+    "conteudo\\07-pro-labore-e-lucros.md",
+    "conteudo\\08-departamento-pessoal.md",
+    "conteudo\\09-calendario-fiscal.md",
+    "publicar\\assets\\js\\config.js",
+    "publicar\\llms.txt",
+    "LEIA-ME.md",
+    "docs\\perguntas-para-aprovar.md"
+  ],
+  "trocas": [
+    {
+      "arquivo": "publicar\\abrir-empresa.html",
+      "trocas": [
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Converse com a contadora",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela analisa",
+          "depois": "Nossa equipe analisa",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 4
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 3
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\calculos-trabalhistas.html",
+      "trocas": [
+        {
+          "antes": "Atendimento com Gabriela do Nascimento Vieira, contadora (CRC 009186/SE)",
+          "depois": "Atendimento com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Atendimento com a própria Gabriela",
+          "depois": "Atendimento com nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "<p><a href=\"/#sobre\">Gabriela do Nascimento Vieira, CRC 009186/SE</a> atende no escritório em Barra dos Coqueiros e online.</p>",
+          "depois": "<p>Conheça <a href=\"/#sobre\">Gabriela do Nascimento Vieira, CRC 009186/SE</a>, responsável técnica da GESCOMP. Nossa equipe atende no escritório em Barra dos Coqueiros e online.</p>",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Atendimento com Gabriela, CRC 009186/SE",
+          "depois": "Atendimento com nossos profissionais",
+          "ocorrencias": 4
+        },
+        {
+          "antes": "Falar com Gabriela",
+          "depois": "Falar com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "fale direto com a Gabriela",
+          "depois": "fale com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "à contadora",
+          "depois": "à nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "com Gabriela",
+          "depois": "com nossa equipe",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 2
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\calendario-fiscal.html",
+      "trocas": [
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "à contadora",
+          "depois": "à nossa equipe",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela analisa",
+          "depois": "Nossa equipe analisa",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 4
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\consultoria-financeira.html",
+      "trocas": [
+        {
+          "antes": "Atendimento com Gabriela do Nascimento Vieira, contadora (CRC 009186/SE)",
+          "depois": "Atendimento com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "<p>A própria <a href=\"/#sobre\">Gabriela do Nascimento Vieira, contadora, CRC 009186/SE</a>, no escritório em Barra dos Coqueiros ou online.</p>",
+          "depois": "<p>Um de nossos profissionais acompanha o atendimento, no escritório em Barra dos Coqueiros ou online. Conheça <a href=\"/#sobre\">Gabriela do Nascimento Vieira, contadora, CRC 009186/SE</a>, responsável técnica da GESCOMP.</p>",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com Gabriela",
+          "depois": "Falar com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "fale direto com a Gabriela",
+          "depois": "fale com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "Converse com a contadora",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "com Gabriela",
+          "depois": "com nossa equipe",
+          "ocorrencias": 4
+        },
+        {
+          "antes": "você e Gabriela",
+          "depois": "você e nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\contabilidade-empresarial.html",
+      "trocas": [
+        {
+          "antes": "Atendimento com Gabriela do Nascimento Vieira, contadora (CRC 009186/SE)",
+          "depois": "Atendimento com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Sim. O contato é com a própria Gabriela.",
+          "depois": "Sim. Você conversa com um de nossos contadores.",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "direto com Gabriela, CRC 009186/SE",
+          "depois": "com nossos contadores",
+          "ocorrencias": 4
+        },
+        {
+          "antes": "com uma contadora que explica os números e acompanha a sua empresa de perto.",
+          "depois": "com nossos contadores, que explicam os números e acompanham a sua empresa de perto.",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "Falar com Gabriela",
+          "depois": "Falar com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "fale direto com a Gabriela",
+          "depois": "fale com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "com Gabriela",
+          "depois": "com nossa equipe",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "A responsável é",
+          "depois": "A responsável técnica é",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\departamento-pessoal.html",
+      "trocas": [
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Pela contadora",
+          "depois": "Por nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela analisa",
+          "depois": "Nossa equipe analisa",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\escolha-de-regime-tributario.html",
+      "trocas": [
+        {
+          "antes": "Atendimento com Gabriela do Nascimento Vieira, contadora (CRC 009186/SE)",
+          "depois": "Atendimento com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Atendimento com a Gabriela",
+          "depois": "Atendimento com nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com Gabriela",
+          "depois": "Falar com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "fale direto com a Gabriela",
+          "depois": "fale com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "com Gabriela",
+          "depois": "com nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Gabriela atende",
+          "depois": "Nossa equipe atende",
+          "ocorrencias": 4
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela compara",
+          "depois": "Nossa equipe compara",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 3
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\fim-escala-6x1.html",
+      "trocas": [
+        {
+          "antes": "Fale diretamente com Gabriela, contadora responsável pela GESCOMP.",
+          "depois": "Fale com um de nossos profissionais para analisar o seu caso.",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\imposto-de-renda.html",
+      "trocas": [
+        {
+          "antes": "direto com a Gabriela",
+          "depois": "com nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela analisa",
+          "depois": "Nossa equipe analisa",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\index.html",
+      "trocas": [
+        {
+          "antes": "Atendimento on-line e personalizado, diretamente com Gabriela, contadora e responsável pela GESCOMP.",
+          "depois": "Atendimento on-line e personalizado, com um de nossos contadores.",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Por trás da GESCOMP está uma contadora que acredita que a contabilidade pode ser simples, próxima e fazer sentido para quem empreende.",
+          "depois": "Gabriela acredita que a contabilidade pode ser simples, próxima e fazer sentido para quem empreende.",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "No escritório, em Barra dos Coqueiros, de frente para o Rio Sergipe, ou no atendimento online, é com a própria Gabriela que você fala. Ela acompanha cada caso de perto,",
+          "depois": "No escritório, em Barra dos Coqueiros, de frente para o Rio Sergipe, ou no atendimento online, você conversa com um de nossos contadores. Nossa equipe acompanha cada caso de perto,",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Fale direto com Gabriela:",
+          "depois": "Fale com nossos contadores sobre",
+          "ocorrencias": 4
+        },
+        {
+          "antes": "Converse com a Gabriela",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Conversar com a contadora",
+          "depois": "Conversar com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Você fala com a contadora",
+          "depois": "Você fala com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "fale direto com a contadora",
+          "depois": "fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "falando direto com a contadora",
+          "depois": "com o acompanhamento de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\informacoes.html",
+      "trocas": [
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Converse com a sua contadora",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela analisa",
+          "depois": "Nossa equipe analisa",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\mei.html",
+      "trocas": [
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Converse com a contadora",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela analisa",
+          "depois": "Nossa equipe analisa",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a Gabriela avalia",
+          "depois": "nossa equipe avalia",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 2
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\novo-limite-mei.html",
+      "trocas": [
+        {
+          "antes": "Fale diretamente com Gabriela, contadora responsável pela GESCOMP.",
+          "depois": "Fale com um de nossos profissionais para analisar o seu caso.",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Converse com a contadora",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\pro-labore-e-lucros.html",
+      "trocas": [
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela analisa",
+          "depois": "Nossa equipe analisa",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\regularizacao-baixa-cnpj.html",
+      "trocas": [
+        {
+          "antes": "Atendimento com Gabriela do Nascimento Vieira, contadora (CRC 009186/SE)",
+          "depois": "Atendimento com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Atendimento com a Gabriela",
+          "depois": "Atendimento com nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "<p>Você fala diretamente com <a href=\"/#sobre\">Gabriela do Nascimento Vieira, CRC 009186/SE</a>, no escritório em Barra dos Coqueiros ou online.</p>",
+          "depois": "<p>Nossa equipe atende no escritório em Barra dos Coqueiros ou online. Conheça <a href=\"/#sobre\">Gabriela do Nascimento Vieira, CRC 009186/SE</a>, responsável técnica da GESCOMP.</p>",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Fale com Gabriela, CRC 009186/SE",
+          "depois": "Fale com nossos contadores",
+          "ocorrencias": 4
+        },
+        {
+          "antes": "Falar com Gabriela",
+          "depois": "Falar com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "fale direto com a Gabriela",
+          "depois": "fale com um de nossos profissionais",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "à Gabriela",
+          "depois": "à nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Gabriela pode orientar",
+          "depois": "nossa equipe pode orientar",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a Gabriela indica",
+          "depois": "nossa equipe indica",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\simples-nacional.html",
+      "trocas": [
+        {
+          "antes": "Falar com a contadora",
+          "depois": "Falar com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Contadora responsável: CRC 009186/SE",
+          "depois": "Responsável técnica: CRC 009186/SE",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A Gabriela analisa",
+          "depois": "Nossa equipe analisa",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\01-index.md",
+      "trocas": [
+        {
+          "antes": "Por trás da GESCOMP está uma contadora que acredita que a contabilidade pode ser simples, próxima e fazer sentido para quem empreende.",
+          "depois": "Gabriela acredita que a contabilidade pode ser simples, próxima e fazer sentido para quem empreende.",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "No escritório, em Barra dos Coqueiros, de frente para o Rio Sergipe, ou no atendimento online, é com a própria Gabriela que você fala. Ela acompanha cada caso de perto,",
+          "depois": "No escritório, em Barra dos Coqueiros, de frente para o Rio Sergipe, ou no atendimento online, você conversa com um de nossos contadores. Nossa equipe acompanha cada caso de perto,",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "fale direto com a contadora",
+          "depois": "fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "falando direto com a contadora",
+          "depois": "com o acompanhamento de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Olá, Gabriela!",
+          "depois": "Olá, equipe GESCOMP!",
+          "ocorrencias": 6
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\02-informacoes.md",
+      "trocas": [
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Converse com a sua contadora",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\03-imposto-de-renda.md",
+      "trocas": [
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\04-mei.md",
+      "trocas": [
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Converse com a contadora",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\05-simples-nacional.md",
+      "trocas": [
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\06-abrir-empresa.md",
+      "trocas": [
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Converse com a contadora",
+          "depois": "Converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 3
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 2
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\07-pro-labore-e-lucros.md",
+      "trocas": [
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "A contadora",
+          "depois": "Nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\08-departamento-pessoal.md",
+      "trocas": [
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "Pela contadora",
+          "depois": "Por nossa equipe",
+          "ocorrencias": 1
+        }
+      ]
+    },
+    {
+      "arquivo": "conteudo\\09-calendario-fiscal.md",
+      "trocas": [
+        {
+          "antes": "Fale com a contadora",
+          "depois": "Fale com um de nossos contadores",
+          "ocorrencias": 2
+        },
+        {
+          "antes": "converse com a contadora",
+          "depois": "converse com um de nossos contadores",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "à contadora",
+          "depois": "à nossa equipe",
+          "ocorrencias": 1
+        },
+        {
+          "antes": "a contadora",
+          "depois": "nossa equipe",
+          "ocorrencias": 3
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\assets\\js\\config.js",
+      "trocas": [
+        {
+          "antes": "Olá, Gabriela!",
+          "depois": "Olá, equipe GESCOMP!",
+          "ocorrencias": 8
+        }
+      ]
+    },
+    {
+      "arquivo": "publicar\\llms.txt",
+      "trocas": []
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "trocas": []
+    },
+    {
+      "arquivo": "docs\\perguntas-para-aprovar.md",
+      "trocas": []
+    }
+  ],
+  "rioIntacto": true,
+  "avaliacoesIntactas": true,
+  "arquivosPublicadosAlterados": [
+    "publicar\\abrir-empresa.html",
+    "publicar\\calculos-trabalhistas.html",
+    "publicar\\calendario-fiscal.html",
+    "publicar\\consultoria-financeira.html",
+    "publicar\\contabilidade-empresarial.html",
+    "publicar\\departamento-pessoal.html",
+    "publicar\\escolha-de-regime-tributario.html",
+    "publicar\\fim-escala-6x1.html",
+    "publicar\\imposto-de-renda.html",
+    "publicar\\index.html",
+    "publicar\\informacoes.html",
+    "publicar\\llms.txt",
+    "publicar\\mei.html",
+    "publicar\\novo-limite-mei.html",
+    "publicar\\pro-labore-e-lucros.html",
+    "publicar\\regularizacao-baixa-cnpj.html",
+    "publicar\\simples-nacional.html",
+    "publicar\\assets\\js\\config.js"
+  ],
+  "hashesDepois": {
+    "publicar\\404.html": "c848ddac3af771208c5563786c5863ba39283ea8620c59194bc06f6320183d9d",
+    "publicar\\abrir-empresa.html": "f08f4e35d31a24477c4d2c7184c670f949674cb2ccf6e09be90327cbaf3a49d3",
+    "publicar\\apple-touch-icon.png": "7ea0a6e4fbc9a71c450a22d051943526493f411372d1a814cbbb7a31efe44e10",
+    "publicar\\calculos-trabalhistas.html": "d95323e0d980430219947cc4deb4e30ca7ca5cd91ea718ccc8f01b163176fe05",
+    "publicar\\calendario-fiscal.html": "32c0ee64f9c06c05937750d996972f80a8228a7fd16c8a2c148dbe438a882d72",
+    "publicar\\consultoria-financeira.html": "2e61a2a1c1bb72c484d0ba3531710fc3e8ec7b16639bba5698d2e1134ab2f9b4",
+    "publicar\\contabilidade-empresarial.html": "116ea012bfa6e040124224e3da5926209ff4e4fb70b88126bb85156e8506842e",
+    "publicar\\departamento-pessoal.html": "21b40adb17a4ea043940dcc67508c8924e1315e008cf31cb4a31fdf503b053dd",
+    "publicar\\escolha-de-regime-tributario.html": "562d8b8248e4e1d927a016fe2189a8ece54067d914829c29a63b9e601de324a6",
+    "publicar\\favicon.ico": "351c9cf886424f29ee7f9a04c9a21784d72820af5b8dcb8d52e3266350c29e97",
+    "publicar\\fim-escala-6x1.html": "753d5bb910944c3639ace4a32bf64c56d70cc4f9cd231d83775926141f0fac64",
+    "publicar\\imposto-de-renda.html": "052685d7e8cdd3341e57e41b5b102eb7646ac6a40edf482fc8aa7ec6b96cffd6",
+    "publicar\\index.html": "6bb9a55950ea1c398358ca227c991b9d5f7041592ba9950314144a2a71a419f7",
+    "publicar\\informacoes.html": "3ab639adecbf2becbf711278037c17e89de73f004770bdfe8f487945f1eea8ff",
+    "publicar\\llms.txt": "82a89646c3b72c267247492432cbf750759188842fa9093479b145a8803ff078",
+    "publicar\\mei.html": "8fadfcd80e517f2154c4456bcd6bd2705edac5af9cc5baafd346bf10d62b6185",
+    "publicar\\novo-limite-mei.html": "fd294a7768386407c46da893177fec9b51c12bd3c0bdf5173c21dfb0c84ebac0",
+    "publicar\\pro-labore-e-lucros.html": "e8d39b090d4da15c9827e63390e7908c61ea0ae9a28f3b5c986cafd4f4b222f5",
+    "publicar\\regularizacao-baixa-cnpj.html": "82ba1d3cc664fce5e66c5cfe48fd7a9bc4e58cfe619f22e968225e34d7df1085",
+    "publicar\\robots.txt": "97321f67a74c9a4e53c58d3ac162ddba67a0a3523e3b2a5152c9f974a1dc53ba",
+    "publicar\\simples-nacional.html": "dfefa97871be8038a06918e924adb85322a168d259c99ae17befe648b657ca66",
+    "publicar\\site.webmanifest": "79d6d4dbb6821824c4a30f3bef103e4b73cd5960e1f525664e8154d467863ffa",
+    "publicar\\sitemap.xml": "56e988aee12c8efa45d2b5b74d5f515d34dfba941f8aa15672b5a2ef8414c2cc",
+    "publicar\\_headers": "d82bac449f242e0e3bb5c2e8f923b92d00815d0a295021d6ecdad48e58585385",
+    "publicar\\assets\\css\\estrutura.css": "b8ae26bb4361cb1ed23ecbeea284863394e2060140126e6367df925e77bbe3fe",
+    "publicar\\assets\\css\\fontes.css": "47adf94d8fca5a5c0fb76dcf76fe3c0665f006b244e3a1c70ff95f1b3cbd13ce",
+    "publicar\\assets\\css\\site.css": "b737956a97391da690933ac06d14314ad068601fe4373ee8dac345a9351960a9",
+    "publicar\\assets\\fonts\\bricolage-OFL.txt": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba",
+    "publicar\\assets\\fonts\\bricolage-v9-latin-ext.woff2": "776f6dcaf03636cd69a5802c94808cc8896c0a66c8e9ce0fe147231b6ee01957",
+    "publicar\\assets\\fonts\\bricolage-v9-latin.woff2": "a79fdb52d4a5c76552452f69202add96e287401fff03d3e8c0e38b4dcb5a99cd",
+    "publicar\\assets\\fonts\\bricolage-v9-vietnamese.woff2": "b50a9d90a5264f20d1e45be0b948fe947ddb3644557f1e85ef5d3bd06427c944",
+    "publicar\\assets\\fonts\\figtree-OFL.txt": "140d37233e7f3ce7313798befa9600893bcceaf41a55fa0fa5ad52f7f657a268",
+    "publicar\\assets\\fonts\\figtree-v9-latin-ext.woff2": "bf7828e2c258cffcfa50a048ee388a36b95bc16b452e8d36fa797635dbe15965",
+    "publicar\\assets\\fonts\\figtree-v9-latin.woff2": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd",
+    "publicar\\assets\\icones\\favicon-48x48.png": "d23c049fe575eec2391696a9fec0e7e46daa11e6165635d074730a91c53790e3",
+    "publicar\\assets\\icones\\icon-192.png": "c2931d061ef28713c8bdb95f0509239e17a887025825a2ac2d32fe1bfe6035ee",
+    "publicar\\assets\\icones\\icon-512.png": "ec59a33c279e8a76812797bda45cb24882c8cb7b2aad0e52585fb319032358f4",
+    "publicar\\assets\\icones\\icon-maskable-512.png": "2bfb1b5be11928ceca08aaca884c78cf4f211f0b9f7690c51584314e1b3a199c",
+    "publicar\\assets\\img\\compartilhamento-inicio-cc0-20261006.webp": "81728cc25614eae53e1a1fcb01320da4245d01b695d13b7c5db0782efeb76bd2",
+    "publicar\\assets\\img\\grifo-pincel.svg": "0e56e8595c2e8409c6986bdf2c232399e1abec9ebe8d9f8fcf0b84df7ca18ca8",
+    "publicar\\assets\\img\\logo-gescomp.png": "fdf78597b6de2bd31940695de046f2b7986fae863c4c2ee48bed8bd4e07ede61",
+    "publicar\\assets\\img\\logo-gescomp.webp": "0a0a414381359ba6426c88b824308f5833e4c3cadfc746f495dfc4ee013d4613",
+    "publicar\\assets\\img\\og-abrir-empresa-cc0-20261006.webp": "9cddd6cefed37524de3095f4ef8b3ee36ff24e6c404dc19f445001091bb93513",
+    "publicar\\assets\\img\\og-calendario-fiscal-cc0-20261006.webp": "796ea8f1dcb65fe95e3cb9871ee4daaec37c01249d6e99219aad94b5a787e4cf",
+    "publicar\\assets\\img\\og-departamento-pessoal-cc0-20261006.webp": "2a974e242e861183f87060c7f9c4c74bec52aa6ff5d9be7ddd0ea2c1c2707b00",
+    "publicar\\assets\\img\\og-escala-6x1-cc0-20261006.webp": "ae40b5a954ff51c5fd6da6c7c5e6cda1fb6130c1970f4059f634437617bf03e1",
+    "publicar\\assets\\img\\og-foto-real-20261004.webp": "63ce9e29adb1e6901d763b4566a86b8e7e4eb9b3346f96d3dd87e461d7d1187d",
+    "publicar\\assets\\img\\og-image.jpg": "794b692dc18838061a3eb780b978d2657aab7138789351b441a715c7223ca605",
+    "publicar\\assets\\img\\og-imposto-de-renda-cc0-20261006.webp": "26e10295e279388954957475f6ec0d6fa2e55632111a160e394598795104d96f",
+    "publicar\\assets\\img\\og-informacoes-cc0-20261006.webp": "f7e2953a7d660c24541fef522a81308a8f084e1225b0e25a8afed4e8a63363a1",
+    "publicar\\assets\\img\\og-mei-cc0-20261006.webp": "2371201c7fd181266dfc9b3ea1f999158f78e926b332e18a3bd264dc0e0bd8e3",
+    "publicar\\assets\\img\\og-novo-limite-mei-cc0-20261006.webp": "86e10e1de25f4e387db70e283c970aa567f3a6e47879f4c46637d19a0c7b97cf",
+    "publicar\\assets\\img\\og-pro-labore-e-lucros-cc0-20261006.webp": "8aeb36f827b0de1f4d29f6154dc731cd31aa72ac485002b000d5529fca76d6cc",
+    "publicar\\assets\\img\\og-simples-nacional-cc0-20261006.webp": "c282b348f78e4a5eb3a7cd6287d045253b08b720d773c89184187029b2ab3d8c",
+    "publicar\\assets\\img\\selo-gescomp.webp": "d218b32a2cd430bbd2b92303e0d326aa6bb2a2085b3de6aa842b7dcea401d312",
+    "publicar\\assets\\img\\whatsapp-glifo-128.webp": "af7d3b1782fec8578469d9ab87cfccaee21e68451d1d68b90b07c8292e3daa12",
+    "publicar\\assets\\img\\whatsapp-glifo.webp": "f43806804e47b43c0275c4b82e13ef9637e47bd866e51a9c839dd41b2f0bac8b",
+    "publicar\\assets\\js\\config.js": "1e58f38b7676177b6b5fac42764c9954f6c2fe98047d98780026343ee6e1c6fe",
+    "publicar\\assets\\js\\libras.js": "6cb5d23802e0860273b8e48ac2f1eb64e3a810948d2bc9aaccf766c08c526c8a",
+    "publicar\\assets\\js\\site.js": "277af219a9314fc214420bb97dd85add4f1ccc76e4a6be743bbfea1da461f1bc",
+    "publicar\\assets\\img\\fotos\\anotacoes-reais-20261004.webp": "1f24630649383d3b746fb233ec262ce6ff518491be96d3284cb1ceae79aa1c68",
+    "publicar\\assets\\img\\fotos\\assunto-abrir-empresa-cc0-20261006-480.webp": "9449f0e2aa45f1af93df458b44619be983d195bd4e4dfaa0eda7882ce23f642f",
+    "publicar\\assets\\img\\fotos\\assunto-abrir-empresa-cc0-20261006-720.webp": "cb10d279a187cb1eb2b5aff938ee3c9a44aaf31e3b3219c9755226bb21e565c6",
+    "publicar\\assets\\img\\fotos\\assunto-abrir-empresa-cc0-20261006.webp": "cb823ea921f6f0b223433a27908e7053b7faa40eb523074998dd8427e816713e",
+    "publicar\\assets\\img\\fotos\\assunto-calendario-cc0-20261006-480.webp": "09afa0fe29460bc4422489bb9d2ffc328f048381bee93e58887f716967813291",
+    "publicar\\assets\\img\\fotos\\assunto-calendario-cc0-20261006-720.webp": "8ef73eddeb288e3f86adccf77f1a661cb6b6da67aad89489169b0a064d31bfa1",
+    "publicar\\assets\\img\\fotos\\assunto-calendario-cc0-20261006.webp": "2b133f31368a0b6d71ec2e3a9b679c960798b13ea6087de60db10dfebbb6440e",
+    "publicar\\assets\\img\\fotos\\assunto-escala-6x1-cc0-20261006-480.webp": "d47b0afe149c3a186bffdb501289c97fcb023e42cd2eab91e6c1e3570400eec7",
+    "publicar\\assets\\img\\fotos\\assunto-escala-6x1-cc0-20261006-720.webp": "fe6c91aef7ac3c136e6e876371f5778ae854eaab64fc95e98d5c2a30f1ddec9f",
+    "publicar\\assets\\img\\fotos\\assunto-escala-6x1-cc0-20261006.webp": "174c74d7bb8b3cc9d77bb1399ae04dc37b5eacf96e7084dfaa8c6ba211413d56",
+    "publicar\\assets\\img\\fotos\\assunto-imposto-renda-cc0-20261006-480.webp": "edf095e6bbc9a2801202c4d9b23c1e2ed47c2a30d26c5de58a482434ced27ec0",
+    "publicar\\assets\\img\\fotos\\assunto-imposto-renda-cc0-20261006-720.webp": "f868d1fbcfa0d038bf26332077778247a5556d56d8d0cace91f11b844327f94c",
+    "publicar\\assets\\img\\fotos\\assunto-imposto-renda-cc0-20261006.webp": "e78433b8243a78254a93d070c7a40cc0157e8beb5a1707cf0583ca4c8a6031f1",
+    "publicar\\assets\\img\\fotos\\assunto-mei-cc0-20261006-480.webp": "7de9718625d2f4f9b190067d2b2f6f2ee017ba2a58a01fc025e86d441e31c4ce",
+    "publicar\\assets\\img\\fotos\\assunto-mei-cc0-20261006-720.webp": "87942880bc5a98ce391729604b7d97157ccf77cbb4df4324fe6b123bb40b0241",
+    "publicar\\assets\\img\\fotos\\assunto-mei-cc0-20261006.webp": "1c187c73ecaf3e5afdbd67d719cd5f34e3b3e3318816e00af4aadbc8b55e5973",
+    "publicar\\assets\\img\\fotos\\assunto-novo-limite-mei-cc0-20261006-480.webp": "85a59b9a5cb9bfd4b6c7828a85d5e560ab1ea4bb99154ab6a8e1a3ea4e88965c",
+    "publicar\\assets\\img\\fotos\\assunto-novo-limite-mei-cc0-20261006-720.webp": "b4023a5cb5728480a7740ae1f8e5d6a175c7eb83bd8f773318c60e19739ae8b7",
+    "publicar\\assets\\img\\fotos\\assunto-novo-limite-mei-cc0-20261006.webp": "4620b4fe49a09a6ad90124d07123467ef9d9d60a67eacbcd3ad31154b51de2d8",
+    "publicar\\assets\\img\\fotos\\assunto-pessoal-cc0-20261006-480.webp": "4ab36b0cd23f54744c690de270ff8597fb497a2a5a863468d044dda4cff58439",
+    "publicar\\assets\\img\\fotos\\assunto-pessoal-cc0-20261006-720.webp": "ad11122edf7944f75a72fe6f260be2286ecc2df4e3bbad37a7ee487e601c1a0d",
+    "publicar\\assets\\img\\fotos\\assunto-pessoal-cc0-20261006.webp": "41d636c75add9e3aac1fe4e94f6ae44b8653f6359268890f4d5c699a49a5d486",
+    "publicar\\assets\\img\\fotos\\assunto-pro-labore-cc0-20261006-480.webp": "1c3be90167dc368cc4214a34b06812e13051fc552b51a0435c1776cfb20f4d61",
+    "publicar\\assets\\img\\fotos\\assunto-pro-labore-cc0-20261006-720.webp": "fbc21ac34a6f30d7f163fed39bd6ba998c38abbc1d4af18fa6d74f35bfb82875",
+    "publicar\\assets\\img\\fotos\\assunto-pro-labore-cc0-20261006.webp": "bd211c6607f4d1357912b393876273b6e288c4cb9b493ec0ab9051c1098d4feb",
+    "publicar\\assets\\img\\fotos\\assunto-simples-cc0-20261006-480.webp": "e41aba053840708ebcc3c02f937a88e2a8565de211f17956551b0c986eec662f",
+    "publicar\\assets\\img\\fotos\\assunto-simples-cc0-20261006-720.webp": "5bda3a684e8211b54c480efc1e71418218e207aa1751ba5a8382916972e69cd5",
+    "publicar\\assets\\img\\fotos\\assunto-simples-cc0-20261006.webp": "9ce54dbe21d9711b480a5e5749a6b2789959286caaa4accf0984b672b5fda461",
+    "publicar\\assets\\img\\fotos\\caderno-sem-texto-20261004.webp": "7fd6fab0b800c6442c49726a8e57d78a4607cead448edbf734da2f53fd62bb5f",
+    "publicar\\assets\\img\\fotos\\calendario-recortado-20261004.webp": "0fa825e9fec867e84502aa7f0b71ae93026a996d89d6d94ae7f07e600a3f4068",
+    "publicar\\assets\\img\\fotos\\capa-abrir-empresa-cc0-20261006-480.webp": "894420a3f0cd235bc30182f19a2d6a0641c0e27308ad82ada4fc72da123e816e",
+    "publicar\\assets\\img\\fotos\\capa-abrir-empresa-cc0-20261006-720.webp": "b96d4797535d3cb866edc2c14a0a3824899f221e94598f24a34fdd27c66d7aea",
+    "publicar\\assets\\img\\fotos\\capa-abrir-empresa-cc0-20261006.webp": "bccb1a0361e3cc702fbebb5d8ac5b74fccce611e873b93cd76f42b2b1d653425",
+    "publicar\\assets\\img\\fotos\\capa-calendario-cc0-20261006-480.webp": "27da851020d723bd9bd4e11bb49615d35a46a89bde4c056cfc241e29f681b5e5",
+    "publicar\\assets\\img\\fotos\\capa-calendario-cc0-20261006-720.webp": "f5e26473f15bea2453c97918bd25b8218d6ca47e91d13972ceeff95ffb984bc3",
+    "publicar\\assets\\img\\fotos\\capa-calendario-cc0-20261006.webp": "ecb3d6c7ba7a50f34eb5c67493b7735896159b64b70318c56ad8dd10d5f6bd50",
+    "publicar\\assets\\img\\fotos\\capa-escala-6x1-cc0-20261006-480.webp": "07f9e5612a0a3f5930928f41591ce5ce148b428ac49d3115fb1bba98b0cb6d05",
+    "publicar\\assets\\img\\fotos\\capa-escala-6x1-cc0-20261006-720.webp": "a6cba0f90567ef3757188ee468ffd2d40a57966bfecdeac33dd3f5834e5454bc",
+    "publicar\\assets\\img\\fotos\\capa-escala-6x1-cc0-20261006.webp": "9d31fb168da1d529397fa83c487b6a6bf11336ee88bf18238c4da25fe74ad40d",
+    "publicar\\assets\\img\\fotos\\capa-imposto-renda-cc0-20261006-480.webp": "c59b402e2d6dc9f7706a5ac37b4dc31cf25cd83bfcb6e088d77b5bd4478699a9",
+    "publicar\\assets\\img\\fotos\\capa-imposto-renda-cc0-20261006-720.webp": "dd930e756c6b0d04e1a73481664c8aaa10924f4430035b8d23327ed8fa48269f",
+    "publicar\\assets\\img\\fotos\\capa-imposto-renda-cc0-20261006.webp": "9aee714a2655a9eb05ee2fb6498082db2e7169a13af1856f1a9b749657f19d7a",
+    "publicar\\assets\\img\\fotos\\capa-informacoes-cc0-20261006-480.webp": "7a892c8999f609c8c1ca292224908ec844eb5f799acf6d6c86b68708b3e6a5d3",
+    "publicar\\assets\\img\\fotos\\capa-informacoes-cc0-20261006-720.webp": "f590d123fcb15a54e8c064ecc045f774364695c028389b413155121d7aa1fba0",
+    "publicar\\assets\\img\\fotos\\capa-informacoes-cc0-20261006.webp": "ec28944644c79a36940127b94a27d664679b63f9dc63490194c6b53bb715c9c4",
+    "publicar\\assets\\img\\fotos\\capa-mei-cc0-20261006-480.webp": "ca2ac69e2d3073aa5bd518c21165568e52b4c2d4170ede6f7d5112e43a0e654f",
+    "publicar\\assets\\img\\fotos\\capa-mei-cc0-20261006-720.webp": "2dd9339a799b0c3e21eb1621f840d35568c88fc6d9389135368fefb7cc333767",
+    "publicar\\assets\\img\\fotos\\capa-mei-cc0-20261006.webp": "82b62821afc8550e782e4f4fd403559d802961359d74f3b3b0684675b0a400bf",
+    "publicar\\assets\\img\\fotos\\capa-novo-limite-mei-cc0-20261006-480.webp": "b9ec4e3322f1c65db1a8eb3572d44d58c06fa65c88e48f40d1e3d2712a70f91e",
+    "publicar\\assets\\img\\fotos\\capa-novo-limite-mei-cc0-20261006-720.webp": "212c0914ea1c235952f95475ebeb2c47ae91670a2b2c6995f96e72292e937ec2",
+    "publicar\\assets\\img\\fotos\\capa-novo-limite-mei-cc0-20261006.webp": "97d5be5718d9ee30e31dc991f78d7fae67c7638f4f8701bf7a8df9060a413807",
+    "publicar\\assets\\img\\fotos\\capa-pessoal-cc0-20261006-480.webp": "a7d26515d1738f389ebbb1cf4e3486f4d21790162b4456000bd41501b46f02f5",
+    "publicar\\assets\\img\\fotos\\capa-pessoal-cc0-20261006-720.webp": "edc0fc640d5b35dcc40cedc17ed82690710b2079a29091cb60de409358beafd7",
+    "publicar\\assets\\img\\fotos\\capa-pessoal-cc0-20261006.webp": "f180180200bc280505df0081c6265ac0e426754064a452316a5282924df4f68e",
+    "publicar\\assets\\img\\fotos\\capa-pro-labore-cc0-20261006-480.webp": "b7c6561ce2eb8b770473872035aff4fe0914db624c16cac997bf46716e49562d",
+    "publicar\\assets\\img\\fotos\\capa-pro-labore-cc0-20261006-720.webp": "5229c781e65c9dd16ca4a2b1e6d69de2c919ae2f8390282d8aaf3756a132a6cd",
+    "publicar\\assets\\img\\fotos\\capa-pro-labore-cc0-20261006.webp": "334e70aefccda78ca548439bc5ca1b84e8f457ea350d263b33d92686a7a1fd2a",
+    "publicar\\assets\\img\\fotos\\capa-simples-cc0-20261006-480.webp": "99beb7f97618a74586ddef40cb2eb9143981818d45805d9eccb7bc66054dd902",
+    "publicar\\assets\\img\\fotos\\capa-simples-cc0-20261006-720.webp": "a26069783716396e057797f9f93725b4b06d0dae4f7d9ca8dc375789f005fba8",
+    "publicar\\assets\\img\\fotos\\capa-simples-cc0-20261006.webp": "91bedb639932886e45e5d1790c473f91ef8ec629f016cae647ab902fe0dbfb6b",
+    "publicar\\assets\\img\\fotos\\contabilidade-real-20261004.webp": "a4139c1f85984a5424b225077f864bfe00ba2a22e690e804a34d727da1ce87dc",
+    "publicar\\assets\\img\\fotos\\documentos-reais-20261004.webp": "509562a487e80616a4e768d9bf19ff7ba8af91341a1de4d942f9c3e3cb4ad5c8",
+    "publicar\\assets\\img\\fotos\\empresa-real-20261004.webp": "8768364962c6201a129c01b6b9134e190832e6123ecc6a3b67c4a10319347a37",
+    "publicar\\assets\\img\\fotos\\mesa-real-20261004.webp": "15a6e88d1c63b83a3963952eaad90bdf8980a40e8e758687e53232f5a887169d",
+    "publicar\\assets\\img\\fotos\\pagina-nao-encontrada-cc0-20261006-480.webp": "46c6151c6a9fcdbc22fece601ce9b847f5aadc902c1e2adf39e594a98ab3f9d3",
+    "publicar\\assets\\img\\fotos\\pagina-nao-encontrada-cc0-20261006-720.webp": "2e71814845c729d1a9725c6137dada617c381addbe8deb6d81661ed0daf62d1f",
+    "publicar\\assets\\img\\fotos\\pagina-nao-encontrada-cc0-20261006.webp": "b177cd4bcfed63a5cd630d1f340daf4282abdb312eca464845ea408f55a75484",
+    "publicar\\assets\\img\\fotos\\planejamento-real-20261004.webp": "a02a70e12136cab24ea806173d3ae029adeac0f832a0173b38a88ccfe6144ab5",
+    "publicar\\assets\\img\\fotos\\servico-abrir-empresa-cc0-20261006-480.webp": "67d4d9973c78371d91ce0e85de33a9a67b265a34f43ab1d393e983f860191639",
+    "publicar\\assets\\img\\fotos\\servico-abrir-empresa-cc0-20261006-720.webp": "22d45c44c7c783de0be42923295abcd7dd8c8734d1398430ef9bed107c7dd978",
+    "publicar\\assets\\img\\fotos\\servico-abrir-empresa-cc0-20261006.webp": "6f668cacde00fae857e6f32e23893f63b746ff19c20974abd98a09e9740d58e5",
+    "publicar\\assets\\img\\fotos\\servico-contabilidade-cc0-20261006-480.webp": "1476de54bd3101dbb46fda155810e841e2a2a3cd5d5806f2bf37daa6f5b28486",
+    "publicar\\assets\\img\\fotos\\servico-contabilidade-cc0-20261006-720.webp": "970825fc4c924eee64d0d40f0d89e80362ba3964635da31622bfe8e595467776",
+    "publicar\\assets\\img\\fotos\\servico-contabilidade-cc0-20261006.webp": "57ebdfc857bbdb99faa706a46d258d23204890dfcdedbf0875c74b1b8080306c",
+    "publicar\\assets\\img\\fotos\\servico-imposto-renda-cc0-20261006-480.webp": "6705705f308bcc082a7a7493f85a9db540bac7d9873c6f5e9af6db4cc4d93bea",
+    "publicar\\assets\\img\\fotos\\servico-imposto-renda-cc0-20261006-720.webp": "0dc0cb5701e41e90f06e805392330e329828266570107e3e54e0de6865a42d9f",
+    "publicar\\assets\\img\\fotos\\servico-imposto-renda-cc0-20261006.webp": "23f15f9b0dbb0c103082110038661cfd7154e7231c4f68b1d667dd87942d807e",
+    "publicar\\assets\\img\\logo\\logo-gescomp-cor-compacta.png": "07196435b76696159b3bcd27483685cefc21231d9e1b4a39c40fa12a65c7f821",
+    "publicar\\assets\\img\\logo\\logo-gescomp-cor-compacta.webp": "9518ffddbaa3fa2fdd73434052ad0dfe883f93ef2387abbc181a77b69945ea00",
+    "publicar\\assets\\img\\logo\\logo-gescomp-cor.png": "e84fb2c6110089759f3af4d77eb286b915a87057f61d1131a509066113e7137c",
+    "publicar\\assets\\img\\logo\\logo-gescomp-cor.webp": "b2ae0746c68a537ba5eff302faf99cd21ce418f9a85aa0d3ff69c70e5be6f121",
+    "publicar\\assets\\img\\logo\\logo-gescomp-negativa-600.webp": "db863bfb30caab7c1639a6b2c7b1bb68a26113f8ac669449ef0974f4b7d050f6",
+    "publicar\\assets\\img\\logo\\logo-gescomp-negativa-compacta-480.webp": "12a97a64ff64c769f66c6c248fd03bcf47a29a921b46616eaaf118b5798ebc13",
+    "publicar\\assets\\img\\logo\\logo-gescomp-negativa-compacta.png": "54da1dbdebb22c508ab73119381452f004608147f58b8291d6f0a3a1c083cc1e",
+    "publicar\\assets\\img\\logo\\logo-gescomp-negativa-compacta.webp": "1b77d7cf0be5f065a7991fd1601fe3c75516c42a8fae0189563ea905aa236fe2",
+    "publicar\\assets\\img\\logo\\logo-gescomp-negativa.png": "f59e2c891cb07a2a854beca7d77a73815632e74c6d48bfb46dac8f93309d3da8",
+    "publicar\\assets\\img\\logo\\logo-gescomp-negativa.webp": "c61da5f9d9b53f21d9ec94f511ff97a64130a29b63153ea494b05d34ce5701d1"
+  },
+  "fontesEmpresaAlteradas": [
+    "../01-empresa/dados-cadastrais.md",
+    "../01-empresa/textos/sobre-a-gescomp.md"
+  ],
+  "acabamento": "Cabecalho compacto: Falar com nossa equipe; demais chamadas indicam um de nossos contadores/profissionais."
+}

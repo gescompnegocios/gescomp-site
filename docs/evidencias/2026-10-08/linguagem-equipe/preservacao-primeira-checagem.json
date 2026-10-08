@@ -1,0 +1,109 @@
+{
+  "baseGit": "a343a48df37e950e9ee1db164f87f473385d38cb",
+  "estrutura": [
+    {
+      "pagina": "publicar\\404.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\abrir-empresa.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\calculos-trabalhistas.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\calendario-fiscal.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\consultoria-financeira.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\contabilidade-empresarial.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\departamento-pessoal.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\escolha-de-regime-tributario.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\fim-escala-6x1.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\imposto-de-renda.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\index.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\informacoes.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\mei.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\novo-limite-mei.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\pro-labore-e-lucros.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\regularizacao-baixa-cnpj.html",
+      "estruturaIgual": true
+    },
+    {
+      "pagina": "publicar\\simples-nacional.html",
+      "estruturaIgual": true
+    }
+  ],
+  "arquivosPublicadosAlterados": [
+    "publicar\\abrir-empresa.html",
+    "publicar\\calculos-trabalhistas.html",
+    "publicar\\calendario-fiscal.html",
+    "publicar\\consultoria-financeira.html",
+    "publicar\\contabilidade-empresarial.html",
+    "publicar\\departamento-pessoal.html",
+    "publicar\\escolha-de-regime-tributario.html",
+    "publicar\\fim-escala-6x1.html",
+    "publicar\\imposto-de-renda.html",
+    "publicar\\index.html",
+    "publicar\\informacoes.html",
+    "publicar\\llms.txt",
+    "publicar\\mei.html",
+    "publicar\\novo-limite-mei.html",
+    "publicar\\pro-labore-e-lucros.html",
+    "publicar\\regularizacao-baixa-cnpj.html",
+    "publicar\\simples-nacional.html",
+    "publicar\\assets\\js\\config.js"
+  ],
+  "assetsProtegidosIntactos": true,
+  "rioIntacto": true,
+  "falhas": [
+    [
+      "publicar\\calculos-trabalhistas.html",
+      "precos"
+    ],
+    [
+      "publicar\\departamento-pessoal.html",
+      "precos"
+    ],
+    [
+      "publicar\\imposto-de-renda.html",
+      "precos"
+    ]
+  ]
+}

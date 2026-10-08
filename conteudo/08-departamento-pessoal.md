@@ -47,7 +47,7 @@ Informar a folha no eSocial e pagar o FGTS e os demais encargos nos prazos.
 
 ## Obrigações de todo mês
 Se o dia 20 cair em fim de semana ou feriado, o FGTS precisa ser pago antes, no dia útil anterior.
-O quePagar o salárioPrazoAté o 5º dia útil do mês seguinteComoConforme combinado com o funcionárioO queInformar a folha no eSocialPrazoAté o dia 15 do mês seguinteComoPela contadoraO queFGTSPrazoAté o dia 20 do mês seguinteComoGuia do FGTS Digital, paga por PixO queINSS da empresaPrazoAté o dia 20 do mês seguinteComoNo Simples, vai dentro do DAS (exceto Anexo IV)
+O quePagar o salárioPrazoAté o 5º dia útil do mês seguinteComoConforme combinado com o funcionárioO queInformar a folha no eSocialPrazoAté o dia 15 do mês seguinteComoPor nossa equipeO queFGTSPrazoAté o dia 20 do mês seguinteComoGuia do FGTS Digital, paga por PixO queINSS da empresaPrazoAté o dia 20 do mês seguinteComoNo Simples, vai dentro do DAS (exceto Anexo IV)
 
 ## 13º salário em 2026
 Cada mês trabalhado vale 1/12 do 13º. Conta como mês inteiro o que tiver 15 dias ou mais de trabalho.
@@ -79,7 +79,7 @@ Sim, apenas um, que receba um salário mínimo ou o piso da categoria. O MEI pag
 Sim. Quem ganha até R$ 5.000 deixou de ter Imposto de Renda descontado, desde o pagamento de fevereiro de 2026.
 
 **P:** A GESCOMP faz cálculos trabalhistas?
-Sim. Fazemos cálculos de rescisão, férias, 13º salário e outras verbas, a partir de R$ 100,00. Fale com a contadora pelo WhatsApp.
+Sim. Fazemos cálculos de rescisão, férias, 13º salário e outras verbas, a partir de R$ 100,00. Fale com um de nossos contadores pelo WhatsApp.
 
 ## Veja também
 
@@ -94,8 +94,8 @@ Ler agora
 ### Calendário de datas
 Prazos que não podem passar em branco, de outubro de 2026 a maio de 2027.
 Ler agoraVer todos os assuntos
-Base: CLT, Lei 8.036/1990 (FGTS), tabelas oficiais de 2026 da Previdência Social e da Receita Federal. Conteúdo informativo, atualizado em 01/10/2026. As regras podem mudar; para decisões da sua empresa, converse com a contadora.
+Base: CLT, Lei 8.036/1990 (FGTS), tabelas oficiais de 2026 da Previdência Social e da Receita Federal. Conteúdo informativo, atualizado em 01/10/2026. As regras podem mudar; para decisões da sua empresa, converse com um de nossos contadores.
 
 ## Ficou com alguma dúvida?
-Fale com a contadora e veja como isso afeta a sua empresa.
+Fale com um de nossos contadores e veja como isso afeta a sua empresa.
 Falar no WhatsApp

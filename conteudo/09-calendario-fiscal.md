@@ -33,7 +33,7 @@ Vencem o DAS, o FGTS e o INSS de setembro.
 03/11 a 20/12
 Período para cancelar as escolhas sobre o Simples e sobre CBS e IBS. Depois de cancelar, não há volta.
 20/11
-Dia 20 é feriado nacional (Consciência Negra). O vencimento do DAS e do FGTS muda. Confirme a data com a contadora.
+Dia 20 é feriado nacional (Consciência Negra). O vencimento do DAS e do FGTS muda. Confirme a data com nossa equipe.
 30/11
 1ª parcela do 13º salário.
 
@@ -59,13 +59,13 @@ Imposto de Renda de pessoa física: o calendário da declaração de 2027 ainda 
 ## Perguntas frequentes
 
 **P:** Como não esquecer os prazos?
-Peça à contadora o calendário da sua empresa e anote os prazos que valem para você.
+Peça à nossa equipe o calendário da sua empresa e anote os prazos que valem para você.
 
 **P:** E se eu perder um prazo?
-Quase sempre é possível regularizar, com multa e juros. Quanto antes, melhor. Fale com a contadora.
+Quase sempre é possível regularizar, com multa e juros. Quanto antes, melhor. Fale com um de nossos contadores.
 
 **P:** O dia 20 cai em fim de semana. Pago antes ou depois?
-Depende do imposto. O FGTS deve ser pago antes, no dia útil anterior. Para os demais, confirme com a contadora.
+Depende do imposto. O FGTS deve ser pago antes, no dia útil anterior. Para os demais, confirme com nossa equipe.
 
 ## Veja também
 
@@ -80,8 +80,8 @@ Ler agora
 ### Funcionários e folha
 Contratação, INSS, FGTS, 13º e férias, com os valores de 2026.
 Ler agoraVer todos os assuntos
-Base: Resolução CGSN nº 194/2026, FGTS Digital, CLT e calendários oficiais. Datas podem mudar; a contadora confirma as da sua empresa. Conteúdo informativo, atualizado em 01/10/2026. As regras podem mudar; para decisões da sua empresa, converse com a contadora.
+Base: Resolução CGSN nº 194/2026, FGTS Digital, CLT e calendários oficiais. Datas podem mudar; nossa equipe confirma as da sua empresa. Conteúdo informativo, atualizado em 01/10/2026. As regras podem mudar; para decisões da sua empresa, converse com um de nossos contadores.
 
 ## Ficou com alguma dúvida?
-Fale com a contadora e veja como isso afeta a sua empresa.
+Fale com um de nossos contadores e veja como isso afeta a sua empresa.
 Falar no WhatsApp

@@ -1,0 +1,136 @@
+{
+  "baseGit": "a343a48df37e950e9ee1db164f87f473385d38cb",
+  "estrutura": [
+    {
+      "pagina": "publicar\\404.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\abrir-empresa.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\calculos-trabalhistas.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\calendario-fiscal.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\consultoria-financeira.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\contabilidade-empresarial.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\departamento-pessoal.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\escolha-de-regime-tributario.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\fim-escala-6x1.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\imposto-de-renda.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\index.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\informacoes.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\mei.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\novo-limite-mei.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\pro-labore-e-lucros.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\regularizacao-baixa-cnpj.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    },
+    {
+      "pagina": "publicar\\simples-nacional.html",
+      "estruturaIgual": true,
+      "estilosInlineIguais": true
+    }
+  ],
+  "arquivosPublicadosAlterados": [
+    "publicar\\abrir-empresa.html",
+    "publicar\\calculos-trabalhistas.html",
+    "publicar\\calendario-fiscal.html",
+    "publicar\\consultoria-financeira.html",
+    "publicar\\contabilidade-empresarial.html",
+    "publicar\\departamento-pessoal.html",
+    "publicar\\escolha-de-regime-tributario.html",
+    "publicar\\fim-escala-6x1.html",
+    "publicar\\imposto-de-renda.html",
+    "publicar\\index.html",
+    "publicar\\informacoes.html",
+    "publicar\\llms.txt",
+    "publicar\\mei.html",
+    "publicar\\novo-limite-mei.html",
+    "publicar\\pro-labore-e-lucros.html",
+    "publicar\\regularizacao-baixa-cnpj.html",
+    "publicar\\simples-nacional.html",
+    "publicar\\assets\\js\\config.js"
+  ],
+  "assetsProtegidosIntactos": true,
+  "rioIntacto": true,
+  "rioCapturas": [
+    {
+      "largura": 1366,
+      "tema": "light",
+      "pixelsIdenticos": true
+    },
+    {
+      "largura": 1366,
+      "tema": "dark",
+      "pixelsIdenticos": true
+    },
+    {
+      "largura": 360,
+      "tema": "light",
+      "pixelsIdenticos": true
+    },
+    {
+      "largura": 360,
+      "tema": "dark",
+      "pixelsIdenticos": true
+    }
+  ],
+  "falhas": [],
+  "notaReteste": "Expressao de precos limitada ao valor numerico; a primeira capturava palavras seguintes alteradas pelo pedido."
+}

@@ -130,3 +130,23 @@ Fechamento confirmado: `5e7d850` commit/push para main, publicação automática
 ## 07/10/2026 — SEO local (Codex executor, Claude auditor)
 
 Concluída e com commit local (sem push nem deploy). Cinco páginas de serviço, links internos sem tirar o WhatsApp direto, JSON-LD consistente, revisão editorial e testes sem falhas. Detalhes em `docs/seo-colaboracao.md` e `docs/relatorio-seo-local.md`.
+## 08/10/2026 — Codex: atendimento apresentado pela equipe — CONCLUÍDO
+
+Pedido mais recente substitui a comunicação de atendimento exclusivamente por Gabriela por “um de nossos contadores”, “um de nossos profissionais” ou “nossa equipe”, conforme o contexto.
+
+- Atualizados textos de atendimento e CTAs nas 16 páginas que os possuem, descrições de busca/compartilhamento e descrições/FAQ correspondentes no JSON-LD.
+- Cabeçalho usa “Falar com nossa equipe” para caber no espaço existente. Menu móvel e demais chamadas usam a formulação completa quando adequada.
+- Abertura e serviços apresentam atendimento pela equipe. Em “Quem é a Gabriela”, trajetória, fundação e CRC são preservados; o parágrafo do atendimento agora descreve nossos contadores. Identificação da responsabilidade técnica não significa atendimento exclusivo.
+- Oito mensagens contextuais WhatsApp começam com “Olá, equipe GESCOMP!”. Fallbacks HTML correspondentes também atualizados, inclusive sem JavaScript. Somente config.js recebeu novo cache 20261008/rev=11.
+- Sincronizadas as nove cópias de conteúdo, mensagens no LEIA-ME e rascunhos de contratação. Em 01-empresa: rótulo de responsável técnica e versão usada no site de sobre-a-gescomp.md; texto original enviado pela cliente mantido.
+- Depoimentos reais, autoria dos artigos, nome/CRC, preços, contatos, datas de consulta técnica, imagens, CSS e lógica JS mantidos. A correção de âncoras do Claude (a343a48) foi preservada. Arquivos de histórico/evidências e cópia antiga 02-site-melhorias não são fontes publicadas e não foram reescritos.
+
+Testes locais desta rodada:
+- 17 páginas × 4 larguras × 2 temas = 136 cenários, mais 2 verificações de menu móvel: sem overflow, textos antigos de CTA, botão com texto excedendo a caixa, erros JS/console ou mensagem contextual incorreta.
+- 16 cabeçalhos × 8 larguras = 128 verificações adicionais: botões inteiros dentro da tela após encurtar apenas o rótulo do cabeçalho.
+- Estrutura HTML e estilos inline idênticos, preços numéricos/autoria preservados. Todos os assets, exceto as oito strings de config.js, têm os hashes anteriores. O objeto de configuração mantém todas as demais propriedades, inclusive avaliações.
+- Validação de metadados/JSON-LD/links/sitemap sem falhas inesperadas. A auditoria foi aplicada contra a base a343a48, sem reaplicar as transformações de âncoras já integradas; a mudança autorizada de config.js é registrada separadamente do controle de arquivos protegidos.
+- Rio: HTML idêntico e quatro pares de capturas (1366/360, claro/escuro) idênticos pixel a pixel. Não houve edição de animações ou cores.
+- node --check config.js e git diff --check aprovados. A primeira expressão de preços capturava texto após o valor; o falso alarme foi corrigido, mantendo o registro histórico.
+
+Evidências: docs/evidencias/2026-10-08/linguagem-equipe/ (antes, alterações, validação, preservação, matriz e capturas). Sem acesso a contas externas, commit, push ou deploy nesta rodada. Textos liberados para a continuidade do Claude; preservar a comunicação de equipe.

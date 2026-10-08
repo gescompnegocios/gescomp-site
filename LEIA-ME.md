@@ -1,6 +1,6 @@
 # Site da GESCOMP
 
-HTML, CSS e JavaScript puros, sem framework, bibliotecas adicionais ou etapa de build. Contadora: **Gabriela do Nascimento Vieira — CRC 009186/SE**.
+HTML, CSS e JavaScript puros, sem framework, bibliotecas adicionais ou etapa de build. Responsável técnica: **Gabriela do Nascimento Vieira — CRC 009186/SE**.
 
 ```text
 02-site/
@@ -73,7 +73,7 @@ A revelação ao rolar usa `data-revelar`: `site.js` aplica `js-revelar` na raiz
 
 Telefone configurado: (79) 98877-1430. E-mail de fallback: escritoriogescomp@gmail.com. Ambos ficam em `publicar/assets/js/config.js`.
 
-`data-whatsapp` usa `mensagemPadrao`. Cada card/linha usa `data-whatsapp-msg` com uma das chaves abaixo, todas começando com “Olá, Gabriela! Vim pelo site e”:
+`data-whatsapp` usa `mensagemPadrao`. Cada card/linha usa `data-whatsapp-msg` com uma das chaves abaixo, todas começando com “Olá, equipe GESCOMP! Vim pelo site e”:
 
 | Chave | Ação |
 |---|---|
