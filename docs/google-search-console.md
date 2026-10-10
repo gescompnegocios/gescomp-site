@@ -75,3 +75,18 @@ Implementadas localmente melhorias de título/descrição da inicial, identidade
 Nesta rodada, o navegador das ferramentas não possui sessão Google autenticada. Nenhum relatório, status de indexação atual, solicitação manual ou alteração de configuração da conta foi confirmado. Depois da publicação, inspecionar a inicial e /contabilidade-empresarial, conferir as cinco comerciais e acompanhar consultas com a marca e com os serviços. Manter o sitemap no endereço já processado; não criar uma submissão com data nova a cada alteração.
 
 Primeiro lugar, correspondência de “GEESCOMP” com a marca GESCOMP e menções por IA são decisões automáticas do Google. Não incluir o erro de digitação como nome oficial nem inferir melhoria de posição apenas de testes locais. As alterações desta rodada ainda não foram publicadas.
+
+## Atualização de 10/10/2026 — conteúdo e estado público
+
+A observação “ainda não foram publicadas” acima descreve o encerramento da etapa de 08/10. As melhorias de marca e serviços daquela etapa foram posteriormente commitadas e enviadas. A conferência pública de 10/10 confirmou HTTP 200, os novos títulos de marca/localidade na inicial e em `/contabilidade-empresarial`, canonical correto e robots permitindo Googlebot. O sitemap aceito continua respondendo em XML com 16 URLs. Evidência em [acesso-publico.json](evidencias/2026-10-10/conteudo-seo/acesso-publico.json). Isso não comprova indexação das 16 páginas ou ganho de posição.
+
+A nova ampliação dos dez guias, fontes e exemplos verificados até 10/10 está **local**, sem publicação nesta rodada. `lastmod` foi atualizado somente nos guias ampliados; não se alterou a submissão `sitemap.xml?v=20261006`. Detalhes em [conteudo-seo-2026-10-10.md](conteudo-seo-2026-10-10.md).
+
+Após publicar:
+
+1. Inspecione uma amostra dos guias alterados e confirme que o Google consegue ler o conteúdo atualizado. Confira o resultado do sitemap já cadastrado, sem criar uma submissão nova por data.
+2. Em Desempenho, compare períodos com dados suficientes e filtre grupos de consultas: marca GESCOMP; contabilidade/escritório contábil; Barra dos Coqueiros/Grande Aracaju; serviços; temas dos guias. Observe impressões, cliques e páginas que aparecem, sem atribuir uma oscilação a uma alteração isolada.
+3. Se disponível na propriedade, confira o relatório de desempenho de IA generativa mencionado no [guia atual do Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide). Não houve acesso a esse relatório nesta rodada.
+4. Mantenha o Perfil da Empresa coerente com marca, endereço verdadeiro, telefone e domínio. Não registre grafias erradas como nome comercial nem crie filiais fictícias para pesquisas por cidade.
+
+O guia de IA do Google informa que não há comprimento ideal de artigo nem arquivo/markup exclusivo que garanta visibilidade. `llms.txt` não funciona como mecanismo de classificação no Google. A nova redação acrescenta explicações úteis, fontes e exemplos; não simula marca “GECOMP” e não promete primeiro lugar. Nenhuma alteração foi feita nas contas Google ou Cloudflare nesta rodada.

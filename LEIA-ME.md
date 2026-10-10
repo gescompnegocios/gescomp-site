@@ -140,12 +140,38 @@ As páginas de Informações e os guias usam componentes com classe em `site.css
 - **Grade de cards** (`.artigo-cards`): as colunas seguem a quantidade de cards. 2 viram 2 colunas, 3 viram 3, **4 viram 2×2** e 5 ou mais viram 3; no celular, 1 coluna.
 - **Marcadores** (`.marcador` com `-contorno`, `-cbs` ou `-ibs`): retângulos com raio de 6 px. Não use etiqueta arredondada ou centralizada.
 - **Fontes oficiais** (`aside.artigo-fontes` com `h2.artigo-fontes-titulo`, `ul.artigo-fontes-lista` e `p.artigo-fontes-nota`):
-  - ficam no fim da seção "Perguntas frequentes", antes de "Veja também";
+  - fecham a coluna de texto do artigo (fim de `.artigo-texto`);
   - a lista tem 2 colunas e ícone de link externo.
 
 - **Páginas de proposta** (`.conteudo-artigo`, como `fim-escala-6x1` e `novo-limite-mei`): mesmos componentes em versão de classe. São eles: `section.artigo-faq` > `div.artigo-faq-lista` com `<summary><span>pergunta</span>` + ícone `.faq-icone`, `ul.artigo-lista-check` (✓), `section.artigo-fontes` e `nav.artigo-outros`.
 
 `docs/testes/padronizar-artigos.js` converteu os 8 artigos e `docs/testes/padronizar-propostas.js` as 2 páginas de proposta de 08/10/2026. Ele só grava se o texto visível, os links, os `id`s e o JSON-LD de cada página continuarem idênticos.
+
+### Esqueleto da página de artigo (10/10/2026)
+
+Os 10 artigos (`informacoes` e os 9 guias e propostas) seguem o mesmo esqueleto, do bloco "Artigos — página" de `site.css`. Entre a abertura (`#inicio`) e a faixa verde final, a página tem:
+
+```html
+<div class="artigo-corpo">
+  <nav class="artigo-sumario" aria-labelledby="sumario-titulo"><p class="artigo-sumario-titulo" id="sumario-titulo">Neste artigo</p><ol><li><a href="#id-da-secao">Título da seção</a></li>…</ol></nav>
+  <div class="artigo-texto">
+    <section id="id-da-secao" class="artigo-secao"><h2 class="titulo-secao">Título</h2><p>Texto…</p>…</section>
+    …
+    <aside class="artigo-fontes" aria-labelledby="fontes-titulo">…</aside>
+  </div>
+</div>
+<section class="leia-mais"><div class="leia-mais-interno"><h2 class="titulo-secao">Veja também</h2><ul class="mudancas-lista"><li><a class="mudancas-item" href="/…"><span class="mudancas-titulo">…</span><span class="mudancas-texto">…</span><span class="mudancas-ler">Ler artigo<svg …></svg></span></a></li>…</ul><a class="leia-mais-todos" href="/informacoes">Ver todos os assuntos<svg …></svg></a></div></section>
+```
+
+- **Fundo:** o corpo usa uma cor só (`--chao`). Não crie faixas `background: var(--superficie)` de largura total.
+- **Seção nova:** use `section.artigo-secao` com `id` e `h2.titulo-secao`, e acrescente o mesmo item no sumário (`href="#id"`, com o texto exato do título). `site.js` marca o trecho em leitura.
+- **Texto corrido:** `<p>` e `<ul>` sem classe dentro da seção já saem no padrão. A lista com ✓ é `ul.artigo-lista-check`.
+- **Perguntas:** não use FAQ em sanfona (`<details>`) nos artigos. Cada pergunta vira `h3.artigo-pergunta` seguida da resposta em `<p>`, na seção a que se refere. O JSON-LD FAQPage continua válido porque as perguntas e as respostas ficam visíveis.
+- **Veja também:** é a mesma lista `.mudancas-*` da inicial, sem número e sem foto. São 3 colunas no computador e uma embaixo da outra no celular.
+- **Cards** dentro da coluna: no máximo 2 por linha.
+- **Aviso no topo** das páginas de proposta: `section.artigo-secao.proposta-aviso`.
+
+`docs/testes/padronizar-paginas-artigo.js` fez a conversão, com travas de texto, links, `id`s e conteúdo fora do `<main>`. Ele só serve para a conversão inicial: depois dela, as páginas já não têm `<details>` e o script para.
 
 ## Desempenho
 

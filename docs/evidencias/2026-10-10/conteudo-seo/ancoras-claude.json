@@ -1,0 +1,126 @@
+{
+  "cases": 12,
+  "failures": [],
+  "results": [
+    {
+      "slug": "fim-escala-6x1",
+      "id": "a-proposta-ja-esta-valendo",
+      "width": 1366,
+      "theme": "light",
+      "headingTop": 103.125,
+      "headerBottom": 76,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "id": "a-proposta-ja-esta-valendo",
+      "width": 1366,
+      "theme": "dark",
+      "headingTop": 103.125,
+      "headerBottom": 76,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "id": "qual-limite-continua-valendo",
+      "width": 1366,
+      "theme": "light",
+      "headingTop": 103.125,
+      "headerBottom": 76,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "id": "qual-limite-continua-valendo",
+      "width": 1366,
+      "theme": "dark",
+      "headingTop": 103.125,
+      "headerBottom": 76,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "id": "outros-assuntos",
+      "width": 1366,
+      "theme": "light",
+      "headingTop": 91.375,
+      "headerBottom": 76,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "id": "outros-assuntos",
+      "width": 1366,
+      "theme": "dark",
+      "headingTop": 91.375,
+      "headerBottom": 76,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "id": "a-proposta-ja-esta-valendo",
+      "width": 360,
+      "theme": "light",
+      "headingTop": 94.84375,
+      "headerBottom": 68,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "id": "a-proposta-ja-esta-valendo",
+      "width": 360,
+      "theme": "dark",
+      "headingTop": 94.84375,
+      "headerBottom": 68,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "id": "qual-limite-continua-valendo",
+      "width": 360,
+      "theme": "light",
+      "headingTop": 95.125,
+      "headerBottom": 68,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "id": "qual-limite-continua-valendo",
+      "width": 360,
+      "theme": "dark",
+      "headingTop": 95.125,
+      "headerBottom": 68,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "id": "outros-assuntos",
+      "width": 360,
+      "theme": "light",
+      "headingTop": 82.71875,
+      "headerBottom": 68,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "id": "outros-assuntos",
+      "width": 360,
+      "theme": "dark",
+      "headingTop": 82.71875,
+      "headerBottom": 68,
+      "overflow": false,
+      "errors": []
+    }
+  ]
+}

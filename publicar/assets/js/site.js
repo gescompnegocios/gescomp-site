@@ -499,3 +499,16 @@ for(var i=0;i<elementos.length;i++){var el=elementos[i];if(el.closest('#rio')||e
 if(elementos.length)document.documentElement.classList.add('js-revelar');
 if(mq&&mq.addEventListener)mq.addEventListener('change',function(){if(mq.matches)mostrarTodos();});
 })();
+
+/* Sumário dos artigos: marca o trecho em leitura (o último título que já passou do cabeçalho). */
+(function(){
+var links=document.querySelectorAll('.artigo-sumario a[href^="#"]');if(!links.length)return;
+var alvos=[];for(var i=0;i<links.length;i++){var s=document.getElementById(links[i].getAttribute('href').slice(1));if(s)alvos.push({a:links[i],s:s});}
+var atual=null,pendente=false;
+function marcar(){pendente=false;var lim=(parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--cabecalho'))||76)+120,ativo=alvos[0];
+for(var k=0;k<alvos.length;k++)if(alvos[k].s.getBoundingClientRect().top<=lim)ativo=alvos[k];
+if(innerHeight+scrollY>=document.documentElement.scrollHeight-4&&alvos[alvos.length-1].s.getBoundingClientRect().top<innerHeight)ativo=alvos[alvos.length-1];
+if(ativo===atual)return;if(atual)atual.a.removeAttribute('aria-current');ativo.a.setAttribute('aria-current','true');atual=ativo;}
+addEventListener('scroll',function(){if(!pendente){pendente=true;requestAnimationFrame(marcar);}},{passive:true});
+addEventListener('resize',marcar);marcar();
+})();

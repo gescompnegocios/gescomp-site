@@ -1,0 +1,38 @@
+{
+  "cases": 4,
+  "failures": [],
+  "results": [
+    {
+      "width": 1366,
+      "theme": "light",
+      "overflow": false,
+      "hasFourEvents": true,
+      "historicalStf": true,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "hasFourEvents": true,
+      "historicalStf": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "theme": "light",
+      "overflow": false,
+      "hasFourEvents": true,
+      "historicalStf": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "overflow": false,
+      "hasFourEvents": true,
+      "historicalStf": true,
+      "errors": []
+    }
+  ]
+}

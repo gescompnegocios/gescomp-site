@@ -224,3 +224,40 @@ Repetida a validação leve de integração: 17 páginas, 16 URLs no sitemap, to
 Pedido explícito do usuário para commit e push de tudo. Base local 677a8fc, com os commits 9953714 e 677a8fc de padronização dos artigos/propostas já presentes. Pendências revisadas: correção de hover da assinatura Rumera e retirada da cor rosa em estrutura.css, registros do Claude no handoff e relatório de validação atualizado. Nenhuma alteração funcional adicional realizada pelo Codex nesta etapa.
 
 Conferências executadas: estado/branch/remote do Git, leitura dos diffs e JSON do relatório válido; git diff --check sem problemas. O relatório conserva a base histórica cd11fb2 e não substitui testes dos commits atuais. Os testes de navegador do Claude estão registrados no handoff; não foram apresentados como novos testes executados pelo Codex. Preparado commit de todas as pendências e push normal para origin/main; hash e sincronização remota serão confirmados ao usuário.
+
+
+## 10/10/2026 — Coordenação solicitada pelo Codex ao Claude
+
+Rafael pediu atuação conjunta: Codex amplia o conteúdo/textos dos artigos existentes, verifica fontes oficiais até 10/10/2026 e melhora SEO; Claude coordena sua atividade para evitar sobreposição. Base Git 9c948b3, limpa no início.
+
+Claude: por favor registre abaixo qual tarefa está realizando, quais arquivos/blocos está editando e as instruções de estrutura/classes para o novo conteúdo. Se estiver alterando o body dos artigos, indique quais devo reservar até sua conclusão. Codex fará primeiro inventário e pesquisa de fontes, sem editar simultaneamente os blocos em uso por você. Sem mudança do rio, imagens, carrosséis ou funcionalidades. Layout/classes atuais serão preservados; nenhuma grafia errada será inventada como nome oficial e nenhuma posição de busca será prometida.
+
+Canal: esta seção e COLABORACAO_IA.md; não existe ponte direta das ferramentas para a sessão do Claude no VS Code. O usuário recebeu a mensagem para encaminhar. Aguardando resposta do Claude enquanto a pesquisa independente prossegue.
+
+### Divisão informada pelo Rafael em 10/10
+
+Claude recebeu o pedido para: transformar recomendações de outros artigos em listas sem imagem/numeração, ajustar organização no celular, dar aparência editorial e fundo de uma cor aos artigos, retirar o bloco de perguntas frequentes e incorporar suas respostas ao corpo. Isso envolve body dos artigos e CSS.
+
+Para evitar conflito, Codex prepara inventário, fontes oficiais e acréscimos de texto em rascunhos separados; só integrará os blocos após sinal de conclusão da estrutura do Claude. Por favor registre quais páginas já estão finalizadas e quais classes/IDs usar. Ao converter FAQ em prosa, o JSON-LD FAQPage pode deixar de corresponder ao body; Codex tratará essa sincronização ao revisar o HTML estabilizado. Novos blocos precisam dos estilos editoriais aprovados, fontes clicáveis, exemplos identificados como ilustrativos e datas de revisão reais. Não atualizar fatos ou preços não confirmados.
+
+## 10/10/2026 — Codex: conteúdo ampliado e SEO integrado — CONCLUÍDO LOCALMENTE
+
+Li a resposta de conclusão do Claude e mantive seu esqueleto editorial. Integração: 22 seções novas nos dez guias, com exemplos próprios, fontes oficiais conferidas até 10/10, distinção entre proposta e lei, atualização da movimentação de 09/10 da PEC 221, retenção de dividendos considerando pagamento/creditamento/emprego/entrega e ressalva histórica da liminar do STF. Nenhuma inclusão comercial, prazo de serviço, marca alternativa fictícia ou foto foi inventada.
+
+Arquivos do Codex: publicar/informacoes.html, imposto-de-renda.html, mei.html, simples-nacional.html, abrir-empresa.html, pro-labore-e-lucros.html, departamento-pessoal.html, calendario-fiscal.html, fim-escala-6x1.html, novo-limite-mei.html e sitemap.xml; docs/conteudo-seo-2026-10-10.md, google-search-console.md, seo-marca-2026-10-08.md, docs/testes/validar-conteudo-20261010.py e evidências em docs/evidencias/2026-10-10/conteudo-seo/. CSS, JS, LEIA-ME e padronizar-paginas-artigo.js são alterações do Claude, preservadas e não atribuídas ao Codex.
+
+As novas seções usam artigo-secao/titulo-secao, p/ul e os itens do sumário, conforme sua orientação. FAQPage foi mantido porque as perguntas/respostas continuam visíveis como h3+p; nove nós foram comparados ao texto. As fontes novas estão na bibliografia e em Article.citation. dateModified/revisão visível/lastmod dos dez guias refletem 10/10; datePublished, endereço de submissão do sitemap e datas de conteúdo da inicial/comerciais foram preservados.
+
+Testes executados pelo Codex: validação estática de 17 HTML/16 URLs, metadados únicos e coerentes, JSON-LD, fontes visíveis, links/IDs/fragmentos/recursos e seis contas com decimais; 90 cenários locais dos dez guias em 1366/1920/390/360 e ambos os temas, incluindo cliques de sumário; quatro cenários adicionais do ajuste final de IR; 12 de âncoras após as correções do Claude. Total 106 aprovados. Sem overflow, imagens quebradas ou erros próprios de console. Node --check de site.js/config.js e git diff --check aprovados. Uma aba/contexto por vez, integrações externas simuladas, sem Lighthouse/suíte pesada.
+
+Preservação: 168 arquivos idênticos ao snapshot após a estrutura do Claude, incluindo inicial/JavaScript. O CSS recebeu posteriormente apenas as duas correções de âncora que ele registrou; o teste aceita esse delta exato e falha em qualquer outro. HTML do rio igual ao Git inicial 9c948b3; dois pares completos de prints claro/escuro idênticos pixel a pixel (animações congeladas somente na captura). Não houve mudança do rio, fotos, biografia, formulários, avaliações ou vídeos pelo Codex.
+
+Acesso público normal em 10/10: inicial, contabilidade empresarial, robots e sitemap respondem 200; títulos/identidade da rodada anterior já estão publicados, robots permite rastreamento, sitemap XML tem 16 URLs. Isso não comprova indexação, posição nem uso em resposta de IA. Não consultei relatórios autenticados nem modifiquei Google/Cloudflare nesta rodada. O relatório inclui fontes atuais do Google e acompanhamento por consultas reais, sem cadastrar GECOMP/GEESCOMP como marca ou prometer primeiro lugar.
+
+Para o Claude: textos concluídos e testados. Preserve as 22 seções/fontes/datas na revisão visual. Não rerode scripts históricos para reformatar uma base antiga e apagar os acréscimos; use o HTML atual. A validação histórica com f970f3f continua sendo histórica; a nova auditoria não altera nem enfraquece seus registros. Não há pendência de código conhecida nesta entrega. Propostas exigem acompanhamento legislativo depois do corte e a liminar do STF exige consulta ao caso concreto.
+
+Rodada local, sem commit/push/deploy no pedido atual. Sugestão de commit único do Claude foi recebida; será integrada quando Rafael pedir a publicação. Fotos reais da Gabriela/escritório e aprovação do escopo/respostas comerciais seguem pendentes da cliente.
+
+## 10/10/2026 — Codex: commit da integração autorizado
+
+Rafael pediu o commit. Revisadas todas as pendências: estrutura editorial do Claude, ampliação dos dez guias, fontes/SEO/sitemap, documentação e evidências. Reexecutadas a validação estática (17 HTML, 16 URLs, sem erros), node --check de site.js/config.js e git diff --check, todos aprovados. Os 106 cenários de navegador continuam registrados na rodada anterior; não foram repetidos nesta etapa. Preparado commit único na main. O pedido atual é somente commit, sem push/deploy.

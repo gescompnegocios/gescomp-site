@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-10T11:32:51.893Z",
+  "type": "Acesso publico, sem relatorios nem solicitacao ao Google",
+  "rows": [
+    {
+      "path": "/",
+      "status": 200,
+      "finalUrl": "https://gescompnegocios.com.br/",
+      "contentType": "text/html",
+      "robotsHeader": null,
+      "title": "GESCOMP | Contabilidade em Barra dos Coqueiros e online",
+      "canonical": "https://gescompnegocios.com.br/"
+    },
+    {
+      "path": "/contabilidade-empresarial",
+      "status": 200,
+      "finalUrl": "https://gescompnegocios.com.br/contabilidade-empresarial",
+      "contentType": "text/html",
+      "robotsHeader": null,
+      "title": "Contabilidade empresarial em Barra dos Coqueiros | GESCOMP",
+      "canonical": "https://gescompnegocios.com.br/contabilidade-empresarial"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "finalUrl": "https://gescompnegocios.com.br/robots.txt",
+      "contentType": "text/plain",
+      "robotsHeader": null,
+      "robotsTxt": "User-agent: *\nAllow: /\n\nUser-agent: Googlebot\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: ClaudeBot\nAllow: /\n\nUser-agent: Claude-SearchBot\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Applebot-Extended\nAllow: /\n\nSitemap: https://gescompnegocios.com.br/sitemap.xml?v=20261006\n"
+    },
+    {
+      "path": "/sitemap.xml?v=20261006",
+      "status": 200,
+      "finalUrl": "https://gescompnegocios.com.br/sitemap.xml?v=20261006",
+      "contentType": "application/xml",
+      "robotsHeader": null,
+      "sitemapUrls": 16
+    }
+  ]
+}

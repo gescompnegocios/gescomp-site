@@ -1,0 +1,3499 @@
+{
+  "localOnly": true,
+  "externalProvidersSimulated": true,
+  "blockedOrigins": [
+    "https://vlibras.gov.br"
+  ],
+  "cases": 90,
+  "failures": [],
+  "results": [
+    {
+      "slug": "informacoes",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#reforma-tributaria",
+          "exists": true
+        },
+        {
+          "href": "#e-para-a-minha-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-fazer-agora",
+          "exists": true
+        },
+        {
+          "href": "#nota-fiscal-e-pagamento-na-reforma",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-reforma-na-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#reforma-tributaria",
+          "exists": true
+        },
+        {
+          "href": "#e-para-a-minha-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-fazer-agora",
+          "exists": true
+        },
+        {
+          "href": "#nota-fiscal-e-pagamento-na-reforma",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-reforma-na-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#o-que-mudou",
+          "exists": true
+        },
+        {
+          "href": "#tabela-mensal-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#declaracao-2026-e-2027",
+          "exists": true
+        },
+        {
+          "href": "#para-socios-e-donos-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-separar-para-a-declaracao",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-da-reducao-mensal-do-ir",
+          "exists": true
+        },
+        {
+          "href": "#duas-fontes-e-declaracao-anual",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#o-que-mudou",
+          "exists": true
+        },
+        {
+          "href": "#tabela-mensal-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#declaracao-2026-e-2027",
+          "exists": true
+        },
+        {
+          "href": "#para-socios-e-donos-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-separar-para-a-declaracao",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-da-reducao-mensal-do-ir",
+          "exists": true
+        },
+        {
+          "href": "#duas-fontes-e-declaracao-anual",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#os-numeros-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#quem-pode-ser-mei",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-paga-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-pode-faturar",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#sinais-de-que-e-hora-de-virar-microempresa",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-limite-proporcional-mei",
+          "exists": true
+        },
+        {
+          "href": "#controle-mensal-de-receitas-mei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#os-numeros-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#quem-pode-ser-mei",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-paga-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-pode-faturar",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#sinais-de-que-e-hora-de-virar-microempresa",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-limite-proporcional-mei",
+          "exists": true
+        },
+        {
+          "href": "#controle-mensal-de-receitas-mei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#prazos-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#o-que-e-o-simples-nacional",
+          "exists": true
+        },
+        {
+          "href": "#limites-de-faturamento-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#os-cinco-anexos",
+          "exists": true
+        },
+        {
+          "href": "#o-que-muda-em-2027-cbs-e-ibs-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#simples-lucro-presumido-ou-lucro-real",
+          "exists": true
+        },
+        {
+          "href": "#quem-nao-pode-entrar-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-das-no-comercio",
+          "exists": true
+        },
+        {
+          "href": "#duas-escolhas-diferentes-em-outubro",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#prazos-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#o-que-e-o-simples-nacional",
+          "exists": true
+        },
+        {
+          "href": "#limites-de-faturamento-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#os-cinco-anexos",
+          "exists": true
+        },
+        {
+          "href": "#o-que-muda-em-2027-cbs-e-ibs-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#simples-lucro-presumido-ou-lucro-real",
+          "exists": true
+        },
+        {
+          "href": "#quem-nao-pode-entrar-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-das-no-comercio",
+          "exists": true
+        },
+        {
+          "href": "#duas-escolhas-diferentes-em-outubro",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#escolha-o-tipo-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#passo-a-passo",
+          "exists": true
+        },
+        {
+          "href": "#documentos-que-voce-vai-precisar",
+          "exists": true
+        },
+        {
+          "href": "#cnpj-com-letras-e-numeros",
+          "exists": true
+        },
+        {
+          "href": "#depois-de-abrir",
+          "exists": true
+        },
+        {
+          "href": "#viabilidade-antes-de-alugar-o-ponto",
+          "exists": true
+        },
+        {
+          "href": "#preparar-dados-e-primeira-nota",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#escolha-o-tipo-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#passo-a-passo",
+          "exists": true
+        },
+        {
+          "href": "#documentos-que-voce-vai-precisar",
+          "exists": true
+        },
+        {
+          "href": "#cnpj-com-letras-e-numeros",
+          "exists": true
+        },
+        {
+          "href": "#depois-de-abrir",
+          "exists": true
+        },
+        {
+          "href": "#viabilidade-antes-de-alugar-o-ponto",
+          "exists": true
+        },
+        {
+          "href": "#preparar-dados-e-primeira-nota",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-a-diferenca",
+          "exists": true
+        },
+        {
+          "href": "#como-funciona-o-pro-labore",
+          "exists": true
+        },
+        {
+          "href": "#o-que-paga-cada-tipo-de-retirada",
+          "exists": true
+        },
+        {
+          "href": "#a-nova-regra-dos-lucros",
+          "exists": true
+        },
+        {
+          "href": "#como-fazer-do-jeito-certo",
+          "exists": true
+        },
+        {
+          "href": "#saldo-bancario-nao-e-lucro",
+          "exists": true
+        },
+        {
+          "href": "#dividendos-no-mes-e-obrigacoes",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-a-diferenca",
+          "exists": true
+        },
+        {
+          "href": "#como-funciona-o-pro-labore",
+          "exists": true
+        },
+        {
+          "href": "#o-que-paga-cada-tipo-de-retirada",
+          "exists": true
+        },
+        {
+          "href": "#a-nova-regra-dos-lucros",
+          "exists": true
+        },
+        {
+          "href": "#como-fazer-do-jeito-certo",
+          "exists": true
+        },
+        {
+          "href": "#saldo-bancario-nao-e-lucro",
+          "exists": true
+        },
+        {
+          "href": "#dividendos-no-mes-e-obrigacoes",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#valores-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#desconto-do-inss-no-salario",
+          "exists": true
+        },
+        {
+          "href": "#como-contratar-um-funcionario",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-de-todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#13-salario-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#ferias-e-desligamento",
+          "exists": true
+        },
+        {
+          "href": "#preparar-a-admissao-e-a-folha",
+          "exists": true
+        },
+        {
+          "href": "#salario-liquido-e-custo-da-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#valores-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#desconto-do-inss-no-salario",
+          "exists": true
+        },
+        {
+          "href": "#como-contratar-um-funcionario",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-de-todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#13-salario-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#ferias-e-desligamento",
+          "exists": true
+        },
+        {
+          "href": "#preparar-a-admissao-e-a-folha",
+          "exists": true
+        },
+        {
+          "href": "#salario-liquido-e-custo-da-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#de-outubro-de-2026-a-maio-de-2027",
+          "exists": true
+        },
+        {
+          "href": "#competencia-entrega-e-pagamento",
+          "exists": true
+        },
+        {
+          "href": "#rotina-para-evitar-atrasos",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#de-outubro-de-2026-a-maio-de-2027",
+          "exists": true
+        },
+        {
+          "href": "#competencia-entrega-e-pagamento",
+          "exists": true
+        },
+        {
+          "href": "#rotina-para-evitar-atrasos",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#a-proposta-ja-esta-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-esta-sendo-discutido",
+          "exists": true
+        },
+        {
+          "href": "#em-que-etapa-esta-a-pec",
+          "exists": true
+        },
+        {
+          "href": "#o-que-a-empresa-pode-organizar-agora",
+          "exists": true
+        },
+        {
+          "href": "#escala-6x1-e-regra-vigente",
+          "exists": true
+        },
+        {
+          "href": "#pec-221-e-pec-148",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-jornada-sem-antecipar-lei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#a-proposta-ja-esta-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-esta-sendo-discutido",
+          "exists": true
+        },
+        {
+          "href": "#em-que-etapa-esta-a-pec",
+          "exists": true
+        },
+        {
+          "href": "#o-que-a-empresa-pode-organizar-agora",
+          "exists": true
+        },
+        {
+          "href": "#escala-6x1-e-regra-vigente",
+          "exists": true
+        },
+        {
+          "href": "#pec-221-e-pec-148",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-jornada-sem-antecipar-lei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 1366,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-limite-continua-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-propoe-o-plp-108-2021",
+          "exists": true
+        },
+        {
+          "href": "#ha-outra-proposta-de-aumento-gradual",
+          "exists": true
+        },
+        {
+          "href": "#como-se-preparar-enquanto-os-projetos-tramitam",
+          "exists": true
+        },
+        {
+          "href": "#comparacao-dos-projetos-mei",
+          "exists": true
+        },
+        {
+          "href": "#tramite-do-projeto-nao-e-lei",
+          "exists": true
+        },
+        {
+          "href": "#crescer-sem-contar-com-novo-teto",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 1366,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-limite-continua-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-propoe-o-plp-108-2021",
+          "exists": true
+        },
+        {
+          "href": "#ha-outra-proposta-de-aumento-gradual",
+          "exists": true
+        },
+        {
+          "href": "#como-se-preparar-enquanto-os-projetos-tramitam",
+          "exists": true
+        },
+        {
+          "href": "#comparacao-dos-projetos-mei",
+          "exists": true
+        },
+        {
+          "href": "#tramite-do-projeto-nao-e-lei",
+          "exists": true
+        },
+        {
+          "href": "#crescer-sem-contar-com-novo-teto",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#reforma-tributaria",
+          "exists": true
+        },
+        {
+          "href": "#e-para-a-minha-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-fazer-agora",
+          "exists": true
+        },
+        {
+          "href": "#nota-fiscal-e-pagamento-na-reforma",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-reforma-na-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#reforma-tributaria",
+          "exists": true
+        },
+        {
+          "href": "#e-para-a-minha-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-fazer-agora",
+          "exists": true
+        },
+        {
+          "href": "#nota-fiscal-e-pagamento-na-reforma",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-reforma-na-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#o-que-mudou",
+          "exists": true
+        },
+        {
+          "href": "#tabela-mensal-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#declaracao-2026-e-2027",
+          "exists": true
+        },
+        {
+          "href": "#para-socios-e-donos-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-separar-para-a-declaracao",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-da-reducao-mensal-do-ir",
+          "exists": true
+        },
+        {
+          "href": "#duas-fontes-e-declaracao-anual",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#o-que-mudou",
+          "exists": true
+        },
+        {
+          "href": "#tabela-mensal-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#declaracao-2026-e-2027",
+          "exists": true
+        },
+        {
+          "href": "#para-socios-e-donos-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-separar-para-a-declaracao",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-da-reducao-mensal-do-ir",
+          "exists": true
+        },
+        {
+          "href": "#duas-fontes-e-declaracao-anual",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#os-numeros-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#quem-pode-ser-mei",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-paga-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-pode-faturar",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#sinais-de-que-e-hora-de-virar-microempresa",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-limite-proporcional-mei",
+          "exists": true
+        },
+        {
+          "href": "#controle-mensal-de-receitas-mei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#os-numeros-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#quem-pode-ser-mei",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-paga-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-pode-faturar",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#sinais-de-que-e-hora-de-virar-microempresa",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-limite-proporcional-mei",
+          "exists": true
+        },
+        {
+          "href": "#controle-mensal-de-receitas-mei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#prazos-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#o-que-e-o-simples-nacional",
+          "exists": true
+        },
+        {
+          "href": "#limites-de-faturamento-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#os-cinco-anexos",
+          "exists": true
+        },
+        {
+          "href": "#o-que-muda-em-2027-cbs-e-ibs-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#simples-lucro-presumido-ou-lucro-real",
+          "exists": true
+        },
+        {
+          "href": "#quem-nao-pode-entrar-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-das-no-comercio",
+          "exists": true
+        },
+        {
+          "href": "#duas-escolhas-diferentes-em-outubro",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#prazos-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#o-que-e-o-simples-nacional",
+          "exists": true
+        },
+        {
+          "href": "#limites-de-faturamento-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#os-cinco-anexos",
+          "exists": true
+        },
+        {
+          "href": "#o-que-muda-em-2027-cbs-e-ibs-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#simples-lucro-presumido-ou-lucro-real",
+          "exists": true
+        },
+        {
+          "href": "#quem-nao-pode-entrar-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-das-no-comercio",
+          "exists": true
+        },
+        {
+          "href": "#duas-escolhas-diferentes-em-outubro",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#escolha-o-tipo-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#passo-a-passo",
+          "exists": true
+        },
+        {
+          "href": "#documentos-que-voce-vai-precisar",
+          "exists": true
+        },
+        {
+          "href": "#cnpj-com-letras-e-numeros",
+          "exists": true
+        },
+        {
+          "href": "#depois-de-abrir",
+          "exists": true
+        },
+        {
+          "href": "#viabilidade-antes-de-alugar-o-ponto",
+          "exists": true
+        },
+        {
+          "href": "#preparar-dados-e-primeira-nota",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#escolha-o-tipo-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#passo-a-passo",
+          "exists": true
+        },
+        {
+          "href": "#documentos-que-voce-vai-precisar",
+          "exists": true
+        },
+        {
+          "href": "#cnpj-com-letras-e-numeros",
+          "exists": true
+        },
+        {
+          "href": "#depois-de-abrir",
+          "exists": true
+        },
+        {
+          "href": "#viabilidade-antes-de-alugar-o-ponto",
+          "exists": true
+        },
+        {
+          "href": "#preparar-dados-e-primeira-nota",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-a-diferenca",
+          "exists": true
+        },
+        {
+          "href": "#como-funciona-o-pro-labore",
+          "exists": true
+        },
+        {
+          "href": "#o-que-paga-cada-tipo-de-retirada",
+          "exists": true
+        },
+        {
+          "href": "#a-nova-regra-dos-lucros",
+          "exists": true
+        },
+        {
+          "href": "#como-fazer-do-jeito-certo",
+          "exists": true
+        },
+        {
+          "href": "#saldo-bancario-nao-e-lucro",
+          "exists": true
+        },
+        {
+          "href": "#dividendos-no-mes-e-obrigacoes",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-a-diferenca",
+          "exists": true
+        },
+        {
+          "href": "#como-funciona-o-pro-labore",
+          "exists": true
+        },
+        {
+          "href": "#o-que-paga-cada-tipo-de-retirada",
+          "exists": true
+        },
+        {
+          "href": "#a-nova-regra-dos-lucros",
+          "exists": true
+        },
+        {
+          "href": "#como-fazer-do-jeito-certo",
+          "exists": true
+        },
+        {
+          "href": "#saldo-bancario-nao-e-lucro",
+          "exists": true
+        },
+        {
+          "href": "#dividendos-no-mes-e-obrigacoes",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#valores-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#desconto-do-inss-no-salario",
+          "exists": true
+        },
+        {
+          "href": "#como-contratar-um-funcionario",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-de-todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#13-salario-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#ferias-e-desligamento",
+          "exists": true
+        },
+        {
+          "href": "#preparar-a-admissao-e-a-folha",
+          "exists": true
+        },
+        {
+          "href": "#salario-liquido-e-custo-da-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#valores-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#desconto-do-inss-no-salario",
+          "exists": true
+        },
+        {
+          "href": "#como-contratar-um-funcionario",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-de-todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#13-salario-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#ferias-e-desligamento",
+          "exists": true
+        },
+        {
+          "href": "#preparar-a-admissao-e-a-folha",
+          "exists": true
+        },
+        {
+          "href": "#salario-liquido-e-custo-da-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#de-outubro-de-2026-a-maio-de-2027",
+          "exists": true
+        },
+        {
+          "href": "#competencia-entrega-e-pagamento",
+          "exists": true
+        },
+        {
+          "href": "#rotina-para-evitar-atrasos",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#de-outubro-de-2026-a-maio-de-2027",
+          "exists": true
+        },
+        {
+          "href": "#competencia-entrega-e-pagamento",
+          "exists": true
+        },
+        {
+          "href": "#rotina-para-evitar-atrasos",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#a-proposta-ja-esta-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-esta-sendo-discutido",
+          "exists": true
+        },
+        {
+          "href": "#em-que-etapa-esta-a-pec",
+          "exists": true
+        },
+        {
+          "href": "#o-que-a-empresa-pode-organizar-agora",
+          "exists": true
+        },
+        {
+          "href": "#escala-6x1-e-regra-vigente",
+          "exists": true
+        },
+        {
+          "href": "#pec-221-e-pec-148",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-jornada-sem-antecipar-lei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#a-proposta-ja-esta-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-esta-sendo-discutido",
+          "exists": true
+        },
+        {
+          "href": "#em-que-etapa-esta-a-pec",
+          "exists": true
+        },
+        {
+          "href": "#o-que-a-empresa-pode-organizar-agora",
+          "exists": true
+        },
+        {
+          "href": "#escala-6x1-e-regra-vigente",
+          "exists": true
+        },
+        {
+          "href": "#pec-221-e-pec-148",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-jornada-sem-antecipar-lei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-limite-continua-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-propoe-o-plp-108-2021",
+          "exists": true
+        },
+        {
+          "href": "#ha-outra-proposta-de-aumento-gradual",
+          "exists": true
+        },
+        {
+          "href": "#como-se-preparar-enquanto-os-projetos-tramitam",
+          "exists": true
+        },
+        {
+          "href": "#comparacao-dos-projetos-mei",
+          "exists": true
+        },
+        {
+          "href": "#tramite-do-projeto-nao-e-lei",
+          "exists": true
+        },
+        {
+          "href": "#crescer-sem-contar-com-novo-teto",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-limite-continua-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-propoe-o-plp-108-2021",
+          "exists": true
+        },
+        {
+          "href": "#ha-outra-proposta-de-aumento-gradual",
+          "exists": true
+        },
+        {
+          "href": "#como-se-preparar-enquanto-os-projetos-tramitam",
+          "exists": true
+        },
+        {
+          "href": "#comparacao-dos-projetos-mei",
+          "exists": true
+        },
+        {
+          "href": "#tramite-do-projeto-nao-e-lei",
+          "exists": true
+        },
+        {
+          "href": "#crescer-sem-contar-com-novo-teto",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 740,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#reforma-tributaria",
+          "exists": true
+        },
+        {
+          "href": "#e-para-a-minha-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-fazer-agora",
+          "exists": true
+        },
+        {
+          "href": "#nota-fiscal-e-pagamento-na-reforma",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-reforma-na-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#reforma-tributaria",
+          "exists": true
+        },
+        {
+          "href": "#e-para-a-minha-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-fazer-agora",
+          "exists": true
+        },
+        {
+          "href": "#nota-fiscal-e-pagamento-na-reforma",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-reforma-na-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#o-que-mudou",
+          "exists": true
+        },
+        {
+          "href": "#tabela-mensal-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#declaracao-2026-e-2027",
+          "exists": true
+        },
+        {
+          "href": "#para-socios-e-donos-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-separar-para-a-declaracao",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-da-reducao-mensal-do-ir",
+          "exists": true
+        },
+        {
+          "href": "#duas-fontes-e-declaracao-anual",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#o-que-mudou",
+          "exists": true
+        },
+        {
+          "href": "#tabela-mensal-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#declaracao-2026-e-2027",
+          "exists": true
+        },
+        {
+          "href": "#para-socios-e-donos-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-separar-para-a-declaracao",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-da-reducao-mensal-do-ir",
+          "exists": true
+        },
+        {
+          "href": "#duas-fontes-e-declaracao-anual",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#os-numeros-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#quem-pode-ser-mei",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-paga-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-pode-faturar",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#sinais-de-que-e-hora-de-virar-microempresa",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-limite-proporcional-mei",
+          "exists": true
+        },
+        {
+          "href": "#controle-mensal-de-receitas-mei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#os-numeros-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#quem-pode-ser-mei",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-paga-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-pode-faturar",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#sinais-de-que-e-hora-de-virar-microempresa",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-limite-proporcional-mei",
+          "exists": true
+        },
+        {
+          "href": "#controle-mensal-de-receitas-mei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#prazos-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#o-que-e-o-simples-nacional",
+          "exists": true
+        },
+        {
+          "href": "#limites-de-faturamento-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#os-cinco-anexos",
+          "exists": true
+        },
+        {
+          "href": "#o-que-muda-em-2027-cbs-e-ibs-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#simples-lucro-presumido-ou-lucro-real",
+          "exists": true
+        },
+        {
+          "href": "#quem-nao-pode-entrar-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-das-no-comercio",
+          "exists": true
+        },
+        {
+          "href": "#duas-escolhas-diferentes-em-outubro",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#prazos-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#o-que-e-o-simples-nacional",
+          "exists": true
+        },
+        {
+          "href": "#limites-de-faturamento-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#os-cinco-anexos",
+          "exists": true
+        },
+        {
+          "href": "#o-que-muda-em-2027-cbs-e-ibs-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#simples-lucro-presumido-ou-lucro-real",
+          "exists": true
+        },
+        {
+          "href": "#quem-nao-pode-entrar-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-das-no-comercio",
+          "exists": true
+        },
+        {
+          "href": "#duas-escolhas-diferentes-em-outubro",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#escolha-o-tipo-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#passo-a-passo",
+          "exists": true
+        },
+        {
+          "href": "#documentos-que-voce-vai-precisar",
+          "exists": true
+        },
+        {
+          "href": "#cnpj-com-letras-e-numeros",
+          "exists": true
+        },
+        {
+          "href": "#depois-de-abrir",
+          "exists": true
+        },
+        {
+          "href": "#viabilidade-antes-de-alugar-o-ponto",
+          "exists": true
+        },
+        {
+          "href": "#preparar-dados-e-primeira-nota",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#escolha-o-tipo-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#passo-a-passo",
+          "exists": true
+        },
+        {
+          "href": "#documentos-que-voce-vai-precisar",
+          "exists": true
+        },
+        {
+          "href": "#cnpj-com-letras-e-numeros",
+          "exists": true
+        },
+        {
+          "href": "#depois-de-abrir",
+          "exists": true
+        },
+        {
+          "href": "#viabilidade-antes-de-alugar-o-ponto",
+          "exists": true
+        },
+        {
+          "href": "#preparar-dados-e-primeira-nota",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-a-diferenca",
+          "exists": true
+        },
+        {
+          "href": "#como-funciona-o-pro-labore",
+          "exists": true
+        },
+        {
+          "href": "#o-que-paga-cada-tipo-de-retirada",
+          "exists": true
+        },
+        {
+          "href": "#a-nova-regra-dos-lucros",
+          "exists": true
+        },
+        {
+          "href": "#como-fazer-do-jeito-certo",
+          "exists": true
+        },
+        {
+          "href": "#saldo-bancario-nao-e-lucro",
+          "exists": true
+        },
+        {
+          "href": "#dividendos-no-mes-e-obrigacoes",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-a-diferenca",
+          "exists": true
+        },
+        {
+          "href": "#como-funciona-o-pro-labore",
+          "exists": true
+        },
+        {
+          "href": "#o-que-paga-cada-tipo-de-retirada",
+          "exists": true
+        },
+        {
+          "href": "#a-nova-regra-dos-lucros",
+          "exists": true
+        },
+        {
+          "href": "#como-fazer-do-jeito-certo",
+          "exists": true
+        },
+        {
+          "href": "#saldo-bancario-nao-e-lucro",
+          "exists": true
+        },
+        {
+          "href": "#dividendos-no-mes-e-obrigacoes",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#valores-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#desconto-do-inss-no-salario",
+          "exists": true
+        },
+        {
+          "href": "#como-contratar-um-funcionario",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-de-todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#13-salario-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#ferias-e-desligamento",
+          "exists": true
+        },
+        {
+          "href": "#preparar-a-admissao-e-a-folha",
+          "exists": true
+        },
+        {
+          "href": "#salario-liquido-e-custo-da-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#valores-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#desconto-do-inss-no-salario",
+          "exists": true
+        },
+        {
+          "href": "#como-contratar-um-funcionario",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-de-todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#13-salario-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#ferias-e-desligamento",
+          "exists": true
+        },
+        {
+          "href": "#preparar-a-admissao-e-a-folha",
+          "exists": true
+        },
+        {
+          "href": "#salario-liquido-e-custo-da-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#de-outubro-de-2026-a-maio-de-2027",
+          "exists": true
+        },
+        {
+          "href": "#competencia-entrega-e-pagamento",
+          "exists": true
+        },
+        {
+          "href": "#rotina-para-evitar-atrasos",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#de-outubro-de-2026-a-maio-de-2027",
+          "exists": true
+        },
+        {
+          "href": "#competencia-entrega-e-pagamento",
+          "exists": true
+        },
+        {
+          "href": "#rotina-para-evitar-atrasos",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#a-proposta-ja-esta-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-esta-sendo-discutido",
+          "exists": true
+        },
+        {
+          "href": "#em-que-etapa-esta-a-pec",
+          "exists": true
+        },
+        {
+          "href": "#o-que-a-empresa-pode-organizar-agora",
+          "exists": true
+        },
+        {
+          "href": "#escala-6x1-e-regra-vigente",
+          "exists": true
+        },
+        {
+          "href": "#pec-221-e-pec-148",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-jornada-sem-antecipar-lei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#a-proposta-ja-esta-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-esta-sendo-discutido",
+          "exists": true
+        },
+        {
+          "href": "#em-que-etapa-esta-a-pec",
+          "exists": true
+        },
+        {
+          "href": "#o-que-a-empresa-pode-organizar-agora",
+          "exists": true
+        },
+        {
+          "href": "#escala-6x1-e-regra-vigente",
+          "exists": true
+        },
+        {
+          "href": "#pec-221-e-pec-148",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-jornada-sem-antecipar-lei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-limite-continua-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-propoe-o-plp-108-2021",
+          "exists": true
+        },
+        {
+          "href": "#ha-outra-proposta-de-aumento-gradual",
+          "exists": true
+        },
+        {
+          "href": "#como-se-preparar-enquanto-os-projetos-tramitam",
+          "exists": true
+        },
+        {
+          "href": "#comparacao-dos-projetos-mei",
+          "exists": true
+        },
+        {
+          "href": "#tramite-do-projeto-nao-e-lei",
+          "exists": true
+        },
+        {
+          "href": "#crescer-sem-contar-com-novo-teto",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-limite-continua-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-propoe-o-plp-108-2021",
+          "exists": true
+        },
+        {
+          "href": "#ha-outra-proposta-de-aumento-gradual",
+          "exists": true
+        },
+        {
+          "href": "#como-se-preparar-enquanto-os-projetos-tramitam",
+          "exists": true
+        },
+        {
+          "href": "#comparacao-dos-projetos-mei",
+          "exists": true
+        },
+        {
+          "href": "#tramite-do-projeto-nao-e-lei",
+          "exists": true
+        },
+        {
+          "href": "#crescer-sem-contar-com-novo-teto",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 327,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#reforma-tributaria",
+          "exists": true
+        },
+        {
+          "href": "#e-para-a-minha-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-fazer-agora",
+          "exists": true
+        },
+        {
+          "href": "#nota-fiscal-e-pagamento-na-reforma",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-reforma-na-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#reforma-tributaria",
+          "exists": true
+        },
+        {
+          "href": "#e-para-a-minha-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-fazer-agora",
+          "exists": true
+        },
+        {
+          "href": "#nota-fiscal-e-pagamento-na-reforma",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-reforma-na-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "informacoes",
+      "width": 360,
+      "anchor": "#planejamento-da-reforma-na-empresa",
+      "targetTop": 81.8125,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#o-que-mudou",
+          "exists": true
+        },
+        {
+          "href": "#tabela-mensal-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#declaracao-2026-e-2027",
+          "exists": true
+        },
+        {
+          "href": "#para-socios-e-donos-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-separar-para-a-declaracao",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-da-reducao-mensal-do-ir",
+          "exists": true
+        },
+        {
+          "href": "#duas-fontes-e-declaracao-anual",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#o-que-mudou",
+          "exists": true
+        },
+        {
+          "href": "#tabela-mensal-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#declaracao-2026-e-2027",
+          "exists": true
+        },
+        {
+          "href": "#para-socios-e-donos-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#o-que-separar-para-a-declaracao",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-da-reducao-mensal-do-ir",
+          "exists": true
+        },
+        {
+          "href": "#duas-fontes-e-declaracao-anual",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "imposto-de-renda",
+      "width": 360,
+      "anchor": "#duas-fontes-e-declaracao-anual",
+      "targetTop": 82.21875,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#os-numeros-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#quem-pode-ser-mei",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-paga-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-pode-faturar",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#sinais-de-que-e-hora-de-virar-microempresa",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-limite-proporcional-mei",
+          "exists": true
+        },
+        {
+          "href": "#controle-mensal-de-receitas-mei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#os-numeros-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#quem-pode-ser-mei",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-paga-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#quanto-o-mei-pode-faturar",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-do-mei",
+          "exists": true
+        },
+        {
+          "href": "#sinais-de-que-e-hora-de-virar-microempresa",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-limite-proporcional-mei",
+          "exists": true
+        },
+        {
+          "href": "#controle-mensal-de-receitas-mei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "mei",
+      "width": 360,
+      "anchor": "#controle-mensal-de-receitas-mei",
+      "targetTop": 81.515625,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#prazos-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#o-que-e-o-simples-nacional",
+          "exists": true
+        },
+        {
+          "href": "#limites-de-faturamento-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#os-cinco-anexos",
+          "exists": true
+        },
+        {
+          "href": "#o-que-muda-em-2027-cbs-e-ibs-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#simples-lucro-presumido-ou-lucro-real",
+          "exists": true
+        },
+        {
+          "href": "#quem-nao-pode-entrar-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-das-no-comercio",
+          "exists": true
+        },
+        {
+          "href": "#duas-escolhas-diferentes-em-outubro",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#prazos-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#o-que-e-o-simples-nacional",
+          "exists": true
+        },
+        {
+          "href": "#limites-de-faturamento-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#os-cinco-anexos",
+          "exists": true
+        },
+        {
+          "href": "#o-que-muda-em-2027-cbs-e-ibs-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#simples-lucro-presumido-ou-lucro-real",
+          "exists": true
+        },
+        {
+          "href": "#quem-nao-pode-entrar-no-simples",
+          "exists": true
+        },
+        {
+          "href": "#exemplo-do-das-no-comercio",
+          "exists": true
+        },
+        {
+          "href": "#duas-escolhas-diferentes-em-outubro",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "simples-nacional",
+      "width": 360,
+      "anchor": "#duas-escolhas-diferentes-em-outubro",
+      "targetTop": 82.359375,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#escolha-o-tipo-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#passo-a-passo",
+          "exists": true
+        },
+        {
+          "href": "#documentos-que-voce-vai-precisar",
+          "exists": true
+        },
+        {
+          "href": "#cnpj-com-letras-e-numeros",
+          "exists": true
+        },
+        {
+          "href": "#depois-de-abrir",
+          "exists": true
+        },
+        {
+          "href": "#viabilidade-antes-de-alugar-o-ponto",
+          "exists": true
+        },
+        {
+          "href": "#preparar-dados-e-primeira-nota",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#escolha-o-tipo-de-empresa",
+          "exists": true
+        },
+        {
+          "href": "#passo-a-passo",
+          "exists": true
+        },
+        {
+          "href": "#documentos-que-voce-vai-precisar",
+          "exists": true
+        },
+        {
+          "href": "#cnpj-com-letras-e-numeros",
+          "exists": true
+        },
+        {
+          "href": "#depois-de-abrir",
+          "exists": true
+        },
+        {
+          "href": "#viabilidade-antes-de-alugar-o-ponto",
+          "exists": true
+        },
+        {
+          "href": "#preparar-dados-e-primeira-nota",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "abrir-empresa",
+      "width": 360,
+      "anchor": "#preparar-dados-e-primeira-nota",
+      "targetTop": 82.1875,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-a-diferenca",
+          "exists": true
+        },
+        {
+          "href": "#como-funciona-o-pro-labore",
+          "exists": true
+        },
+        {
+          "href": "#o-que-paga-cada-tipo-de-retirada",
+          "exists": true
+        },
+        {
+          "href": "#a-nova-regra-dos-lucros",
+          "exists": true
+        },
+        {
+          "href": "#como-fazer-do-jeito-certo",
+          "exists": true
+        },
+        {
+          "href": "#saldo-bancario-nao-e-lucro",
+          "exists": true
+        },
+        {
+          "href": "#dividendos-no-mes-e-obrigacoes",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-a-diferenca",
+          "exists": true
+        },
+        {
+          "href": "#como-funciona-o-pro-labore",
+          "exists": true
+        },
+        {
+          "href": "#o-que-paga-cada-tipo-de-retirada",
+          "exists": true
+        },
+        {
+          "href": "#a-nova-regra-dos-lucros",
+          "exists": true
+        },
+        {
+          "href": "#como-fazer-do-jeito-certo",
+          "exists": true
+        },
+        {
+          "href": "#saldo-bancario-nao-e-lucro",
+          "exists": true
+        },
+        {
+          "href": "#dividendos-no-mes-e-obrigacoes",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "pro-labore-e-lucros",
+      "width": 360,
+      "anchor": "#dividendos-no-mes-e-obrigacoes",
+      "targetTop": 81.59375,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#valores-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#desconto-do-inss-no-salario",
+          "exists": true
+        },
+        {
+          "href": "#como-contratar-um-funcionario",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-de-todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#13-salario-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#ferias-e-desligamento",
+          "exists": true
+        },
+        {
+          "href": "#preparar-a-admissao-e-a-folha",
+          "exists": true
+        },
+        {
+          "href": "#salario-liquido-e-custo-da-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#valores-de-2026",
+          "exists": true
+        },
+        {
+          "href": "#desconto-do-inss-no-salario",
+          "exists": true
+        },
+        {
+          "href": "#como-contratar-um-funcionario",
+          "exists": true
+        },
+        {
+          "href": "#obrigacoes-de-todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#13-salario-em-2026",
+          "exists": true
+        },
+        {
+          "href": "#ferias-e-desligamento",
+          "exists": true
+        },
+        {
+          "href": "#preparar-a-admissao-e-a-folha",
+          "exists": true
+        },
+        {
+          "href": "#salario-liquido-e-custo-da-empresa",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "departamento-pessoal",
+      "width": 360,
+      "anchor": "#salario-liquido-e-custo-da-empresa",
+      "targetTop": 82.1875,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#de-outubro-de-2026-a-maio-de-2027",
+          "exists": true
+        },
+        {
+          "href": "#competencia-entrega-e-pagamento",
+          "exists": true
+        },
+        {
+          "href": "#rotina-para-evitar-atrasos",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#todo-mes",
+          "exists": true
+        },
+        {
+          "href": "#de-outubro-de-2026-a-maio-de-2027",
+          "exists": true
+        },
+        {
+          "href": "#competencia-entrega-e-pagamento",
+          "exists": true
+        },
+        {
+          "href": "#rotina-para-evitar-atrasos",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "calendario-fiscal",
+      "width": 360,
+      "anchor": "#rotina-para-evitar-atrasos",
+      "targetTop": 81.9375,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#a-proposta-ja-esta-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-esta-sendo-discutido",
+          "exists": true
+        },
+        {
+          "href": "#em-que-etapa-esta-a-pec",
+          "exists": true
+        },
+        {
+          "href": "#o-que-a-empresa-pode-organizar-agora",
+          "exists": true
+        },
+        {
+          "href": "#escala-6x1-e-regra-vigente",
+          "exists": true
+        },
+        {
+          "href": "#pec-221-e-pec-148",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-jornada-sem-antecipar-lei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#a-proposta-ja-esta-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-esta-sendo-discutido",
+          "exists": true
+        },
+        {
+          "href": "#em-que-etapa-esta-a-pec",
+          "exists": true
+        },
+        {
+          "href": "#o-que-a-empresa-pode-organizar-agora",
+          "exists": true
+        },
+        {
+          "href": "#escala-6x1-e-regra-vigente",
+          "exists": true
+        },
+        {
+          "href": "#pec-221-e-pec-148",
+          "exists": true
+        },
+        {
+          "href": "#planejamento-da-jornada-sem-antecipar-lei",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "fim-escala-6x1",
+      "width": 360,
+      "anchor": "#planejamento-da-jornada-sem-antecipar-lei",
+      "targetTop": 81.765625,
+      "current": "true",
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-limite-continua-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-propoe-o-plp-108-2021",
+          "exists": true
+        },
+        {
+          "href": "#ha-outra-proposta-de-aumento-gradual",
+          "exists": true
+        },
+        {
+          "href": "#como-se-preparar-enquanto-os-projetos-tramitam",
+          "exists": true
+        },
+        {
+          "href": "#comparacao-dos-projetos-mei",
+          "exists": true
+        },
+        {
+          "href": "#tramite-do-projeto-nao-e-lei",
+          "exists": true
+        },
+        {
+          "href": "#crescer-sem-contar-com-novo-teto",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "h1": 1,
+      "toc": [
+        {
+          "href": "#qual-limite-continua-valendo",
+          "exists": true
+        },
+        {
+          "href": "#o-que-propoe-o-plp-108-2021",
+          "exists": true
+        },
+        {
+          "href": "#ha-outra-proposta-de-aumento-gradual",
+          "exists": true
+        },
+        {
+          "href": "#como-se-preparar-enquanto-os-projetos-tramitam",
+          "exists": true
+        },
+        {
+          "href": "#comparacao-dos-projetos-mei",
+          "exists": true
+        },
+        {
+          "href": "#tramite-do-projeto-nao-e-lei",
+          "exists": true
+        },
+        {
+          "href": "#crescer-sem-contar-com-novo-teto",
+          "exists": true
+        }
+      ],
+      "backslashAttributes": 0,
+      "readingWidth": 297,
+      "questionsAccordion": 0,
+      "errors": []
+    },
+    {
+      "slug": "novo-limite-mei",
+      "width": 360,
+      "anchor": "#crescer-sem-contar-com-novo-teto",
+      "targetTop": 82.296875,
+      "current": "true",
+      "errors": []
+    }
+  ]
+}
