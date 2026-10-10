@@ -267,3 +267,6 @@ Claude concluiu e registrou a rodada em docs/handoff.md (commit local a6a89a2). 
 
 ## 10/10/2026 — Codex: nome completo e Instagram oficial
 Rafael confirmou Gestão Empresarial e Planejamento Contábil e @gescomp_. Padronizei identidade e sameAs nos 16 AccountingService, WebSite, título/descrições da inicial, dois textos de identificação e links do perfil, llms e lastmod da inicial. Validação de 17 HTML/16 URLs e oito cenários da inicial aprovados; rio idêntico pixel a pixel em claro/escuro. Detalhes em docs/seo-identidade-2026-10-10.md e docs/handoff.md. A revisão de desempenho/Rumera do Claude permanece fora deste commit, sem sobrescrever seus arquivos: versão de SEO preparada e testada separadamente contra e035c83. Commit/push autorizados; sem alterações de conta, promessas de primeiro lugar ou marcas fictícias.
+
+## 10/10/2026 — Codex: publicação das pendências
+Pedido explícito de commit e push. Revisadas a remoção da assinatura Rumera e regras CSS associadas; publicação inclui o commit local 2e63867 do Claude. Sintaxe dos três JavaScript e git diff --check aprovados; não se afirma nova execução de testes de navegador. Detalhes em docs/handoff.md.
