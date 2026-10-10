@@ -1,0 +1,127 @@
+{
+  "rows": [
+    {
+      "w": 1366,
+      "theme": "light",
+      "title": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "overflow": false,
+      "broken": [],
+      "nameVisible": true,
+      "instagramVisible": true,
+      "profileUrls": [
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/"
+      ],
+      "schema": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "w": 1366,
+      "theme": "dark",
+      "title": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "overflow": false,
+      "broken": [],
+      "nameVisible": true,
+      "instagramVisible": true,
+      "profileUrls": [
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/"
+      ],
+      "schema": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "w": 1920,
+      "theme": "light",
+      "title": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "overflow": false,
+      "broken": [],
+      "nameVisible": true,
+      "instagramVisible": true,
+      "profileUrls": [
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/"
+      ],
+      "schema": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "w": 1920,
+      "theme": "dark",
+      "title": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "overflow": false,
+      "broken": [],
+      "nameVisible": true,
+      "instagramVisible": true,
+      "profileUrls": [
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/"
+      ],
+      "schema": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "w": 390,
+      "theme": "light",
+      "title": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "overflow": false,
+      "broken": [],
+      "nameVisible": true,
+      "instagramVisible": true,
+      "profileUrls": [
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/"
+      ],
+      "schema": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "w": 390,
+      "theme": "dark",
+      "title": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "overflow": false,
+      "broken": [],
+      "nameVisible": true,
+      "instagramVisible": true,
+      "profileUrls": [
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/"
+      ],
+      "schema": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "w": 360,
+      "theme": "light",
+      "title": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "overflow": false,
+      "broken": [],
+      "nameVisible": true,
+      "instagramVisible": true,
+      "profileUrls": [
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/"
+      ],
+      "schema": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "w": 360,
+      "theme": "dark",
+      "title": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "overflow": false,
+      "broken": [],
+      "nameVisible": true,
+      "instagramVisible": true,
+      "profileUrls": [
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/",
+        "https://www.instagram.com/gescomp_/"
+      ],
+      "schema": "https://www.instagram.com/gescomp_/"
+    }
+  ],
+  "errors": [],
+  "providers": "simulados",
+  "pasta": "identidade-preparada"
+}

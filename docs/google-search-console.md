@@ -90,3 +90,9 @@ Após publicar:
 4. Mantenha o Perfil da Empresa coerente com marca, endereço verdadeiro, telefone e domínio. Não registre grafias erradas como nome comercial nem crie filiais fictícias para pesquisas por cidade.
 
 O guia de IA do Google informa que não há comprimento ideal de artigo nem arquivo/markup exclusivo que garanta visibilidade. `llms.txt` não funciona como mecanismo de classificação no Google. A nova redação acrescenta explicações úteis, fontes e exemplos; não simula marca “GECOMP” e não promete primeiro lugar. Nenhuma alteração foi feita nas contas Google ou Cloudflare nesta rodada.
+
+## Atualização de 10/10/2026 — nome completo e Instagram
+
+Rafael confirmou **Gestão Empresarial e Planejamento Contábil** e **@gescomp_**. A identificação da inicial e dos 16 nós AccountingService associa a marca GESCOMP ao nome e ao perfil oficial; detalhes em [seo-identidade-2026-10-10.md](seo-identidade-2026-10-10.md). Após o push, inspecionar a inicial e, se o painel permitir, pedir nova indexação. Manter a submissão `sitemap.xml?v=20261006`.
+
+Acompanhar consultas `GESCOMP`, `gescomp_`, `@gescomp_`, `GESCOMP negócios`, o nome completo e sua escrita sem acentos, além das combinações com serviços e localização. Esses filtros medem resultados; não são nomes alternativos inventados nem garantias de posicionamento. Nenhuma conta ou rede social foi editada nesta etapa.

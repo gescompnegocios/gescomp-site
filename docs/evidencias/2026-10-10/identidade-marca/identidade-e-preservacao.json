@@ -1,0 +1,89 @@
+{
+  "base": "e035c83",
+  "pastaIsolada": true,
+  "entidades": [
+    {
+      "pagina": "abrir-empresa.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "calculos-trabalhistas.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "consultoria-financeira.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "contabilidade-empresarial.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "escolha-de-regime-tributario.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "index.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "informacoes.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "mei.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "regularizacao-baixa-cnpj.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "identidade": "GESCOMP",
+      "instagram": "https://www.instagram.com/gescomp_/"
+    }
+  ],
+  "bodyPreservadoExcetoTextosDaInicialEUrlDoPerfil": true,
+  "assetsRioJsCssIntactos": true,
+  "erros": []
+}

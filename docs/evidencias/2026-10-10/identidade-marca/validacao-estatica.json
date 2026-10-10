@@ -1,0 +1,114 @@
+{
+  "data": "2026-10-10",
+  "paginas": [
+    {
+      "pagina": "404.html",
+      "titulo": "Página não encontrada | GESCOMP",
+      "palavrasBody": 17,
+      "ids": 0
+    },
+    {
+      "pagina": "abrir-empresa.html",
+      "titulo": "Como abrir uma empresa: passo a passo | GESCOMP",
+      "palavrasBody": 1858,
+      "ids": 20
+    },
+    {
+      "pagina": "calculos-trabalhistas.html",
+      "titulo": "Cálculos trabalhistas: rescisão, férias e 13º | GESCOMP",
+      "palavrasBody": 460,
+      "ids": 10
+    },
+    {
+      "pagina": "calendario-fiscal.html",
+      "titulo": "Calendário fiscal: prazos até maio de 2027 | GESCOMP",
+      "palavrasBody": 1612,
+      "ids": 17
+    },
+    {
+      "pagina": "consultoria-financeira.html",
+      "titulo": "Consultoria financeira empresarial | GESCOMP",
+      "palavrasBody": 467,
+      "ids": 10
+    },
+    {
+      "pagina": "contabilidade-empresarial.html",
+      "titulo": "Contabilidade empresarial em Barra dos Coqueiros | GESCOMP",
+      "palavrasBody": 504,
+      "ids": 10
+    },
+    {
+      "pagina": "departamento-pessoal.html",
+      "titulo": "Folha de pagamento 2026: INSS, FGTS, 13º e férias | GESCOMP",
+      "palavrasBody": 1912,
+      "ids": 21
+    },
+    {
+      "pagina": "escolha-de-regime-tributario.html",
+      "titulo": "Escolha do regime de impostos | GESCOMP",
+      "palavrasBody": 472,
+      "ids": 10
+    },
+    {
+      "pagina": "fim-escala-6x1.html",
+      "titulo": "Fim da escala 6x1: situação da PEC e jornada | GESCOMP",
+      "palavrasBody": 1344,
+      "ids": 20
+    },
+    {
+      "pagina": "imposto-de-renda.html",
+      "titulo": "Imposto de Renda 2026: redução, tabela e dividendos | GESCOMP",
+      "palavrasBody": 2078,
+      "ids": 20
+    },
+    {
+      "pagina": "index.html",
+      "titulo": "GESCOMP | Gestão Empresarial e Planejamento Contábil",
+      "palavrasBody": 1373,
+      "ids": 33
+    },
+    {
+      "pagina": "informacoes.html",
+      "titulo": "Informações contábeis e reforma tributária 2026 | GESCOMP",
+      "palavrasBody": 1588,
+      "ids": 19
+    },
+    {
+      "pagina": "mei.html",
+      "titulo": "MEI 2026: valor do DAS, limite de R$ 81 mil e prazos | GESCOMP",
+      "palavrasBody": 1952,
+      "ids": 21
+    },
+    {
+      "pagina": "novo-limite-mei.html",
+      "titulo": "Novo limite do MEI: projetos e teto vigente | GESCOMP",
+      "palavrasBody": 1415,
+      "ids": 20
+    },
+    {
+      "pagina": "pro-labore-e-lucros.html",
+      "titulo": "Pró-labore e distribuição de lucros em 2026 | GESCOMP",
+      "palavrasBody": 1920,
+      "ids": 20
+    },
+    {
+      "pagina": "regularizacao-baixa-cnpj.html",
+      "titulo": "Regularização e baixa de CNPJ | GESCOMP",
+      "palavrasBody": 469,
+      "ids": 10
+    },
+    {
+      "pagina": "simples-nacional.html",
+      "titulo": "Simples Nacional: limites e prazos de outubro de 2026 | GESCOMP",
+      "palavrasBody": 2227,
+      "ids": 22
+    }
+  ],
+  "urlsSitemap": 16,
+  "snapshotClaudeDisponivel": true,
+  "arquivosPreservadosContraSnapshotClaude": 0,
+  "deltasPosterioresClaudeRevisados": [],
+  "rioHtmlIntactoContraGitInicial": true,
+  "exemplosDecimaisConferidos": 6,
+  "erros": []
+}
