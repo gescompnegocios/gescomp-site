@@ -137,7 +137,7 @@ As páginas de Informações e os guias usam componentes com classe em `site.css
   - no computador, o rótulo aparece só na primeira linha; nas outras fica só para leitores de tela;
   - no celular, as linhas empilham com rótulo.
 - **Agenda de datas** (`.artigo-linhas` > `.artigo-agenda-linha`): `.artigo-agenda-data` (com `destaque`, em laranja, ou `periodo`, em petróleo-claro) e `.artigo-agenda-texto`. A data é texto marcado por um fio, não pílula.
-- **Grade de cards** (`.artigo-cards`): as colunas seguem a quantidade de cards. 2 viram 2 colunas, 3 viram 3, **4 viram 2×2** e 5 ou mais viram 3; no celular, 1 coluna.
+- **Grade de cards** (`.artigo-cards`): não é mais usada nos artigos (veja "Sem caixas" abaixo).
 - **Marcadores** (`.marcador` com `-contorno`, `-cbs` ou `-ibs`): retângulos com raio de 6 px. Não use etiqueta arredondada ou centralizada.
 - **Fontes oficiais** (`aside.artigo-fontes` com `h2.artigo-fontes-titulo`, `ul.artigo-fontes-lista` e `p.artigo-fontes-nota`):
   - fecham a coluna de texto do artigo (fim de `.artigo-texto`);
@@ -160,16 +160,25 @@ Os 10 artigos (`informacoes` e os 9 guias e propostas) seguem o mesmo esqueleto,
     <aside class="artigo-fontes" aria-labelledby="fontes-titulo">…</aside>
   </div>
 </div>
-<section class="leia-mais"><div class="leia-mais-interno"><h2 class="titulo-secao">Veja também</h2><ul class="mudancas-lista"><li><a class="mudancas-item" href="/…"><span class="mudancas-titulo">…</span><span class="mudancas-texto">…</span><span class="mudancas-ler">Ler artigo<svg …></svg></span></a></li>…</ul><a class="leia-mais-todos" href="/informacoes">Ver todos os assuntos<svg …></svg></a></div></section>
+<section class="leia-mais"><div class="leia-mais-interno"><h2 class="titulo-secao">Veja também</h2><ul class="mudancas-lista"><li><a class="mudancas-item" href="/…"><span class="mudancas-titulo">…</span><span class="mudancas-texto">…</span><span class="mudancas-ler">Ler artigo<svg …></svg></span></a></li>…</ul></div></section>
 ```
 
 - **Fundo:** o corpo usa uma cor só (`--chao`). Não crie faixas `background: var(--superficie)` de largura total.
 - **Seção nova:** use `section.artigo-secao` com `id` e `h2.titulo-secao`, e acrescente o mesmo item no sumário (`href="#id"`, com o texto exato do título). `site.js` marca o trecho em leitura.
 - **Texto corrido:** `<p>` e `<ul>` sem classe dentro da seção já saem no padrão. A lista com ✓ é `ul.artigo-lista-check`.
 - **Perguntas:** não use FAQ em sanfona (`<details>`) nos artigos. Cada pergunta vira `h3.artigo-pergunta` seguida da resposta em `<p>`, na seção a que se refere. O JSON-LD FAQPage continua válido porque as perguntas e as respostas ficam visíveis.
-- **Veja também:** é a mesma lista `.mudancas-*` da inicial, sem número e sem foto. São 3 colunas no computador e uma embaixo da outra no celular.
-- **Cards** dentro da coluna: no máximo 2 por linha.
-- **Aviso no topo** das páginas de proposta: `section.artigo-secao.proposta-aviso`.
+- **Veja também:** é a mesma lista `.mudancas-*` da inicial, sem número e sem foto.
+  - Cada artigo lista **todos os outros artigos**, menos ele mesmo, na ordem de `/informacoes`; a Reforma tributária vem primeiro.
+  - Ao criar um artigo novo, acrescente-o à lista final das outras páginas.
+- **Sem caixas** (10/10/2026): no light, o fundo dos artigos é branco. Dentro de `.artigo-texto` não use `.cartao`, ícone em quadrado (`.icone-solido`), fundo próprio nem borda arredondada. Use:
+  - **subtítulo + texto:** `div.artigo-itens` > `div.artigo-item` com `h3.artigo-item-titulo` e `<p>`; os itens ficam separados por fios;
+  - **nota:** `div.artigo-nota`, com fio à esquerda em petróleo, ou em laranja com `artigo-nota-alerta`, e `p.artigo-nota-titulo` + `<p>`. O aviso do topo das páginas de proposta é `section.artigo-secao.artigo-nota`;
+  - **"Em resumo":** `div.artigo-resumo` com `p.artigo-resumo-titulo` e `ul.artigo-lista-check`;
+  - **números:** `div.artigo-numeros` > `div.artigo-numero` com `p.artigo-numero-valor` e `p.artigo-numero-legenda`;
+  - **passos:** `ol.artigo-passos` > `li` com `span.artigo-passo-num` e `div` (`p.artigo-passo-titulo` + `<p>`);
+  - **linha do tempo:** `ol.artigo-linha-tempo` > `li` com `p.artigo-marco-titulo` (`<span>` para o complemento) + `<p>`;
+  - **chamada de contato:** a mesma `aside.cta-contexto`; dentro do artigo, ela aparece entre fios, sem caixa verde.
+- `docs/testes/artigos-editoriais.js` fez a conversão a partir do HTML de 3554c0f, com as mesmas travas.
 
 `docs/testes/padronizar-paginas-artigo.js` fez a conversão, com travas de texto, links, `id`s e conteúdo fora do `<main>`. Ele só serve para a conversão inicial: depois dela, as páginas já não têm `<details>` e o script para.
 
