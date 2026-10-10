@@ -10,9 +10,20 @@
     s.setAttribute("data-vlibras", "");
     document.body.appendChild(s);
   }
+  // O plugin ocupa o processador por vários segundos no celular. Ele carrega na primeira interação
+  // (rolar, tocar, teclar) ou, sem interação, alguns segundos depois de a página ficar ociosa.
+  var eventos = ["pointerdown", "keydown", "scroll", "touchstart"], feito = false;
+  function uma() {
+    if (feito) return; feito = true;
+    for (var i = 0; i < eventos.length; i++) window.removeEventListener(eventos[i], uma, true);
+    carregar();
+  }
   function agendar() {
-    if ("requestIdleCallback" in window) requestIdleCallback(carregar, { timeout: 2500 });
-    else setTimeout(carregar, 1500);
+    for (var i = 0; i < eventos.length; i++) window.addEventListener(eventos[i], uma, { capture: true, passive: true, once: true });
+    setTimeout(function () {
+      if ("requestIdleCallback" in window) requestIdleCallback(uma, { timeout: 4000 });
+      else uma();
+    }, 6000);
   }
   if (document.readyState === "complete") agendar();
   else window.addEventListener("load", agendar);

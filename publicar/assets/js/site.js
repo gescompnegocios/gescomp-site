@@ -20,8 +20,9 @@ for(var j=0;j<fechar.length;j++)fechar[j].addEventListener('click',function(){me
 document.addEventListener('keydown',function(ev){if(ev.key==='Escape'&&mm&&!mm.hidden){menu(false);bm.focus();}});
 // Links internos param abaixo do cabeçalho fixo: --cabecalho (CSS) acompanha a altura real. Com o menu aberto o cabeçalho cresce, então não mede.
 var cabecalho=document.querySelector('.gc-cabecalho');
-function medirCabecalho(){if(cabecalho&&(!mm||mm.hidden)){var a=Math.round(cabecalho.getBoundingClientRect().height);if(a>0)raiz.style.setProperty('--cabecalho',a+'px');}}
-requestAnimationFrame(medirCabecalho);
+function medirCabecalho(){if(cabecalho&&(!mm||mm.hidden)){var a=Math.round(cabecalho.getBoundingClientRect().height);if(a>0&&raiz.style.getPropertyValue('--cabecalho')!==a+'px')raiz.style.setProperty('--cabecalho',a+'px');}}
+// Mede depois do layout (ResizeObserver), sem forçar um layout extra durante o carregamento.
+if(window.ResizeObserver&&cabecalho)new ResizeObserver(medirCabecalho).observe(cabecalho);else requestAnimationFrame(medirCabecalho);
 var mq=window.matchMedia('(max-width: 779px)');
 var fab=document.getElementById('fab');
 // O WhatsApp fica disponível também no formulário; não ocultar ao rolar.
@@ -183,7 +184,10 @@ function criarCarrossel(raiz,op){
   if(mqSetas&&mqSetas.addEventListener)mqSetas.addEventListener('change',atualizarSetas);
   if(window.ResizeObserver)new ResizeObserver(atualizarSetas).observe(trilha);
   if(window.IntersectionObserver){var ioCarrossel=new IntersectionObserver(function(es){visivel=es.some(function(e){return e.isIntersecting;});agendar();});ioCarrossel.observe(raiz);}
-  atualizarSetas(); agendar();
+  // A primeira medida vem dos próprios observadores, que disparam logo após o primeiro layout:
+  // chamar aqui forçaria o layout da página inteira enquanto ela ainda carrega.
+  if(!window.ResizeObserver)requestAnimationFrame(atualizarSetas);
+  if(!window.IntersectionObserver)requestAnimationFrame(agendar);
   return {ir:ir,navegar:navegar,travar:travar,agendar:agendar,atualizarSetas:atualizarSetas,trilha:trilha,slides:slides};
 }
 
