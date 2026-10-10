@@ -261,3 +261,6 @@ Rodada local, sem commit/push/deploy no pedido atual. Sugestão de commit único
 ## 10/10/2026 — Codex: commit da integração autorizado
 
 Rafael pediu o commit. Revisadas todas as pendências: estrutura editorial do Claude, ampliação dos dez guias, fontes/SEO/sitemap, documentação e evidências. Reexecutadas a validação estática (17 HTML, 16 URLs, sem erros), node --check de site.js/config.js e git diff --check, todos aprovados. Os 106 cenários de navegador continuam registrados na rodada anterior; não foram repetidos nesta etapa. Preparado commit único na main. O pedido atual é somente commit, sem push/deploy.
+
+## 10/10/2026 — Codex: revisão e publicação da rodada editorial
+Claude concluiu e registrou a rodada em docs/handoff.md (commit local a6a89a2). Revisei preservação de conteúdo, fontes/FAQPage/IDs e cache, com 17 HTML/16 URLs sem falhas; 80 cenários de navegador nos quatro tamanhos e dois temas aprovados. Capturas do rio idênticas pixel a pixel à base 3554c0f. Testes leves, integrações externas simuladas. Script e evidências próprios em docs/testes/revisar-editorial-20261010.py e docs/evidencias/2026-10-10/revisao-editorial/. Sem correções de código necessárias. Commit dos registros e push à main autorizados; todo commit do Codex será seguido de push. Ver docs/handoff.md para detalhes e pendências da cliente.

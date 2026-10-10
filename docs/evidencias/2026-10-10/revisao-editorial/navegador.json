@@ -1,0 +1,644 @@
+{
+  "rows": [
+    {
+      "name": "informacoes",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "imposto-de-renda",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "mei",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "simples-nacional",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "abrir-empresa",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "pro-labore-e-lucros",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "departamento-pessoal",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "calendario-fiscal",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "fim-escala-6x1",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "novo-limite-mei",
+      "w": 1366,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "informacoes",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "imposto-de-renda",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "mei",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "simples-nacional",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "abrir-empresa",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "pro-labore-e-lucros",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "departamento-pessoal",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "calendario-fiscal",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "fim-escala-6x1",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "novo-limite-mei",
+      "w": 1366,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "informacoes",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "imposto-de-renda",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "mei",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "simples-nacional",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "abrir-empresa",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "pro-labore-e-lucros",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "departamento-pessoal",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "calendario-fiscal",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "fim-escala-6x1",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "novo-limite-mei",
+      "w": 1920,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "informacoes",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "imposto-de-renda",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "mei",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "simples-nacional",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "abrir-empresa",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "pro-labore-e-lucros",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "departamento-pessoal",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "calendario-fiscal",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "fim-escala-6x1",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "novo-limite-mei",
+      "w": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "informacoes",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "imposto-de-renda",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "mei",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "simples-nacional",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "abrir-empresa",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "pro-labore-e-lucros",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "departamento-pessoal",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "calendario-fiscal",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "fim-escala-6x1",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "novo-limite-mei",
+      "w": 390,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "informacoes",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "imposto-de-renda",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "mei",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "simples-nacional",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "abrir-empresa",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "pro-labore-e-lucros",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "departamento-pessoal",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "calendario-fiscal",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "fim-escala-6x1",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "novo-limite-mei",
+      "w": 390,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "informacoes",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "imposto-de-renda",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "mei",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "simples-nacional",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "abrir-empresa",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "pro-labore-e-lucros",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "departamento-pessoal",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "calendario-fiscal",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "fim-escala-6x1",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "novo-limite-mei",
+      "w": 360,
+      "theme": "light",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "informacoes",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "imposto-de-renda",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "mei",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "simples-nacional",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "abrir-empresa",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "pro-labore-e-lucros",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "departamento-pessoal",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "calendario-fiscal",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "fim-escala-6x1",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    },
+    {
+      "name": "novo-limite-mei",
+      "w": 360,
+      "theme": "dark",
+      "overflow": false,
+      "broken": [],
+      "related": 9
+    }
+  ]
+}

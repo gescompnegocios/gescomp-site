@@ -1,0 +1,18 @@
+[
+  {
+    "tema": "light",
+    "dimensoes": [
+      345,
+      876
+    ],
+    "identico": true
+  },
+  {
+    "tema": "dark",
+    "dimensoes": [
+      345,
+      876
+    ],
+    "identico": true
+  }
+]
