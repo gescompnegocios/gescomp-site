@@ -36,15 +36,15 @@
 .gc-rodape-mapa { color: #D3E6E6; text-decoration: underline; text-decoration-color: #3F979C; text-underline-offset: 4px; display: inline-block; margin-top: 10px; }
 .gc-rodape-divisor { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 .gc-rodape-creditos { max-width: 1200px; margin: 0 auto; padding: 18px 24px 36px; display: flex; justify-content: space-between; align-items: center; gap: 10px 24px; flex-wrap: wrap; font-size: 14px; color: #BFD6D7; }
-.gc-rodape-registros { display: flex; gap: 20px; flex-wrap: wrap; }
+.gc-rodape-registros { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
 /* Assinatura do desenvolvedor (Máximos Coding): a logo já vem com as cores. */
-.gc-rodape-maximos { display: inline-flex; align-items: baseline; gap: .35em; opacity: .8; }
-.gc-rodape-maximos svg { height: 1.25em; width: auto; display: block; overflow: visible; }
+.gc-rodape-maximos { display: inline-flex; align-items: center; gap: .35em; opacity: .8; }
+.gc-rodape-maximos svg { height: 1.6em; width: auto; display: block; overflow: visible; }
 
 /* No computador, a assinatura fica na ponta direita: reserva o espaço do WhatsApp flutuante quando a tela é estreita demais para a margem cobrir. */
-@media (min-width: 900px) { .gc-rodape-creditos { padding-right: max(24px, calc(var(--gc-whatsapp-tamanho) + var(--gc-flutuante-direita) + 32px - (100vw - 1200px) / 2)); } }
-/* No celular, o botão do WhatsApp fica fixo embaixo à direita: deixa a faixa de crédito acima dele. */
-@media (max-width: 899px) { .gc-rodape-creditos { padding-bottom: calc(var(--gc-whatsapp-tamanho) + var(--gc-flutuante-base) + var(--gc-flutuante-gap)); } }
+@media (min-width: 900px) { .gc-rodape-creditos { padding-right: 80px; } }
+/* No celular, a assinatura fica numa linha própria, à esquerda, longe do botão do WhatsApp e do VLibras. */
+@media (max-width: 899px) { .gc-rodape-maximos { flex-basis: 100%; margin-top: 6px; } }
 
 /* WhatsApp flutuante: círculo e ícone vetorial nítidos, sem filtro de pincel. */
 :root { --gc-flutuante-direita: max(18px, env(safe-area-inset-right, 0px)); --gc-flutuante-base: max(18px, env(safe-area-inset-bottom, 0px)); --gc-whatsapp-tamanho: 60px; --gc-flutuante-gap: 16px; }
