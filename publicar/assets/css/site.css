@@ -576,3 +576,18 @@ section.artigo-secao.artigo-nota{gap:14px;scroll-margin-top:var(--folga-ancora)}
 .artigo-texto .cta-contexto a.link-claro{color:var(--titulo);text-decoration-color:#3F979C;text-decoration-thickness:1.5px}
 .artigo-texto .cta-contexto a.link-claro:hover{color:var(--titulo);text-decoration-color:currentColor}
 /* fim — Artigos página */
+
+/* Apresentação institucional: mesmos tokens e acabamento dos cartões existentes. */
+.abertura-acoes .btn-primario{width:336px;max-width:100%;box-sizing:border-box}
+.institucional{display:flex;flex-direction:column;gap:20px;margin-bottom:48px}
+.institucional-cartoes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--gap-cards);margin-top:8px}
+.institucional-cartao{display:flex;flex-direction:column;gap:16px;min-width:0;padding:26px 24px;border-radius:var(--raio-card);background:var(--cartao);border:1px solid var(--borda-card);box-shadow:var(--sombra-card)}
+.institucional-cartao .titulo-card{display:flex;align-items:center;gap:12px;color:var(--titulo)}
+.institucional-cartao svg{width:24px;height:24px;flex-shrink:0;color:var(--petroleo-vibrante)}
+[data-theme="dark"] .institucional-cartao svg{color:var(--titulo)}
+.institucional-cartao .texto{margin:0;color:var(--texto2)}
+.institucional-missao{grid-column:1/-1;border-top:3px solid var(--petroleo-vibrante)}
+.institucional-valores{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 16px;color:var(--texto2);font-size:var(--fs-corpo);line-height:var(--lh-corpo)}
+.institucional-valores li{display:flex;align-items:flex-start;gap:10px;min-width:0}
+@media(max-width:899px){.institucional-cartoes{grid-template-columns:1fr}}
+@media(max-width:479px){.institucional-valores{grid-template-columns:1fr}}

@@ -270,3 +270,9 @@ Rafael confirmou Gestão Empresarial e Planejamento Contábil e @gescomp_. Padro
 
 ## 10/10/2026 — Codex: publicação das pendências
 Pedido explícito de commit e push. Revisadas a remoção da assinatura Rumera e regras CSS associadas; publicação inclui o commit local 2e63867 do Claude. Sintaxe dos três JavaScript e git diff --check aprovados; não se afirma nova execução de testes de navegador. Detalhes em docs/handoff.md.
+
+## 16/10/2026 — Atualizações finais solicitadas por Gabriela
+
+Textos de atendimento padronizados para nossa equipe, apresentação oficial em três parágrafos e cartões de missão/visão/valores integrados à seção Sobre. Biografia e CRC preservados. Como funciona corrigido; notícias da Receita Federal de 09 e 15/10 verificadas e publicadas em três páginas próprias, com datas da fonte separadas da publicação GESCOMP. Artigos antigos preservados. Sem alterações em JS, integrações, infraestrutura ou desenho do rio.
+
+Validação: 20 HTML/19 URLs, sintaxe dos três scripts e diff aprovados; 152 cenários de navegador em quatro larguras e dois temas sem falhas. Integrações externas bloqueadas no teste. Relatório, fontes, arquivos e limites: docs/atualizacoes-finais-2026-10-16.md. Base 1165467, main inicialmente limpa. Rafael autorizou commit e push no pedido desta rodada; publicação pelo fluxo GitHub existente, após revisão final.

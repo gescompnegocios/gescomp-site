@@ -1019,3 +1019,9 @@ Commit e push desta tarefa autorizados pelo Rafael. Não se afirma ganho de posi
 
 ## 10/10/2026 — Codex: commit e push das pendências autorizados
 Rafael pediu publicar as pendências atuais. Revisado o diff: retirada da assinatura Rumera do rodapé das 16 páginas e das regras CSS correspondentes; inclui também o commit local do Claude 2e63867 de desempenho. Executados node --check em site.js, config.js e libras.js e git diff --check, aprovados. Não foram repetidos testes de navegador nesta operação. Sem alterações adicionais no código. Commit das pendências e push à main solicitados pelo Rafael.
+
+## 16/10/2026 — Atualizações finais solicitadas por Gabriela
+
+Textos de atendimento padronizados para nossa equipe, apresentação oficial em três parágrafos e cartões de missão/visão/valores integrados à seção Sobre. Biografia e CRC preservados. Como funciona corrigido; notícias da Receita Federal de 09 e 15/10 verificadas e publicadas em três páginas próprias, com datas da fonte separadas da publicação GESCOMP. Artigos antigos preservados. Sem alterações em JS, integrações, infraestrutura ou desenho do rio.
+
+Validação: 20 HTML/19 URLs, sintaxe dos três scripts e diff aprovados; 152 cenários de navegador em quatro larguras e dois temas sem falhas. Integrações externas bloqueadas no teste. Relatório, fontes, arquivos e limites: docs/atualizacoes-finais-2026-10-16.md. Base 1165467, main inicialmente limpa. Rafael autorizou commit e push no pedido desta rodada; publicação pelo fluxo GitHub existente, após revisão final.

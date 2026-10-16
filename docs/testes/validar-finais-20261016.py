@@ -1,0 +1,78 @@
+"""Verificação desta entrega, sem regravar evidências históricas."""
+from pathlib import Path
+from html.parser import HTMLParser
+from urllib.parse import urlsplit, unquote
+import json,re,subprocess,xml.etree.ElementTree as ET
+repo=Path(__file__).resolve().parents[2]
+pub=repo/'publicar'
+base='116546769d54b99791b9202d01d07d7653002589'
+errors=[]
+def check(ok,msg):
+    if not ok:errors.append(msg)
+def git(path):return subprocess.check_output(['git','show',base+':'+path],cwd=repo).decode('utf-8').replace('\r\n','\n')
+class Doc(HTMLParser):
+    def __init__(self,s):
+        super().__init__(convert_charrefs=True);self.ids=[];self.links=[];self.assets=[];self.h1=0;self.feed(s)
+    def handle_starttag(self,t,attrs):
+        a=dict(attrs)
+        if 'id' in a:self.ids.append(a['id'])
+        if t=='a':self.links.append(a.get('href',''))
+        if t=='h1':self.h1+=1
+        if t in ['script','img'] and a.get('src'):self.assets.append(a['src'])
+        if t=='link' and a.get('href','').startswith('/'):self.assets.append(a['href'])
+        if t=='img':
+            check('alt' in a and 'width' in a and 'height' in a,'Imagem sem atributos: '+a.get('src',''))
+docs={p.name:Doc(p.read_text(encoding='utf-8')) for p in pub.glob('*.html')}
+for name,d in docs.items():
+    check(d.h1==1,name+': H1')
+    check(len(set(d.ids))==len(d.ids),name+': IDs duplicados')
+    s=(pub/name).read_text(encoding='utf-8')
+    for ld in re.findall(r'<script type="application/ld\+json">(.*?)</script>',s,re.S):json.loads(ld)
+    check(not re.search(r'um (?:de|dos) nossos contadores|nossos contadores|um de nossos profissionais|Ela analisa',s,re.I),name+': chamada antiga')
+    for asset in d.assets:check((pub/unquote(urlsplit(asset).path).lstrip('/')).exists(),name+': recurso '+asset)
+    for href in d.links:
+        u=urlsplit(href)
+        if u.scheme or u.netloc or not href:continue
+        if href=='[LINK-DA-PLATAFORMA]' and href in git('publicar/'+name):continue # Bloco oculto preexistente.
+        target=unquote(u.path).lstrip('/')
+        target=target or (name if href.startswith('#') else 'index.html')
+        if not Path(target).suffix:target+='.html'
+        check((pub/target).exists(),name+': link '+href)
+        if u.fragment and target in docs:check(unquote(u.fragment) in docs[target].ids,name+': âncora '+href)
+    if name not in ['receita-sintonia-terceiro-ciclo-2026.html','simples-nacional-balanco-outubro-2026.html','cbs-documentos-fiscais-outubro-2026.html']:
+        old=git('publicar/'+name)
+        if name not in ['index.html','informacoes.html']:
+            expected=old.replace('Falar com um de nossos contadores','Fale com nossa equipe').replace('Conversar com um de nossos contadores','Fale com nossa equipe').replace('Falar com um de nossos profissionais','Fale com nossa equipe')
+            expected=expected.replace('Um de nossos profissionais acompanha o atendimento','Nossa equipe acompanha o atendimento')
+            for phrase in ['um de nossos contadores','um dos nossos contadores','um de nossos profissionais','nossos contadores']:
+                expected=expected.replace(phrase,'nossa equipe')
+            expected=expected.replace('acompanhamento de nossa equipe','acompanhamento da nossa equipe').replace('>Falar com nossa equipe<','>Fale com nossa equipe<')
+            check(expected==s,name+': alteração fora da comunicação comercial')
+        # Links e mensagens comerciais permanecem exatamente como na base.
+        wa=lambda h:re.findall(r'<a\b[^>]*(?:data-whatsapp|wa.me)[^>]*>',h)
+        check(wa(old)==wa(s),name+': links WhatsApp alterados')
+        check(set(Doc(old).ids)<=set(d.ids),name+': IDs antigos removidos')
+        footer=lambda h:re.findall(r'<footer\b.*?</footer>',h,re.S)
+        check(footer(old)==footer(s),name+': rodapé alterado')
+home=(pub/'index.html').read_text(encoding='utf-8');old=git('publicar/index.html')
+section=lambda h,id:re.search(r'<section id="'+id+r'".*?</section>',h,re.S)[0]
+for ident in ['rio','contato','avaliacoes','instagram']:
+    check(section(home,ident)==section(old,ident),'Seção preservada: '+ident)
+for f in ['site.js','config.js','libras.js']:check((pub/'assets/js'/f).read_text(encoding='utf-8')==git('publicar/assets/js/'+f),'JS alterado: '+f)
+css=(pub/'assets/css/site.css').read_text(encoding='utf-8');check(css.startswith(git('publicar/assets/css/site.css')),'CSS anterior alterado')
+check('Analisamos seu caso' in home and 'Você fala com nossa equipe' in home,'Como funciona')
+check(home.count('class="institucional-cartao')==3,'Três cartões institucionais')
+check(home.count('class="mudancas-numero"')==3,'Três notícias na inicial')
+check(re.search(r'<h1\b.*?</h1>',home,re.S)[0]==re.search(r'<h1\b.*?</h1>',old,re.S)[0],'Título principal alterado')
+for phrase in ['Tiramos todas as suas dúvidas de forma clara, transparente e acessível.','Gabriela do Nascimento Vieira','009186/SE','Nossa missão','Nossa visão','Nossos valores']:check(phrase in home,'Texto ausente: '+phrase)
+tree=ET.parse(pub/'sitemap.xml');urls=[x.text for x in tree.findall('.//{*}loc') if x.text.startswith('https://gescompnegocios.com.br/')]
+pages=[p for p in urls if '/assets/' not in p]
+check(len(pages)==19,'Sitemap: 19 páginas')
+for url in pages:
+    name=urlsplit(url).path.strip('/') or 'index'
+    check(name+'.html' in docs,'Sitemap inexistente: '+url)
+result={'base':base,'html':len(docs),'urlsSitemap':len(pages),'erros':errors}
+out=repo/'docs/evidencias/2026-10-16';out.mkdir(parents=True,exist_ok=True)
+(out/'validacao-estatica.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps(result,ensure_ascii=False))
+raise SystemExit(bool(errors))

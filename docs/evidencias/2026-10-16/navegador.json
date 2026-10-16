@@ -1,0 +1,17 @@
+{
+  "scenarios": 152,
+  "failures": [],
+  "errors": [],
+  "widths": [
+    320,
+    390,
+    768,
+    1366
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "externalServices": "Instagram e VLibras bloqueados; nenhum envio real",
+  "routing": "URLs limpas emuladas no servidor Python local"
+}
