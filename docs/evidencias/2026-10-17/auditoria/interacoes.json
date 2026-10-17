@@ -1,0 +1,40 @@
+{
+  "origin": "http://127.0.0.1:8091",
+  "scenarios": 0,
+  "failures": [],
+  "pageErrors": [],
+  "interactions": [
+    {
+      "name": "menu por teclado",
+      "ok": true
+    },
+    {
+      "name": "Escape fecha menu e devolve foco",
+      "ok": true
+    },
+    {
+      "name": "FAQ por teclado",
+      "ok": true
+    },
+    {
+      "name": "botões móveis com mesmas dimensões",
+      "ok": true
+    },
+    {
+      "name": "mensagens contextuais do WhatsApp",
+      "ok": true
+    },
+    {
+      "name": "formulário sem telefone, sem envio externo",
+      "ok": true
+    },
+    {
+      "name": "home para serviço",
+      "ok": true
+    },
+    {
+      "name": "sumário do artigo",
+      "ok": true
+    }
+  ]
+}

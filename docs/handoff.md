@@ -1036,3 +1036,9 @@ Matriz final repetida após todas as alterações: 152 cenários aprovados; vali
 ## 17/10/2026 — Quatro ajustes visuais solicitados
 
 Entrada do desktop compactada para mostrar continuidade; botões da abertura com dimensões iguais no celular; fotos dos serviços 1 e 3 trocadas pelas capas correspondentes e links centralizados sob os CTAs. Apresentação institucional em duas colunas no desktop, vertical no celular, com parágrafos sem margens cumulativas e intervalo de 16 px. Conteúdo oficial, artigos, rio e contatos preservados. Vinte cenários de navegador aprovados, em claro/escuro e dez tamanhos; detalhes em docs/ajustes-visuais-2026-10-17.md. Commit/push seguem a autorização da tarefa.
+
+## 17/10/2026 — Auditoria final sem alteração de design
+
+Base main limpa d6d19f7, igual ao remoto e aos seis arquivos públicos amostrados. Acrescentado “seja” no atendimento; escala 6x1 corrigida de 60 dias para dois meses conforme EC 141, com exceções; PLP 186 qualificado quanto à contratação no âmbito rural e estágio de sanção; chamada desatualizada de folha corrigida. Datas editoriais/sitemap de somente três guias em 17/10; publicação original de todos os artigos preservada. Assets, CSS, JS, imagens, rodapés e preços intactos.
+
+13 artigos confrontados com fontes oficiais; 67 referências acessadas, 66 HTTP 200 e ficha do STF com 403. Autógrafo protegido e desfecho judicial não são apresentados como verificados. Estática de 20 HTML/19 URLs e sintaxe dos três scripts aprovadas; 152 cenários finais em uma aba e oito interações aprovados, após resolver o servidor de teste bloqueado por logs. VLibras real carregou no domínio; tradução/avatar e envio real de mensagem não acionados. Relatório completo e evidências: docs/auditoria-final-2026-10-17.md. Commit/push e publicação pelo fluxo existente expressamente autorizados pelo anexo atual; verificar domínio e hash remoto após push, sem mudar infraestrutura.

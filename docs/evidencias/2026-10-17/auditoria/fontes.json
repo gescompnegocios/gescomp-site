@@ -1,0 +1,724 @@
+{
+  "consulta": "2026-10-17",
+  "artigos": {
+    "abrir-empresa": {
+      "titulo": "Como abrir uma empresa",
+      "publicacao": "2026-10-01",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://www.gov.br/empresas-e-negocios/pt-br/redesim/abrir-cnpj",
+        "https://www.gov.br/empresas-e-negocios/pt-br/redesim/ajuda/inscrever",
+        "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-gera-o-primeiro-cnpj-em-formato-alfanumerico",
+        "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+      ]
+    },
+    "calendario-fiscal": {
+      "titulo": "Calendário de datas importantes",
+      "publicacao": "2026-10-01",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/proteja/duvidas-frequentes/duvidas-frequentes",
+        "https://legis.senado.leg.br/norma/40180341/publicacao/40181429",
+        "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/mos-s-1-3-consolidada-ate-a-no-s-1-3-11-2026-retificada.pdf",
+        "https://www.gov.br/esocial/pt-br/microempreendedor-individual/manual-web-mei",
+        "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-tem-novos-prazos-para-microempresas-e-empresas-de-pequeno-porte/",
+        "https://www.gov.br/pt-br/servicos/declarar-debitos-e-creditos-tributarios-federais",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2026/Outubro/dia-15-10-2026",
+        "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/perguntas-frequentes",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs"
+      ]
+    },
+    "cbs-documentos-fiscais-outubro-2026": {
+      "titulo": "CBS aparece em 86% das notas de empresas obrigadas",
+      "publicacao": "2026-10-16",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/reforma-tributaria-86-dos-documentos-fiscais-de-empresas-obrigadas-ja-trazem-destaque-da-cbs"
+      ]
+    },
+    "departamento-pessoal": {
+      "titulo": "Funcionários e folha de pagamento",
+      "publicacao": "2026-10-01",
+      "revisaoEditorial": "2026-10-17",
+      "fontes": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/proteja/duvidas-frequentes/duvidas-frequentes",
+        "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/mos-s-1-3-consolidada-ate-a-no-s-1-3-11-2026-retificada.pdf",
+        "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal",
+        "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-07-atualizada-2022-1.pdf",
+        "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/perguntas-frequentes",
+        "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/fgts",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l4090.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l4749.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"
+      ]
+    },
+    "fim-escala-6x1": {
+      "titulo": "Fim da escala 6x1: emenda promulgada e transição",
+      "publicacao": "2026-10-06",
+      "revisaoEditorial": "2026-10-17",
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm",
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386",
+        "https://www12.senado.leg.br/noticias/materias/2026/10/16/congresso-promulga-o-fim-da-escala-6x1-e-aposentadoria-de-agentes-de-saude",
+        "https://especial.camara.leg.br/reducao-da-jornada-detrabalho-e-fim-da-escala-6x1/",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais",
+        "https://www12.senado.leg.br/noticias/materias/2026/10/07/pec-do-fim-da-escala-6x1-passa-por-2a-sessao-de-discussao-no-plenario",
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/124067",
+        "https://www12.senado.leg.br/noticias/materias/2025/12/10/reducao-da-jornada-semanal-com-dois-dias-de-descanso-vai-a-plenario"
+      ]
+    },
+    "imposto-de-renda": {
+      "titulo": "Imposto de Renda em 2026",
+      "publicacao": "2026-10-01",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-prazo-para-aprovacao-de-lucros-e-dividendos-ate-janeiro-de-2026/",
+        "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7466925",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/prazo",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos/manual_padrao_rfb_per_tributacao_sutri_v2.pdf",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+      ]
+    },
+    "informacoes": {
+      "titulo": "Reforma tributária: o que muda e quando",
+      "publicacao": "2026-10-01",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://legis.senado.gov.br/norma/42042119/publicacao/42256084",
+        "https://legis.senado.leg.br/norma/40180341/publicacao/40181429",
+        "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-tem-novos-prazos-para-microempresas-e-empresas-de-pequeno-porte/",
+        "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/legislacao/atos-tecnicos-conjuntos/",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/simples-nacional-nfs-e-nacional-sera-obrigatoria-para-me-e-epp-a-partir-de-1o-de-novembro-de-2026",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-cgibs-flexibilizarao-obrigatoriedade-de-informacoes-em-documentos-fiscais",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+        "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-da-reforma-tributaria"
+      ]
+    },
+    "mei": {
+      "titulo": "MEI: guia completo para 2026",
+      "publicacao": "2026-10-01",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=92278&visao=compilado",
+        "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/impulsiona-mei/perguntas-frequentes",
+        "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/relatorio-mensal",
+        "https://www.gov.br/esocial/pt-br/microempreendedor-individual/manual-web-mei",
+        "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+        "https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Manual_DASN-SIMEI.pdf",
+        "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476",
+        "https://www12.senado.leg.br/noticias/materias/2026/10/15/senado-aprova-aumento-do-teto-para-mei-e-perdao-de-dividas"
+      ]
+    },
+    "novo-limite-mei": {
+      "titulo": "Projeto de novo limite para o MEI",
+      "publicacao": "2026-10-06",
+      "revisaoEditorial": "2026-10-17",
+      "fontes": [
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/175969",
+        "https://www.camara.leg.br/noticias/1286510-PROJETO-DO-GOVERNO-AUMENTA-TETO-DA-RECEITA-DE-MEI-PARA-ATE-R$-140-MIL-EM-2028",
+        "https://www.camara.leg.br/noticias/1286510-projeto-do-governo-aumenta-teto-da-receita-de-mei-para-ate-r-140-mil-em-2028/",
+        "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao/?idProposicao=2295251",
+        "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476",
+        "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868957&filename=PLP+67/2025",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+        "https://www12.senado.leg.br/noticias/materias/2026/10/15/senado-aprova-aumento-do-teto-para-mei-e-perdao-de-dividas"
+      ]
+    },
+    "pro-labore-e-lucros": {
+      "titulo": "Pró-labore e distribuição de lucros",
+      "publicacao": "2026-10-01",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-prazo-para-aprovacao-de-lucros-e-dividendos-ate-janeiro-de-2026/",
+        "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=06%2F09%2F2024&jornal=515&pagina=56",
+        "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7466925",
+        "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal",
+        "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/sped/efd-reinf/efdr/2-eventos-da-efd-reinf/2-13-6-como-declarar-o",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-orienta-sobre-os-procedimentos-para-o-recolhimento-do-imposto-de-renda-retido-na-fonte-sobre-lucros-e-dividendos",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+      ]
+    },
+    "receita-sintonia-terceiro-ciclo-2026": {
+      "titulo": "Receita Sintonia divulga o terceiro ciclo de 2026",
+      "publicacao": "2026-10-16",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-sintonia-divulga-a-classificacao-do-3o-ciclo-de-2026"
+      ]
+    },
+    "simples-nacional-balanco-outubro-2026": {
+      "titulo": "Simples Nacional: Receita atualiza balanço de pedidos",
+      "publicacao": "2026-10-16",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs"
+      ]
+    },
+    "simples-nacional": {
+      "titulo": "Simples Nacional: o que saber agora",
+      "publicacao": "2026-10-01",
+      "revisaoEditorial": "2026-10-16",
+      "fontes": [
+        "https://legis.senado.gov.br/norma/42042119/publicacao/42256084",
+        "https://legis.senado.leg.br/norma/40180341/publicacao/40181429",
+        "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-tem-novos-prazos-para-microempresas-e-empresas-de-pequeno-porte/",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-entenda-os-novos-prazos-e-faca-sua-escolha-com-consciencia-e-tranquilidade/",
+        "https://www.planalto.gov.br/ccivil_03/leis/l9718.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm",
+        "https://www.sefaz.pe.gov.br/Servicos/ICMS/Paginas/OpcaoSN2022.aspx",
+        "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=94c10cc2-7eb5-4ef0-bfb2-5479e72caff8",
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs"
+      ]
+    }
+  },
+  "acesso": [
+    {
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim/abrir-cnpj",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/empresas-e-negocios/pt-br/redesim/abrir-cnpj",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 499699
+    },
+    {
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim/ajuda/inscrever",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/empresas-e-negocios/pt-br/redesim/ajuda/inscrever",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 470965
+    },
+    {
+      "url": "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 111646
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-gera-o-primeiro-cnpj-em-formato-alfanumerico",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-gera-o-primeiro-cnpj-em-formato-alfanumerico",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 199550
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+      "tipo": "text/html",
+      "bytes": 923899
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+      "tipo": "text/html",
+      "bytes": 1622252
+    },
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/proteja/duvidas-frequentes/duvidas-frequentes",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/proteja/duvidas-frequentes/duvidas-frequentes",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 251442
+    },
+    {
+      "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181429",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://legis.senado.leg.br/norma/40180341/publicacao/40181429",
+      "tipo": "text/html;charset=UTF-8",
+      "bytes": 1366130
+    },
+    {
+      "url": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/mos-s-1-3-consolidada-ate-a-no-s-1-3-11-2026-retificada.pdf",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/mos-s-1-3-consolidada-ate-a-no-s-1-3-11-2026-retificada.pdf",
+      "tipo": "application/pdf",
+      "bytes": 3556967
+    },
+    {
+      "url": "https://www.gov.br/esocial/pt-br/microempreendedor-individual/manual-web-mei",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/esocial/pt-br/microempreendedor-individual/manual-web-mei",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 547714
+    },
+    {
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-tem-novos-prazos-para-microempresas-e-empresas-de-pequeno-porte/",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-tem-novos-prazos-para-microempresas-e-empresas-de-pequeno-porte/",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 106975
+    },
+    {
+      "url": "https://www.gov.br/pt-br/servicos/declarar-debitos-e-creditos-tributarios-federais",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/pt-br/servicos/declarar-debitos-e-creditos-tributarios-federais",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 125794
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2026/Outubro/dia-15-10-2026",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2026/Outubro/dia-15-10-2026",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 236584
+    },
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/perguntas-frequentes",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/perguntas-frequentes",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 541498
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm",
+      "tipo": "text/html",
+      "bytes": 11306
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "tipo": "text/html",
+      "bytes": 771751
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 200427
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/reforma-tributaria-86-dos-documentos-fiscais-de-empresas-obrigadas-ja-trazem-destaque-da-cbs",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/reforma-tributaria-86-dos-documentos-fiscais-de-empresas-obrigadas-ja-trazem-destaque-da-cbs",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 201616
+    },
+    {
+      "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 287747
+    },
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-07-atualizada-2022-1.pdf",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-07-atualizada-2022-1.pdf",
+      "tipo": "application/pdf",
+      "bytes": 754137
+    },
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/fgts",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/fgts",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 157942
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+      "tipo": "text/html",
+      "bytes": 74348
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+      "tipo": "text/html",
+      "bytes": 3531637
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l4090.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/l4090.htm",
+      "tipo": "text/html",
+      "bytes": 7306
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l4749.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/l4749.htm",
+      "tipo": "text/html",
+      "bytes": 8327
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm",
+      "tipo": "text/html",
+      "bytes": 424914
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm",
+      "tipo": "text/html"
+    },
+    {
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386",
+      "tipo": "text/html;charset=UTF-8",
+      "bytes": 218843
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/10/16/congresso-promulga-o-fim-da-escala-6x1-e-aposentadoria-de-agentes-de-saude",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www12.senado.leg.br/noticias/materias/2026/10/16/congresso-promulga-o-fim-da-escala-6x1-e-aposentadoria-de-agentes-de-saude",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 69430
+    },
+    {
+      "url": "https://especial.camara.leg.br/reducao-da-jornada-detrabalho-e-fim-da-escala-6x1/",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://especial.camara.leg.br/reducao-da-jornada-detrabalho-e-fim-da-escala-6x1/",
+      "tipo": "text/html; charset=UTF-8",
+      "bytes": 142512
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "tipo": "text/html",
+      "bytes": 1847708
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 79606
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/10/07/pec-do-fim-da-escala-6x1-passa-por-2a-sessao-de-discussao-no-plenario",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www12.senado.leg.br/noticias/materias/2026/10/07/pec-do-fim-da-escala-6x1-passa-por-2a-sessao-de-discussao-no-plenario",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 62273
+    },
+    {
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/124067",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www25.senado.leg.br/web/atividade/materias/-/materia/124067",
+      "tipo": "text/html;charset=UTF-8",
+      "bytes": 121607
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2025/12/10/reducao-da-jornada-semanal-com-dois-dias-de-descanso-vai-a-plenario",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www12.senado.leg.br/noticias/materias/2025/12/10/reducao-da-jornada-semanal-com-dois-dias-de-descanso-vai-a-plenario",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 53742
+    },
+    {
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-prazo-para-aprovacao-de-lucros-e-dividendos-ate-janeiro-de-2026/",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-prazo-para-aprovacao-de-lucros-e-dividendos-ate-janeiro-de-2026/",
+      "tipo": "text/html; charset=UTF-8",
+      "bytes": 67320
+    },
+    {
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7466925",
+      "consulta": "2026-10-17",
+      "erro": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/prazo",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/prazo",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 196555
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 201227
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos/manual_padrao_rfb_per_tributacao_sutri_v2.pdf",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos/manual_padrao_rfb_per_tributacao_sutri_v2.pdf",
+      "tipo": "application/pdf",
+      "bytes": 583370
+    },
+    {
+      "url": "https://legis.senado.gov.br/norma/42042119/publicacao/42256084",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://legis.senado.gov.br/norma/42042119/publicacao/42256084",
+      "tipo": "text/html;charset=UTF-8",
+      "bytes": 951124
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/legislacao/atos-tecnicos-conjuntos/",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/legislacao/atos-tecnicos-conjuntos/",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 204571
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/simples-nacional-nfs-e-nacional-sera-obrigatoria-para-me-e-epp-a-partir-de-1o-de-novembro-de-2026",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/simples-nacional-nfs-e-nacional-sera-obrigatoria-para-me-e-epp-a-partir-de-1o-de-novembro-de-2026",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 203609
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-cgibs-flexibilizarao-obrigatoriedade-de-informacoes-em-documentos-fiscais",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-cgibs-flexibilizarao-obrigatoriedade-de-informacoes-em-documentos-fiscais",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 197767
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+      "tipo": "text/html",
+      "bytes": 510399
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+      "tipo": "text/html",
+      "bytes": 5403613
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-da-reforma-tributaria",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-da-reforma-tributaria",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 231740
+    },
+    {
+      "url": "https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=92278&visao=compilado",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=92278&visao=compilado",
+      "tipo": "text/html",
+      "bytes": 45247
+    },
+    {
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/impulsiona-mei/perguntas-frequentes",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/impulsiona-mei/perguntas-frequentes",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 1905738
+    },
+    {
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/relatorio-mensal",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/relatorio-mensal",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 504007
+    },
+    {
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Manual_DASN-SIMEI.pdf",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Manual_DASN-SIMEI.pdf",
+      "tipo": "application/pdf",
+      "bytes": 2034201
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 89175
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/10/15/senado-aprova-aumento-do-teto-para-mei-e-perdao-de-dividas",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www12.senado.leg.br/noticias/materias/2026/10/15/senado-aprova-aumento-do-teto-para-mei-e-perdao-de-dividas",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 59023
+    },
+    {
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175969",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175969",
+      "tipo": "text/html;charset=UTF-8"
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/1286510-PROJETO-DO-GOVERNO-AUMENTA-TETO-DA-RECEITA-DE-MEI-PARA-ATE-R$-140-MIL-EM-2028",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.camara.leg.br/noticias/1286510-PROJETO-DO-GOVERNO-AUMENTA-TETO-DA-RECEITA-DE-MEI-PARA-ATE-R$-140-MIL-EM-2028",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 73155
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/1286510-projeto-do-governo-aumenta-teto-da-receita-de-mei-para-ate-r-140-mil-em-2028/",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.camara.leg.br/noticias/1286510-projeto-do-governo-aumenta-teto-da-receita-de-mei-para-ate-r-140-mil-em-2028/",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 73155
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao/?idProposicao=2295251",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao/?idProposicao=2295251",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 257671
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868957&filename=PLP+67/2025",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868957&filename=PLP+67/2025",
+      "tipo": "application/pdf",
+      "bytes": 112635
+    },
+    {
+      "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=06%2F09%2F2024&jornal=515&pagina=56",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=06%2F09%2F2024&jornal=515&pagina=56",
+      "tipo": "application/pdf",
+      "bytes": 192957
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/sped/efd-reinf/efdr/2-eventos-da-efd-reinf/2-13-6-como-declarar-o",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/sped/efd-reinf/efdr/2-eventos-da-efd-reinf/2-13-6-como-declarar-o",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 191416
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-orienta-sobre-os-procedimentos-para-o-recolhimento-do-imposto-de-renda-retido-na-fonte-sobre-lucros-e-dividendos",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-orienta-sobre-os-procedimentos-para-o-recolhimento-do-imposto-de-renda-retido-na-fonte-sobre-lucros-e-dividendos",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 201065
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-sintonia-divulga-a-classificacao-do-3o-ciclo-de-2026",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-sintonia-divulga-a-classificacao-do-3o-ciclo-de-2026",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 206122
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-entenda-os-novos-prazos-e-faca-sua-escolha-com-consciencia-e-tranquilidade/",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-entenda-os-novos-prazos-e-faca-sua-escolha-com-consciencia-e-tranquilidade/",
+      "tipo": "text/html;charset=utf-8",
+      "bytes": 213240
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9718.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/l9718.htm",
+      "tipo": "text/html",
+      "bytes": 196422
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm",
+      "tipo": "text/html",
+      "bytes": 87083
+    },
+    {
+      "url": "https://www.sefaz.pe.gov.br/Servicos/ICMS/Paginas/OpcaoSN2022.aspx",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www.sefaz.pe.gov.br/Servicos/ICMS/Paginas/OpcaoSN2022.aspx",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 722570
+    },
+    {
+      "url": "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=94c10cc2-7eb5-4ef0-bfb2-5479e72caff8",
+      "consulta": "2026-10-17",
+      "status": 200,
+      "urlFinal": "https://www8.receita.fazenda.gov.br/simplesnacional/noticias/NoticiaCompleta.aspx?id=94c10cc2-7eb5-4ef0-bfb2-5479e72caff8",
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 28756
+    }
+  ],
+  "nota": "Respostas HTTP são checagem de acesso; conteúdo e ressalvas no relatório editorial."
+}
