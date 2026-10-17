@@ -579,7 +579,7 @@ section.artigo-secao.artigo-nota{gap:14px;scroll-margin-top:var(--folga-ancora)}
 
 /* Apresentação institucional: mesmos tokens e acabamento dos cartões existentes. */
 .abertura-acoes .btn-primario{width:336px;max-width:100%;box-sizing:border-box}
-.institucional{display:flex;flex-direction:column;gap:20px;margin-bottom:48px}
+.institucional{display:flex;flex-direction:column;gap:20px}
 .institucional-cartoes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--gap-cards);margin-top:8px}
 .institucional-cartao{display:flex;flex-direction:column;gap:16px;min-width:0;padding:26px 24px;border-radius:var(--raio-card);background:var(--cartao);border:1px solid var(--borda-card);box-shadow:var(--sombra-card)}
 .institucional-cartao .titulo-card{display:flex;align-items:center;gap:12px;color:var(--titulo)}

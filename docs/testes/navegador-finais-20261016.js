@@ -48,7 +48,7 @@ async (page) => {
     await p.screenshot({path:dir+'/final-'+width+'-light.png'});
     await p.locator('[data-acao="tema"]:visible').first().click();
     await p.screenshot({path:dir+'/final-'+width+'-dark.png'});
-    await p.locator('.institucional').screenshot({path:dir+'/institucional-'+width+'-dark.png'});
+    await p.locator('.institucional').screenshot({path:dir+'/institucional-'+width+'-dark.png',style:'header,#fab{visibility:hidden!important}'});
     await ctx.close();
   }
   return {scenarios:results.length,failures:results.filter(r=>r.errors.length),errors};

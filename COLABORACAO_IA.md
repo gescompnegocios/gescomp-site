@@ -276,3 +276,10 @@ Pedido explícito de commit e push. Revisadas a remoção da assinatura Rumera e
 Textos de atendimento padronizados para nossa equipe, apresentação oficial em três parágrafos e cartões de missão/visão/valores integrados à seção Sobre. Biografia e CRC preservados. Como funciona corrigido; notícias da Receita Federal de 09 e 15/10 verificadas e publicadas em três páginas próprias, com datas da fonte separadas da publicação GESCOMP. Artigos antigos preservados. Sem alterações em JS, integrações, infraestrutura ou desenho do rio.
 
 Validação: 20 HTML/19 URLs, sintaxe dos três scripts e diff aprovados; 152 cenários de navegador em quatro larguras e dois temas sem falhas. Integrações externas bloqueadas no teste. Relatório, fontes, arquivos e limites: docs/atualizacoes-finais-2026-10-16.md. Base 1165467, main inicialmente limpa. Rafael autorizou commit e push no pedido desta rodada; publicação pelo fluxo GitHub existente, após revisão final.
+
+
+## 16/10/2026 — Entrega final ampliada por orientação de Rafael
+
+O último pedido remove o bloco Quem é a Gabriela, mantendo história da GESCOMP e missão/visão/valores. SEO/GEO: identidade, localização, metadados e FAQ visível sobre a consulta GECOMP, sem cadastrar marca fictícia nem prometer ranking. Todos os 13 artigos têm revisão real visível/estruturada em 16/10; cinco serviços também datados. Atualizadas a promulgação da EC 141, situação de sanção do PLP 186 e publicação de 16/10 do balanço do Simples. Fontes antigas e datas originais preservadas quando históricas. Três referências inacessíveis substituídas por fontes oficiais equivalentes.
+
+Matriz final repetida após todas as alterações: 152 cenários aprovados; validação de 20 HTML/19 URLs, FAQ/fontes/datas e preservação sem erros. Scripts/configuração e desenho do rio intactos. Relatório final reescrito em docs/atualizacoes-finais-2026-10-16.md; evidências em docs/evidencias/2026-10-16. Commit/push expressamente autorizados; confirmar hash remoto e conteúdo público depois da publicação. Este registro substitui o escopo anterior que preservava o bloco biográfico.

@@ -51,8 +51,8 @@ A data de atualização consta em cada página. Projetos em tramitação não s�
 - Funcionários e folha: Contratação, INSS, FGTS, 13º e férias, com os valores de 2026. https://gescompnegocios.com.br/departamento-pessoal
 - Calendário de datas: Prazos que não podem passar em branco, de outubro de 2026 a maio de 2027. https://gescompnegocios.com.br/calendario-fiscal
 
-- Fim da escala 6x1: situação da PEC, distinção entre proposta e regra vigente, fontes oficiais. https://gescompnegocios.com.br/fim-escala-6x1
-- Projeto de novo limite para MEI: teto geral vigente de R$ 81 mil e propostas em discussão. https://gescompnegocios.com.br/novo-limite-mei
+- Fim da escala 6x1: EC 141 promulgada em 16/10/2026, transição e fontes oficiais. https://gescompnegocios.com.br/fim-escala-6x1
+- Projeto de novo limite para MEI: teto geral vigente e PLP 186/2026 aprovado, aguardando sanção. https://gescompnegocios.com.br/novo-limite-mei
 
 ## Links
 - Site: https://gescompnegocios.com.br/

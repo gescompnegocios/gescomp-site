@@ -1,61 +1,76 @@
-# Atualizações finais solicitadas por Gabriela — 16/10/2026
+# Entrega GESCOMP — textos, institucional, revisão editorial e SEO/GEO
 
-Base anterior à tarefa: `116546769d54b99791b9202d01d07d7653002589`, branch `main`, árvore limpa. A consulta remota antes da publicação confirmou o mesmo hash em `origin/main`. A base permite comparar e reverter esta entrega sem reescrever histórico.
+Data da revisão: **16/10/2026**. Base: `116546769d54b99791b9202d01d07d7653002589`, branch `main`, inicialmente limpa; o remoto tinha o mesmo hash antes da entrega. Este relatório descreve o resultado final, incluindo o pedido posterior de remover a biografia e revisar todos os artigos.
 
-O projeto serve HTML/CSS/JavaScript estáticos de `publicar/`, sem dependências de execução, TypeScript, lint configurado ou etapa de build. A hospedagem existente é o Worker `gescomp-site`, integrado ao GitHub. Esta entrega usa o push normal; não modifica Cloudflare, DNS, integrações, credenciais ou configuração de deploy.
+## Alterações realizadas
 
-## Pedidos e resultados
+- Mantidos o título visual “Contabilidade para entender, planejar e crescer.”, grifo e primeiro texto da abertura. Atendimento substituído pelo texto fornecido, mantendo o negrito. CTA “Fale com nossa equipe”, com ícone, link e mensagem preservados; largura de 336 px no desktop e limite do espaço disponível no celular. “Ver serviços” intacto.
+- Chamadas comerciais padronizadas para “nossa equipe” na inicial, cabeçalhos, menu, serviços, guias, metadados/FAQ correspondentes e llms. Nenhuma mudança nos números ou nas mensagens configuradas de WhatsApp.
+- “Como podemos ajudar”: somente o trecho comercial solicitado alterado. “Como funciona”: cartões 1 e 2 corrigidos, primeiro descritivo e terceiro cartão preservados.
+- Sobre apresenta **somente a história oficial da GESCOMP**, em três parágrafos, seguida de missão, visão e seis valores. O bloco “Quem é a Gabriela”, sua moldura e citação foram removidos conforme o último pedido. Mantidos os registros legítimos de responsabilidade técnica e autoria nos locais apropriados.
+- Cartões usam os tokens existentes, com missão em largura completa, visão/valores lado a lado no desktop e ordem vertical no celular. Sem novas animações ou identidade visual.
+- **13 artigos revisados com data visível e `Article.dateModified` de 16/10/2026**; publicação original dos guias e datas verdadeiras das fontes preservadas. Cinco páginas comerciais também exibem revisão em 16/10. Sitemap atualizado em razão da revisão efetiva.
+- Artigo da escala 6x1 corrigido para a **EC 141 promulgada em 16/10**, com os marcos de transição; retiradas as afirmações de que a PEC ainda aguardava votação. Fonte legislativa registra a promulgação e a publicação em edição extra do DOU.
+- Novo limite do MEI: **PLP 186/2026 aprovado nas duas Casas e aguardando sanção**, conforme ficha consultada em 16/10. Mantida a distinção entre projeto aprovado e teto vigente. Histórico dos outros projetos preservado.
+- Balanço do Simples atualizado com a publicação da Receita de **16/10, 15h34, atualizada às 15h36**. Diferenciados prazo de opção encerrado em 15/10, regularização de pedidos indeferidos e escolha do regime regular IBS/CBS até 30/10.
+- Reforma, abertura, MEI, calendário, folha, IR e pró-labore receberam notas de revisão específicas, com sumários e referências alinhados. Tabelas do IR/INSS, legislação, documentos fiscais, prazos e fontes de suporte conferidos. Decisões judiciais históricas continuam identificadas como históricas, sem afirmar desfecho atual não confirmado.
 
-- Título principal, grifo e primeiro texto da abertura preservados integralmente.
-- Atendimento atualizado para “Atendimento personalizado, presencial ou on-line, sem demora e sem respostas automáticas.”, mantendo o destaque em negrito no primeiro trecho.
-- CTA principal, cabeçalho, menu e chamadas equivalentes padronizados para “Fale com nossa equipe”. Preservados href, atributos de WhatsApp, telefone e todas as mensagens configuradas. O botão principal mantém 336 px no desktop e respeita a largura disponível no celular; “Ver serviços” permanece intacto.
-- “Como podemos ajudar”: substituída somente a referência aos contadores por “nossa equipe”; apresentação e cartões de serviços mantidos.
-- “Quem é a GESCOMP”: três parágrafos oficiais completos na seção existente de Sobre. Abaixo, missão em largura completa, visão e valores lado a lado no desktop; empilhamento missão/visão/valores abaixo de 900 px. Valores com seis ícones de traço. Reutilizados tokens de cor, tipografia, borda, raio e sombra dos cartões existentes, sem novas animações.
-- Biografia individual, citação, moldura de foto e credenciais da Gabriela preservadas. Removido somente o parágrafo institucional repetido que encerrava a biografia, pois a nova apresentação já cobre esse conteúdo.
-- “Como funciona”: “Você fala com nossa equipe”, “Analisamos seu caso” e descrição na primeira pessoa do plural. Primeiro descritivo e terceiro cartão preservados.
-- Chamadas comerciais revisadas também nos artigos, metadados, FAQ estruturada e `llms.txt`. Nenhuma alteração no nome, histórico ou registro profissional da Gabriela.
-- Notícias: três publicações verificadas diretamente na Receita Federal, todas dentro dos últimos sete dias. Três itens na inicial e nove no hub de Informações, com as novas notícias primeiro. Páginas antigas e respectivos IDs/URLs preservados, inclusive nos links relacionados.
+## SEO e GEO
 
-## Notícias e referências
+Inicial com título e descrição associando GESCOMP, contabilidade, localização real e atendimento online. Open Graph, Twitter e WebPage alinhados. Identidade institucional verdadeira mantida em WebSite/AccountingService; WebPage ligada à empresa. Incluída uma pergunta visível e correspondente no FAQ estruturado para quem pesquisou **GECOMP**, explicando a grafia correta e os canais oficiais. GECOMP não foi cadastrado como outra marca ou empresa.
 
-Pesquisa realizada em **16/10/2026**, priorizando Receita Federal, eSocial e Sefaz/SE. As três selecionadas têm relevância direta para serviços contábeis e não exigiram ampliar a janela de sete dias. Fonte e horários conferidos na página original, separadamente da data de consulta. Os textos são sínteses próprias; não há autoria individual atribuída à Gabriela.
+Canonical, robots, identidade/NAP, fontes em HTML, vínculos estruturados, rotas antigas e sitemap preservam a descoberta e a compreensão do conteúdo. Não foram criadas páginas duplicadas por grafia, palavras-chave ocultas, avaliações fictícias, perfis ou localidades inexistentes. llms.txt é apenas auxiliar: não constitui mecanismo de ranking.
 
-| Artigo GESCOMP | Data da fonte | Atualização da fonte | Referência oficial |
-|---|---|---|---|
-| [Receita Sintonia divulga o terceiro ciclo de 2026](https://gescompnegocios.com.br/receita-sintonia-terceiro-ciclo-2026) | 15/10/2026, 19h29 | 15/10/2026, 19h31 | [Receita Federal](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-sintonia-divulga-a-classificacao-do-3o-ciclo-de-2026) |
-| [Simples Nacional: Receita atualiza balanço de pedidos](https://gescompnegocios.com.br/simples-nacional-balanco-outubro-2026) | 15/10/2026, 10h22 | 15/10/2026, 13h28 | [Receita Federal](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-3) |
-| [CBS aparece em 86% das notas de empresas obrigadas](https://gescompnegocios.com.br/cbs-documentos-fiscais-outubro-2026) | 09/10/2026, 16h45 | Não indicada | [Receita Federal](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/reforma-tributaria-86-dos-documentos-fiscais-de-empresas-obrigadas-ja-trazem-destaque-da-cbs) |
+Referências atuais: [Google — recursos de IA](https://developers.google.com/search/docs/appearance/ai-features), [nome do site](https://developers.google.com/search/docs/appearance/site-names), [identificação da organização](https://developers.google.com/search/docs/appearance/structured-data/organization). Essas medidas não garantem primeiro lugar, prazo de indexação ou recomendação por IA. Search Console/relatórios de posição e contas externas não foram modificados nesta entrega.
 
-As páginas GESCOMP têm publicação própria em **16/10/2026**, visível e em `Article.datePublished`; as datas das fontes aparecem na bibliografia. No balanço do Simples, o dia 30/10 é apresentado como prazo para regularização de pedidos indeferidos, sem transformá-lo em nova janela geral de opção. Na CBS, preservada a exceção das optantes pelo Simples em 2026 e a distinção entre percentual de documentos e de estabelecimentos.
+## Notícias incluídas e fontes
 
-Imagens: reutilizada a fotografia ilustrativa já licenciada em CC0 no projeto (`capa-novo-limite-mei-cc0-20261006.webp`, variantes e Open Graph), de [PxHere 970472](https://pxhere.com/en/photo/970472), com descrição de mesa/computador/caderno/calculadora. Não representa evento real nem recebeu novas edições. Registro da licença preexistente em `imagens-reais-fontes.md`.
+As três páginas novas têm publicação GESCOMP em **16/10/2026**. A data da fonte é informada separadamente em cada artigo. A inicial mantém três itens; o hub mantém nove. Os mais recentes aparecem primeiro; guias antigos continuam acessíveis nas rotas e nos relacionados.
 
-## Arquivos da entrega
+| Página GESCOMP | Publicação/atualização da fonte | Fonte oficial |
+|---|---|---|
+| [Simples: balanço de outubro](https://gescompnegocios.com.br/simples-nacional-balanco-outubro-2026) | 16/10/2026, 15h34; atualização 15h36 | [Receita Federal](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs) |
+| [Receita Sintonia: terceiro ciclo](https://gescompnegocios.com.br/receita-sintonia-terceiro-ciclo-2026) | 15/10/2026, 19h29; atualização 19h31 | [Receita Federal](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-sintonia-divulga-a-classificacao-do-3o-ciclo-de-2026) |
+| [CBS nos documentos fiscais](https://gescompnegocios.com.br/cbs-documentos-fiscais-outubro-2026) | 09/10/2026, 16h45; sem atualização indicada | [Receita Federal](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/reforma-tributaria-86-dos-documentos-fiscais-de-empresas-obrigadas-ja-trazem-destaque-da-cbs) |
 
-| Caminho | Motivo |
+Duas atualizações relevantes nos guias existentes: [escala 6x1](https://gescompnegocios.com.br/fim-escala-6x1), com [Senado em 16/10](https://www12.senado.leg.br/noticias/materias/2026/10/16/congresso-promulga-o-fim-da-escala-6x1-e-aposentadoria-de-agentes-de-saude); [novo limite do MEI](https://gescompnegocios.com.br/novo-limite-mei), com [Senado em 15/10](https://www12.senado.leg.br/noticias/materias/2026/10/15/senado-aprova-aumento-do-teto-para-mei-e-perdao-de-dividas) e [ficha atual do PLP](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476).
+
+As fotografias dos novos artigos reutilizam o acervo CC0 existente: computador/caderno/calculadora sobre uma mesa, de [PxHere 970472](https://pxhere.com/en/photo/970472), documentado em imagens-reais-fontes.md. São ilustrações, não registros de acontecimentos. Nenhuma imagem foi gerada ou editada.
+
+## Fontes e revisão por assunto
+
+Foi realizado acesso a 60 referências oficiais já citadas: 57 responderam HTTP 200; uma retornou 401, outra 404 e um PDF teve falha de certificado. As três foram substituídas no HTML e citações por referências oficiais equivalentes acessíveis: Redesim (MAT), perguntas frequentes do Portal do Empreendedor e FAQ do MTE sobre pagamento do salário. O HTTP foi apenas a checagem de acesso; a revisão considerou conteúdo e estágio legislativo.
+
+| Guias | Verificação principal |
 |---|---|
-| `publicar/index.html` | Textos, apresentação, cartões, passos, três notícias e versão do CSS |
-| `publicar/assets/css/site.css` | Somente regras adicionais dos cartões e largura preservada do CTA |
-| `publicar/informacoes.html` | Chamadas comerciais e três itens recentes na lista existente; ItemList alinhado |
-| `publicar/receita-sintonia-terceiro-ciclo-2026.html` | Novo artigo no modelo existente |
-| `publicar/simples-nacional-balanco-outubro-2026.html` | Novo artigo no modelo existente |
-| `publicar/cbs-documentos-fiscais-outubro-2026.html` | Novo artigo no modelo existente |
-| `publicar/abrir-empresa.html`, `publicar/calculos-trabalhistas.html`, `publicar/calendario-fiscal.html`, `publicar/consultoria-financeira.html`, `publicar/contabilidade-empresarial.html`, `publicar/departamento-pessoal.html`, `publicar/escolha-de-regime-tributario.html`, `publicar/fim-escala-6x1.html`, `publicar/imposto-de-renda.html`, `publicar/mei.html`, `publicar/novo-limite-mei.html`, `publicar/pro-labore-e-lucros.html`, `publicar/regularizacao-baixa-cnpj.html`, `publicar/simples-nacional.html` | Somente comunicação comercial para “nossa equipe”, incluindo cabeçalhos, CTA e metadados equivalentes |
-| `publicar/llms.txt` | Referência comercial aos profissionais substituída por “nossa equipe” |
-| `publicar/sitemap.xml` | Três URLs novas e lastmod da inicial/hub |
-| `docs/testes/validar-finais-20261016.py`, `docs/testes/navegador-finais-20261016.js` | Verificações reproduzíveis desta entrega |
-| `docs/evidencias/2026-10-16/` | Resultados e capturas da comparação |
-| `docs/atualizacoes-finais-2026-10-16.md`, `docs/handoff.md`, `COLABORACAO_IA.md` | Relatório e registro objetivo da entrega |
+| Reforma / Simples / calendário | Orientações de documentos fiscais atualizadas em 16/10, LC 214/227, Resolução CGSN 194 e comunicado de 16/10; obrigações têm enquadramentos e prazos distintos |
+| MEI / novo limite | LC 123, contribuição de 2026, manual DASN-SIMEI, emissão fiscal, aprovação do PLP 186 e estágio de sanção |
+| Abertura | Redesim/MAT, Código Civil, LC 123, primeira inscrição alfanumérica em 31/07/2026 e emissão fiscal |
+| Folha | CLT, FGTS, eSocial, tabela INSS de 2026, parcelas do 13º e nova emenda de jornada |
+| IR / pró-labore | Tabelas IR/INSS de 2026, Lei 15.270, regras de dividendos/EFD-Reinf; transição e decisões históricas identificadas |
+| Três notícias novas | Páginas originais da Receita, datas de publicação e atualização e ressalvas dos próprios comunicados |
 
-## Validação
+## Arquivos modificados
 
-- `python -X utf8 docs/testes/validar-finais-20261016.py`: **20 HTML, 19 URLs no sitemap, zero erros**. Verificados links locais, fragmentos, recursos, IDs, H1, JSON-LD, atributos de imagens e remoção das chamadas antigas.
-- `node --check` em `site.js`, `config.js` e `libras.js`: aprovados. Não há build, lint ou TypeScript aplicáveis neste projeto.
-- Playwright: **152 cenários aprovados** — 19 páginas × 320/390/768/1366 px × claro/escuro. Sem overflow ou corte nos textos verificados, imagens quebradas ou exceções JavaScript. Testados os botões reais de tema, o menu móvel, a ordem dos cartões e os destinos de WhatsApp.
-- Comparação estática contra o Git inicial: JavaScript e configurações idênticos; CSS anterior integralmente preservado, com regras novas ao final. Seções do rio, contato, avaliações e Instagram, rodapés, IDs antigos e atributos dos links WhatsApp preservados.
-- Capturas antes/depois da abertura e novas capturas institucionais em claro/escuro e celular/desktop. Revisão visual sem mudanças não solicitadas na abertura.
-- `git diff --check`: aprovado. Nenhum segredo ou alteração de infraestrutura incluído.
+- `publicar/index.html`: textos, institucional, remoção da biografia, passos, destaques, FAQ de identidade e metadados.
+- `publicar/assets/css/site.css`: somente regras acrescentadas dos cartões e largura do CTA; CSS anterior integralmente preservado.
+- `publicar/{informacoes,abrir-empresa,calendario-fiscal,departamento-pessoal,imposto-de-renda,mei,novo-limite-mei,pro-labore-e-lucros,simples-nacional,fim-escala-6x1}.html`: dez guias com revisão factual, notas/fontes, datas, sumários e chamadas da equipe.
+- `publicar/{calculos-trabalhistas,consultoria-financeira,contabilidade-empresarial,escolha-de-regime-tributario,regularizacao-baixa-cnpj}.html`: cinco páginas comerciais, com chamadas e data da revisão.
+- `publicar/{receita-sintonia-terceiro-ciclo-2026,simples-nacional-balanco-outubro-2026,cbs-documentos-fiscais-outubro-2026}.html`: três notícias no modelo editorial existente.
+- `publicar/sitemap.xml`, `publicar/llms.txt`: descoberta, revisão efetiva e identificação pública coerente.
+- `docs/testes/{validar-finais-20261016.py,navegador-finais-20261016.js}` e `docs/evidencias/2026-10-16/`: verificações reproduzíveis, resultados e capturas.
+- Este relatório, `docs/handoff.md` e `COLABORACAO_IA.md`: registro da entrega.
 
-Limites: Meta e VLibras foram bloqueados na matriz local, sem envio real de mensagem; seus serviços externos não foram revalidados. O servidor Python emula URLs limpas no teste, sem comprovar cabeçalhos ou deploy. Primeira tentativa do roteiro de navegador parou na página 404, que não tem botão de tema; corrigido o roteiro para as 19 páginas que possuem essa funcionalidade e executada a matriz completa com sucesso. A 404 foi coberta pela validação estática e não foi modificada.
+## Testes e limites
 
-Sem impedimento de implementação conhecido. O bloco oculto de Cursos já continha `[LINK-DA-PLATAFORMA]` na base e permanece fora do escopo. Push e deploy devem ser confirmados depois do commit, com hash remoto e inspeção pública; os testes locais não constituem essa confirmação.
+- Validação estática: **20 HTML, 19 URLs do sitemap, zero erros**. Links, fragmentos, imagens/atributos, IDs, H1, JSON-LD, FAQ visível/estruturada, fontes visíveis e revisão de todos os artigos em 16/10.
+- Preservação contra a base: scripts/configuração idênticos; CSS anterior intacto. Rodapés, IDs antigos, links WhatsApp e seções de rio, contato, avaliações e Instagram preservados.
+- Playwright final: **152 cenários aprovados**, 19 páginas × quatro larguras (320/390/768/1366) × claro/escuro. Sem cortes/overflow verificados, imagens quebradas ou exceções JavaScript. Tema, menu, WhatsApp e organização dos cartões conferidos. Capturas antes/depois e institucional atualizadas.
+- `node --check` dos três JavaScript e `git diff --check`: aprovados. Projeto estático sem build, TypeScript ou lint configurado; nenhuma dependência adicionada.
+- A sessão de navegador apresentou falta de quadros de renderização numa tentativa; a sessão foi reiniciada e a matriz completa repetida com sucesso. As tentativas incompletas não são contadas como aprovação.
+
+Meta/VLibras bloqueados na matriz local; sem envio real de mensagem e sem nova validação dos serviços externos. URLs limpas emuladas no servidor Python não comprovam cabeçalhos ou deploy. O bloco oculto Cursos já continha `[LINK-DA-PLATAFORMA]` na base e permanece fora do escopo.
+
+## Publicação
+
+Commit e push para `main` autorizados expressamente pelo usuário, pelo fluxo GitHub/Worker já existente, sem alteração de infraestrutura. O hash e a confirmação de push/deploy serão apresentados no fechamento da conversa, após a execução. Testes locais não são prova de deploy. Não há impedimento de implementação conhecido; indexação, posição no Google e seleção em respostas de IA não são resultados controláveis pelo código.

@@ -1,6 +1,7 @@
 """Verificação desta entrega, sem regravar evidências históricas."""
 from pathlib import Path
 from html.parser import HTMLParser
+from html import unescape
 from urllib.parse import urlsplit, unquote
 import json,re,subprocess,xml.etree.ElementTree as ET
 repo=Path(__file__).resolve().parents[2]
@@ -27,7 +28,20 @@ for name,d in docs.items():
     check(d.h1==1,name+': H1')
     check(len(set(d.ids))==len(d.ids),name+': IDs duplicados')
     s=(pub/name).read_text(encoding='utf-8')
-    for ld in re.findall(r'<script type="application/ld\+json">(.*?)</script>',s,re.S):json.loads(ld)
+    body=re.sub(r'<script\b.*?</script>|<svg\b.*?</svg>','',s,flags=re.S)
+    norm=lambda v:' '.join(re.sub(r'<[^>]*>',' ',unescape(v)).split())
+    visible=norm(body)
+    for ld in re.findall(r'<script type="application/ld\+json">(.*?)</script>',s,re.S):
+        nodes=json.loads(ld)['@graph']
+        for n in nodes:
+            if n['@type']=='FAQPage':
+                for q in n['mainEntity']:
+                    check(norm(q['name']) in visible,name+': FAQ sem pergunta visível')
+                    check(norm(q['acceptedAnswer']['text']) in visible,name+': FAQ sem resposta visível')
+            if n['@type'] in ['WebSite','AccountingService']:
+                check('GECOMP' not in str(n.get('alternateName',[])),name+': não inventar marca alternativa')
+            if n['@type']=='Article':
+                for u in n.get('citation',[]):check(unescape(u) in unescape(s.split('</head>')[1]),name+': fonte sem link visível '+u)
     check(not re.search(r'um (?:de|dos) nossos contadores|nossos contadores|um de nossos profissionais|Ela analisa',s,re.I),name+': chamada antiga')
     for asset in d.assets:check((pub/unquote(urlsplit(asset).path).lstrip('/')).exists(),name+': recurso '+asset)
     for href in d.links:
@@ -41,13 +55,8 @@ for name,d in docs.items():
         if u.fragment and target in docs:check(unquote(u.fragment) in docs[target].ids,name+': âncora '+href)
     if name not in ['receita-sintonia-terceiro-ciclo-2026.html','simples-nacional-balanco-outubro-2026.html','cbs-documentos-fiscais-outubro-2026.html']:
         old=git('publicar/'+name)
-        if name not in ['index.html','informacoes.html']:
-            expected=old.replace('Falar com um de nossos contadores','Fale com nossa equipe').replace('Conversar com um de nossos contadores','Fale com nossa equipe').replace('Falar com um de nossos profissionais','Fale com nossa equipe')
-            expected=expected.replace('Um de nossos profissionais acompanha o atendimento','Nossa equipe acompanha o atendimento')
-            for phrase in ['um de nossos contadores','um dos nossos contadores','um de nossos profissionais','nossos contadores']:
-                expected=expected.replace(phrase,'nossa equipe')
-            expected=expected.replace('acompanhamento de nossa equipe','acompanhamento da nossa equipe').replace('>Falar com nossa equipe<','>Fale com nossa equipe<')
-            check(expected==s,name+': alteração fora da comunicação comercial')
+        # Pedido posterior autoriza revisão editorial/SEO de todos os guias e serviços.
+        # Preservação continua sendo exigida para rotas, IDs, rodapés e WhatsApp abaixo.
         # Links e mensagens comerciais permanecem exatamente como na base.
         wa=lambda h:re.findall(r'<a\b[^>]*(?:data-whatsapp|wa.me)[^>]*>',h)
         check(wa(old)==wa(s),name+': links WhatsApp alterados')
@@ -65,6 +74,19 @@ check(home.count('class="institucional-cartao')==3,'Três cartões institucionai
 check(home.count('class="mudancas-numero"')==3,'Três notícias na inicial')
 check(re.search(r'<h1\b.*?</h1>',home,re.S)[0]==re.search(r'<h1\b.*?</h1>',old,re.S)[0],'Título principal alterado')
 for phrase in ['Tiramos todas as suas dúvidas de forma clara, transparente e acessível.','Gabriela do Nascimento Vieira','009186/SE','Nossa missão','Nossa visão','Nossos valores']:check(phrase in home,'Texto ausente: '+phrase)
+check('Quem é a Gabriela' not in home and 'gabriela-grade' not in home,'Bloco biográfico removido no pedido posterior')
+check('Pesquisou por GECOMP?' in home,'FAQ de identificação da marca')
+for name,d in docs.items():
+    if name in ['index.html','404.html']:continue
+    s=(pub/name).read_text(encoding='utf-8')
+    check('16/10/2026' in s,name+': revisão visível em 16/10')
+    for data in re.findall(r'<script type="application/ld\+json">(.*?)</script>',s,re.S):
+        for n in json.loads(data)['@graph']:
+            if n['@type']=='Article':check(n['dateModified']=='2026-10-16',name+': data de revisão estruturada')
+scale=(pub/'fim-escala-6x1.html').read_text(encoding='utf-8')
+check('A proposta ainda não é uma regra em vigor' not in scale and 'Emenda Constitucional 141' in scale,'Escala 6x1: promulgação atualizada')
+mei=(pub/'novo-limite-mei.html').read_text(encoding='utf-8')
+check('aguardava despacho' not in mei and 'aguarda sanção' in mei,'MEI: situação legislativa atualizada')
 tree=ET.parse(pub/'sitemap.xml');urls=[x.text for x in tree.findall('.//{*}loc') if x.text.startswith('https://gescompnegocios.com.br/')]
 pages=[p for p in urls if '/assets/' not in p]
 check(len(pages)==19,'Sitemap: 19 páginas')
