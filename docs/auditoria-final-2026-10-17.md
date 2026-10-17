@@ -46,7 +46,7 @@ Pesquisas iniciadas nos sete dias anteriores, ampliadas para 15/30/60 dias e par
 | Notícias e guias | 13 confrontados com fontes; três guias corrigidos |
 | SEO/GEO | Identidade, canonicais, descoberta, FAQ e conteúdo HTML conferidos; nenhum ranking prometido |
 | Design e funcionamento | Estilos intactos; 152 cenários e oito interações aprovados |
-| Commit/push/deploy | Autorizados; executar após os controles abaixo e registrar hash/prova no fechamento da entrega |
+| Commit/push/deploy | Correções publicadas no commit 88f69ce; prova final de hash remoto no fechamento da entrega |
 
 ## Pesquisa e revisão individual
 
@@ -101,7 +101,7 @@ Comandos executados a partir de `02-site` (Python instalado: `C:/Users/fabri/App
 | `python docs/testes/fontes-auditoria-20261017.py --completar` | 67 fontes desta execução; 66 HTTP 200 e uma 403 explicitamente registrada; sem paralelismo |
 | Playwright, `navegador-auditoria-20261017.js` | 19 páginas × 320/390/768/1366 × claro/escuro = 152 cenários, sem falhas ou exceções JS detectadas |
 | Mesmo script, `page.auditPaths=[]; page.auditInteractions=true` | Oito verificações aprovadas: teclado/menu/Escape, FAQ, dimensões, mensagens WhatsApp, formulário simulado, home→serviço e sumário |
-| Navegador real no domínio, antes da publicação | Inicial e rodapé abriram; plugin oficial VLibras carregou e expôs botão com nome acessível. Tradução/avatar não acionados |
+| Navegador real no domínio, antes e depois da publicação | Inicial e rodapé abriram; plugin oficial VLibras carregou e expôs botão com nome acessível. Depois do deploy: texto corrigido, menu móvel, ausência de overflow e artigo com prazo em meses confirmados. Tradução/avatar não acionados |
 | `git diff --check` | Aprovado; avisos de normalização LF/CRLF não são erro do conteúdo |
 
 Não há TypeScript, lint ou build configurado. Scripts históricos que modificam conteúdo/imagens não foram executados como se fossem testes. Não foram instalados pacotes nem rodados Lighthouse ou tarefas paralelas.
@@ -112,6 +112,8 @@ Conexões externas foram bloqueadas na matriz local, incluindo Meta/VLibras; err
 
 ## Publicação e pendências reais
 
-Repositório: `https://github.com/gescompnegocios/gescomp-site.git`; branch: `main`; domínio: `https://gescompnegocios.com.br/`. A entrega usa o push normal e a integração já existente com o Worker `gescomp-site`, sem deploy manual ou mudança de infraestrutura. Após commit/push, executar `python docs/testes/publicacao-auditoria-20261017.py` e comparar `git rev-parse HEAD` com `git ls-remote origin refs/heads/main`. O resultado de publicação, com hash e 28 verificações HTTP, fica em `.playwright-mcp/auditoria-20261017/publicacao.json` (prova local deliberadamente fora do commit). Hash final e resultado efetivo são informados no fechamento, depois da verificação.
+Repositório: `https://github.com/gescompnegocios/gescomp-site.git`; branch: `main`; domínio: `https://gescompnegocios.com.br/`. Correções publicadas pelo commit `88f69cef1caefee013bac0151b844944b3976bff`, push confirmado e mesmo hash consultado na main remota. A integração existente publicou os arquivos públicos, sem deploy manual ou mudança de infraestrutura. A conferência de conteúdo encontrou igualdade nas 19 páginas públicas e oito arquivos de apoio. A página personalizada `/404` também abre, com HTTP 200. Uma URL inexistente responde HTTP 404 com corpo vazio, em vez de renderizar esse arquivo. Esse comportamento foi distinguido no verificador e registrado como limitação da hospedagem; o arquivo 404 e a infraestrutura não foram alterados nesta entrega.
 
-Pendências externas de verificação: acesso à ficha processual do STF e ao PDF protegido do autógrafo; nenhum desfecho judicial ou sanção não comprovados foi publicado. Não há promessa de primeiro lugar no Google ou seleção por IA, nem medição nova de indexação. A integração do avatar/tradução de Libras e os serviços da Meta não foram exercitados integralmente, para preservar recursos e o escopo. O placeholder oculto de Cursos já existente permanece fora do escopo.
+Verificação reproduzível: `python docs/testes/publicacao-auditoria-20261017.py`, `git rev-parse HEAD` e `git ls-remote origin refs/heads/main`. Resultado de produção: 28 arquivos iguais ao checkout, todos HTTP 200, e uma rota inexistente com HTTP 404; `publicado: true`. A prova local, com hash e consulta, fica em `.playwright-mcp/auditoria-20261017/publicacao.json`, deliberadamente fora do commit. O commit posterior registra somente o relatório e o verificador; nenhum arquivo público adicional é alterado. Seu hash final e a repetição da prova são informados no fechamento. Navegador e servidor temporário encerrados ao terminar.
+
+Pendências externas de verificação: acesso à ficha processual do STF e ao PDF protegido do autógrafo; nenhum desfecho judicial ou sanção não comprovados foi publicado. O fallback personalizado de 404 não é servido para URLs inexistentes; configurar esse comportamento na hospedagem fica fora das correções controladas desta auditoria. Não há promessa de primeiro lugar no Google ou seleção por IA, nem medição nova de indexação. A integração do avatar/tradução de Libras e os serviços da Meta não foram exercitados integralmente, para preservar recursos e o escopo. O placeholder oculto de Cursos já existente permanece fora do escopo.
