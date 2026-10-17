@@ -1,5 +1,9 @@
 # Fotografias usadas no site — atualizadas em 08/10/2026
 
+## Prévia dos serviços — 17/10/2026
+
+Os cartões “Abrir minha empresa” e “Fazer meu Imposto de Renda” agora usam as capas das respectivas páginas: `capa-abrir-empresa-cc0-20261006.webp` (notebook, caderno e lápis; PxHere 966127) e `capa-imposto-renda-cc0-20261008.webp` (calculadora e registros numéricos; PxHere 916424). A reutilização é intencional para associar a prévia ao serviço correspondente. Fontes e licenças já registradas nas tabelas abaixo; mantidas as variantes de 480/720 px existentes, sem novo download ou edição de imagem. O cartão de contabilidade mantém sua foto.
+
 ## Substituições de 08/10/2026
 
 Nove posições receberam fotos mais ligadas ao assunto. As demais fotos de 06/10 continuam em uso. Permanecem 23 posições visíveis distintas; as versões menores de uma foto e seu recorte para compartilhamento representam a mesma posição, sem reutilizar a foto em outro card ou outra capa.

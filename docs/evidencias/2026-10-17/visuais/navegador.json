@@ -1,0 +1,13 @@
+{
+  "scenarios": 20,
+  "failures": [],
+  "javascriptErrors": [],
+  "failedLocalResponses": [],
+  "viewports": [[320,780],[360,800],[390,844],[500,900],[768,1024],[900,900],[1024,768],[1366,600],[1366,900],[1920,1080]],
+  "themes": ["light", "dark"],
+  "checks": ["overflow", "imagens carregadas", "botões móveis com dimensões iguais", "links centralizados sob os CTAs", "margens dos parágrafos zeradas", "tema", "menu móvel", "destinos WhatsApp"],
+  "desktop1366x600": {"heroBottomBefore":645.921875,"heroBottomAfter":559.296875,"servicesHeadingAfter":591.296875},
+  "mobileButtons": {"320":{"width":257,"height":50},"360":{"width":297,"height":50},"390":{"width":327,"height":50},"500":{"width":336,"height":50}},
+  "paragraphGap": "16px",
+  "externalServices": "Instagram e VLibras bloqueados; nenhum envio real"
+}
