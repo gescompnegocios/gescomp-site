@@ -1,0 +1,153 @@
+{
+  "origin": "http://127.0.0.1:8091",
+  "checks": [
+    {
+      "name": "/: status",
+      "ok": true
+    },
+    {
+      "name": "/: CSP presente",
+      "ok": true
+    },
+    {
+      "name": "/: HSTS presente",
+      "ok": true
+    },
+    {
+      "name": "/: tema dark em 390",
+      "ok": true
+    },
+    {
+      "name": "/: sem overflow em 390",
+      "ok": true
+    },
+    {
+      "name": "/: tema light em 390",
+      "ok": true
+    },
+    {
+      "name": "/: sem overflow em 390",
+      "ok": true
+    },
+    {
+      "name": "/: tema dark em 1366",
+      "ok": true
+    },
+    {
+      "name": "/: sem overflow em 1366",
+      "ok": true
+    },
+    {
+      "name": "/: tema light em 1366",
+      "ok": true
+    },
+    {
+      "name": "/: sem overflow em 1366",
+      "ok": true
+    },
+    {
+      "name": "/mei: status",
+      "ok": true
+    },
+    {
+      "name": "/mei: CSP presente",
+      "ok": true
+    },
+    {
+      "name": "/mei: HSTS presente",
+      "ok": true
+    },
+    {
+      "name": "/mei: tema dark em 390",
+      "ok": true
+    },
+    {
+      "name": "/mei: sem overflow em 390",
+      "ok": true
+    },
+    {
+      "name": "/mei: tema light em 390",
+      "ok": true
+    },
+    {
+      "name": "/mei: sem overflow em 390",
+      "ok": true
+    },
+    {
+      "name": "/mei: tema dark em 1366",
+      "ok": true
+    },
+    {
+      "name": "/mei: sem overflow em 1366",
+      "ok": true
+    },
+    {
+      "name": "/mei: tema light em 1366",
+      "ok": true
+    },
+    {
+      "name": "/mei: sem overflow em 1366",
+      "ok": true
+    },
+    {
+      "name": "/rota-inexistente-teste-seguranca: status",
+      "ok": true
+    },
+    {
+      "name": "/rota-inexistente-teste-seguranca: CSP presente",
+      "ok": true
+    },
+    {
+      "name": "/rota-inexistente-teste-seguranca: HSTS presente",
+      "ok": true
+    },
+    {
+      "name": "/rota-inexistente-teste-seguranca: 404 personalizada e noindex",
+      "ok": true
+    },
+    {
+      "name": "/nivel/inexistente: status",
+      "ok": true
+    },
+    {
+      "name": "/nivel/inexistente: CSP presente",
+      "ok": true
+    },
+    {
+      "name": "/nivel/inexistente: HSTS presente",
+      "ok": true
+    },
+    {
+      "name": "/nivel/inexistente: 404 personalizada e noindex",
+      "ok": true
+    },
+    {
+      "name": "menu abre com CSP",
+      "ok": true
+    },
+    {
+      "name": "WhatsApp mantém destino",
+      "ok": true
+    },
+    {
+      "name": "CSP bloqueia script inline injetado",
+      "ok": true
+    },
+    {
+      "name": "CSP registra tentativa bloqueada",
+      "ok": true
+    },
+    {
+      "name": "VLibras: loader oficial permitido pela CSP",
+      "ok": true
+    },
+    {
+      "name": "Instagram: URL do iframe permitida pela CSP",
+      "ok": true
+    }
+  ],
+  "violations": [],
+  "pageErrors": [],
+  "integrationMode": "official-loader-and-redirect-fixture; external iframe contents not exercised",
+  "success": true
+}

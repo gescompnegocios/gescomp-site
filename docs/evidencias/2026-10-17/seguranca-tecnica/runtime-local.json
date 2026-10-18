@@ -1,0 +1,242 @@
+{
+  "origin": "http://127.0.0.1:8091",
+  "commit": "7048936961dd46685fd6ed57968595ead4b1dadd",
+  "cases": 26,
+  "success": true,
+  "results": [
+    {
+      "path": "/404",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/abrir-empresa",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/calculos-trabalhistas",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/calendario-fiscal",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/cbs-documentos-fiscais-outubro-2026",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/consultoria-financeira",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/contabilidade-empresarial",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/departamento-pessoal",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/escolha-de-regime-tributario",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/fim-escala-6x1",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/imposto-de-renda",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/informacoes",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/mei",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/novo-limite-mei",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/pro-labore-e-lucros",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/receita-sintonia-terceiro-ciclo-2026",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/regularizacao-baixa-cnpj",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/simples-nacional-balanco-outubro-2026",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/simples-nacional",
+      "status": 200,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/rota-inexistente-teste-seguranca",
+      "status": 404,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/nivel/inexistente",
+      "status": 404,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/assets/inexistente.js",
+      "status": 404,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/.env",
+      "status": 404,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/.git/config",
+      "status": 404,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    },
+    {
+      "path": "/wrangler.jsonc",
+      "status": 404,
+      "bodyEqual": true,
+      "csp": true,
+      "hsts": true,
+      "nosniff": true,
+      "ok": true
+    }
+  ]
+}

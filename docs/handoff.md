@@ -1,5 +1,11 @@
 # Passagem entre Codex e Claude Code
 
+## 18/10/2026 — Segurança técnica: CSP, HSTS e 404
+
+Pedido atual de Rafael: executar as melhorias técnicas e continuar até commit/push. Base `7048936`. Acrescentados somente CSP/HSTS em `publicar/_headers` e configuração versionada do Worker existente em `wrangler.jsonc` para servir `404.html` com HTTP 404. Conteúdo, endereço, datas, HTML/CSS/JS e imagens preservados. Sem Google/Maps, DNS, painel Cloudflare ou deploy manual.
+
+Validação concluída: 20 HTML/19 hashes de scripts inline, 26 respostas no runtime real local e 36 verificações de navegador aprovadas, além de sintaxe e diff. Um processo de teste por vez; servidores e navegador encerrados. Loaders oficiais exercitados com fixtures leves, sem tradução/avatar, vídeos ou mensagens reais. Evidências e instruções em `docs/seguranca-tecnica-2026-10-18.md`. Commit/push seguem a autorização persistente; a confirmação final depende da comparação do hash remoto e das respostas do domínio após o deploy automático.
+
 ## 04/10/2026 — etapa 1 concluída (Codex)
 
 - Base: `main`, commit `e3c3bb5`, sem alterações pendentes no início. A branch visual anterior já foi integrada; o worktree `02-site-melhorias` não será usado nesta rodada.
